@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0193dea6870266a2fe8b557cb8ee6b9907c1bd71
+source-git-commit: 1aa23ebe6adf01798e172563993df107789520ae
 workflow-type: tm+mt
-source-wordcount: '6413'
-ht-degree: 91%
+source-wordcount: '6435'
+ht-degree: 90%
 
 ---
 
@@ -25,6 +25,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Ottobre 2025** | |
+| Ulteriori miglioramenti nell’identificazione dei visitatori | È stata aggiunta la sezione [Identificazione visitatore](/help/implement/id/overview.md), che illustra il modo consigliato per identificare i visitatori in tutti i tipi di implementazione. |
 | **Settembre 2025** | |
 | Miglioramenti nell’identificazione dei visitatori | Sono state rese più chiare le best practice sull&#39;identificazione dei visitatori, concentrandosi sullo scopo delle variabili [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) e [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) in AppMeasurement. |
 | **Agosto 2025** | |
@@ -39,7 +41,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Nuove azioni di scelta rapida da tastiera | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [spostare i pannelli di Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) in alto e in basso in un progetto. |
 | **Marzo 2025** |  |
 | Inventario di Analytics | [L&#39;inventario di Analytics](/help/admin/tools/analytics-inventory.md) fornisce una panoramica completa dell&#39;ambiente Adobe Analytics, incluso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora. |
-| Guida per l’aggiornamento di Customer Journey Analytics | Consente di generare una [guida dettagliata](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. |
+| Guida per l’aggiornamento di Customer Journey Analytics | Consente di generare una [guida dettagliata](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. |
 | Formattazione data più chiara nelle esportazioni Data Warehouse | I valori delle dimensioni basati sul tempo nelle esportazioni Data Warehouse hanno una formattazione della data non standard. Sono state aggiunte informazioni che spiegano come interpretare i valori delle date dalle esportazioni Data Warehouse. <p>Vedi [Dimensioni supportate in modo diverso (formattazione della data non standard)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) in [Supporto dei componenti in Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Sono state aggiornate le informazioni sulle esclusioni IP | Sono state aggiunte informazioni che spiegano che [le esclusioni IP](/help/admin/tools/exclude-ip.md) possono richiedere fino a 5 minuti prima di diventare effettive e che le modifiche si applicano solo ai nuovi hit (i dati acquisiti prima dell&#39;impostazione dell&#39;esclusione non sono interessati). <p>È stato aggiornato anche il layout dei contenuti per migliorarne la leggibilità.</p> |
 | **Febbraio 2025** |  |
@@ -163,7 +165,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Calendario e intervalli di date in Workspace | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo delle formule e modifiche all’interfaccia utente degli elementi calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Scorecard per dispositivi mobili | Nuova sezione della documentazione per descrivere come mostrare e nascondere gli intervalli di date di confronto. Consulta [Mostrare intervalli date di confronto](/help/analyze/mobile-app/create-scorecard.md) in Customer Journey Analytics. |
 | 1.4 API | L’[API di Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) è stata completamente riscritta e ora è pubblicata su Adobe Developer. |
-| Tracciamento tra i tipi di implementazione | È stato aggiornato il caso d’uso [Tracciamento in diversi tipi di implementazione](../implement/use-cases/cross-type-implementation.md) per ospitare il servizio Experience Cloud ID. |
+| Tracciamento tra i tipi di implementazione | È stato aggiornato il caso d’uso [Tracciamento in diversi tipi di implementazione](../implement/id/cross-type-implementation.md) per ospitare il servizio Experience Cloud ID. |
 | **Gennaio 2023** | |
 | Filtrare e ordinare tabelle | Contenuto aggiornato (incluse l’aggiunta di procedure e la spiegazione delle opzioni disponibili) nell’articolo [Filtrare e ordinare le tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Questo articolo è stato rinominato da “Paginazione, filtri e ordinamento di tabelle in Workspace”. |
 | Cartelle | Pagine dedicate per [Gestione delle cartelle](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
@@ -356,6 +358,6 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 14 marzo 2019 | Aggiornamento importante sulla raccolta dati regionali. |
 | 7 febbraio 2019 | Aggiornamento minore delle impostazioni “Replace the last octet of IP addresses with 0” (Sostituisci con 0 ultimo ottetto indirizzi IP) e “IP Obfuscation” (Offuscamento IP) nella sezione sulle [Impostazioni generali dell’account](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). |
 | 1 febbraio 2019 | Aggiornamento importante del plug-in di implementazione [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md). |
-| 17 gennaio 2019 | [Analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - Importanti miglioramenti apportati all’analisi per coorte consentono di:<ul><li>Applicare separatamente le metriche di inclusione e di restituzione di un segmento. </li><li>Visualizzare l’abbandono invece della fidelizzazione.</li><li>Visualizzare tabelle di latenza (tempo trascorso prima e dopo un evento di inclusione).</li><li>Personalizzare la dimensione delle coorti (per raggruppare i visitatori in base a una eVar, non solo al tempo).</li><li>Eseguire un calcolo continuo per coorti: calcolare fidelizzazione e abbandono in base al periodo di tempo precedente, non alla coorte originale. </li><li>Aggiungere più metriche nei campi di inclusione e di ritorno, oltre che applicare i segmenti. (Le metriche calcolate non sono supportate)</li></ul> |
+| 17 gennaio 2019 | [Analisi per coorte](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) - Importanti miglioramenti apportati all’analisi per coorte consentono di:<ul><li>Applica separatamente le metriche di inclusione e di ritorno di un segmento. </li><li>Mostra abbandono invece di fidelizzazione.</li><li>Mostra le tabelle di latenza (tempo trascorso prima e dopo un evento di inclusione).</li><li>Personalizza la dimensione della coorte (per raggruppare i visitatori in base a un eVar, non solo al tempo).</li><li>Eseguire un calcolo continuo per coorti: calcolare fidelizzazione e abbandono in base al periodo di tempo precedente, non alla coorte originale. </li><li>Puoi aggiungere più metriche nei campi di inclusione e di ritorno, nonché applicare segmenti. Le metriche calcolate non sono supportate</li></ul> |
 | 17 gennaio 2019 | [Densità di visualizzazione](/help/analyze/analysis-workspace/build-workspace-project/view-density.md). Questa nuova impostazione consente di visualizzare più dati in una singola schermata riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle a coorte. Accessibile da Progetto > Informazioni e impostazioni progetto. |
 | 17 gennaio 2019 | [Supporto per variabili multivalore in Attribution](/help/analyze/analysis-workspace/attribution/overview.md). Alcune dimensioni in Analytics possono contenere più valori in un singolo hit, come ad esempio listVars, la variabile di prodotto, proprietà di elenco o eVars per merchandising. Analysis Workspace consente di applicare Attribution a uno qualsiasi di questi tipi di variabili a livello di hit. |

@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 84%
+source-wordcount: '461'
+ht-degree: 79%
 
 ---
 
@@ -62,9 +62,9 @@ ht-degree: 84%
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
-      + [eVar &#x200B;](vars/page-vars/evar.md)
+      + [eVar ](vars/page-vars/evar.md)
       + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
-      + events {#events}
+      + Eventi {#events}
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)
          + [Evento di acquisto](vars/page-vars/events/event-purchase.md)
          + [Serializzazione degli eventi](vars/page-vars/events/event-serialization.md)
@@ -131,6 +131,14 @@ ht-degree: 84%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [Integrate Module](vars/integrate.md)
++ Identificazione visitatore {#id}
+   + [Panoramica](id/overview.md)
+   + [Utilizzo di AppMeasurement](id/appmeasurement.md)
+   + [Utilizzo dell’estensione Analytics](id/analytics-extension.md)
+   + [Utilizzo di Web SDK (Alloy)](id/alloy.md)
+   + [Utilizzo dell’estensione Web SDK](id/web-sdk-extension.md)
+   + [Migrazione al servizio ID visitatori](id/migration.md)
+   + [Tracciare diversi tipi di implementazione](id/cross-type-implementation.md)
 + Preparare l’implementazione di Adobe Analytics {#prepare}
    + [Creare un livello dati](prepare/data-layer.md)
    + [Confrontare i metodi di implementazione](prepare/comparison.md)
@@ -188,7 +196,6 @@ ht-degree: 84%
 + [Implementazione di Analytics su dispositivi mobili](mobile-device-sdk.md)
 + Casi di utilizzo dell’implementazione {#use-cases}
    + [Utilizzare AppMeasurement con iFrame](use-cases/iframe.md)
-   + [Tracciare diversi tipi di implementazione](use-cases/cross-type-implementation.md)
    + [Flusso di lavoro di tracciamento delle campagne](use-cases/campaign-tracking.md)
 + Convalidare l’implementazione {#validate}
    + [Debugger legacy di Adobe Experience Cloud](validate/debugger.md)
