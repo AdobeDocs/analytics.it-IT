@@ -24,9 +24,9 @@ Quando Adobe riceve un hit, vengono eseguiti i seguenti controlli in ordine. Se 
 | Ordine utilizzato | Parametri query | Presente quando |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | La variabile [`visitorID`](/help/implement/vars/config-vars/visitorid.md) è impostata. |
-| **2<sup>nd</sup>** | `aid` | Il visitatore ha un cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) esistente. Impostato sulle implementazioni senza o antecedenti all’implementazione del servizio ID visitatore. |
-| **3<sup>rd</sup>** | `mid` | Il visitatore ha un cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) esistente. Impostato sulle implementazioni tramite il servizio [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Adobe consiglia di utilizzare il servizio ID per tutte le implementazioni, ove possibile. |
-| **4<sup>th</sup>** | `fid` | Il visitatore ha un cookie [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) esistente oppure non è stato possibile impostare `aid` e `mid` per nessun motivo. |
+| **2<sup>nd</sup>** | `aid` | Il visitatore ha un cookie [`s_vi`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) esistente. Impostato sulle implementazioni senza o antecedenti all’implementazione del servizio ID visitatore. |
+| **3<sup>rd</sup>** | `mid` | Il visitatore ha un cookie [`s_ecid`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) esistente. Impostato sulle implementazioni tramite il servizio [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Adobe consiglia di utilizzare il servizio ID per tutte le implementazioni, ove possibile. |
+| **4<sup>th</sup>** | `fid` | Il visitatore ha un cookie [`s_fid`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) esistente oppure non è stato possibile impostare `aid` e `mid` per nessun motivo. |
 | **5<sup>th</sup>** | Indirizzo IP, agente utente, indirizzo IP gateway | Utilizzato come ultima risorsa per identificare un visitatore univoco se il browser del visitatore non accetta i cookie. |
 
 ## Comportamento che influisce sul numero di visitatori univoci
