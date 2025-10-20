@@ -4,9 +4,9 @@ description: Utilizza diversi tipi di implementazione e tieni traccia dei visita
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 8%
 
 ---
@@ -26,7 +26,7 @@ Se utilizzi più di un tipo di implementazione (ad esempio richieste di immagini
 | Variabile | AppMeasurement | Estensione Analytics | Web SDK (Alloy) | Estensione tag Web SDK | Richiesta immagine hardcoded |
 | --- | --- | --- | --- | --- | --- |
 | ID suite di rapporti | Argomento stringa in [`s_gi`](../vars/functions/s-gi.md) | [!UICONTROL Report suites] nella sezione [!UICONTROL Library management] quando [Configurazione dell&#39;estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=it) | Aggiungi Adobe Analytics as a service durante [la configurazione di uno stream di dati](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=it) | Aggiungi Adobe Analytics as a service durante [la configurazione di uno stream di dati](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=it) | Parte dell&#39;URL `pathname` (dopo `/b/ss/`) |
-| Servizio Experience Cloud ID | Implementare [`VisitorAPI.js`](appmeasurement.md) | Utilizza l&#39;estensione del servizio [Experience Cloud ID](analytics-extension.md) | [Inclusione nativa](alloy.md) | [Inclusione nativa](web-sdk-extension.md) | Effettua una [chiamata separata al servizio ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/direct-integration.html?lang=it) per ottenere l&#39;ID desiderato e includere `mid` nella stringa di query |
+| Servizio Experience Cloud ID | Implementare [`VisitorAPI.js`](appmeasurement.md) | Utilizza l&#39;estensione del servizio [Experience Cloud ID](analytics-extension.md) | [Inclusione nativa](alloy.md) | [Inclusione nativa](web-sdk-extension.md) | Effettua una [chiamata separata al servizio ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/direct-integration.html) per ottenere l&#39;ID desiderato e includere `mid` nella stringa di query |
 | Dominio Edge | La variabile [`trackingServerSecure`](../vars/config-vars/trackingserversecure.md) | [!UICONTROL SSL Tracking Server] nella sezione [!UICONTROL General] quando [Configurazione dell&#39;estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=it) | La proprietà `edgeDomain` durante la [configurazione del Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=it) | Il campo [!UICONTROL Edge Domain] durante la [configurazione dell&#39;estensione](https://experienceleague.adobe.com/docs/experience-platform/edge/extension/web-sdk-extension-configuration.html?lang=it) | `hostname` dell&#39;URL della richiesta di immagine |
 
-Se una di queste variabili non è coerente in ciascun tipo di implementazione, Adobe le considera come visitatori separati. Se i visitatori non vengono tracciati facilmente nei diversi tipi di implementazione sul sito, il motivo più comune è che il servizio ID non è configurato correttamente. Assicurarsi che ogni tipo di implementazione ottenga correttamente lo stesso Experience Cloud ID (`mid`) nel sito.
+Se una di queste variabili non è coerente in ciascun tipo di implementazione, Adobe potrebbe considerarle come visitatori separati. Se i visitatori non vengono tracciati facilmente nei diversi tipi di implementazione sul sito, il motivo più comune è che il servizio ID non è configurato correttamente. Assicurarsi che ogni tipo di implementazione ottenga correttamente lo stesso Experience Cloud ID (`mid`) nel sito.

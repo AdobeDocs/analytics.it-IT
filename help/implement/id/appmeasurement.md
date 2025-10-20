@@ -1,24 +1,24 @@
 ---
 title: Identificazione dei visitatori tramite AppMeasurement
 description: Identifica correttamente i visitatori quando implementi Adobe Analytics utilizzando AppMeasurement.
-source-git-commit: 5bd1914dc52c664348f30793761f0fc347343156
+source-git-commit: 779ba5b0a1d71467aaaf3872fd707cc323ae8af2
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # Identificazione dei visitatori tramite AppMeasurement
 
-AppMeasurement è la libreria JavaScript legacy di Adobe Analytics per la raccolta dei dati. Sebbene AppMeasurement di per sé offra un modo nativo di identificare i visitatori, molti browser moderni rifiutano i cookie che tenta di impostare. Adobe consiglia vivamente di utilizzare il servizio ID visitatore di Adobe Experience Cloud in tutte le implementazioni per conformarsi ai moderni standard sulla privacy dei browser. Tutte le versioni di AppMeasurement sono fornite in bundle con `VisitorAPI.js`, la libreria JavaScript utilizzata per implementare il servizio ID visitatori.
+AppMeasurement è la libreria JavaScript legacy di Adobe Analytics per la raccolta dei dati. Anche se AppMeasurement offre da sola una modalità nativa per identificare i visitatori, molti browser moderni rifiutano i cookie di terze parti che tenta di impostare. Adobe consiglia vivamente di utilizzare il servizio ID visitatore di Adobe Experience Cloud in tutte le implementazioni per conformarsi ai moderni standard sulla privacy dei browser. Tutte le versioni di AppMeasurement sono fornite in bundle con `VisitorAPI.js`, la libreria JavaScript utilizzata per implementare il servizio ID visitatori.
 
 ## Identificazione dei visitatori tramite il servizio ID visitatori (scelta consigliata)
 
-Usa questa sezione per creare un’integrazione di base tra Adobe Analytics e il servizio ID visitatore. Assicurati di essere preparato con quanto segue:
+Assicurati di essere preparato con quanto segue:
 
 * Scarica la [versione più recente di AppMeasurement](https://github.com/adobe/appmeasurement). La libreria scaricata include sia `AppMeasurement.js` che `VisitorAPI.js`.
 * [ID suite di rapporti](/help/admin/tools/manage-rs/new-rs/new-report-suite.md) per lo sviluppo.
-* Il dominio desiderato per [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
+* Il dominio Edge desiderato per [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * ID organizzazione IMS:
    1. Accedi a [experience.adobe.com](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
    1. In qualsiasi punto dell&#39;interfaccia di Experience Cloud, premere `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
@@ -26,7 +26,7 @@ Usa questa sezione per creare un’integrazione di base tra Adobe Analytics e il
    1. Espandi l’organizzazione IMS desiderata.
    1. Individua il campo **[!UICONTROL ID]**.
 
-Una volta che disponi delle risorse di cui sopra, consulta la seguente pagina di esempio di base contenente le chiamate minime necessarie per inviare dati ad Adobe Analytics:
+Una volta che disponi delle risorse di cui sopra, la seguente pagina di esempio di base contiene le chiamate minime necessarie per inviare dati ad Adobe Analytics:
 
 ```html
 <html>
@@ -50,10 +50,12 @@ Una volta che disponi delle risorse di cui sopra, consulta la seguente pagina di
 
 >[!TIP]
 >
->Puoi verificare se un hit utilizza il servizio ID visitatore assegnando la presenza di `Visitor` a una variabile personalizzata:
+>È possibile verificare se un hit utilizza il servizio ID visitatore assegnando la presenza di `Visitor` a una variabile personalizzata in [`doPlugins`](/help/implement/vars/functions/doplugins.md):
 >
 >```js
->s.prop1 = typeof(Visitor) != "undefined" ? "VisitorAPI Present" : "VisitorAPI Missing";
+>s.doPlugins = function() {
+>   s.prop1 = typeof(Visitor) != "undefined" ? "VisitorAPI present" : "VisitorAPI missing";
+>};
 >```
 
 ## Identificazione dei visitatori tramite il cookie `s_vi` (scelta non consigliata)
@@ -62,10 +64,10 @@ Una volta che disponi delle risorse di cui sopra, consulta la seguente pagina di
 >
 >Adobe consiglia di non utilizzare questo metodo per identificare i visitatori.
 
-Se la tua organizzazione non utilizza il servizio ID visitatore, AppMeasurement utilizza la propria forma di identificazione dei visitatori. Quando un visitatore arriva al tuo sito per la prima volta, la libreria controlla la presenza di un cookie [`s_vi`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics). Questo cookie è impostato nel dominio corrispondente a [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (per HTTPS) o [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) (per HTTP).
+Se la tua organizzazione non utilizza il servizio ID visitatore, AppMeasurement utilizza la propria forma di identificazione dei visitatori. Quando un visitatore arriva al tuo sito per la prima volta, la libreria controlla la presenza di un cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Questo cookie è impostato nel dominio corrispondente a [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md) (per HTTPS) o [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) (per HTTP).
 
-* Se partecipi al [programma di certificazione gestito](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/adobe-managed-cert), il server di tracciamento sarà in genere un dominio di prime parti, rendendo `s_vi` cookie di prime parti.
-* Se non partecipi al programma di certificazione gestito, il server di tracciamento è in genere un sottodominio di `adobedc.net`, `omtrdc.net` o `2o7.net`, rendendo il cookie `s_vi` un cookie di terze parti. A causa delle moderne pratiche di privacy del browser, i cookie di terze parti vengono rifiutati dalla maggior parte dei browser. Una volta rifiutato, AppMeasurement tenta di impostare un cookie di fallback di prime parti (`fid`).
+* Se partecipi al [programma di certificazione gestito](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), il server di tracciamento sarà in genere un dominio di prime parti, rendendo `s_vi` cookie di prime parti.
+* Se non partecipi al programma di certificazione gestito, il server di tracciamento è in genere un sottodominio di `adobedc.net`, `omtrdc.net` o `2o7.net`, rendendo il cookie `s_vi` un cookie di terze parti. A causa dei moderni standard di privacy del browser, i cookie di terze parti vengono rifiutati dalla maggior parte dei browser. Una volta rifiutato, AppMeasurement tenta di impostare un cookie di fallback di prime parti (`fid`).
 
 Se `trackingServerSecure` è impostato correttamente, non sono necessarie ulteriori misure di identificazione dei visitatori.
 
