@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 3055a76f797438be71e82ea8f73800dc82ff4805
+source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 79%
@@ -62,7 +62,7 @@ ht-degree: 79%
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
-      + [eVar &#x200B;](vars/page-vars/evar.md)
+      + [eVar ](vars/page-vars/evar.md)
       + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
       + Eventi {#events}
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)
@@ -133,10 +133,10 @@ ht-degree: 79%
    + [Integrate Module](vars/integrate.md)
 + Identificazione visitatore {#id}
    + [Panoramica](id/overview.md)
-   + [Utilizzo di AppMeasurement](id/appmeasurement.md)
-   + [Utilizzo dell’estensione Analytics](id/analytics-extension.md)
-   + [Utilizzo di Web SDK (Alloy)](id/alloy.md)
    + [Utilizzo dell’estensione Web SDK](id/web-sdk-extension.md)
+   + [Utilizzo di Web SDK (Alloy)](id/alloy.md)
+   + [Utilizzo dell’estensione Analytics](id/analytics-extension.md)
+   + [Utilizzo di AppMeasurement](id/appmeasurement.md)
    + [Migrazione al servizio ID visitatori](id/migration.md)
    + [Tracciare diversi tipi di implementazione](id/cross-type-implementation.md)
 + Preparare l’implementazione di Adobe Analytics {#prepare}
