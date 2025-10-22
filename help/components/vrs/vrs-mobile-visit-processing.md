@@ -3,7 +3,7 @@ description: Le sessioni in base al contesto nelle suite di rapporti virtuali ca
 title: Adobe Context-Aware Sessions
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: b9919c43b0232de1f8cb473d760bc013f4bc01f8
+source-git-commit: 50f04ed366bf973fac43a29d6291afb017eb1f85
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Puoi definire una visita in qualsiasi modo senza alterare i dati sottostanti, in
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessioni in base al contesto](https://video.tv.adobe.com/v/3428474?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessioni in base al contesto](https://video.tv.adobe.com/v/23545?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Tuttavia, se *t1* e *t2* sono maggiori del timeout configurato per la suite di r
 
 ![](assets/nogoodexample3-2.jpg)
 
-Analogamente (come negli esempi precedenti), se *t1* è minore del timeout e *t2* è minore del timeout, l&#39;hit di background verrà incluso nella prima visita:
+Analogamente (come negli esempi precedenti), se *t1* è minore del timeout e *t2* è maggiore del timeout, l&#39;hit di background verrà incluso nella prima visita:
 
 ![](assets/nogoodexample3-3.jpg)
 
