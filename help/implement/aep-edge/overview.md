@@ -4,10 +4,10 @@ description: Panoramica dell’utilizzo di dati XDM da Experience Platform in Ad
 exl-id: 7d8de761-86e3-499a-932c-eb27edd5f1a3
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 15%
+source-wordcount: '550'
+ht-degree: 14%
 
 ---
 
@@ -23,13 +23,13 @@ I dati inviati all&#39;Edge Network di Adobe Experience Platform possono seguire
 
 ## `xdm` oggetto
 
-Conformarsi agli schemi creati in base a [XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) (Experience Data Model). XDM offre flessibilità nei campi definiti come parte degli eventi. Se desideri utilizzare uno schema predefinito specifico per Adobe Analytics, puoi aggiungere il [gruppo di campi dello schema Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) allo schema. Una volta aggiunto, è possibile popolare questo schema utilizzando l&#39;oggetto `xdm` nel Web SDK per inviare dati a una suite di rapporti. Quando i dati arrivano all’Edge Network, traducono l’oggetto XDM in un formato comprensibile da Adobe Analytics.
+Conformarsi agli schemi creati in base a [XDM](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home) (Experience Data Model). XDM offre flessibilità nei campi definiti come parte degli eventi. Se desideri utilizzare uno schema predefinito specifico per Adobe Analytics, puoi aggiungere il [gruppo di campi dello schema Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) allo schema. Una volta aggiunto, è possibile popolare questo schema utilizzando l&#39;oggetto `xdm` nel Web SDK per inviare dati a una suite di rapporti. Quando i dati arrivano all’Edge Network, traducono l’oggetto XDM in un formato comprensibile da Adobe Analytics.
 
 Per un riferimento completo ai campi XDM e al modo in cui vengono mappati alle variabili Analytics, vedi [Mappatura delle variabili oggetto XDM su Adobe Analytics](xdm-var-mapping.md).
 
 >[!TIP]
 >
->Se prevedi di passare in futuro a [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-landing), Adobe consiglia di non utilizzare il gruppo di campi dello schema di Adobe Analytics. Al contrario, Adobe consiglia di [creare uno schema personalizzato](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) e utilizzare la mappatura dello stream di dati per popolare le variabili Analytics desiderate. Questa strategia non ti blocca in uno schema di proprietà ed eVar quando sei pronto per passare a Customer Journey Analytics.
+>Se prevedi di passare in futuro a [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-landing), Adobe consiglia di non utilizzare il gruppo di campi dello schema di Adobe Analytics. Al contrario, Adobe consiglia di [creare uno schema personalizzato](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/schema/cja-upgrade-schema-architect) e utilizzare la mappatura dello stream di dati per popolare le variabili Analytics desiderate. Questa strategia non ti blocca in uno schema di proprietà ed eVar quando sei pronto per passare a Customer Journey Analytics.
 
 ## `data` oggetto
 
@@ -78,3 +78,5 @@ a.x.objectarray.0.ad1 // 300x200
 a.x.objectarray.1.ad2 // 60x240
 a.x.objectarray.2.ad3 // 600x50
 ```
+
+La dimensione massima per un dato payload di variabile di dati di contesto (inclusi chiavi e valori) è di 32 KB. È possibile ridurre le dimensioni di questo payload regolando i campi rilevanti in modo che vengano riconosciuti da Adobe Analytics negli oggetti [`xdm`](xdm-var-mapping.md) o [`data`](data-var-mapping.md).

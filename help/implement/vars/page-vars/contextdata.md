@@ -4,9 +4,9 @@ description: Le variabili di dati di contesto ti consentono di definire variabil
 feature: Appmeasurement Implementation
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 9845f1bc73b6cf5fd932c6896a50379ddd008c20
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '588'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 3%
 Le variabili di dati di contesto ti consentono di definire variabili personalizzate in ogni pagina leggibile dalle regole di elaborazione. Invece di assegnare esplicitamente i valori alle variabili di Analytics nel codice, puoi inviare dati in variabili di dati di contesto. Le regole di elaborazione accettano quindi i valori delle variabili di dati di contesto e li trasmettono alle rispettive variabili di Analytics. Consulta [Regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) nella Guida utente di amministrazione.
 
 Le variabili di dati contestuali sono utili ai team di sviluppo per raccogliere dati in elementi denominati anziché in variabili numerate. Ad esempio, invece di richiedere ai team di sviluppo di assegnare l&#39;autore della pagina a `eVar10`, puoi richiedere loro di assegnarlo a `s.contextData["author"]`. Un amministratore di Analytics della tua organizzazione può quindi creare regole di elaborazione per mappare le variabili di dati di contesto in variabili di Analytics a scopo di reporting. In ultima analisi, i team di sviluppo si preoccuperebbero solo delle variabili di dati di contesto anziché delle numerose variabili di pagina offerte da Adobe.
+
+La dimensione massima di tutte le variabili di dati di contesto combinate (incluse chiavi e valori) è di 32 KB.
 
 ## Variabili di dati di contesto tramite Web SDK
 
@@ -54,7 +56,7 @@ s.contextData["example_variable"] = "Example value";
 ```
 
 * Le variabili di dati di contesto valide contengono solo caratteri alfanumerici, trattini bassi e punti. Adobe non garantisce la raccolta dei dati nelle regole di elaborazione se includi altri caratteri, ad esempio i trattini.
-* Non avviare le variabili di dati di contesto con `"a."`. Questo prefisso è riservato e utilizzato da Adobe. Ad esempio, non utilizzare `s.contextData["a.InstallEvent"]`.
+* Non avviare le variabili di dati di contesto con il prefisso `"a."`. Questo prefisso è riservato e utilizzato da Adobe. Ad esempio, non utilizzare `s.contextData["a.InstallEvent"]`.
 * Le variabili di dati di contesto non fanno distinzione tra maiuscole e minuscole. Le variabili `s.contextData["example"]` e `s.contextData["EXAMPLE"]` sono identiche.
 * Una singola chiave non può contenere più di un valore. Se si desidera utilizzare variabili di dati di contesto per variabili multivalore, concatenare tutti i valori utilizzando un delimitatore (in genere una virgola) e trasmetterli a una [prop elenco](prop.md#list-props) o a una [variabile elenco](list.md) utilizzando le regole di elaborazione.
 
