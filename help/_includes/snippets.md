@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Una nuova versione semplificata di [Report Builder](/help/analyze/report-builder/rb-overview.md) è stata rilasciata il 16 ottobre 2024. È supportato su Mac, Windows e browser web.
->>Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
+>&#x200B;>Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
 
-## Annuncio sulla fine del ciclo di vita di Reports &amp; Analytics {#ra-eol}
+## Annuncio sulla fine del ciclo di vita di Reports & Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
