@@ -1,8 +1,8 @@
 ---
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
 workflow-type: tm+mt
-source-wordcount: '2945'
-ht-degree: 88%
+source-wordcount: '2975'
+ht-degree: 87%
 
 ---
 # Snippet
@@ -12,9 +12,9 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >Una nuova versione semplificata di [Report Builder](/help/analyze/report-builder/rb-overview.md) è stata rilasciata il 16 ottobre 2024. È supportato su Mac, Windows e browser web.
->&#x200B;>Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
+>>Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
 
-## Annuncio sulla fine del ciclo di vita di Reports & Analytics {#ra-eol}
+## Annuncio sulla fine del ciclo di vita di Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -87,13 +87,14 @@ Un modello di attribuzione determina quali elementi dimensionali ricevono credit
 
 Un contenitore attribuzione definisce l’ambito desiderato per l’attribuzione. Le opzioni possibili sono:
 
-* **Visita**: esamina le conversioni dall&#39;ambito del contenitore Visita.
+* **Visita**: esamina le conversioni dall&#39;ambito del contenitore Visita. Quando **[!UICONTROL Visit]** è selezionato, l&#39;intervallo di lookback [Attribution](#atribution-lookback-window) viene impostato automaticamente su **[!UICONTROL Reporting window]** e non può essere modificato.
 * **Visitatore**: esamina le conversioni dall&#39;ambito del contenitore visitatore.
 
 ## Finestra di lookback di attribuzione {#attribution-lookback-window}
 
 Per intervallo di lookback si intende la quantità di tempo che una conversione deve esaminare in precedenza per includere i punti di contatto. Se un elemento dimensionale è impostato all’esterno dell’intervallo di lookback, il valore non viene incluso in alcun calcolo di attribuzione.
 
+* **[!UICONTROL Reporting window]**: considera fino l&#39;inizio dell&#39;intervallo di reporting dal momento in cui si è verificata la conversione.
 * **14 giorni**: esamina fino a 14 giorni precedenti dal momento in cui si è verificata la conversione.
 * **30 giorni**: esamina fino a 30 giorni precedenti dal momento in cui si è verificata la conversione.
 * **60 giorni**: esamina fino a 60 giorni precedenti dal momento in cui si è verificata la conversione.
