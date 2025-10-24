@@ -1,22 +1,22 @@
 ---
-description: Formati di file supportati dai set di classificazione
-title: Formati dei file del set di classificazione
+description: Comprendere i vari formati di file supportati dai set di classificazione
+title: Formati di file del set di classificazione
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
-source-git-commit: c642664ecca24d9fc555944fb2b449f30eac879d
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1038'
 ht-degree: 1%
 
 ---
 
 # Formati dei file del set di classificazione
 
-I set di classificazione supportano più formati di file per il caricamento in blocco dei dati di classificazione. Ogni formato ha requisiti specifici per caricamenti di dati riusciti.
+I set di classificazione supportano più formati di file per il caricamento dei dati di classificazione. Ogni formato ha requisiti specifici per caricamenti di dati riusciti.
 
-Una volta che il file è formattato correttamente in base a queste specifiche, puoi caricarlo tramite l’interfaccia o l’API dei set di classificazione. Per istruzioni di caricamento dettagliate:
+Una volta che il file è formattato correttamente in base a queste specifiche, puoi caricare i dati tramite l’interfaccia o l’API dei set di classificazione. Per istruzioni di caricamento dettagliate:
 
-* **Caricamento browser**: Vedere [Schema](manage/schema.md)
+* **Caricamento browser**: vedi [Caricamento](manage/schema.md#upload) nell&#39;interfaccia [Schema](manage/schema.md) per un set di classificazione.
 * **Caricamento API**: vedi [API classificazioni di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/)
 
 I set di classificazione supportano i seguenti formati di file:
@@ -33,7 +33,7 @@ Tutti i formati di file devono rispettare i seguenti requisiti:
 * **Limiti dei caratteri**: i singoli valori di classificazione hanno un limite massimo di 255 byte.
 * **Requisiti chiave**: i valori chiave non possono essere vuoti o contenere solo spazi vuoti. Se sono presenti chiavi duplicate, viene utilizzata l’ultima occorrenza.
 
-+++**Dettagli formato JSON**
++++ Dettagli formato JSON
 
 Il formato del file JSON segue le convenzioni per le linee JSON (JSONL). Il file deve contenere un oggetto JSON per riga, dove ogni oggetto rappresenta un singolo record di classificazione.
 
@@ -77,7 +77,7 @@ Tutti i nomi di campo JSON (`key`, `data`, `action`, `enc`) fanno distinzione tr
 {"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
 ```
 
-**Elimina chiave intera:**
+**Eliminare un&#39;intera chiave:**
 
 ```json
 {"key": "product999", "action": "delete-key"}
@@ -93,7 +93,7 @@ Tutti i nomi di campo JSON (`key`, `data`, `action`, `enc`) fanno distinzione tr
 
 +++
 
-+++**Dettagli formato CSV**
++++ Dettagli formato CSV
 
 I file CSV (Comma-Separated Values, Valori separati da virgole) utilizzano le virgole per separare i campi dei dati di classificazione.
 
@@ -115,7 +115,7 @@ product456,"Running Shoes",Brand B,Sports,79.99
 product789,"Winter Jacket",Brand C,Clothing,149.99
 ```
 
-**Elimina chiave intera:**
+**Eliminare un&#39;intera chiave:**
 
 ```csv
 Key,Product Name,Brand,Category,Price
@@ -132,31 +132,32 @@ product456,,~empty~,~empty~,79.99
 
 ### Regole di formattazione CSV
 
-* I campi contenenti virgole devono essere racchiusi tra virgolette doppie
-* I campi contenenti virgolette doppie devono essere preceduti da virgolette di escape doppie (`""`)
-* I campi vuoti rappresentano valori nulli per tale classificazione
-* Gli spazi iniziali e finali intorno ai campi vengono tagliati automaticamente
-* I caratteri speciali (tabulazioni, nuove righe) nei campi tra virgolette vengono mantenuti
+* I campi contenenti virgole devono essere racchiusi tra virgolette.
+* I campi contenenti virgolette doppie devono essere preceduti da virgolette (`""`).
+* I campi vuoti rappresentano valori nulli per tale classificazione.
+* Gli spazi iniziali e finali intorno ai campi vengono tagliati automaticamente.
+* I caratteri speciali (tabulazioni, nuove righe) nei campi tra virgolette vengono mantenuti.
 
 **Operazioni di eliminazione:**
+
 * Utilizza `~deletekey~` in qualsiasi campo per eliminare l&#39;intera chiave e tutti i relativi dati di classificazione
 * Utilizza `~empty~` in campi specifici per eliminare solo i valori di classificazione (lasciando invariati gli altri campi)
 * Quando si utilizza `~empty~`, è possibile combinare eliminazioni con aggiornamenti nello stesso file
 
 +++
 
-+++**Dettagli formato TSV/TAB**
++++ Dettagli del formato TSV e TAB
 
 I file TSV (Valori separati da tabulazioni) e TAB utilizzano i caratteri di tabulazione per separare i campi dei dati di classificazione.
 
-### Struttura TSV/TAB
+### Struttura TSV e TAB
 
-* **Riga intestazione**: la prima riga deve contenere intestazioni di colonna e la prima colonna deve essere la colonna chiave. Le colonne successive devono corrispondere ai nomi nello schema del set di classificazione
-* **Righe dati**: ogni riga successiva contiene dati di classificazione
-* **Delimitatori**: i campi sono separati da caratteri di tabulazione (`\t`)
-* **Virgolette**: in genere non sono necessarie virgolette, ma alcune implementazioni supportano campi tra virgolette
+* **Riga intestazione**: la prima riga deve contenere intestazioni di colonna e la prima colonna deve essere la colonna chiave. Le colonne successive devono corrispondere ai nomi nello schema del set di classificazione.
+* **Righe dati**: ogni riga successiva contiene dati di classificazione.
+* **Delimitatori**: i campi sono separati da caratteri di tabulazione (`\t`).
+* **Virgolette**: in genere non sono necessarie virgolette, ma alcune implementazioni supportano i campi tra virgolette.
 
-### Esempi di TSV/TAB
+### Esempi di TSV e TAB
 
 **Dati di classificazione di base:**
 
@@ -167,7 +168,7 @@ product456    Running Shoes    Brand B    Sports    79.99
 product789    Winter Jacket    Brand C    Clothing    149.99
 ```
 
-**Elimina chiave intera:**
+**Eliminare un&#39;intera chiave:**
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -184,16 +185,17 @@ product456        ~empty~    ~empty~    79.99
 
 ### Regole di formattazione TSV/TAB
 
-* I campi sono separati da caratteri di tabulazione singoli
-* I campi vuoti (schede consecutive) rappresentano valori Null
-* In genere non sono richieste virgolette speciali
-* Gli spazi iniziali e finali vengono mantenuti
-* Evitare l’utilizzo di caratteri di nuova riga all’interno dei campi
+* I campi sono separati da caratteri di tabulazione singoli.
+* I campi vuoti (schede consecutive) rappresentano valori Null.
+* In genere non sono richieste virgolette speciali.
+* Gli spazi iniziali e finali vengono mantenuti.
+* I caratteri di nuova riga all’interno dei campi devono essere evitati.
 
 **Operazioni di eliminazione:**
-* Utilizza `~deletekey~` in qualsiasi campo per eliminare l&#39;intera chiave e tutti i relativi dati di classificazione
-* Utilizza `~empty~` in campi specifici per eliminare solo i valori di classificazione (lasciando invariati gli altri campi)
-* Quando si utilizza `~empty~`, è possibile combinare eliminazioni con aggiornamenti nello stesso file
+
+* Utilizza `~deletekey~` in qualsiasi campo per eliminare l&#39;intera chiave e tutti i relativi dati di classificazione.
+* Utilizza `~empty~` in campi specifici per eliminare solo i valori di classificazione (lasciando invariati gli altri campi).
+* Quando si utilizza `~empty~`, è possibile combinare eliminazioni con aggiornamenti nello stesso file.
 
 +++
 
@@ -203,31 +205,31 @@ Problemi di caricamento comuni e soluzioni:
 
 ### Errori generali nel formato del file
 
-* **Formato file non valido**: verificare che l&#39;estensione del file corrisponda al formato del contenuto (.json, .csv, .tsv o .tab).
-* **&quot;Intestazione sconosciuta&quot;**: i nomi delle colonne devono corrispondere allo schema del set di classificazione (si applica a tutti i formati).
+* **Formato file non valido**: verificare che l&#39;estensione del file corrisponda al formato del contenuto (`.json`, `.csv`, `.tsv` o `.tab`).
+* **Intestazione sconosciuta**: i nomi delle colonne devono corrispondere allo schema del set di classificazione (si applica a tutti i formati).
 
-### Errori specifici CSV/TSV
+### Errori specifici per CSV e TSV
 
-* **&quot;La prima colonna deve essere la chiave&quot;**: verificare che il file CSV/TSV contenga una riga di intestazione corretta con la colonna chiave.
-* **&quot;Sono necessari almeno due elementi di intestazione&quot;**: i file CSV/TSV devono avere almeno una colonna &quot;Chiave&quot; e una colonna di classificazione.
-* **&quot;La prima colonna di intestazione deve essere denominata &#39;Key&#39;&quot;**: l&#39;intestazione della prima colonna deve essere esattamente &quot;Key&quot; (maiuscolo K, con distinzione tra maiuscole e minuscole).
-* **&quot;Le intestazioni vuote non sono consentite&quot;**: tutte le intestazioni di colonna CSV/TSV devono avere nomi.
-* **&quot;Il numero di colonne non corrisponde alle intestazioni&quot;**: ogni riga di dati CSV/TSV deve avere lo stesso numero di campi della riga di intestazione.
-* **&quot;Documento in formato non valido&quot;**: controllare le virgolette CSV, la separazione delle tabulazioni nei file TSV e così via.
+* **La prima colonna deve essere la chiave**: verificare che il file CSV o TSV contenga una riga di intestazione corretta con la prima colonna chiave.
+* **Sono necessari almeno due elementi di intestazione**: i file CSV o TSV devono avere almeno una colonna `Key` e una colonna di classificazione.
+* **La prima colonna di intestazione deve essere denominata &#39;Chiave&#39;**: l&#39;intestazione della prima colonna deve essere esattamente `Key` (maiuscolo `K`, con distinzione tra maiuscole e minuscole).
+* **Le intestazioni vuote non sono consentite**: tutte le intestazioni di colonna CSV/TSV devono avere nomi.
+* **Il numero di colonne non corrisponde alle intestazioni**: ogni riga di dati CSV o TSV deve avere lo stesso numero di campi della riga di intestazione.
+* **&quot;Documento in formato non valido**: controlla le virgolette CSV, la separazione delle tabulazioni nei file TSV e altro ancora.
 
 ### Errori specifici JSON
 
-* **&quot;La chiave è un campo obbligatorio&quot;**: tutti i record JSON devono avere un campo `"key"` non vuoto (minuscolo, distinzione maiuscole/minuscole).
-* **&quot;I dati sono un campo obbligatorio quando si utilizza action=update&quot;**: le azioni di aggiornamento JSON devono includere un campo `"data"`.
-* **&quot;I dati sono un campo obbligatorio quando si utilizza action=delete-field&quot;**: Le azioni di eliminazione JSON devono specificare quali campi eliminare nel campo `"data"`.
-* **&quot;I dati non devono essere presenti quando si utilizza action=delete-key&quot;**: Le azioni chiave di eliminazione JSON non possono includere un campo `"data"`.
-* **&quot;Codifica non supportata&quot;**: utilizzare solo i valori di codifica supportati nel campo `"enc"` (utf8, UTF8, latin1, LATIN1).
+* **La chiave è un campo obbligatorio**: tutti i record JSON devono avere un campo `"key"` non vuoto (minuscolo, con distinzione tra maiuscole e minuscole).
+* **I dati sono un campo obbligatorio quando si utilizza action=update**: le azioni di aggiornamento JSON devono includere un campo `"data"`.
+* **I dati sono un campo obbligatorio quando si utilizza action=delete-field**: Le azioni di eliminazione JSON devono specificare quali campi eliminare nel campo `"data"`.
+* **I dati non devono essere presenti quando si utilizza action=delete-key**: Le azioni chiave di eliminazione JSON non possono includere un campo `"data"`.
+* **Codifica non supportata**: utilizzare solo i valori di codifica supportati nel campo `"enc"` (`utf8`, `UTF8`, `latin1`, `LATIN1`).
 * **Sintassi JSON non valida**: verifica che il file JSON sia formattato correttamente in base alle convenzioni JSONL. Controlla anche la formattazione JSON generale, le virgolette mancanti, le virgole, le parentesi quadre, ecc.
 
 ### Errori di limite di dimensione
 
-* **&quot;La chiave supera la dimensione massima&quot;**: le singole chiavi non possono superare i 255 byte.
-* **&quot;Il valore della colonna supera la dimensione massima&quot;**: i singoli valori di classificazione non possono superare i 255 byte.
+* **La chiave supera la dimensione massima**: le singole chiavi non possono superare i 255 byte.
+* **Il valore della colonna supera la dimensione massima**: i singoli valori di classificazione non possono superare i 255 byte.
 
 ## Best practice
 

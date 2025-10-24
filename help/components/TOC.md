@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: c5e4e10a520e6fe48c9b13ee143a95adce5c9512
+source-git-commit: ab38a77ab496efb40a304ec7e5561009aa07946a
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '748'
 ht-degree: 93%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 93%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar &#x200B;](dimensions/evar.md)
+   + [eVar ](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
@@ -264,16 +264,16 @@ ht-degree: 93%
    + Set di classificazione {#sets}
       + [Panoramica](classifications/sets/overview.md)
       + [File di dati](classifications/sets/data-files.md)
-      + Gestire i set di classificazione {#manage}
-         + [Gestione set di classificazione](classifications/sets/manage/set-manager.md)
-         + [Creare un set di classificazione](classifications/sets/manage/create.md)
-         + [Impostazioni del set di classificazione](classifications/sets/manage/settings.md)
-         + [Schema del set di classificazione](classifications/sets/manage/schema.md)
-         + [Regole del set di classificazione](classifications/sets/manage/rules.md)
-      + [Gestione processi set di classificazione](classifications/sets/job-manager.md)
-      + Consolidamenti dei set di classificazione {#consolidations}
-         + [Gestione consolidamenti](classifications/sets/consolidations/manage.md)
-         + [Processo di consolidamento](classifications/sets/consolidations/process.md)
+      + Set di classificazione {#manage}
+         + [Gestire i](classifications/sets/manage/set-manager.md)
+         + [Creare e modificare](classifications/sets/manage/create.md)
+         + [Impostazioni](classifications/sets/manage/settings.md)
+         + [Schema](classifications/sets/manage/schema.md)
+         + [Regole](classifications/sets/manage/rules.md)
+      + [Processi di classificazione](classifications/sets/job-manager.md)
+      + Consolidamenti delle classificazioni {#consolidations}
+         + [Gestire i](classifications/sets/consolidations/manage.md)
+         + [Creare e modificare](classifications/sets/consolidations/process.md)
    + Generatore di regole di classificazione (legacy){#classifications-rulebuilder}
       + [Panoramica](classifications/crb/classification-rule-builder.md)
       + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)

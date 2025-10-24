@@ -1,54 +1,125 @@
 ---
-title: Gestione processi set di classificazione
-description: Visualizza i processi di classificazione correnti e completati generati dai set di classificazione.
+title: Gestione processi di classificazione
+description: Scopri come visualizzare i processi di classificazione correnti e completati generati dai set di classificazione.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 51%
+source-wordcount: '551'
+ht-degree: 3%
 
 ---
 
-# Gestione processi set di classificazione
+# Visualizza e intervieni sui processi di classificazione
 
-Gestione processi set di classificazione consente di visualizzare i processi di classificazione correnti e completati generati dai set di classificazione. Puoi inoltre utilizzare questa interfaccia per scaricare i dati o i modelli di classificazione per un particolare processo o per caricare dati aggiuntivi su un processo.
+Gestione processi di classificazione mostra i processi di classificazione correnti e completati generati per i set di classificazione. Puoi anche utilizzare il gestore per scaricare i dati o i modelli di classificazione per un particolare processo.
+
+Per visualizzare i processi di classificazione e agire di conseguenza:
+
+1. Seleziona **[!UICONTROL Components]** nell’interfaccia principale, quindi seleziona **[!UICONTROL Classification sets]**.
+1. In **[!UICONTROL Classification Sets]**, selezionare la scheda **[!UICONTROL Jobs]**.
+
+## Gestione processi di classificazione
+
+Il gestore **[!UICONTROL Classification Sets - Jobs]** dispone dei seguenti elementi dell&#39;interfaccia:
+
+![Set di classificazioni - Gestione processi](manage/assets/classifications-sets-jobs.png)
+
+
+
+### Elenco processi di classificazione
+
+L&#39;elenco **[!UICONTROL Classification Jobs]** ➊ visualizza i processi di classificazione. L’elenco dispone delle seguenti colonne:
+
+| Colonna | Descrizione |
+|---|---|
+| **[!UICONTROL Job Id]** | Identificatore del processo di classificazione. |
+| **[!UICONTROL Classification Set]** | Set di classificazione associato al processo di classificazione. |
+| **[!UICONTROL Size]** | Dimensione del file esportato o importato come parte del processo di classificazione. |
+| **[!UICONTROL Status]** | Stato del processo di classificazione. I valori possibili sono: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]**, **[!UICONTROL Completed]** o **[!UICONTROL Progress]**. |
+| **[!UICONTROL File Name]** | Identifica il nome o la funzionalità utilizzati per importare o esportare il file come parte del processo di classificazione. I valori possibili sono: <ul><li>*nessun valore*</li><li>Nome del file elaborato come parte del processo di classificazione.</li><li>**[!UICONTROL SAINT Export]**: il processo è un&#39;esportazione dall&#39;[interfaccia classificazioni legacy](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL export for _set di classificazione _in_timestamp_]**: il processo è un download dall&#39;interfaccia [schema](manage/schema.md#download).</li></ul> |
+| **[!UICONTROL Job Type]** | Tipo di processo di classificazione. I valori possibili sono: **[!UICONTROL Import]** o **[!UICONTROL Export]**. |
+| **[!UICONTROL Source]** | Origine del processo di classificazione. I valori possibili sono: **[!UICONTROL Web API]**, **[!UICONTROL Direct API Upload]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]** o **[!UICONTROL Unknown]**. |
+| **[!UICONTROL Modified Lines]** | Il numero di righe modificate dal processo di classificazione. |
+| **[!UICONTROL Total Lines]** | Numero di righe totali elaborate dal processo di classificazione. |
+| **[!UICONTROL Completion Time]** | L’ora di completamento del processo di classificazione. |
+| **[!UICONTROL File Download]** | Utilizza ![Scarica](/help/assets/icons/Download.svg) per scaricare il file (modello o dati) associato al processo di classificazione. |
+
+Per ridimensionare una colonna nell’elenco dei processi di classificazione, puoi:
+
+* Passa il puntatore del mouse sul separatore di colonne e trascina il separatore di colonne fino alla larghezza desiderata.
+* Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) e selezionare **[!UICONTROL Resize column]**. Una linea verticale con il pulsante di ridimensionamento consente di ridimensionare la colonna nel modo desiderato con.
+
+Per ordinare una colonna nell’elenco dei processi di classificazione
+
+* Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) e selezionare **[!UICONTROL Sort Ascending]** o **[!UICONTROL Sort Descending]**. Una freccia (↑↓) indica quale colonna e come è ordinata.
+
+
+### Pulsanti di ricerca e
+
+Nell&#39;area ➋ sopra l&#39;elenco dei processi di classificazione è possibile:
+
+* Cerca in ![Ricerca](/help/assets/icons/Search.svg) i processi di classificazione. I risultati vengono visualizzati nell’elenco dei processi di classificazione. Selezionare ![CrossSize200](/help/assets/icons/CrossSize200.svg) per cancellare la ricerca.
+* Rimuovi eventuali filtri applicati all’elenco dei processi di classificazione. Selezionare ![CrossSize100](/help/assets/icons/CrossSize100.svg) per rimuovere un filtro.
+* Seleziona ![AltroCerchio](/help/assets/icons/MoreCircle.svg) per caricare altri 1000 processi di classificazione. Inizialmente, nell’elenco delle serie di classificazioni vengono visualizzati fino a 1000 processi di classificazione.
+* Definisci le colonne dell’elenco dei processi dei set di classificazione. Seleziona ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) e nella finestra di dialogo **[!UICONTROL Customize table]** seleziona le colonne da visualizzare sotto **[!UICONTROL Select columns to show]**. Selezionare **[!UICONTROL Apply]** per applicare le impostazioni della colonna.
+
+
+
+### Pannello dei filtri
+
+Seleziona ![Filtro](/help/assets/icons/Filter.svg) per visualizzare il pannello dei filtri ➌ che ti consente di filtrare l&#39;elenco dei processi di classificazione. Puoi filtrare in base a:
+
+* **[!UICONTROL Classification Set]**. Seleziona uno o più set di classificazione per filtrare l’elenco dei processi di classificazione.
+* **[!UICONTROL Completion Time]**. Seleziona uno dei valori possibili per filtrare l’elenco dei processi di classificazione al momento del completamento.
+* **[!UICONTROL Status]**. Seleziona uno dei valori possibili per filtrare l’elenco dei processi di classificazione in base allo stato.
+* **[!UICONTROL Job Type]**. Seleziona uno dei valori possibili per filtrare l’elenco dei processi di classificazione in base al tipo di processo.
+* **[!UICONTROL Source]**. Seleziona uno dei valori possibili per filtrare l’elenco dei processi di classificazione sull’origine.
+
+
+Seleziona ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** per nascondere il pannello dei filtri.
+
+I filtri visualizzati nel pannello filtri riflettono le opzioni per i processi di classificazione precaricati.
+
+
+<!--
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Jobs]**
 
-Impossibile creare processi da questa interfaccia. Crea processi caricando i dati in un set di classificazione (manualmente o tramite una posizione esterna configurata), richiedendo un file di download o un file modello.
+You cannot create jobs from this interface. Create jobs by uploading data to a classification set (either manually or through a configured external location), requesting a download file, or requesting a template file.
 
-## Filtrare i set di classificazione
+## Filter classification sets
 
-Il lato sinistro di Gestione processo set di classificazione fornisce le impostazioni del filtro per individuare il processo desiderato. Facendo clic sull’icona del filtro si attiva la visibilità delle impostazioni del filtro. È possibile filtrare i set di classificazione per **[!UICONTROL Classification set]**, **[!UICONTROL Completion time]**, **[!UICONTROL Status]**, **[!UICONTROL Job Type]** o **[!UICONTROL Source]**.
+The left side of the Classification set job manager provides filter settings to locate the desired job. Clicking the filter icon toggles the filter settings visibility. You can filter Classification sets by **[!UICONTROL Classification set]**, **[!UICONTROL Completion time]**, **[!UICONTROL Status]**, **[!UICONTROL Job Type]**, or **[!UICONTROL Source]**.
 
-![Filtri processo set di classificazione](../assets/classification-set-job-filters.png)
+![Classification set job filters](../assets/classification-set-job-filters.png)
 
-Ulteriori opzioni di filtro sono disponibili sopra le colonne Gestione processo set di classificazione:
+Additional filter options are available above the Classification set job manager columns:
 
-* **[!UICONTROL Search by title]**: cerca i processi per nome file.
-* **[!UICONTROL Load more]**: Gestione processo set di classificazione visualizza inizialmente fino a 1000 processi. Se esistono più processi, fare clic su questo pulsante per caricare altri 1000 processi.
-* **Mostra/Nascondi colonne**: attiva/disattiva la visibilità delle colonne oltre a [!UICONTROL Filename] e [!UICONTROL Completion time].
+* **[!UICONTROL Search by title]**: Search for jobs by filename.
+* **[!UICONTROL Load more]**: The Classification set job manager initially displays up to 1000 jobs. If more jobs exist, click this button to load 1000 more jobs.
+* **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Filename] and [!UICONTROL Completion time].
 
-## Colonne di Gestione processo set di classificazione
+## Classification set job manager columns
 
-In Gestione processo set di classificazione sono disponibili le colonne seguenti:
+The following columns are available in the Classification set job manager:
 
-* **[!UICONTROL Filename]**: nome del file di caricamento o download.
-* **[!UICONTROL Classification set]**: nome del set di classificazione a cui si applica il file. Puoi fare clic sul nome del set di classificazione per raggiungerne le [Impostazioni](manage/settings.md).
-* **[!UICONTROL Size]**: dimensione del file.
-* **[!UICONTROL Status]**: stato del processo di elaborazione del file.
-   * **[!UICONTROL Created]**: lavoro inviato.
-   * **[!UICONTROL Queued]**: file pronto per l’elaborazione e in attesa di venire elaborato da un server di classificazione.
-   * **[!UICONTROL Validated]**: file valido e in attesa di elaborazione.
-   * **[!UICONTROL Failed validation]**: file formattato in modo errato o comunque non valido. Il file non viene sottoposto a elaborazione.
-   * **[!UICONTROL Processing]**: file elaborato attivamente tramite Adobe.
-   * **[!UICONTROL Failed processing]**: elaborazione del file non riuscita.
-   * **[!UICONTROL Complete]**: elaborazione completata. I dati di classificazione sono visibili nel reporting.
-   * **[!UICONTROL Failed]**: errore generico non correlato alla convalida o all’elaborazione.
-* **[!UICONTROL Job type]**: tipo di processo.
-* **[!UICONTROL Source]**: origine del processo.
-* **[!UICONTROL File download]**: si applica solo ai processi di download, come il download di dati di classificazione o modelli. Quando un download è pronto, questa colonna fornisce il collegamento relativo.
-* **[!UICONTROL Modified lines]**: numero di righe modificate.
-* **[!UICONTROL Completed lines]**: numero di righe completate.
-* **[!UICONTROL Completion time]**: data e ora in cui il processo è stato completato (o non è riuscito).
+* **[!UICONTROL Filename]**: The name of the upload or download file.
+* **[!UICONTROL Classification set]**: The name of the Classification set that the file applies to. You can click the Classification set name to reach the Classification set's [Settings](manage/settings.md).
+* **[!UICONTROL Size]**: The size of the file.
+* **[!UICONTROL Status]**: The status of the job processing the file.
+  * **[!UICONTROL Created]**: The job was submitted.
+  * **[!UICONTROL Queued]**: The file is ready to be processed, and is waiting for a classification server to process the file.
+  * **[!UICONTROL Validated]**: The file is valid and is waiting to be processed.
+  * **[!UICONTROL Failed validation]**: The file is formatted incorrectly or otherwise invalid. The file does not go through processing.
+  * **[!UICONTROL Processing]**: The file is actively being processed by Adobe.
+  * **[!UICONTROL Failed processing]**: The file failed processing.
+  * **[!UICONTROL Complete]**: Processing is complete. Classification data is visible in reporting.
+  * **[!UICONTROL Failed]**: Generic failure not related to validation or processing.
+* **[!UICONTROL Job type]**: The type of job.
+* **[!UICONTROL Source]**: The job source.
+* **[!UICONTROL File download]**: Only applies to download jobs, such as downloading classification data or downloading templates. When a download is ready, this column provides a download link.
+* **[!UICONTROL Modified lines]**: The number of modified lines.
+* **[!UICONTROL Completed lines]**: The number of completed lines.
+* **[!UICONTROL Completion time]**: The date and time that the job completed (or failed).
+-->

@@ -1,30 +1,82 @@
 ---
-title: Creare un set di classificazione
-description: Campi e descrizioni disponibili durante la creazione di un set di classificazione.
+title: Creare set di classificazione
+description: Scopri come rendere disponibili campi e descrizioni durante la creazione di un set di classificazione.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: a40f30bbe8fdbf98862c4c9a05341fb63962cdd1
+source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '377'
 ht-degree: 7%
 
 ---
 
-# Creare un set di classificazione
+# Creare e modificare i set di classificazione
 
-Puoi utilizzare Gestione set di classificazione per creare un set di classificazione.
+Hai [creato](#create-a-classification-set) e [modificato](#edit-a-classification-set) i set di classificazione dal gestore dei set di classificazione.
+
+## Creare un set di classificazione
+
+Per creare un set di classificazione, nell’interfaccia principale:
+
+1. Seleziona **[!UICONTROL Components]** nell’interfaccia principale, quindi seleziona **[!UICONTROL Classification sets]**.
+1. In **[!UICONTROL Classification Sets]**, selezionare la scheda **[!UICONTROL Classification Sets]**.
+1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**.
+1. Nella finestra di dialogo **[!UICONTROL Add New Classification Set]** (Crea elemento dati):
+
+   ![Set di classificazione - Aggiungi nuovo set di classificazione](assets/classifications-sets-new.png)
+
+   1. Immetti **[!UICONTROL Name]**. Ad esempio: `Classification Set Example`.
+   1. Immetti **[!UICONTROL Description (optional)]**. Ad esempio: `Example classification set`.
+   1. Immettere uno o più indirizzi di posta elettronica (separati da virgola) in **[!UICONTROL Notify of issues]**. Gli utenti ricevono notifiche e-mail in caso di problemi.
+   1. Seleziona **[!UICONTROL Type]** del set di classificazione. I tipi possibili sono:
+      * **[!UICONTROL Primary]**. Un set di classificazione principale si applica alle dimensioni raccolte in Adobe Analytics. Le classificazioni primarie consentono di raggruppare (classificare) i valori delle dimensioni granulari in livelli di dati più significativi. Ad esempio, potrebbe essere utile raggruppare le parole chiave di ricerca interna in categorie di ricerca interna per comprendere i temi nei dati di ricerca. Oppure classifica le SKU dei prodotti per colore o categoria.
+         * Immettere uno o più **[!UICONTROL Subscriptions]**.  È possibile definire più combinazioni di **[!UICONTROL Report Suite]** e **[!UICONTROL Dimension]** in un set di classificazione.
+
+         * Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per eliminare una combinazione di **[!UICONTROL Report Suite]** e **[!UICONTROL Key Dimension]**.
+
+        Se aggiungi una combinazione di **[!UICONTROL Report Suite]** e **[!UICONTROL Key Dimension]** già esistente in un altro set di classificazione, viene visualizzato un avviso rosso sotto la combinazione. È possibile selezionare **[!UICONTROL Add to existing]** per aprire l&#39;altro set di classificazione e [aggiungere classificazioni allo schema](schema.md) per l&#39;altro set di classificazione oppure modificare la dimensione.
+      * **[!UICONTROL Lookup]**. Una tabella di ricerca è una classificazione di una classificazione primaria, comunemente definita come figlio o sottoclassificazioni. Una ricerca è costituita da metadati relativi a un valore di classificazione, anziché alla dimensione originale. Ad esempio, una dimensione *Prodotto* potrebbe avere una classificazione primaria *Codice colore*. Una tabella di ricerca di *Nome colore* può quindi essere allegata al *Codice colore* per spiegare ogni codice colore.
+1. Selezionare **[!UICONTROL Save]** per salvare il set di classificazione. Selezionare **[!UICONTROL Cancel]** per annullare la definizione.
+1. Per definire lo schema per il set di classificazione, seleziona il set di classificazione appena creato dal gestore **[!UICONTROL Classification Sets]** per [modificare il set di classificazione](#edit-a-classification-set).
+
+
+## Modificare un set di classificazione
+
+Per modificare un set di classificazione, nell’interfaccia principale:
+
+1. Seleziona **[!UICONTROL Components]** nell’interfaccia principale, quindi seleziona **[!UICONTROL Classification sets]**.
+1. In **[!UICONTROL Classification Sets]**, selezionare la scheda **[!UICONTROL Classification Sets]**.
+1. Seleziona il titolo del set di classificazione.
+1. Nella finestra di dialogo **[!UICONTROL Classification Set: _titolo set di classificazione_]**, puoi definire le [impostazioni](settings.md) e lo [schema](schema.md) per il set di classificazione.
+1. Al termine, seleziona **[!UICONTROL Save]** per salvare le modifiche. Seleziona **[!UICONTROL Cancel]** per annullare.
+
+
+<!--
+
+
+### Schema
+
+In the Schema tab 
+
+
+
+
+
+You can use the Classification set manager to create a classification set.
 
 **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > **[!UICONTROL Add]**
 
-Quando crei un set di classificazione, sono disponibili i seguenti campi.
+When creating a classification set, the following fields are available.
 
-* **[!UICONTROL Name]**: campo di testo utilizzato per identificare il set di classificazione. Questo campo non può essere modificato al momento della creazione, ma può essere rinominato in un secondo momento.
-* **[!UICONTROL Column Name]**: nome della prima dimensione di classificazione da creare. Questo campo è il nome della dimensione utilizzato in Analysis Workspace e il nome della colonna quando si esportano i dati di classificazione. Puoi aggiungere altri nomi di colonna dopo la creazione del set di classificazione.
-* **[!UICONTROL Type]**: pulsanti di scelta che indicano il tipo di classificazione.
-   * **[!UICONTROL Primary]**: applica alle dimensioni raccolte in Analytics. Sono un modo per raggruppare (classificare) i valori delle dimensioni granulari in livelli di dati più significativi. Ad esempio, potrebbe essere utile raggruppare le parole chiave di ricerca interna in categorie di ricerca interna per comprendere meglio i temi nei dati di ricerca.
-   * **[!UICONTROL Lookup]**: comunemente definita figlio o sottoclassificazioni, una tabella di ricerca è una classificazione di una classificazione primaria. Si tratta di metadati relativi a un valore di classificazione, anziché alla dimensione originale. Ad esempio, la variabile di prodotto potrebbe avere una classificazione primaria di &quot;Codice colore&quot;. Una tabella di ricerca di &quot;Nome colore&quot; può quindi essere allegata a &quot;Codice colore&quot; per spiegare ulteriormente il significato di ciascun codice.
-* **[!UICONTROL Subscriptions]** Le suite di rapporti e le dimensioni a cui si applica questo set di classificazione. Puoi aggiungere più combinazioni di suite di rapporti e dimensioni a un set di classificazione.
+* **[!UICONTROL Name]**: A text field used to identify the classification set. This field cannot be edited upon creation, but can be renamed later.
+* **[!UICONTROL Column Name]**: The name of the first classification dimension that you want to create. This field is the dimension name used in Analysis Workspace, and the column name when exporting classification data. You can add more column names after the classification set is created.
+* **[!UICONTROL Type]**: Radio buttons that indicate the type of classification.
+  * **[!UICONTROL Primary]**: Apply to dimensions collected in Analytics. They are a way to group (classify) granular dimension values into more meaningful levels of data. For example, you might want to group internal search keywords into internal search categories, to better understand themes in your search data.
+  * **[!UICONTROL Lookup]**: Commonly referred to as child or subclassifications, a lookup table is a classification of a primary classification. It is metadata about a classification value, rather than the original dimension. For example, the Product variable might have a primary classification of 'Color code'. A lookup table of 'Color name' could then be attached to 'Color code' to further explain what each code means.
+* **[!UICONTROL Subscriptions]** The report suites and dimensions that this classification set applies to. You can add multiple report suite and dimension combinations to a classification set.
 
-![Creare un set di classificazione](../../assets/classification-set-create.png)
+![Create a Classification set](../../assets/classification-set-create.png)
 
-Se esiste un set di classificazione per una determinata suite di rapporti + variabile, la classificazione viene aggiunta allo schema. Una determinata combinazione di suite di rapporti e variabile non può appartenere a più set di classificazione.
+If a classification set exists for a given report suite + variable, the classification is added to the schema instead. A given report suite + variable combination cannot belong to multiple classification sets.
+
+-->

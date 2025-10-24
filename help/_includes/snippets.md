@@ -1,7 +1,7 @@
 ---
-source-git-commit: d6e51ae2668bc25edea76640cdd97abef184fa3e
+source-git-commit: e1feb14b72956133f3d04a514a3446733e7a2af5
 workflow-type: tm+mt
-source-wordcount: '2975'
+source-wordcount: '2977'
 ht-degree: 87%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Una nuova versione semplificata di [Report Builder](/help/analyze/report-builder/rb-overview.md) è stata rilasciata il 16 ottobre 2024. È supportato su Mac, Windows e browser web.
->&#x200B;>Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
+>>Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
 
-## Annuncio sulla fine del ciclo di vita di Reports & Analytics {#ra-eol}
+## Annuncio sulla fine del ciclo di vita di Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -203,6 +203,6 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 
 >[!WARNING]
 >
->Il generatore di regole di classificazione è obsoleto e non sarà più accessibile dopo il **31 agosto 2026**. Passa all&#39;esperienza [Set di classificazione](/help/components/classifications/sets/overview.md) per garantire la continuità delle funzionalità.
+>Il generatore di regole di classificazione è obsoleto e non sarà più accessibile dopo il **31 agosto 2026**. Passa all&#39;esperienza [Set di classificazione](/help/components/classifications/sets/overview.md), una volta disponibile, per garantire funzionalità continue.
 >
 
