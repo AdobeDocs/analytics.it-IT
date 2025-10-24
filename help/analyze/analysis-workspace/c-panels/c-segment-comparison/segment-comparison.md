@@ -42,7 +42,7 @@ Il pannello Confronto segmenti rileva le differenze più importanti dal punto di
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/23976?quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/41729?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
