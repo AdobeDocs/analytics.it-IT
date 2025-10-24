@@ -1,5 +1,5 @@
 ---
-source-git-commit: 399902152f4882e3953dbb67dd51fd12f46ef773
+source-git-commit: d6e51ae2668bc25edea76640cdd97abef184fa3e
 workflow-type: tm+mt
 source-wordcount: '2975'
 ht-degree: 87%
@@ -12,9 +12,9 @@ ht-degree: 87%
 >[!IMPORTANT]
 >
 >Una nuova versione semplificata di [Report Builder](/help/analyze/report-builder/rb-overview.md) è stata rilasciata il 16 ottobre 2024. È supportato su Mac, Windows e browser web.
->&#x200B;>Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
+>>Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
 
-## Annuncio sulla fine del ciclo di vita di Reports & Analytics {#ra-eol}
+## Annuncio sulla fine del ciclo di vita di Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -113,9 +113,9 @@ A seconda del modello di attribuzione, il contenitore e i canali ricevono un cre
 
 | Modello | Contenitore | Intervallo di lookback | Spiegazione |
 |---|---|---|---|
-| Primo contatto | Visita | 30 giorni | L’attribuzione esamina solo la terza visita. Tra e-mail e visualizzazione, l’e-mail è avvenuta prima, quindi l’e-mail ottiene il 100% di credito per l’acquisto di 50 $. |
+| Primo contatto | Visita | Intervallo di reporting | L’attribuzione esamina solo la terza visita. Tra e-mail e visualizzazione, l’e-mail è avvenuta prima, quindi l’e-mail ottiene il 100% di credito per l’acquisto di 50 $. |
 | Primo contatto | Visitatore | 30 giorni | L’attribuzione esamina tutte e tre le visite. La ricerca a pagamento è avvenuta prima, quindi ottiene il 100% di credito per l’acquisto di 50 $. |
-| Lineare | Visita | 30 giorni | Il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $. |
+| Lineare | Visita | Intervallo di reporting | Il credito è suddiviso tra e-mail e visualizzazione. Entrambi questi canali ricevono un credito di 25 $. |
 | Lineare | Visitatore | 30 giorni | Il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione. Ogni canale ottiene un credito di 12,50 $ per questo acquisto. |
 | A forma di J | Visitatore | 30 giorni | Il credito è suddiviso tra ricerca a pagamento, social, e-mail e visualizzazione.<ul><li>Il 60% di credito è assegnato alla visualizzazione, per un valore di 30 $.</li><li>Il 20% di credito è assegnato alla ricerca a pagamento, per un valore di 10 $.</li><li>Il restante 20% è suddiviso tra social e e-mail, ovvero 5 $ ciascuno.</li></ul> |
 | Decadimento nel tempo | Visitatore | 30 giorni | <ul><li>Intervallo di 0 giorni tra il punto di contatto visualizzazione e la conversione. `2^(-0/7) = 1`</li><li>Intervallo di 0 giorni tra il punto di contatto e-mail e la conversione. `2^(-0/7) = 1`</li><li>Intervallo di 6 giorni tra il punto di contatto social e la conversione. `2^(-6/7) = 0.552`</li><li>Intervallo di 9 giorni tra il punto di contatto ricerca a pagamento e la conversione. `2^(-9/7) = 0.41`</li>La normalizzazione di questi valori determina quanto segue:<ul><li>Visualizzazione: 33,8%, ovvero 16,88 $</li><li>E-mail: 33,8% ovvero 16,88 $</li><li>Social: 18,6%, ovvero 9,32 $</li><li>Ricerca a pagamento: 13,8%, ovvero 6,92 $</li></ul></li></ul> |
