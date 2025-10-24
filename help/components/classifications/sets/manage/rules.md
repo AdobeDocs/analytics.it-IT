@@ -15,7 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >I set di classificazione non supportano ancora le regole. La funzionalità delle regole verrà aggiunta all’interfaccia dei set di classificazione prima che la funzionalità legacy del generatore di regole diventi non disponibile.
->>Se hai bisogno di regole per le classificazioni, continua a utilizzare il [Generatore di regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md).
+>&#x200B;>Se hai bisogno di regole per le classificazioni, continua a utilizzare il [Generatore di regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md).
 
 
 <!--
