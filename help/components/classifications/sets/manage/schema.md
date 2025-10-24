@@ -3,9 +3,9 @@ title: Schema del set di classificazione
 description: Scopri come visualizzare e modificare lo schema per un singolo set di classificazione.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1106'
 ht-degree: 4%
 
 ---
@@ -14,10 +14,10 @@ ht-degree: 4%
 
 Lo schema è l’elenco delle classificazioni che desideri applicare alle dimensioni chiave definite per il set di classificazione. Ad esempio, se hai definito prodotto come dimensione chiave e questo campo contiene uno SKU di prodotto, utilizza lo schema per aggiungere classificazioni come nome del prodotto, colore del prodotto, dimensione del prodotto e altro ancora.
 
-Per definire lo schema per un set di classificazione:
+Per modificare lo schema per un set di classificazione:
 
 1. Nel gestore **[!UICONTROL Classifications Sets]**, selezionare il set di classificazione per il quale si desidera modificare lo schema.
-1. Nella finestra di dialogo **[!UICONTROL Classification Set: _set di classificazione_]**, seleziona la scheda Schema. Tale scheda è costituita dai seguenti elementi dell’interfaccia:
+1. Nella finestra di dialogo **[!UICONTROL Classification Set: _set di classificazione_]**, seleziona la scheda **[!UICONTROL Schema]**. Tale scheda è costituita dai seguenti elementi dell’interfaccia:
 
    ![Set di classificazione - schema](assets/classification-sets-schema.png)
 
@@ -170,7 +170,7 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
 
 1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
 1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud.
-1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**&#x200B;se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**&#x200B;per annullare la configurazione del percorso cloud.
+1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**per annullare la configurazione del percorso cloud.
 
 
 ## Barra delle azioni

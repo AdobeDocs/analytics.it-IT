@@ -3,10 +3,10 @@ title: Impostazioni set di classificazione
 description: Scopri come creare o modificare un set di classificazione.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 2%
+source-wordcount: '150'
+ht-degree: 4%
 
 ---
 
@@ -14,19 +14,26 @@ ht-degree: 2%
 
 Puoi modificare le impostazioni iniziali di un set di classificazione.
 
-Nel gestore **[!UICONTROL Classifications Sets]**, selezionare il set di classificazione per il quale si desidera modificare le impostazioni.
+Per modificare le impostazioni per un set di classificazione:
 
-Nella scheda **[!UICONTROL Settings]** della finestra di dialogo **[!UICONTROL Classification Set: _titolo set di classificazione_]**, dove appropriato:
+1. Nel gestore **[!UICONTROL Classifications Sets]**, selezionare il set di classificazione per il quale si desidera modificare lo schema.
+1. Nella finestra di dialogo **[!UICONTROL Classification Set: _set di classificazione_]**, seleziona la scheda **[!UICONTROL Settings]**.
 
-![Set di classificazione - impostazioni](assets/classification-sets-settings.png)
+1. Nella finestra di dialogo **[!UICONTROL Classification Set: _set di classificazione_]**, dove appropriato:
 
-1. Modifica **[!UICONTROL Name]**.
-1. Modifica un **[!UICONTROL Description (optional)]**.
-1. Modificare l&#39;elenco degli indirizzi di posta elettronica (separatore di virgole) in **[!UICONTROL Notify of issues]**. Questi utenti ricevono una notifica via e-mail di eventuali problemi.
-1. Aggiungi uno o più **[!UICONTROL Tags (optional)]** al set di classificazione. Selezionare un tag esistente dal menu a discesa **[!UICONTROL Tags]** oppure immettere un nuovo tag. Utilizza ![CrossSize100](/help/assets/icons/CrossSize100.svg) per rimuovere un tag.
-1. Modifica **[!UICONTROL Subscriptions]**.
-   * È possibile definire più combinazioni di **[!UICONTROL Report Suite]** e **[!UICONTROL Dimension]** in un set di classificazione.
-   * Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per eliminare una combinazione di **[!UICONTROL Report Suite]** e **[!UICONTROL Key Dimension]**.
+   ![Set di classificazione - impostazioni](assets/classification-sets-settings.png)
+
+   1. Modifica **[!UICONTROL Name]**.
+   1. Modifica un **[!UICONTROL Description (optional)]**.
+   1. Modificare l&#39;elenco degli indirizzi di posta elettronica (separatore di virgole) in **[!UICONTROL Notify of issues]**. Questi utenti ricevono una notifica via e-mail di eventuali problemi.
+   1. Aggiungi uno o più **[!UICONTROL Tags (optional)]** al set di classificazione. Selezionare un tag esistente dal menu a discesa **[!UICONTROL Tags]** oppure immettere un nuovo tag. Utilizza ![CrossSize100](/help/assets/icons/CrossSize100.svg) per rimuovere un tag.
+   1. Modifica **[!UICONTROL Subscriptions]**.
+      * È possibile definire più combinazioni di **[!UICONTROL Report Suite]** e **[!UICONTROL Dimension]** in un set di classificazione.
+      * Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per eliminare una combinazione di **[!UICONTROL Report Suite]** e **[!UICONTROL Key Dimension]**.
+
+      Per ulteriori dettagli, consulta [Creare un set di classificazione](create.md).
+
+   1. Selezionare **[!UICONTROL Save]** per salvare le impostazioni. Seleziona **[!UICONTROL Cancel]** per annullare.
 
 
 <!--
