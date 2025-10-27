@@ -3,9 +3,9 @@ title: Panoramica sui set di classificazione
 description: Scopri come utilizzare i set di classificazione per gestire i dati di classificazione. Scopri le differenze tra i set di classificazione e le classificazioni legacy.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '779'
 ht-degree: 13%
 
 ---
@@ -23,7 +23,7 @@ Nelle classificazioni legacy, ogni classificazione è collegata direttamente a u
 
 ![Classificazione legacy](manage/assets/classifications-legacy.svg)
 
-Nei set di classificazione puoi definire le sottoscrizioni di suite di rapporti e combinazioni di dimensioni chiave. Ad esempio, una classificazione del catalogo dei prodotti applicabile per più suite di rapporti deve essere definita una sola volta come set di classificazione. All’interno di tale set di classificazione puoi configurare più suite di rapporti e combinazioni di dimensioni chiave per abbonarti a tale set di classificazione.
+Nei set di classificazione puoi definire le sottoscrizioni di suite di rapporti e combinazioni di dimensioni chiave. Ad esempio, una classificazione del catalogo dei prodotti applicabile per più suite di rapporti e basata su una dimensione prodotto (SKU) deve essere definita una sola volta come set di classificazione. All’interno di tale set di classificazione puoi configurare più suite di rapporti e combinazioni di dimensioni chiave per abbonarti a tale set di classificazione.
 
 ![Set di classificazione](manage/assets/classifications-sets.svg)
 
@@ -42,7 +42,7 @@ I set di classificazione sono costituiti da tre aree funzionali:
 Il flusso di lavoro per i set di classificazione in genere prevede i seguenti passaggi:
 
 1. Valuta per quali combinazioni di suite di rapporti e dimensioni desideri creare un set di classificazione. Un esempio è la definizione di un set di classificazione dei prodotti che puoi creare per qualsiasi suite di rapporti per la quale desideri classificare i prodotti con maggiori dettagli. Ad esempio, dettagli come categoria e colore.
-1. [Crea un set di classificazione](/help/components/classifications/sets/manage/create.md) con sottoscrizioni per una o più combinazioni di suite di rapporti e dimensioni che identificano i prodotti. Ad esempio:
+1. [Crea un set di classificazione](/help/components/classifications/sets/manage/create.md) con sottoscrizioni per una o più combinazioni di suite di rapporti e dimensioni chiave che identificano i prodotti. Ad esempio:
 
    | Suite di rapporti | Dimensione chiave |
    |---|---|
@@ -77,13 +77,15 @@ Il flusso di lavoro per i set di classificazione in genere prevede i seguenti pa
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
+Nel file di dati di classificazione si fa riferimento alla dimensione chiave per ogni suite di rapporti (ad esempio: **[!UICONTROL Product ID]** e **[!UICONTROL Product SKU]**) che utilizza `Key`. E si fa riferimento a ogni classificazione utilizzando **[!UICONTROL Classification Name]** (ad esempio `Category` o `Color`).
+
 1. [Carica](/help/components/classifications/sets/manage/schema.md#upload) il file contenente i dati di classificazione nello schema del set di classificazione.
 
 1. [Automatizza](/help/components/classifications/sets/manage/schema.md#automate) il processo di aggiornamenti al catalogo prodotti che desideri visualizzare nei dati di classificazione tramite l&#39;utilizzo di una posizione cloud.
 
 1. [Scarica](/help/components/classifications/sets/manage/schema.md#download) i dati di classificazione per convalidare il contenuto.
 
-1. [Controlla la cronologia dei processi](/help/components/classifications/sets/job-manager.md) per visualizzare le azioni (importazione, esportazione e altro) sulle classificazioni.
+1. [Controlla la cronologia dei processi](/help/components/classifications/sets/job-manager.md) per visualizzare i risultati delle azioni (caricamento, download, modello e altro) sulle classificazioni.
 1. Se disponi di più set di classificazione simili come risultato di una migrazione dalla funzionalità di classificazione legacy, [consolida](consolidations/manage.md) questi set di classificazione.
 
 
@@ -94,7 +96,7 @@ L’architettura back-end rilasciata con i set di classificazione contiene diver
 
 * Riduzione del tempo di elaborazione (da 72 ore a 24 ore).
 * Interfaccia utente riprogettata per gestire le classificazioni.
-* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 Anche l’architettura back-end rilasciata con i set di classificazione contiene diverse modifiche:
 

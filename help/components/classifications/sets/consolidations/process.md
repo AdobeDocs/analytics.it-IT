@@ -3,7 +3,7 @@ title: Creare E Modificare I Consolidamenti Di Classificazione
 description: Spiega come creare, convalidare, eseguire, approvare e annullare i consolidamenti delle classificazioni.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 3%
@@ -75,7 +75,7 @@ Per modificare il consolidamento di una classificazione, nell’interfaccia prin
 1. Seleziona **[!UICONTROL Classification sets]** dal menu **[!UICONTROL Components]**.
 1. Nel gestore **[!UICONTROL Classification Sets]**, selezionare la scheda **[!UICONTROL Consolidations]**.
 1. Nel gestore **[!UICONTROL Classification Sets Consolidations]**:
-   1. Seleziona il titolo del consolidamento della classificazione. Viene visualizzata la finestra di dialogo Consolidamento: consolidamento classificazione. L&#39;aspetto e le azioni disponibili dipendono dallo stato corrente del consolidamento e dalla possibilità di modificare il consolidamento della classificazione.
+   1. Seleziona il nome del consolidamento della classificazione. Viene visualizzata la finestra di dialogo **[!UICONTROL Consolidation: _nome consolidamento classificazione_]**. L&#39;aspetto e le azioni disponibili dipendono dallo stato corrente del consolidamento e dalla possibilità di modificare il consolidamento della classificazione.
 
       | Azioni disponibili | Descrizione |
       |---|---|
