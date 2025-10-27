@@ -3,9 +3,9 @@ title: Schema del set di classificazione
 description: Scopri come visualizzare e modificare lo schema per un singolo set di classificazione.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1224'
 ht-degree: 4%
 
 ---
@@ -16,6 +16,9 @@ Lo schema è l’elenco delle classificazioni che desideri applicare alle dimens
 
 Per modificare lo schema per un set di classificazione:
 
+
+1. Seleziona **[!UICONTROL Components]** dalla barra dei menu superiore di Adobe Analytics, quindi seleziona **[!UICONTROL Classification sets]**.
+1. In **[!UICONTROL Classification Sets]**, selezionare la scheda **[!UICONTROL Classification Sets]**.
 1. Nel gestore **[!UICONTROL Classifications Sets]**, selezionare il set di classificazione per il quale si desidera modificare lo schema.
 1. Nella finestra di dialogo **[!UICONTROL Classification Set: _set di classificazione_]**, seleziona la scheda **[!UICONTROL Schema]**. Tale scheda è costituita dai seguenti elementi dell’interfaccia:
 
@@ -108,7 +111,7 @@ Nella finestra di dialogo **[!UICONTROL Download data for _set di classificazion
 1. Per selezionare i dati da restituire, selezionare un&#39;opzione da **[!UICONTROL Data Returned]**.
 
    * **[!UICONTROL All values]** restituisce tutti i valori per i dati di classificazione correnti.
-   * **[!UICONTROL Any columns empty]** restituisce una colonna con valori chiave per i dati di classificazione esistenti. Colonne AND senza valore per i dati di classificazione per i quali non esiste alcun valore.
+   * **[!UICONTROL Any columns empty]** restituisce una colonna con valori chiave per i dati di classificazione esistenti. Colonne AND senza valore per i dati di classificazione per i quali non esistono valori.
    * **[!UICONTROL All columns empty]** restituisce una colonna chiave con i valori per i dati di classificazione esistenti. Colonne AND senza valore per i dati di classificazione.
 1. Per selezionare il [formato file](/help/components/classifications/sets/data-files.md#general-file-requirements) dei dati di classificazione scaricati, selezionare un&#39;opzione dal menu a discesa **[!UICONTROL File Format]**. Le opzioni sono:
 
@@ -122,7 +125,7 @@ Nella finestra di dialogo **[!UICONTROL Download data for _set di classificazion
    * **[!UICONTROL Latin-1]**.
 
 
-1. Seleziona **[!UICONTROL Download]** per scaricare i dati di classificazione. Il file scaricato si trova nella directory di download predefinita del browser e si chiama <code><i>Set di classificazione</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se il file esiste già, un numero di sequenza <code>(<i>x</i>)</code> viene aggiunto al nome del file.<br/>Se sono state specificate opzioni che non restituiscono dati, verrà visualizzata una finestra di dialogo **[!UICONTROL Notice]** in cui è necessario modificare le opzioni per l&#39;intervallo di date e i dati restituiti.
+1. Seleziona **[!UICONTROL Download]** per scaricare i dati di classificazione. Il file scaricato si trova nella directory di download predefinita del browser e si chiama <code><i>Set di classificazione</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se il file esiste già, un numero di sequenza <code>(<i>x</i>)</code> viene aggiunto al nome del file.<br/>Se sono state specificate opzioni che non restituiscono alcun dato, verrà visualizzata una finestra di dialogo **[!UICONTROL Notice]** in cui viene indicato di modificare le opzioni per l&#39;intervallo di date e i dati restituiti.
 
 
 ### Modello
@@ -156,7 +159,13 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
 
 1. Per selezionare una posizione cloud, selezionare un&#39;opzione da **[!UICONTROL Location Account]**. Vengono visualizzati solo [account località di tipi di account supportati che consentono l&#39;importazione di dati di classificazione](https://experienceleague.adobe.com/it/docs/analytics/components/locations/configure-import-accounts). Per creare un nuovo account, selezionare **[!UICONTROL New account]**.
 1. Per selezionare un percorso, selezionare un&#39;opzione da **[!UICONTROL Location]**. Vengono visualizzate solo le posizioni dei tipi di conto selezionati per l’importazione dei dati di classificazione. Per creare un nuovo percorso, selezionare **[!UICONTROL New location]**.
-1. Per selezionare un delimitatore, selezionare un&#39;opzione da **[!UICONTROL List delimiter]**. Le opzioni sono:
+
+   >[!IMPORTANT]
+   >
+   >Il percorso creato o selezionato deve contenere **[!UICONTROL Prefix]** (cartella) all&#39;interno di **[!UICONTROL Bucket]** per ospitare i file di dati di classificazione. Ad esempio, una cartella denominata `files`. L’hosting dei file nella directory principale di un bucket non funziona con la maggior parte dei percorsi cloud.
+   >
+
+1. Per selezionare un delimitatore, selezionare un&#39;opzione dal menu a discesa **[!UICONTROL List delimiter]**. Le opzioni sono:
    * **[!UICONTROL Comma ,]**
    * **[!UICONTROL Semicolon ;]**
    * **[!UICONTROL Colon :]**
@@ -170,7 +179,13 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
 
 1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
 1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud.
-1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**&#x200B;se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**&#x200B;per annullare la configurazione del percorso cloud.
+1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**per annullare la configurazione del percorso cloud.
+
+Quando carichi i file nel percorso cloud, entro 15 minuti il file viene rilevato e inviato come processo di importazione. Il risultato di questo processo di importazione è riportato in [Gestione processi classificazioni](/help/components/classifications/sets/job-manager.md). Se vieni aggiunto all’elenco di utenti a cui inviare notifiche sul completamento dei processi di acquisizione, riceverai anche messaggi e-mail.
+
+Ad esempio:
+
+![Set di classificazione - E-mail di convalida del processo](assets/job-failed-validation.png){width="400"}
 
 
 ## Barra delle azioni

@@ -3,10 +3,10 @@ title: Impostazioni set di classificazione
 description: Scopri come creare o modificare un set di classificazione.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 23c9dc5cada8b1e9ad2898044a65da766a6334e9
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 4%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,9 @@ Puoi modificare le impostazioni iniziali di un set di classificazione.
 
 Per modificare le impostazioni per un set di classificazione:
 
+
+1. Seleziona **[!UICONTROL Components]** dalla barra dei menu superiore di Adobe Analytics, quindi seleziona **[!UICONTROL Classification sets]**.
+1. In **[!UICONTROL Classification Sets]**, selezionare la scheda **[!UICONTROL Classification Sets]**.
 1. Nel gestore **[!UICONTROL Classifications Sets]**, selezionare il set di classificazione per il quale si desidera modificare lo schema.
 1. Nella finestra di dialogo **[!UICONTROL Classification Set: _set di classificazione_]**, seleziona la scheda **[!UICONTROL Settings]**.
 

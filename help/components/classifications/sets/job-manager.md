@@ -3,10 +3,10 @@ title: Gestione processi di classificazione
 description: Scopri come visualizzare i processi di classificazione correnti e completati generati dai set di classificazione.
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 3%
+source-wordcount: '565'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +16,8 @@ Gestione processi di classificazione mostra i processi di classificazione corren
 
 Per visualizzare i processi di classificazione e agire di conseguenza:
 
-1. Seleziona **[!UICONTROL Components]** nell’interfaccia principale, quindi seleziona **[!UICONTROL Classification sets]**.
+
+1. Seleziona **[!UICONTROL Components]** dalla barra dei menu superiore di Adobe Analytics, quindi seleziona **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, selezionare la scheda **[!UICONTROL Jobs]**.
 
 ## Gestione processi di classificazione
@@ -36,7 +37,7 @@ L&#39;elenco **[!UICONTROL Classification Jobs]** ➊ visualizza i processi di c
 | **[!UICONTROL Job Id]** | Identificatore del processo di classificazione. |
 | **[!UICONTROL Classification Set]** | Set di classificazione associato al processo di classificazione. |
 | **[!UICONTROL Size]** | Dimensione del file esportato o importato come parte del processo di classificazione. |
-| **[!UICONTROL Status]** | Stato del processo di classificazione. I valori possibili sono: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]**, **[!UICONTROL Completed]** o **[!UICONTROL Progress]**. |
+| **[!UICONTROL Status]** | Stato del processo di classificazione. I valori possibili sono: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]** , **[!UICONTROL Completed]** o **[!UICONTROL Progress]**. Se visualizzato, passa il cursore del mouse sull&#39;avviso ![Avviso](/help/assets/icons/Alert.svg) per visualizzare ulteriori informazioni. |
 | **[!UICONTROL File Name]** | Identifica il nome o la funzionalità utilizzati per importare o esportare il file come parte del processo di classificazione. I valori possibili sono: <ul><li>*nessun valore*</li><li>Nome del file elaborato come parte del processo di classificazione.</li><li>**[!UICONTROL SAINT Export]**: il processo è un&#39;esportazione dall&#39;[interfaccia classificazioni legacy](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL export for _set di classificazione _in_timestamp_]**: il processo è un download dall&#39;interfaccia [schema](manage/schema.md#download).</li></ul> |
 | **[!UICONTROL Job Type]** | Tipo di processo di classificazione. I valori possibili sono: **[!UICONTROL Import]** o **[!UICONTROL Export]**. |
 | **[!UICONTROL Source]** | Origine del processo di classificazione. I valori possibili sono: **[!UICONTROL Web API]**, **[!UICONTROL Direct API Upload]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]** o **[!UICONTROL Unknown]**. |

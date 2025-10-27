@@ -3,10 +3,10 @@ title: Gestire i consolidamenti dei set di classificazione
 description: Scopri come consolidare uno o più set di classificazione in un singolo set di classificazione.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 4%
+source-wordcount: '533'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Per visualizzare Gestione consolidamento set di classificazione, è necessario d
 
 Per gestire i consolidamenti delle classificazioni:
 
-1. Seleziona **[!UICONTROL Components]** nell’interfaccia principale, quindi seleziona **[!UICONTROL Classification sets]**.
+1. Seleziona **[!UICONTROL Components]** dalla barra dei menu superiore di Adobe Analytics, quindi seleziona **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, selezionare la scheda **[!UICONTROL Consolidations]**.
 
 

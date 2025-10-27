@@ -3,10 +3,10 @@ title: Creare set di classificazione
 description: Scopri come rendere disponibili campi e descrizioni durante la creazione di un set di classificazione.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 7%
+source-wordcount: '375'
+ht-degree: 3%
 
 ---
 
@@ -16,9 +16,9 @@ Hai [creato](#create-a-classification-set) e [modificato](#edit-a-classification
 
 ## Creare un set di classificazione
 
-Per creare un set di classificazione, nell’interfaccia principale:
+Per creare un set di classificazione:
 
-1. Seleziona **[!UICONTROL Components]** nell’interfaccia principale, quindi seleziona **[!UICONTROL Classification sets]**.
+1. Seleziona **[!UICONTROL Components]** dalla barra dei menu superiore di Adobe Analytics, quindi seleziona **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, selezionare la scheda **[!UICONTROL Classification Sets]**.
 1. Selezionare ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL New]**.
 1. Nella finestra di dialogo **[!UICONTROL Add New Classification Set]** (Crea elemento dati):
@@ -42,9 +42,9 @@ Per creare un set di classificazione, nell’interfaccia principale:
 
 ## Modificare un set di classificazione
 
-Per modificare un set di classificazione, nell’interfaccia principale:
+Per modificare un set di classificazione:
 
-1. Seleziona **[!UICONTROL Components]** nell’interfaccia principale, quindi seleziona **[!UICONTROL Classification sets]**.
+1. Seleziona **[!UICONTROL Components]** dalla barra dei menu superiore di Adobe Analytics, quindi seleziona **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, selezionare la scheda **[!UICONTROL Classification Sets]**.
 1. Seleziona il titolo del set di classificazione.
 1. Nella finestra di dialogo **[!UICONTROL Classification Set: _titolo set di classificazione_]**, puoi definire le [impostazioni](settings.md) e lo [schema](schema.md) per il set di classificazione.
