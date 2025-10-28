@@ -4,10 +4,10 @@ description: Comprendi i prerequisiti e le limitazioni dell’unione di dati uti
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
 feature: CDA
 role: Admin
-source-git-commit: cc0b8703d6b6488adf9a2ea41a51001538d1cbee
+source-git-commit: 6c74f4d4c14765742a2aafdfff2a083c6b0a7183
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 3%
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
@@ -15,6 +15,11 @@ ht-degree: 3%
 # Device Graph
 
 {{available-existing-customers}}
+
+>[!WARNING]
+>
+>Il grafico dei dispositivi in Analytics tra dispositivi non sarà più disponibile il **31 dicembre 2025**. Cambiare qualsiasi suite di rapporti virtuali abilitata per Device Graph al [metodo basato sui campi](/help/components/cda/field-based-stitching.md).
+>
 
 Analytics tra dispositivi può utilizzare Private Graph per unire i dati. Private Graph è un archivio di ID dispositivo con hash specifico per la tua organizzazione. CDA comunica regolarmente con il grafico dei dispositivi per collegare i dispositivi.
 
@@ -28,9 +33,9 @@ Se intendi implementare Cross-Device Analytics utilizzando il metodo del grafico
 >
 
 * Tutti i prerequisiti elencati nella [pagina della panoramica](overview.md).
-* L&#39;organizzazione deve utilizzare il [grafo privato del servizio Adobe Experience Platform Identity](https://business.adobe.com/it/products/experience-platform/identity-service.html). Vedi anche la [home page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it) nella guida utente del servizio Identity.
+* L&#39;organizzazione deve utilizzare il [grafo privato del servizio Adobe Experience Platform Identity](https://business.adobe.com/products/experience-platform/identity-service.html). Vedi anche la [home page](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=it) nella guida utente del servizio Identity.
 * L&#39;implementazione deve utilizzare la versione più recente del servizio Experience Cloud ID (ECID). Consulta la [home page](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) nella guida utente del servizio ID. È probabile che il servizio ID sia già stato distribuito per la maggior parte delle implementazioni che utilizzano [Tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it) in Adobe Experience Platform.
-* L&#39;implementazione deve chiamare la funzione `setCustomerIDs` (o equivalente a SDK) ogni volta che un utente può essere identificato, ad esempio quando un utente effettua l&#39;accesso o apre un messaggio e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Vedi [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html?lang=it) nella guida utente del servizio ID.
+* L&#39;implementazione deve chiamare la funzione `setCustomerIDs` (o equivalente a SDK) ogni volta che un utente può essere identificato, ad esempio quando un utente effettua l&#39;accesso o apre un messaggio e-mail. Questo requisito si applica a tutte le piattaforme, incluse le app mobili se utilizzate. Vedi [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) nella guida utente del servizio ID.
 
 ## Limitazioni specifiche del grafico dei dispositivi
 
