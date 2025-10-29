@@ -3,7 +3,7 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '2579'
 ht-degree: 89%
@@ -85,7 +85,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Chiamata al server principale:** nome alternativo della richiesta di immagine o hit, utilizzato principalmente nel contesto dell’assegnazione di tag per più suite e della fatturazione. Quando lo stesso hit viene inviato a più suite di rapporti, la prima è una chiamata al server principale, mentre le altre sono chiamate al server secondarie. Questa regola si applica a tutti i tipi di hit, inclusi la visualizzazione pagina e il tracciamento dei collegamenti. Consulta anche Chiamate al server secondarie.
 * **Regole di elaborazione:** può fare riferimento a:
    * Regole di elaborazione, un modo per modificare la raccolta dei dati utilizzando determinate regole in Admin Console. Consulta [Regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) nella Guida utente di amministrazione.
-   * Regole di elaborazione per il canale di marketing, un set di regole che determina il canale di marketing a cui appartiene un hit. Consulta [Regole di elaborazione per il canale di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md) nella Guida utente di amministrazione.
+   * Regole di elaborazione per il canale di marketing, un set di regole che determina il canale di marketing a cui appartiene un hit. Consulta [Regole di elaborazione per il canale di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md) nella Guida utente di amministrazione.
 * **Proprietà:** consulta Variabile di traffico.
 * **Rapporto con classifica:** un formato di rapporto che segue in genere una dimensione con una metrica. Questo tipo di rapporto consente di visualizzare gli elementi principali, ad esempio le pagine più visualizzate sul sito. Consulta anche Rapporti con tendenze.
 * **Tempo reale:** visualizza le variabili configurate non appena vengono raccolte con una latenza minima o nulla. Consulta [Rapporti in tempo reale](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) nella Guida utente di amministrazione.

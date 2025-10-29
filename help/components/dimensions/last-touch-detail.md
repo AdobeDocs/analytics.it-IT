@@ -3,7 +3,7 @@ title: Dettaglio del canale di ultimo contatto
 description: Dettagli del canale di marketing più recente entro la scadenza del coinvolgimento del visitatore.
 feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 15%
@@ -16,7 +16,7 @@ La [dimensione](overview.md) di &quot;Dettaglio canale di ultimo contatto&quot; 
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione copia i valori da altre variabili. La variabile utilizzata fa riferimento al valore del canale in ogni [regola di elaborazione del canale di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md). Quando un hit corrisponde a una regola di elaborazione del canale di marketing, la dimensione [Canale di ultimo contatto](last-touch-channel.md) è impostata sul nome del canale e questa dimensione è impostata sul valore del canale impostato nella regola.
+Questa dimensione copia i valori da altre variabili. La variabile utilizzata fa riferimento al valore del canale in ogni [regola di elaborazione del canale di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md). Quando un hit corrisponde a una regola di elaborazione del canale di marketing, la dimensione [Canale di ultimo contatto](last-touch-channel.md) è impostata sul nome del canale e questa dimensione è impostata sul valore del canale impostato nella regola.
 
 Per impostare questa dimensione su un valore specifico, sono necessari i seguenti passaggi:
 

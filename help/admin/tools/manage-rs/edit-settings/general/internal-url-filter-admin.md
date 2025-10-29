@@ -4,7 +4,7 @@ title: Filtri URL interni
 feature: Admin Tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 34%
@@ -20,7 +20,7 @@ I filtri URL interni consentono di identificare i referenti considerati interni 
 
 Un referente o pagina di riferimento è in genere la pagina da cui un visitatore è entrato nel sito. Per evitare alterazioni dei dati, puoi filtrare i referenti interni. Le dimensioni che si basano sui filtri URL interni includono [Referrer](/help/components/dimensions/referrer.md), [Dominio di riferimento](/help/components/dimensions/referring-domain.md), [Canali di marketing](/help/components/dimensions/marketing-channel.md) e altre dimensioni dell&#39;origine del traffico.
 
-[Le regole di elaborazione del canale di marketing](../marketing-channels/c-rules.md) forniscono &quot;[!UICONTROL Matches internal URL filters]&quot; come criteri di regola possibili.
+[Le regole di elaborazione del canale di marketing](../marketing-channels/mc-proc-rules.md) forniscono &quot;[!UICONTROL Matches internal URL filters]&quot; come criteri di regola possibili.
 
 >[!IMPORTANT]
 >

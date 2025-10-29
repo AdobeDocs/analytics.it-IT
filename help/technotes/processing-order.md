@@ -3,7 +3,7 @@ title: Ordine di elaborazione per dati in Adobe Analytics
 description: Scopri l’ordine dei componenti e dei servizi che elaborano i dati in Adobe Analytics.
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 feature: Data Configuration and Collection
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 90%
@@ -35,7 +35,7 @@ Una volta arrivati i dati ad Adobe Analytics, le seguenti funzioni modificano i 
 3. [**Regole bot**](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-rules.md): applica un filtro bot standard o personalizzato per escludere tali dati dal reporting.
 4. [**Regole di elaborazione**](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md): regole personalizzate applicate ai dati dalla tua organizzazione. Include la mappatura delle [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md) alla rispettiva variabile.
 5. **Regole VISTA**: regole flessibili personalizzate applicate ai tuoi dati da un consulente di Adobe. Potenzialmente, le regole VISTA possono essere eseguite prima o dopo le regole di elaborazione, a seconda delle esigenze della tua organizzazione. La maggior parte delle regole VISTA viene generalmente eseguita dopo le regole di elaborazione, ma ogni organizzazione viene impostata in modo diverso. Contatta il team del tuo account Adobe per ulteriori informazioni sulle regole VISTA esistenti.
-6. [**Regole di elaborazione per il canale di marketing**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md): è possibile utilizzare le [Regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) per preparare i dati da utilizzare nelle regole di elaborazione del canale di marketing.
+6. [**Regole di elaborazione per il canale di marketing**](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md): è possibile utilizzare le [Regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) per preparare i dati da utilizzare nelle regole di elaborazione del canale di marketing.
 7. **Dati di geolocalizzazione**: vengono compilate dimensioni che si basano sulla ricerca degli indirizzi IP (ad esempio, la dimensione [Paesi](/help/components/dimensions/countries.md)).
 8. [**Offuscamento IP**](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md): se l’organizzazione ha scelto di offuscare gli indirizzi IP nei dati non elaborati, ciò viene effettuato al termine di tutte le altre funzioni di elaborazione.
 

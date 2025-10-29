@@ -4,10 +4,10 @@ description: Domande frequenti sulle origini dati.
 exl-id: a948dfe9-289f-43e2-a9e7-7990cf609f5c
 feature: Data Sources
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -31,7 +31,7 @@ I dati caricati tramite origini dati non influiscono in alcun modo sulle [visual
 No. Dati caricati tramite origini dati:
 
 * Non passa attraverso [Regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
-* Non passa attraverso [Regole di elaborazione del canale di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+* Non passa attraverso [Regole di elaborazione del canale di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
 * Non passa attraverso [regole VISTA](/help/technotes/vista.md)
 +++
 

@@ -3,7 +3,7 @@ title: Introduzione ai canali di marketing
 description: Scopri il flusso di lavoro Canali di marketing, la configurazione automatica e come applicare un modello di impostazioni a più suite di rapporti.
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 97%
@@ -53,7 +53,7 @@ Consulta [Aggiungere canali di marketing](/help/admin/tools/manage-rs/edit-setti
 
 Dopo aver creato i canali dalla pagina [!UICONTROL Marketing Channel Manager], puoi configurare le regole in modo che i canali possano recuperare dati e generare rapporti.
 
-Consulta [Regole di elaborazione per il canale di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/c-rules.md).
+Consulta [Regole di elaborazione per il canale di marketing](/help/admin/tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md).
 
 Se i canali sono stati creati nella configurazione automatica, le regole in tali canali sono già definite. Puoi modificarle in base alle tue esigenze.
 

@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: 77795002cc4a360ed8aad8e1fe4882f1fe16f6ae
+source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 88%
@@ -68,7 +68,7 @@ ht-degree: 88%
                + [Dati inoltro lato server e codice](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-reference.md)
                + [Verificare l’implementazione dell’inoltro lato server](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-verify.md)
                + [Domande frequenti sull&#39;inoltro lato server](tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md)
-         + Traffic (Traffico) {#traffic-variables}
+         + Traffico {#traffic-variables}
             + [Variabili di traffico](tools/manage-rs/edit-settings/c-traffic-variables/traffic-var.md)
             + [Classificazioni traffico](tools/manage-rs/edit-settings/c-traffic-variables/traffic-classifications.md)
             + [Descrizioni report personalizzati](tools/manage-rs/edit-settings/c-traffic-variables/custom-desc-admin.md)
@@ -85,7 +85,7 @@ ht-degree: 88%
             + [eVar di merchandising](tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md)
          + Canali marketing {#marketing-channels}
             + [Gestore del canale di marketing](tools/manage-rs/edit-settings/marketing-channels/c-channels.md)
-            + [Regole di elaborazione per il canale di marketing](tools/manage-rs/edit-settings/marketing-channels/c-rules.md)
+            + [Regole di elaborazione per il canale di marketing](tools/manage-rs/edit-settings/marketing-channels/mc-proc-rules.md)
             + [Classificazioni del canale di marketing](tools/manage-rs/edit-settings/marketing-channels/classifications-mchannel.md)
             + [Scadenza del canale di marketing](tools/manage-rs/edit-settings/marketing-channels/visitor-engagement.md)
          + Gestione traffico {#traffic-management}
