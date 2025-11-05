@@ -5,10 +5,10 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: 8866608bc6d4e31c876c08894a90bfb982a7d19e
 workflow-type: tm+mt
-source-wordcount: '3676'
-ht-degree: 65%
+source-wordcount: '3670'
+ht-degree: 64%
 
 ---
 
@@ -165,7 +165,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | **`purchaseid`** | Identificatore univoco per un acquisto, impostato mediante la variabile [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Utilizzato dalla colonna `duplicate_purchase`. | char(20) |
 | **`quarterly_visitor`** | Flag che determina se l’hit è un nuovo visitatore trimestrale. | tinyint unsigned |
 | **`ref_domain`** | La dimensione [Dominio di riferimento](/help/components/dimensions/referring-domain.md). In base alla colonna `referrer`. | varchar(100) |
-| **`ref_type`** | ID numerico che rappresenta il tipo di riferimento per l’hit. Utilizzato nella dimensione [Tipo referrer](/help/components/dimensions/referrer-type.md). <br>1: All’interno del sito<br>2: Altri siti web <br>3: Motori di ricerca <br>4. Disco rigido <br>5: USENET <br>6. Digitato/Contrassegnato con segnalibro (nessun referrer) <br>7: E-mail <br>8: Nessun JavaScript <br>9: Social network | tinyint unsigned |
+| **`ref_type`** | ID numerico che rappresenta il tipo di riferimento per l’hit. Utilizzato nella dimensione [Tipo referrer](/help/components/dimensions/referrer-type.md). <ul><li>All’interno del sito</li><li>Altri siti web</li> <li>Motori di ricerca</li> <li> Strumenti di intelligenza artificiale per conversazioni</li><li>Disco rigido</li> <li>USENET</li> <li>Digitato/Contrassegnato con segnalibro (nessun referrer)</li> <li>E-mail</li> <li>Nessun JavaScript</li> <li>Social Network</li></ul> | tinyint unsigned |
 | **`referrer`** | La dimensione [Referrer](/help/components/dimensions/referrer.md). Tieni presente che `referrer` utilizza un tipo di dati varchar(255), `post_referrer` utilizza un tipo di dati varchar(244). | varchar(255) |
 | **`resolution`** | ID numerico che rappresenta la risoluzione del monitoraggio. Utilizzato in dimensione [Risoluzione monitor](/help/components/dimensions/monitor-resolution.md). Usa la tabella di ricerca `resolution.tsv`. | smallint senza segno |
 | **`s_kwcid`** | ID parola chiave utilizzato nelle integrazioni Adobe Advertising.  | varchar(255) |
@@ -410,4 +410,4 @@ Il seguente elenco di colonne non è utilizzato, è stato ritirato o non contien
 >[!MORELIKETHIS]
 >
 >[Mappatura variabile oggetto XDM](/help/implement/aep-edge/xdm-var-mapping.md)
->&#x200B;>[Mappatura variabile oggetto dati](/help/implement/aep-edge/data-var-mapping.md)
+>[Mappatura variabile oggetto dati](/help/implement/aep-edge/data-var-mapping.md)
