@@ -3,10 +3,10 @@ title: Regole VISTA in Adobe Analytics
 description: Ulteriori informazioni sulle regole VISTA e sulle relative funzionalità.
 exl-id: fab2acc3-b037-48f9-bb20-625ccb75b4cc
 feature: Analytics Basics
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: b1c22031b9254ff077dfdc04ab90ab231b504299
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 81%
+source-wordcount: '354'
+ht-degree: 57%
 
 ---
 
@@ -26,7 +26,13 @@ Molti casi d’uso per le regole VISTA sono già offerti dalle [Regole di elabor
 
 >[!IMPORTANT]
 >
->Le regole VISTA richiedono un accordo a pagamento tra la tua organizzazione e Adobe Professional Services. Contatta il team del tuo account Adobe se desideri creare o aggiornare una regola VISTA.
+>L’implementazione e la configurazione delle regole VISTA richiedono un accordo a pagamento tra l’organizzazione e Adobe Professional Services. Contatta il team del tuo account Adobe se desideri creare o aggiornare una regola VISTA.
+>
+>Nota:
+>
+>* La creazione di regole VISTA include solo l’implementazione iniziale. La manutenzione continua o gli aggiornamenti delle regole VISTA richiedono un impegno a pagamento separato.
+>
+>* Le regole VISTA si basano su condizioni specifiche nei dati. Ad esempio, le modifiche all’implementazione di Adobe Analytics, i tipi di dati o le lunghezze delle stringhe raccolte, le modifiche alle tabelle utilizzate per DB VISTA o altre modifiche ai pattern di dati di input potrebbero causare l’interruzione del funzionamento previsto di una regola VISTA. Adobe consiglia di rivedere regolarmente le regole VISTA per determinare se sono necessari aggiornamenti o rimozione.
 
 ## Creare una regola VISTA {#create}
 
