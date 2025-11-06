@@ -5,9 +5,9 @@ subtopic: data feeds
 title: Riferimento colonna dati
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8866608bc6d4e31c876c08894a90bfb982a7d19e
+source-git-commit: 25a50bafe355443e52969f24922ce4a40742e338
 workflow-type: tm+mt
-source-wordcount: '3670'
+source-wordcount: '3680'
 ht-degree: 64%
 
 ---
@@ -26,7 +26,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 >
 >La maggior parte delle colonne contiene una colonna simile con il prefisso `post_`. Le colonne post contengono valori dopo la logica lato server, le regole di elaborazione e le regole VISTA. Nella maggior parte dei casi, Adobe consiglia di utilizzare colonne post. Per ulteriori informazioni, consulta [Domande frequenti sui feed di dati](../df-faq.md).
 
-Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei commit su GitHub](https://github.com/AdobeDocs/analytics.it-IT/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) di questa pagina.
+Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei commit su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) di questa pagina.
 
 | Nome colonna | Descrizione colonna | Tipo di dati |
 | --- | --- | --- |
@@ -165,7 +165,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | **`purchaseid`** | Identificatore univoco per un acquisto, impostato mediante la variabile [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). Utilizzato dalla colonna `duplicate_purchase`. | char(20) |
 | **`quarterly_visitor`** | Flag che determina se l’hit è un nuovo visitatore trimestrale. | tinyint unsigned |
 | **`ref_domain`** | La dimensione [Dominio di riferimento](/help/components/dimensions/referring-domain.md). In base alla colonna `referrer`. | varchar(100) |
-| **`ref_type`** | ID numerico che rappresenta il tipo di riferimento per l’hit. Utilizzato nella dimensione [Tipo referrer](/help/components/dimensions/referrer-type.md). <ul><li>All’interno del sito</li><li>Altri siti web</li> <li>Motori di ricerca</li> <li> Strumenti di intelligenza artificiale per conversazioni</li><li>Disco rigido</li> <li>USENET</li> <li>Digitato/Contrassegnato con segnalibro (nessun referrer)</li> <li>E-mail</li> <li>Nessun JavaScript</li> <li>Social Network</li></ul> | tinyint unsigned |
+| **`ref_type`** | ID numerico che rappresenta il tipo di riferimento per l’hit. Utilizzato nella dimensione [Tipo referrer](/help/components/dimensions/referrer-type.md). <p>1: All’interno del sito</p><p>2: Altri siti web</p> <p>3: Motori di ricerca</p> <p>4: Disco rigido</p> <p>5: USENET</p> <p>6: Digitato/Contrassegnato con segnalibro (nessun referrer)</p> <p>7: E-mail</p> <p>8: Nessun JavaScript</p> <p>9: Social network</p><p>10: Strumenti di intelligenza artificiale per conversazioni</p> | tinyint unsigned |
 | **`referrer`** | La dimensione [Referrer](/help/components/dimensions/referrer.md). Tieni presente che `referrer` utilizza un tipo di dati varchar(255), `post_referrer` utilizza un tipo di dati varchar(244). | varchar(255) |
 | **`resolution`** | ID numerico che rappresenta la risoluzione del monitoraggio. Utilizzato in dimensione [Risoluzione monitor](/help/components/dimensions/monitor-resolution.md). Usa la tabella di ricerca `resolution.tsv`. | smallint senza segno |
 | **`s_kwcid`** | ID parola chiave utilizzato nelle integrazioni Adobe Advertising.  | varchar(255) |
