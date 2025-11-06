@@ -26,7 +26,7 @@ Utilizza questa pagina per scoprire quali dati sono contenuti in ciascuna colonn
 >
 >La maggior parte delle colonne contiene una colonna simile con il prefisso `post_`. Le colonne post contengono valori dopo la logica lato server, le regole di elaborazione e le regole VISTA. Nella maggior parte dei casi, Adobe consiglia di utilizzare colonne post. Per ulteriori informazioni, consulta [Domande frequenti sui feed di dati](../df-faq.md).
 
-Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei commit su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) di questa pagina.
+Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei commit su GitHub](https://github.com/AdobeDocs/analytics.it-IT/commits/main/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) di questa pagina.
 
 | Nome colonna | Descrizione colonna | Tipo di dati |
 | --- | --- | --- |
