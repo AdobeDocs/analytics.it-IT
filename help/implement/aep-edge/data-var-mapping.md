@@ -25,7 +25,7 @@ Alcuni campi dell&#39;oggetto dati supportano anche i rispettivi valori del para
 
 ## Mappatura campo oggetto dati
 
-Gli aggiornamenti precedenti a questa tabella si trovano nella cronologia del commit [di questa pagina su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Analogamente alle variabili di AppMeasurement, tutti i campi degli oggetti dati fanno distinzione tra maiuscole e minuscole.
+Gli aggiornamenti precedenti a questa tabella si trovano nella cronologia del commit [di questa pagina su GitHub](https://github.com/AdobeDocs/analytics.it-IT/commits/main/help/implement/aep-edge/data-var-mapping.md). Analogamente alle variabili di AppMeasurement, tutti i campi degli oggetti dati fanno distinzione tra maiuscole e minuscole.
 
 | Percorso campo oggetto dati | Variabile e descrizione di Analytics |
 | --- | --- |
