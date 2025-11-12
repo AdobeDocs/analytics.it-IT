@@ -3,10 +3,10 @@ title: Dimensioni del ciclo di vita mobile
 description: Dimensioni basate sui dati raccolti tramite Mobile SDK.
 feature: Dimensions
 exl-id: b7ba45d7-7d30-48a3-a747-ea9fbb253abb
-source-git-commit: 4c472d9a99f15ed253b68124aa31bdc88554d9a5
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 16%
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 16%
 
 | Nome dimensione ciclo di vita | Descrizione | Variabile dati contestuali |
 | --- | --- | --- |
-| [!UICONTROL First Launch Date] | | Da definire |
+| [!UICONTROL First Launch Date] | | |
 | [!UICONTROL Device Name (SDK)] | | `a.DeviceName` |
 | [!UICONTROL Operating System Version (SDK)] | | `a.OSVersion` |
 | [!UICONTROL Resolution (SDK)] | | `a.Resolution` |
@@ -33,16 +33,16 @@ ht-degree: 16%
 | [!UICONTROL Distance to Point of Interest Center] | | `a.loc.dist` |
 | [!UICONTROL Launch Number] | | `a.Launches` |
 | [!UICONTROL Days Since First Use] | | `a.DaysSinceFirstUse` |
-| [!UICONTROL Action Name] | | Da definire |
+| [!UICONTROL Action Name] | | |
 | [!UICONTROL Lifetime Value (evar)] | | `a.ltv.amount` |
-| [!UICONTROL Beacon Major] | | Da definire |
-| [!UICONTROL Beacon Minor] | | Da definire |
-| [!UICONTROL Beacon UUID] | | Da definire |
-| [!UICONTROL Beacon Proximity] | | Da definire |
+| [!UICONTROL Beacon Major] | | |
+| [!UICONTROL Beacon Minor] | | |
+| [!UICONTROL Beacon UUID] | | |
+| [!UICONTROL Beacon Proximity] | | |
 | [!UICONTROL Days Since Last Use] | | `a.DaysSinceFirstUse` |
 | [!UICONTROL Hour of Day (SDK)] | | `a.HourOfDay` |
 | [!UICONTROL Day of Week (SDK)] | | `a.DayOfWeek` |
-| [!UICONTROL Point of Interest ID] | | Da definire |
+| [!UICONTROL Point of Interest ID] | | |
 
 {style="table-layout:auto"}
 

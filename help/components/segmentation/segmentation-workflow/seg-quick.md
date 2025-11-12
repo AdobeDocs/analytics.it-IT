@@ -4,7 +4,7 @@ title: Segmenti rapidi
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 21%
@@ -20,7 +20,7 @@ I segmenti rapidi consentono di esplorare rapidamente i dati all&#39;interno di 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://video.tv.adobe.com/v/345338/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://video.tv.adobe.com/v/341466/?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -85,7 +85,7 @@ L’area delle condizioni specifica le condizioni (fino a un massimo di tre). Pe
 
 | Elemento | Descrizione |
 |---|---|
-| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Metric]**<br/>**[!UICONTROL Date range]** | Dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg), seleziona se desideri specificare una condizione per una dimensione, una metrica o un intervallo di date. |
+| **[!UICONTROL Dimension]**<br/>**[!UICONTROL Metric]**<br/>**[!UICONTROL Date range]** | Dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg), seleziona se desideri specificare una condizione per una dimensione, una metrica o un intervallo di date. |
 | **[!UICONTROL *component *]** | Il campo del componente per la condizione. Puoi [!UICONTROL *Digitare per aggiungere*] un componente, selezionare un componente dall’elenco oppure trascinarlo dal pannello dei componenti. Puoi rilasciare componenti simili solo nel campo componente della condizione. Ad esempio, puoi rilasciare un componente dimensione solo dal pannello dei componenti in una condizione di dimensione. <br/>Puoi anche trascinare un componente per sostituirne uno esistente.<br/>Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per eliminare il componente dal campo del componente. |
 | **[!UICONTROL *operator *]** | Operatore del componente. Per ulteriori informazioni, consulta [Operatori](../seg-reference/seg-operators.md). Disponibile solo per dimensioni e metriche. |
 | **[!UICONTROL *value *]** | Valore della condizione. A seconda dell’operatore selezionato, è possibile selezionare il valore da un elenco o immetterlo. |

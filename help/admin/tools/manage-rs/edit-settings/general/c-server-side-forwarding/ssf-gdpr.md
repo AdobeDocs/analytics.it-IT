@@ -4,7 +4,7 @@ title: Conformità a GDPR/ePrivacy e inoltro lato server
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 59%
@@ -29,8 +29,8 @@ In base al metodo di implementazione adottato, segui questi passaggi.
 
 | Metodo di implementazione | Passaggi |
 |--- |--- |
-| Tag in Adobe Experience Platform | Se hai installato l’estensione Adobe Analytics, aggiungi la seguente definizione di variabile di dati di contesto all’editor di codice personalizzato nella configurazione Azione di una regola: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota: definisci la variabile contextdata e impostala su 1 per i clienti che non hanno acconsentito al marketing mirato. Imposta la variabile `contextdata` su *0* per i clienti che hanno acconsentito al marketing mirato. |
-| AppMeasurement | Aggiungi al file AppMeasurement.js la definizione della variabile contextdata: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Nota: definisci la variabile contextdata e impostala su 1 per i clienti che non hanno acconsentito al marketing mirato. Imposta la variabile contextdata su 0 per i clienti che hanno acconsentito al marketing mirato. |
+| Tag in Adobe Experience Platform | Se hai installato l’estensione Adobe Analytics, aggiungi la seguente definizione di variabile di dati di contesto all’editor di codice personalizzato nella configurazione Azione di una regola: <br/>`s.contextData['cm.ssf'] = '1'` <br/>Nota: definisci la variabile contextdata e impostala su 1 per i clienti che non hanno acconsentito al marketing mirato. Imposta la variabile `contextdata` su *0* per i clienti che hanno acconsentito al marketing mirato. |
+| AppMeasurement | Aggiungi al file AppMeasurement.js la definizione della variabile contextdata: <br/>`s.contextData['cm.ssf'] = '1'` <br/>Nota: definisci la variabile contextdata e impostala su 1 per i clienti che non hanno acconsentito al marketing mirato. Imposta la variabile contextdata su 0 per i clienti che hanno acconsentito al marketing mirato. |
 
 ## Reportistica (facoltativo) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
