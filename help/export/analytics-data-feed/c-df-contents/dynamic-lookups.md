@@ -3,9 +3,9 @@ title: Ricerche dinamiche
 description: Scopri cosa sono le ricerche dinamiche e come abilitarle. Include gestori, attributi mobili e tipi di sistemi operativi.
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
-source-git-commit: 6b8366b451be1612331f517ee80fd57744deafdc
+source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '306'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,16 @@ Le ricerche dinamiche consentono di ricevere file di ricerca aggiuntivi nel feed
 * **Attributi mobile**: fornisce contesto aggiuntivo per la colonna `mobile_id`, incluse tutte le funzionalità monitorate per ciascun dispositivo mobile. Il nome file incluso è `mobile_attributes.tsv`.
 * **Tipo di sistema operativo**: fornisce un contesto alternativo per la colonna `os`. Sia `operating_systems.tsv` che `operating_system_type.tsv` utilizzano la colonna `os` come chiave, tuttavia solo `operating_system_type.tsv` è una ricerca dinamica.
 
-## Abilita ricerche dinamiche
+## Abilita ricerche dinamiche {#enable-dynamic-lookups}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_dynamic_lookups"
+>title="Abilita ricerche dinamiche"
+>abstract="Seleziona questa opzione per ricevere file di ricerca aggiuntivi nel feed di dati, altrimenti non disponibili. Questa impostazione consente di inviare le seguenti tabelle di ricerca con ciascun file di feed dati:<ul><li>Nome gestore</li><li>Attributi mobili</li><li>Tipo di sistema operativo</li></ul>"
+
+<!-- markdownlint-enable MD034 -->
 
 Se desideri ricevere i file di ricerca menzionati, devi soddisfare tutti i seguenti prerequisiti:
 

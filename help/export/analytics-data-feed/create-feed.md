@@ -3,10 +3,10 @@ title: Creare un feed dati
 description: Scopri come creare un feed di dati e le informazioni sui file da fornire ad Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: af3583bb7dfc2fce083a41432680ef3933eb9582
 workflow-type: tm+mt
-source-wordcount: '4136'
-ht-degree: 47%
+source-wordcount: '4223'
+ht-degree: 45%
 
 ---
 
@@ -19,7 +19,25 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
 Prima di creare un feed di dati, è importante avere una conoscenza di base dei feed di dati e assicurarsi di soddisfare tutti i prerequisiti. Per ulteriori informazioni, consulta [Panoramica sui feed di dati](data-feed-overview.md).
 
-## Creare e configurare un feed dati
+## Creare e configurare un feed dati {#create-and-configure-data-feed}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_os_strings"
+>title="Sostituire le stringhe del sistema operativo"
+>abstract="Questa opzione consente di pulire l&#39;output dei dati rilevando le seguenti sequenze di stringhe incorporate nei dati del cliente e sostituendole con uno spazio: <br/>Windows: CRLF, CR o TAB<br/>Mac e Linux: \n, \r o \t"
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_export_file"
+>title="Manifesto"
+>abstract="Scegli se includere un file manifesto con ogni consegna di feed di dati. I file manifesto contengono informazioni per ciascun file incluso nel feed di dati. Quando si inviano dati di feed dati in un singolo pacchetto, è anche possibile scegliere di includere un file finale, ma si consiglia di utilizzare i file manifest. "
+
+<!-- markdownlint-enable MD034 -->
 
 1. Accedi a [experiencecloud.adobe.com](https://experiencecloud.adobe.com) utilizzando le credenziali Adobe ID.
 1. Seleziona l&#39;icona a 9 quadrati in alto a destra, quindi seleziona [!UICONTROL **Analytics**].
