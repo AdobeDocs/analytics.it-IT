@@ -17,7 +17,7 @@ Nella pagina di destinazione di Adobe Analytics, [!DNL Analysis Workspace] e [!D
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta la ![pagina di destinazione di Adobe Analytics](/help/assets/icons/VideoCheckedOut.svg) [VideoCheckedOut](https://video.tv.adobe.com/v/334278/?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta la ![pagina di destinazione di Adobe Analytics](/help/assets/icons/VideoCheckedOut.svg) [VideoCheckedOut](https://video.tv.adobe.com/v/346464/?captions=ita&quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
