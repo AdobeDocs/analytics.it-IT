@@ -4,7 +4,7 @@ title: Gestire i segmenti (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 3%
@@ -52,7 +52,7 @@ Puoi avere combinazioni specifiche di dimensioni di rapporto che desideri trasfo
 1. Torna a Report Builder e fai clic sull’icona Aggiorna per aggiornare l’elenco dei segmenti.
 1. Ora puoi applicare questo segmento.
 
-## Cercare e applicare segmenti {#search}
+## Cercare e applicare segmenti
 
 Tutti i segmenti creati in Reports &amp; Analytics (ora al termine del ciclo di vita), Report Builder o Data Warehouse vengono visualizzati in questo elenco di segmenti. Per aggiornare l&#39;elenco, fare clic sull&#39;icona Aggiorna ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
@@ -124,7 +124,7 @@ Report Builder 5.4 consente di aggiungere, rimuovere e sostituire tutti i segmen
 
    | Opzione | Descrizione |
    |---|---|
-   | Zona di rilascio | Consente di scegliere uno o più segmenti da aggiungere all’elenco dei segmenti correnti. |
+   | Aggiungi segmento | Consente di scegliere uno o più segmenti da aggiungere all’elenco dei segmenti correnti. |
    | Sostituisci segmenti | Consente di scegliere quali segmenti sostituire con uno o più segmenti. |
    | Sostituisci tutti i segmenti con | Consente di scegliere uno o più segmenti per sostituire i segmenti correnti con. |
    | Rimuovi segmenti | Consente di rimuovere segmenti dalle richieste. |

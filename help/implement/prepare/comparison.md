@@ -4,10 +4,10 @@ description: Scopri i vantaggi di ciascun metodo che invia dati ad Adobe Analyti
 exl-id: 19353255-6356-4426-a2ef-5a2672a00eca
 feature: Implementation Basics
 role: Admin, Developer, Leader
-source-git-commit: 8e701a3da6f04ccf2d7ac3abd10c6df86feb00a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ Scopri i diversi metodi di implementazione di Adobe Analytics. Puoi utilizzare q
 
 >[!CAUTION]
 >
->Il supporto per gli SDK della versione 4 per dispositivi mobili è terminato il 31 agosto 2021. Per ulteriori informazioni, consulta [Domande frequenti sulla fine del ciclo di vita di Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=it).
+>Il supporto per gli SDK della versione 4 per dispositivi mobili è terminato il 31 agosto 2021. Per ulteriori informazioni, consulta [Domande frequenti sulla fine del ciclo di vita di Adobe Mobile Services](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
 
 
 | | [Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) | [API Edge Network](/help/implement/aep-edge/api/overview.md) |

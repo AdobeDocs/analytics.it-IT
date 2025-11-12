@@ -4,18 +4,18 @@ title: Configurare Una Visualizzazione Abbandono
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 75c1585f88d9d3adcf66632c52cecf2a97fa2632
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 33%
+ht-degree: 17%
 
 ---
 
 # Configurare una visualizzazione dell’abbandono
 
-Puoi specificare i punti di contatto per creare una sequenza di abbandono multidimensionale. In genere, un punto di contatto è una pagina del sito. Tuttavia, i punti di contatto non sono limitati alle pagine. Ad esempio, puoi aggiungere eventi, come unità di misura, persone univoche e visite di ritorno. Puoi anche aggiungere dimensioni, ad esempio una categoria, un tipo di browser e un termine di ricerca interna.
+Puoi specificare i punti di contatto per creare una sequenza di abbandono multidimensionale. Di solito, un punto di contatto è una pagina del sito. Tuttavia, i punti di contatto non sono limitati alle pagine. Ad esempio, puoi aggiungere eventi, come unità di misura, persone univoche e visite di ritorno. Puoi anche aggiungere dimensioni, come una categoria, un tipo di browser o un termine di ricerca interno.
 
-Puoi perfino aggiungere segmenti all’interno di un punto di contatto. Ad esempio, potrebbe essere utile confrontare segmenti, come gli utenti di iOS e Android™. Trascina i segmenti desiderati nella parte superiore della sezione Abbandono per aggiungere al rapporto le informazioni su tali segmenti. Se desideri visualizzare solo tali segmenti, puoi rimuovere la linea di base Tutte le visite.
+Puoi anche aggiungere segmenti all’interno di un punto di contatto. Ad esempio, potrebbe essere utile confrontare segmenti, come gli utenti di iOS e Android™. Trascina i segmenti desiderati nella parte superiore dell’abbandono per aggiungere al rapporto le informazioni su di essi. Se desideri visualizzare solo tali segmenti, puoi rimuovere la linea di base Tutte le visite.
 
 Non esiste alcun limite al numero di passaggi che è possibile aggiungere o al numero di dimensioni utilizzate.
 
@@ -34,7 +34,7 @@ Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e segmenti. Ad
 
    Puoi anche aggiungere una sola pagina al rapporto di abbandono, invece che l’intera dimensione. Fare clic sulla freccia destra ![ChevronRight](/help/assets/icons/ChevronRight.svg) nella dimensione pagina per scegliere una pagina specifica da aggiungere al report Abbandono.
 
-1. Continua ad aggiungere punti di contatto fino a completare la sequenza.
+1. Continua ad aggiungere punti di contatto fino al completamento della sequenza.
 
    Puoi **combinare più punti di contatto** trascinando uno o più componenti aggiuntivi su un punto di contatto.
 
@@ -46,7 +46,7 @@ Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e segmenti. Ad
 
 1. Puoi anche **vincolare singoli punti di contatto all&#39;evento successivo** (anziché *alla fine*) all&#39;interno del percorso. Sotto ogni punto di contatto è presente un selettore con le opzioni **[!UICONTROL Eventual path]** e **[!UICONTROL Next event]**, come illustrato di seguito:
 
-   ![La vista Tutte le visite mostra l&#39;opzione Percorso finale evidenziata. &#x200B;](assets/fallout-nexthit.png)
+   ![La vista Tutte le visite mostra l&#39;opzione Percorso finale evidenziata. ](assets/fallout-nexthit.png)
 
    | Opzione | Descrizione |
    |---|---|
@@ -71,17 +71,17 @@ Come parte della visualizzazione, sono disponibili opzioni di menu di scelta rap
 
 | Opzione | Descrizione |
 |--- |--- |
-| **[!UICONTROL Trend touchpoint]** | I dati di tendenza di un punto di contatto sono rappresentati in un grafico a linee, con alcuni dati di rilevamento anomalie pregenerati. |
-| **[!UICONTROL Trend touchpoint (%)]** | Visualizza la tendenza della percentuale di abbandono totale. |
+| **[!UICONTROL Trend touchpoint]** | Vedi i dati di tendenza per un punto di contatto in un grafico a linee, con alcuni dati predefiniti di rilevamento delle anomalie. |
+| **[!UICONTROL Trend touchpoint (%)]** | Genera tendenze sulla percentuale di abbandono totale. |
 | **[!UICONTROL Trend all touchpoints (%)]** | Genera tendenze su tutte le percentuali dei punti di contatto nell&#39;abbandono (tranne **[!UICONTROL All People]**, se incluso) nello stesso grafico. |
-| **[!UICONTROL Break down fallthrough at this touchpoint]** | Puoi vedere cosa hanno fatto i visitatori tra due punti di contatto (questo e il successivo) se hanno continuato fino al punto di contatto successivo. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Potete sostituire le quote e altri elementi della tabella. Ad esempio, una tabella etichettata **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** e contenente **[!UICONTROL Page]** come dimensione e **[!UICONTROL Unique Visitors]** segmentata dal [segmento rapido solo progetto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** come metrica. Ispeziona il segmento per capire come viene determinato il segmento di fallthrough. |
-| **[!UICONTROL Break down fallout at this touchpoint]** | Visualizza cosa hanno fatto immediatamente dopo il passaggio selezionato i visitatori che non hanno effettuato il passaggio in funnel. Viene creata una tabella a forma libera in cui sono riportate le dimensioni. Potete sostituire le quote e altri elementi della tabella. Ad esempio, una tabella etichettata **[!UICONTROL Fallout: All Visitors > Page equals any of home]** e contenente **[!UICONTROL Page]** come dimensione e **[!UICONTROL Unique Visitors]** segmentata dal segmento rapido [solo progetto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** come metrica. Ispeziona il segmento per capire come viene determinato il segmento di abbandono. |
+| **[!UICONTROL Break down fallthrough at this touchpoint]** | Puoi vedere cosa hanno fatto i visitatori tra due punti di contatto (questo e il successivo) se hanno continuato fino al punto di contatto successivo. In questo modo viene creata una tabella a forma libera che mostra le dimensioni. Potete sostituire le quote e altri elementi della tabella. Ad esempio, una tabella etichettata **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** e contenente **[!UICONTROL Page]** come dimensione e **[!UICONTROL Unique Visitors]** segmentata dal [segmento rapido solo progetto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** come metrica. Ispeziona il segmento per capire come viene determinato il segmento di fallthrough. |
+| **[!UICONTROL Break down fallout at this touchpoint]** | Visualizza cosa hanno fatto immediatamente dopo il passaggio selezionato i visitatori che non hanno effettuato il passaggio in funnel. In questo modo viene creata una tabella a forma libera che mostra le dimensioni. Potete sostituire le quote e altri elementi della tabella. Ad esempio, una tabella etichettata **[!UICONTROL Fallout: All Visitors > Page equals any of home]** e contenente **[!UICONTROL Page]** come dimensione e **[!UICONTROL Unique Visitors]** segmentata dal segmento rapido [solo progetto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** come metrica. Ispeziona il segmento per capire come viene determinato il segmento di abbandono. |
 | **[!UICONTROL Create segment from touchpoint]** | Crea un nuovo segmento dal punto di contatto selezionato. |
 
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

@@ -3,7 +3,7 @@ description: Informazioni generali di panoramica su Adobe Analytics, tra cui inf
 title: Informazioni sull’interfaccia di Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1969'
 ht-degree: 98%

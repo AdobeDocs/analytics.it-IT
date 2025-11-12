@@ -4,10 +4,10 @@ title: Configurare Una Visualizzazione Di Flusso
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: f7a433e996b234fa46556f4bd40584b474d568c3
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1572'
-ht-degree: 42%
+ht-degree: 38%
 
 ---
 
@@ -130,13 +130,13 @@ Supponiamo di voler tracciare il percorso seguito dagli utenti per le pagine pi�
 
 ## Configurare
 
-Nella parte superiore delle visualizzazioni viene visualizzato un riepilogo della configurazione Flusso. I percorsi nel diagramma sono proporzionali. I percorsi con maggiore attività sono più spessi.
+Nella parte superiore delle visualizzazioni viene visualizzato un riepilogo della configurazione Flusso. I percorsi nel diagramma sono proporzionali. I percorsi con più attività appaiono più spessi.
 
 ![Esempio di output di flusso che mostra le estremità con le visite, la dimensione del percorso: Pagina e il contenitore di flusso: Visitatori.](assets/flow-output.png)
 
 Per approfondire ulteriormente i dati, hai a disposizione diverse opzioni:
 
-* Il diagramma di flusso è interattivo. Passa il cursore del mouse sul diagramma per cambiare i dettagli visualizzati.
+* Il diagramma di flusso è interattivo. Passa il puntatore del mouse sul diagramma per modificare i dettagli visualizzati.
 
 * Quando selezioni un nodo nel diagramma, vengono visualizzati i dettagli per tale nodo. Seleziona nuovamente il nodo per comprimerlo.
 
@@ -167,7 +167,7 @@ Utilizza un menu contestuale su qualsiasi nodo della visualizzazione del flusso 
 
 | Opzione | Descrizione |
 |--- |--- |
-| **[!UICONTROL Focus on this node]** | Rende attivo il nodo selezionato. Il nodo attivo è visualizzato al centro del diagramma di flusso. |
+| **[!UICONTROL Focus on this node]** | Imposta lo stato attivo sul nodo selezionato. Il nodo attivo viene visualizzato al centro del diagramma di flusso. |
 | **[!UICONTROL Start over]** | Tornare al generatore di diagrammi a forma libera, dove è possibile creare un nuovo diagramma di flusso. |
 | **[!UICONTROL Create a filter for this path]** | Crea un filtro. Questa selezione ti porta al Generatore di filtri, dove puoi configurare il nuovo filtro. |
 | **[!UICONTROL Breakdown]** | Suddivide il nodo per dimensioni, metriche o ora. |
@@ -175,8 +175,8 @@ Utilizza un menu contestuale su qualsiasi nodo della visualizzazione del flusso 
 | **[!UICONTROL Exclude item]** o **[!UICONTROL Restore excluded items]** | Rimuove un nodo specifico dalla colonna e lo crea automaticamente come filtro nella parte superiore della colonna. Per ripristinare l&#39;elemento escluso, dal menu di scelta rapida selezionare **[!UICONTROL Restore Excluded Item]**. Puoi anche aprire il filtro nella parte superiore della colonna e rimuovere la casella con l’elemento appena escluso. |
 | **[!UICONTROL Trend]** | Crea un diagramma di tendenza per il nodo. |
 | **[!UICONTROL Show next column]** / **[!UICONTROL Show previous column]** | Mostra la colonna successiva (destra) o precedente (sinistra) della visualizzazione. |
-| **[!UICONTROL Hide colum]**&#x200B;n | Nasconde la colonna selezionata dalla visualizzazione. |
-| **[!UICONTROL Expand entire column]** | Espande una colonna per mostrare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |
+| **[!UICONTROL Hide colum]**n | Nasconde la colonna selezionata dalla visualizzazione. |
+| **[!UICONTROL Expand entire column]** | Espandere una colonna per visualizzare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |
 | **[!UICONTROL Create audience from selection]** | Crea un pubblico in base alla colonna selezionata. |
 | **[!UICONTROL Collapse entire column]** | Nasconde tutti i nodi di una colonna. |
 
@@ -204,8 +204,8 @@ Nell&#39;esempio seguente sono incluse **tutte** le occorrenze di *categoria pri
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 
 
@@ -312,7 +312,7 @@ Above each column, a filter appears when you hover over it. By selecting the fil
 | [!UICONTROL Breakdown] | Break the node down by available Dimensions, Metrics, or Time. |
 | [!UICONTROL Trend] | Create a trended diagram for the node. |
 | Show next column / Show previous column | Reveals the next (right) or previous (left) column of the visualization. |
-| Hide column | Hides the selected column from the visualization. | 
+| Hide column | Hides the selected column from the visualization. |
 | [!UICONTROL Expand entire column] | Expand a column to show all nodes. By default, only the top five nodes display. |
 
 ## Example scenario for 'limit to first/last occurrence'

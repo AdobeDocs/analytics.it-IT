@@ -3,7 +3,7 @@ description: Passaggi che descrivono come creare una richiesta di Data Warehouse
 title: Configurare le opzioni di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
 exl-id: b273bddb-431c-44d9-82a5-cb088829b3a3
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 16%
@@ -30,7 +30,7 @@ Per configurare le opzioni di report per una richiesta Data Warehouse:
 
    | Opzione | Funzione |
    |---------|----------|
-   | [!UICONTROL **Nome file**] | Identifica il rapporto. <p>Impossibile salvare la richiesta se nel nome file viene utilizzato uno dei seguenti caratteri speciali: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ &grave; { } \| ~</code> </p><p>Il carattere % può essere utilizzato solo se è seguito da &quot;R&quot;, &quot;rsid&quot; o &quot;id&quot;, come segue: <code>%R</code>, <code>%rsid</code>, e <code>%id</code>.</p> |
+   | [!UICONTROL **Nome file**] | Identifica il rapporto. <p>Impossibile salvare la richiesta se nel nome file viene utilizzato uno dei seguenti caratteri speciali: <code>! &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` { } \| ~</code> </p><p>Il carattere % può essere utilizzato solo se è seguito da &quot;R&quot;, &quot;rsid&quot; o &quot;id&quot;, come segue: <code>%R</code>, <code>%rsid</code>, e <code>%id</code>.</p> |
    | [!UICONTROL **Aggiungi intervallo di date del report al nome file**] | Aggiunge l’intervallo di date al nome del file del rapporto. <p>Ad esempio, se richiedi dati dal 1° maggio 2024 al 7 maggio 2024, il nome del file includerà l’intervallo di date 20240501 - 20240507.</p> |
    | [!UICONTROL **CSV**] | Fornisce rapporti in formato CSV per la visualizzazione dei dati in un foglio di calcolo. |
    | [!UICONTROL **Tableau (TDE)**] | Fornisce rapporti in formato TDE (Tableau Data Extract), che può essere utilizzato per visualizzare dati e livelli in dati aggiuntivi all’interno di Tableau. |

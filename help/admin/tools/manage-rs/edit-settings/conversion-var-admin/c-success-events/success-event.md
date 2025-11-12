@@ -5,7 +5,7 @@ title: Panoramica degli eventi di successo
 feature: Metrics
 role: Admin
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 48%
@@ -16,7 +16,7 @@ ht-degree: 48%
 
 Gli eventi di successo (noti anche come eventi di conversione o eventi personalizzati) sono azioni che possono essere tracciate. È possibile determinare la natura dell’evento di successo. Ad esempio, se un visitatore acquista un articolo, l’evento di acquisto potrebbe essere considerato l’evento di successo.
 
-Per una panoramica video degli eventi di successo, consulta [Introduzione agli eventi di conversione](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) nella guida delle esercitazioni di Analytics.
+Per una panoramica video degli eventi di successo, consulta [Introduzione agli eventi di conversione](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/metrics/introduction-to-conversion-events) nella guida delle esercitazioni di Analytics.
 
 ## Esempi di eventi di successo
 
@@ -71,7 +71,7 @@ Per configurare eventi di successo:
    | Impostazione | Visibile in | Non visibile in |
    |---------|----------|---------|
    | [!UICONTROL **Visibile ovunque**] | <ul><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> | N/D |
-   | [!UICONTROL **Generatori**] | <ul><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **Generatori**] | <ul><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li><li>Analysis Workspace</li></ul> |  |
    | [!UICONTROL **Nascosto ovunque**] | N/D | <ul><li>Analysis Workspace</li><li>Generatore di segmenti</li><li>Generatore di metrica calcolata</li></ul> |
 
 1. Nella colonna [!UICONTROL **Descrizione**], seleziona la casella di controllo, quindi fornisci una descrizione.

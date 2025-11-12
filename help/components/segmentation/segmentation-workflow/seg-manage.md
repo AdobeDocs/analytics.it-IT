@@ -3,7 +3,7 @@ description: Scopri come utilizzare il gestore segmenti per gestire i segmenti, 
 title: Gestire segmenti
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 17%
@@ -34,14 +34,14 @@ Il Gestore segmenti dispone dei seguenti elementi dell’interfaccia:
 Nell&#39;elenco dei segmenti ➊ vengono visualizzati tutti i segmenti di tua proprietà, quelli con ambito in tutti i tuoi progetti e quelli condivisi con te. L’elenco dispone delle seguenti colonne:
 
 | Colonna | Descrizione |
-| --- | --- | 
+| --- | --- |
 | ![StarOutline](/help/assets/icons/StarOutline.svg) | Seleziona questa opzione per favorire ![Star](/help/assets/icons/Star.svg) o per non favorire ![StarOutline](/help/assets/icons/StarOutline.svg) un segmento. Vedi [Segmento contrassegnato come preferito](t-seg-favorite.md) |
 | **[!UICONTROL Title and description]** | Per modificare il segmento, seleziona il collegamento del titolo, che apre il [Generatore di segmenti](seg-build.md). Un segmento condiviso è indicato con ![Condividi](/help/assets/icons/ShareAlt.svg). |
 | **[!UICONTROL Report suitew]** | La suite di rapporti a cui si applica questo segmento. |
 | **[!UICONTROL Owner]** | Il proprietario del segmento. In qualità di utente, puoi visualizzare solo i segmenti di tua proprietà o le annotazioni condivise con te. |
 | **[!UICONTROL Tags]** | I tag per questo segmento. |
 | **[!UICONTROL Shared with]** | Quanti singoli utenti o gruppi hai condiviso il segmento con. Seleziona per aprire la finestra di dialogo **[!UICONTROL Share Component]**. Consulta [Condividi segmenti](t-seg-share.md) per ulteriori informazioni. |
-| **[!UICONTROL Published]** | Indica se il segmento [&#x200B; è pubblicato](seg-publish.md) in Experience Cloud. |
+| **[!UICONTROL Published]** | Indica se il segmento [ è pubblicato](seg-publish.md) in Experience Cloud. |
 | **[!UICONTROL Date modified]** | La data e l’ora dell’ultima modifica apportata al segmento. |
 
 Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare quali colonne vuoi visualizzare.
@@ -137,6 +137,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=it) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->

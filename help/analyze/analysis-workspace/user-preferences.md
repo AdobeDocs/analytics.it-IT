@@ -4,7 +4,7 @@ description: Scopri come impostare le preferenze generali e di progetto per gli 
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 79%
@@ -18,7 +18,7 @@ Puoi gestire le impostazioni di Analysis Workspace e dei relativi componenti per
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire le preferenze](https://video.tv.adobe.com/v/3429995/?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire le preferenze](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -145,7 +145,7 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 | | Dimensioni della tabella predefinita | Scegli tra Minuto, Ora, Giorno, Settimana, Mese, Trimestre o Anno. |
 | | Allinea date | Seleziona questa opzione per allineare le date di ogni colonna affinché inizino tutte sulla stessa riga. |
 | **[Colonna](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)** | | |
-| | Testo a capo nelle intestazioni | Racchiudi il testo dell’intestazione nelle tabelle a forma libera per rendere le intestazioni più leggibili e le tabelle più condivisibili. Il wrapping è utile per il rendering PDF e per le metriche con nomi lunghi. È attivata per impostazione predefinita. |
+| | Testo a capo nelle intestazioni | Racchiudi il testo dell’intestazione nelle tabelle a forma libera per rendere le intestazioni più leggibili e le tabelle più condivisibili. Il wrapping è utile per il rendering PDF e per le metriche con nomi lunghi. Abilitato per impostazione predefinita. |
 | | Mostra totali | Questo totale è in genere uguale o un sottoinsieme del [!UICONTROL Grand total] (Totale complessivo). Riflette eventuali filtri applicati alla tabella a forma libera, inclusa l’opzione [!UICONTROL Include None] (Includi nessuna). |
 | | Mostra totali complessivi | Questo totale rappresenta tutti gli hit che sono stati raccolti, talvolta denominati *totale suite di rapporti*. Quando un segmento viene applicato a livello di pannello o all’interno della tabella a forma libera, questo totale si regola per riflettere tutti gli hit che corrispondono ai criteri del segmento. Il totale complessivo non è supportato per tabelle o raggruppamenti con [righe statiche](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | | Mostra sparkline | Mostra o nascondi i grafici a linee nella parte inferiore del grafico. Quando è nascosta, la legenda non fa più riferimento visivamente alle linee. |

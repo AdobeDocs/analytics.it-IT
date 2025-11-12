@@ -3,7 +3,7 @@ description: Passaggi che descrivono come creare una richiesta di Data Warehouse
 title: Configurare le opzioni di rapporto per una richiesta Data Warehouse
 feature: Data Warehouse
 exl-id: 652522d0-6ed0-4cf2-9890-5ee61cc4ac9f
-source-git-commit: 4e4b5e1c362778223be01f78b173a698c53f9b32
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 37%

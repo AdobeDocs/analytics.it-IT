@@ -5,7 +5,7 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
 >[!NOTE]
 >
 >L&#39;opzione &quot;Orario di consegna&quot;/&quot;Ora del giorno&quot; immessa dall&#39;utente specifica l&#39;ora in cui la cartella di lavoro deve iniziare l&#39;elaborazione, non l&#39;ora in cui verrà effettivamente consegnata. Il tempo effettivo di consegna della cartella di lavoro dipende principalmente dal tempo necessario per l&#39;elaborazione (l&#39;elaborazione di cartelle di lavoro complesse e di grandi dimensioni richiede più tempo rispetto a quelle più semplici). Ad esempio, se l’elaborazione di una cartella di lavoro richiede 15 minuti, il tempo di consegna effettivo sarà di almeno 15 minuti oltre il &quot;Orario di consegna&quot;/&quot;Ora del giorno&quot; originariamente specificato.
->&#x200B;>Inoltre, esistono diversi altri fattori che possono aumentare ulteriormente il ritardo prima che la cartella di lavoro venga effettivamente consegnata:
+>Inoltre, esistono diversi altri fattori che possono aumentare ulteriormente il ritardo prima che la cartella di lavoro venga effettivamente consegnata:
 >
 > * **L&#39;esecuzione simultanea di più pianificazioni diverse dello stesso tipo** può sovraccaricare il sistema. Il sistema di pianificazione consente solo l’esecuzione simultanea di poche (5-10) cartelle di lavoro di qualsiasi tipo; pertanto, quando sono pianificate più di 5-10 cartelle di lavoro alla volta, alcune dovranno attendere il completamento delle altre prima di poter iniziare l’elaborazione. Questo problema può essere attenuato pianificando le cartelle di lavoro di un’azienda in momenti diversi nel corso della giornata o dell’ora, anziché simultaneamente.
 > * A parte il tipo di cartella di lavoro specifico, le cartelle di lavoro attenderanno in linea anche se la società dispone di **più di 15-20 di qualsiasi tipo di cartella di lavoro pianificata contemporaneamente (in tutti i diversi tipi di cartella di lavoro)**. Questo problema può essere risolto scaglionando i tempi di pianificazione invece di eseguirne molti contemporaneamente.
@@ -54,7 +54,7 @@ ht-degree: 2%
 | A | Visualizza la Rubrica di Outlook, se applicabile. |
 | Invia a: e-mail | Destinatario e-mail della cartella di lavoro. |
 | Power BI | Per ulteriori informazioni, vedere [Pubblica cartella di lavoro in Microsoft Power BI](/help/analyze/legacy-report-builder/c-publish-power-bi/integration-power-bi.md). |
-| Oggetto | Descrizione definita dall&#39;utente. |
+| Argomento | Descrizione definita dall&#39;utente. |
 | Pianificazione | Consente di specificare quando inviare la cartella di lavoro. (Immediatamente, ogni ora, ogni giorno, ogni settimana, ogni mese e ogni anno). |
 
 ## Opzioni di consegna avanzate

@@ -3,9 +3,9 @@ description: Requisiti di sistema e confronto tra Analysis Workspace, Report Bui
 title: Confronto dei prodotti Analytics e requisiti
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
@@ -26,13 +26,13 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [Quale str
 | **Dati da filtri bot per amministrazione inclusi** <br> [Ulteriori informazioni](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | No | Sì - Rapporto bot distinto | No | No | No |
 | **Visualizzazione traffico ridotto (valori univoci eccessivi)** <br> [Ulteriori informazioni](/help/technotes/low-traffic.md) | Sì | Sì | No | No | Sì |
 | **Limite righe visibili (prima dell’impaginazione)** | 400 | 50.000 | Senza limiti | Senza limiti | 50.000 |
-| **Più suite di rapporti** | [Sì](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sì | No | Sì | No | Sì |
+| **Più suite di rapporti** | [Sì](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | Sì | No | Sì | No |
 | **Numero di raggruppamenti** | Senza limiti | Fino a 2 | Senza limiti | Senza limiti | Senza limiti, eseguito su più query |
 | **Segmentazione** <br> [Ulteriori informazioni](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | Sì | Sì | Sì, con [limitazioni](/help/components/segmentation/seg-reference/seg-compatibility.md) | No | Sì |
 | **Metriche calcolate** <br> [Ulteriori informazioni](/help/components/calculated-metrics/cm-overview.md) | Sì, con [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Sì, con attribuzione | Sì | No | Sì, con [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Canali marketing** <br> [Ulteriori informazioni](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | Sì | Sì | Sì | Sì - [va_finder, va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | Sì |
 | **Analisi per coorte** | [Sì](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | Sì | No | No | No |
-| **Attribuzione** | Sì, con [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Limitato | No | No | Sì, con [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | No |
+| **Attribuzione** | Sì, con [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) | Limitato | No | No | Sì, con [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **Cura** <br> [Ulteriori informazioni](/help/analyze/analysis-workspace/curate-share/curate.md) | Sì: progetti e suite di rapporti virtuali | No | No | No | Sì: solo suite di rapporti virtuali |
 | **Condivisione dei progetti** <br> [Ulteriori informazioni](/help/analyze/analysis-workspace/curate-share/share-projects.md) | Sì, con ruoli di progetto | Sì | No | No | No |
 | **Consegna pianificata** | Sì | Sì | Sì | Sì | No |

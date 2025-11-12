@@ -3,10 +3,10 @@ description: Passaggi che descrivono come creare una richiesta di Data Warehouse
 title: Configurare una destinazione di rapporto per una richiesta di Data Warehouse
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f0a5f72667fd6fc7847ede82d5196d9159fc558c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1977'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 

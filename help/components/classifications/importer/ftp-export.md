@@ -3,7 +3,7 @@ title: Esportazione dei dati di classificazione tramite FTP
 description: L’esportazione FTP offre maggiore flessibilità con i download dei set di dati, tra cui il download di dati da più suite di rapporti e il download di file di set di dati di dimensioni superiori a 50.000 righe di dati
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 1%

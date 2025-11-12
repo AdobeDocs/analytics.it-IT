@@ -4,7 +4,7 @@ description: Scopri in che modo gli hint client sostituiranno gradualmente l’a
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1174'
 ht-degree: 60%
@@ -43,7 +43,7 @@ Questo [articolo di blog di Google](https://web.dev/user-agent-client-hints/) è
 
 +++**Come si abilita la raccolta di hint client?**
 
-Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consulta le istruzioni per [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=it#enabling-high-entropy-client-hints) e [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
+Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consulta le istruzioni per [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
 
 Per entrambe le librerie, la raccolta di hint ad alta entropia è **disattivata per impostazione predefinita**.
 
@@ -64,7 +64,7 @@ FullVersionList non viene attualmente raccolto perché la versione principale de
 La tabella seguente descrive gli hint client da ottobre 2022.
 
 | Hint | Descrizione | Alta o bassa entropia | Esempio |
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | Sec-CH-UA | Browser e versione rilevante | Bassa | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Bassa | `true` |
 | Sec-CH-UA-Platform | Sistema operativo/piattaforma | Bassa | `"Android"` |

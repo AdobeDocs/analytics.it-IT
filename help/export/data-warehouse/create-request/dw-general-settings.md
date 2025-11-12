@@ -3,7 +3,7 @@ description: Passaggi che descrivono come creare una richiesta di Data Warehouse
 title: Richiedi impostazioni generali di Data Warehouse
 feature: Data Warehouse
 exl-id: f564d5a9-78a2-431e-987a-78c4b0b9d31e
-source-git-commit: 1e1a26b8595ca026fb049322125a6f91d9d5513c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 23%

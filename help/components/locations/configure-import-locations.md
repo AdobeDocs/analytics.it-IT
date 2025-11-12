@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare i percorsi di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: d64a3d02ec670133a32829fc0d2ad589068a193e
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1691'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 

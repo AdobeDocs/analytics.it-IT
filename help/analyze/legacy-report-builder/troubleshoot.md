@@ -5,7 +5,7 @@ uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 52%
@@ -54,7 +54,7 @@ I seguenti fattori possono aumentare la complessità delle richieste e rallentar
   | Impostazione | Prestazioni più rapide | Prestazioni più lente |
   |--- |--- |--- |
   | Raggruppamenti e ordine dei raggruppamenti | Pochi | Molti |
-  |  | Esempio: in caso di raggruppamento da A a Z, il numero di elementi per A deve sempre essere minore del numero di elementi per Z, in caso contrario il tempo di richiesta può aumentare notevolmente. |
+  |  | Esempio: in caso di raggruppamento da A a Z, il numero di elementi per A deve sempre essere minore del numero di elementi per Z, in caso contrario il tempo di richiesta può aumentare notevolmente. |  |
   | Intervallo date | Intervallo piccolo | Intervallo ampio |
   | Filtro | Filtro specifico | Filtri più popolari |
   | Granularity (Granularità) | Aggregata | Oraria<ul><li>Giornaliero</li><li>Settimanale</li><li>Mensile</li><li>Trimestrale</li><li>Annuale</li></ul> |

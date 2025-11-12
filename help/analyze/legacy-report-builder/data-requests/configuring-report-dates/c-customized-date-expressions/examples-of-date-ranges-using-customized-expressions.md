@@ -5,9 +5,9 @@ uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 feature: Report Builder
 role: User, Admin
 exl-id: d936dd4e-d330-4ed9-a979-3273397d7d92
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '389'
 ht-degree: 6%
 
 ---
@@ -22,13 +22,13 @@ La tabella presuppone che la data odierna sia lunedì 10 novembre 2011, utilizza
 
 | Esempio | Intervallo date | Personalizza espressione | Intervallo date del rapporto |
 |---|---|---|---|
-|  | | **Da** | **A** | |
-| 1 | Due settimane fa | cw-2w | cw-1w-1d | 26 ottobre - 1 novembre |
-| 2 | Primi 3 giorni del quinto mese dello scorso anno | cy-1y+4m | cy-1y+4m+2d | maggio-3 maggio 2010 |
-| 3 | Una settimana intera, a partire da 4 settimane fa | cw-4w | cw-3w-1d | dal 12 ottobre al 18 ottobre |
-| 4 | Ultima settimana nell&#39;anno precedente | cw-53w | cw-52w-1d | Dal 9 novembre al 9 novembre 2010 |
-| 5 | Un mese a partire da 2 mesi fa | cm-2 m | cm-1m-1d | 1 settembre - 30 settembre |
-| 6 | 12 mesi fa nell&#39;anno precedente | cm-12m | cm-11m-1d | 1 novembre - 30 novembre 2010 |
+|  | | **Da** | **A** |
+| 1 | Due settimane fa | `cw-2w  \| cw-1w-1d` | 26 ottobre - 1 novembre |
+| 2 | Primi 3 giorni del quinto mese dello scorso anno | `cy-1y+4m  \| cy-1y+4m+2d` | maggio-3 maggio 2010 |
+| 3 | Una settimana intera, a partire da 4 settimane fa | `cw-4w  \| cw-3w-1d` | dal 12 ottobre al 18 ottobre |
+| 4 | Ultima settimana nell&#39;anno precedente | `cw-53w  \| cw-52w-1d` | Dal 9 novembre al 9 novembre 2010 |
+| 5 | Un mese a partire da 2 mesi fa | `cm-2m  \| cm-1m-1d` | 1 settembre - 30 settembre |
+| 6 | 12 mesi fa nell&#39;anno precedente | `cm-12m  \| cm-11m-1d` | 1 novembre - 30 novembre 2010 |
 
 ## Note sugli esempi {#section_37801B0D6D364ABAA8DCE3A4C0123B2C}
 

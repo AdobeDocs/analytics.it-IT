@@ -4,10 +4,10 @@ title: Esempi di etichettatura
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 70%
+ht-degree: 46%
 
 ---
 
@@ -15,19 +15,19 @@ ht-degree: 70%
 
 ## Dati hit di esempio {#hit}
 
-Supponi di avere i dati seguenti:
+Supponiamo di disporre dei seguenti dati di hit:
 
-* La prima riga contiene le etichette per ogni variabile.
+* La prima riga contiene le etichette per ciascuna variabile.
 * La seconda riga è il nome della variabile. Se ha un’etichetta ID, contiene lo spazio dei nomi assegnato tra parentesi.
-* I dati dei risultati partono dalla terza riga.
+* I dati di hit iniziano nella terza riga.
 
 | Etichette | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
 | **Nome variable** <br> **(Namespace)** | **MyProp1** <br> **(utente)** | **ID visitatore** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
-| Dati dei risultati | Mary | 77 | A | M | X |
+| Dati hit | Mary | 77 | A | M | X |
 | | Mary | 88 | B | N | Y |
 | | Mary | 99 | C | O | Z |
-| | John | 77 | D | P | W |
+| | John | 77 | D | P | L |
 | | John | 88 | E | N | U |
 | | John | 44 | F | Q | V |
 | | John | 55 | G | R | X |
@@ -42,12 +42,13 @@ Ad esempio, il file di riepilogo contiene i valori indicati nella tabella seguen
 <table>
   <tr>
     <th colspan="2" style="text-align:center">Valori API</th>
-    <th rowspan="2">Riepilogo<br/>tipo di file<br/>restituito</th>
+    <th>Riepilogo<br/>tipo di file<br/>restituito</th>
     <th colspan="5" style="text-align:center">Dati in un file di accesso di riepilogo</th>
   </tr>
   <tr>
     <th>Namespace/ID</th>
     <th>expandIDs</th>
+    <th></th>
     <th>MyProp1</th>
     <th>Visitor ID</th>
     <th>MyEvar1</th>
@@ -138,7 +139,7 @@ Ad esempio, il file di riepilogo contiene i valori indicati nella tabella seguen
     <td>55, 77</td>
     <td>assente</td>
     <td>M, P, R</td>
-    <td>W, X</td>
+    <td>L, X</td>
   </tr>
 </table>
 
@@ -146,7 +147,7 @@ Si noti che l&#39;impostazione per `expandIDs` non fa alcuna differenza nell&#39
 
 ## Esempio di richieste di eliminazione {#delete}
 
-Se la richiesta di cancellazione usa i valori dell’API nella prima riga della tabella, la tabella dei risultati verrà aggiornata e apparirà come la seguente:
+Con una richiesta di eliminazione che utilizza i valori API nella prima riga della tabella, la tabella hit verrà aggiornata in modo da avere un aspetto simile al seguente:
 
 <table>
   <tr>
@@ -258,7 +259,7 @@ Se la richiesta di cancellazione usa i valori dell’API nella prima riga della 
     <td>77</td>
     <td>D</td>
     <td>P</td>
-    <td>W</td>
+    <td>L</td>
   </tr>
   <tr>
     <td>John</td>

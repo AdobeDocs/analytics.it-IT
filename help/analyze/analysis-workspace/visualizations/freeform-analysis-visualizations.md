@@ -5,7 +5,7 @@ title: Panoramica delle visualizzazioni
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 87%
@@ -22,7 +22,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 
 
 | Icona | Nome | Descrizione |
-| :---: | --- | ---| 
+| :---: | --- | ---|
 | ![GraphArea](/help/assets/icons/GraphArea.svg) | [Superfici](/help/analyze/analysis-workspace/visualizations/area.md) | Visualizzazione con grafico a superficie. È simile a un grafico a linee ma presenta una superficie colorata al di sotto della linea. Un grafico a superficie è utile quando si hanno diverse metriche e si desidera visualizzare l’area di intersezione di due o più metriche. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg) | [Barre](/help/analyze/analysis-workspace/visualizations/bar.md) | La visualizzazione di un grafico a barre con barre verticali che rappresentano diversi valori per una o più metriche. |
 | ![GraphBarVertical](/help/assets/icons/GraphBarVerticalStacked.svg) | [Barre sovrapposte](/help/analyze/analysis-workspace/visualizations/bar.md) | La visualizzazione di un grafico a barre sovrapposte con barre verticali che rappresentano diversi valori per una o più metriche. |
@@ -263,6 +263,6 @@ If you are not sure which visualization to pick, click the **[!UICONTROL Create 
 
 Here is a video overview:
 
->[!VIDEO](https://video.tv.adobe.com/v/329405/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)
 
 -->

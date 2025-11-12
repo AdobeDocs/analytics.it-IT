@@ -3,7 +3,7 @@ title: Esportazione browser
 description: L’esportazione del browser consente di esportare i dati di classificazione in un file delimitato da tabulazioni.
 feature: Classifications
 exl-id: f4c709b2-f707-4e3c-82ba-6b43def3e698
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 2%
