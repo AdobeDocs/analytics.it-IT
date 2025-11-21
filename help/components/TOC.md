@@ -52,7 +52,7 @@ ht-degree: 93%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar &#x200B;](dimensions/evar.md)
+   + [eVar ](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
@@ -142,7 +142,7 @@ ht-degree: 93%
    + [Istanze](metrics/instances.md)
    + [Metriche del ciclo di vita mobile](metrics/lifecycle-metrics.md)
    + [Visualizzazioni di dispositivi mobili](metrics/mobile-views.md)
-   + [Nuovi engagement](metrics/new-engagements.md)
+   + [Nuovi coinvolgimenti](metrics/new-engagements.md)
    + [Occorrenze](metrics/occurrences.md)
    + [Ordini per visita](metrics/orders-per-visit.md)
    + [Ordini](metrics/orders.md)
@@ -271,7 +271,7 @@ ht-degree: 93%
          + [Schema](classifications/sets/manage/schema.md)
          + [Regole](classifications/sets/manage/rules.md)
       + [Processi di classificazione](classifications/sets/job-manager.md)
-      + Consolidamenti delle classificazioni {#consolidations}
+      + Consolidamenti di classificazione {#consolidations}
          + [Gestire i](classifications/sets/consolidations/manage.md)
          + [Creare e modificare](classifications/sets/consolidations/process.md)
    + Generatore di regole di classificazione (legacy){#classifications-rulebuilder}

@@ -7,7 +7,7 @@ user-guide-description: Scopri come utilizzare i feed di dati e Data Warehouse p
 source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 94%
       + [Feed dati](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Report consegnati di Data Warehouse](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report consegnati del Report Builder](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
-      + [Engagement ai servizi tecnici con FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
+      + [Coinvolgimento con Engineering Services tramite FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
    + [Conservazione dei dati e limitazioni dell&#39;FTP](ftp-and-sftp/ftp-limits.md)
    + [Eliminazione dei dati e degli account FTP](ftp-and-sftp/ftp-delete.md)
    + [Ripristino dei dati e degli account FTP eliminati](ftp-and-sftp/ftp-restore.md)

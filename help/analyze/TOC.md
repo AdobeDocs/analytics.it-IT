@@ -7,7 +7,7 @@ user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra c
 source-git-commit: 49b740f4bfd7d1177a307daba00be0006d7fa792
 workflow-type: tm+mt
 source-wordcount: '870'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 94%
       + Tabella a forma libera {#freeform-table}
          + [Panoramica](analysis-workspace/visualizations/freeform-table/freeform-table.md)
          + [Creare collegamenti ipertestuali](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-hyperlinks.md)
-         + [Visualizza dati con tendenze](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
+         + [Visualizzare dati di tendenza](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table-trended-data.md)
          + [Filtrare e ordinare](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [Totali](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
          + Impostazioni colonna e riga {#column-row-settings}
@@ -141,7 +141,7 @@ ht-degree: 94%
       + [Progetti di sola lettura](analysis-workspace/curate-share/view-only-projects.md)
       + [Scaricare](analysis-workspace/curate-share/download-send.md)
       + [Invio e pianificazione](analysis-workspace/curate-share/t-schedule-report.md)
-   + Attribution {#attribution}
+   + Attribuzione {#attribution}
       + [Panoramica su Attribution](analysis-workspace/attribution/overview.md)
       + [Modello, contenitore e intervallo di lookback](analysis-workspace/attribution/models.md)
       + [Attribuzione algoritmica](analysis-workspace/attribution/algorithmic.md)
@@ -152,7 +152,7 @@ ht-degree: 94%
    + Rilevamento delle anomalie {#anomaly-detection}
       + [Panoramica](analysis-workspace/c-anomaly-detection/anomaly-detection.md)
       + [Visualizzare le anomalie](analysis-workspace/c-anomaly-detection/view-anomalies.md)
-      + [Eseguire l’analisi dei contributi](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
+      + [Esegui analisi contributi](analysis-workspace/c-anomaly-detection/run-contribution-analysis.md)
       + [Tecniche statistiche](analysis-workspace/c-anomaly-detection/statistics-anomaly-detection.md)
    + [Preferenze utente](analysis-workspace/user-preferences.md)
    + Domande frequenti su Workspace {#workspace-faq}
