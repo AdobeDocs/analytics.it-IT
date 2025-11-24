@@ -3,7 +3,7 @@ title: Panoramica sui set di classificazione
 description: Scopri come utilizzare i set di classificazione per gestire i dati di classificazione. Scopri le differenze tra i set di classificazione e le classificazioni legacy.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 13%
@@ -77,7 +77,7 @@ Il flusso di lavoro per i set di classificazione in genere prevede i seguenti pa
    Adobe and MGM Tee - Charcoal,Women,Charcoal
    ```
 
-Nel file di dati di classificazione si fa riferimento alla dimensione chiave per ogni suite di rapporti (ad esempio: **[!UICONTROL Product ID]** e **[!UICONTROL Product SKU]**) che utilizza `Key`. E si fa riferimento a ogni classificazione utilizzando **[!UICONTROL Classification Name]** (ad esempio `Category` o `Color`).
+   Nel file di dati di classificazione si fa riferimento alla dimensione chiave per ogni suite di rapporti (ad esempio: **[!UICONTROL Product ID]** e **[!UICONTROL Product SKU]**) che utilizza `Key`. E si fa riferimento a ogni classificazione utilizzando **[!UICONTROL Classification Name]** (ad esempio `Category` o `Color`).
 
 1. [Carica](/help/components/classifications/sets/manage/schema.md#upload) il file contenente i dati di classificazione nello schema del set di classificazione.
 
@@ -96,7 +96,7 @@ L’architettura back-end rilasciata con i set di classificazione contiene diver
 
 * Riduzione del tempo di elaborazione (da 72 ore a 24 ore).
 * Interfaccia utente riprogettata per gestire le classificazioni.
-* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 Anche l’architettura back-end rilasciata con i set di classificazione contiene diverse modifiche:
 
