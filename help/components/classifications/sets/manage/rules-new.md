@@ -4,7 +4,7 @@ description: Scopri come utilizzare le regole dei set di classificazione per def
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
+source-git-commit: bccb3409875336a092ab641ad69b866b43621984
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 14%
@@ -225,5 +225,5 @@ Si desidera classificare con la classificazione **[!UICONTROL Type]** il modo in
 
 * Quando un utente cerca `Cowboys Fantasy Tony Romo`, `Romo` è classificato come **[!UICONTROL Type]**.
 * Quando un utente cerca `Cowboys Fantasy Tony Romeo`, `Fantasy` è classificato come **[!UICONTROL Type]**.
-* Un utente cerca `Cowboys vs. Broncos`, `Team` è classificato come **[!UICONTROL Type]**.
+* Quando un utente cerca `Cowboys vs. Broncos`, `Team` è classificato come **[!UICONTROL Type]**.
 

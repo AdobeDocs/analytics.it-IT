@@ -3,9 +3,9 @@ title: Creare E Modificare I Consolidamenti Di Classificazione
 description: Spiega come creare, convalidare, eseguire, approvare e annullare i consolidamenti delle classificazioni.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: f34072ec42d62cef0a3e1fd4d63f6f39693cf0fd
+source-git-commit: cabddc619e0d2ddaba6b232eb4d72c60301f76bb
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '905'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ Un consolidamento dei set di classificazione consente di prendere classificazion
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="Priorità del set di classificazione"
->abstract="Il ![Key](/help/assets/icons/Key.svg) *set di classificazione* è il set di classificazione di base e definisce lo schema generale e ha la precedenza in tutti i conflitti di unione. Gli altri set di classificazione vengono applicati in ordine crescente."
+>abstract="Il ![Key](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *set di classificazione* è il set di classificazione di base e definisce lo schema generale e ha la precedenza in tutti i conflitti di unione. Gli altri set di classificazione vengono applicati in ordine crescente."
 
 
 Per creare un consolidamento delle classificazioni, nell’interfaccia principale di Adobe Analytics:
