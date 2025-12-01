@@ -111,7 +111,7 @@ L’architettura back-end rilasciata con i set di classificazione contiene diver
 
 * Riduzione del tempo di elaborazione (da 72 ore a 24 ore).
 * Interfaccia utente riprogettata per gestire le classificazioni.
-* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 Anche l’architettura back-end rilasciata con i set di classificazione contiene diverse modifiche:
 
