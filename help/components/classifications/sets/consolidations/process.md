@@ -3,18 +3,25 @@ title: Creare E Modificare I Consolidamenti Di Classificazione
 description: Spiega come creare, convalidare, eseguire, approvare e annullare i consolidamenti delle classificazioni.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: f34072ec42d62cef0a3e1fd4d63f6f39693cf0fd
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '904'
 ht-degree: 3%
 
 ---
 
 # Creare e modificare i consolidamenti delle classificazioni
 
-I consolidamenti dei set di classificazione consentono di prendere classificazioni da più set di dati e combinarle in un unico set. Utilizzare questa interfaccia per creare un consolidamento del set di classificazione dall&#39;inizio alla fine. Questa interfaccia è particolarmente utile per le organizzazioni che passano dalle classificazioni legacy a un set di classificazione. È probabile che la maggior parte delle organizzazioni che utilizzano già i set di classificazione non debbano utilizzare questo flusso di lavoro di consolidamento.
+Un consolidamento dei set di classificazione consente di prendere classificazioni da più set di classificazione e combinarle in un unico set. Utilizzare questa interfaccia per creare un consolidamento del set di classificazione dall&#39;inizio alla fine. Questa interfaccia è particolarmente utile per le organizzazioni che passano dalle classificazioni legacy ai set di classificazione. Le organizzazioni che utilizzano già set di classificazione non devono utilizzare questo flusso di lavoro di consolidamento.
 
-## Creare un consolidamento
+## Creare un consolidamento {#create-a-consolidation}
+
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidation_setpriority"
+>title="Priorità del set di classificazione"
+>abstract="Il ![Key](/help/assets/icons/Key.svg) *set di classificazione* è il set di classificazione di base e definisce lo schema generale e ha la precedenza in tutti i conflitti di unione. Gli altri set di classificazione vengono applicati in ordine crescente."
+
 
 Per creare un consolidamento delle classificazioni, nell’interfaccia principale di Adobe Analytics:
 
@@ -29,11 +36,13 @@ Per creare un consolidamento delle classificazioni, nell’interfaccia principal
    1. Immettere uno o più indirizzi di posta elettronica (separati da virgola) in **[!UICONTROL Notify of issues]**. Gli utenti ricevono notifiche e-mail in caso di problemi.
    1. Selezionare un set di classificazione dal menu a discesa **[!UICONTROL Classification Set To Match]**.
 
-      L&#39;elenco a sinistra **[!UICONTROL Source Classification Set]** contiene set di classificazione simili a quello selezionato e disponibili per il consolidamento.
+      L&#39;elenco a sinistra **[!UICONTROL Source Classification Set]** contiene set di classificazione simili a quello selezionato e disponibili per il consolidamento. L&#39;elenco corretto viene compilato automaticamente con il set di classificazione ![Chiave](/help/assets/icons/Key.svg) selezionato. Il set di base ha definito lo schema generale e ha sempre la precedenza in tutti i conflitti di unione.
 
-   1. Seleziona i set di classificazione da consolidare dall&#39;elenco a sinistra e rilascia i set selezionati nell&#39;elenco a destra sotto la ![Chiave](/help/assets/icons/Key.svg) **[!UICONTROL _set di classificazione_]** selezionata.
+   1. Seleziona i set di classificazione da consolidare dall&#39;elenco a sinistra e rilascia i set selezionati nell&#39;elenco a destra sotto la ![Chiave](/help/assets/icons/Key.svg) base **[!UICONTROL _set di classificazione_]** selezionata.
 
-      Puoi spostare nell’elenco i set di classificazione singoli e selezionati. È inoltre possibile sostituire ![Chiave](/help/assets/icons/Key.svg) **[!UICONTROL _set di classificazione_]** con un set di classificazione selezionato tramite trascinamento della selezione.
+      I set di classificazione aggiuntivi vengono consolidati in ordine crescente quando si esegue il consolidamento. Se una chiave esiste in più set aggiuntivi, viene considerato il valore della chiave dal set di classificazione di classificazione di livello superiore. Se esiste una chiave sia nel set di base ![Chiave](/help/assets/icons/Key.svg) che in qualsiasi altro set, viene utilizzato il valore del set di base.
+
+      Per gestire i valori utilizzati per le chiavi, sposta i singoli set di classificazione selezionati nell’elenco tramite trascinamento. È inoltre possibile sostituire ![Chiave](/help/assets/icons/Key.svg) **[!UICONTROL _set di classificazione_]** con un set di classificazione selezionato tramite trascinamento della selezione.
 
    1. Selezionare **[!UICONTROL Save]** per salvare il consolidamento della classificazione. Seleziona **[!UICONTROL Cancel]** per annullare.
 
@@ -96,7 +105,7 @@ Per convalidare nuovamente il consolidamento della classificazione:
 
 1. Riconfigurare il consolidamento utilizzando la stessa interfaccia di trascinamento utilizzata per creare il consolidamento.
 1. Seleziona ![Segno di spunta](/help/assets/icons/Checkmark.svg) **[!UICONTROL Re-Validate]**. La convalida garantisce che ogni singolo set di classificazione sia valido per questo consolidamento. In caso di esito positivo, viene visualizzato un messaggio popup: ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Successfully submitted consolidation for validation!]**
-1. Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per chiudere la finestra di dialogo. Oppure seleziona ![Riproduci](/help/assets/icons/Play.svg) Esegui per eseguire il consolidamento oppure ![Annulla](/help/assets/icons/Cancel.svg) Annulla per annullare la classificazione.
+1. Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per chiudere la finestra di dialogo. In alternativa, selezionare ![Riproduci](/help/assets/icons/Play.svg) **[!UICONTROL Run]** per eseguire il consolidamento oppure ![Annulla](/help/assets/icons/Cancel.svg) **[!UICONTROL Cancel]** per annullare la classificazione.
 
 
 
@@ -115,9 +124,20 @@ Per eseguire un consolidamento delle classificazioni:
 1. Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per chiudere la finestra di dialogo.
 
 
-### Approvazione
+### Approvazione {#approve}
 
-Una volta eseguito correttamente un consolidamento della classificazione, lo stato del consolidamento è **[!UICONTROL Waiting for Approval]**. L&#39;approvazione di un consolidamento delle classificazioni sostituisce i singoli set di classificazione con il set di classificazione consolidato e i singoli set di classificazione vengono rimossi.
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Mancata corrispondenza"
+>abstract="La percentuale di mancate corrispondenze chiave quando il valore nel set di classificazione consolidato non corrisponde al set di classificazione di origine."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Assente"
+>abstract="La percentuale di chiavi nel set di classificazione consolidato, ma non nel set di classificazione di origine."
+
+Una volta eseguito correttamente un consolidamento della classificazione, lo stato del consolidamento è ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Waiting for Approval]**. L&#39;approvazione di un consolidamento delle classificazioni sostituisce i singoli set di classificazione con il set di classificazione consolidato e i singoli set di classificazione vengono rimossi.
 
 ![Set di classificazione - Consolidamento in attesa di approvazione](assets/classifications-sets-consolidations-waitingforapproval.png)
 

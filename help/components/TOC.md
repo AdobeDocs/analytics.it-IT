@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: c21fb7162a99bc09456e15ff0f1a7a0d2f386098
+source-git-commit: 716bb0267b7e501f458c6934e81dd20c3996cabf
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 93%
@@ -52,7 +52,7 @@ ht-degree: 93%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar &#x200B;](dimensions/evar.md)
+   + [eVar ](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
@@ -270,7 +270,7 @@ ht-degree: 93%
          + [Impostazioni](classifications/sets/manage/settings.md)
          + [Schema](classifications/sets/manage/schema.md)
          + [Regole](classifications/sets/manage/rules.md)
-         + [Nuove regole](classifications/set/manage/../../sets/manage/rules-new.md)
+         + [Nuove regole](classifications/sets/manage/rules-new.md)
       + [Processi di classificazione](classifications/sets/job-manager.md)
       + Consolidamenti di classificazione {#consolidations}
          + [Gestire i](classifications/sets/consolidations/manage.md)

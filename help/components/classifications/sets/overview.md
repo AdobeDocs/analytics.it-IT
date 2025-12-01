@@ -3,10 +3,10 @@ title: Panoramica sui set di classificazione
 description: Scopri come utilizzare i set di classificazione per gestire i dati di classificazione. Scopri le differenze tra i set di classificazione e le classificazioni legacy.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 7d4471be41522d385406574e4f00c31e0704ce27
+source-git-commit: b3616a8667ce35dbfd856244a24b8b552528946c
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 13%
+source-wordcount: '929'
+ht-degree: 11%
 
 ---
 
@@ -17,15 +17,28 @@ I set di classificazione forniscono un’unica interfaccia per gestire classific
 
 ## Set di classificazione e classificazioni legacy
 
-La differenza principale tra i set di classificazione e le classificazioni legacy è la relazione delle classificazioni con una suite di rapporti.
+La differenza principale tra i set di classificazione e le classificazioni legacy consiste nel fatto che i set di classificazione combinano tutte le funzionalità in un’unica interfaccia, in cui le classificazioni legacy si basano su tre interfacce.
 
-Nelle classificazioni legacy, ogni classificazione è collegata direttamente a una suite di rapporti. Classificazioni molto simili (ad esempio per un catalogo di prodotti) vengono replicate se utilizzate in più suite di rapporti.
+### Classificazioni legacy
 
-![Classificazione legacy](manage/assets/classifications-legacy.svg)
+![Classificazione legacy](./assets/classifications-legacy.svg)
 
-Nei set di classificazione puoi definire le sottoscrizioni di suite di rapporti e combinazioni di dimensioni chiave. Ad esempio, una classificazione del catalogo dei prodotti applicabile per più suite di rapporti e basata su una dimensione prodotto (SKU) deve essere definita una sola volta come set di classificazione. All’interno di tale set di classificazione puoi configurare più suite di rapporti e combinazioni di dimensioni chiave per abbonarti a tale set di classificazione.
+Nelle classificazioni legacy, le classificazioni ![Schema](/help/assets/icons2/Schema.svg) (come traffico, conversioni, canali di marketing e altro) hanno ciascuna una propria dimensione (chiave ![Chiave](/help/assets/icons2/Key.svg)). Definisci queste classificazioni come parte delle [impostazioni della suite di rapporti](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md).
 
-![Set di classificazione](manage/assets/classifications-sets.svg)
+Le regole ![BidRule](/help/assets/icons/BidRule.svg) vengono definite separatamente nei set di regole come parte dell&#39;interfaccia [Generatore regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md). Nell’interfaccia è possibile associare un set di regole a una o più suite di rapporti.
+
+Utilizza l&#39;[Importazione classificazioni](/help/components/classifications/importer/c-working-with-saint.md) per scaricare un modello ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), importare ![Classificazioni UploadToCloud](/help/assets/icons/UploadToCloud.svg) o esportare ![Scarica](/help/assets/icons/Download.svg) classificazioni da una combinazione di suite di rapporti - chiave (set di dati).
+
+
+### Set di classificazione
+
+![Set di classificazione](./assets/classifications-sets.svg)
+
+I set di classificazione combinano in un’unica interfaccia tutte le interfacce di classificazione legacy. Ogni set di classificazione definisce:
+
+* Una o più sottoscrizioni, ovvero la combinazione di una suite di rapporti ![Dati](/help/assets/icons2/Data.svg) e della dimensione ![Chiave](/help/assets/icons2/Key.svg) (chiave), che si desidera classificare. Se desideri classificare i prodotti in base a una SKU di prodotto, puoi definire tutte le suite di rapporti con una dimensione di SKU di prodotto applicabile. Inoltre, non è necessario replicare le classificazioni tra le suite di rapporti, come nell’interfaccia delle classificazioni legacy.
+* Elenco di classificazioni ![Schema](/help/assets/icons2/Schema.svg) (schema) per la chiave. Ad esempio, per le classificazioni dei prodotti puoi specificare categoria, colore, dimensione, genere e altro ancora. Dopo aver definito le classificazioni, puoi scaricare un modello ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), caricare ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) dati di classificazione, scaricare ![Scarica](/help/assets/icons/Download.svg) dati di classificazione e altro ancora.
+* Una o più regole ![BidRule](/help/assets/icons/BidRule.svg) per supportare le classificazioni.
 
 
 Per accedere a **[!UICONTROL Classification sets]** dal menu **[!UICONTROL Components]** nell&#39;interfaccia di Adobe Analytics, è necessario essere un amministratore di prodotto o appartenere a un profilo di prodotto contenente l&#39;elemento di autorizzazione [!UICONTROL Report Suite Tools] > [!UICONTROL Classifications]. Le interfacce legacy di gestione delle classificazioni sono disponibili nel menu **[!UICONTROL Admin]**.
@@ -81,6 +94,8 @@ Il flusso di lavoro per i set di classificazione in genere prevede i seguenti pa
 
 1. [Carica](/help/components/classifications/sets/manage/schema.md#upload) il file contenente i dati di classificazione nello schema del set di classificazione.
 
+1. Imposta [regole](manage/rules.md) per classificare automaticamente i dati in arrivo e quelli del passato.
+
 1. [Automatizza](/help/components/classifications/sets/manage/schema.md#automate) il processo di aggiornamenti al catalogo prodotti che desideri visualizzare nei dati di classificazione tramite l&#39;utilizzo di una posizione cloud.
 
 1. [Scarica](/help/components/classifications/sets/manage/schema.md#download) i dati di classificazione per convalidare il contenuto.
@@ -96,7 +111,7 @@ L’architettura back-end rilasciata con i set di classificazione contiene diver
 
 * Riduzione del tempo di elaborazione (da 72 ore a 24 ore).
 * Interfaccia utente riprogettata per gestire le classificazioni.
-* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 Anche l’architettura back-end rilasciata con i set di classificazione contiene diverse modifiche:
 
