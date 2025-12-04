@@ -3,14 +3,23 @@ title: Occorrenza in arrivo
 description: Scopri come i feed di dati trattano gli hit in arrivo tardivo.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 81cbb115d50e1f55a67aac8b107749d0a5a5928b
+source-git-commit: 5816868d3899d2938330471d1e59757141b16c69
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '363'
 ht-degree: 2%
 
 ---
 
-# Occorrenza in arrivo
+# Occorrenza in arrivo {#late-arriving-hits}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_late_hits"
+>title="Consenti hit in arrivo"
+>abstract="Seleziona questa opzione per includere i dati arrivati dopo che il processo di feed dati ha completato l’elaborazione dei dati all’interno della frequenza di reporting impostata (giornaliera, oraria o ogni 15 minuti). Con questa opzione abilitata, ogni volta che un feed di dati elabora i dati, esamina eventuali hit in ritardo arrivati e li inserisce in batch con il successivo file di feed di dati inviato."
+
+<!-- markdownlint-enable MD034 -->
 
 I dati storici possono arrivare dopo che un processo di feed dati termina l’elaborazione per una determinata ora o giorno, ad esempio tramite hit con marca temporale o origini dati. Gli hit in arrivo tardivo sono un’impostazione di personalizzazione del back-end fornita da Adobe per facilitare l’inclusione di questi dati nei feed di dati.
 
