@@ -3,7 +3,7 @@ title: Regole del set di classificazione
 description: Scopri come visualizzare e modificare le regole per un set di classificazione.
 exl-id: 1ccb6a20-1993-4fd3-90eb-9154d12d0ec7
 feature: Classifications
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 70865a487e4442db0eececd33e3d84afc18dc878
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
@@ -15,8 +15,7 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >I set di classificazione non supportano ancora le regole. La funzionalità delle regole verrà aggiunta all’interfaccia dei set di classificazione prima che la funzionalità legacy del generatore di regole diventi non disponibile.
->&#x200B;>Se hai bisogno di regole per le classificazioni, continua a utilizzare il [Generatore di regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md).
-
+>Se hai bisogno di regole per le classificazioni, continua a utilizzare il [Generatore di regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md).
 
 <!--
 Classification set rules allow you to automatically classify values based on the value that the variable is set to. These rules apply to all incoming variable values for all subscriptions of the classification set.
