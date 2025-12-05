@@ -1,7 +1,7 @@
 ---
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '2969'
 ht-degree: 88%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 88%
 >Una nuova versione semplificata di [Report Builder](/help/analyze/report-builder/rb-overview.md) è stata rilasciata il 16 ottobre 2024. È supportato su Mac, Windows e browser web.
 >Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
 
-## Annuncio sulla fine del ciclo di vita di Reports & Analytics {#ra-eol}
+## Annuncio sulla fine del ciclo di vita di Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -194,7 +194,7 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 
 >[!WARNING]
 >
->L&#39;importazione di classificazioni è obsoleta e non sarà più accessibile dopo il **31 agosto 2026**. Passa all&#39;esperienza [Set di classificazione](/help/components/classifications/sets/overview.md) per garantire la continuità delle funzionalità.
+>L&#39;importazione di classificazioni diventerà obsoleta il **31 agosto 2026**. Passa a utilizzare l&#39;esperienza [Set di classificazione](/help/components/classifications/sets/overview.md) per garantire la continuità delle funzionalità.
 >
 
 
@@ -203,6 +203,6 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 
 >[!WARNING]
 >
->Il generatore di regole di classificazione è obsoleto e non sarà più accessibile dopo il **31 agosto 2026**. Passa all&#39;esperienza [Set di classificazione](/help/components/classifications/sets/overview.md), una volta disponibile, per garantire funzionalità continue.
+>Il generatore di regole di classificazione diventerà obsoleto il **31 agosto 2026**. Passa a utilizzare l&#39;esperienza [Regole dei set di classificazione](/help/components/classifications/sets/manage/rules.md), una volta disponibile, per garantire la continuità delle funzionalità.
 >
 

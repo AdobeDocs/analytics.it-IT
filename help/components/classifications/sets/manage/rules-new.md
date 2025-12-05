@@ -4,9 +4,9 @@ description: Scopri come utilizzare le regole dei set di classificazione per def
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: bccb3409875336a092ab641ad69b866b43621984
+source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1494'
 ht-degree: 14%
 
 ---
@@ -96,7 +96,17 @@ Immettere un valore per **[!UICONTROL Starts With]**. Ad esempio: `em`.
 
 Definire una regola per assegnare automaticamente `Email` come valore alla classificazione **[!UICONTROL Channel]** quando il valore per la dimensione chiave Internal Campaign inizia con `em` (ad esempio: `em:FY2025:Summer Sale`).
 
+>[!BEGINTABS]
+
+>[!TAB Regola]
+
 ![Regola - Inizia Con](assets/rule-startswith.png)
+
+>[!TAB Risultati del test]
+
+![Regola - Inizia Con I Risultati Del Test](assets/rule-startswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -110,13 +120,23 @@ Imposta una classificazione basata su un valore specifico con cui termina la dim
 
 #### Input richiesto
 
-Immettere un valore per **[!UICONTROL Ends With]**. Ad esempio: `Sale`.
+Immettere un valore per **[!UICONTROL Ends With]**. Ad esempio: `2025`.
 
 #### Caso d’uso
 
-Definire una regola per assegnare automaticamente `Sale` come valore alla classificazione **[!UICONTROL Type]** quando il valore per la dimensione chiave Internal Campaign contiene `Sale` (ad esempio: `em:FY2025:Summer Sale`).
+Definire una regola per assegnare automaticamente `2025` come valore alla classificazione **[!UICONTROL Year]** quando il valore per la dimensione chiave Internal Campaign contiene `2025` (ad esempio: `em:Summer Sale:FY2025`).
+
+>[!BEGINTABS]
+
+>[!TAB Regola]
 
 ![Regola - Termina Con](assets/rule-endswith.png)
+
+>[!TAB Risultati del test]
+
+![Regola - Termina Con Risultati Test](assets/rule-endswith-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -129,13 +149,24 @@ Imposta una classificazione basata su un valore specifico contenuto nella dimens
 
 #### Input richiesto
 
-Immettere un valore per **[!UICONTROL Contains]**. Ad esempio: `2025`.
+Immettere un valore per **[!UICONTROL Contains]**. Ad esempio: `Winter`.
 
 #### Caso d’uso
 
-Definire una regola per assegnare automaticamente `2025` come valore alla classificazione **[!UICONTROL Year]** quando il valore per la dimensione chiave Internal Campaign termina con `2025` (ad esempio: `em:FY2025:Summer Sale`).
+Definire una regola per assegnare automaticamente `Winter Sale` come valore alla classificazione **[!UICONTROL Type]** quando il valore per la dimensione chiave Internal Campaign contiene con `Winter` (ad esempio: `fb:Winter:FY2024`).
+
+
+>[!BEGINTABS]
+
+>[!TAB Regola]
 
 ![Regola - Contiene](assets/rule-contains.png)
+
+>[!TAB Risultati del test]
+
+![Regola - Contiene Risultati](assets/rule-contains-test.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -152,9 +183,20 @@ Immettere un valore per **[!UICONTROL Match]**. Ad esempio: `em:FY2025:Summer`.
 
 #### Caso d’uso
 
-Definire una regola per assegnare automaticamente `2025 Summer Email` come valore alla classificazione **[!UICONTROL Type]** quando il valore della dimensione chiave Internal Campaign corrisponde a `em:FY2025:Summer`.
+Definire una regola per assegnare automaticamente `Email` come valore alla classificazione **[!UICONTROL Channel]**, `Summer Sale` come valore alla classificazione **[!UICONTROL Type]** e `2025` alla classificazione **[!UICONTROL Year]** quando il valore per la dimensione chiave Internal Campaign corrisponde a `em:FY2025:Summer`.
+
+
+>[!BEGINTABS]
+
+>[!TAB Regola]
 
 ![Regola - Corrisponde](assets/rule-match.png)
+
+>[!TAB Risultati del test]
+
+![Regola - Corrisponde](assets/rule-match.png)
+
+>[!ENDTABS]
 
 +++
 
@@ -167,13 +209,23 @@ Imposta una o più classificazioni basate su un’espressione regolare applicata
 
 #### Input richiesto
 
-Immettere un valore per **[!UICONTROL Regular Expression]**. Ad esempio: `^(.+)\:(.+)\:(.+)$`.
+Immettere un valore per **[!UICONTROL Regular Expression]**. Ad esempio: `^(.+)\:(.+)\:FY(.+)$`.
 
 #### Caso d’uso
 
-Definire una regola per assegnare automaticamente i valori alle classificazioni **[!UICONTROL Channel]**, **[!UICONTROL Type]** e **[!UICONTROL Year]** applicando l&#39;espressione regolare `^(.+)\:(.+)\:(.+)$` e utilizzando i gruppi di corrispondenza (`$1`, `$2` e `$3`) ai valori per la dimensione chiave Internal Campaign.
+Definire una regola per assegnare automaticamente i valori alle classificazioni **[!UICONTROL Channel]**, **[!UICONTROL Type]** e **[!UICONTROL Year]** applicando l&#39;espressione regolare `^(.+)\:(.+)\:FY(.+)$` e utilizzando i gruppi di corrispondenza (`$1`, `$2` e `$3`) ai valori per la dimensione chiave Internal Campaign.
+
+>[!BEGINTABS]
+
+>[!TAB Regola]
 
 ![Regola - Espressione regolare](assets/rule-regex.png)
+
+>[!TAB Risultati del test]
+
+![Regola - Risultati test espressione regolare](assets/rule-regex-test.png)
+
+>[!ENDTABS]
 
 
 #### Tabella riferimenti {#section_0211DCB1760042099CCD3ED7A665D716}
