@@ -3,7 +3,7 @@ title: Panoramica sui set di classificazione
 description: Scopri come utilizzare i set di classificazione per gestire i dati di classificazione. Scopri le differenze tra i set di classificazione e le classificazioni legacy.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: b3616a8667ce35dbfd856244a24b8b552528946c
+source-git-commit: 5256319752fb6521ef86c1dde9d3624689879ecb
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 11%
@@ -21,13 +21,14 @@ La differenza principale tra i set di classificazione e le classificazioni legac
 
 ### Classificazioni legacy
 
-![Classificazione legacy](./assets/classifications-legacy.svg)
+![Classificazione legacy](/help/components/classifications/sets/assets/classifications-legacy.svg)
 
 Nelle classificazioni legacy, le classificazioni ![Schema](/help/assets/icons2/Schema.svg) (come traffico, conversioni, canali di marketing e altro) hanno ciascuna una propria dimensione (chiave ![Chiave](/help/assets/icons2/Key.svg)). Definisci queste classificazioni come parte delle [impostazioni della suite di rapporti](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md).
 
 Le regole ![BidRule](/help/assets/icons/BidRule.svg) vengono definite separatamente nei set di regole come parte dell&#39;interfaccia [Generatore regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md). Nell’interfaccia è possibile associare un set di regole a una o più suite di rapporti.
 
 Utilizza l&#39;[Importazione classificazioni](/help/components/classifications/importer/c-working-with-saint.md) per scaricare un modello ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), importare ![Classificazioni UploadToCloud](/help/assets/icons/UploadToCloud.svg) o esportare ![Scarica](/help/assets/icons/Download.svg) classificazioni da una combinazione di suite di rapporti - chiave (set di dati).
+
 
 
 ### Set di classificazione
@@ -111,7 +112,7 @@ L’architettura back-end rilasciata con i set di classificazione contiene diver
 
 * Riduzione del tempo di elaborazione (da 72 ore a 24 ore).
 * Interfaccia utente riprogettata per gestire le classificazioni.
-* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 Anche l’architettura back-end rilasciata con i set di classificazione contiene diverse modifiche:
 
