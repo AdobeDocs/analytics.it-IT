@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9192849bf9fd9a72d2ad7ae2f9727a13201a2a33
+source-git-commit: 4b39947796d09a58089c846c21b26201a891f1c2
 workflow-type: tm+mt
-source-wordcount: '2969'
+source-wordcount: '2970'
 ht-degree: 88%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 88%
 >Una nuova versione semplificata di [Report Builder](/help/analyze/report-builder/rb-overview.md) è stata rilasciata il 16 ottobre 2024. È supportato su Mac, Windows e browser web.
 >Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
 
-## Annuncio sulla fine del ciclo di vita di Reports & Analytics {#ra-eol}
+## Annuncio sulla fine del ciclo di vita di Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
