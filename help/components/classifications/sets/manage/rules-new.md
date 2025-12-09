@@ -4,9 +4,9 @@ description: Scopri come utilizzare le regole dei set di classificazione per def
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: badd606b708778f7f839756c6de7b6118d366a67
+source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1573'
 ht-degree: 11%
 
 ---
@@ -233,10 +233,14 @@ Definire una regola per assegnare valori alle classificazioni **[!UICONTROL Chan
 
 >[!ENDTABS]
 
++++
+
 
 ### Suddivisione
 
 Divide il valore della dimensione chiave, basato su un token, in una o più classificazioni.
+
++++ Dettagli
 
 #### Input richiesto
 
@@ -257,6 +261,8 @@ Definire una regola che divida i valori per la dimensione chiave Internal Campai
 ![Regola - Risultati test suddivisi](assets/rule-split-test.png)
 
 >[!ENDTABS]
+
++++
 
 
 #### Tabella riferimenti {#section_0211DCB1760042099CCD3ED7A665D716}
