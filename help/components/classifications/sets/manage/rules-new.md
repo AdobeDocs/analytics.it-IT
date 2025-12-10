@@ -4,9 +4,9 @@ description: Scopri come utilizzare le regole dei set di classificazione per def
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 6ae2bbd1ea268524f852fecda88e9d2e237d496a
+source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1564'
 ht-degree: 11%
 
 ---
@@ -296,7 +296,6 @@ Definire una regola che divida i valori per la dimensione chiave Internal Campai
 | `a{3,}` | 3 o più di a |
 | `a{3,6}` | Tra 3 e 6 di a |
 
-+++
 
 
 ## Priorità delle regole
@@ -313,11 +312,22 @@ Se si creano più regole che non condividono la stessa operazione **[!UICONTROL 
 
 ### Esempio
 
-Si desidera classificare con la classificazione **[!UICONTROL Type]** il modo in cui gli utenti cercano un atleta utilizzando la stringa di ricerca come dimensione chiave. Ad esempio, utilizzando questo set di regole:
+Si desidera classificare con la classificazione **[!UICONTROL Type]** il modo in cui gli utenti cercano un team, un tipo generico o un lettore utilizzando la stringa di ricerca come dimensione chiave. Ad esempio, tramite l’utilizzo di questo set di regole:
 
-![Priorità regole](assets/rule-priority.png)
++++ Dettagli
 
-* Quando un utente cerca `Cowboys Fantasy Tony Romo`, `Romo` è classificato come **[!UICONTROL Type]**.
-* Quando un utente cerca `Cowboys Fantasy Tony Romeo`, `Fantasy` è classificato come **[!UICONTROL Type]**.
-* Quando un utente cerca `Cowboys vs. Broncos`, `Team` è classificato come **[!UICONTROL Type]**.
+
+>[!BEGINTABS]
+
+>[!TAB Regola]
+
+![Regola - Priorità](assets/rule-priority.png)
+
+>[!TAB Risultati del test]
+
+![Regola - Risultati test di priorità](assets/rule-priority-test.png)
+
+>[!ENDTABS]
+
++++ 
 
