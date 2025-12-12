@@ -4,9 +4,9 @@ title: Panoramica di Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '623'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ Activity Map as a concept è costituito da diversi componenti importanti:
    * [`ActivityMap.regionIDAttribute`](/help/implement/vars/config-vars/activitymap-regionidattribute.md): modificare l&#39;attributo che popola la dimensione Area geografica di Activity Map.
    * [`ActivityMap.link`](/help/implement/vars/functions/activitymap-link.md): personalizzare la logica utilizzata da Activity Map per popolare la dimensione Collegamento Activity Map.
    * [`ActivityMap.region`](/help/implement/vars/functions/activitymap-region.md): personalizzare la logica utilizzata da Activity Map per popolare la dimensione Area geografica di Activity Map.
-* **Sovrapposizione**: estensione del browser che consente di visualizzare i dati dei clic sovrapposti sul sito Web. Per ulteriori informazioni, vedere [Interfaccia dell&#39;estensione Activity Map](overlay/overview.md).
+* **Sovrapposizione**: estensione del browser che consente di visualizzare i dati dei clic sovrapposti sul sito Web. Per ulteriori informazioni, vedere [Interfaccia dell&#39;estensione Activity Map](overlay/overview.md). Questa funzione non è disponibile per le implementazioni Web SDK.
 * **Dimensioni**: oltre all&#39;estensione di sovrapposizione, Activity Map fornisce diverse dimensioni che è possibile utilizzare in Analysis Workspace.
    * [Collegamento Activity Map](/help/components/dimensions/activity-map-link.md): nome del collegamento su cui è stato fatto clic.
    * [Area geografica Activity Map](/help/components/dimensions/activity-map-region.md): il nome dell&#39;area su cui è stato fatto clic.
@@ -37,7 +37,7 @@ Activity Map as a concept è costituito da diversi componenti importanti:
 
 * **Mappe di calore**: Activity Map genera mappe di calore che visualizzano le aree con il maggior numero di clic o di interazioni di una pagina Web. Le mappe di calore utilizzano la codifica a colori per rappresentare il livello di coinvolgimento, che consente di identificare i punti attivi e dare priorità all’attenzione per le aree ad alto impatto. Queste informazioni possono essere utili per ottimizzare pulsanti, collegamenti, moduli o qualsiasi altro elemento interattivo di call-to-action.
 
-* **Rapporti di sovrapposizione**: i rapporti di sovrapposizione in Activity Map forniscono metriche di clic dettagliate per elementi specifici in una pagina Web. Comprendendo i tassi di click-through e i livelli di coinvolgimento dei singoli elementi, puoi perfezionare le strategie di progettazione e contenuto per migliorare le esperienze degli utenti.
+* **Rapporti di sovrapposizione**: i rapporti di sovrapposizione in Activity Map forniscono metriche di clic dettagliate per elementi specifici in una pagina Web. Comprendendo i tassi di click-through e i livelli di coinvolgimento dei singoli elementi, puoi perfezionare le strategie di progettazione e contenuto per migliorare le esperienze degli utenti. Questa funzione non è disponibile per le implementazioni Web SDK.
 
 * **Analisi del segmento**: puoi analizzare il comportamento degli utenti in base a segmenti diversi, ad esempio origini di traffico, dati demografici o utenti tipo. Segmentando i dati, puoi scoprire informazioni preziose in gruppi di utenti specifici, consentendo esperienze personalizzate e strategie di marketing mirate.
 

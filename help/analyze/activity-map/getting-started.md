@@ -4,9 +4,9 @@ description: Inizia a utilizzare le dimensioni e la sovrapposizione di Activity 
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '799'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Activity Map in Adobe Analytics comprende quattro elementi principali:
 * **Impostazione suite di rapporti**: devi abilitare Activity Map nelle impostazioni della suite di rapporti. Quando è abilitata, la suite di rapporti crea diverse variabili riservate per le dimensioni e le metriche di Activity Map.
 * **Implementazione**: raccogli i dati di Activity Map sul tuo sito Web o sulla tua proprietà. La personalizzazione delle modalità di raccolta dei dati può migliorare la qualità e l’esperienza dei rapporti.
 * **Dimensioni e metriche di Workspace**: se l&#39;implementazione è configurata correttamente, puoi utilizzare le dimensioni e le metriche di Activity Map in Analysis Workspace.
-* **Sovrapposizione**: Adobe offre un&#39;estensione del browser per visualizzare i dati di Activity Map nel contesto del sito Web.
+* **Sovrapposizione**: Adobe offre un&#39;estensione del browser per visualizzare i dati di Activity Map nel contesto del sito Web. Questa funzione non è disponibile per le implementazioni Web SDK.
 
 ## Abilita impostazione suite di rapporti
 
@@ -30,7 +30,7 @@ L’abilitazione dei rapporti di Activity Map crea diverse variabili riservate d
 
 ## Installazione del codice
 
-L’implementazione deve essere configurata correttamente per inviare dati di Activity Map ad Adobe.
+L’implementazione deve essere configurata correttamente per inviare dati di Activity Map ad Adobe. L’estensione overlay del browser non è disponibile quando Adobe Analytics è implementato con Web SDK.
 
 +++Estensione tag Web SDK
 
@@ -48,7 +48,7 @@ L&#39;impostazione di configurazione **[!UICONTROL Click data collection]** gest
 1. Seleziona **[!UICONTROL Save]**.
 1. Se necessario, crea le modifiche in una libreria e pubblicale in produzione.
 
-Per ulteriori informazioni, vedere [Configurare l&#39;estensione tag Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection).
+Per ulteriori informazioni, vedere [Configurare l&#39;estensione tag Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection).
 
 +++
 
@@ -56,7 +56,7 @@ Per ulteriori informazioni, vedere [Configurare l&#39;estensione tag Web SDK](ht
 
 La raccolta dati di Activity Map richiede la libreria Web SDK JavaScript v2.20 o successiva. Le versioni della libreria fino alla versione v2.15 sono supportate in modo limitato. Queste versioni precedenti della libreria inviano i dati di Activity Map in un evento separato dal resto dei dati. Questo evento aggiuntivo aumenta il numero di hit inviati ad Adobe Analytics o Adobe Experience Platform.
 
-La variabile di configurazione del Web SDK [`clickCollectionEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) gestisce la raccolta automatica dei dati di Activity Map. È abilitato per impostazione predefinita, a meno che non sia esplicitamente disabilitato.
+La variabile di configurazione del Web SDK [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) gestisce la raccolta automatica dei dati di Activity Map. È abilitato per impostazione predefinita, a meno che non sia esplicitamente disabilitato.
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ L&#39;impostazione di configurazione **[!UICONTROL Use Activity Map]** gestisce 
 1. Seleziona **[!UICONTROL Save]**.
 1. Se necessario, crea le modifiche in una libreria e pubblicale in produzione.
 
-Per ulteriori informazioni, consulta la [panoramica dell&#39;estensione Adobe Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/analytics/overview).
+Per ulteriori informazioni, consulta la [panoramica dell&#39;estensione Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
 
 +++
 
