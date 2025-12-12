@@ -48,7 +48,7 @@ L&#39;impostazione di configurazione **[!UICONTROL Click data collection]** gest
 1. Seleziona **[!UICONTROL Save]**.
 1. Se necessario, crea le modifiche in una libreria e pubblicale in produzione.
 
-Per ulteriori informazioni, vedere [Configurare l&#39;estensione tag Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection).
+Per ulteriori informazioni, vedere [Configurare l&#39;estensione tag Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection).
 
 +++
 
@@ -56,7 +56,7 @@ Per ulteriori informazioni, vedere [Configurare l&#39;estensione tag Web SDK](ht
 
 La raccolta dati di Activity Map richiede la libreria Web SDK JavaScript v2.20 o successiva. Le versioni della libreria fino alla versione v2.15 sono supportate in modo limitato. Queste versioni precedenti della libreria inviano i dati di Activity Map in un evento separato dal resto dei dati. Questo evento aggiuntivo aumenta il numero di hit inviati ad Adobe Analytics o Adobe Experience Platform.
 
-La variabile di configurazione del Web SDK [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) gestisce la raccolta automatica dei dati di Activity Map. È abilitato per impostazione predefinita, a meno che non sia esplicitamente disabilitato.
+La variabile di configurazione del Web SDK [`clickCollectionEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) gestisce la raccolta automatica dei dati di Activity Map. È abilitato per impostazione predefinita, a meno che non sia esplicitamente disabilitato.
 
 ```js
 alloy("configure", {
@@ -82,7 +82,7 @@ L&#39;impostazione di configurazione **[!UICONTROL Use Activity Map]** gestisce 
 1. Seleziona **[!UICONTROL Save]**.
 1. Se necessario, crea le modifiche in una libreria e pubblicale in produzione.
 
-Per ulteriori informazioni, consulta la [panoramica dell&#39;estensione Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
+Per ulteriori informazioni, consulta la [panoramica dell&#39;estensione Adobe Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/analytics/overview).
 
 +++
 
