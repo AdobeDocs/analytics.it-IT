@@ -3,10 +3,10 @@ title: Canale di ultimo contatto
 description: Il canale di marketing più recente entro la scadenza del coinvolgimento del visitatore.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 31c3f83f1142a4ba92a390e35ca8dcae66dfa660
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 5%
+source-wordcount: '336'
+ht-degree: 3%
 
 ---
 
@@ -25,6 +25,10 @@ Per impostare questa dimensione su un valore specifico, sono necessari i seguent
 * Imposta l’elemento dimensionale desiderato come canale nel Gestore dei canali di marketing, in Impostazioni della suite di rapporti.
 * Imposta una regola di elaborazione del canale di marketing contenente i criteri desiderati per l’hit.
 * L&#39;hit del visitatore per il sito deve corrispondere ai criteri descritti nella regola di elaborazione del canale di marketing.
+
+>[!TIP]
+>
+>L&#39;utilizzo di questa dimensione con metriche che utilizzano l&#39;attribuzione di partecipazione [](/help/analyze/analysis-workspace/attribution/models.md) può attribuire il credito a `None` quando altri modelli di attribuzione non lo fanno. Le metriche di partecipazione richiedono un canale di marketing [istanza](../metrics/instances.md) nell&#39;intervallo di reporting per ricevere credito. Se il canale di marketing è stato inizialmente impostato al di fuori dell&#39;intervallo di reporting ed esiste solo il valore persistente nell&#39;intervallo di reporting, le metriche di partecipazione attribuiscono il credito a `None`. Altri modelli di attribuzione attribuiscono il merito al valore persistente. Se in questo scenario si desidera evitare l&#39;attribuzione a `None`, è consigliabile utilizzare un modello di attribuzione di non partecipazione.
 
 ## Elementi dimensionali
 
