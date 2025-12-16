@@ -3,21 +3,21 @@ title: Panoramica sui set di classificazione
 description: Scopri come utilizzare i set di classificazione per gestire i dati di classificazione. Scopri le differenze tra i set di classificazione e le classificazioni legacy.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 5256319752fb6521ef86c1dde9d3624689879ecb
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
 # Panoramica sui set di classificazione
 
-I set di classificazione forniscono un’unica interfaccia per gestire classificazioni e regole. Questo flusso di lavoro combina la creazione di classificazioni nelle impostazioni della suite di rapporti con l&#39;[importazione classificazioni](/help/components/classifications/sets/manage/set-manager.md). Il risultato è un’unica interfaccia intuitiva per creare e gestire i dati di classificazione.
+I set di classificazione forniscono un’unica interfaccia per gestire classificazioni e regole. Questo flusso di lavoro combina la creazione di classificazioni in [Impostazioni suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md) con la [Importazione classificazioni](/help/components/classifications/sets/manage/set-manager.md). Il risultato è un’unica interfaccia intuitiva per creare e gestire i dati di classificazione.
 
 
 ## Set di classificazione e classificazioni legacy
 
-La differenza principale tra i set di classificazione e le classificazioni legacy consiste nel fatto che i set di classificazione combinano tutte le funzionalità in un’unica interfaccia, in cui le classificazioni legacy si basano su tre interfacce.
+La differenza principale tra i set di classificazione e le classificazioni legacy è che i set di classificazione combinano tutte le funzionalità in un’unica interfaccia, in cui le classificazioni legacy si basano su tre interfacce.
 
 ### Classificazioni legacy
 
@@ -25,7 +25,7 @@ La differenza principale tra i set di classificazione e le classificazioni legac
 
 Nelle classificazioni legacy, le classificazioni ![Schema](/help/assets/icons2/Schema.svg) (come traffico, conversioni, canali di marketing e altro) hanno ciascuna una propria dimensione (chiave ![Chiave](/help/assets/icons2/Key.svg)). Definisci queste classificazioni come parte delle [impostazioni della suite di rapporti](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-classifications.md).
 
-Le regole ![BidRule](/help/assets/icons/BidRule.svg) vengono definite separatamente nei set di regole come parte dell&#39;interfaccia [Generatore regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md). Nell’interfaccia è possibile associare un set di regole a una o più suite di rapporti.
+Le regole ![BidRule](/help/assets/icons/BidRule.svg) vengono definite separatamente nei set di regole come parte dell&#39;interfaccia [Generatore regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md). Nell’interfaccia, associa un set di regole a una o più suite di rapporti.
 
 Utilizza l&#39;[Importazione classificazioni](/help/components/classifications/importer/c-working-with-saint.md) per scaricare un modello ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), importare ![Classificazioni UploadToCloud](/help/assets/icons/UploadToCloud.svg) o esportare ![Scarica](/help/assets/icons/Download.svg) classificazioni da una combinazione di suite di rapporti - chiave (set di dati).
 
@@ -35,7 +35,7 @@ Utilizza l&#39;[Importazione classificazioni](/help/components/classifications/i
 
 ![Set di classificazione](./assets/classifications-sets.svg)
 
-I set di classificazione combinano in un’unica interfaccia tutte le interfacce di classificazione legacy. Ogni set di classificazione definisce:
+I set di classificazione combinano in un unico set tutte le interfacce di classificazione legacy. Ogni set di classificazione definisce:
 
 * Una o più sottoscrizioni, ovvero la combinazione di una suite di rapporti ![Dati](/help/assets/icons2/Data.svg) e della dimensione ![Chiave](/help/assets/icons2/Key.svg) (chiave), che si desidera classificare. Se desideri classificare i prodotti in base a una SKU di prodotto, puoi definire tutte le suite di rapporti con una dimensione di SKU di prodotto applicabile. Inoltre, non è necessario replicare le classificazioni tra le suite di rapporti, come nell’interfaccia delle classificazioni legacy.
 * Elenco di classificazioni ![Schema](/help/assets/icons2/Schema.svg) (schema) per la chiave. Ad esempio, per le classificazioni dei prodotti puoi specificare categoria, colore, dimensione, genere e altro ancora. Dopo aver definito le classificazioni, puoi scaricare un modello ![DocumentFragment](/help/assets/icons/DocumentFragment.svg), caricare ![UploadToCloud](/help/assets/icons/UploadToCloud.svg) dati di classificazione, scaricare ![Scarica](/help/assets/icons/Download.svg) dati di classificazione e altro ancora.
@@ -112,7 +112,7 @@ L’architettura back-end rilasciata con i set di classificazione contiene diver
 
 * Riduzione del tempo di elaborazione (da 72 ore a 24 ore).
 * Interfaccia utente riprogettata per gestire le classificazioni.
-* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 Anche l’architettura back-end rilasciata con i set di classificazione contiene diverse modifiche:
 

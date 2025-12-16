@@ -4,9 +4,9 @@ description: Scopri come utilizzare le regole dei set di classificazione per def
 feature: Classifications
 hide: true
 hidefromtoc: true
-source-git-commit: 5976beb63d84bf35c998e04df6884fa78dff7c6a
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1565'
 ht-degree: 11%
 
 ---
@@ -26,7 +26,11 @@ Per definire un set di regole per un set di classificazione:
 1. Nel gestore **[!UICONTROL Classifications Sets]**, selezionare il set di classificazione per il quale si desidera definire le regole.
 1. Nella finestra di dialogo **[!UICONTROL Classification Set: _nome set di classificazione_]**, seleziona la scheda **[!UICONTROL Rules]**.
 
-   * Se accedi all&#39;interfaccia **[!UICONTROL Rules]** per la prima volta per un set di classificazione o decidi di continuare a utilizzare l&#39;interfaccia del generatore di regole legacy, viene visualizzata una finestra di dialogo che consente di selezionare come iniziare. Le opzioni sono:
+   * Se accedi all&#39;interfaccia **[!UICONTROL Rules]** per la prima volta per un set di classificazione o decidi di continuare a utilizzare l&#39;interfaccia del generatore di regole legacy, viene visualizzata una finestra di dialogo che consente di selezionare come iniziare.
+
+     ![Migrazione regole](assets/rules-migration.png)
+
+     Le opzioni sono:
 
       * **Esegui migrazione regole esistenti**. Importa le regole di classificazione correnti e continua a lavorare con queste regole nella nuova interfaccia. Le regole esistenti vengono mantenute e convertite nel nuovo formato.
          * Seleziona **[!UICONTROL Migrate rules]** (Avanti) per continuare.

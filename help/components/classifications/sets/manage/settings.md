@@ -3,9 +3,9 @@ title: Impostazioni set di classificazione
 description: Scopri come creare o modificare un set di classificazione.
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '166'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Per modificare le impostazioni per un set di classificazione:
 
    1. Modifica **[!UICONTROL Name]**.
    1. Modifica un **[!UICONTROL Description (optional)]**.
-   1. Modificare l&#39;elenco degli indirizzi di posta elettronica (separatore di virgole) in **[!UICONTROL Notify of issues]**. Questi utenti ricevono una notifica via e-mail di eventuali problemi.
+   1. Modificare l&#39;elenco degli indirizzi di posta elettronica (separati da virgola) in **[!UICONTROL Notify of issues]**. Questi utenti ricevono un’e-mail quando si verificano uno o più problemi.
    1. Aggiungi uno o più **[!UICONTROL Tags (optional)]** al set di classificazione. Selezionare un tag esistente dal menu a discesa **[!UICONTROL Tags]** oppure immettere un nuovo tag. Utilizza ![CrossSize100](/help/assets/icons/CrossSize100.svg) per rimuovere un tag.
    1. Modifica **[!UICONTROL Subscriptions]**.
       * È possibile definire più combinazioni di **[!UICONTROL Report Suite]** e **[!UICONTROL Dimension]** in un set di classificazione.

@@ -3,9 +3,9 @@ title: Creare E Modificare I Consolidamenti Di Classificazione
 description: Spiega come creare, convalidare, eseguire, approvare e annullare i consolidamenti delle classificazioni.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cabddc619e0d2ddaba6b232eb4d72c60301f76bb
+source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '906'
 ht-degree: 3%
 
 ---
@@ -143,7 +143,7 @@ Una volta eseguito correttamente un consolidamento della classificazione, lo sta
 
 Per approvare un consolidamento del set di classificazione:
 
-1. Utilizzare **[!UICONTROL Similarity Reports]** per rivedere il consolidamento. Questo rapporto mostra una tabella con le seguenti colonne:
+1. Utilizzare il report **[!UICONTROL Similarity Reports]** per rivedere il consolidamento. Questo rapporto mostra una tabella con le seguenti colonne:
 
    * **[!UICONTROL Classification Set Name]**: nome del set di classificazione.
    * **[!UICONTROL Mismatch]**: percentuale di righe in cui i valori chiave non corrispondono al set di classificazione di origine. Se la percentuale di mancata corrispondenza è elevata, la mancata corrispondenza può indicare che i dati di classificazione sono troppo diversi. Controlla e assicurati che i set di classificazione selezionati abbiano dati di classificazione simili.

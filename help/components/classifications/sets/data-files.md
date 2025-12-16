@@ -3,9 +3,9 @@ description: Comprendere i vari formati di file supportati dai set di classifica
 title: Formati di file del set di classificazione
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
-source-git-commit: 77599d015ba227be25b7ebff82ecd609fa45a756
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ I set di classificazione supportano i seguenti formati di file:
 
 * **JSON**: file di notazione dell&#39;oggetto JavaScript con dati strutturati
 * **CSV**: file di valori separati da virgole
-* **TSV/TAB**: file di valori separati da tabulazioni
+* **TSV o TAB**: file di valori separati da tabulazioni
 
 ## Requisiti generali dei file
 
@@ -39,7 +39,7 @@ Il formato del file JSON segue le convenzioni per le linee JSON (JSONL). Il file
 
 >[!NOTE]
 >
->Nonostante le seguenti convenzioni per le righe JSON, utilizza l&#39;estensione di file `.json` per tutti i caricamenti. L&#39;utilizzo dell&#39;estensione `.jsonl` può causare errori.
+>Nonostante le convenzioni per le righe JSON, utilizza l&#39;estensione di file `.json` per tutti i caricamenti. L&#39;utilizzo dell&#39;estensione `.jsonl` può causare errori.
 
 ### Struttura JSON
 
@@ -48,7 +48,7 @@ Ogni oggetto JSON deve contenere:
 * `key` (obbligatorio): identificatore univoco per il record di classificazione
 * `data` (obbligatorio per gli aggiornamenti): oggetto contenente i nomi delle colonne di classificazione e i relativi valori
 * `action` (facoltativo): azione da eseguire. I valori supportati includono:
-   * `update` (predefinito)
+   * `update` (azione predefinita, quando non viene specificata alcuna azione)
    * `delete-field`
    * `delete-key`
 * `enc` (facoltativo): specifica di codifica dati. I valori supportati includono:
@@ -57,32 +57,6 @@ Ogni oggetto JSON deve contenere:
 
 Tutti i nomi di campo JSON (`key`, `data`, `action`, `enc`) fanno distinzione tra maiuscole e minuscole e devono essere minuscole.
 
-### Esempi JSON
-
-**Record aggiornamento di base:**
-
-```json
-{"key": "product123", "data": {"Product Name": "Basketball Shoes", "Brand": "Brand A", "Category": "Sports"}}
-```
-
-**Aggiornamento con codifica specificata:**
-
-```json
-{"key": "product456", "enc": "utf8", "data": {"Product Name": "Running Shoes", "Brand": "Brand B"}}
-```
-
-**Elimina campi specifici:**
-
-```json
-{"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
-```
-
-**Eliminare un&#39;intera chiave:**
-
-```json
-{"key": "product999", "action": "delete-key"}
-```
-
 ### Regole di convalida JSON
 
 * Il campo `key` è obbligatorio e non può essere nullo o vuoto.
@@ -90,6 +64,35 @@ Tutti i nomi di campo JSON (`key`, `data`, `action`, `enc`) fanno distinzione tr
 * Per le azioni `delete-field`, il campo `data` deve contenere i campi da eliminare.
 * Per le azioni `delete-key`, il campo `data` non deve essere presente.
 * I valori di codifica supportati non fanno distinzione tra maiuscole e minuscole e includono nomi di set di caratteri standard.
+
+### Esempi JSON
+
+Alcuni esempi di record JSON in un file JSON.
+
+#### Record di aggiornamento di base
+
+```json
+{"key": "product123", "data": {"Product Name": "Basketball Shoes", "Brand": "Brand A", "Category": "Sports"}}
+```
+
+#### Aggiorna con codifica specificata
+
+```json
+{"key": "product456", "enc": "utf8", "data": {"Product Name": "Running Shoes", "Brand": "Brand B"}}
+```
+
+#### Elimina campi specifici
+
+```json
+{"key": "product789", "action": "delete-field", "data": {"Brand": null, "Category": null}}
+```
+
+#### Eliminare un&#39;intera chiave
+
+```json
+{"key": "product999", "action": "delete-key"}
+```
+
 
 +++
 
@@ -104,32 +107,6 @@ I file CSV (Comma-Separated Values, Valori separati da virgole) utilizzano le vi
 * **Delimitatori**: i campi sono separati da virgole
 * **Virgolette**: i campi contenenti virgole, virgolette o nuove righe devono essere racchiusi tra virgolette doppie
 
-### Esempi di CSV
-
-**Dati di classificazione di base:**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product123,"Basketball Shoes",Brand A,Sports,89.99
-product456,"Running Shoes",Brand B,Sports,79.99
-product789,"Winter Jacket",Brand C,Clothing,149.99
-```
-
-**Eliminare un&#39;intera chiave:**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product999,~deletekey~,,,
-```
-
-**Elimina campi specifici (insieme agli aggiornamenti):**
-
-```csv
-Key,Product Name,Brand,Category,Price
-product123,"Updated Product Name",Brand A,Sports,89.99
-product456,,~empty~,~empty~,79.99
-```
-
 ### Regole di formattazione CSV
 
 * I campi contenenti virgole devono essere racchiusi tra virgolette.
@@ -138,11 +115,39 @@ product456,,~empty~,~empty~,79.99
 * Gli spazi iniziali e finali intorno ai campi vengono tagliati automaticamente.
 * I caratteri speciali (tabulazioni, nuove righe) nei campi tra virgolette vengono mantenuti.
 
-**Operazioni di eliminazione:**
+### Operazioni di eliminazione CSV
 
 * Utilizza `~deletekey~` in qualsiasi campo per eliminare l&#39;intera chiave e tutti i relativi dati di classificazione
 * Utilizza `~empty~` in campi specifici per eliminare solo i valori di classificazione (lasciando invariati gli altri campi)
 * Quando si utilizza `~empty~`, è possibile combinare eliminazioni con aggiornamenti nello stesso file
+
+### Esempi di CSV
+
+Alcuni esempi di record CSV in un file CSV.
+
+#### Dati di classificazione di base
+
+```csv
+Key,Product Name,Brand,Category,Price
+product123,"Basketball Shoes",Brand A,Sports,89.99
+product456,"Running Shoes",Brand B,Sports,79.99
+product789,"Winter Jacket",Brand C,Clothing,149.99
+```
+
+#### Eliminare un&#39;intera chiave
+
+```csv
+Key,Product Name,Brand,Category,Price
+product999,~deletekey~,,,
+```
+
+#### Elimina campi specifici (insieme agli aggiornamenti)
+
+```csv
+Key,Product Name,Brand,Category,Price
+product123,"Updated Product Name",Brand A,Sports,89.99
+product456,,~empty~,~empty~,79.99
+```
 
 +++
 
@@ -157,9 +162,25 @@ I file TSV (Valori separati da tabulazioni) e TAB utilizzano i caratteri di tabu
 * **Delimitatori**: i campi sono separati da caratteri di tabulazione (`\t`).
 * **Virgolette**: in genere non sono necessarie virgolette, ma alcune implementazioni supportano i campi tra virgolette.
 
+### Regole di formattazione TSV e TAB
+
+* I campi sono separati da caratteri di tabulazione singoli.
+* I campi vuoti (schede consecutive) rappresentano valori Null.
+* In genere non sono richieste virgolette speciali.
+* Gli spazi iniziali e finali vengono mantenuti.
+* I caratteri di nuova riga all’interno dei campi devono essere evitati.
+
+### Operazioni di eliminazione TSV e TAB
+
+* Utilizza `~deletekey~` in qualsiasi campo per eliminare l&#39;intera chiave e tutti i relativi dati di classificazione.
+* Utilizza `~empty~` in campi specifici per eliminare solo i valori di classificazione (lasciando invariati gli altri campi).
+* Quando si utilizza `~empty~`, è possibile combinare eliminazioni con aggiornamenti nello stesso file.
+
 ### Esempi di TSV e TAB
 
-**Dati di classificazione di base:**
+Alcuni esempi di record delimitati da TSV o TAB in un file TSV o TAB.
+
+#### Dati di classificazione di base
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -168,14 +189,14 @@ product456    Running Shoes    Brand B    Sports    79.99
 product789    Winter Jacket    Brand C    Clothing    149.99
 ```
 
-**Eliminare un&#39;intera chiave:**
+#### Eliminare un&#39;intera chiave
 
 ```tsv
 Key    Product Name    Brand    Category    Price
 product999    ~deletekey~            
 ```
 
-**Elimina campi specifici (insieme agli aggiornamenti):**
+#### Elimina campi specifici (insieme agli aggiornamenti)
 
 ```tsv
 Key    Product Name    Brand    Category    Price
@@ -183,30 +204,26 @@ product123    Updated Product Name    Brand A    Sports    89.99
 product456        ~empty~    ~empty~    79.99
 ```
 
-### Regole di formattazione TSV/TAB
-
-* I campi sono separati da caratteri di tabulazione singoli.
-* I campi vuoti (schede consecutive) rappresentano valori Null.
-* In genere non sono richieste virgolette speciali.
-* Gli spazi iniziali e finali vengono mantenuti.
-* I caratteri di nuova riga all’interno dei campi devono essere evitati.
-
-**Operazioni di eliminazione:**
-
-* Utilizza `~deletekey~` in qualsiasi campo per eliminare l&#39;intera chiave e tutti i relativi dati di classificazione.
-* Utilizza `~empty~` in campi specifici per eliminare solo i valori di classificazione (lasciando invariati gli altri campi).
-* Quando si utilizza `~empty~`, è possibile combinare eliminazioni con aggiornamenti nello stesso file.
-
 +++
 
 ## Gestione degli errori
 
-Problemi di caricamento comuni e soluzioni:
+Problemi comuni e soluzioni durante il caricamento dei file:
 
 ### Errori generali nel formato del file
 
 * **Formato file non valido**: verificare che l&#39;estensione del file corrisponda al formato del contenuto (`.json`, `.csv`, `.tsv` o `.tab`).
 * **Intestazione sconosciuta**: i nomi delle colonne devono corrispondere allo schema del set di classificazione (si applica a tutti i formati).
+
+### Errori specifici JSON
+
+* **La chiave è un campo obbligatorio**: tutti i record JSON devono avere un campo `"key"` non vuoto (minuscolo, con distinzione tra maiuscole e minuscole).
+* **I dati sono un campo obbligatorio quando si utilizza action=update**: le azioni di aggiornamento JSON devono includere un campo `"data"`.
+* **I dati sono un campo obbligatorio quando si utilizza action=delete-field**: Le azioni di eliminazione JSON devono specificare quali campi eliminare nel campo `"data"`.
+* **I dati non devono essere presenti quando si utilizza action=delete-key**: Le azioni chiave di eliminazione JSON non possono includere un campo `"data"`.
+* **Codifica non supportata**: utilizzare solo i valori di codifica supportati nel campo `"enc"` (`utf8`, `UTF8`, `latin1`, `LATIN1`).
+* **Sintassi JSON non valida**: verifica che il file JSON sia formattato correttamente in base alle convenzioni JSONL. Controlla anche la formattazione JSON generale, le virgolette mancanti, le virgole, le parentesi quadre, ecc.
+
 
 ### Errori specifici per CSV e TSV
 
@@ -217,14 +234,6 @@ Problemi di caricamento comuni e soluzioni:
 * **Il numero di colonne non corrisponde alle intestazioni**: ogni riga di dati CSV o TSV deve avere lo stesso numero di campi della riga di intestazione.
 * **&quot;Documento in formato non valido**: controlla le virgolette CSV, la separazione delle tabulazioni nei file TSV e altro ancora.
 
-### Errori specifici JSON
-
-* **La chiave è un campo obbligatorio**: tutti i record JSON devono avere un campo `"key"` non vuoto (minuscolo, con distinzione tra maiuscole e minuscole).
-* **I dati sono un campo obbligatorio quando si utilizza action=update**: le azioni di aggiornamento JSON devono includere un campo `"data"`.
-* **I dati sono un campo obbligatorio quando si utilizza action=delete-field**: Le azioni di eliminazione JSON devono specificare quali campi eliminare nel campo `"data"`.
-* **I dati non devono essere presenti quando si utilizza action=delete-key**: Le azioni chiave di eliminazione JSON non possono includere un campo `"data"`.
-* **Codifica non supportata**: utilizzare solo i valori di codifica supportati nel campo `"enc"` (`utf8`, `UTF8`, `latin1`, `LATIN1`).
-* **Sintassi JSON non valida**: verifica che il file JSON sia formattato correttamente in base alle convenzioni JSONL. Controlla anche la formattazione JSON generale, le virgolette mancanti, le virgole, le parentesi quadre, ecc.
 
 ### Errori di limite di dimensione
 

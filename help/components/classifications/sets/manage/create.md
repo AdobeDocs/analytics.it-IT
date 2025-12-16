@@ -3,9 +3,9 @@ title: Creare set di classificazione
 description: Scopri come rendere disponibili campi e descrizioni durante la creazione di un set di classificazione.
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
 feature: Classifications
-source-git-commit: ec49a5fd5771e4ca0a35ead681b556336bbc7031
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 4%
 
 ---
@@ -34,7 +34,7 @@ Per creare un set di classificazione:
 
          * Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per eliminare una combinazione di **[!UICONTROL Report Suite]** e **[!UICONTROL Key Dimension]**.
 
-        Se aggiungi una combinazione di **[!UICONTROL Report Suite]** e **[!UICONTROL Key Dimension]** già esistente in un altro set di classificazione, sotto la combinazione viene visualizzato un messaggio di colore rosso.
+        Se aggiungi una combinazione di **[!UICONTROL Report Suite]** e **[!UICONTROL Key Dimension]** già esistente in un altro set di classificazione, viene visualizzato un messaggio di colore rosso.
 Puoi:
          * Selezionare **[!UICONTROL Add to existing]** per aprire l&#39;altro set di classificazione e [aggiungere classificazioni allo schema](schema.md) per l&#39;altro set di classificazione.
          * Cambia **[!UICONTROL Report Suite]** e **[!UICONTROL Key Dimension]** in una combinazione che non è già abbonata a un altro set di classificazione.

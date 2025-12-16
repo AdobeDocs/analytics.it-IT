@@ -3,9 +3,9 @@ title: Schema del set di classificazione
 description: Scopri come visualizzare e modificare lo schema per un singolo set di classificazione.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: f34072ec42d62cef0a3e1fd4d63f6f39693cf0fd
+source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1300'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ L’elenco delle classificazioni presenta le seguenti colonne:
 | Colonna | Descrizione |
 |---|---|
 | **[!UICONTROL Classification Name]** | Il nome fornito per la classificazione. |
-| **[!UICONTROL Identity Name]** | Il nome derivato dal sistema per la classificazione. Questo è un valore di sola lettura e puoi utilizzare il nome dell’identità |
+| **[!UICONTROL Identity Name]** | Il nome derivato dal sistema per la classificazione. Questo nome è un valore di sola lettura e puoi utilizzare il nome dell’identità |
 | **[!UICONTROL Classified By]** | Se utilizzato, un collegamento al set di classificazione di ricerca utilizzato per classificare questa classificazione. |
 
 
@@ -82,7 +82,7 @@ Per importare i dati di classificazione nello schema per una classificazione, se
 
    Viene visualizzato un **[!UICONTROL Schema Preview]** del contenuto del file. L’anteprima mostra le colonne di dati del file. Per ridimensionare una colonna, selezionare ![ChevronDownSize300](/help/assets/icons2/ChevronDownSize300.svg) e selezionare **[!UICONTROL Resize column]**. Viene visualizzato un handle che consente di ridimensionare la colonna.
 
-   Quando nel set di classificazione per una colonna non è definita alcuna classificazione, viene visualizzato un avviso ![Avviso](/help/assets/icons/Alert.svg). L’avviso spiega che una classificazione non è presente nel set di schemi di classificazione esistente e verrà creata al momento dell’importazione.
+   Quando nel set di classificazione per una colonna non è definita alcuna classificazione, viene visualizzato un avviso ![Avviso](/help/assets/icons/Alert.svg). L’avviso spiega che una classificazione non è presente nel set di schemi di classificazione esistente e viene creata al momento dell’importazione.
 
 1. Selezionare **[!UICONTROL Overwrite data on conflict?]** se si desidera sovrascrivere i dati di classificazione correnti con i nuovi dati importati. Ad esempio:
 
@@ -156,14 +156,14 @@ Nella finestra di dialogo **[!UICONTROL Download template for _nome set di class
 >id="classificationsets_schema_automate_locationaccount"
 >title="Account posizione"
 >abstract="Elenco dei conti di ubicazione dei tipi di conto che supportano l&#39;importazione dei dati di classificazione. Selezionare **[!UICONTROL New account]** per creare un nuovo account località."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=it" text="Configurare account di importazione ed esportazione cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configurare account di importazione ed esportazione cloud"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Posizione"
 >abstract="Elenco di posizioni nell’account di posizione selezionato che supportano l’importazione dei dati di classificazione. Selezionare **[!UICONTROL New location]** per creare una nuova posizione."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=it" text="Configurare i percorsi di importazione ed esportazione cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configurare i percorsi di importazione ed esportazione cloud"
 
 
 Per automatizzare l&#39;acquisizione della classificazione, selezionare ![Ingranaggio](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.
@@ -194,7 +194,7 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
 
 1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
 1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud.
-1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**&#x200B;se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**&#x200B;per annullare la configurazione del percorso cloud.
+1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**per annullare la configurazione del percorso cloud.
 
 Quando carichi i file nel percorso cloud, entro 15 minuti il file viene rilevato e inviato come processo di importazione. Il risultato di questo processo di importazione è riportato in [Gestione processi classificazioni](/help/components/classifications/sets/job-manager.md). Se vieni aggiunto all’elenco di utenti a cui inviare notifiche sul completamento dei processi di acquisizione, riceverai anche messaggi e-mail.
 
