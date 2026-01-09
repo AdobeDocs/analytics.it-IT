@@ -22,7 +22,7 @@ La cura ti consente di limitare i componenti (dimensioni, metriche, segmenti, in
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura progetti](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura progetti](https://video.tv.adobe.com/v/329897?captions=ita&quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
