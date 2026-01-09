@@ -12,7 +12,7 @@ ht-degree: 10%
 
 # Stato identificato
 
-La &#39;dimensione dello stato identificato&#39; [](overview.md) è specifica per le [suite di rapporti virtuali di Analytics](../cda/overview.md) cross-device. Segnala se gli hit sono identificati (uniti) o meno dal sistema al momento dell’esecuzione del rapporto. Questa dimensione è utile per comprendere il livello di unione o &quot;compressione&quot; dei dati da parte di CDA.
+La &#39;dimensione dello stato identificato&#39; [&#128279;](overview.md) è specifica per le [suite di rapporti virtuali di Analytics](../cda/overview.md) cross-device. Segnala se gli hit sono identificati (uniti) o meno dal sistema al momento dell’esecuzione del rapporto. Questa dimensione è utile per comprendere il livello di unione o &quot;compressione&quot; dei dati da parte di CDA.
 
 ## Popolare questa dimensione con i dati
 
