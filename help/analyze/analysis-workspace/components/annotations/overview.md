@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 84%
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,7 @@ Le annotazioni possono essere applicate a:
 
 * Il progetto in cui vengono create le annotazioni (impostazione predefinita) o tutti i progetti.
 
-* La visualizzazione dei dati in cui vengono create le annotazioni (impostazione predefinita) o tutte le visualizzazioni dei dati.
+* La suite di rapporti in cui vengono create le annotazioni (impostazione predefinita) o tutte le suite di rapporti.
 
 Per le varie opzioni disponibili per la creazione di annotazioni, consulta [Creare annotazioni](create-annotations.md). Le annotazioni verranno quindi compilate, modificate e salvate nel [generatore di annotazioni](create-annotations.md#annotation-builder).
 

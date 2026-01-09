@@ -4,7 +4,7 @@ description: Scopri come impostare le preferenze generali e di progetto per gli 
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '3363'
 ht-degree: 79%
@@ -18,7 +18,7 @@ Puoi gestire le impostazioni di Analysis Workspace e dei relativi componenti per
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire le preferenze](https://video.tv.adobe.com/v/3429995/?captions=ita&quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire le preferenze](https://video.tv.adobe.com/v/332600/?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -128,7 +128,7 @@ Fai clic sui titoli delle preferenze collegati per ulteriori informazioni e cont
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Metrica tabella predefinita"
->abstract="Seleziona la metrica predefinita da utilizzare per le tabelle a forma libera. Se la visualizzazione dati selezionata non contiene la metrica predefinita selezionata, la tabella passa automaticamente a un’altra metrica primaria."
+>abstract="Seleziona la metrica predefinita da utilizzare per le tabelle a forma libera. Se la suite di rapporti selezionata non contiene la metrica predefinita selezionata, la tabella passa automaticamente a un’altra metrica principale."
 
 
 Puoi personalizzare le preferenze delle tabelle a forma libera per tutti i nuovi progetti creati in Analysis Workspace. Per informazioni su come accedere a queste preferenze, consulta la sezione [Aggiornare le preferenze](#update-preferences).

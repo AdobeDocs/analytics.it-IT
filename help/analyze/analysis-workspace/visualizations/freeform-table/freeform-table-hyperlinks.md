@@ -4,10 +4,10 @@ description: Scopri come creare collegamenti ipertestuali per gli elementi dimen
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1584'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Questa funzionalità è particolarmente utile quando si creano collegamenti iper
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Collegamenti ipertestuali per la dimensione](https://video.tv.adobe.com/v/3445793?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Collegamenti ipertestuali per la dimensione](https://video.tv.adobe.com/v/3430411?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -40,7 +40,7 @@ Quando crei collegamenti ipertestuali per uno o più elementi dimensionali, cons
 
 * I collegamenti ipertestuali creati vengono memorizzati nella tabella a forma libera all’interno del progetto Analysis Workspace. I collegamenti ipertestuali non persistono quando utilizzi gli stessi elementi dimensionali o la stessa dimensione in un’altra tabella o altro progetto.
 
-* Se modifichi la visualizzazione dati della tabella a forma libera, tutti i collegamenti ipertestuali creati per le dimensioni o gli elementi dimensionali saranno ancora disponibili nella tabella. Questa funzionalità presuppone che la dimensione esista ancora nella visualizzazione dati.
+* Se modifichi la suite di rapporti della tabella a forma libera, sono ancora disponibili tutti i collegamenti ipertestuali creati per le dimensioni o gli elementi dimensionali della tabella. Questa funzionalità presuppone che la dimensione esista ancora nella suite di rapporti.
 
 * La validità degli URL non viene verificata durante la creazione del collegamento ipertestuale. Se
 

@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 610ce2c8-8ff6-4434-912f-3015cc56a51e
-source-git-commit: 4e75b83e812acf3e17bb4f910831a2f88507aa27
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ Per impostare un intervallo di date in ordine inverso, fare clic prima sulla dat
 
 ### Menu a discesa Predefinito
 
-Il menu a discesa dei predefiniti include un set standard di intervalli di date predefiniti e componenti per intervalli di date per una visualizzazione dati salvata o condivisa con te.
+Il menu a discesa dei predefiniti include un set standard di intervalli di date predefiniti e componenti di intervallo di date per una suite di rapporti salvata o condivisa con te.
 
 ### Date di rotazione
 
@@ -199,7 +199,7 @@ Per modificare l’intervallo di date dal pannello QUICK EDIT (MODIFICA RAPIDA)
 
 1. Seleziona l’intervallo di date utilizzando una qualsiasi delle opzioni di selezione della data.
 
-1. Fai clic su **Applica**.
+1. Fare clic su **Applica**.
 
 
 Report Builder applica il nuovo intervallo di date a tutti i blocchi di dati della selezione.

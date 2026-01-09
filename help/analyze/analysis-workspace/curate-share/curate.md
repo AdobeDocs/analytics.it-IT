@@ -5,10 +5,10 @@ title: Curare progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 80%
+ht-degree: 70%
 
 ---
 
@@ -22,7 +22,7 @@ La cura ti consente di limitare i componenti (dimensioni, metriche, segmenti, in
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura progetti](https://video.tv.adobe.com/v/329897?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura progetti](https://video.tv.adobe.com/v/24711?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -32,7 +32,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura proget
 1. Seleziona **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**.
 I componenti utilizzati nel progetto vengono aggiunti automaticamente.
 Se un progetto ha più suite di rapporti, puoi visualizzare un target di rilascio per ogni suite di rapporti nel progetto.
-1. (Facoltativo) Per aggiungere altri componenti, trascina quelli che desideri condividere dal pannello a sinistra all’area di rilascio **[!UICONTROL Curate components]** per la visualizzazione dati.
+1. Per aggiungere altri componenti, trascina i componenti da condividere dal pannello di sinistra alla zona di rilascio **[!UICONTROL Curate components]** per la suite di rapporti (facoltativo).
 1. Seleziona **[!UICONTROL Done]**.
 
 
@@ -72,5 +72,5 @@ Nota: i ruoli di visualizzazione non amministratori non hanno accesso alla barra
 | Tipo di cura | Amministratori | Ruolo di proprietario del progetto o editor non amministratore | Ruolo duplicato non amministratore |
 |---|---|---|---|
 | **Suite di rapporti virtuali curata** | Tutti i componenti della suite di rapporti virtuale non curata | I componenti della suite di rapporti virtuale non curata di cui è proprietario l’utente con questo ruolo o che sono stati condivisi con l’utente | I componenti della suite di rapporti virtuale non curata di cui è proprietario l’utente con questo ruolo o che sono stati condivisi con l’utente |
-| **Progetto curato** | Tutti i componenti di progetto non curati | Tutti i componenti di progetto non curati | I componenti di progetto non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
+| **Progetto curato** | Tutti i componenti di progetto non curati | Tutti i componenti di progetto non curati | Componenti di progetto non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |
 | **Progetto curato in una suite di rapporti virtuale curata** | Tutti i componenti non curati, visualizzati in **[!UICONTROL Non-Curated Project Components]** e **[!UICONTROL Non-Curated Virtual report suite components]** | Tutti i componenti di progetto non curati e quelli della suite di rapporti virtuale non curata di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente | I componenti della suite di rapporti virtuale e di progetto non curati di cui è proprietario l’utente con questo ruolo e che sono stati condivisi con l’utente |

@@ -4,7 +4,7 @@ description: Scopri come utilizzare e interpretare il pannello Visualizzatori si
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 92%
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Visualizzatori simultanei di contenuti multimediali in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**._<br/>_Consulta [Pannello Visualizzatori simultanei di contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta il pannello Visualizzatori simultanei di contenuti multimediali in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_Consulta [Pannello Visualizzatori simultanei di contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ In Analysis Workspace, la metrica Visualizzatori simultanei rappresenta il numer
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://video.tv.adobe.com/v/342837?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://video.tv.adobe.com/v/330177?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Per usare un pannello **[!UICONTROL Media concurrent viewers]**:
 
 1. Crea un pannello **[!UICONTROL Media concurrent viewers]**. Per informazioni su come creare un pannello, consulta [Creare un pannello](panels.md#create-a-panel).
 
-1. Accertati di selezionare una visualizzazione dati per il pannello i cui componenti sono configurati dal componente aggiuntivo Adobe Analytics for Streaming Media.
+1. Accertati di selezionare una suite di rapporti per il pannello i cui componenti sono configurati dal componente aggiuntivo Adobe Analytics for Streaming Media.
 
 1. Specifica l’[input](#panel-input) per il pannello.
 
@@ -131,8 +131,8 @@ In questa visualizzazione non è disponibile una tabella a forma libera.  Per vi
 >[!MORELIKETHIS]
 >
 >[Creare un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
->&#x200B;>[Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
->&#x200B;>[Pannello Pubblico medio per minuto del file multimediale](average-minute-audience-panel.md)
+>[Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
+>[Pannello Pubblico medio per minuto del file multimediale](average-minute-audience-panel.md)
 >
 <!--
 # Media Concurrent Viewers panel
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342837/?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/330177/?quality=12)
 
 ## Panel Inputs {#Input}
 
