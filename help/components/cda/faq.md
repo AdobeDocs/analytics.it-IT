@@ -4,9 +4,9 @@ description: Domande frequenti per Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1695'
 ht-degree: 99%
 
 ---
@@ -41,7 +41,6 @@ L’unione tra dispositivi di CDA si verifica in due processi simultanei.
 
 * Il secondo processo è denominato “ripetizione”. Durante la ripetizione, CDA torna indietro nel tempo e aggiorna i dati storici, ove possibile, all’interno di una finestra temporale specificata. Questo finestra temporale può essere di 1 giorno o 7 giorni, a seconda della configurazione di CDA. Durante la ripetizione, CDA tenta di aggiornare i risultati in cui la persona era precedentemente sconosciuta.
 
-* **Se utilizzi un grafo di dispositivi**, Adobe mantiene le mappature del grafo di dispositivi per circa 6 mesi. Un ECID che non ha attività per più di sei mesi viene rimosso dal grafo. I dati già uniti in CDA non vengono influenzati, ma gli hit successivi per tale ECID vengono trattati come una nuova persona.
 
 +++
 
@@ -65,20 +64,12 @@ I clienti che già utilizzano un ID visitatore personalizzato possono effettuare
 
 +++
 
-+++ In che modo il grafo di dispositivi gestisce i dispositivi condivisi?
 
-In alcune situazioni è possibile che più persone accedano dallo stesso dispositivo. Ad esempio, un dispositivo condiviso da casa, PC condivisi in una libreria o un chiosco in un punto vendita.
-
-* **Se utilizzi un grafo di dispositivi**, la capacità di gestire dispositivi condivisi è limitata. Il grafo di dispositivi utilizza un algoritmo per determinare a chi appartiene un “cluster” e può cambiare ogni volta che il cluster viene pubblicato. Gli utenti del dispositivo condiviso dipendono dal cluster a cui appartengono.
-* **Se utilizzi l’unione basata sui campi**, la variabile prop o eVar scelta per identificare gli utenti connessi prevale sugli altri identificatori. I dispositivi condivisi sono considerati persone distinte, anche se provengono dallo stesso dispositivo.
-
-+++
 
 +++ In che modo CDA gestisce le situazioni in cui una singola persona dispone di MOLTI dispositivi o ECID?
 
 In alcune situazioni, un singolo utente può essere associato a un numero elevato di ECID. Questo può verificarsi se il singolo utente utilizza molti browser o app e può aggravarsi se cancella frequentemente i cookie o utilizza la modalità di navigazione privata o in incognito del browser.
 
-* **Se utilizzi un grafo di dispositivi**, CDA limita a 50 il numero di ECID associati a un determinato ID utente. Se un ID utente è associato a un numero eccessivo di ECID, il grafo dei dispositivi presuppone che l’ID utente non sia valido e rimuove il cluster associato a tale ID utente. L’ID utente viene quindi inserito in un elenco di valori bloccati per impedire che in futuro venga aggiunto a eventuali cluster. Pertanto, nei rapporti l’ID utente non verrà unito per diversi dispositivi.
 * **Se utilizzi l’unione basata sui campi**, il numero di dispositivi è irrilevante a favore della variabile prop o eVar scelta per identificare gli utenti connessi. Un singolo utente può appartenere a un numero qualsiasi di dispositivi senza influire sulla capacità di CDA di eseguire unioni tra dispositivi diversi.
 
 +++

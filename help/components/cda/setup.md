@@ -4,9 +4,9 @@ description: Configura una suite di rapporti virtuale per abilitare CDA.
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
-source-git-commit: cfa5cc02ba3a7349b51a904f29bab533c0f1c603
+source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '521'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ Una volta soddisfatti tutti i prerequisiti, procedi come segue per abilitare Cro
 
 >[!IMPORTANT]
 >
->Prima di seguire questi passaggi, è necessario soddisfare tutti i prerequisiti. Se non vengono soddisfatti tutti i prerequisiti, la funzione non è disponibile o non funzionerà. Consulta la [pagina della panoramica](overview.md) e il metodo di unione desiderato ([Unione basata sui campi](field-based-stitching.md) o [Grafo di dispositivi](device-graph.md), rispettivamente) per conoscere i prerequisiti e le limitazioni.
+>Prima di seguire questi passaggi, è necessario soddisfare tutti i prerequisiti. Se non vengono soddisfatti tutti i prerequisiti, la funzione non è disponibile o non funzionerà. Consulta la [pagina della panoramica](overview.md) e il metodo di unione desiderato ([Unione basata sui campi](field-based-stitching.md) ) per conoscere i prerequisiti e le limitazioni.
 
 ## &#x200B;1. Apri un ticket con l’Assistenza clienti per richiedere il provisioning di CDA per la suite di rapporti tra dispositivi
 
@@ -27,7 +27,7 @@ Il provisioning di CDA viene eseguito sulla suite di rapporti multi-dispositivo 
 
 * ID organizzazione Adobe Experience Cloud (stringa alfanumerica che termina con @AdobeOrg)
 * ID suite di rapporti per la suite di rapporti multi-dispositivo che desideri abilitare con CDA
-* Metodo CDA da utilizzare (unione basata sui campi o grafico dei dispositivi Adobe)
+* Metodo CDA da utilizzare (unione basata sui campi)
 * Se intendi utilizzare l’unione basata sui campi, la proprietà o l’eVar che contiene l’ID utente
 * Preferenza di ripetizione frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, oppure una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.
 L’impostazione predefinita è la riproduzione settimanale con intervallo di lookback di 7 giorni. In questo caso, i dati dell’ultima settimana sono soggetti a modifiche (in quanto vengono progressivamente uniti e aggiornati).
