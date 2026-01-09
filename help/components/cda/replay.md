@@ -4,10 +4,10 @@ description: Comprendere il concetto di "ripetizione" in Analytics tra dispositi
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 20%
+source-wordcount: '488'
+ht-degree: 21%
 
 ---
 
@@ -34,9 +34,9 @@ Non appena viene raccolto un hit, CDA tenta di unirlo ai dispositivi noti. Prend
 | --- | --- | --- | --- | --- | 
 | `1` | `246` | - | Bob sul suo computer desktop, non autenticato | `1` (246) |
 | `2` | `246` | `Bob` | Bob accede al desktop | `2` (246 e Bob) |
-| `3` | `3579` | - | Bob sul suo dispositivo mobile, non autenticato | `2` (246 e 3579) | `3` (246, Bob e 3579) |
+| `3` | `3579` | - | Bob sul suo dispositivo mobile, non autenticato | `3` (246, Bob e 3579) |
 | `4` | `3579` | `Bob` | Bob accede su dispositivi mobili | `3` (246, Bob e 3579) |
-| `5` | `246` | - | Bob accede di nuovo al sito sul desktop, senza essersi autenticato | | `3` (246, Bob e 3579) |
+| `5` | `246` | - | Bob accede di nuovo al sito sul desktop, senza essersi autenticato | `3` (246, Bob e 3579) |
 | `6` | `246` | `Bob` | Bob accede nuovamente tramite desktop | `3` (246, Bob e 3579) |
 | `7` | `3579` | - | Bob accede nuovamente al tuo sito su dispositivi mobili | `3` (246, Bob e 3579) |
 | `8` | `3579` | `Bob` | Bob accede nuovamente tramite cellulare | `3` (246, Bob e 3579) |

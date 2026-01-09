@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0c34f756c72f3c07637370fb19b531301a508d19
+source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
 workflow-type: tm+mt
-source-wordcount: '6512'
-ht-degree: 90%
+source-wordcount: '6515'
+ht-degree: 89%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da gennaio 2019.
 
-* Per informazioni su [!UICONTROL Customer Journey Analytics] vedi [qui](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=it).
+* Per informazioni su [!UICONTROL Customer Journey Analytics], vedere [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=it).
 * Per informazioni sui servizi multimediali in streaming di Adobe, consulta [Misurazione di audio e video in Analytics](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
 
 ## Dettagli sugli aggiornamenti principali della documentazione
@@ -53,12 +53,12 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Nuove azioni di scelta rapida da tastiera | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [spostare i pannelli di Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) in alto e in basso in un progetto. |
 | **Marzo 2025** |  |
 | Inventario di Analytics | [L&#39;inventario di Analytics](/help/admin/tools/analytics-inventory.md) fornisce una panoramica completa dell&#39;ambiente Adobe Analytics, incluso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora. |
-| Guida per l’aggiornamento di Customer Journey Analytics | Consente di generare una [guida dettagliata](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. |
+| Guida per l’aggiornamento di Customer Journey Analytics | Consente di generare una [guida dettagliata](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. |
 | Formattazione data più chiara nelle esportazioni Data Warehouse | I valori delle dimensioni basati sul tempo nelle esportazioni Data Warehouse hanno una formattazione della data non standard. Sono state aggiunte informazioni che spiegano come interpretare i valori delle date dalle esportazioni Data Warehouse. <p>Vedi [Dimensioni supportate in modo diverso (formattazione della data non standard)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) in [Supporto dei componenti in Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Sono state aggiornate le informazioni sulle esclusioni IP | Sono state aggiunte informazioni che spiegano che [le esclusioni IP](/help/admin/tools/exclude-ip.md) possono richiedere fino a 5 minuti prima di diventare effettive e che le modifiche si applicano solo ai nuovi hit (i dati acquisiti prima dell&#39;impostazione dell&#39;esclusione non sono interessati). <p>È stato aggiornato anche il layout dei contenuti per migliorarne la leggibilità.</p> |
 | **Febbraio 2025** |  |
 | Sono state aggiornate le informazioni sulla sospensione e la riattivazione di un feed di dati | Durante la [sospensione e riattivazione di un feed di dati](/help/export/analytics-data-feed/df-manage-feeds.md#activate-a-data-feed), è stato chiarito il comportamento dei feed live. L’elaborazione dei dati non viene eseguita dal momento in cui il feed viene messo in pausa al momento in cui viene riattivato. |
-| Periodo di conservazione ID transazione modificato | Il periodo di conservazione dell’ID transazione di 90 giorni è stato esteso a 25 mesi. La variabile transactionID identifica in modo univoco una transazione in modo che l’hit possa essere collegato ai dati caricati tramite Origini dati. Ulteriori informazioni [qui](/help/implement/vars/page-vars/transactionid.md) e [qui](/help/import/data-sources/transactionid.md). |
+| Periodo di conservazione ID transazione modificato | Il periodo di conservazione dell’ID transazione di 90 giorni è stato esteso a 25 mesi. La variabile transactionID identifica in modo univoco una transazione in modo che l’hit possa essere collegato ai dati caricati tramite Origini dati. Vedi [variabili di pagina](/help/implement/vars/page-vars/transactionid.md) e [origini dati](/help/import/data-sources/transactionid.md). |
 | API Livestream - Implementazione client | Utilizza l&#39;implementazione del client [Livestream](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/clientcode/) per utilizzare i dati Livestream. |
 | Aggiornamento dell’API delle classificazioni | È ora possibile [rimuovere singoli campi o chiavi di classificazione dal server](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/remove-values/). Questo fornisce un’alternativa all’eliminazione di un intero set di dati di classificazione con il metodo DELETE. |
 | **Gennaio 2025** |  |
@@ -251,7 +251,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 15 luglio 2021 | È stata aggiunta la documentazione sulla nuova [pagina di destinazione di Adobe Analytics](/help/analyze/landing.md). |
 | **Giugno 2021** |  |
 | 15 giugno 2021 | Sono state aggiornate le [best practice per i canali di marketing](/help/components/c-marketing-channels/mchannel-best-practices.md). |
-| 3 giugno 2021 | La documentazione è stata aggiornata per spiegare meglio l’[implementazione di feed dati](/help/export/analytics-data-feed/create-feed.md) e in [questa sezione](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl). |
+| 3 giugno 2021 | È stata aggiornata la documentazione per spiegare meglio [Implementazione feed dati](/help/export/analytics-data-feed/create-feed.md) e [BucketOwnerFullControl](/help/export/analytics-data-feed/df-faq.md#BucketOwnerFullControl). |
 | 25 maggio 2021 | È stata aggiornata la documentazione sulla [sensibilità alle maiuscole/minuscole nelle eVar nei rapporti](/help/components/dimensions/evar.md). |
 | 13 maggio 2021 | È stata aggiornata la sezione sulle [richieste API Data Warehouse](https://developer.adobe.com/analytics-apis/docs/1.4/guides/reporting/data-warehouse/). Ora supportano “Ore”. |
 | **Marzo 2021** | |
