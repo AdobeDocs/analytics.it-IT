@@ -27,7 +27,7 @@ Guarda i video seguenti per completare il percorso di onboarding da Adobe Admin 
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476892/?captions=ita&format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -64,7 +64,7 @@ Guarda i video seguenti per completare il percorso di onboarding da Adobe Admin 
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476892/?captions=ita&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -180,7 +180,7 @@ Guarda i video seguenti per completare il percorso di onboarding da Adobe Admin 
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476892/?captions=ita&learn=on&enablevpops)
 
 Onboarding per [Adobe Experience League](https://experienceleague.adobe.com/it?lang=it) per accedere alla [documentazione](https://experienceleague.adobe.com/it/docs/analytics), alle [esercitazioni](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/overview) e altro per facilitare la riuscita.
 
