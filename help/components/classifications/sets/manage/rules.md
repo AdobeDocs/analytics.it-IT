@@ -2,9 +2,9 @@
 title: Regole dei set di classificazione
 description: Scopri come utilizzare le regole dei set di classificazione per definire regole per i dati di classificazione.
 feature: Classifications
-source-git-commit: 685110ea30be8b87f63a8d944902669544516667
+source-git-commit: 1a07d14d11e3353c5f45fb26463168a75fe11ddf
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1583'
 ht-degree: 14%
 
 ---
@@ -12,9 +12,11 @@ ht-degree: 14%
 
 # Regole dei set di classificazione
 
-Utilizza le regole per supportare le classificazioni automatiche in scenari in cui la dimensione chiave cambia costantemente. L’aggiornamento delle classificazioni tramite il caricamento o l’automazione diventa un processo complicato o ritarda la classificazione corretta per i nuovi valori di dimensione. Ad esempio, campagne interne, codici di tracciamento o SKU di prodotto. La dimensione deve contenere valori che ti consentono di applicare una o più regole in modo da poter derivare i dati di classificazione dai valori.
+Utilizza le regole per supportare le classificazioni automatiche in scenari in cui la dimensione chiave cambia costantemente. L&#39;aggiornamento delle classificazioni tramite [upload](/help/components/classifications/sets/manage/schema.md#upload) o [automazione](/help/components/classifications/sets/manage/schema.md#automate) diventa un processo complicato o ritarda la classificazione corretta per i nuovi valori di dimensione. Ad esempio, campagne interne, codici di tracciamento o SKU di prodotto.
 
-Puoi definire le regole nel contesto di un set di classificazione. Questo contesto implica che le regole vengano applicate (se attivate) a tutte le combinazioni di suite di rapporti e dimensioni chiave sottoscritte al set di classificazione. Questa implementazione è leggermente diversa da come funziona il generatore di regole di classificazione legacy. Nel generatore di regole di classificazione, definisci separatamente una o più regole come parte di un set di regole, quindi associa il set di regole a una o più suite di rapporti. Nella nuova interfaccia, le regole all’interno del set di classificazione sono anche denominate set di regole. Tuttavia, i set di regole sono definiti all’interno della stessa interfaccia in cui puoi configurare altri attributi del set di classificazione.
+La dimensione deve contenere valori che ti consentono di applicare una o più regole in modo da poter derivare i dati di classificazione dai valori della dimensione.
+
+Puoi definire le regole nel contesto di un set di classificazione. Questo contesto implica che le regole vengano applicate (se attivate) a tutte le combinazioni di suite di rapporti e dimensioni chiave sottoscritte al set di classificazione. Questa implementazione è diversa da come funziona il generatore di regole di classificazione legacy. Nel generatore di regole di classificazione, puoi definire separatamente una o più regole come parte di un set di regole, quindi associare il set di regole a una o più suite di rapporti. Nella nuova interfaccia, le regole all’interno del set di classificazione sono anche denominate set di regole. Tuttavia, i set di regole sono definiti all’interno della stessa interfaccia in cui puoi configurare altri attributi del set di classificazione.
 
 
 Per definire un set di regole per un set di classificazione:
