@@ -2,7 +2,7 @@
 title: Regole dei set di classificazione
 description: Scopri come utilizzare le regole dei set di classificazione per definire regole per i dati di classificazione.
 feature: Classifications
-source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
+source-git-commit: 685110ea30be8b87f63a8d944902669544516667
 workflow-type: tm+mt
 source-wordcount: '1582'
 ht-degree: 14%
