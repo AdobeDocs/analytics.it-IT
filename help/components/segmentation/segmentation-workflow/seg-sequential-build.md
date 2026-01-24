@@ -302,4 +302,4 @@ Come ultimo esempio, vuoi identificare i visitatori che hanno imparato a conosce
 
 >[!MORELIKETHIS]
 >
-> * [Masterizzazione logica sequenziale in AA e CJA: introduzione a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)
+> * [Masterizzazione logica sequenziale in AA e CJA: introduzione a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=it)

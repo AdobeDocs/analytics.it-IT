@@ -87,7 +87,7 @@ Imposta almeno un promemoria mensile per identificare e filtrare i nuovi bot, pr
 
 >[!MORELIKETHIS]
 >
->* [Blocco Bot Migliore (Parte 1): Nozioni Di Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
->* [Migliore blocco dei bot (parte 2): identificazione dei bot e utilizzo di CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
->* [Blocco Bot Migliore (Parte 3): Hit Governor](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
+>* [Blocco Bot Migliore (Parte 1): Nozioni Di Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=it)
+>* [Migliore blocco dei bot (parte 2): identificazione dei bot e utilizzo di CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=it)
+>* [Blocco Bot Migliore (Parte 3): Hit Governor](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=it)
 

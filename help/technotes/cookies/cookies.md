@@ -178,4 +178,4 @@ Se la tua azienda è interessata dalla prevenzione del tracciamento ITP, puoi pr
 >[!MORELIKETHIS]
 >
 >[Opzioni per attenuare l’effetto delle limitazioni dei cookie del browser](cookieless.md)
->>[Impatto del nuovo framework per la trasparenza del tracciamento delle app di Apple su Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)
+>>[Impatto del nuovo framework per la trasparenza del tracciamento delle app di Apple su Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=it)

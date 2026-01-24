@@ -26,7 +26,7 @@ Gli aggiornamenti del codice nel tempo possono avere ramificazioni non desiderat
 * Crea dashboard per visualizzare le visualizzazioni con tendenze orarie di queste metriche e variabili critiche (o configura [avvisi](/help/components/alerts/alerts-overview.md) per ogni metrica). Poi monitorali per uno o due giorni per assicurarti di ottenere i dati previsti e corretti. Cerca i punti di flesso. Preparati a risolvere immediatamente eventuali problemi critici. Se riscontri delle discrepanze, cerca nel livello dati, nelle regole di gestione dei tag e nelle regole di elaborazione per scoprirne il motivo.
 * Esegui nuovamente [Analytics Health Dashboard](https://express.adobe.com/page/tnNQGNlfzta3b/) per monitorare le tendenze generali delle metriche e delle variabili KPI.
 
-*Per ulteriori dettagli su come verificare che le metriche e le variabili funzionino correttamente, [leggi questi suggerimenti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) da Sarah Owen, Champion Adobe Analytics.*
+*Per ulteriori dettagli su come verificare che le metriche e le variabili funzionino correttamente, [leggi questi suggerimenti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608?profile.language=it) da Sarah Owen, Champion Adobe Analytics.*
 
 ## &#x200B;3. Esamina accuratamente i dati della sezione aggiornata del tuo sito
 

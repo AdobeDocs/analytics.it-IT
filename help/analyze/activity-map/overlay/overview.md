@@ -50,7 +50,7 @@ L’intestazione di questo pannello contiene le seguenti impostazioni:
 * **[!UICONTROL Show settings]**: apre un menu per le impostazioni che è possibile modificare (icona ingranaggio):
    * **[!UICONTROL Settings]**: apre le [impostazioni](settings.md) dell&#39;estensione.
    * **[!UICONTROL Help]**: apre la documentazione su Experience League (questa pagina).
-   * **[!UICONTROL Adobe community]**: apre la [community Experience League](https://experienceleaguecommunities.adobe.com/).
+   * **[!UICONTROL Adobe community]**: apre la [community Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=it).
    * **[!UICONTROL About]**: visualizza la versione dell&#39;estensione.
    * **[!UICONTROL Logout]**: effettua la disconnessione dall&#39;estensione e richiede di effettuare di nuovo l&#39;accesso.
 * **[!UICONTROL Quit Activity Map]**: chiude tutte le sovrapposizioni per l&#39;estensione (icona X).
