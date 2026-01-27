@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 3ea8c07117641c2defa6ef126ab1d730f187c1d2
+source-git-commit: dd0bf6090f0886c770d39ec7c2b9f8f6f27577db
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 94%
@@ -52,7 +52,7 @@ ht-degree: 94%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar &#x200B;](dimensions/evar.md)
+   + [eVar ](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
@@ -310,4 +310,3 @@ ht-degree: 94%
    + [Analisi dei canali di marketing](c-marketing-channels/analyze-mc.md)
    + [Autorizzazioni dei canali di marketing](c-marketing-channels/c-channel-report-access.md)
    + [Domande frequenti e esempi sui canali di marketing](c-marketing-channels/c-faq.md)
-
