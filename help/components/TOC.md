@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 3cbbcdb89009b9c53892c939ddc5c06a732b2267
+source-git-commit: 3ea8c07117641c2defa6ef126ab1d730f187c1d2
 workflow-type: tm+mt
 source-wordcount: '748'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 93%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar &#x200B;](dimensions/evar.md)
+   + [eVar ](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
@@ -264,9 +264,9 @@ ht-degree: 93%
    + Set di classificazione {#sets}
       + [Panoramica](classifications/sets/overview.md)
       + [File di dati](classifications/sets/data-files.md)
-      + Set di classificazione {#manage}
-         + [Gestire i](classifications/sets/manage/set-manager.md)
-         + [Creare e modificare](classifications/sets/manage/create.md)
+      + [Creare e modificare](classifications/sets/manage/create.md)
+      + [Gestire i](classifications/sets/manage/set-manager.md)
+      + Set di classificazione {#set}
          + [Impostazioni](classifications/sets/manage/settings.md)
          + [Schema](classifications/sets/manage/schema.md)
          + [Regole](classifications/sets/manage/rules.md)
@@ -274,25 +274,26 @@ ht-degree: 93%
       + Consolidamenti di classificazione {#consolidations}
          + [Gestire i](classifications/sets/consolidations/manage.md)
          + [Creare e modificare](classifications/sets/consolidations/process.md)
-   + Generatore di regole di classificazione (legacy){#classifications-rulebuilder}
-      + [Panoramica](classifications/crb/classification-rule-builder.md)
-      + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)
-      + [Regole di classificazione](classifications/crb/classification-quickstart-rules.md)
-      + [Definizioni delle regole di classificazione](classifications/crb/classification-rule-definitions.md)
-      + [Sottoclassificazioni e generatore di regole](classifications/crb/subclassification-rule-builder.md)
-   + Importazione classificazioni (legacy){#classifications-importer}
-      + [Panoramica sull’importazione di classificazioni](classifications/importer/c-working-with-saint.md)
-      + [File di dati di classificazione](classifications/importer/c-saint-data-files.md)
-      + [Eliminare i dati di classificazione](classifications/importer/t-delete-classification-data.md)
-      + [Modello di classificazione](classifications/importer/c-download-saint-data.md)
-      + [Importazione browser](classifications/importer/browser-import.md)
-      + [Esportazione browser](classifications/importer/browser-export.md)
-      + [Importazione FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
-      + [Esportazione FTP](classifications/importer/ftp-export.md)
-      + [Tempo di elaborazione](classifications/importer/processing-time.md)
-      + [Sottoclassificazioni](classifications/importer/subclassifications.md)
-      + [Risoluzione dei problemi](classifications/importer/troubleshooting.md)
-      + [Domande frequenti](classifications/importer/importer-faq.md)
+   + Classificazioni legacy {#legacy-classifications}
+      + Generatore regole di classificazione {#classifications-rulebuilder}
+         + [Panoramica](classifications/crb/classification-rule-builder.md)
+         + [Set di regole di classificazione](classifications/crb/classification-rule-set.md)
+         + [Regole di classificazione](classifications/crb/classification-quickstart-rules.md)
+         + [Definizioni delle regole di classificazione](classifications/crb/classification-rule-definitions.md)
+         + [Sottoclassificazioni e generatore di regole](classifications/crb/subclassification-rule-builder.md)
+      + Importazione classificazioni {#classifications-importer}
+         + [Panoramica sull’importazione di classificazioni](classifications/importer/c-working-with-saint.md)
+         + [File di dati di classificazione](classifications/importer/c-saint-data-files.md)
+         + [Eliminare i dati di classificazione](classifications/importer/t-delete-classification-data.md)
+         + [Modello di classificazione](classifications/importer/c-download-saint-data.md)
+         + [Importazione browser](classifications/importer/browser-import.md)
+         + [Esportazione browser](classifications/importer/browser-export.md)
+         + [Importazione FTP](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+         + [Esportazione FTP](classifications/importer/ftp-export.md)
+         + [Tempo di elaborazione](classifications/importer/processing-time.md)
+         + [Sottoclassificazioni](classifications/importer/subclassifications.md)
+         + [Risoluzione dei problemi](classifications/importer/troubleshooting.md)
+         + [Domande frequenti](classifications/importer/importer-faq.md)
 + Posizioni {#locations}
    + [Gestione posizioni](/help/components/locations/locations-manager.md)
    + [Account di importazione cloud](/help/components/locations/configure-import-accounts.md)
@@ -309,3 +310,4 @@ ht-degree: 93%
    + [Analisi dei canali di marketing](c-marketing-channels/analyze-mc.md)
    + [Autorizzazioni dei canali di marketing](c-marketing-channels/c-channel-report-access.md)
    + [Domande frequenti e esempi sui canali di marketing](c-marketing-channels/c-faq.md)
+
