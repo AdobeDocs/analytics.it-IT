@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 1f97365ada0a182f743b6d920b0605232e030aec
+source-git-commit: 50700a4ee1d836516a96be3816d4c777c4172ce5
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 94%
@@ -52,7 +52,7 @@ ht-degree: 94%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar &#x200B;](dimensions/evar.md)
+   + [eVar ](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
@@ -264,8 +264,8 @@ ht-degree: 94%
    + Set di classificazione {#sets}
       + [Panoramica](classifications/sets/overview.md)
       + [File di dati](classifications/sets/data-files.md)
-      + [Creare e modificare](classifications/sets/manage/create.md)
-      + [Gestire i](classifications/sets/manage/set-manager.md)
+      + [Creare e modificare](classifications/sets/create.md)
+      + [Gestire i](classifications/sets/set-manager.md)
       + Set di classificazione {#set}
          + [Impostazioni](classifications/sets/manage/settings.md)
          + [Schema](classifications/sets/manage/schema.md)
