@@ -2,7 +2,7 @@
 title: Regole dei set di classificazione
 description: Scopri come utilizzare le regole dei set di classificazione per definire regole per i dati di classificazione.
 feature: Classifications
-source-git-commit: 1a07d14d11e3353c5f45fb26463168a75fe11ddf
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 14%
@@ -320,4 +320,3 @@ Si desidera classificare con la classificazione **[!UICONTROL Type]** il modo in
 * Quando un utente cerca `Cowboys Fantasy Tony Romo`, `Romo` è classificato come **[!UICONTROL Type]**.
 * Quando un utente cerca `Cowboys Fantasy Tony Romeo`, `Fantasy` è classificato come **[!UICONTROL Type]**.
 * Quando un utente cerca `Cowboys vs. Broncos`, `Team` è classificato come **[!UICONTROL Type]**.
-

@@ -3,7 +3,7 @@ title: Schema del set di classificazione
 description: Scopri come visualizzare e modificare lo schema per un singolo set di classificazione.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 0f80bb314c8e041a98af26734d56ab364c23a49b
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 4%
@@ -156,14 +156,14 @@ Nella finestra di dialogo **[!UICONTROL Download template for _nome set di class
 >id="classificationsets_schema_automate_locationaccount"
 >title="Account posizione"
 >abstract="Elenco dei conti di ubicazione dei tipi di conto che supportano l&#39;importazione dei dati di classificazione. Selezionare **[!UICONTROL New account]** per creare un nuovo account località."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=it" text="Configurare account di importazione ed esportazione cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configurare account di importazione ed esportazione cloud"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Posizione"
 >abstract="Elenco di posizioni nell’account di posizione selezionato che supportano l’importazione dei dati di classificazione. Selezionare **[!UICONTROL New location]** per creare una nuova posizione."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=it" text="Configurare i percorsi di importazione ed esportazione cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configurare i percorsi di importazione ed esportazione cloud"
 
 
 Per automatizzare l&#39;acquisizione della classificazione, selezionare ![Ingranaggio](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.
@@ -194,7 +194,7 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
 
 1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
 1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud.
-1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**&#x200B;se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**&#x200B;per annullare la configurazione del percorso cloud.
+1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**per annullare la configurazione del percorso cloud.
 
 Quando carichi i file nel percorso cloud, entro 15 minuti il file viene rilevato e inviato come processo di importazione. Il risultato di questo processo di importazione è riportato in [Gestione processi classificazioni](/help/components/classifications/sets/job-manager.md). Se vieni aggiunto all’elenco di utenti a cui inviare notifiche sul completamento dei processi di acquisizione, riceverai anche messaggi e-mail.
 
@@ -213,65 +213,3 @@ La barra delle azioni mostra le azioni disponibili per la classificazione selezi
 | ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remove Lookup]** | Rimuovi un set di classificazione come ricerca. Per eliminare definitivamente la ricerca dalla classificazione, nella **[!UICONTROL Remove _finestra di dialogo di conferma _del_set di classificazione_]** selezionare **[!UICONTROL Delete]**. |
 | ![Rinomina](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Rinomina **[!UICONTROL Classification Name]** di una classificazione. Nella finestra di dialogo **[!UICONTROL Rename: _nome classificazione_]**, immettere un nuovo nome e selezionare **[!UICONTROL Rename]**. |
 | ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Eliminare una classificazione. Viene visualizzata la finestra di dialogo **[!UICONTROL Delete _nome classificazione_]**. Selezionare **[!UICONTROL Delete]** per eliminare la classificazione. |
-
-
-<!--
-
-View currently configured classification dimensions for this classification set.
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Sets]** > Click the desired classification set name > **[!UICONTROL Schema]**
-
-![classification set schema UI](../../assets/classification-set-schema.png)
-
-The following buttons are available:
-
-
-* **[!UICONTROL Upload]**: Manually upload classification data for a classification dimensions. `JSON`, `CSV`, `TSV`, and `TAB` files are supported. Uploading a valid file shows a table preview of data to classify.
-  * **[!UICONTROL File encoding]**: Select the correct file encoding using this drop-down. Valid options include [!UICONTROL UTF-8] and [!UICONTROL Latin1].
-  * **[!UICONTROL List delimiter]**: Select the correct list delimiter. If using a downloaded file or template file, make sure that the [!UICONTROL List delimiter] here matches the [!UICONTROL List delimiter] when the file was downloaded.
-  * **[!UICONTROL Apply]**: Save the uploaded classification data to the classification set.
-
-  ![Classification set upload](../../assets/classification-set-upload.png)
-
-* **[!UICONTROL Download]**: Download key values and their classification columns.
-  * **[!UICONTROL Rows]**: The maximum number of rows to include in the download file.
-  * **[!UICONTROL Download rows received between]**: A calendar date picker that allows you to filter key values by when they appear in reporting. If a key value was not collected in this date range, it does not appear in the downloaded file.
-  * **[!UICONTROL Data returned]**: A drop-down list that lets you filter key values included in the downloaded file based on their associated classification data.
-    * **[!UICONTROL All classified values]**: Includes rows where classification data is included in at least one column.
-    * **[!UICONTROL All unclassified values]**: Includes rows where classification data is missing in at least one column.
-  * **[!UICONTROL File format]**: A drop-down list that determines the file format that the download file is in. Options include [!UICONTROL JSON], [!UICONTROL Comma separated values], and [!UICONTROL Excel tab separated values].
-  * **[!UICONTROL File encoding]**: A drop-down list that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended.
-
-  ![Classification set download](../../assets/classification-set-download.png)
-
-* **[!UICONTROL Template]**: Download a template file. This file is similar to the [!UICONTROL Download] button, except it does not contain any classification data or key values.
-  * **[!UICONTROL File format]**: A drop-down list that determines the file format that the template file is in. Options include [!UICONTROL Comma separated values], and [!UICONTROL Excel tab separated values].
-  * **[!UICONTROL File encoding]**: A drop-down list that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended.
-  * **[!UICONTROL List delimiters]**: A drop-down list that determines the list delimiter separating classification columns on each row.
-
-  ![Classification set template](../../assets/classification-set-template.png)
-
-* **[!UICONTROL Job history]**: A shortcut link that takes you to the [Job manager](../job-manager.md), showing jobs only for this classification set.
-* **[!UICONTROL Automate]**: Automatically ingest data from external storage locations.
-  * **[!UICONTROL Location account]**: A drop-down list showing existing location accounts that your organization has configured. If your organization hasn't already configured a location account, you can configure one by selecting [!UICONTROL **Create a new account**].
-    
-    For information about configuring the location account, see [Configure cloud import and export accounts](/help/components/locations/configure-import-accounts.md).
-
-  * **[!UICONTROL Location]**: A drop-down list showing existing locations that your organization has configured. If your organization hasn't already configured a location, you can configure one by selecting [!UICONTROL **Create a new location**]. 
-
-    For information about configuring a location, see [Configure cloud import and export locations](/help/components/locations/configure-import-locations.md). 
-
-  * **[!UICONTROL Delimiter]**: The column delimiter for uploaded files. Options include [!UICONTROL Comma], [!UICONTROL Semicolon], [!UICONTROL Colon], [!UICONTROL Vertical bar], [!UICONTROL Space], [!UICONTROL Forward slash], [!UICONTROL Backward slash], [!UICONTROL Dash], or [!UICONTROL Underscore].
-
-  * **[!UICONTROL Encoding]**: A drop-down list that determines the file encoding. Options include [!UICONTROL UTF-8] and [!UICONTROL Latin1]. UTF-8 is recommended.
-
-The following actions are available only after selecting a classification.
-
-* **Add lookup**: A lookup table is a classification of a classification. It is metadata about a classification value, rather than the variable itself. For example, the Product variable might have a classification of "color code". A lookup table of "color name" might be attached to "color code" to explain what the colors are.
-
-  ![Attach lookup table](../../assets/lookup.png)
-
-* **Rename**: Lets you rename the classification.
-
-* **Delete**: Lets you delete the classification.
--->

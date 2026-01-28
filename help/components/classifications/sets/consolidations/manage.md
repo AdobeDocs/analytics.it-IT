@@ -3,7 +3,7 @@ title: Gestire i consolidamenti dei set di classificazione
 description: Scopri come consolidare uno o più set di classificazione in un singolo set di classificazione.
 exl-id: 0be97ca4-56c3-4642-9347-924812e88e8c
 feature: Classifications
-source-git-commit: 2ced7cd61c4119347be2ef0fba9b8d60ee6c4df2
+source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 3%
@@ -86,33 +86,3 @@ Selezionare ![Filtro](/help/assets/icons/Filter.svg) per visualizzare il pannell
 Seleziona ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** per nascondere il pannello dei filtri.
 
 I filtri visualizzati nel pannello filtri riflettono le opzioni per i consolidamenti di classificazione precaricati.
-
-
-<!--
-
-**[!UICONTROL Components]** > **[!UICONTROL Classification sets]** > **[!UICONTROL Consolidations]**
-
-Once a consolidation is run, the original classification sets are removed, with the consolidated classification set taking their place. Click **[!UICONTROL Add]** to [Create a consolidation](process.md).
-
-## Filter classification sets
-
-The left side of the Classification set consolidation manager provides filter settings to locate the desired consolidation. Clicking the filter icon toggles the filter settings visibility. You can filter consolidations by **[!UICONTROL Status]**, **[!UICONTROL Completion time]**, or **[!UICONTROL Creation time]**.
-
-![Classification set consolidation filters](../../assets/classification-set-consolidation-filters.png)
-
-Additional filter options are available above the Classification set consolidation manager columns:
-
-* **[!UICONTROL Search by title]**: Search for consolidations by name.
-* **Show/Hide columns**: Toggle visibility for any column besides [!UICONTROL Name].
-
-## Classification set consolidation manager columns
-
-The following columns are available in the Classification set consolidation manager:
-
-* **[!UICONTROL Name]**: The name of the consolidation.
-* **[!UICONTROL Current job]**: The current job. 
-* **[!UICONTROL Status]**: The status of the consolidation. 
-* **[!UICONTROL Creation date]**: The date and time that the consolidation was created.
-* **[!UICONTROL Completion date]**: The date and time that the consolidation completed (or failed).
-
--->
