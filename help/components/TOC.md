@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: ea8122bbaaea841d70ddabe677de5eaa78a10ad1
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 94%
@@ -52,7 +52,7 @@ ht-degree: 94%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar &#x200B;](dimensions/evar.md)
+   + [eVar ](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
@@ -272,8 +272,8 @@ ht-degree: 94%
          + [Regole](classifications/sets/manage/rules.md)
       + [Processi di classificazione](classifications/sets/job-manager.md)
       + Consolidamenti di classificazione {#consolidations}
-         + [Gestire i](classifications/sets/consolidations/manage.md)
          + [Creare e modificare](classifications/sets/consolidations/process.md)
+         + [Gestire i](classifications/sets/consolidations/manage.md)
    + Classificazioni legacy {#legacy-classifications}
       + Generatore regole di classificazione {#classifications-rulebuilder}
          + [Panoramica](classifications/crb/classification-rule-builder.md)

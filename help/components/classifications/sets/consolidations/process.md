@@ -3,7 +3,7 @@ title: Creare E Modificare I Consolidamenti Di Classificazione
 description: Spiega come creare, convalidare, eseguire, approvare e annullare i consolidamenti delle classificazioni.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: d71a381039011039318e1dca86a1ec4634b79720
+source-git-commit: 7cc33ac36f51b9e36657a4fe84c1ae675611b56e
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 3%
@@ -77,7 +77,17 @@ Drag the desired classification sets from the available column on the left to th
 
 -->
 
-## Modificare un consolidamento
+## Modificare un consolidamento {#edit-a-classification}
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_mismatch"
+>title="Mancata corrispondenza"
+>abstract="La percentuale di mancate corrispondenze chiave quando il valore nel set di classificazione consolidato non corrisponde al set di classificazione di origine."
+
+>[!CONTEXTUALHELP]
+>id="classificationsets_consolidations_absent"
+>title="Assente"
+>abstract="La percentuale di chiavi nel set di classificazione consolidato, ma non nel set di classificazione di origine."
 
 Per modificare il consolidamento di una classificazione, nell’interfaccia principale di Adobe Analytics:
 
@@ -124,18 +134,7 @@ Per eseguire un consolidamento delle classificazioni:
 1. Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per chiudere la finestra di dialogo.
 
 
-### Approvazione {#approve}
-
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_mismatch"
->title="Mancata corrispondenza"
->abstract="La percentuale di mancate corrispondenze chiave quando il valore nel set di classificazione consolidato non corrisponde al set di classificazione di origine."
-
->[!CONTEXTUALHELP]
->id="classificationsets_consolidations_absent"
->title="Assente"
->abstract="La percentuale di chiavi nel set di classificazione consolidato, ma non nel set di classificazione di origine."
+### Approvazione
 
 Una volta eseguito correttamente un consolidamento della classificazione, lo stato del consolidamento è ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Waiting for Approval]**. L&#39;approvazione di un consolidamento delle classificazioni sostituisce i singoli set di classificazione con il set di classificazione consolidato e i singoli set di classificazione vengono rimossi.
 
