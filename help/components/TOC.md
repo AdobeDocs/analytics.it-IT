@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: bc07745771f6e1b1228f4d77ff8e89130b90ebef
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 95%
+source-wordcount: '736'
+ht-degree: 94%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 95%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar &#x200B;](dimensions/evar.md)
+   + [eVar ](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
@@ -284,7 +284,7 @@ ht-degree: 95%
       + Importazione classificazioni {#classifications-importer}
          + [Panoramica](classifications/importer/c-working-with-saint.md)
          + [File di dati](classifications/importer/c-saint-data-files.md)
-         + [Eliminare i dati di classificazione](classifications/importer/t-delete-classification-data.md)
+         + [Elimina dati](classifications/importer/t-delete-classification-data.md)
          + [Modello](classifications/importer/c-download-saint-data.md)
          + [Importazione browser](classifications/importer/browser-import.md)
          + [Esportazione browser](classifications/importer/browser-export.md)
