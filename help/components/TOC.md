@@ -52,7 +52,7 @@ ht-degree: 94%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar ](dimensions/evar.md)
+   + [eVar &#x200B;](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
