@@ -3,7 +3,7 @@ title: Panoramica sui set di classificazione
 description: Scopri come utilizzare i set di classificazione per gestire i dati di classificazione. Scopri le differenze tra i set di classificazione e le classificazioni legacy.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: d5e1432569516d13d2de30a2cb30cebb067ab783
+source-git-commit: 8a7dd06a26e6a4ad06c224543bc7fdda33ba7aaa
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # Panoramica sui set di classificazione
 
-I set di classificazione forniscono un’unica interfaccia per gestire classificazioni e regole. Questo flusso di lavoro combina la creazione di classificazioni in [Impostazioni suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md) con la [Importazione classificazioni](/help/components/classifications/sets/set-manager.md). Il risultato è un’unica interfaccia intuitiva per creare e gestire i dati di classificazione.
+I set di classificazione forniscono un’unica interfaccia per gestire classificazioni e regole. Questo flusso di lavoro combina la creazione di classificazioni in [Impostazioni suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md) con la [Importazione classificazioni](/help/components/classifications/sets/manage-sets.md). Il risultato è un’unica interfaccia intuitiva per creare e gestire i dati di classificazione.
 
 
 ## Set di classificazione e classificazioni legacy
@@ -46,7 +46,7 @@ Per accedere a **[!UICONTROL Classification sets]** dal menu **[!UICONTROL Compo
 
 I set di classificazione sono costituiti da tre aree funzionali:
 
-* [**[!UICONTROL Classification Sets]**](set-manager.md): per creare, modificare ed eliminare i set di classificazione.
+* [**[!UICONTROL Classification Sets]**](manage-sets.md): per creare, modificare ed eliminare i set di classificazione.
 * [**[!UICONTROL Jobs]**](job-manager.md): visualizzazione dello stato dei processi dei set di classificazione.
 * [**[!UICONTROL Consolidations]**](consolidations/manage.md): per combinare più set di classificazione in un singolo set di classificazione.
 
@@ -56,7 +56,7 @@ I set di classificazione sono costituiti da tre aree funzionali:
 Il flusso di lavoro per i set di classificazione in genere prevede i seguenti passaggi:
 
 1. Valuta per quali combinazioni di suite di rapporti e dimensioni desideri creare un set di classificazione. Un esempio è la definizione di un set di classificazione dei prodotti che puoi creare per qualsiasi suite di rapporti per la quale desideri classificare i prodotti con maggiori dettagli. Ad esempio, dettagli come categoria e colore.
-1. [Crea un set di classificazione](/help/components/classifications/sets/create.md) con sottoscrizioni per una o più combinazioni di suite di rapporti e dimensioni chiave che identificano i prodotti. Ad esempio:
+1. [Crea un set di classificazione](/help/components/classifications/sets/create-set.md) con sottoscrizioni per una o più combinazioni di suite di rapporti e dimensioni chiave che identificano i prodotti. Ad esempio:
 
    | Suite di rapporti | Dimensione chiave |
    |---|---|
@@ -112,7 +112,7 @@ L’architettura back-end rilasciata con i set di classificazione contiene diver
 
 * Riduzione del tempo di elaborazione (da 72 ore a 24 ore).
 * Interfaccia utente riprogettata per gestire le classificazioni.
-* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 Anche l’architettura back-end rilasciata con i set di classificazione contiene diverse modifiche:
 
