@@ -3,9 +3,9 @@ title: Creare un feed dati
 description: Scopri come creare un feed di dati e le informazioni sui file da fornire ad Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d78a2d683073d90b0b92db50253b3755ff909d9e
+source-git-commit: ee29f837d72cf3243e92230dbee5b379d1c6c415
 workflow-type: tm+mt
-source-wordcount: '4223'
+source-wordcount: '4253'
 ht-degree: 45%
 
 ---
@@ -36,6 +36,15 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 >id="aa_datafeed_export_file"
 >title="Manifesto"
 >abstract="Scegli se includere un file manifesto con ogni consegna di feed di dati. I file manifesto contengono informazioni per ciascun file incluso nel feed di dati. Quando si inviano dati di feed dati in un singolo pacchetto, è anche possibile scegliere di includere un file finale, ma si consiglia di utilizzare i file manifest. "
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_notify"
+>title="Notifica al completamento"
+>abstract="Specifica uno o più indirizzi e-mail a cui inviare una notifica dopo l’invio del feed di dati. È necessario separare più indirizzi e-mail con una virgola."
 
 <!-- markdownlint-enable MD034 -->
 
