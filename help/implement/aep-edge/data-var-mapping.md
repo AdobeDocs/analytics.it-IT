@@ -1,31 +1,31 @@
 ---
-title: Mappatura della variabile dell’oggetto dati su Adobe Analytics
+title: Mappatura del campo dell’oggetto dati su Adobe Analytics
 description: Visualizza i campi dell’oggetto dati mappati automaticamente da Experience Platform Edge alle variabili di Analytics.
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-source-git-commit: 59d9dd8055a13046d05ac4c3b5261a6c5a919b5c
+source-git-commit: b3546e67cccc37cbdb89db2e80b3b34b2dbe417b
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '592'
 ht-degree: 2%
 
 ---
 
-# Mappatura della variabile dell’oggetto dati su Adobe Analytics
+# Mappatura del campo dell’oggetto dati su Adobe Analytics
 
-La tabella seguente mostra le variabili dell’oggetto dati mappate automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi dell’oggetto dati, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics.
+La tabella seguente mostra il campo dell’oggetto dati mappato automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi dell’oggetto dati, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics.
 
-L’utilizzo di questi campi è consigliato se intendi utilizzare Customer Journey Analytics in futuro. Questo metodo di implementazione consente all’organizzazione di inviare dati ad Adobe utilizzando il Web SDK senza essere conforme a uno schema XDM. Quando la tua organizzazione è pronta per inviare dati a Adobe Experience Platform, puoi utilizzare la [mappatura dello stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep#mapping) per puntare i campi dell&#39;oggetto dati ai rispettivi campi XDM.
+L’utilizzo di questi campi è consigliato se intendi utilizzare Customer Journey Analytics in futuro. Questo metodo di implementazione consente all’organizzazione di inviare dati ad Adobe utilizzando il Web SDK senza essere conforme a uno schema XDM. Quando la tua organizzazione è pronta per inviare dati a Adobe Experience Platform, puoi utilizzare la [mappatura dello stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) per puntare i campi dell&#39;oggetto dati ai rispettivi campi XDM.
 
 ## Priorità di valore
 
-La maggior parte dei campi oggetto dati in questa tabella coincidono con un campo XDM [mappato](xdm-var-mapping.md). Se imposti sia un determinato campo oggetto dati che il relativo campo XDM, il campo oggetto dati ha la priorità. Ad esempio, se il campo `data.__adobe.analytics.events` è presente, sovrascrive tutti i campi oggetto XDM relativi all’evento.
+La maggior parte dei campi oggetto dati in questa tabella corrisponde a un [campo XDM mappato](xdm-var-mapping.md). Durante l’acquisizione di Adobe Analytics, i valori vengono prima mappati da XDM alle variabili Analytics. I campi degli oggetti dati riconosciuti vengono quindi mappati e sovrascrivono eventuali valori impostati in precedenza quando vengono mappati sulla stessa variabile di Analytics. Ad esempio, se `data.__adobe.analytics.events` è presente, sostituisce l&#39;intero set di eventi che sarebbero altrimenti derivati da XDM; gli eventi non vengono combinati tra le due origini. Una stringa vuota (`""`) in un campo oggetto dati svuota la variabile Analytics mappata per l&#39;hit, anche se il campo XDM corrispondente contiene un valore.
 
 Alcuni campi dell&#39;oggetto dati supportano anche i rispettivi valori del parametro [Query](../validate/query-parameters.md) come valori abbreviati. È possibile utilizzare campi oggetto dati standard e campi oggetto dati abbreviati in modo intercambiabile, purché ciascuno di essi sia destinato a variabili univoche. Evitare di impostare contemporaneamente un campo oggetto dati standard e il relativo campo oggetto dati a sintassi abbreviata. Adobe non può garantire quale campo ha la priorità.
 
 ## Mappatura campo oggetto dati
 
-Gli aggiornamenti precedenti a questa tabella si trovano nella cronologia del commit [di questa pagina su GitHub](https://github.com/AdobeDocs/analytics.it-IT/commits/main/help/implement/aep-edge/data-var-mapping.md). Analogamente alle variabili di AppMeasurement, tutti i campi degli oggetti dati fanno distinzione tra maiuscole e minuscole.
+Gli aggiornamenti precedenti a questa tabella si trovano nella cronologia del commit [di questa pagina su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md). Analogamente alle variabili di AppMeasurement, tutti i campi degli oggetti dati fanno distinzione tra maiuscole e minuscole.
 
 | Percorso campo oggetto dati | Variabile e descrizione di Analytics |
 | --- | --- |

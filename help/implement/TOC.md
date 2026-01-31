@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 98e9dc4932bd23d3e0b632705945f56c243750c5
+source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 79%
+ht-degree: 78%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 79%
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
-      + [eVar &#x200B;](vars/page-vars/evar.md)
+      + [eVar ](vars/page-vars/evar.md)
       + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
       + Eventi {#events}
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)
@@ -131,7 +131,7 @@ ht-degree: 79%
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [Integrate Module](vars/integrate.md)
-+ Identificazione visitatore {#id}
++ Identificazione del visitatore {#id}
    + [Panoramica](id/overview.md)
    + [Utilizzo dell’estensione Web SDK](id/web-sdk-extension.md)
    + [Utilizzo di Web SDK (Alloy)](id/alloy.md)
@@ -148,8 +148,8 @@ ht-degree: 79%
    + [Prendere in consegna un’implementazione Adobe Analytics esistente](prepare/existing-implementation.md)
 + Implementazione di Analytics con Experience Platform Edge {#aep-edge}
    + [Panoramica di Experience Edge](aep-edge/overview.md)
-   + [Mappatura variabile oggetto dati](aep-edge/data-var-mapping.md)
-   + [Mappatura variabile oggetto XDM](aep-edge/xdm-var-mapping.md)
+   + [Mappatura campo oggetto dati](aep-edge/data-var-mapping.md)
+   + [Mappatura campo oggetto XDM](aep-edge/xdm-var-mapping.md)
    + [Tipi di eventi di Edge Network](aep-edge/hit-types.md)
    + Web SDK {#web-sdk}
       + [Panoramica dell’SDK web](aep-edge/web-sdk/overview.md)
@@ -197,7 +197,7 @@ ht-degree: 79%
 + Casi di utilizzo dell’implementazione {#use-cases}
    + [Utilizzare AppMeasurement con iFrame](use-cases/iframe.md)
    + [Flusso di lavoro di tracciamento delle campagne](use-cases/campaign-tracking.md)
-+ Convalidare l’implementazione {#validate}
++ Convalida l’implementazione {#validate}
    + [Debugger legacy di Adobe Experience Cloud](validate/debugger.md)
    + [Parametri query della raccolta dati](validate/query-parameters.md)
    + [Monitor per pacchetti](validate/packet-monitor.md)
