@@ -1,7 +1,7 @@
 ---
-source-git-commit: 4b39947796d09a58089c846c21b26201a891f1c2
+source-git-commit: 10deaf5370661bbe5058b65e4f6b6339e54d878c
 workflow-type: tm+mt
-source-wordcount: '2970'
+source-wordcount: '2983'
 ht-degree: 88%
 
 ---
@@ -11,10 +11,10 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->Una nuova versione semplificata di [Report Builder](/help/analyze/report-builder/rb-overview.md) è stata rilasciata il 16 ottobre 2024. È supportato su Mac, Windows e browser web.
+>Una nuova versione semplificata di [Report Builder](/help/analyze/report-builder/rb-overview.md) è disponibile dal 16 ottobre 2024. Questo Report Builder è supportato su macOS, Windows e browser web e può essere utilizzato con Adobe Analytics e Customer Journey Analytics.
 >Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
 
-## Annuncio sulla fine del ciclo di vita di Reports & Analytics {#ra-eol}
+## Annuncio sulla fine del ciclo di vita di Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
@@ -107,7 +107,7 @@ Prendi in considerazione l’esempio seguente:
 
 1. Il 15 settembre, un visitatore arriva sul tuo sito tramite un annuncio pubblicitario di ricerca a pagamento, poi se ne va.
 1. Il 18 settembre, il visitatore ritorna sul tuo sito tramite un collegamento social media ricevuto da un amico. Aggiunge diversi articoli al carrello, ma non acquista nulla.
-1. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio pubblicitario, quindi completa un acquisto dal valore di 50 $.
+1. Il 24 settembre, il team marketing gli invia un’e-mail con un coupon da utilizzare su alcuni degli elementi nel carrello. Applica il coupon, ma visita diversi altri siti per vedere se sono disponibili altri coupon. Ne trova un altro tramite un annuncio display, quindi completa un acquisto dal valore di 50 $.
 
 A seconda del modello di attribuzione, il contenitore e i canali ricevono un credito diverso. Consulta la tabella seguente per gli esempi:
 

@@ -1,15 +1,15 @@
 ---
-title: Pianificazione delle cartelle di lavoro con Report Builder in Adobe Analytics
-description: Scopri come utilizzare la funzione di pianificazione in Report Builder
+title: Pianificazione delle cartelle di lavoro con Report Builder
+description: Scopri come utilizzare la funzione di pianificazione in Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 40e1feb0-64bc-40e6-83cb-4a1ea7e2d0cc
-source-git-commit: 9ece9f6fcebdf308b6218aa50ab78af4f75ee8e7
+source-git-commit: 8b6d8a4efec59b693a69984880d8f374ae0cfabc
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 69%
+source-wordcount: '757'
+ht-degree: 31%
 
 ---
 
@@ -28,86 +28,197 @@ La funzione Schedule (Pianifica) consente inoltre di impostare la protezione tra
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://video.tv.adobe.com/v/3417505?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pianifica cartelle di lavoro](https://video.tv.adobe.com/v/3413079?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 
 ## Pianificare una cartella di lavoro
 
-Utilizzare il pulsante Pianifica nell&#39;hub di Report Builder per creare rapidamente una pianificazione in modo da poter distribuire automaticamente un file di Excel della cartella di lavoro (con estensione xlsx) a un singolo utente o a un gruppo.
+Per pianificare una cartella di lavoro:
 
-1. Fai clic sul pulsante Schedule (Pianifica) nell’hub di Report Builder.
+1. Selezionare **[!UICONTROL Schedule]** nell&#39;hub di Report Builder per creare una pianificazione che consenta di distribuire automaticamente un file di Excel della cartella di lavoro (con estensione xlsx) a un singolo utente o a un gruppo.
 
-   ![Fare clic sul pulsante Pianifica per creare una pianificazione.](./assets/schedule-button.png){width="55%"}
+   ![Selezionare il pulsante Pianifica per creare una pianificazione.](./assets/schedule.png){zoomable="yes"}
 
-1. Fai clic su Schedule Workbook (Pianifica cartella di lavoro) o sul pulsante in alto a sinistra per creare una nuova cartella di lavoro pianificata.
+1. Selezionare **[!UICONTROL Schedule Workbook]** o ![Aggiungi](/help/assets/icons/Add.svg) per creare una nuova cartella di lavoro pianificata.
 
-   ![Finestra Pianifica cartelle di lavoro.](./assets/schedule-workbook.png){width="55%"}
+   ![Finestra Pianifica cartelle di lavoro.](./assets/schedule-workbook.png){zoomable="yes"}
 
    Il riquadro di pianificazione mostra alcune informazioni predefinite sulla cartella di lavoro, ad esempio il nome e l’ultima data di modifica della cartella di lavoro.
 
-   ![Riquadro di pianificazione.](./assets/schedule-pane.png){width="55%"}
+### File
 
-1. (Facoltativo) Immetti un nome del file.
+Nella sezione **[!UICONTROL File]**, è possibile fornire dettagli sul tipo di file, il nome e una password per proteggere il file.
 
-   Il file della cartella di lavoro viene salvato con il nome della cartella di lavoro per impostazione predefinita, ma può essere modificato. Se la stessa cartella di lavoro viene inviata a più tipi di pubblico e desideri assegnargli un nome più descrittivo per un determinato pubblico, puoi modificare il nome.
+![Riquadro di pianificazione.](./assets/schedule-pane.png){zoomable="yes"}
 
-1. (Facoltativo) Seleziona **Append time-stamp to file name** (Aggiungi marca temporale al nome del file).
+1. Utilizza ![TableSelect](/help/assets/icons/TableSelect.svg) per selezionare la cartella di lavoro corrente, se non è già selezionata.
 
-   Puoi aggiungere una marca temporale al nome del file per identificare la data di aggiornamento della cartella di lavoro. È utile per vedere rapidamente quale versione di una cartella di lavoro è stata inviata in una data specifica. **Filename preview** (Anteprima nome file) mostra come verrà visualizzato il nome del file della cartella di lavoro nell’e-mail quando la cartella di lavoro viene distribuita. Il formato della marca temporale è AAAA-MM-GG.
+1. (Facoltativo) Immetti **[!UICONTROL File name]**.
 
-1. (Facoltativo) Seleziona **.zip compression** (compressione .zip) per comprimere il file e proteggerlo tramite password.
+   Per impostazione predefinita, il nome del file della cartella di lavoro corrisponde al nome della cartella di lavoro, ma è possibile modificare il nome del file in base alle proprie esigenze.
 
-   Selezionando questa opzione, viene richiesto di immettere una password per aprire il file. È utile se hai dei dubbi sulla sicurezza dei dati e desideri proteggere la cartella di lavoro tramite password. Per proteggere il file con una password è necessario selezionare **.zip compression** (compressione .zip). La password deve contenere almeno 8 caratteri, un numero e un carattere speciale.
+1. Seleziona **[!UICONTROL File type]**.
 
-   ![Immettere una password nel campo Proteggi cartella di lavoro tramite password.](./assets/zip-compression.png){width="55%"}
+   * **[!UICONTROL Excel]**
+   * **[!UICONTROL PDF]**
+   * **[!UICONTROL CSV]**
 
-1. Inserisci i destinatari in **Recipients** (Destinatari). Puoi inserire il nome di una persona riconosciuta nell’organizzazione oppure l’indirizzo e-mail di una persona interna o esterna all’organizzazione.
+   Quando selezioni **[!UICONTROL CSV]**, tieni presente che la cartella di lavoro pianificata viene inviata come allegato zip. Alcune amministrazioni e-mail aziendali potrebbero bloccare le e-mail con allegati zip. Di conseguenza viene visualizzato un avviso.
+
+1. (Facoltativo) Selezionare **[!UICONTROL Append time-stamp to file name]**.
+
+   Puoi aggiungere una marca temporale al nome del file per identificare la data di aggiornamento della cartella di lavoro. Una marca temporale è utile per vedere quale versione di una cartella di lavoro è stata inviata in una data specifica. Se selezionata, puoi scegliere tra:
+
+   * **[!UICONTROL ISO Date format]**, con conseguente aggiunta di `YYYY-MM-DD` al nome file.
+   * **[!UICONTROL ISO Date format + time stamp]**, con conseguente aggiunta di `YYYY-MM-DD_HH-MM-SS` al nome file.
+
+<!-- Does no longer seem to be an option? 
+1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
+
+    When you make this selection, you're prompted to enter a password to open the file. This is helpful if you have concerns about data security and you want to password protect the workbook. Protecting the file with a password requires you to select **.zip compression**. The password must be at least 8 characters and contain a number and a special character.
+
+    ![Enter a password in the Password protect the workbook field.](./assets/zip-compression.png){zoomable="yes"}{width="55%"}
+-->
+
+1. Immettere una password in **[!UICONTROL Password protect the workbook]**. Una password valida richiede almeno 8 caratteri, un numero e un carattere speciale. Seleziona ![VisibilityOff](/help/assets/icons/VisibilityOff.svg) per visualizzare la password e ![Visibility](/help/assets/icons/Visibility.svg) per nascondere la password (impostazione predefinita).
+
+
+### E-mail
+
+Nella sezione **[!UICONTROL Email]**, è possibile fornire i destinatari, l&#39;oggetto e la descrizione dell&#39;e-mail.
+
+![Pianifica impostazioni e-mail](assets/schedule-email.png){zoomable="yes"}
+
+1. Inserisci i destinatari in **Recipients** (Destinatari). È possibile immettere il nome di una persona riconosciuta nell&#39;organizzazione. Oppure puoi immettere un indirizzo e-mail di una persona esterna alla tua organizzazione.
 
 1. Inserisci l’oggetto dell’e-mail in **Subject** (Oggetto) e una descrizione per i destinatari. L’oggetto viene impostato automaticamente sul nome del file della cartella di lavoro, ma puoi modificarlo se necessario. Puoi aggiungere i dettagli nella sezione della descrizione.
 
-   ![Immettere un oggetto nel campo Oggetto.](./assets/recipients-subject.png){width="55%"}
-
-1. Configura le opzioni di pianificazione per impostare la data e l’ora in cui desideri inviare la cartella di lavoro ai destinatari tramite e-mail.
-
-   Scegli le date e ore di inizio e di fine e l’arco temporale. Può essere la data odierna o una data futura.
-
-   Scegli la frequenza in **Frequency** (Frequenza) dal menu a discesa. Puoi impostare la frequenza in modo che sia ogni ora, giorno, settimana, mese o anno in un giorno specifico. Ad esempio, puoi impostare una pianificazione per l’invio della cartella di lavoro la prima domenica notte del mese in modo che i destinatari abbiano l’e-mail nella casella in entrata il lunedì mattina.
-
-   ![Selezionare la frequenza di pianificazione del report.](./assets/frequency.png){width="55%"}
-
-1. Dopo aver impostato la pianificazione, fai clic su **Send on schedule** (Invia secondo programma).
-
-   ![Fai clic su Invia secondo programma.](./assets/send-on-schedule.png){width="55%"}
-
-   Nella parte inferiore dell&#39;hub Report Builder viene visualizzato un avviso popup di conferma e la cartella di lavoro pianificata è elencata nella scheda Cartelle di lavoro.
-
-   ![Avviso di conferma](./assets/confirmation-toast.png){width="55%"}
-
-## Pianificare una cartella di lavoro convertita {#converted}
-
-1. Pianifica una cartella di lavoro legacy [convertita](/help/analyze/report-builder/convert-workbooks.md).
-
-   Viene visualizzato un pop-up in cui viene richiesto se si desidera utilizzare la metada di pianificazione della cartella di lavoro precedente per creare una nuova attività pianificata.
-
-1. Se si seleziona **[!UICONTROL Use]**, Report Builder inserisce automaticamente le informazioni di pianificazione legacy.
-
-1. Verifica che queste informazioni siano corrette e pianificate.
-
-1. Se si desidera inviare la cartella di lavoro in base a una pianificazione diversa, pianificare un&#39;attività pianificata completamente aggiornata.
+1. Facoltativamente, è possibile immettere una descrizione nell&#39;area di testo **[!UICONTROL Description]**.
 
 
-## Inviare la cartella di lavoro una sola volta
+### Pianificazione
 
-Puoi anche inviare la cartella di lavoro una sola volta.
+Nella sezione **[!UICONTROL Schedule]** è possibile definire la pianificazione per l&#39;invio delle e-mail con la cartella di lavoro ai destinatari.
 
-1. Deseleziona **Show scheduling options** (Mostra opzioni di pianificazione)
+![Definizione pianificazione](assets/schedule-enable.png){zoomable="yes"}
 
-   ![Fare clic su Deseleziona Mostra opzioni di pianificazione per inviare una cartella di lavoro una sola volta.](./assets/send-now.png){width="40%"}
+1. Selezionare **[!UICONTROL Show scheduling options]** per definire una pianificazione.
 
-1. Fai clic su **Send Now** (Invia subito).
+1. Immettere una data di inizio in **[!UICONTROL Starting on]**. In alternativa, selezionare ![Calendario](/help/assets/icons/Calendar.svg) per scegliere una data di inizio dal calendario.
+
+1. Immettere una data di fine in **[!UICONTROL Ending on]**. In alternativa, selezionare ![Calendario](/help/assets/icons/Calendar.svg) per scegliere una data di fine dal calendario.
+
+1. Seleziona una **[!UICONTROL Frequency]**. A seconda della frequenza selezionata, sono disponibili opzioni aggiuntive. Vedi la tabella seguente.
+
+   | Frequenza | Opzioni |
+   |---|---|
+   | **[!UICONTROL Send hourly]** | Immettere un valore per **[!UICONTROL Send every number of hours]**. |
+   | **[!UICONTROL Send daily]** | Selezionare un **[!UICONTROL Daily frequency]**: **[!UICONTROL Send every day]**, **[!UICONTROL Send every weekday]** o **[!UICONTROL Custom frequency]**.<br/>Se si seleziona **[!UICONTROL Custom frequency]**, immettere un valore per **[!UICONTROL Send every number of days]**. |
+   | **[!UICONTROL Send weekly]** | Immettere un valore per **[!UICONTROL Send every number of weeks]**. E seleziona un **[!UICONTROL Day of week]**. |
+   | **[!UICONTROL Send monthly by day of the week]** | Selezionare **[!UICONTROL Day of week]** e **[!UICONTROL Week of month]**. |
+   | **[!UICONTROL Send monthly by day of the month]** | Selezionare un valore da **[!UICONTROL Send on this day of the month]**. |
+   | **[!UICONTROL Send yearly by day of the month]** | Selezionare un **[!UICONTROL Day of week]**, selezionare un **[!UICONTROL Week of month]** e selezionare un **[!UICONTROL Monthly of year]**. |
+   | **[!UICONTROL Send yearly by specific date]** | Selezionare un **[!UICONTROL Month of year]** e un valore da **[!UICONTROL Send on this day of the month]**. |
+
+### Invia
+
+Per inviare la cartella di lavoro:
+
+* Se non è stata definita una pianificazione utilizzando **[!UICONTROL Show scheduling options]**, selezionare **[!UICONTROL Send now]** per inviare immediatamente la cartella di lavoro tramite e-mail.
+* Se è stata definita una pianificazione utilizzando **[!UICONTROL Show scheduling options]**, selezionare **[!UICONTROL Send on schedule]** per inviare la cartella di lavoro tramite e-mail utilizzando la pianificazione definita.
+
+In entrambi i casi, nella parte inferiore dell’hub Report Builder viene visualizzato un avviso popup di conferma.
+
+Per annullare l&#39;invio della cartella di lavoro, selezionare **[!UICONTROL Cancel]**.
 
 ## Gestire le cartelle di lavoro pianificate
 
-Per informazioni sulla gestione delle cartelle di lavoro già pianificate, vedere [Gestione delle cartelle di lavoro pianificate](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
+Per informazioni sulla gestione delle cartelle di lavoro già pianificate, vedere [Gestione delle cartelle di lavoro pianificate](/help/analyze/report-builder/manage-reportbuilder.md).
+
+
+
+
+<!--
+
+## Schedule a workbook
+
+Use the Schedule button in the Report Builder hub to quickly create a schedule so that you can automatically distribute a workbook Excel file (.xlsx) to an individual or a group.
+
+1. Click the Schedule button in the Report Builder hub.
+
+    ![Click the Schedule button to create a schedule.](./assets/schedule-button.png){width="55%"}
+
+1. Click Schedule Workbook or the plus button in the upper-left to create a new scheduled workbook.
+
+    ![The Schedule workbooks window.](./assets/schedule-workbook.png){width="55%"}
+
+    The scheduling pane displays some pre-defined information about the workbook such as the workbook name and the last date that the workbook was modified.
+
+    ![The scheduling pane.](./assets/schedule-pane.png){width="55%"}
+
+1. (Optional) Enter a file name.
+
+    The workbook file name defaults to the name of the workbook but you can change this if you want. If you\'re sending the same workbook to multiple audiences and you want to name it something a little bit more friendly for a certain audience, you can change the name.
+
+1. (Optional) Select **Append time-stamp to file name**.
+
+    You can append a timestamp to the file name to identify the date the workbook was updated. This is helpful to quickly see which version of a workbook was sent on a specific date. The **Filename preview** shows how the workbook file name will appear in the email when the workbook is distributed. The time-stamp format is YYYY-MM-DD.
+
+1. (Optional) Select **.zip compression** to compress the file and set up password protection on the file.
+
+    When you make this selection, you're prompted to enter a password to open the file. This is helpful if you have concerns about data security and you want to password protect the workbook. Protecting the file with a password requires you to select **.zip compression**. The password must be at least 8 characters and contain a number and a special character.
+
+    ![Enter a password in the Password protect the workbook field.](./assets/zip-compression.png){width="55%"}
+
+1. Enter **Recipients**. You can enter the name of a person that is recognized in your organization, or you can enter an email address of a person inside or outside of your organization.
+
+1. Enter the **Subject** of the email and a description for your recipients. The subject defaults to the workbook file name but you can modify the subject if needed. You can add details in the description section.
+
+    ![Enter a subject in the Subject field.](./assets/recipients-subject.png){width="55%"}
+
+1. Set up the scheduling options to set the date and time that you want the workbook emailed to your recipients.
+
+    Choose the start and end date and time frames. This can be today's date or a date in the future.
+
+    Choose the **Frequency** from the drop-down menu. You can set the frequency to be hourly, daily, weekly, monthly, or yearly on a specific day. For example, you can set up a schedule to send the workbook on the first Sunday night of the month so that your recipients will have the email in their inbox first thing on Monday morning.
+
+    ![Select the frequency to schedule your report.](./assets/frequency.png){width="55%"}
+
+1. After you set the schedule, click **Send on schedule**.
+
+    ![Click Send on schedule.](./assets/send-on-schedule.png){width="55%"}
+
+    You see a confirmation toast at the bottom of the Report Builder hub and the scheduled workbook is listed under the Workbooks tab.
+
+    ![Confirmation toast](./assets/confirmation-toast.png){width="55%"}
+
+## Schedule a converted workbook {#converted}
+
+1. Schedule a [converted](/help/analyze/report-builder/convert-workbooks.md) legacy workbook.
+
+   A pop up appears, asking if you want to use the scheduling metada from the legacy workbook to create a new scheduled task. 
+
+1. If you select **[!UICONTROL Use]**, Report Builder automatically fills in the legacy scheduling information. 
+
+1. Ensure that this information is correct and schedule. 
+
+1. If you want to send the workbook on a different schedule, schedule a completely fresh scheduled task. 
+
+
+## Send the workbook one-time only
+
+You can also send out the workbook only once.
+
+1. Un-check **Show scheduling options** 
+
+    ![Click Un-check Show scheduling options to send out a workbook one time.](./assets/send-now.png){width="40%"}
+
+1. Click **Send Now**.
+
+## Manage scheduled workbooks
+
+For information about managing workbooks that are already scheduled, see [Manage scheduled workbooks](/help/analyze/report-builder/manage-schedules-reportbuilder.md).
+
+-->

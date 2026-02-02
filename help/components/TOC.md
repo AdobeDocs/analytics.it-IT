@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 993bef6137bbcda98cb6f09f9e8644db44e7d8cb
+source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 94%
@@ -52,7 +52,7 @@ ht-degree: 94%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar &#x200B;](dimensions/evar.md)
+   + [eVar ](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
@@ -296,8 +296,8 @@ ht-degree: 94%
          + [Domande frequenti](classifications/importer/importer-faq.md)
 + Posizioni {#locations}
    + [Gestione posizioni](/help/components/locations/locations-manager.md)
-   + [Account di importazione cloud](/help/components/locations/configure-import-accounts.md)
-   + [Posizioni di importazione cloud](/help/components/locations/configure-import-locations.md)
+   + [Configurare account cloud](/help/components/locations/configure-import-accounts.md)
+   + [Configurare i percorsi cloud](/help/components/locations/configure-import-locations.md)
 + [Progetti programmati](scheduled-projects-manager.md)
 + [Coda dei rapporti pianificati](scheduled-reports-admin.md)
 + Reporting in tempo reale {#real-time-reporting}

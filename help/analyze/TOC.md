@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
-source-git-commit: 340baffc3c870ffec136a0800f71a293099e4d9f
+source-git-commit: 288ca753157a6ed388a37a1ef01481cd83191b85
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '869'
 ht-degree: 95%
 
 ---
@@ -177,7 +177,6 @@ ht-degree: 95%
    + [Pianificare le cartelle di lavoro per l’e-mail](report-builder/schedule-reportbuilder.md)
    + [Pianificare le cartelle di lavoro per le esportazioni cloud](/help/analyze/report-builder/report-builder-export.md)
    + [Gestire le cartelle di lavoro pianificate](/help/analyze/report-builder/manage-schedules-reportbuilder.md)
-   + [Etichette per limitazioni](report-builder/restricted-labels.md)
    + [Impostazioni Report Builder](report-builder/report-builder-settings.md)
 + Report Builder legacy {#legacy-report-builder}
    + [Guida di Adobe Report Builder legacy](legacy-report-builder/home.md)

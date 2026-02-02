@@ -1,23 +1,22 @@
 ---
-title: Esportare rapporti da Report Builder
-description: Descrive come esportare dati da Report Builder a destinazioni sicure
+title: Esporta Rapporti Da Report Builder
+description: Scopri come esportare dati da Report Builder a destinazioni sicure.
 role: User, Admin
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 5829482b-3a5e-416b-9c82-404face30b29
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: da7b4568fcdb03ff97437879e84a1ed45749494d
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 30%
+source-wordcount: '1200'
+ht-degree: 31%
 
 ---
 
 # Pianificare le cartelle di lavoro esportandole in destinazioni cloud
 
-Puoi esportare le cartelle di lavoro di Adobe Analytics da Report Builder a provider cloud come Google, Azure e Amazon.
 
-In alternativa, è possibile condividere le cartelle di lavoro con altri utenti tramite posta elettronica, come descritto in [Pianificare le cartelle di lavoro per la condivisione tramite posta elettronica](/help/analyze/report-builder/schedule-reportbuilder.md).
+È possibile esportare cartelle di lavoro di Customer Journey Analytics da Report Builder a provider cloud come Google, Azure e Amazon.
 
 [I vantaggi dell&#39;esportazione di report da Report Builder al cloud](#advantages-of-exporting-to-the-cloud) includono la possibilità di utilizzare report in strumenti di terze parti o di combinarli con dati esterni.
 
@@ -33,6 +32,10 @@ Per esportare le cartelle di lavoro da Report Builder nel cloud, attenersi alla 
 
 1. [Esportare un rapporto da Report Builder](#export-a-report-from-report-builder)
 
+1. Accedi ai dati nel tuo account cloud e [Gestisci le esportazioni in Adobe](/help/components/locations/configure-import-locations.md)
+
+![Processo di esportazione descritto nei passaggi da 1 a 4.](assets/report-builder-export-process.png)
+
 ## Esportare un rapporto da Report Builder
 
 >[!NOTE]
@@ -47,11 +50,7 @@ Per esportare rapporti da Report Builder:
 
 1. Seleziona [!UICONTROL **Pianificazione**].
 
-<!-- add screenshot -->
-
 1. Nella scheda **[!UICONTROL Workbooks]**, seleziona l&#39;icona più per creare una nuova pianificazione
-
-   ![Scheda Pianificazioni di Report Builder](assets/report-builder-schedule-cloud.png)
 
    Oppure
 
@@ -59,15 +58,17 @@ Per esportare rapporti da Report Builder:
 
 1. Nel pannello di destra [!UICONTROL **Adobe Report Builder**], specifica le seguenti informazioni per continuare a creare una nuova pianificazione:
 
+   ![Scheda Pianificazioni di Report Builder](assets/report-builder-schedule-cloud.png)
+
    | Nome campo: | Funzione |
    |---------|----------|
    | **[!UICONTROL File]** | Visualizza il file della cartella di lavoro attualmente selezionato per l&#39;esportazione. Selezionare l&#39;icona della cartella di lavoro ![TabellaSeleziona](/help/assets/icons/TableSelect.svg) accanto al nome del file per scegliere la cartella di lavoro corrente, se non è già selezionata. |
    | **[!UICONTROL Filename]** <!--should be File name --> | Consente di modificare il nome del file prima di esportare la cartella di lavoro.<p>Il nome predefinito del file della cartella di lavoro è il nome della cartella di lavoro</p> |
-   | **[!UICONTROL File type]** | Scegliere il tipo di file per il file esportato. È possibile scegliere Excel, PDF o CSV.<p>Quando selezioni **[!UICONTROL CSV]**, tieni presente che la cartella di lavoro pianificata viene inviata come allegato ZIP. Alcune amministrazioni e-mail aziendali potrebbero bloccare le e-mail con allegati ZIP. Di conseguenza viene visualizzato un avviso.</p> |
-   | **[!UICONTROL Append time stamp to file name]** | Selezionare questa opzione per includere una marca temporale dell&#39;esportazione nel nome del file esportato. |
+   | **[!UICONTROL File type]** | Scegliere il tipo di file per il file esportato. È possibile scegliere Excel, PDF o CSV. <p>Quando selezioni **[!UICONTROL CSV]**, tieni presente che la cartella di lavoro pianificata viene inviata come allegato ZIP. Alcune amministrazioni e-mail aziendali potrebbero bloccare le e-mail con allegati ZIP. Di conseguenza viene visualizzato un avviso.</p> |
+   | **[!UICONTROL Append time stamp to file name]** | Selezionare questa opzione per aggiungere una marca temporale al nome del file per identificare la data di aggiornamento della cartella di lavoro. Una marca temporale è utile per vedere quale versione di una cartella di lavoro è stata inviata in una data specifica. Se selezionata, puoi scegliere tra: |
    | **[!UICONTROL Filename preview]** <!--should be File name preview --> | Mostra un&#39;anteprima di come verrà visualizzato il nome del file dopo l&#39;esportazione. |
    | **[!UICONTROL Password protect the workbook]** | Specificare una password per proteggere il file esportato in modo che solo gli utenti con la password possano accedervi. <p>Le password devono avere almeno 8 caratteri e contenere almeno 1 numero e 1 carattere speciale (ad esempio `!`,`@`,`#` e `$`).</p> |
-   | **[!UICONTROL Email]** | Selezionare questa opzione per inviare il file a un indirizzo di posta elettronica specifico. Per ulteriori informazioni su questa opzione, vedere [Pianificare le cartelle di lavoro condividendo tramite e-mail](/help/analyze/report-builder/schedule-reportbuilder.md). |
+   | **[!UICONTROL Email]** | Selezionare questa opzione per inviare il file a un indirizzo di posta elettronica specifico. Per ulteriori informazioni, consulta [Pianificare le cartelle di lavoro condividendo tramite e-mail](schedule-reportbuilder.md). |
    | **[!UICONTROL Other deliveries]** | Selezionare questa opzione per inviare il file a un account cloud, quindi utilizzare i menu a discesa **[!UICONTROL Account]** e **[!UICONTROL Location]** descritti di seguito per selezionare l&#39;account e il percorso. |
    | **[!UICONTROL Account]** | Seleziona l’account di esportazione cloud in cui desideri inviare i dati. <p>In alternativa, se non hai già configurato un account cloud da utilizzare, puoi configurare un nuovo account:<ol><li>Seleziona [!UICONTROL **Aggiungi account**], quindi specifica le seguenti informazioni:<ul><li>[!UICONTROL **Nome account di posizione**]: specifica un nome per l’account di posizione. Questo nome viene visualizzato durante la creazione di una posizione </li><li>[!UICONTROL **Descrizione account di posizione**]: fornisci una breve descrizione dell’account per distinguerlo da altri account dello stesso tipo.</li><li>**[!UICONTROL Make account available to all users in your organization]**: selezionare questa opzione per consentire ad altri utenti dell&#39;organizzazione di utilizzare l&#39;account. Quando condividi gli account, tieni presente quanto segue:<ul><li>Gli account condivisi non possono essere non condivisi.</li><li>Gli account condivisi possono essere modificati solo dal proprietario dell&#39;account.</li><li>Chiunque può creare una posizione per l&#39;account condiviso.</li></ul></li><li>[!UICONTROL **Tipo di account**]: selezionare il tipo di account cloud in cui si desidera esportare i dati. I tipi di account disponibili sono Amazon S3 Role ARN, Google Cloud Platform, Azure SAS e Azure RBAC.</li></ul><li>Per completare la configurazione dell&#39;account, continuare con il passaggio 6 in [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md), quindi espandere la sezione corrispondente al [!UICONTROL **tipo di account**] selezionato. <p>Sono disponibili i seguenti tipi di account:</p><ul><li>Amazon S3 con ruolo ARN</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li></ul></ol> |
    | **[!UICONTROL Location]** | Seleziona la posizione dell’account in cui desideri inviare i dati di esportazione.<p>Oppure, se non hai già configurato la posizione da utilizzare sull’account selezionato, puoi configurarne una nuova:<ol><li>Seleziona [!UICONTROL **Aggiungi posizione**], quindi specifica le seguenti informazioni: <ul><li>[!UICONTROL **Nome**]: il nome della posizione.</li><li>[!UICONTROL **Descrizione**]: fornisci una breve descrizione della posizione per distinguerla da altre posizioni nell’account.</li><li>**[!UICONTROL Make location available to all users in your organization]**: selezionare questa opzione per consentire ad altri utenti dell&#39;organizzazione di utilizzare il percorso. Quando condividi gli account, tieni presente quanto segue:<ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario dell&#39;account.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul></li><li>[!UICONTROL **Account di posizione**]: seleziona l’account in cui desideri creare la posizione.</li></ul><li>Per completare la configurazione della posizione, continua con il collegamento seguente corrispondente al tipo di account selezionato nel campo [!UICONTROL **Account di posizione**]:<ul><li>[Amazon S3 Role ARN](/help/components/locations/configure-import-locations.md#amazon-s3-role-arn)</li><li>[Google Cloud Platform](/help/components/locations/configure-import-locations.md#google-cloud-platform)</li><li>[Azure SAS](/help/components/locations/configure-import-locations.md#azure-sas)</li><li>[Azure RBAC](/help/components/locations/configure-import-locations.md#azure-rbac)</li></ul> |
@@ -82,7 +83,6 @@ Per esportare rapporti da Report Builder:
 
    I dati vengono inviati all’account cloud specificato alla frequenza specificata.
 
-   Nella parte inferiore dell&#39;hub Report Builder viene visualizzato un avviso popup di conferma e la cartella di lavoro pianificata è elencata nella scheda Cartelle di lavoro.
 
 ## Vantaggi dell’esportazione nel cloud
 
@@ -113,15 +113,3 @@ Assicurati che i blocchi di dati, l’ambiente e le autorizzazioni soddisfino i 
 * **Blocchi di dati:** tutti i blocchi di dati devono includere almeno un componente in una colonna, riga o valore.
 
 * **Ambiente:** Assicurati che gli [indirizzi IP](/help/technotes/ip-addresses.md) e i [domini](/help/technotes/domains.md) utilizzati da Adobe Analytics siano consentiti tramite il firewall dell&#39;organizzazione.
-
-
-<!--
-## Manage exports
-
-After data is exported from Analysis Workspace, you can edit, re-export, duplicate, tag, or delete existing exports, as described in [Manage exports](/help/components/exports/manage-exports.md). 
-
--->
-
-## Gestire le cartelle di lavoro pianificate
-
-Per informazioni sulla gestione delle cartelle di lavoro già pianificate, vedere [Gestione delle cartelle di lavoro pianificate](/help/analyze/report-builder/manage-schedules-reportbuilder.md).

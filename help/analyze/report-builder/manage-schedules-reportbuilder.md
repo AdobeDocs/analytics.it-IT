@@ -1,15 +1,15 @@
 ---
-title: Come gestire le cartelle di lavoro pianificate in Report Builder in Adobe Analytics
-description: Scopri come gestire le cartelle di lavoro pianificate in Report Builder
+title: Gestire Le Cartelle Di Lavoro Programmate In Report Builder
+description: Scopri come gestire le cartelle di lavoro pianificate in Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
-source-git-commit: 6ec04fcc250b2858987ac7d70255310be910386f
+source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 4%
+source-wordcount: '317'
+ht-degree: 5%
 
 ---
 
