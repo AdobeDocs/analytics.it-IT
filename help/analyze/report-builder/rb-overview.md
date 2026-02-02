@@ -76,7 +76,7 @@ Alcune [funzionalità legacy di Report Builder non sono supportate](convert-work
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Report Builder](https://video.tv.adobe.com/v/337569?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Report Builder](https://video.tv.adobe.com/v/3452588?captions=ita&quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
