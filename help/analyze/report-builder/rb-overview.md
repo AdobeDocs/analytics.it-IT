@@ -32,7 +32,7 @@ Report Builder for Adobe Analytics è un componente aggiuntivo di Microsoft Exce
 
 ## Report Builder legacy
 
-Questo Report Builder sostituisce il componente aggiuntivo legacy di Report Builder [](/help/analyze/legacy-report-builder/home.md) e offre diversi vantaggi:
+Questo Report Builder sostituisce il componente aggiuntivo legacy di Report Builder [&#128279;](/help/analyze/legacy-report-builder/home.md) e offre diversi vantaggi:
 
 - Trova informazioni in Excel in modo più semplice e veloce con flussi di lavoro migliorati per la creazione e la gestione dei blocchi di dati, inclusa una maggiore flessibilità
 - Multipiattaforma: non è più possibile accedere alla macchina virtuale per utilizzare Report Builder, in quanto ora sono supportati PC, Mac ed Excel Online
