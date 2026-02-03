@@ -3,9 +3,9 @@ title: Panoramica sui set di classificazione
 description: Scopri come utilizzare i set di classificazione per gestire i dati di classificazione. Scopri le differenze tra i set di classificazione e le classificazioni legacy.
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 feature: Classifications
-source-git-commit: 8a7dd06a26e6a4ad06c224543bc7fdda33ba7aaa
+source-git-commit: e1ccd006336f10b8f843d59cfdcd220064524349
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '874'
 ht-degree: 11%
 
 ---
@@ -112,7 +112,7 @@ L’architettura back-end rilasciata con i set di classificazione contiene diver
 
 * Riduzione del tempo di elaborazione (da 72 ore a 24 ore).
 * Interfaccia utente riprogettata per gestire le classificazioni.
-* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/classifications).
+* Opzione per utilizzare i dati di classificazione in Adobe Experience Platform tramite il connettore di origine di [Adobe Analytics per i dati di classificazione](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/adobe-applications/classifications).
 
 Anche l’architettura back-end rilasciata con i set di classificazione contiene diverse modifiche:
 
@@ -123,8 +123,3 @@ Anche l’architettura back-end rilasciata con i set di classificazione contiene
 >[!IMPORTANT]
 >
 >Le prestazioni dei set di classificazione dipendono principalmente dal numero di valori chiave univoci che contengono dati. Presta attenzione quando disponi di variabili che contengono un numero elevato di valori univoci. Soprattutto quando combini tali variabili da più suite di rapporti e dimensioni in un unico set di classificazione.
-
-## Limitazioni
-
-* I set di classificazione non supportano ancora le regole. La funzionalità delle regole viene aggiunta all&#39;interfaccia dei set di classificazione prima che la funzionalità [generatore di regole legacy](/help/components/classifications/crb/classification-rule-builder.md) non sia più disponibile.
-* Non viene effettuata alcuna migrazione delle configurazioni e delle regole di classificazione legacy ai set di classificazione. Un’utility di migrazione viene aggiunta all’interfaccia dei set di classificazione prima che la funzionalità di classificazione legacy diventi non disponibile.
