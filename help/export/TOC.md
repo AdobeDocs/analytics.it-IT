@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Scopri come utilizzare i feed di dati e Data Warehouse per recuperare l’output di dati.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 92%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 92%
    + [Panoramica sui feed dati](analytics-data-feed/data-feed-overview.md)
    + [Creare un feed di dati](analytics-data-feed/create-feed.md)
    + [Gestire i feed dati](analytics-data-feed/df-manage-feeds.md)
-   + [Gestire i lavori sui feed dati](analytics-data-feed/df-manage-jobs.md)
+   + [Gestire i processi per feed dati](analytics-data-feed/df-manage-jobs.md)
    + Contenuti feed dati {#data-feed-contents}
       + [Panoramica sui contenuti dei feed dati](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [Calcolare metriche](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
@@ -29,7 +29,7 @@ ht-degree: 92%
       + [Ricerche dinamiche](analytics-data-feed/c-df-contents/dynamic-lookups.md)
       + [Ricerca eVar merchandising](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [Caratteri speciali](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
-      + [Occorrenza in arrivo](analytics-data-feed/c-df-contents/late-arriving-hits.md)
+      + [Hit in arrivo](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [Domande frequenti sui feed dati](analytics-data-feed/df-faq.md)
    + [Best practice per il feed dati](analytics-data-feed/data-feeds-best-practices.md)
    + [Risoluzione dei problemi dei feed dati](analytics-data-feed/troubleshooting.md)

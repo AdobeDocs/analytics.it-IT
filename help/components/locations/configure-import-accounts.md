@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare account di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 53%
+source-wordcount: '1582'
+ht-degree: 49%
 
 ---
 
@@ -30,7 +30,7 @@ Devi configurare Adobe Analytics con le informazioni necessarie per accedere al 
 
 Per informazioni su come visualizzare ed eliminare gli account esistenti, vedere [Gestione posizioni](/help/components/locations/locations-manager.md).
 
-Per configurare un account di importazione o esportazione cloud:
+## Inizia a creare o modificare un account dalla pagina Account
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Componenti**] > [!UICONTROL **Percorsi**].
 1. Nella pagina [!UICONTROL Locations], selezionare la scheda [!UICONTROL **Account località**].
@@ -45,6 +45,12 @@ Per configurare un account di importazione o esportazione cloud:
    Per modificare un account esistente, individuare l&#39;account che si desidera modificare, quindi selezionare il pulsante [!UICONTROL **Modifica dettagli**].
 
    Viene visualizzata la finestra di dialogo [!UICONTROL **Aggiungi account**].
+
+1. Continuare con [Configurare un account località](#configure-a-location-account).
+
+## Configurare un account località
+
+Per configurare un account di importazione o esportazione cloud dopo averlo creato o modificato:
 
 1. Specifica le seguenti informazioni:
 
@@ -154,7 +160,14 @@ Per configurare un account di importazione o esportazione cloud:
 
    +++SFTP
 
-   È disponibile il supporto SFTP per i feed di dati. Richiede un host SFTP, un nome utente e il sito di destinazione per contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
+   È disponibile il supporto SFTP per i feed di dati. Questo richiede un host SFTP, un nome utente e il sito di destinazione per contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
+
+   Quando si scarica la chiave pubblica RSA o DSA per i feed di dati, effettuare una delle seguenti operazioni:
+
+   * Rinomina il file della chiave pubblica scaricato in `authorized_keys`, quindi carica il file nella cartella `.ssh` sul server SFTP.
+
+   * Se disponi di un file `authorized_keys` esistente che contiene già altre chiavi, aggiungi la chiave fornita da Adobe al file `authorized_keys` esistente, assicurandoti di non sovrascrivere le chiavi esistenti.
+
 
    +++
 

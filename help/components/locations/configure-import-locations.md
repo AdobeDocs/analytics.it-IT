@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configurare i percorsi di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1700'
 ht-degree: 30%
 
 ---
@@ -59,7 +59,9 @@ Per informazioni su come visualizzare ed eliminare i percorsi esistenti, vedere 
    | [!UICONTROL **Rendi la posizione disponibile a tutti gli utenti dell&#39;organizzazione**] | Abilita questa opzione per consentire ad altri utenti dell’organizzazione di utilizzare la posizione.<p>Quando condividi le posizioni, tieni presente quanto segue:</p><ul><li>Le posizioni condivise non possono essere annullate.</li><li>Le posizioni condivise possono essere modificate solo dal proprietario della posizione.</li><li>Le posizioni possono essere condivise solo se è condiviso anche l’account a cui è associata la posizione.</li></ul> |
    | [!UICONTROL **Account località**] | Selezionare l&#39;account della posizione in cui si desidera creare la posizione. Per informazioni su come creare un account, vedere [Configurare gli account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md). |
 
-1. Per completare il modulo per la configurazione del percorso, continuare con la sezione seguente che corrisponde al tipo di account selezionato nel campo [!UICONTROL **Account percorso**]. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
+1. Per completare il modulo per la configurazione del percorso, continuare con [Configurare un percorso](#configure-a-location). Utilizza le informazioni nella sezione che corrispondono al tipo di account selezionato nel campo [!UICONTROL **Account ubicazione**]. Sono disponibili anche altri tipi di account legacy, ma non sono consigliati.
+
+## Configurare una posizione
 
 ### Amazon S3 con ruolo ARN
 

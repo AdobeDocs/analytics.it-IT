@@ -3,9 +3,9 @@ title: Gestire i feed dati
 description: Scopri come navigare nell’interfaccia del feed dati. Scopri come creare, modificare e visualizzare un feed di dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1243'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Data Feed Manager consente di creare, modificare ed eliminare feed di dati per l
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://video.tv.adobe.com/v/3428563?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -30,11 +30,11 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
    Vengono visualizzati i feed di dati per tutte le suite di rapporti a cui hai accesso. Oppure, se non è stato configurato alcun feed, la pagina mostra un pulsante [!UICONTROL Create New Data Feed].
 
-   ![Feed dati](assets/feeds.png)
+   ![Gestione feed dati](assets/data-feed-manager.png)
 
 ## Creare un feed di dati
 
-Il pulsante [!UICONTROL Add] consente di creare un nuovo feed. Per ulteriori informazioni, vedere [Creare un feed di dati](create-feed.md).
+Il pulsante **[!UICONTROL Create data feed]** consente di creare un nuovo feed. Per ulteriori informazioni, vedere [Creare un feed di dati](create-feed.md).
 
 ## Modificare un feed dati
 
@@ -45,6 +45,8 @@ Il pulsante [!UICONTROL Add] consente di creare un nuovo feed. Per ulteriori inf
 1. Selezionare il feed di dati nella colonna [!UICONTROL **Nome feed**].
 
 1. Apporta le modifiche desiderate al feed dati.
+
+   Per informazioni sulle opzioni del feed dati, vedere [Creare e configurare un feed dati](/help/export/analytics-data-feed/create-feed.md#create-and-configure-a-data-feed) in [Creare un feed dati](/help/export/analytics-data-feed/create-feed.md).
 
    Quando aggiorni la sezione [!UICONTROL **Destinazione**] per un feed di dati che stai modificando, puoi scegliere un account e un percorso diversi da utilizzare per il nuovo feed di dati nei campi a discesa [!UICONTROL **Account**] e [!UICONTROL **Posizione**].
 
@@ -62,9 +64,9 @@ Il pulsante [!UICONTROL Add] consente di creare un nuovo feed. Per ulteriori inf
 
    * Nel campo di ricerca, inizia a digitare il nome di un feed. Solo i feed corrispondenti vengono visualizzati nell’elenco dei feed disponibili.
 
-   * A sinistra, fai clic sull’icona del filtro per mostrare o nascondere le opzioni di filtro. I filtri sono organizzati per categoria. È possibile comprimere o espandere le categorie di filtro. Seleziona la casella di controllo accanto a qualsiasi filtro che desideri applicare.
+   * A sinistra, seleziona l’icona del filtro per mostrare o nascondere le opzioni di filtro. I filtri sono organizzati per categoria, inclusi **[!UICONTROL Report suites]**, **[!UICONTROL Owner]**, **[!UICONTROL Status]** e **[!UICONTROL Tags]**. È possibile comprimere o espandere le categorie di filtro. Seleziona la casella di controllo accanto a qualsiasi filtro che desideri applicare.
 
-![Filtro](assets/filters.png)
+     ![Filtro](assets/filters.png)
 
 ## Visualizzare i processi di feed dati
 
