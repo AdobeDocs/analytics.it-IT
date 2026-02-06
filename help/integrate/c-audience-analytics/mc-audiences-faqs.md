@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Domande frequenti per Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%
@@ -50,6 +50,8 @@ Possono essere necessarie diverse ore per popolare le suite di rapporti con nuov
 +++ Ho creato una nuova destinazione Analytics, ma non la vedo nella sezione Mappature di destinazione dei miei segmenti disponibili. Dove è andata la destinazione o come la trovo?
 
 Una destinazione Analytics scompare dalla sezione Mappature di destinazione di un segmento quando si seleziona l&#39;opzione **[!UICONTROL Automatically map all current and future segments]** in **[!UICONTROL Segment Mappings]**. Per evitare questo problema, selezionare **[!UICONTROL Manually map segments]** invece dell&#39;opzione automatica.
+
++++
 
 +++ Questo mi darà tutte le informazioni da Adobe Audience Manager, in Analytics?
 
