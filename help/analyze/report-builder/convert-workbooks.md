@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: d7832dc56eb680f57a6875cf32e29fd5a8858098
+source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 1%
+source-wordcount: '681'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Nell&#39;ambito del passaggio a una nuova funzionalità di Report Builder, è po
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converti cartelle di lavoro](https://video.tv.adobe.com/v/3446190?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converti cartelle di lavoro](https://video.tv.adobe.com/v/3434957?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -38,13 +38,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 Per aprire una cartella di lavoro legacy, è possibile:
 
-* Aprire una cartella di lavoro legacy direttamente dal computer locale o dalla rete. Quando la cartella di lavoro legacy viene aperta in Excel:
-
-   1. Seleziona ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dalla barra multifunzione di Excel.
-   1. Selezionare **[!UICONTROL Login]** e accedere a Report Builder.
-   1. Quindi [convertire la cartella di lavoro legacy](#convert-a-workbook).
-
-* Aprire una cartella di lavoro legacy pianificata dalla scheda **[!UICONTROL Schedule]** nell&#39;[hub Report Builder](report-builder-hub.md). A tale scopo, effettua le seguenti operazioni:
+* Aprire una cartella di lavoro legacy pianificata dalla scheda **[!UICONTROL Schedule]** nell&#39;[hub Report Builder](report-builder-hub.md). Questo è il metodo preferito per le cartelle di lavoro legacy pianificate. È possibile utilizzare la pianificazione associata alla cartella di lavoro legacy non appena si [pianifica la cartella di lavoro legacy convertita](#schedule-a-converted-legacy-workbook).
 
    1. Apri Excel e seleziona ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dalla barra multifunzione di Excel.
 
@@ -56,6 +50,13 @@ Per aprire una cartella di lavoro legacy, è possibile:
       ![Elementi precedenti](assets/upgrade-legacy-schedule.png)
 
    1. Selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) la cartella di lavoro pianificata da convertire dall&#39;elenco e selezionare ![Scarica](/help/assets/icons/Download.svg). La cartella di lavoro viene scaricata e si apre in una nuova finestra in Excel. È ora possibile [convertire la cartella di lavoro legacy di Report Builder](#convert-a--workbook).
+
+
+* Aprire una cartella di lavoro legacy direttamente dal computer locale o dalla rete. Quando si utilizza questo metodo, non viene offerto di utilizzare la pianificazione che potrebbe essere associata alla cartella di lavoro legacy. <br/>Quando la cartella di lavoro legacy è aperta in Excel:
+
+   1. Seleziona ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dalla barra multifunzione di Excel.
+   1. Selezionare **[!UICONTROL Login]** e accedere a Report Builder.
+   1. Quindi [convertire la cartella di lavoro legacy](#convert-a-workbook).
 
 
 ## Convertire una cartella di lavoro legacy
@@ -89,14 +90,14 @@ Per convertire la cartella di lavoro legacy:
 
      ![Cartella di lavoro del report di aggiornamento di Excel Report Builder](assets/upgrade-report.png)
 
-Ora puoi [gestire il blocco di dati](/help/analyze/report-builder/manage-reportbuilder.md).
+È ora possibile [gestire i blocchi di dati](/help/analyze/report-builder/manage-reportbuilder.md) nella cartella di lavoro. Questi blocchi di dati sono il risultato dell’aggiornamento e sostituiscono le richieste legacy di Report Builder.
 
 
 ## Pianificare una cartella di lavoro legacy convertita
 
 È possibile utilizzare i dettagli della pianificazione dalla cartella di lavoro legacy scaricata e aperta dalla scheda **[!UICONTROL Schedule]** nell&#39;hub Report Builder. Questa opzione non è disponibile per le cartelle di lavoro legacy con dettagli di pianificazione aperti dal computer locale o dalla rete.
 
-1. Pianificare una cartella di lavoro. Per pianificare una cartella di lavoro legacy convertita con una pianificazione precedente:
+1. Per pianificare una cartella di lavoro legacy convertita con una pianificazione precedente:
 
    * Selezionare **[!UICONTROL Send workbook]** dall&#39;hub Report Builder oppure
    * Selezionare **[!UICONTROL Schedule workbook]** dalla scheda **[!UICONTROL Workbooks]** disponibile nella scheda **[!UICONTROL Schedules]** di Report Builder.
