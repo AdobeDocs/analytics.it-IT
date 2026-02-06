@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Domande frequenti per Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1078'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 Risposte alle domande che potresti avere durante l’implementazione di Audience Analytics.
 
-## Domande frequenti legali {#legal}
+## Domande frequenti sulle normative {#legal}
 
 +++ Come posso sapere se i miei dati di Analytics contengono dati personali (PII, Personally Identifiable Information)? E se sì, cosa posso fare?
 
@@ -29,7 +29,7 @@ Queste non si applicano all’invio di dati di Adobe Analytics a Adobe Audience 
 
 * Condividerai un segmento condiviso con Analytics con una dimensione MCA di nuovo in Experience Cloud?
 
-* Stai esportando (ad esempio tramite feed di dati) in un sistema di Business Intelligence (BI) usato a tale fine?
+* Stai esportando (ad esempio tramite feed di dati) in un sistema Business Intelligence (BI) utilizzato per questi scopi?
 
 +++
 
@@ -51,9 +51,7 @@ Possono essere necessarie diverse ore per popolare le suite di rapporti con nuov
 
 Una destinazione Analytics scompare dalla sezione Mappature di destinazione di un segmento quando si seleziona l&#39;opzione **[!UICONTROL Automatically map all current and future segments]** in **[!UICONTROL Segment Mappings]**. Per evitare questo problema, selezionare **[!UICONTROL Manually map segments]** invece dell&#39;opzione automatica.
 
-+++
-
-Questo mi darà tutte le informazioni da Adobe Audience Manager, in Analytics?
++++ Questo mi darà tutte le informazioni da Adobe Audience Manager, in Analytics?
 
 No, solo i dati relativi alle persone che arrivano sul tuo sito durante o dopo l’abilitazione di Audience Manager Audiences e durante/dopo la qualificazione dei segmenti.
 
@@ -61,7 +59,7 @@ No, solo i dati relativi alle persone che arrivano sul tuo sito durante o dopo l
 
 +++ Questo mi darà un pubblico indirizzabile totale per segmento?
 
-Non esattamente. Ti dirà il numero di visitatori in quel segmento che sono arrivati al tuo sito durante o dopo la qualifica del segmento.
+Non proprio. Ti dirà quanti visitatori in quel segmento sono arrivati al tuo sito durante o dopo la qualificazione del segmento.
 
 +++
 
@@ -139,7 +137,7 @@ Per ulteriori domande frequenti su questo argomento, vedi [Domande frequenti sul
 
 +++
 
-## Domande frequenti generiche {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
+## Domande frequenti generali {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
 +++ Perché i conteggi dei visitatori dei segmenti sono diversi tra Audience Manager e Analytics?
 

@@ -4,7 +4,7 @@ description: Comprendere il concetto di "ripetizione" in Analytics tra dispositi
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 feature: CDA
 role: Admin
-source-git-commit: ad272145308d5785834d5daa93717ed140d94e18
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 21%
@@ -31,7 +31,7 @@ Non appena viene raccolto un hit, CDA tenta di unirlo ai dispositivi noti. Prend
 *Dati visualizzati nel giorno in cui vengono raccolti:*
 
 | Marca temporale | ECID | eVar1 o CustomerID | Spiegazione dell’hit | Metrica delle persone (cumulativa) con unione basata sui campi |
-| --- | --- | --- | --- | --- | 
+| --- | --- | --- | --- | --- |
 | `1` | `246` | - | Bob sul suo computer desktop, non autenticato | `1` (246) |
 | `2` | `246` | `Bob` | Bob accede al desktop | `2` (246 e Bob) |
 | `3` | `3579` | - | Bob sul suo dispositivo mobile, non autenticato | `3` (246, Bob e 3579) |

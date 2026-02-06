@@ -3,10 +3,10 @@ description: Domande frequenti su Advertising Analytics.
 title: Domande frequenti per l’analisi della pubblicità
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1294'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -95,6 +95,8 @@ Otterrai
 
 No, i dati di ricerca non elaborati verranno inseriti come set di dati indipendente. Tuttavia, esiste una versione Istanze dei dati di clic che può essere suddivisa per altri dati di Analytics.
 
++++
+
 +++ Qual è la definizione dei vari indicatori di stato per i miei account (In sospeso, Attivo, In pausa, ecc.)? Ciascuno di questi indicatori di stato identifica la fase del ciclo di vita di ciascun account del motore di ricerca. 
 
 * [!UICONTROL Pending]
@@ -105,7 +107,7 @@ No, i dati di ricerca non elaborati verranno inseriti come set di dati indipende
 
 +++ Sto tentando di mappare i miei account Advertising Analytics su una suite di rapporti specifica, ma non è disponibile nella finestra modale Suite di rapporti. Perché? 
 
-Prima di poter assegnare una suite di rapporti a un account Advertising Analytics, è necessario eseguire il provisioning della suite di rapporti desiderata per il reporting di Advertising Analytics [&#128279;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Prima di poter assegnare una suite di rapporti a un account Advertising Analytics, è necessario eseguire il provisioning della suite di rapporti desiderata per il reporting di Advertising Analytics [](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 Questa operazione viene eseguita tramite una pagina Amministratore separata accessibile da: Amministratore > Suite di rapporti > `[select report suite]` > Modifica impostazioni > Configurazione Advertising Analytics.
 
 +++
