@@ -3,7 +3,7 @@ title: Gestire i feed dati
 description: Scopri come navigare nell’interfaccia del feed dati. Scopri come creare, modificare e visualizzare un feed di dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 728e807764901ad2bd6834339e5e75348dd5a988
 workflow-type: tm+mt
 source-wordcount: '1243'
 ht-degree: 2%
@@ -17,7 +17,7 @@ Data Feed Manager consente di creare, modificare ed eliminare feed di dati per l
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://video.tv.adobe.com/v/3428563?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://video.tv.adobe.com/v/25452?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ Il pulsante **[!UICONTROL Create data feed]** consente di creare un nuovo feed. 
 
    Oppure
 
-   Per visualizzare i processi per feed di dati specifici, seleziona la casella di controllo accanto a uno o più feed di dati, quindi seleziona [!UICONTROL **Cronologia processi**].
+   Per visualizzare la cronologia dei processi per feed di dati specifici, selezionare la casella di controllo accanto a un feed di dati, quindi selezionare [!UICONTROL **Cronologia processi**].
 
    Per ulteriori informazioni, consulta [Gestire i processi dei feed dati](df-manage-jobs.md).
 
