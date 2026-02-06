@@ -3,9 +3,9 @@ title: Creare un feed dati
 description: Scopri come creare un feed di dati e le informazioni sui file da fornire ad Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
 workflow-type: tm+mt
-source-wordcount: '2032'
+source-wordcount: '2052'
 ht-degree: 4%
 
 ---
@@ -15,7 +15,10 @@ ht-degree: 4%
 Durante la creazione di un feed di dati, fornisci ad Adobe:
 
 * Informazioni sulla destinazione in cui si desidera inviare i file di dati non elaborati
+
 * Dati da includere in ciascun file
+
+* La frequenza con cui il feed di dati deve essere inviato (incluso l’intervallo di lookback se scegli di includere hit in arrivo tardivo)
 
 Prima di creare un feed di dati, è importante avere una conoscenza di base dei feed di dati e assicurarsi di soddisfare tutti i prerequisiti. Per ulteriori informazioni, consulta [Panoramica sui feed di dati](data-feed-overview.md).
 
@@ -81,7 +84,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | [!UICONTROL **Sostituisci stringhe sistema operativo**] | Durante la raccolta dei dati, alcuni caratteri (ad esempio le nuove righe) possono causare problemi. Selezionare questa opzione per rimuovere questi caratteri dai file di feed.<p>Questa opzione rileva le seguenti sequenze di stringhe incorporate nei dati del cliente e le sostituisce con uno spazio:</p> <ul><li>**Windows:** CRLF, CR o TAB</li><li>**Mac e Linux:** \n, \r o \t</li></ul> |
    | [!UICONTROL **Abilita ricerche dinamiche**] | Le ricerche dinamiche ti consentono di ricevere nel feed di dati ulteriori file di ricerca che altrimenti non sarebbero disponibili. Questa impostazione consente di inviare le seguenti tabelle di ricerca con ciascun file di feed dati:<ul><li> **Nome gestore**</li><li>**Attributi dispositivi mobili**</li><li>**Tipo di sistema operativo**</li></ul><p>Per ulteriori informazioni, vedere [Ricerche dinamiche](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
    | **Consenti arrivi in ritardo** | I dati storici possono arrivare dopo che un processo di feed dati termina l’elaborazione per una determinata ora o giorno, ad esempio tramite hit con marca temporale o origini dati.<p>Seleziona questa opzione per includere i dati ricevuti dopo il completamento dell’elaborazione dei dati da parte del processo di feed dati all’interno della frequenza di reporting impostata (in genere giornaliera o oraria). Con questa opzione abilitata, ogni volta che un feed di dati elabora i dati, esamina eventuali hit in ritardo arrivati e li inserisce in batch con il successivo file di feed di dati inviato.</p><p>Per ulteriori informazioni, vedi [Hit in arrivo](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
-   | **Intervallo di lookback** (per hit in arrivo) | Questa opzione viene visualizzata quando l&#39;opzione **[!UICONTROL Allow late-arring hits]** è abilitata. Seleziona l’intervallo di lookback per limitare l’intervallo di tempo degli hit in ritardo inclusi. Seleziona **[!UICONTROL Unlimited]** se vuoi consentire tutti gli hit in arrivo in ritardo, indipendentemente da quanto in ritardo. È possibile scegliere un intervallo predefinito, ad esempio **[!UICONTROL 1 hour]**, **[!UICONTROL 2 hours]**, **[!UICONTROL 1 week]**, **[!UICONTROL 2 weeks]** e così via. In alternativa, selezionare **[!UICONTROL Custom lookback window]**, quindi nel campo **[!UICONTROL Custom Lookback]** specificare un intervallo di lookback fino a 26.280 ore. |
+   | **Intervallo di lookback** (per hit in arrivo) | Questa opzione viene visualizzata quando l&#39;opzione **[!UICONTROL Allow late-arriving hits]** è abilitata. Seleziona l’intervallo di lookback per limitare l’intervallo di tempo degli hit in ritardo inclusi. Seleziona **[!UICONTROL Unlimited]** se vuoi consentire tutti gli hit in arrivo in ritardo, indipendentemente da quanto in ritardo. È possibile scegliere un intervallo predefinito, ad esempio **[!UICONTROL 1 hour]**, **[!UICONTROL 2 hours]**, **[!UICONTROL 1 week]**, **[!UICONTROL 2 weeks]** e così via. In alternativa, selezionare **[!UICONTROL Custom lookback window]**, quindi nel campo **[!UICONTROL Custom Lookback]** specificare un intervallo di lookback fino a 26.280 ore. |
 
 1. Nella sezione [!UICONTROL **Data structure**], nel campo **[!UICONTROL Report suite]**, seleziona la suite di rapporti di origine che contiene i dati da esportare. <p>Quando selezioni una suite di rapporti, tieni presente quanto segue:</p> <ul><li>Se vengono creati più feed di dati per la stessa suite di rapporti, ogni feed di dati deve avere definizioni di colonne diverse.</li><li>Solo le suite di rapporti di origine supportano i feed di dati; le suite di rapporti virtuali non sono supportate.</li><li>L’elenco delle colonne disponibili dipende dalla società di accesso a cui appartiene la suite di rapporti selezionata. Se modifichi la suite di rapporti, l’elenco delle colonne disponibili può cambiare. </li></ul>
 
@@ -135,7 +138,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | Campo | Funzione |
    |---------|----------|
    | [!UICONTROL **Account**] | Esegui una delle operazioni seguenti:<ul><li>**Utilizza un account esistente:** Seleziona il menu a discesa accanto al campo **[!UICONTROL Account]**. In alternativa, inizia a digitare il nome dell’account, quindi selezionalo dal menu a discesa. <p>Gli account sono disponibili solo se sono stati configurati o se sono condivisi con un&#39;organizzazione di cui fai parte.</p></li><li>**Crea un nuovo account:** Seleziona **[!UICONTROL Add new]** sotto il campo **[!UICONTROL Account]**. Per informazioni su come configurare l&#39;account, vedere [Configurare un account di percorso](/help/components/locations/configure-import-accounts.md#configure-a-location-account) in [Configurare account di importazione ed esportazione cloud](/help/components/locations/configure-import-accounts.md).</li></ul> |
-   | [!UICONTROL **Posizione**] | Esegui una delle operazioni seguenti:<ul><li>**Usa una posizione esistente:** Selezionare il menu a discesa accanto al campo **[!UICONTROL Location]**. In alternativa, inizia a digitare il nome della posizione, quindi selezionalo dal menu a discesa.</li><li>**Crea un nuovo percorso:** Seleziona **[!UICONTROL Add new]** sotto il campo **[!UICONTROL Location]**. Per informazioni su come configurare il percorso, vedere [Configurare un percorso](/help/components/locations/configure-import-locations.md#configure-a-location) in [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md). |
+   | [!UICONTROL **Posizione**] | Esegui una delle operazioni seguenti:<ul><li>**Usa una posizione esistente:** Selezionare il menu a discesa accanto al campo **[!UICONTROL Location]**. In alternativa, inizia a digitare il nome della posizione, quindi selezionalo dal menu a discesa.</li><li>**Crea un nuovo percorso:** Seleziona **[!UICONTROL Add new]** sotto il campo **[!UICONTROL Location]**. Per informazioni su come configurare il percorso, vedere [Configurare un percorso](/help/components/locations/configure-import-locations.md#configure-a-location) in [Configurare i percorsi di importazione ed esportazione cloud](/help/components/locations/configure-import-locations.md).</li></ul> |
    | [!UICONTROL **Notifica quando completato**] | Specifica uno o più indirizzi e-mail a cui inviare una notifica dopo che il feed di dati è stato inviato correttamente o non è stato inviato. È necessario separare più indirizzi e-mail con una virgola. |
 
 1. Seleziona **[!UICONTROL Save]**.
@@ -146,13 +149,13 @@ I modelli consentono di riutilizzare le stesse colonne per i feed di dati futuri
 
 Durante la gestione dei modelli è possibile creare nuovi modelli, utilizzare modelli già creati, copiarli, modificarli ed eliminarli.
 
-[!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**] > **[!UICONTROL Manage templates]**
+**[!UICONTROL Admin]** > **[!UICONTROL Data feeds]** > **[!UICONTROL Manage templates]**
 
 ![Gestisci modelli di colonna](assets/data-feed-template-manage.png)
 
 ### Creare un modello di colonna
 
-Quando crei più feed di dati che utilizzano le stesse colonne, Adobe consiglia di creare modelli di colonna. Qualsiasi modello di colonna creato può essere utilizzato da chiunque nell’organizzazione.
+Quando crei più feed di dati che utilizzano le stesse colonne, Adobe consiglia di creare modelli di colonna. Tutti i modelli di colonna creati possono essere utilizzati da qualsiasi utente dell’organizzazione.
 
 Per creare un modello di colonna:
 
