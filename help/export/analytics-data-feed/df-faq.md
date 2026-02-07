@@ -4,10 +4,10 @@ keywords: Feed di dati;processo;colonna pre;colonna post;sensibilità maiuscole/
 title: Domande frequenti sui feed dati
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 470ab0dfa76681d73f847ba9c2aecaf64804540c
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 84%
+source-wordcount: '1488'
+ht-degree: 73%
 
 ---
 
@@ -69,19 +69,19 @@ Nella maggior parte dei casi, la concatenazione di `hitid_high` e `hitid_low` id
 
 Alcuni gestori di dispositivi mobili (come T-Mobile e O1) non forniscono più informazioni di dominio per le ricerche DNS inverse. Pertanto, tali dati non sono disponibili nei rapporti con dati sul dominio.
 
-## Perché non posso estrarre file “Orari” da dati che hanno più di 7 giorni? {#hourly}
+## Perché non posso estrarre in modo affidabile i file orari per le date precedenti? {#hourly}
 
-Per i dati che hanno più di 7 giorni, i file “Orari” di un giorno vengono combinati in un unico file “Giornaliero”.
+Per ottimizzare lo storage e l&#39;elaborazione, Adobe consolida regolarmente le esportazioni orarie in file giornalieri. A causa di come e quando vengono eseguiti questi consolidamenti, l’output orario per le date più vecchie di 10 giorni non è prevedibile. Per una determinata data, è possibile visualizzare una combinazione di file orari per alcune ore e un file giornaliero consolidato per altri. I dati consolidati in un file giornaliero vengono in genere assegnati all&#39;ora `00`, che può lasciare vuote altre ore quando tali ore vengono richieste direttamente.
 
-Esempio: il 9 marzo 2021 è stato creato un nuovo feed di dati e i dati dal 1° gennaio 2021 al 9 marzo vengono consegnati come “Orari”. Tuttavia, i file “Orari” prima del 2 marzo 2021 sono combinati in un unico file “Giornaliero”. Puoi estrarre i file “Orari” solo dai dati che hanno meno di 7 giorni dalla data di creazione. In questo caso, dal 2 marzo al 9 marzo.
+Per i backfill con più di 10 giorni, Adobe consiglia vivamente di utilizzare la granularità giornaliera per garantire risultati completi e prevedibili. Se devi richiedere la granularità oraria per i giorni precedenti, includi sempre l&#39;ora `00` nella richiesta per evitare di perdere dati orari consolidati.
 
 ## Qual è l’impatto dell’ora legale sui feed di dati orari? {#dst}
 
 In alcuni fusi orari, l’ora cambia due volte all&#39;anno a causa dell’introduzione dell’ora legale. I feed di dati rispettano il fuso orario per il quale è configurata la suite di rapporti. Se il fuso orario della suite di rapporti non utilizza l’ora legale, la consegna dei file continua normalmente come qualsiasi altro giorno. Se il fuso orario della suite di rapporti è quello che utilizza l’ora legale, la consegna dei file viene modificata per l’ora in cui si verifica il cambiamento (in genere alle 2:00).
 
-Quando si passa dall’ora solare all’ora legale (un’ora in avanti), il cliente riceve solo 23 file. L’ora saltata nel passaggio all’ora legale viene omessa. Ad esempio, se la transizione si verifica alle 2 del mattino, si ottiene un file per l’ora 1:00 e un file per l’ora 3:00. Nessun file 2:00 perché in 2:00 DST diventa 3:00 DST.
+Quando si passa dall’ora solare all’ora legale (primavera in avanti), si ricevono 23 file. L’ora saltata nel passaggio all’ora legale viene omessa. Ad esempio, se la transizione si verifica alle 2 del mattino, si ottiene un file per l&#39;ora 1:00 e un file per l&#39;ora 3:00. Nessun file 2:00 perché in 2:00 DST diventa 3:00 DST.
 
-Quando si passa dall’ora legale all’ora solare (un’ora indietro), il cliente ottiene 24 file. Tuttavia, l’ora in cui avviene il passaggio all’ora solare include in realtà due ore di dati. Ad esempio, se la transizione si verifica alle 2:00 del mattino, il file per 1:00 viene ritardato di un&#39;ora, ma contiene dati per due ore. Contiene dati da 1:00 DST a 2:00 STD (che sarebbe stato 3:00 DST). Il file successivo inizia da 2:00 STD.
+Quando si effettuano transizioni DST -> STD (fallback), si ricevono 24 file. Tuttavia, l’ora in cui avviene il passaggio all’ora solare include in realtà due ore di dati. Ad esempio, se la transizione si verifica alle 2:00 del mattino, il file per 1:00 viene ritardato di un&#39;ora, ma contiene dati per due ore. Contiene dati da 1:00 DST a 2:00 STD (che sarebbe stato 3:00 DST). Il file successivo inizia da 2:00 STD.
 
 ## In che modo Analytics gestisce gli errori di trasferimento FTP? {#ftp-failure}
 
