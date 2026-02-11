@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Note sulla versione di Analytics
 breadcrumb-title: Note sulla versione
 user-guide-description: Scopri le nuove funzionalità e le correzioni di Adobe Analytics.
-source-git-commit: 5bf3f561c471410e4ce1ca576ba34ea3849b0325
+source-git-commit: 4f7af07b9524dedbc61980bce96fcbe79b968fd7
 workflow-type: tm+mt
-source-wordcount: '52'
+source-wordcount: '55'
 ht-degree: 92%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 92%
 
 + [Note sulla versione corrente di Analytics](latest.md)
 + Note sulle versioni precedenti di Analytics {#previous}
+   + [Note sulla versione 2026](2026.md)
    + [Note sulla versione 2025](2025.md)
    + [Note sulla versione 2024](2024.md)
    + [Note sulla versione 2023](2023.md)
