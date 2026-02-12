@@ -3,10 +3,10 @@ description: Requisiti di sistema e confronto tra Analysis Workspace, Report Bui
 title: Confronto dei prodotti Analytics e requisiti
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: c4cd152d021615e32a690f0591575639c3939dbc
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '502'
+ht-degree: 68%
 
 ---
 
@@ -38,3 +38,4 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [Quale str
 | **Consegna pianificata** | Sì | Sì | Sì | Sì | No |
 | **Destinazioni di consegna** | E-mail | E-mail, FTP, SFTP, [pubblicazione in Microsoft PowerBI](/help/analyze/legacy-report-builder/c-publish-power-bi/power-bi.md) | Amazon S3, Google Cloud Platform, Azure SAS, Azure RBAC e E-mail | Amazon S3, Azure RBAC, Azure SAS e Google Cloud Platform | - |
 | **Elaborazione dei tempi di reporting della suite di rapporti virtuale** <br> [Ulteriori informazioni](/help/components/vrs/vrs-report-time-processing.md) | Sì | No | No | No | Sì |
+| **Rapporti geografici e tecnologici** | Sì <p>Utilizza valori medi anziché campi di post. La logica di prima visita si basa su `post_cust_hit_time_gmt` invece di `visit_page_num=1`. I risultati possono differire da altri strumenti se l’IP cambia a metà visita, gli hit arrivano fuori ordine o le visite attraversano i limiti mensili.</p> | Sì <p>Utilizza valori medi anziché campi di post. La logica di prima visita si basa su `post_cust_hit_time_gmt` invece di `visit_page_num=1`. I risultati possono differire da altri strumenti se l’IP cambia a metà visita, gli hit arrivano fuori ordine o le visite attraversano i limiti mensili.</p> | Sì <p>Utilizza i valori post e `visit_page_num=1` per determinare il primo hit della visita. Applica il valore del primo hit a tutti gli hit nella visita per queste dimensioni.</p> | Sì <p>Utilizza i valori post e `visit_page_num=1` per determinare il primo hit della visita. Applica il valore del primo hit a tutti gli hit nella visita per queste dimensioni.</p> | Sì <p>Utilizza valori medi anziché campi di post. La logica di prima visita si basa su `post_cust_hit_time_gmt` invece di `visit_page_num=1`. I risultati possono differire da altri strumenti se l’IP cambia a metà visita, gli hit arrivano fuori ordine o le visite attraversano i limiti mensili.</p> |
