@@ -4,9 +4,9 @@ description: Scopri le funzioni di base delle metriche calcolate.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: 2579f33a57b2dfaf6d63470f42286bf782675c68
+source-git-commit: b8fae74ade75473f3d3d8d43598dfb16170b209f
 workflow-type: tm+mt
-source-wordcount: '3542'
+source-wordcount: '3533'
 ht-degree: 46%
 
 ---
@@ -93,7 +93,7 @@ Restituisce il valore più grande in un insieme di elementi dimensionali della c
 
 >[!TIP]
 >
->Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con prestazioni migliori nel raggruppamento.
+>Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Maximum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con prestazioni migliori nel raggruppamento.
 >
 
 ## Minimo colonna {#column-minimum}
@@ -123,7 +123,7 @@ Restituisce il valore più piccolo in un insieme di elementi dimensionali della 
 
 >[!TIP]
 >
->Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con le prestazioni peggiori nel raggruppamento.
+>Utilizza un&#39;istruzione [IF](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-adv-functions#if), ad esempio **IF**(*Revenue* = **Column Minimum***(Revenue*), 1, 0) per evidenziare l&#39;elemento con le prestazioni peggiori nel raggruppamento.
 >
 
 
@@ -205,9 +205,9 @@ Somma tutti i valori numerici di una metrica all’interno di una colonna (negli
 |---|---|
 | metrica | L’esponente applicato alla base e. |
 
-**Caso d&#39;uso**: aumentare un numero o una metrica a una determinata potenza, ad esempio quadrare un valore o applicare un fattore di crescita esponenziale. Ciò è utile quando si modellano le tendenze di crescita o si ridimensiona una metrica in modo esponenziale.
+**Caso d&#39;uso**: aumenta di *e* alla potenza di un numero o di una metrica specificata. Ciò è utile quando si modellano le tendenze di crescita o si ridimensiona una metrica in modo esponenziale.
 
-**Nel Generatore di metriche calcolate**: utilizzare **Esponente** con una metrica e un valore di alimentazione. Ad esempio: **Esponente**(*Visite*, 2) quadra la metrica *Visite*.
+**Nel generatore di metriche calcolate**: utilizzare **Esponente** con una metrica. Ad esempio: **Esponente**(*Visite*) aumenta di *e* la potenza della metrica *Visite*.
 
 >[!TIP]
 >
