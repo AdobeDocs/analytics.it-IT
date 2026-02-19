@@ -3,10 +3,10 @@ title: A dispersione
 description: Scopri come creare e interpretare le visualizzazioni a dispersione in Analysis Workspace per analizzare le relazioni tra gli elementi dimensionali e fino a tre metriche.
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 48c7fb29424948ee8142a2ce32d95cd9b52d7b85
+source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 54%
+source-wordcount: '230'
+ht-degree: 55%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 54%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione a dispersione in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Dispersione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione a dispersione in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Dispersione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -37,19 +37,19 @@ La visualizzazione ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICO
 * La terza colonna determina il raggio del punto.
 * Tutte le colonne successive di una tabella a forma libera vengono ignorate dalla visualizzazione grafico a dispersione.
 
-![Esempio di grafico a dispersione che mostra più elementi dimensionali &#x200B;](assets/scatter.png)
+![Esempio di grafico a dispersione che mostra più elementi dimensionali ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico a dispersione](https://video.tv.adobe.com/v/3416861/?captions=ita&quality=12){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico a dispersione](https://video.tv.adobe.com/v/334459/?quality=12){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 
 >[!NOTE]
 >
->Quando [configuri la legenda affinché sia visibile]&#x200B;(/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings nella dispersione, la legenda viene visualizzata solo se l&#39;origine dati contiene un numero limitato di elementi dimensione (selezionati).
+>Quando [configuri la legenda affinché sia visibile](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings) nella dispersione, questa viene visualizzata solo se l&#39;origine dati contiene un numero limitato di elementi dimensionali (selezionati).
 
 
 >[!MORELIKETHIS]
