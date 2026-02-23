@@ -41,7 +41,7 @@ Le metriche possono essere utilizzate in vari modi all’interno di Analysis Wor
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usa metriche](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usa metriche](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Per creare una metrica calcolata per un singolo progetto:
 
    * [!UICONTROL **Modifica percentuale**]: crea una nuova colonna che mostra la modifica percentuale tra le due colonne selezionate.
 
-[Metriche calcolate: metriche senza implementazione](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[Metriche calcolate: metriche senza implementazione](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## Confrontare metriche con diversi modelli di attribuzione
@@ -119,7 +119,7 @@ Video sull’argomento:
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Media cumulativa](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Media cumulativa](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

@@ -36,7 +36,7 @@ Le risorse seguenti sono utili per comprendere il flusso di lavoro di base per o
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell&#39;interfaccia feed dati](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} per vedere un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell&#39;interfaccia feed dati](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} per vedere un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trova il tuo ID feed dati](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} per vedere un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trova il tuo ID feed dati](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} per vedere un video dimostrativo.
 
 >[!ENDSHADEBOX]

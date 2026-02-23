@@ -68,7 +68,7 @@ Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheck
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di dimensioni e metriche](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} per un video dimostrativo.
 
 
 >[!ENDSHADEBOX]
@@ -76,7 +76,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiunta di
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo delle dimensioni in una tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"}.
 
 
 >[!ENDSHADEBOX]
@@ -128,7 +128,7 @@ This is the expected behavior when applying attribution models to breakdowns or 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimensions and metrics to your project in Analysis Workspace](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
@@ -136,7 +136,7 @@ See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Adding dimension
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Working with dimensions in a Freeform Table](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

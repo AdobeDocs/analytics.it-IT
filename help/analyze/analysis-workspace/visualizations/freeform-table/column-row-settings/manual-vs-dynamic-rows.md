@@ -58,7 +58,7 @@ Le righe dinamiche e statiche si comportano in modo diverso nella riga del total
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Riordinare le righe statiche](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/reordering-static-rows-in-analysis-workspace){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Riordinare le righe statiche](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/reordering-static-rows-in-analysis-workspace){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

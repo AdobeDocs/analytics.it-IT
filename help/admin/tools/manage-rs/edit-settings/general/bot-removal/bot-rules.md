@@ -34,7 +34,7 @@ I dati sul traffico generato dai bot vengono memorizzati in un archivio separato
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurare le regole bot](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurare le regole bot](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

@@ -26,7 +26,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione a forma libera in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta la [tabella a forma libera](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione a forma libera in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta la [tabella a forma libera](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -115,19 +115,19 @@ Le seguenti opzioni del [menu di scelta rapida](../freeform-analysis-visualizati
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica del generatore di tabelle a forma libera](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica del generatore di tabelle a forma libera](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-freeform-table-builder-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtri per tabelle a forma libera](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-filters){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Filtri per tabelle a forma libera](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-filters){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totali tabelle a forma libera](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-totals-in-analysis-workspace){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Totali tabelle a forma libera](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/freeform-table-totals-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

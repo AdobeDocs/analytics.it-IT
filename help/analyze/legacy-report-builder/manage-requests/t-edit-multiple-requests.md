@@ -49,4 +49,4 @@ Puoi modificare diverse richieste contemporaneamente, in base alla suite di rapp
 
 Ecco un video che mostra il processo:
 
-https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
+https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

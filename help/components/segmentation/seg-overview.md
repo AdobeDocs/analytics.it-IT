@@ -240,7 +240,7 @@ Questo video offre una breve panoramica sui contenitori di segmenti e su come ut
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

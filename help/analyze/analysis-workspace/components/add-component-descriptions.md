@@ -31,7 +31,7 @@ Puoi aggiungere descrizioni ai componenti di una suite di rapporti.
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere descrizioni di componenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere descrizioni di componenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

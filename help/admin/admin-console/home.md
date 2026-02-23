@@ -27,4 +27,4 @@ Questo capitolo spiega i concetti necessari per comprendere i profili di prodott
 
 Guarda il video dimostrativo seguente per scoprire come aggiungere un amministratore in Adobe Analytics:
 
-[Aggiungi un amministratore in Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}
+[Aggiungi un amministratore in Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}

@@ -47,7 +47,7 @@ Ogni contenitore consente di generare rapporti sulla cronologia di un visitatore
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

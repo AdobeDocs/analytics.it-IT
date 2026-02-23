@@ -17,7 +17,7 @@ Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

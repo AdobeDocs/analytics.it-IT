@@ -17,7 +17,7 @@ Le suite di rapporti virtuali possono essere curate per includere ed escludere i
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura dei componenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura dei componenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

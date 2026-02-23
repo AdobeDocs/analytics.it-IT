@@ -34,14 +34,14 @@ Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di seg
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ricerca e creazione di segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/finding-and-creating-segments){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Ricerca e creazione di segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/segmentation/finding-and-creating-segments){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalli di date continui nel segmento](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalli di date continui nel segmento](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ In Analysis Workspace puoi creare diversi tipi di segmenti:
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Altri metodi per applicare segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Altri metodi per applicare segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

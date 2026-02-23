@@ -18,7 +18,7 @@ In Analysis Workspace puoi visualizzare e analizzare le anomalie nei dati in mod
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rilevamento anomalie](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rilevamento anomalie](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -61,7 +61,7 @@ per le metriche selezionate tra segmenti di pubblico convergenti.
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi contributi](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi contributi](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -119,17 +119,17 @@ Di seguito è riportato un elenco dettagliato delle adesioni disponibili per Ril
    <td colname="col3" colsep="1"> <p>Nessun token </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/it/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>Solo granularità giornaliera </p> </td> 
    <td colname="col3"> <p>Nessun token </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  > Prime </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/it/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  > Prime </a> </p> </td> 
    <td colname="col2"> <p>Sì </p> </td> 
    <td colname="col3"> <p>10 token al mese </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/it/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>Sì </p> </td> 
    <td colname="col3"> <p>20 token al mese </p> </td> 
   </tr> 
@@ -154,7 +154,7 @@ Di seguito è riportato un elenco dettagliato delle adesioni disponibili per Ril
    <td colname="col3"> <p>2 token al mese </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Complete, <a href="https://business.adobe.com/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete, <a href="https://business.adobe.com/it/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>Sì </p> </td> 
    <td colname="col3"> <p>Token illimitati </p> </td> 
   </tr> 

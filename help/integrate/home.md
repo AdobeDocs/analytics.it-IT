@@ -21,7 +21,7 @@ Questa guida si concentra sull’integrazione di più soluzioni Adobe Experience
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 ## Risorse chiave per Analytics
 
-* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/?support-solution=Analytics?lang=it#support)
-* [Adobe Analytics Community su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
+* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/it?support-solution=Analytics?lang=it#support)
+* [Adobe Analytics Community su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it)
+* [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=it)
 * [Experience League](https://landing.adobe.com/experience-league/)
