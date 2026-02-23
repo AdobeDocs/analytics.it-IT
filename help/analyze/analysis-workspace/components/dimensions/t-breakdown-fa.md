@@ -52,7 +52,7 @@ Questo è il comportamento previsto quando si applicano modelli di attribuzione 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in Analysis Workspace](https://video.tv.adobe.com/v/23971?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dimension in Analysis Workspace](https://video.tv.adobe.com/v/329873?captions=ita&quality=12&learn=on){target="_blank"}.
 
 
 >[!ENDSHADEBOX]

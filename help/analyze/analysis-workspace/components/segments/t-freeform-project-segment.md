@@ -27,7 +27,7 @@ Puoi creare e utilizzare i segmenti in Analysis Workspace e Customer Journey Ana
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di segmenti in Analysis Workspace](https://video.tv.adobe.com/v/23977?quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di segmenti in Analysis Workspace](https://video.tv.adobe.com/v/329400?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
