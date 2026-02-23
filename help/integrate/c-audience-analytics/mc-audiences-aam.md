@@ -1,26 +1,26 @@
 ---
-description: Adobe Audience Manager (Adobe Audience Manager) è una potente piattaforma di gestione dei dati che consente di creare profili di pubblico univoci da integrazioni di dati di prime parti, seconde parti/partner e terze parti. Per gli inserzionisti, questi profili di pubblico consentono di definire i segmenti più importanti da usare tra i canali digitali.
+description: Adobe Audience Manager (Adobe Audience Manager) è una potente piattaforma di gestione dei dati che consente di creare profili di pubblico univoci da integrazioni di dati di prime parti, seconde parti/partner e terze parti. Per gli inserzionisti, questi profili di pubblico aiutano a definire i segmenti più importanti da utilizzare su qualsiasi canale digitale.
 solution: Experience Cloud
 title: Panoramica di Audience Analytics
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 18%
+source-wordcount: '479'
+ht-degree: 2%
 
 ---
 
 # Panoramica di Audience Analytics
 
-Adobe Audience Manager (Adobe Audience Manager) è una potente piattaforma di gestione dei dati che consente di creare profili di pubblico univoci da integrazioni di dati di prime parti, seconde parti/partner e terze parti. Per gli inserzionisti, questi profili di pubblico consentono di definire i segmenti più importanti da usare tra i canali digitali.
+Adobe Audience Manager (Adobe Audience Manager) è una potente piattaforma di gestione dei dati che consente di creare profili di pubblico univoci da integrazioni di dati di prime parti, seconde parti/partner e terze parti. Per gli inserzionisti, questi profili di pubblico aiutano a definire i segmenti più importanti da utilizzare su qualsiasi canale digitale.
 
 Con l’integrazione di Audience Analytics, puoi incorporare in qualsiasi flusso di lavoro di Adobe Audience Manager dati sul pubblico, come informazioni demografiche (ad esempio, genere o fascia di reddito), informazioni psicografiche (ad esempio, interessi e hobby), dati CRM e dati di impressioni di annunci.
 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://video.tv.adobe.com/v/327895?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Audience Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/audience-manager/audience-analytics-integrate-aam-segments-into-analytics){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -43,15 +43,15 @@ L’integrazione di Audience Analytics offre i seguenti vantaggi chiave:
 1. Con [inoltro lato server](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md), ogni hit ricevuto da Analytics viene inviato automaticamente a Adobe Audience Manager in tempo reale.
 1. Attraverso l’integrazione di Audience Analytics, per ogni hit, l’iscrizione del pubblico di un visitatore viene cercata in Adobe Audience Manager e un elenco di ID segmento viene restituito ad Analytics per l’elaborazione in tempo reale.
 
-Poiché i segmenti di Adobe Audience Manager vengono inseriti con lo stesso hit, puoi essere sicuro che tutti i dati disponibili in Adobe Audience Manager relativi a un visitatore non verranno persi e saranno aggiornati per tale hit. Ciò è superiore a un plug-in AppMeasurement perché un plug-in può rendere tali segmenti disponibili solo sull&#39;hit successiva (e non sulla hit corrente).
+Poiché i segmenti di Adobe Audience Manager vengono inseriti con lo stesso hit, puoi essere sicuro che tutti i dati disponibili in Adobe Audience Manager relativi a un visitatore non verranno persi e saranno aggiornati per tale hit. Si tratta di un valore superiore a quello di un plug-in di AppMeasurement, poiché un plug-in può rendere questi segmenti disponibili solo all’hit successivo (anziché all’hit corrente).
 
 Inoltre, classifichiamo automaticamente gli ID del segmento Adobe Audience Manager in base al loro nome descrittivo, in modo da non dover esaminare gli ID alfanumerici nei rapporti di Analytics.
 
 ## Prerequisiti {#prerequisites}
 
-Assicurati che vi siano i seguenti prerequisiti:
+Verifica che siano presenti i seguenti prerequisiti:
 
-* Sei cliente di Audience Manager e Adobe Analytics.
+* Sei un cliente sia di Audience Manager che di Adobe Analytics.
 * Sei un amministratore di Audience Manager.
 * Stai utilizzando il servizio Identity v1.5 o versione successiva.
 * Le suite di rapporti di Adobe Audience Manager e Adobe Analytics sono mappate sulla stessa organizzazione Experience Cloud.

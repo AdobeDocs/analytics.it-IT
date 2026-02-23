@@ -5,9 +5,9 @@ title: Condividere progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1891'
 ht-degree: 96%
 
 ---
@@ -41,7 +41,7 @@ Qualsiasi [cura](curate.md) applichi prima della condivisione, viene visualizzat
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi progetti](https://video.tv.adobe.com/v/40037?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi progetti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -157,7 +157,7 @@ Puoi consentire l’[accesso di sola lettura](/help/analyze/analysis-workspace/c
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi un collegamento con qualcuno](https://video.tv.adobe.com/v/3452466?quality=12&learn=on&captions=ita){target="_blank"} per vedere un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi un collegamento con qualcuno](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"} per vedere un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -212,7 +212,7 @@ Puoi condividere i componenti incorporati che fanno parte del progetto.
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi componenti incorporati](https://video.tv.adobe.com/v/329425?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi componenti incorporati](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

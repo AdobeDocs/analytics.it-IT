@@ -4,9 +4,9 @@ description: Scopri come utilizzare e interpretare il pannello Visualizzatori si
 feature: Panels
 role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1196'
 ht-degree: 92%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Visualizzatori simultanei di contenuti multimediali in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**._<br/>_Consulta [Pannello Visualizzatori simultanei di contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta il pannello Visualizzatori simultanei di contenuti multimediali in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_Consulta [Pannello Visualizzatori simultanei di contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ In Analysis Workspace, la metrica Visualizzatori simultanei rappresenta il numer
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://video.tv.adobe.com/v/342837?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -145,7 +145,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/342837/?captions=ita&quality=12)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace)
 
 ## Panel Inputs {#Input}
 

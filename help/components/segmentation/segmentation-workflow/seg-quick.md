@@ -4,9 +4,9 @@ title: Segmenti rapidi
 feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1097'
 ht-degree: 21%
 
 ---
@@ -20,7 +20,7 @@ I segmenti rapidi consentono di esplorare rapidamente i dati all&#39;interno di 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://video.tv.adobe.com/v/345338/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

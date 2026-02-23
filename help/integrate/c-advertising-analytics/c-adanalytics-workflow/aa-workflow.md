@@ -3,7 +3,7 @@ description: Panoramica del flusso di lavoro di Advertising Analytics.
 title: Panoramica sul flusso di lavoro
 feature: Advertising Analytics
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 Il flusso di lavoro per la configurazione di Advertising Analytics consiste nei seguenti passaggi:
 
 <!--
->[!VIDEO](https://video.tv.adobe.com/v/41442/?quality=12&captions=ita)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
 1. [Abilita la generazione di rapporti di Advertising Analytics per suite di rapporti](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Abilita il reporting di [!UICONTROL Advertising Analytics] per le suite di rapporti abilitate per Experience Cloud.

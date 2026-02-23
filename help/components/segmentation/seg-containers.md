@@ -4,9 +4,9 @@ keywords: segmentazione;segmenti
 title: Contenitori di segmenti
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '3548'
+source-wordcount: '3549'
 ht-degree: 96%
 
 ---
@@ -47,7 +47,7 @@ Ogni contenitore consente di generare rapporti sulla cronologia di un visitatore
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://video.tv.adobe.com/v/3429107?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

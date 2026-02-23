@@ -4,9 +4,9 @@ title: Metriche
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '840'
 ht-degree: 6%
 
 ---
@@ -41,7 +41,7 @@ Le metriche possono essere utilizzate in vari modi all’interno di Analysis Wor
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usa metriche](https://video.tv.adobe.com/v/328589?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Usa metriche](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-metrics-in-a-freeform-table){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Per creare una metrica calcolata per un singolo progetto:
 
    * [!UICONTROL **Modifica percentuale**]: crea una nuova colonna che mostra la modifica percentuale tra le due colonne selezionate.
 
-[Metriche calcolate: metriche senza implementazione](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
+[Metriche calcolate: metriche senza implementazione](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics) (3:42)
 
 
 ## Confrontare metriche con diversi modelli di attribuzione
@@ -119,7 +119,7 @@ Video sull’argomento:
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Media cumulativa](https://video.tv.adobe.com/v/328252?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Media cumulativa](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/using-the-cumulative-average-function-to-apply-metric-smoothing){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

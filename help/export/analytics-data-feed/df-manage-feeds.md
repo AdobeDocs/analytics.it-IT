@@ -3,9 +3,9 @@ title: Gestire i feed dati
 description: Scopri come navigare nell’interfaccia del feed dati. Scopri come creare, modificare e visualizzare un feed di dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1263'
+source-wordcount: '1264'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Data Feed Manager consente di creare, modificare ed eliminare feed di dati per l
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://video.tv.adobe.com/v/3428563?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

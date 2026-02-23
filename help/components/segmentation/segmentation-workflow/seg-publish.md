@@ -3,9 +3,9 @@ description: Scopri come pubblicare segmenti per le attività di marketing in Li
 title: Pubblicare segmenti
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1243'
 ht-degree: 49%
 
 ---
@@ -30,7 +30,7 @@ Puoi pubblicare i segmenti di Analytics in Experience Cloud in meno di 8 ore. Ut
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica segmenti](https://video.tv.adobe.com/v/36961?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -127,14 +127,14 @@ Le schermate seguenti mostrano come recuperare l’UUID di Adobe Audience Manage
 
 1. Avvia gli strumenti per sviluppatori di Chrome prima di caricare una pagina
 1. Carica la pagina e seleziona Applicazioni > Cookie. L’UUID di Adobe Audience Manager deve essere impostato nel componente di terze parti
-Cookie demdex ([adobe.demdex.net](https://experienceleague.adobe.com/it/docs/audience-manager/user-guide/reference/demdex-calls) nell&#39;esempio seguente). Il campo demdex è l’UUID di Adobe Audience Manager impostato
+Cookie demdex ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) nell&#39;esempio seguente). Il campo demdex è l’UUID di Adobe Audience Manager impostato
 nel browser (`35721780439475290181087231320657663953` nell&#39;esempio seguente).
 
    ![Strumenti per gli sviluppatori di Chrome](assets/devtools.png)
 
 ## Utilizza il [!UICONTROL Visitor Profile Viewer] di Audience Manager
 
-L&#39;UUID di Adobe Audience Manager nel browser è per impostazione predefinita quando viene caricato [!UICONTROL Visitor Profile Viewer]. Se verifichi le realizzazioni delle caratteristiche per altri utenti, inserisci un UUID nel campo UUID e fai clic su [!UICONTROL Refresh]. Per ulteriori informazioni, consulta il [Visualizzatore del profilo del visitatore](https://experienceleague.adobe.com/it/docs/audience-manager/user-guide/features/visitor-profile-viewer).
+L&#39;UUID di Adobe Audience Manager nel browser è per impostazione predefinita quando viene caricato [!UICONTROL Visitor Profile Viewer]. Se verifichi le realizzazioni delle caratteristiche per altri utenti, inserisci un UUID nel campo UUID e fai clic su [!UICONTROL Refresh]. Per ulteriori informazioni, consulta il [Visualizzatore del profilo del visitatore](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer).
 
 ## Visualizzare le caratteristiche del segmento in [!DNL Audience Manager]
 

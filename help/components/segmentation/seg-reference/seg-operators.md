@@ -3,9 +3,9 @@ description: Scopri come utilizzare gli operatori nel generatore di segmenti per
 title: Operatori
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 40%
 
 ---
@@ -81,6 +81,6 @@ Puoi creare segmenti in base a un numero specifico di elementi all’interno di 
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteggi dimensioni distinti](https://video.tv.adobe.com/v/27257?quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Conteggi dimensioni distinti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segmentation-on-distinct-dimension-counts){target="_blank"}.
 
 >[!ENDSHADEBOX]

@@ -4,9 +4,9 @@ description: Scopri come creare collegamenti ipertestuali per gli elementi dimen
 feature: Freeform Tables
 role: User, Admin
 exl-id: df846a73-e3e3-4376-844e-48153a20e5d6
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1585'
 ht-degree: 95%
 
 ---
@@ -27,7 +27,7 @@ Questa funzionalità è particolarmente utile quando si creano collegamenti iper
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Collegamenti ipertestuali per la dimensione](https://video.tv.adobe.com/v/3445793?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Collegamenti ipertestuali per la dimensione](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/tips-and-tricks/create-hyperlinks-in-freeform-tables){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

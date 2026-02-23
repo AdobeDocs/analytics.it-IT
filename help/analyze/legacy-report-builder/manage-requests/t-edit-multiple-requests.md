@@ -5,7 +5,7 @@ uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 1%
@@ -49,4 +49,4 @@ Puoi modificare diverse richieste contemporaneamente, in base alla suite di rapp
 
 Ecco un video che mostra il processo:
 
-https://video.tv.adobe.com/v/328285/?quality=12&captions=ita
+https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

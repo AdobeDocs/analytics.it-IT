@@ -4,10 +4,10 @@ title: Abbandono interdimensionale
 feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 6%
+source-wordcount: '267'
+ht-degree: 0%
 
 ---
 
@@ -18,17 +18,11 @@ Il fallout in Analysis Workspace consente di combinare dimensioni e metriche com
 
 Ad esempio, oltre a una dimensione Pagina, puoi aggiungere a una visualizzazione Abbandono altri elementi dimensionali (come un nome di dispositivo specifico dalla dimensione Nome dispositivo). La combinazione di dimensioni consente di visualizzare il modo in cui le pagine e alcune azioni si interagiscono nei percorsi dei clienti.
 
->[!BEGINSHADEBOX]
-
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Abbandono multidimensionale](https://video.tv.adobe.com/v/329408?quality=12&learn=on&captions=ita){target="_blank"}.
-
->[!ENDSHADEBOX]
-
 Ad esempio, oltre a una dimensione Pagina, puoi aggiungere a una visualizzazione Abbandono altri elementi dimensionali (come un nome di dispositivo specifico dalla dimensione Nome dispositivo). La combinazione di dimensioni consente di visualizzare il modo in cui le pagine e alcune azioni si interagiscono nei percorsi dei clienti.
 
 ![La vista Tutte le visite mostra più dimensioni come punti di contatto.](assets/fallout-otherdimension.png)
 
-I dati di abbandono vengono automaticamente aggiornati e li puoi vedere per più dimensioni.
+L’abbandono viene aggiornato in modo dinamico e consente di visualizzare l’abbandono in più dimensioni.
 
 Puoi anche aggiungere metriche. Ad esempio, puoi aggiungere la metrica Chiamata per mostrare solo i percorsi per gli utenti per i quali esistono chiamate e che hanno contattato il call center:
 

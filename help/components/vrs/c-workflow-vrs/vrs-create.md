@@ -1,13 +1,13 @@
 ---
 description: Prima di iniziare a creare suite di rapporti virtuali, tieni presente alcuni aspetti.
-keywords: Suite di rapporti virtuali
+keywords: Suite di rapporti virtuale
 title: Creare suite di rapporti
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 10%
+source-wordcount: '661'
+ht-degree: 18%
 
 ---
 
@@ -46,19 +46,19 @@ Nella scheda [!UICONTROL Visit Definition], definire queste impostazioni e quind
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Regolare la definizione di una visita](https://video.tv.adobe.com/v/3428474?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Regolare la definizione di una visita](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
 | Elemento | Descrizione |
 | --- |--- |
 | **Configura definizione visita** |  |
-| Abilita elaborazione dei tempi di report | Utilizza l’elaborazione dei tempi di report per modificare la lunghezza di timeout predefinita per la visita. Queste impostazioni non sono distruttive e si applicano solo ad Analysis Workspace. [Ulteriori informazioni](/help/components/vrs/vrs-report-time-processing.md) |
-| Timeout della visita | Definisce il periodo di inattività che deve trascorrere per un visitatore univoco prima che venga avviata automaticamente una nuova visita. Questo influirà sulla metrica delle visite, sul contenitore del segmento di visita e sulle evar che scadono al momento della visita. |
-| Inizia nuova visita con evento | Avvia una nuova sessione quando uno qualsiasi degli eventi specificati si attiva indipendentemente dal timeout di una sessione. |
+| Abilita elaborazione al momento del rapporto | Utilizza l’elaborazione dei tempi di report per modificare la lunghezza di timeout predefinita per la visita. Queste impostazioni non sono distruttive e si applicano solo ad Analysis Workspace. [Ulteriori informazioni](/help/components/vrs/vrs-report-time-processing.md) |
+| Timeout visita | Definisce il periodo di inattività che deve trascorrere per un visitatore univoco prima che venga avviata automaticamente una nuova visita. Questo influirà sulla metrica delle visite, sul contenitore del segmento di visita e sulle evar che scadono al momento della visita. |
+| Inizia nuova visita con evento | Inizia una nuova sessione quando si verifica uno degli eventi specificati, anche se scaduta per timeout. |
 | **Impostazioni di visita app mobile** | Modifica la definizione delle visite per gli hit delle app mobili raccolti dagli SDK di Adobe per dispositivi mobili. Queste impostazioni non sono distruttive e si applicano solo ad Analysis Workspace. |
-| Impedisci agli hit in background di avviare una nuova visita | Impedisce che gli hit di background diano inizio a una nuova visita e che aumentino le metriche relative a visite e visitatori univoci. |
-| Avvia una nuova visita a ogni avvio dell’app | Avvia una nuova sessione quando si verifica l&#39;avvio di un&#39;app. [Ulteriori informazioni](/help/components/vrs/vrs-mobile-visit-processing.md) |
+| Impedisci agli hit in background di avviare una nuova visita | Impedisce agli hit in background di avviare una nuova visita e quindi di gonfiare le metriche Visite e Visitatori univoci. |
+| Inizia una nuova visita a ogni avvio dell’app | Avvia una nuova sessione quando si verifica l&#39;avvio di un&#39;app. [Ulteriori informazioni](/help/components/vrs/vrs-mobile-visit-processing.md) |
 
 ## Includere e rinominare i componenti
 

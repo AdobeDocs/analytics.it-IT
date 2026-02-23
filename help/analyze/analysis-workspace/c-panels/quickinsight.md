@@ -4,7 +4,7 @@ title: Pannello Quick Insights
 feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 88%
@@ -25,7 +25,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Quick Insights in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta il [pannello Quick Insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta il pannello Quick Insights in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta il [pannello Quick Insights](/help/analyze/analysis-workspace/c-panels/quickinsight.md) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -59,7 +59,7 @@ Di seguito sono riportati alcuni dei termini di base con cui è necessario che t
 |---|---|
 | **[!UICONTROL Dimension]** | Le dimensioni sono descrizioni o caratteristiche dei dati di metriche che possono essere visualizzate, raggruppate e confrontate in un progetto. Sono valori non numerici e date raggruppati in elementi dimensionali. Ad esempio, un *browser* o una *pagina* è una dimensione. |
 | **[!UICONTROL Dimension item]** | Gli elementi dimensionali sono valori singoli per una dimensione. Ad esempio, gli elementi dimensionali per la dimensione del browser sarebbero *Chrome*, *Firefox*, *Edge* oppure altri. |
-| **[!UICONTROL Metric]** | Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, ricavi e così via. |
+| **[!UICONTROL Metric]** | Le metriche corrispondono a informazioni quantitative sull’attività del visitatore come visualizzazioni, click-through, ricaricamenti delle pagine, tempo medio trascorso, unità, ordini, entrate e così via. |
 | **[!UICONTROL Visualization]** | Workspace offre [diverse visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) per creare rappresentazioni visive dei dati. Ad esempio grafici a barre, grafici ad anello, istogrammi, grafici a linee, mappe, grafici di dispersione e altri. |
 | **[!UICONTROL Dimension Breakdown]** | Un raggruppamento di dimensioni è un modo per raggruppare una dimensione secondo altre dimensioni. Ad esempio, puoi raggruppare gli Stati Uniti per dispositivi mobili per ottenere le visite da parte di dispositivi mobili per stato. Oppure puoi raggruppare i dispositivi mobili per tipo di dispositivo mobile, per aree geografiche, per campagne interne e altro ancora. |
 | **[!UICONTROL Segments]** | I segmenti ti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. Ad esempio, puoi creare segmenti [!UICONTROL Visitor] in base a <li>attributi: tipo di browser, dispositivo, numero di visite, paese, genere o</li><li>interazioni: campagne, ricerca di parole chiave, motore di ricerca o</li><li>uscite ed entrate: visitatori da Facebook, da una pagina di destinazione definita, da un dominio di riferimento o</li><li> variabili personalizzate: campo modulo, categorie definite, ID cliente. |
@@ -125,7 +125,7 @@ Altri utili pop-up di suggerimenti in [!UICONTROL Quick Insights Builder], alcun
 
   ![Generatore di risultati di insight rapidi](assets/qibuilder-result.png)
 
-   * **[!UICONTROL Analyze]**&#x200B;**[!UICONTROL Broken-Down by]** dimensioni: puoi utilizzare fino a 3 livelli di raggruppamenti delle dimensioni per esaminare i dati che ti servono. Vedere ➊, ➋ e ➌.
+   * **[!UICONTROL Analyze]****[!UICONTROL Broken-Down by]** dimensioni: puoi utilizzare fino a 3 livelli di raggruppamenti delle dimensioni per esaminare i dati che ti servono. Vedere ➊, ➋ e ➌.
 
    * Aggiungi altre metriche **[!UICONTROL by]**: puoi aggiungere fino a 2 ulteriori metriche. Vedere ➍ e ➎.
 
@@ -168,7 +168,7 @@ To help with this, and based on your own company's usage of data components in [
 
 Here is a video overview of the [!UICONTROL Quick Insights] panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/326704/?quality=12&captions=ita)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/quick-insights-panel-in-analysis-workspace)
 
 ## Basic key terminology
 

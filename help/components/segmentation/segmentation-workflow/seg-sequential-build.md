@@ -3,9 +3,9 @@ description: Scopri i segmenti sequenziali che utilizzano l’operatore THEN per
 title: SequentialSsegments
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: acc32dc1589a08c20eaf414cd6f1a760ec8e2a56
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2263'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,7 @@ Inoltre, è possibile vincolare i segmenti sequenziali a una durata di tempo, a 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://video.tv.adobe.com/v/41653?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione sequenziale](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/sequential-segmentation){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -78,7 +78,7 @@ Per applicare vincoli di tempo all&#39;operatore **[!UICONTROL Then]**:
 1. Seleziona ![Orologio](/help/assets/icons/Clock.svg).
 1. Selezionare **[!UICONTROL Within]** o **[!UICONTROL After]** dal menu di scelta rapida.
 1. Specificare un periodo di tempo (**[!UICONTROL Minute]**, **[!UICONTROL Hour]**, fino a **[!UICONTROL Years]**).
-1. Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**&#x200B;per aprire un popup che consente di digitare o specificare un numero utilizzando **[!UICONTROL -]**&#x200B;o **[!UICONTROL +]**.
+1. Selezionare ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL *number *]**per aprire un popup che consente di digitare o specificare un numero utilizzando **[!UICONTROL -]**o **[!UICONTROL +]**.
 
 Per rimuovere un vincolo di tempo, utilizzare ![CrossSize75](/help/assets/icons/CrossSize75.svg).
 
@@ -135,7 +135,7 @@ Le sequenze di esempio seguenti corrispondono o non corrispondono:
 | Sequenza | ![ApprovaRifiuta](/help/assets/icons/ApproveReject.svg) |
 |--- | :---: |
 | Pagina `Women \| Shoes` seguita dalla pagina `Checkout \| Thank You` | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
-| Pagina `Women \| Shoes` seguita dalla pagina `Women \| Tops` seguita dalla pagina `Checkout \| Thank You` | ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) |
+| Pagina `Women \| Shoes` seguita dalla pagina `Women \| Tops` seguita dalla pagina `Checkout \| Thank You` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) |
 
 ## [!UICONTROL Include]
 
@@ -155,7 +155,7 @@ Le sequenze di esempio seguenti corrispondono o non corrispondono:
 |---:|--- | --- |
 | 1 | `Women \| Shoes` quindi `Checkout \| Thank You` nella stessa visita | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | 2 | `Women \| Shoes` quindi `Men \| Shoes` e `Checkout \| Thank You` (per visite diverse) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
-| 3 | `Checkout \| Thank You` quindi `Women \| Shoes` | ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) |
+| 3 | `Checkout \| Thank You` quindi `Women \| Shoes` | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) |
 
 ### [!UICONTROL Only Before Sequence] e [!UICONTROL Only After Sequence]
 
@@ -302,4 +302,4 @@ Come ultimo esempio, vuoi identificare i visitatori che hanno imparato a conosce
 
 >[!MORELIKETHIS]
 >
-> * [Masterizzazione logica sequenziale in AA e CJA: introduzione a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131?profile.language=it)
+> * [Masterizzazione logica sequenziale in AA e CJA: introduzione a THEN](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/mastering-sequential-logic-in-aa-amp-cja-introduction-to-then/ba-p/738131)

@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: aad8c1ba3c76cd35aa37a155102b5fd6b4b7ca27
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 53%
+source-wordcount: '661'
+ht-degree: 18%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 53%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta la [Mappa](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/map) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta la [Mappa](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -58,12 +58,12 @@ Visualizzazione ![Globe](/help/assets/icons/Globe.svg) **[!UICONTROL Map]** in A
 * è utile per identificare e confrontare dati metrici tra diverse aree geografiche,
 * può supportare 2 origini di dati: latitudine/longitudine per utilizzo mobile o dimensione geografica per utilizzo web,
 * supporta l’esportazione in PDF e
-* utilizza WebGL per la visualizzazione grafica. se il driver della scheda grafica non supporta il rendering WebGL, può essere necessario aggiornare i driver.
+* utilizza WebGL per la visualizzazione grafica. Se i driver di grafica non supportano il rendering WebGL, potrebbe essere necessario aggiornare i driver.
 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa in Analysis Workspace](https://video.tv.adobe.com/v/329423/?quality=12&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione mappa in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/map-visualization){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
    | Origine | Descrizione |
    | --- | --- |
    | **[!UICONTROL Mobile Lat/Long]** | Questa opzione rappresenta i dati delle app mobili. Questa opzione è disponibile solo se è stata abilitata per la suite di rapporti in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Report Suites] > (seleziona una suite di rapporti) > [!UICONTROL Edit Settings] > [!UICONTROL Mobile Management] > [!UICONTROL Enable Location Tracking]. Questa è l&#39;impostazione predefinita (se è abilitato il tracciamento della posizione). |
-   | **[!UICONTROL Geographic Dimension]** | Questa opzione rappresenta i dati per segmentazione geografica sulla posizione del visitatore, in base al suo indirizzo IP. Questi dati vengono trasformati in [!UICONTROL Country], [!UICONTROL Region] e [!UICONTROL City]. Si noti che non passa al livello DMA o Codice postale. Questa dimensione è abilitata per quasi tutte le suite di rapporti. Se non lo è, contatta l’Assistenza clienti Adobe e richiedi che vengano abilitati i rapporti geografici. |
+   | **[!UICONTROL Geographic Dimension]** | Questa opzione rappresenta i dati di segmentazione geografica sulla posizione del visitatore in base all’indirizzo IP del visitatore. Questi dati vengono trasformati in [!UICONTROL Country], [!UICONTROL Region] e [!UICONTROL City]. Si noti che non passa al livello DMA o Codice postale. Questa dimensione è abilitata in quasi tutte le suite di rapporti. In caso contrario, contatta l’Assistenza clienti di Adobe per far sì che i rapporti geografici siano abilitati. |
 
 1. Seleziona **[!UICONTROL Build]**.
 
@@ -90,9 +90,9 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 1. Ora puoi:
 
-   * Fai uno **zoom** nella mappa per ingrandire l’area che ti interessa, facendo doppio clic o utilizzando la rotellina del mouse. La mappa viene ingrandita sul punto in cui si trova il cursore. Quando esegui lo zoom, la dimensione richiesta viene automaticamente aggiornata (Paese > stato/provincia > città), a seconda del livello di zoom.
-   * **Confronta** due o più visualizzazioni mappa nello stesso progetto, affiancandole.
-   * **Mostra i dati a confronto per specifici periodi (ad esempio, su base annua)**:
+   * **Ingrandisci** la mappa per ingrandire alcune aree facendo doppio clic sulla mappa o utilizzando la rotellina di scorrimento. La mappa si ingrandisce in base alla posizione del cursore. Attraverso l’interazione di zoom, la dimensione richiesta (paese > stato > città) viene aggiornata automaticamente, in base al livello di zoom.
+   * **Confronta** due o più visualizzazioni mappa nello stesso progetto posizionandole una accanto all&#39;altra.
+   * **Mostra confronti periodo su periodo (ad esempio anno su anno)**:
 
       * Mostra numeri negativi: ad esempio, per una metrica su base annua, la mappa può visualizzare -33% su New York.
       * Con metriche di tipo *percent*, il clustering calcola la media delle percentuali insieme.
@@ -100,7 +100,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
    * **Ruota** la mappa in 2D o 3D tenendo premuto il tasto [!UICONTROL Ctrl] mentre sposti la mappa.
 
-   * **Passa** a un’altra vista, ad esempio una mappa di calore, utilizzando le [impostazioni](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritte di seguito. La vista predefinita è la mappa a bolle.
+   * **Attiva** una visualizzazione diversa, ad esempio la mappa di calore, utilizzando le [impostazioni](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E) descritte di seguito. La vista a bolle è l&#39;impostazione di default.
 
 1. **Salva** il progetto per salvare tutte le impostazioni della mappa (coordinate, zoom, rotazione).
 1. La tabella a forma libera, sotto la visualizzazione, può essere compilata trascinando dimensioni e metriche della posizione dalla barra a sinistra.
@@ -119,12 +119,12 @@ Per definire le impostazioni per la visualizzazione, seleziona ![Impostazione](/
 | Impostazione | Descrizione |
 |--- |--- |
 | **[!UICONTROL Map type]** | |
-| **[!UICONTROL Bubbles] | Traccia gli eventi tramite una rappresentazione a bolle. Un grafico a bolle è un grafico con più variabili, un incrocio tra un grafico a dispersione e un grafico a superfici proporzionali. Questa è l&#39;impostazione predefinita. |
-| [!UICONTROL Heatmap] | Traccia gli eventi tramite una mappa di calore. Si tratta di una rappresentazione grafica in cui i singoli valori di una matrice sono rappresentati da colori. |
+| **[!UICONTROL Bubbles] | Traccia gli eventi utilizzando le bolle. Un grafico a bolle è un grafico a più variabili che è un incrocio tra un grafico a dispersione e un grafico ad area proporzionale. Questa è l&#39;impostazione predefinita. |
+| [!UICONTROL Heatmap] | Traccia gli eventi utilizzando una mappa di calore. Una mappa di calore è una rappresentazione grafica dei dati in cui i singoli valori contenuti in una matrice sono rappresentati come colori. |
 | **[!UICONTROL Styles]** | |
-| [!UICONTROL Color theme] | Mostra lo schema di colori utilizzato per la mappa di calore e le bolle. Puoi scegliere tra Corallo, Rossi, Verdi e Blu. L&#39;impostazione predefinita è Coral. |
+| [!UICONTROL Color theme] | Mostra la combinazione di colori per la mappa di calore e le bolle. Puoi scegliere tra Coral, Reds, Greens o Blues. L&#39;impostazione predefinita è Coral. |
 | [!UICONTROL Map style] | È possibile scegliere tra Basic, Streets, Bright, Light, Dark e Satellite. |
-| **[!UICONTROL Cluster Radius]** | Raggruppa i dati che si trovano entro un certo numero di pixel. Il valore predefinito è 50. |
+| **[!UICONTROL Cluster Radius]** | Raggruppa i punti dati che rientrano nel numero di pixel specificato. Il valore predefinito è 50. |
 | **[!UICONTROL Custom Max Value]** | Permette di modificare la soglia del valore massimo per la mappa. Quando regoli questo valore, viene regolata la scala dei valori per le bolle o la mappa di calore (colore e dimensioni) rispetto al valore massimo personalizzato impostato. |
 
 <!--
@@ -132,7 +132,7 @@ Per definire le impostazioni per la visualizzazione, seleziona ![Impostazione](/
 
 Here is a video on the topic:
 
->[!VIDEO](https://video.tv.adobe.com/v/328243/?quality=12&captions=ita)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/build-a-time-parting-heatmap)
 
 -->
 

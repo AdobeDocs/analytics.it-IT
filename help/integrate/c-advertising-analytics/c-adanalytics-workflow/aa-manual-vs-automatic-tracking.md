@@ -3,7 +3,7 @@ description: Il tipo di tracciamento determina il modo in cui l’implementazion
 title: Tipo di tracciamento
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Il tipo di tracciamento determina il modo in cui l’implementazione di Adobe An
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://video.tv.adobe.com/v/41424/?quality=12&captions=ita)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -37,7 +37,7 @@ Per configurare un account del motore di ricerca con tipo **[!UICONTROL Auto]**,
 
 >[!IMPORTANT]
 >
->Ulteriori informazioni sull&#39;aggiunta del parametro `s_kwcid` ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/it/docs/id-service/using/reference/csp).
+>Ulteriori informazioni sull&#39;aggiunta del parametro `s_kwcid` ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
 ## Tracciamento manuale {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -98,7 +98,7 @@ La stringa da aggiungere al tuo account Microsoft Advertising è mostrata di seg
 
 >[!IMPORTANT]
 >
->Il valore _`<Advertising Analytics ID>`_(in **bold**&#x200B;di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa del tuo ID account specifico dalla schermata dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
+>Il valore _`<Advertising Analytics ID>`_(in **bold**di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa del tuo ID account specifico dalla schermata dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
 
 **Stringa di tracciamento per le campagne:**
 

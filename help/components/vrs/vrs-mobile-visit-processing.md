@@ -3,9 +3,9 @@ description: Le sessioni in base al contesto nelle suite di rapporti virtuali ca
 title: Adobe Context-Aware Sessions
 feature: VRS
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
-source-git-commit: 50f04ed366bf973fac43a29d6291afb017eb1f85
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1578'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Puoi definire una visita in qualsiasi modo senza alterare i dati sottostanti, in
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessioni in base al contesto](https://video.tv.adobe.com/v/3428474?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Sessioni in base al contesto](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/context-aware-sessions-in-virtual-report-suites){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

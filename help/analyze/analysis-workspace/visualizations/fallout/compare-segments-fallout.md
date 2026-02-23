@@ -5,10 +5,10 @@ title: Applicare I Segmenti Nell’Analisi Dell’Abbandono
 feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 41%
+source-wordcount: '429'
+ht-degree: 37%
 
 ---
 
@@ -31,7 +31,7 @@ Puoi creare segmenti da un punto di contatto, aggiungere segmenti come punto di 
 
    ![](assets/fallout-createsegment.png)
 
-   Viene aperto il Generatore di segmenti, precompilato con il segmento sequenziale pregenerato che corrisponde al punto di contatto selezionato:
+   Viene aperto Segment Builder (Generatore segmenti), precompilato con il segmento sequenziale predefinito che corrisponde al punto di contatto selezionato:
 
    ![](assets/fallout-definesegment.png)
 
@@ -51,12 +51,6 @@ Oppure puoi creare un punto di contatto AND trascinando il segmento degli hit de
 
 Puoi confrontare un numero illimitato di segmenti nella visualizzazione Abbandono. (Il video seguente afferma che è possibile confrontare fino a 3 segmenti, il che è errato.)
 
-
->[!BEGINSHADEBOX]
-
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confrontare i segmenti in una visualizzazione di fallout](https://video.tv.adobe.com/v/329880?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
-
->[!ENDSHADEBOX]
 
 
 1. Selezionare i segmenti da confrontare dal pannello [!UICONTROL Segment] a sinistra. Nell&#39;esempio Nell&#39;esempio sono selezionati due segmenti: **[!UICONTROL iOS]** e **[!UICONTROL Android]**.

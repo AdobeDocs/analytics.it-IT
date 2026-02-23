@@ -4,9 +4,9 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1416'
 ht-degree: 94%
 
 ---
@@ -17,7 +17,7 @@ Nella pagina di destinazione di Adobe Analytics, [!DNL Analysis Workspace] e [!D
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta la ![pagina di destinazione di Adobe Analytics](/help/assets/icons/VideoCheckedOut.svg) [VideoCheckedOut](https://video.tv.adobe.com/v/346464/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta la ![pagina di destinazione di Adobe Analytics](/help/assets/icons/VideoCheckedOut.svg) [VideoCheckedOut](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

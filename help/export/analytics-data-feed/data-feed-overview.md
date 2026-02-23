@@ -4,9 +4,9 @@ keywords: clickstream;feed dati;datafeed;feed dati
 title: Panoramica sui feed dati di Analytics
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '308'
 ht-degree: 79%
 
 ---
@@ -36,7 +36,7 @@ Le risorse seguenti sono utili per comprendere il flusso di lavoro di base per o
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell&#39;interfaccia feed dati](https://video.tv.adobe.com/v/3428563?quality=12&learn=on&captions=ita){target="_blank"} per vedere un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell&#39;interfaccia feed dati](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"} per vedere un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -44,6 +44,6 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Naviga nell
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trova il tuo ID feed dati](https://video.tv.adobe.com/v/3418481?quality=12&learn=on&captions=ita){target="_blank"} per vedere un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Trova il tuo ID feed dati](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/find-your-data-feed-id){target="_blank"} per vedere un video dimostrativo.
 
 >[!ENDSHADEBOX]

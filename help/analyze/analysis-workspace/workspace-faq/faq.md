@@ -4,10 +4,10 @@ title: Domande frequenti
 feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 81%
+source-wordcount: '552'
+ht-degree: 69%
 
 ---
 
@@ -30,11 +30,11 @@ Ora puoi creare progetti in Analysis Workspace con dati provenienti da più [sui
 +++
 
 +++Come si implementa Analysis Workspace?
-Non è richiesta alcuna implementazione particolare. Analysis Workspace è disponibile per tutte le società che dispongono di Analytics Standard o Premium. Tuttavia, si applicano le autorizzazioni standard per i contenuti (come suite di rapporti e componenti dei progetti) e per la cura e la condivisione di progetti. Consulta [Amministrazione e requisiti di accesso](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
+Non è richiesta alcuna implementazione particolare. Analysis Workspace è disponibile per tutte le aziende con Analytics Standard o Premium. Tuttavia, si applicano le autorizzazioni standard per i contenuti (come suite di rapporti e componenti di progetto) e per la cura e la condivisione di progetti. Consulta [Amministrazione e requisiti di accesso](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md).
 +++
 
-+++Posso utilizzare Analysis Workspace per il Data Warehouse?
-Analysis Workspace non è consigliato per l’esportazione di dati in massa. Si tratta di un’area di lavoro di visualizzazione per la creazione di progetti di analisi con layout simile a una dashboard.
++++Posso utilizzare Analysis Workspace per Data Warehouse?
+Analysis Workspace non è consigliato per l’esportazione di dati in blocco. È un’area di lavoro di visualizzazione che crea progetti di analisi simili a dashboard.
 +++
 
 +++Come si ottimizzano le prestazioni di Analysis Workspace?
@@ -45,13 +45,13 @@ Vedi [Ottimizzazione delle prestazioni](/help/analyze/analysis-workspace/workspa
 
 +++Come entrano i dati nel progetto Analysis Workspace?
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dati in Analysis Workspace](https://video.tv.adobe.com/v/35894?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dati in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/understanding-how-data-gets-into-your-analysis-workspace-project){target="_blank"} per un video dimostrativo.
 
 +++
 
 +++Come si tiene traccia dell’utilizzo di Workspace?
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tracciamento del registro](https://video.tv.adobe.com/v/29768?quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Tracciamento del registro](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/logs/usage-log-tracking-for-analysis-workspace){target="_blank"}.
 
 +++
 

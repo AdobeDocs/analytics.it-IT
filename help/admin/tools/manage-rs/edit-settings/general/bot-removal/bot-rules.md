@@ -4,9 +4,9 @@ title: Comprendere e configurare le regole bot
 feature: Bot Removal
 role: Admin
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1624'
 ht-degree: 65%
 
 ---
@@ -34,7 +34,7 @@ I dati sul traffico generato dai bot vengono memorizzati in un archivio separato
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurare le regole bot](https://video.tv.adobe.com/v/3418509/?quality=12&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurare le regole bot](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/manage-report-suites/configure-bot-rules-in-analytics){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

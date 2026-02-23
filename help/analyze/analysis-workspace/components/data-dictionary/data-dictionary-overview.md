@@ -4,10 +4,10 @@ title: Panoramica del dizionario dati
 feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 76%
+source-wordcount: '564'
+ht-degree: 75%
 
 ---
 
@@ -31,7 +31,7 @@ Gli amministratori di Analytics sono responsabili della cura delle informazioni 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dei dati in Analysis Workspace](https://video.tv.adobe.com/v/3422283/?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Dizionario dei dati in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -121,7 +121,7 @@ Analytics administrators are responsible for curating information about each com
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://video.tv.adobe.com/v/3422283?captions=ita&quality=12&learn=on){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Data dictionary](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/data-dictionary-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

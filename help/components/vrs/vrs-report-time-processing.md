@@ -5,9 +5,9 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1278'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Le seguenti opzioni di configurazione sono attualmente disponibili per le suite 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Avvio di una nuova visita con evento](https://video.tv.adobe.com/v/23129?quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Avvio di una nuova visita con evento](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

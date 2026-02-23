@@ -3,9 +3,9 @@ description: Scopri come i segmenti ti consentono di identificare sottoinsiemi d
 title: Informazioni sui segmenti
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '972'
 ht-degree: 73%
 
 ---
@@ -240,7 +240,7 @@ Questo video offre una breve panoramica sui contenitori di segmenti e su come ut
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://video.tv.adobe.com/v/3429107?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

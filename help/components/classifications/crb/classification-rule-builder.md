@@ -3,9 +3,9 @@ description: Invece di mantenere e caricare le classificazioni ogni volta che i 
 title: Flusso di lavoro di Generatore regole di classificazione
 feature: Classifications
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: 1f97365ada0a182f743b6d920b0605232e030aec
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '534'
 ht-degree: 85%
 
 ---
@@ -18,7 +18,7 @@ Invece di mantenere e caricare le classificazioni ogni volta che i codici di tra
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generatore regole di classificazione](https://video.tv.adobe.com/v/3434384?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Generatore regole di classificazione](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/classifications/using-the-classification-rule-builder){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -56,5 +56,5 @@ Di seguito sono riportati i passaggi di alto livello da effettuare per implement
 
 **Blog**: per ulteriori informazioni su questa funzione, consulta l’articolo del blog di digital marketing [Classificazioni basate sulle regole](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/).
 
-**Video**: visualizza il video [Panoramica classificazioni](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html?lang=it).
+**Video**: visualizza il video [Panoramica classificazioni](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html).
 

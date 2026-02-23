@@ -4,10 +4,10 @@ title: Panoramica sul rilevamento di anomalie
 feature: Anomaly Detection
 role: User, Admin
 exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 69%
+source-wordcount: '1279'
+ht-degree: 49%
 
 ---
 
@@ -18,7 +18,7 @@ In Analysis Workspace puoi visualizzare e analizzare le anomalie nei dati in mod
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rilevamento anomalie](https://video.tv.adobe.com/v/327894?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rilevamento anomalie](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -30,23 +30,23 @@ Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.sv
 
 Il rilevamento anomalie fornisce un metodo statistico per determinare come una particolare metrica è cambiata in relazione ai dati precedenti.
 
-Consente di separare i “segnali effettivi” da quelli di “disturbo” e quindi di individuare i potenziali fattori che hanno contribuito al verificarsi di tali segnali o anomalie. In altre parole, permette di individuare le fluttuazioni statistiche rilevanti da quelle che non lo sono, e quindi di arrivare alla causa di fondo di una anomalia effettiva. Inoltre, è possibile ottenere previsioni di metriche affidabili (KPI).
+Il rilevamento delle anomalie consente di separare i &quot;segnali effettivi&quot; dal &quot;rumore&quot; e quindi di identificare i fattori potenziali che hanno contribuito a tali segnali o anomalie. In altre parole, consente di identificare quali fluttuazioni statistiche hanno un impatto significativo e quali no. Puoi quindi identificare la causa principale di una vera anomalia. Inoltre, è possibile ottenere previsioni di metriche affidabili (KPI).
 
-Ecco alcuni esempi di anomalie da esaminare:
+Di seguito sono riportati alcuni esempi di anomalie che è possibile analizzare:
 
-* Drastico calo nel valore medio degli ordini
-* Picchi negli ordini con fatturato basso
-* Picchi o calo nelle registrazioni di prova
-* Calo nelle visualizzazioni della pagina di destinazione
-* Picchi negli eventi di buffering video
-* Picchi nei valori più bassi di bitrate video
+* Cali drastici nel valore medio dell’ordine
+* Picchi negli ordini con ricavi bassi
+* Picchi o cadute nelle registrazioni di prova
+* Cadute nelle visualizzazioni della pagina di destinazione
+* Picchi negli eventi del buffer video
+* Picchi di bit rate video ridotti
 
-[Rilevamento delle anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) e Analisi contributi sono flussi di lavoro principali in Analysis Workspace. Puoi eseguire Analisi contributi rispetto a qualsiasi anomalia giornaliera e incorporare il risultato nel progetto Analysis Workspace.
+Rilevamento delle anomalie e [Analisi contributi](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) sono flussi di lavoro principali in Analysis Workspace. Puoi eseguire l’analisi dei contributi per le anomalie giornaliere e incorporare il risultato nel progetto Analysis Workspace.
 
 L’algoritmo di rilevazione delle anomalie di Analysis Workspace include:
 
-* Supporto per la granularità oraria, settimanale e mensile, oltre a quella giornaliera già supportata
-* Supporto per la stagionalità (ad esempio “Black Friday”) e le festività
+* Supporto per granularità oraria, settimanale e mensile, oltre alla granularità giornaliera esistente.
+* Consapevolezza della stagionalità (come il &quot;Black Friday&quot;) e delle festività.
 
 ## Analisi contributi
 
@@ -61,7 +61,7 @@ per le metriche selezionate tra segmenti di pubblico convergenti.
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi contributi](https://video.tv.adobe.com/v/327901?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analisi contributi](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/data-science/contribution-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -88,15 +88,15 @@ Dopo un’analisi completa di un’anomalia, viene generato un riepilogo dei con
 
 Tutti i clienti con adesione ad Analisi contributi possono eseguire un’analisi completa dei contributi per un numero limitato di volte al mese in Analysis Workspace. L&#39;analisi dei contributi **esclude** i clienti SiteCatalyst 15 (Point Product), i clienti Analytics Foundation e i clienti Select di Analytics, che non hanno diritto all&#39;analisi dei contributi.
 
-Il numero di esecuzioni per azienda dipende dal numero di token mensili assegnati in base al prodotto Adobe Analytics acquistato dalle singole aziende. Il numero di esecuzioni per azienda include la possibilità di limitare l’accesso all’analisi dei contributi per evitare l’uso improprio dei token.
+Il numero di esecuzioni per azienda è limitato dai token mensili concessi in base al prodotto Adobe Analytics acquistato dalla tua azienda. Il numero di esecuzioni per azienda include la possibilità di limitare l’accesso all’analisi dei contributi per evitare l’uso improprio dei token.
 
 ## Domande frequenti
 
 | Domanda | Risposta |
 | --- | --- |
 | Perché Adobe ha introdotto i token? | La funzione Analisi contributi ha riscosso un grande successo in Adobe Analytics. La possibilità di disporre di un numero limitato di esecuzioni complete al mese (anziché 3 sole dimensioni per alcuni prodotti Analytics) consente di comprendere le funzionalità dell’analisi completa e illimitata dei contributi. |
-| Come funzionano i token in Analisi contributi? È necessario spendere un token per caricare un progetto con un’analisi dei contributi esistente oppure è richiesto solo se si esegue una nuova analisi? | Ad ogni azienda per la quale si esegue l’accesso (non a ciascun utente) viene assegnato un determinato numero di token al mese, che consente di eseguire analisi dei contributi “complete” in Analysis Workspace.  Ogni volta che si genera una nuova analisi dei contributi si paga un token. Quando si caricano progetti con analisi dei contributi preesistenti non viene richiesto alcun token. |
-| Cosa devo fare se la mia azienda ha esaurito i token e desidera eseguire ulteriori analisi dei contributi? | Si può eseguire l’aggiornamento a un altro prodotto Adobe Analytics, ad esempio da Standard (2 token al mese) a Ultimate (20 token al mese). Non è possibile acquistare altri token. È necessario eseguire l’aggiornamento all’interno del framework di creazione pacchetti esistente. |
+| Come funzionano i token in Analisi contributi? È necessario spendere un token per caricare un progetto con un’analisi dei contributi esistente oppure è richiesto solo se si esegue una nuova analisi? | Ad ogni azienda per la quale si esegue l’accesso (non a ciascun utente) viene assegnato un determinato numero di token al mese, che consente di eseguire analisi dei contributi “complete” in Analysis Workspace.  Ogni volta che generi una nuova analisi dei contributi, paghi un token. Il caricamento di progetti con analisi dei contributi pre-eseguite non costa un token. |
+| Cosa devo fare se la mia azienda ha esaurito i token e desidera eseguire ulteriori analisi dei contributi? | Puoi effettuare l’aggiornamento a un altro prodotto Adobe Analytics, ad esempio da Standard (2 token/mese) a Ultimate (20 token/mese). Non è possibile acquistare altri token. È necessario eseguire l’aggiornamento all’interno del framework di creazione pacchetti esistente. |
 | Come si limita l’accesso all’analisi dei contributi? | Per impostazione predefinita, solo gli amministratori hanno accesso all’esecuzione di Analisi contributi. Tuttavia, gli amministratori possono concedere l’accesso ad altri utenti creando un gruppo di autorizzazioni in [Adobe Admin Console](/help/admin/admin-console/home.md). Concedi l’autorizzazione per utilizzare Analisi contributi solo agli utenti che hanno un motivo legittimo per utilizzarla e che sono certi di non abusare del loro accesso. L’autorizzazione si chiama [!UICONTROL Contribution Analysis] (Analisi contributi) e si trova in [!UICONTROL Report Suite Tools] (Strumenti suite di rapporti). [Ulteriori informazioni](/help/admin/admin-console/permissions/report-suite-tools.md) |
 | Come faccio a conoscere il numero di token mensili a disposizione della mia azienda e quanti token sono stati utilizzati dalla mia azienda nel mese in corso? | Vai a  [!UICONTROL Admin] > [!UICONTROL All admin] >[!UICONTROL Company settings Home] >[!UICONTROL View Feature Access Levels]. Cerca in<ul><li>Analisi contributi: numero di token di utilizzo mensili</li><li>Analisi contributi: numero di token di utilizzo consumati in questo mese</li></ul> |
 
@@ -107,7 +107,7 @@ Di seguito è riportato un elenco dettagliato delle adesioni disponibili per Ril
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Adesione Adobe Analytics </th> 
+   <th colname="col1" class="entry"> Adesione ad Adobe Analytics </th> 
    <th colname="col2" class="entry"> Rilevamento delle anomalie </th> 
    <th colname="col3" class="entry"> Analisi contributi </th> 
   </tr>
@@ -119,17 +119,17 @@ Di seguito è riportato un elenco dettagliato delle adesioni disponibili per Ril
    <td colname="col3" colsep="1"> <p>Nessun token </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/it/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&mv=other"  > Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>Solo granularità giornaliera </p> </td> 
    <td colname="col3"> <p>Nessun token </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/it/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&mv=other"  > Prime </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=91BF51TR&amp;mv=other"  > Prime </a> </p> </td> 
    <td colname="col2"> <p>Sì </p> </td> 
    <td colname="col3"> <p>10 token al mese </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://business.adobe.com/it/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&mv=other"  > Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://business.adobe.com/products/analytics/compare-adobe-analytics-packages.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>Sì </p> </td> 
    <td colname="col3"> <p>20 token al mese </p> </td> 
   </tr> 
@@ -142,19 +142,19 @@ Di seguito è riportato un elenco dettagliato delle adesioni disponibili per Ril
    <td colname="col1"> <p>Standard </p> 
     <ul id="ul_73D52020793B44868C9CE0F90893075D"> 
      <li id="li_21EE0871C87E43C8B781219B2BA0FA74">Adobe Analytics Core </li> 
-     <li id="li_AB3593200F33439BAEE8FEB13CAE57F4">Adobe Analytics OD </li> 
-     <li id="li_2B7D625519BC4A4CB598C95F15D3029B">Adobe Analytics MA </li> 
+     <li id="li_AB3593200F33439BAEE8FEB13CAE57F4">ADOBE ANALYTICS OD </li> 
+     <li id="li_2B7D625519BC4A4CB598C95F15D3029B">MA ADOBE ANALYTICS </li> 
     </ul> </td> 
    <td colname="col2"> <p>Sì </p> </td> 
    <td colname="col3"> <p>2 token al mese </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (360, Attribution) </p> </td> 
+   <td colname="col1"> <p>Premium (360, Attribuzione) </p> </td> 
    <td colname="col2"> <p>Sì </p> </td> 
    <td colname="col3"> <p>2 token al mese </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Complete, <a href="https://business.adobe.com/it/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete, <a href="https://business.adobe.com/products/analytics/predictive-analytics.html"  >Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>Sì </p> </td> 
    <td colname="col3"> <p>Token illimitati </p> </td> 
   </tr> 

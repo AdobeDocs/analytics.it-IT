@@ -5,10 +5,10 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 92%
+source-wordcount: '485'
+ht-degree: 61%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta le visualizzazioni Numero riepilogo e Modifica riepilogo in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Numero di riepilogo e Variazione di riepilogo](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta le visualizzazioni Numero riepilogo e Modifica riepilogo in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Numero di riepilogo e Variazione di riepilogo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/summary-number-change) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione numero riepilogo e modifica riepilogo](https://video.tv.adobe.com/v/3416889/?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione numero riepilogo e modifica riepilogo](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/summary-number-and-summary-change-visualizations-2021){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -39,10 +39,10 @@ Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoChe
 
 Utilizza la visualizzazione ![Riepilogo](/help/assets/icons/123.svg) **[!UICONTROL Summary number]** per evidenziare un numero elevato importante in un progetto. Questa visualizzazione si comporta come segue, utilizzando l’origine dati associata:
 
-* Se non è selezionata alcuna cella, viene selezionato il totale della colonna.
-* Se è selezionata una cella, viene visualizzato il riepilogo per tale cella.
+* Seleziona il totale della colonna se non è selezionata alcuna cella.
+* Se è selezionata una singola cella, viene visualizzato il relativo riepilogo.
 * Se sono selezionate più celle, viene visualizzata la prima cella selezionata.
-* Se è selezionata la colonna, viene preso il valore della prima cella della colonna.
+* Se la colonna è selezionata, viene selezionato il primo valore di cella della colonna.
 
 ![Visualizzazione Numero di riepilogo](asses/../assets/summary-number.png)
 
@@ -73,12 +73,12 @@ The green and red color of the Summary Change can be controlled through [custom 
 
 Questa visualizzazione si comporta come segue:
 
-* Se non è selezionata alcuna cella, vengono confrontati i valori delle prime due celle della colonna.
-* Se è selezionata una cella, viene riportato 0 perché il valore della cella viene confrontato con se stesso e quindi non si verifica alcuna variazione nei valori.
-* Se sono selezionate due celle, la prima cella selezionata funge da numeratore e la seconda da denominatore.
-* Se sono selezionate più celle, per il confronto vengono considerate solo le prime due celle.
-* Se è selezionato un intervallo di celle, vengono confrontate la prima e l’ultima cella selezionata nell’intervallo.
-* Se è selezionata la colonna, il primo valore viene confrontato con se stesso, e la variazione risulta quindi pari a 0.
+* Se non è selezionata alcuna cella, vengono confrontati i primi due valori di cella della colonna.
+* Se è selezionata una cella, viene visualizzato 0 in quanto confronta il valore della cella con se stessa.
+* Se sono selezionate due celle, la prima cella selezionata viene considerata come numeratore e la seconda come denominatore.
+* Se sono selezionate più di due celle, vengono considerate solo le prime due per il confronto.
+* Se è selezionato un intervallo di celle, la prima viene confrontata con le ultime celle selezionate nell&#39;intervallo.
+* Se la colonna è selezionata, il primo valore viene confrontato con se stesso, il che mostra una modifica di 0.
 
 
 ![Visualizzazione delle modifiche di riepilogo che mostra il delta tra due numeri.](assets/summary-change.png)
@@ -95,6 +95,6 @@ Come parte delle impostazioni di visualizzazione, sono disponibili **[!UICONTROL
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

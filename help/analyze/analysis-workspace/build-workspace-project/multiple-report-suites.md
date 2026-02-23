@@ -4,9 +4,9 @@ description: Scopri come utilizzare più suite di rapporti in un unico progetto 
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '432'
 ht-degree: 71%
 
 ---
@@ -24,7 +24,7 @@ Questa funzionalità è utile per:
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Più suite di rapporti](https://video.tv.adobe.com/v/36964?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Più suite di rapporti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -55,7 +55,7 @@ Il pannello attivo è riconoscibile dal bordo blu chiaro intorno ad esso. È suf
 
    >[!NOTE]
    >
-   >Talvolta durante il caricamento di un progetto (o il passaggio a una suite di rapporti) compare un banner se non tutti i componenti inclusi nel progetto compaiono anche nella suite di rapporti. Verranno elencati i componenti mancanti. Segui [queste istruzioni](/help/admin/admin-console/permissions/product-profile.md) per impostare le autorizzazioni per le metriche/dimensioni richieste.
+   >Talvolta durante il caricamento di un progetto (o il passaggio a una suite di rapporti) viene visualizzato un banner se non tutti i componenti inclusi nel progetto compaiono anche nella suite di rapporti. Verranno elencati i componenti mancanti. Segui [queste istruzioni](/help/admin/admin-console/permissions/product-profile.md) per impostare le autorizzazioni per le metriche/dimensioni richieste.
    >
 
    ![](assets/incompat-rs.png)

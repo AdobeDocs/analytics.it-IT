@@ -3,9 +3,9 @@ title: A dispersione
 description: Scopri come creare e interpretare le visualizzazioni a dispersione in Analysis Workspace per analizzare le relazioni tra gli elementi dimensionali e fino a tre metriche.
 role: User, Admin
 exl-id: 1144ca89-645d-44aa-a820-4e7fd31912b8
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 55%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 55%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione a dispersione in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Dispersione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione a dispersione in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Dispersione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/scatterplot) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -37,12 +37,12 @@ La visualizzazione ![GraphScatter](/help/assets/icons/GraphScatter.svg) **[!UICO
 * La terza colonna determina il raggio del punto.
 * Tutte le colonne successive di una tabella a forma libera vengono ignorate dalla visualizzazione grafico a dispersione.
 
-![Esempio di grafico a dispersione che mostra più elementi dimensionali &#x200B;](assets/scatter.png)
+![Esempio di grafico a dispersione che mostra più elementi dimensionali ](assets/scatter.png)
 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico a dispersione](https://video.tv.adobe.com/v/3416861/?captions=ita&quality=12){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione grafico a dispersione](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/scatterplot-visualization){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

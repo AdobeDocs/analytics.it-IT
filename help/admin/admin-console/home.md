@@ -4,9 +4,9 @@ description: Scopri come utilizzare Adobe Admin Console per gestire prodotti e u
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
 feature: Admin Tools
 role: Admin
-source-git-commit: 938795c7378cb1f0537ff84eddeab3feddf8d073
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '112'
 ht-degree: 74%
 
 ---
@@ -27,4 +27,4 @@ Questo capitolo spiega i concetti necessari per comprendere i profili di prodott
 
 Guarda il video dimostrativo seguente per scoprire come aggiungere un amministratore in Adobe Analytics:
 
-[Aggiungi un amministratore in Adobe Analytics](https://video.tv.adobe.com/v/37648/?quality=12){target=_blank}
+[Aggiungi un amministratore in Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/administration/user-management/adding-an-administrator-to-adobe-analytics){target=_blank}

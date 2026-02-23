@@ -5,9 +5,9 @@ keywords: Analysis Workspace, segmento IQ
 feature: Segmentation
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 3324d04af41b5de1e42c6ec3958e17fc0fadd0df
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 33%
 
 ---
@@ -28,12 +28,12 @@ ht-degree: 33%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Pannello Confronto dei segmenti"
->abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri &#x200B;**<br/>**Aggiungi un segmento**: il primo segmento che desideri analizzare.<br/>**Confronta con**: il secondo segmento di cui desideri eseguire il confronto, popolato automaticamente con *Qualsiasi altro*, ovvero l’inverso del primo segmento. Se lo desideri, puoi sostituire *Qualsiasi altro* con un segmento diverso.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
+>abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri **<br/>**Aggiungi un segmento**: il primo segmento che desideri analizzare.<br/>**Confronta con**: il secondo segmento di cui desideri eseguire il confronto, popolato automaticamente con *Qualsiasi altro*, ovvero l’inverso del primo segmento. Se lo desideri, puoi sostituire *Qualsiasi altro* con un segmento diverso.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello di confronto dei segmenti in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Questo articolo documenta il pannello di confronto dei segmenti in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Nessun pannello equivalente in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**._
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ Il pannello Confronto segmenti rileva le differenze più importanti dal punto di
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://video.tv.adobe.com/v/41729?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-comparison-in-analysis-workspace){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

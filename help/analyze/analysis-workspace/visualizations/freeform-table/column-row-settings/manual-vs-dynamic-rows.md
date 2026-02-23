@@ -4,9 +4,9 @@ description: Scopri come utilizzare gli elementi dimensionali dinamici e statici
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: f258a1150a4bee11f5922d058930dc38b1ddfa14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 39%
 
 ---
@@ -58,7 +58,7 @@ Le righe dinamiche e statiche si comportano in modo diverso nella riga del total
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Riordinare le righe statiche](https://video.tv.adobe.com/v/35890?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Riordinare le righe statiche](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/reordering-static-rows-in-analysis-workspace){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

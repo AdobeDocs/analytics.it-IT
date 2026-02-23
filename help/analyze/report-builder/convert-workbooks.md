@@ -6,10 +6,10 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
-source-git-commit: 504cce24babdd8aefa5f819433139671904f2e1e
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 0%
+source-wordcount: '682'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Nell&#39;ambito del passaggio a una nuova funzionalità di Report Builder, è po
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converti cartelle di lavoro](https://video.tv.adobe.com/v/3446190?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Converti cartelle di lavoro](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/exporting/report-builder/upgrade-and-reschedule-workbooks){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

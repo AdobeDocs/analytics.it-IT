@@ -3,9 +3,9 @@ description: Le suite di rapporti virtuali possono essere curate per includere e
 title: Cura dei componenti della suite di rapporti virtuali
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 10%
 
 ---
@@ -17,7 +17,7 @@ Le suite di rapporti virtuali possono essere curate per includere ed escludere i
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura dei componenti](https://video.tv.adobe.com/v/3425529?quality=12&learn=on&captions=ita){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Cura dei componenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/component-curation-in-virtual-report-suites){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

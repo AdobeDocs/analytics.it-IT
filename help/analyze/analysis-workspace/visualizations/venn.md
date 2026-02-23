@@ -5,10 +5,10 @@ uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 61fcafa0e2e6cb71d9b594984e9a0c71a76c13e4
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 57%
+source-wordcount: '197'
+ht-degree: 56%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 57%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Venn in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/venn) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Venn in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/venn) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -54,7 +54,7 @@ To normalize the Venn diagram (take the size out of it), go select ![Setting](/h
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta [visualizzazione di Venn](https://video.tv.adobe.com/v/3416883/?quality=12&captions=ita){target="_blank"} ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
+Per un video dimostrativo, consulta [visualizzazione di Venn](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/venn-diagram-visualization){target="_blank"} ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +62,7 @@ Per un video dimostrativo, consulta [visualizzazione di Venn](https://video.tv.a
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >
 

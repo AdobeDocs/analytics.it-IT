@@ -4,9 +4,9 @@ description: Scopri come utilizzare e interpretare il pannello Tempo di riproduz
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1155'
 ht-degree: 86%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 86%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Tempo di riproduzione trascorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta il [pannello Tempo di riproduzione dei contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta il pannello Tempo di riproduzione trascorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta il [pannello Tempo di riproduzione dei contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ Il Tempo di riproduzione trascorso può aiutarti a comprendere:
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Tempo di riproduzione trascorso](https://video.tv.adobe.com/v/3446708?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video demo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Tempo di riproduzione trascorso](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -147,7 +147,7 @@ Playback Time Spent can help you understand:
 
 Following is a video overview of this panel:
 
->[!VIDEO](https://video.tv.adobe.com/v/3446708?captions=ita)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/media-analytics/measuring-media-analytics/media-playback-time-spent-panel)
 
 ## Use the Media Playback Time Spent panel
 

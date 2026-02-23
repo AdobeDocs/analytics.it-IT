@@ -4,10 +4,10 @@ title: Aggiungere descrizioni dei componenti
 feature: Components
 role: Admin
 exl-id: db36ee4a-66e2-45d1-8b7a-49570b5fce93
-source-git-commit: bf8bc40e3ec325e8e70081955fb533eee66a1734
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 5%
+source-wordcount: '221'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ Puoi aggiungere descrizioni ai componenti di una suite di rapporti.
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere descrizioni di componenti](https://video.tv.adobe.com/v/327236?quality=12&learn=on&captions=ita){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Aggiungere descrizioni di componenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/adding-dimension-and-metric-descriptions){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -47,5 +47,5 @@ Per informazioni generali sul dizionario dati, vedere [Panoramica del dizionario
 >[!MORELIKETHIS]
 >
 >[Impostazioni del componente del report](/help/components/vrs/vrs-components.md)
->&#x200B;>[Voci del componente del dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+>[Voci del componente del dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
 >

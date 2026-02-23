@@ -4,10 +4,10 @@ description: Scopri come utilizzare e interpretare il pannello Attribuzione in A
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
 workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -24,14 +24,14 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Pannello Attribuzione"
->abstract="Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione.<br/><br/>**Parametri &#x200B;**<br/>**Canale**<br/> La dimensione a cui attribuire. Questa dimensione può essere un canale di marketing, una campagna o qualsiasi altra dimensione.<br/>**Modelli**<br/> Il modello determina come viene assegnato il credito ai punti di contatto.<br/>**Intervallo di lookback**<br/> Questa impostazione determina la finestra di attribuzione dei dati che viene applicata a ogni conversione."
+>abstract="Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione.<br/><br/>**Parametri **<br/>**Canale**<br/> La dimensione a cui attribuire. Questa dimensione può essere un canale di marketing, una campagna o qualsiasi altra dimensione.<br/>**Modelli**<br/> Il modello determina come viene assegnato il credito ai punti di contatto.<br/>**Intervallo di lookback**<br/> Questa impostazione determina la finestra di attribuzione dei dati che viene applicata a ogni conversione."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Attribuzione in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Pannello di attribuzione](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/attribution) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta il pannello Attribuzione in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Pannello di attribuzione](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -114,7 +114,7 @@ La visualizzazione seguente fa parte dell’output del pannello.
 
 The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. It is a feature in [Attribution](/help/analyze/analysis-workspace/attribution/overview.md) that gives you a dedicated workspace to use and compare attribution models.
 
->[!VIDEO](https://video.tv.adobe.com/v/41429/?quality=12&captions=ita)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-the-attribution-iq-panel)
 
 ## Create an attribution panel
 
