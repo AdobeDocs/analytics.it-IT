@@ -33,7 +33,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Punto elenco in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Bullet](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Punto elenco in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Bullet](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Puoi definire impostazioni specifiche per una visualizzazione [!UICONTROL Bullet
 
 | Impostazione | Descrizione |
 |---|---|
-| **[!UICONTROL Bullet options]** | Specifica i valori per l’**[!UICONTROL High goal]**, l’**[!UICONTROL Mid goal]** e l’**[!UICONTROL Low goal]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL High goal]**è l’obiettivo principale a cui stai mirando. L’**[!UICONTROL Low goal]**e l’**[!UICONTROL Mid goal]**creano intervalli al di sotto dell’obiettivo alto. Nota: quando l’opzione **[!UICONTROL Percentages]**è selezionata, immetti gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
+| **[!UICONTROL Bullet options]** | Specifica i valori per l’**[!UICONTROL High goal]**, l’**[!UICONTROL Mid goal]** e l’**[!UICONTROL Low goal]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL High goal]**&#x200B;è l’obiettivo principale a cui stai mirando. L’**[!UICONTROL Low goal]**&#x200B;e l’**[!UICONTROL Mid goal]**&#x200B;creano intervalli al di sotto dell’obiettivo alto. Nota: quando l’opzione **[!UICONTROL Percentages]**&#x200B;è selezionata, immetti gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
 
 >[!MORELIKETHIS]
 >

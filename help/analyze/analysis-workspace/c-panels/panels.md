@@ -91,7 +91,7 @@ Puoi gestire un pannello nei modi seguenti:
 
 ## Suite di rapporti
 
-Ogni pannello è associato a una [suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**&#x200B;nel menu a discesa in alto a destra del pannello.
 
 Quando crei un nuovo pannello, la suite di rapporti predefinita si basa sulla suite di rapporti dell’ultimo pannello su cui hai lavorato nel progetto Analysis Workspace.
 
@@ -184,7 +184,7 @@ I segmenti a discesa statici consentono di interagire con i dati in modo control
 
 I segmenti a discesa statici possono essere utilizzati anche per consolidare più progetti in un unico progetto. Ad esempio, se hai creato più versioni dello stesso progetto assegnando a ciascuna un segmento Paese diverso, puoi consolidarle tutte in un unico progetto e aggiungere un segmento a discesa Paese.
 
-![Segmenti a discesa statici che mostrano il filtro &quot;Direct&quot; (Diretto) del canale di mercato evidenziato. ](assets/dropdown-filter-intro.png)
+![Segmenti a discesa statici che mostrano il filtro &quot;Direct&quot; (Diretto) del canale di mercato evidenziato. &#x200B;](assets/dropdown-filter-intro.png)
 
 ##### Creare segmenti a discesa statici
 

@@ -92,4 +92,4 @@ Quando si seleziona un’intestazione di colonna di una metrica, sono disponibil
 
 ## Modificare l&#39;altezza delle righe
 
-È possibile impostare la densità di visualizzazione [1 di un progetto su ](/help/analyze/analysis-workspace/build-workspace-project/view-density.md), **[!UICONTROL Compact]** e **[!UICONTROL Comfortable]**.**[!UICONTROL Expanded]**
+È possibile impostare la densità di visualizzazione [1 di un progetto su &#x200B;](/help/analyze/analysis-workspace/build-workspace-project/view-density.md), **[!UICONTROL Compact]** e **[!UICONTROL Comfortable]**.**[!UICONTROL Expanded]**
