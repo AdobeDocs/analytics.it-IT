@@ -3,9 +3,9 @@ title: Schema del set di classificazione
 description: Scopri come visualizzare e modificare lo schema per un singolo set di classificazione.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: e89d67d60313867a18b4d2a1e4e7a0e7da5dc31a
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1385'
 ht-degree: 4%
 
 ---
@@ -156,15 +156,28 @@ Nella finestra di dialogo **[!UICONTROL Download template for _nome set di class
 >id="classificationsets_schema_automate_locationaccount"
 >title="Account posizione"
 >abstract="Elenco dei conti di ubicazione dei tipi di conto che supportano l&#39;importazione dei dati di classificazione. Selezionare **[!UICONTROL New account]** per creare un nuovo account località."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=it" text="Configurare account di importazione ed esportazione cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configurare account di importazione ed esportazione cloud"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Posizione"
 >abstract="Elenco di posizioni nell’account di posizione selezionato che supportano l’importazione dei dati di classificazione. Selezionare **[!UICONTROL New location]** per creare una nuova posizione."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=it" text="Configurare i percorsi di importazione ed esportazione cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configurare i percorsi di importazione ed esportazione cloud"
 
+Puoi automatizzare l’acquisizione dei dati di classificazione tramite la configurazione e l’utilizzo dell’account cloud e delle posizioni cloud.
+
+
+
+>[!IMPORTANT]
+>L’automazione dell’acquisizione delle classificazioni dagli account cloud richiede che tu (o il tuo amministratore di rete) specifichi intervalli di indirizzi IP per consentire l’acquisizione dei dati nella rete. Configura uno o più intervalli di indirizzi IP a seconda della posizione dei centri dati di Analytics che utilizzi.
+>
+>| Posizione del centro dati di Analytics | Aggiungere questo intervallo di indirizzi IP a un inserisco nell&#39;elenco Consentiti di accesso alla rete in uso |
+>|---|---:|
+>| Pacifico nord-occidentale | `52.254.104.0/22` |
+>| Londra | `51.138.16.0/22` |
+>| Singapore | `20.40.0.0/14 ` |
+>
 
 Per automatizzare l&#39;acquisizione della classificazione, selezionare ![Ingranaggio](/help/assets/icons/Gear.svg) **[!UICONTROL Automate]**.
 
@@ -194,7 +207,7 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
 
 1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
 1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud.
-1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**&#x200B;se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**&#x200B;per annullare la configurazione del percorso cloud.
+1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**per annullare la configurazione del percorso cloud.
 
 Quando carichi i file nel percorso cloud, entro 15 minuti il file viene rilevato e inviato come processo di importazione. Il risultato di questo processo di importazione è riportato in [Gestione processi classificazioni](/help/components/classifications/sets/job-manager.md). Se vieni aggiunto all’elenco di utenti a cui inviare notifiche sul completamento dei processi di acquisizione, riceverai anche messaggi e-mail.
 
@@ -210,6 +223,6 @@ La barra delle azioni mostra le azioni disponibili per la classificazione selezi
 | Icona | Azione | Descrizione |
 |---|---|---|
 | ![Sfoglia](/help/assets/icons/Browse.svg) | **[!UICONTROL Add Lookup]** | Aggiungi un set di classificazione come ricerca (sottoclassificazione).<br/>Nella tabella **[!UICONTROL Attach lookup]**: <ol><li>Selezionare una classificazione di ricerca dal menu a discesa **[!UICONTROL Classification Name]**.</li><li>Seleziona **[!UICONTROL Add]**.</li></ol>La classificazione di ricerca viene aggiunta alla classificazione ed elencata nella colonna **[!UICONTROL Classified by]** utilizzando l&#39;ID interno. |
-| ![RimuoviCerchio](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remove Lookup]** | Rimuovi un set di classificazione come ricerca. Per eliminare definitivamente la ricerca dalla classificazione, nella **[!UICONTROL Remove _finestra di dialogo di conferma _del_set di classificazione_]** selezionare **[!UICONTROL Delete]**. |
+| ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remove Lookup]** | Rimuovi un set di classificazione come ricerca. Per eliminare definitivamente la ricerca dalla classificazione, nella **[!UICONTROL Remove _finestra di dialogo di conferma _del_set di classificazione_]** selezionare **[!UICONTROL Delete]**. |
 | ![Rinomina](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Rinomina **[!UICONTROL Classification Name]** di una classificazione. Nella finestra di dialogo **[!UICONTROL Rename: _nome classificazione_]**, immettere un nuovo nome e selezionare **[!UICONTROL Rename]**. |
 | ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Eliminare una classificazione. Viene visualizzata la finestra di dialogo **[!UICONTROL Delete _nome classificazione_]**. Selezionare **[!UICONTROL Delete]** per eliminare la classificazione. |
