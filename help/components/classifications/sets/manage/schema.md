@@ -156,14 +156,14 @@ Nella finestra di dialogo **[!UICONTROL Download template for _nome set di class
 >id="classificationsets_schema_automate_locationaccount"
 >title="Account posizione"
 >abstract="Elenco dei conti di ubicazione dei tipi di conto che supportano l&#39;importazione dei dati di classificazione. Selezionare **[!UICONTROL New account]** per creare un nuovo account località."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=en" text="Configurare account di importazione ed esportazione cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=it" text="Configurare account di importazione ed esportazione cloud"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Posizione"
 >abstract="Elenco di posizioni nell’account di posizione selezionato che supportano l’importazione dei dati di classificazione. Selezionare **[!UICONTROL New location]** per creare una nuova posizione."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=en" text="Configurare i percorsi di importazione ed esportazione cloud"
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=it" text="Configurare i percorsi di importazione ed esportazione cloud"
 
 Puoi automatizzare l’acquisizione dei dati di classificazione tramite la configurazione e l’utilizzo dell’account cloud e delle posizioni cloud.
 
