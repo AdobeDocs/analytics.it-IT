@@ -1,21 +1,21 @@
 ---
 title: Configurare Report Builder
-description: Descrive come configurare Report Builder in Adobe Analytics.
+description: Scopri attraverso una guida completa per installare e configurare Adobe Analytics Report Builder for Excel. Istruzioni dettagliate per la configurazione per un’integrazione perfetta.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
-source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
+source-git-commit: 1e893ce94ee3da46bbf22d7a90573681950d1135
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 2%
+source-wordcount: '528'
+ht-degree: 1%
 
 ---
 
-# Configurazione Report Builder
+# Configurare Report Builder
 
-Questo articolo illustra i requisiti per utilizzare Report Builder for Adobe Analytics in Microsoft Excel. Come installare e configurare il componente aggiuntivo.
+Questo articolo descrive i requisiti per utilizzare Report Builder per Adobe Analytics in [!DNL Microsoft] [!DNL Excel]. Come installare e configurare il componente aggiuntivo.
 
 ## Requisiti
 
@@ -24,14 +24,14 @@ Report Builder per Adobe Analytics è supportato dai seguenti sistemi operativi 
 ### macOS
 
 - macOS versione 10.x o successiva
-- Tutte le versioni di Microsoft Excel
+- Tutte le [!DNL Microsoft] [!DNL Excel] versioni
 
 ### Windows
 
 - Windows 10, versione 1904 o successiva
-- Excel versione 2106 o successiva
+- [!DNL Excel] versione 2106 o successiva
 
-  Per utilizzare il componente aggiuntivo, tutti gli utenti di Windows Desktop Excel devono installare Microsoft Edge Webview2. Per installare il controller:
+  Per utilizzare il componente aggiuntivo, tutti gli utenti di Windows Desktop [!DNL Excel] devono installare Microsoft Edge Webview2. Per installare il controller:
 
    1. Vai a <https://aka.ms/webview2installer>.
    1. Selezionare e scaricare il programma di installazione autonomo Evergreen.
@@ -44,13 +44,13 @@ Report Builder per Adobe Analytics è supportato dai seguenti sistemi operativi 
 
 ## Componente aggiuntivo Report Builder Excel
 
-È necessario installare il componente aggiuntivo Report Builder Excel per utilizzare Report Builder per Adobe Analytics. Dopo aver installato il componente aggiuntivo Report Builder Excel, è possibile accedere a Report Builder da una cartella di lavoro di Excel aperta.
+È necessario installare il componente aggiuntivo Report Builder [!DNL Excel] per utilizzare [!DNL Report Builder] per Adobe Analytics. Dopo aver installato il componente aggiuntivo Report Builder [!DNL Excel], è possibile accedere a Report Builder da una cartella di lavoro [!DNL Excel] aperta.
 
 ### Scaricare e installare il componente aggiuntivo Report Builder
 
 Per scaricare e installare il componente aggiuntivo Report Builder
 
-1. Avviare Excel e aprire una nuova cartella di lavoro.
+1. Avviare [!DNL Excel] e aprire una nuova cartella di lavoro.
 
 1. Seleziona **[!UICONTROL Insert]** > **[!UICONTROL Get Add-ins]**.
 
@@ -62,21 +62,23 @@ Per scaricare e installare il componente aggiuntivo Report Builder
 
 **Se la scheda Store non è visualizzata**
 
-1. In Excel, selezionare File > Account > Gestisci impostazioni.
+1. In [!DNL Excel], selezionare File > Account > Gestisci impostazioni.
 
 1. Seleziona la casella accanto a &quot;Abilita esperienze collegate facoltative&quot;
 
-1. Riavviare Excel.
+1. Riavvia [!DNL Excel].
 
 **Se l&#39;organizzazione blocca l&#39;accesso a Microsoft Store**
 
-Rivolgiti al tuo team IT o di sicurezza per richiedere l’approvazione per il componente aggiuntivo Report Builder. Dopo aver concesso l&#39;approvazione, nella finestra di dialogo Componenti aggiuntivi di Office selezionare la scheda Gestione amministratore.
+- Rivolgiti al tuo team IT o di sicurezza per richiedere l’approvazione per il componente aggiuntivo Report Builder. Dopo l&#39;approvazione, nella finestra di dialogo Componenti aggiuntivi di Office selezionare la scheda **[!UICONTROL Admin Managed]**.
 
-![Scheda Amministrazione gestita nella finestra di dialogo Componenti aggiuntivi di Office.](./assets/image1.png)
+  ![Scheda Amministrazione gestita nella finestra di dialogo Componenti aggiuntivi di Office.](./assets/image1.png)
 
-Dopo aver installato il componente aggiuntivo Report Builder, l&#39;icona Report Builder viene visualizzata sulla barra multifunzione di Excel nella scheda Home.
+- In alternativa, è possibile recuperare manualmente il [file manifesto](https://reportbuilder.an.adobe.com/manifest.xml) e ospitare il file nella propria infrastruttura IT. <br/>Seguire la [documentazione in linea](https://learn.microsoft.com/en-us/office/dev/add-ins/publish/publish) di Microsoft Office per istruzioni su come installare un file manifesto di Excel non fornito da Microsoft Store.
 
-![Icona Report Builder in Excel](./assets/rb_app_icon.png)
+Dopo aver installato il componente aggiuntivo Report Builder, l&#39;icona Report Builder viene visualizzata sulla barra multifunzione [!DNL Excel] nella scheda Home.
+
+![Icona Report Builder in Excel](/help/analyze/report-builder/assets/rb_app_icon.png)
 
 ## Accedi a Report Builder
 
@@ -88,11 +90,11 @@ Dopo aver installato il componente aggiuntivo Report Builder for Excel per la pi
 
 1. Dalla barra degli strumenti di Adobe Report Builder, fare clic su **[!UICONTROL Login]**.
 
-   ![Fare clic sul pulsante di accesso a Report Builder.](./assets/rb_login.png)
+   ![Fare clic sul pulsante di accesso a Report Builder.](/help/analyze/report-builder/assets/rb_login.png)
 
 1. Immetti le informazioni del tuo account Adobe Experience ID. Le informazioni sull’account devono corrispondere alle credenziali di Adobe Analytics.
 
-   ![Icona di accesso e organizzazione.](./assets/image4.png)
+   ![Icona di accesso e organizzazione.](/help/analyze/report-builder/assets/image4.png)
 
 Dopo l’accesso, l’icona di accesso e l’organizzazione vengono visualizzate nella parte superiore del pannello
 
@@ -104,7 +106,7 @@ La prima volta che accedi, accedi all’organizzazione predefinita assegnata al 
 
 1. Seleziona un’organizzazione dall’elenco delle organizzazioni disponibili. Vengono elencate solo le organizzazioni a cui hai accesso.
 
-   ![Elenco delle organizzazioni a cui è possibile accedere.](./assets/image5.png)
+   ![Elenco delle organizzazioni a cui è possibile accedere.](/help/analyze/report-builder/assets/image5.png)
 
 ## Uscire
 
@@ -114,6 +116,6 @@ Puoi uscire da Report Builder dal profilo utente.
 
 1. Fai clic sull’icona dell’avatar per visualizzare il profilo utente.
 
-   ![Avatar del tuo profilo utente e pulsante Disconnetti.](./assets/image6.png)
+   ![Avatar del tuo profilo utente e pulsante Disconnetti.](/help/analyze/report-builder/assets/image6.png)
 
 1. Fai clic su **Esci**.
