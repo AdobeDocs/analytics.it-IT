@@ -3,18 +3,27 @@ title: Gestisci processi feed dati
 description: Scopri come gestire singoli lavori nei feed dati. Naviga nell’interfaccia, utilizza i filtri e cerca, quindi trova le definizioni delle colonne.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: d042bdb680504fdbf0ba346e5829713e529bd543
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 4%
+source-wordcount: '521'
+ht-degree: 3%
 
 ---
 
-# Gestire i processi per feed dati
+# Gestire i processi per feed dati {#manage-data-feed-jobs}
 
 I job sono singole attività che generano un file compresso. Sono create e gestite dai feed.
 
 È possibile visualizzare la cronologia dei processi per ogni feed di dati, inviare nuovamente i processi o rielaborare i processi.
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_job_history"
+>title="Cronologia dei processi del feed dati"
+>abstract="Puoi visualizzare un elenco di processi di feed dati per un dato feed dati da questa pagina. Cerca i processi per ID richiesta o data di inizio periodo richiesta. Le informazioni su ciascun processo sono visualizzate nelle colonne disponibili. È inoltre possibile inviare nuovamente un processo con gli stessi dati o rielaborare i dati di origine di un processo prima di inviarlo nuovamente."
+
+<!-- markdownlint-enable MD034 -->
 
 ## Visualizzare la cronologia dei processi per un feed di dati
 
@@ -68,6 +77,8 @@ Per inviare nuovamente uno o più processi di feed dati:
 
 1. Selezionare la casella di controllo accanto al feed di dati contenente i processi che si desidera inviare di nuovo, quindi selezionare [!UICONTROL **Cronologia processi**].
 
+1. (Facoltativo) Nel campo di ricerca, cerca per ID richiesta o data di inizio periodo richiesta per cercare l’elenco dei processi dei feed di dati.
+
 1. Selezionare la casella di controllo accanto a uno o più processi di feed dati, quindi selezionare **[!UICONTROL Resend]**. <!-- What does the status need to be? Error, ... -->
 
    ![Rielabora processo feed dati](assets/data-feed-job-resend.png)
@@ -81,6 +92,8 @@ Per rielaborare uno o più processi di feed dati:
 1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
 
 1. Selezionare la casella di controllo accanto al feed di dati contenente i processi che si desidera rielaborare, quindi selezionare [!UICONTROL **Cronologia processi**].
+
+1. (Facoltativo) Nel campo di ricerca, cerca per ID richiesta o data di inizio periodo richiesta per cercare l’elenco dei processi dei feed di dati.
 
 1. Selezionare la casella di controllo accanto a uno o più processi di feed dati, quindi selezionare **[!UICONTROL Reprocess]**. <!-- What does the status need to be? Error, ... -->
 

@@ -3,23 +3,32 @@ title: Gestire i feed dati
 description: Scopri come navigare nell’interfaccia del feed dati. Scopri come creare, modificare e visualizzare un feed di dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1296'
 ht-degree: 2%
 
 ---
 
-# Gestire i feed dati
+# Gestire i feed dati {#manage-data-feeds}
 
 Data Feed Manager consente di creare, modificare ed eliminare feed di dati per l’organizzazione. Se disponi delle autorizzazioni per accedere al gestore dei feed dati, puoi gestire i feed dati per tutte le suite di rapporti visibili.
 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}.
 
 >[!ENDSHADEBOX]
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datafeed_manager"
+>title="Gestire i feed dati"
+>abstract="Puoi visualizzare, creare e gestire feed di dati da questa pagina. Cerca i feed per nome o ID, oppure seleziona l’icona del filtro per visualizzare i filtri disponibili."
+
+<!-- markdownlint-enable MD034 -->
 
 
 ## Visualizzare feed di dati
@@ -62,7 +71,7 @@ Il pulsante **[!UICONTROL Create data feed]** consente di creare un nuovo feed. 
 
 1. Utilizza la ricerca o i filtri per individuare un feed specifico.
 
-   * Nel campo di ricerca, inizia a digitare il nome di un feed. Solo i feed corrispondenti vengono visualizzati nell’elenco dei feed disponibili.
+   * Nel campo di ricerca, inizia a digitare il nome o l’ID di un feed. Solo i feed corrispondenti vengono visualizzati nell’elenco dei feed disponibili.
 
      ![Ricerca](assets/search.png)
 
