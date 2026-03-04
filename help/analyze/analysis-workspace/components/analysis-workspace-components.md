@@ -4,7 +4,7 @@ description: Scopri i componenti offerti da Adobe Analytics e come utilizzarli i
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 94%
@@ -110,8 +110,6 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nel pannello a sinis
 4. Facoltativamente, è possibile ordinare l’elenco dei componenti come descritto in [Ordinare l’elenco dei componenti](#sort-the-component-list).
 
 ### Ordina
-
-<!-- {{release-limited-testing-section}}-->
 
 1. (Facoltativo) Applica i filtri all’elenco dei componenti, come descritto in [Filtrare l’elenco dei componenti](#filter-the-component-list).
 
