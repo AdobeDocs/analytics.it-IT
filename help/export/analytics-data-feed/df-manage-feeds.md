@@ -17,7 +17,7 @@ Data Feed Manager consente di creare, modificare ed eliminare feed di dati per l
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestione feed dati](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
