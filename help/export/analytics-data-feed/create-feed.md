@@ -6,7 +6,7 @@ exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 9935b7ea08f5451d04431ae638ae0d24af32c07c
 workflow-type: tm+mt
 source-wordcount: '2052'
-ht-degree: 4%
+ht-degree: 13%
 
 ---
 
@@ -22,14 +22,14 @@ Durante la creazione di un feed di dati, fornisci ad Adobe:
 
 Prima di creare un feed di dati, è importante avere una conoscenza di base dei feed di dati e assicurarsi di soddisfare tutti i prerequisiti. Per ulteriori informazioni, consulta [Panoramica sui feed di dati](data-feed-overview.md).
 
-## Creare e configurare un feed dati {#create-and-configure-data-feed}
+## Creare e configurare un feed di dati {#create-and-configure-data-feed}
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_os_strings"
->title="Sostituire le stringhe del sistema operativo"
->abstract="Questa opzione consente di pulire l&#39;output dei dati rilevando le seguenti sequenze di stringhe incorporate nei dati del cliente e sostituendole con uno spazio: <br/>Windows: CRLF, CR o TAB<br/>Mac e Linux: \n, \r o \t"
+>title="Sostituisci stringhe del sistema operativo"
+>abstract="Questa opzione consente di pulire l’output dei dati rilevando le seguenti sequenze di stringhe incorporate nei dati del cliente e sostituendole con uno spazio: <br/>Windows: CRLF, CR o TAB<br/>Mac e Linux: \n, \r o \t"
 
 <!-- markdownlint-enable MD034 -->
 
@@ -46,7 +46,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_notify"
->title="Notifica al completamento"
+>title="Notifica completamento"
 >abstract="Specifica uno o più indirizzi e-mail a cui inviare una notifica dopo l’invio del feed di dati. È necessario separare più indirizzi e-mail con una virgola."
 
 <!-- markdownlint-enable MD034 -->
@@ -83,7 +83,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    | [!UICONTROL **Invia manifesto anche se non sono presenti dati**] | Determina se Adobe deve consegnare un [file manifesto](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md#feed-manifest) alla destinazione quando non vengono raccolti dati per un intervallo di feed. Se si seleziona **File manifesto**, verrà visualizzato un file manifesto simile al seguente quando non vengono raccolti dati:<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **Sostituisci stringhe sistema operativo**] | Durante la raccolta dei dati, alcuni caratteri (ad esempio le nuove righe) possono causare problemi. Selezionare questa opzione per rimuovere questi caratteri dai file di feed.<p>Questa opzione rileva le seguenti sequenze di stringhe incorporate nei dati del cliente e le sostituisce con uno spazio:</p> <ul><li>**Windows:** CRLF, CR o TAB</li><li>**Mac e Linux:** \n, \r o \t</li></ul> |
    | [!UICONTROL **Abilita ricerche dinamiche**] | Le ricerche dinamiche ti consentono di ricevere nel feed di dati ulteriori file di ricerca che altrimenti non sarebbero disponibili. Questa impostazione consente di inviare le seguenti tabelle di ricerca con ciascun file di feed dati:<ul><li> **Nome gestore**</li><li>**Attributi dispositivi mobili**</li><li>**Tipo di sistema operativo**</li></ul><p>Per ulteriori informazioni, vedere [Ricerche dinamiche](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md).</p> |
-   | **Consenti arrivi in ritardo** | I dati storici possono arrivare dopo che un processo di feed dati termina l’elaborazione per una determinata ora o giorno, ad esempio tramite hit con marca temporale o origini dati.<p>Seleziona questa opzione per includere i dati ricevuti dopo il completamento dell’elaborazione dei dati da parte del processo di feed dati all’interno della frequenza di reporting impostata (in genere giornaliera o oraria). Con questa opzione abilitata, ogni volta che un feed di dati elabora i dati, esamina eventuali hit in ritardo arrivati e li inserisce in batch con il successivo file di feed di dati inviato.</p><p>Per ulteriori informazioni, vedi [Hit in arrivo](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
+   | **Consenti arrivi in ritardo** | I dati storici possono arrivare dopo che un processo di feed dati termina l’elaborazione per una determinata ora o giorno, ad esempio tramite hit con marca temporale o origini dati.<p>Seleziona questa opzione per includere i dati arrivati dopo il completamento dell’elaborazione dei dati da parte del processo di feed dati, entro la frequenza di reporting impostata (in genere giornaliera o oraria). Quando questa opzione è abilitata, ogni volta che un feed di dati elabora i dati, eventuali hit arrivati in ritardo vengono individuati e quindi inseriti in batch nel prossimo file di feed dati che viene inviato.</p><p>Per ulteriori informazioni, vedi [Hit in arrivo](/help/export/analytics-data-feed/c-df-contents/late-arriving-hits.md).</p> |
    | **Intervallo di lookback** (per hit in arrivo) | Questa opzione viene visualizzata quando l&#39;opzione **[!UICONTROL Allow late-arriving hits]** è abilitata. Seleziona l’intervallo di lookback per limitare l’intervallo di tempo degli hit in ritardo inclusi. Seleziona **[!UICONTROL Unlimited]** se vuoi consentire tutti gli hit in arrivo in ritardo, indipendentemente da quanto in ritardo. È possibile scegliere un intervallo predefinito, ad esempio **[!UICONTROL 1 hour]**, **[!UICONTROL 2 hours]**, **[!UICONTROL 1 week]**, **[!UICONTROL 2 weeks]** e così via. In alternativa, selezionare **[!UICONTROL Custom lookback window]**, quindi nel campo **[!UICONTROL Custom Lookback]** specificare un intervallo di lookback fino a 26.280 ore. |
 
 1. Nella sezione [!UICONTROL **Data structure**], nel campo **[!UICONTROL Report suite]**, seleziona la suite di rapporti di origine che contiene i dati da esportare. <p>Quando selezioni una suite di rapporti, tieni presente quanto segue:</p> <ul><li>Se vengono creati più feed di dati per la stessa suite di rapporti, ogni feed di dati deve avere definizioni di colonne diverse.</li><li>Solo le suite di rapporti di origine supportano i feed di dati; le suite di rapporti virtuali non sono supportate.</li><li>L’elenco delle colonne disponibili dipende dalla società di accesso a cui appartiene la suite di rapporti selezionata. Se modifichi la suite di rapporti, l’elenco delle colonne disponibili può cambiare. </li></ul>

@@ -6,7 +6,7 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -48,7 +48,7 @@ Per definire un set di regole per un set di classificazione:
 
 
 
-## Interfaccia set di regole {#rule-set-interface}
+## Interfaccia del set di regole {#rule-set-interface}
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_rules_samplekeys"

@@ -6,7 +6,7 @@ feature: Data Feeds
 source-git-commit: 705a1716ed0205594fc6c75023c8805024ce7df7
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ Le ricerche dinamiche consentono di ricevere file di ricerca aggiuntivi nel feed
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_dynamic_lookups"
 >title="Abilita ricerche dinamiche"
->abstract="Seleziona questa opzione per ricevere file di ricerca aggiuntivi nel feed di dati, altrimenti non disponibili. Questa impostazione consente di inviare le seguenti tabelle di ricerca con ciascun file di feed dati:<ul><li>Nome gestore</li><li>Attributi mobili</li><li>Tipo di sistema operativo</li></ul>"
+>abstract="Seleziona questa opzione per ricevere file di ricerca aggiuntivi nel feed di dati, altrimenti non disponibili. Questa impostazione consente di inviare le seguenti tabelle di ricerca con ciascun file di feed dati:<ul><li>Nome gestore</li><li>Attributi per dispositivi mobili</li><li>Tipo di sistema operativo</li></ul>"
 
 <!-- markdownlint-enable MD034 -->
 

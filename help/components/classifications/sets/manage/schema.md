@@ -6,7 +6,7 @@ feature: Classifications
 source-git-commit: e89d67d60313867a18b4d2a1e4e7a0e7da5dc31a
 workflow-type: tm+mt
 source-wordcount: '1385'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -155,15 +155,15 @@ Nella finestra di dialogo **[!UICONTROL Download template for _nome set di class
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_locationaccount"
 >title="Account posizione"
->abstract="Elenco dei conti di ubicazione dei tipi di conto che supportano l&#39;importazione dei dati di classificazione. Selezionare **[!UICONTROL New account]** per creare un nuovo account località."
+>abstract="Elenco di account posizione di tipi di account che supportano l’importazione dei dati di classificazione. Selezionare **[!UICONTROL New account]** per creare un nuovo account località."
 >additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=it" text="Configurare account di importazione ed esportazione cloud"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Posizione"
->abstract="Elenco di posizioni nell’account di posizione selezionato che supportano l’importazione dei dati di classificazione. Selezionare **[!UICONTROL New location]** per creare una nuova posizione."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=it" text="Configurare i percorsi di importazione ed esportazione cloud"
+>abstract="Elenco di posizioni nell’account posizione selezionato che supportano l’importazione dei dati di classificazione. Selezionare **[!UICONTROL New location]** per creare una nuova posizione."
+>additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=it" text="Configurare posizioni di importazione ed esportazione cloud"
 
 Puoi automatizzare l’acquisizione dei dati di classificazione tramite la configurazione e l’utilizzo dell’account cloud e delle posizioni cloud.
 
@@ -207,7 +207,7 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
 
 1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
 1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud.
-1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**&#x200B;se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**&#x200B;per annullare la configurazione del percorso cloud.
+1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**per annullare la configurazione del percorso cloud.
 
 Quando carichi i file nel percorso cloud, entro 15 minuti il file viene rilevato e inviato come processo di importazione. Il risultato di questo processo di importazione è riportato in [Gestione processi classificazioni](/help/components/classifications/sets/job-manager.md). Se vieni aggiunto all’elenco di utenti a cui inviare notifiche sul completamento dei processi di acquisizione, riceverai anche messaggi e-mail.
 

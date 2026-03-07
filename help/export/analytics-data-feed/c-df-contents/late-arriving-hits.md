@@ -6,7 +6,7 @@ exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_late_hits"
->title="Consenti hit in arrivo"
->abstract="Seleziona questa opzione per includere i dati ricevuti dopo il completamento dell’elaborazione dei dati da parte del processo di feed dati all’interno della frequenza di reporting impostata (in genere giornaliera o oraria). Con questa opzione abilitata, ogni volta che un feed di dati elabora i dati, esamina eventuali hit in ritardo arrivati e li inserisce in batch con il successivo file di feed di dati inviato."
+>title="Consenti hit con arrivo in ritardo"
+>abstract="Seleziona questa opzione per includere i dati arrivati dopo il completamento dell’elaborazione dei dati da parte del processo di feed dati, entro la frequenza di reporting impostata (in genere giornaliera o oraria). Quando questa opzione è abilitata, ogni volta che un feed di dati elabora i dati, eventuali hit arrivati in ritardo vengono individuati e quindi inseriti in batch nel prossimo file di feed dati che viene inviato."
 
 <!-- markdownlint-enable MD034 -->
 

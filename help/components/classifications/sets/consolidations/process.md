@@ -6,7 +6,7 @@ feature: Classifications
 source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
 workflow-type: tm+mt
 source-wordcount: '906'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
@@ -20,7 +20,7 @@ Un consolidamento dei set di classificazione consente di prendere classificazion
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="Priorità del set di classificazione"
->abstract="Il ![Key](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) *set di classificazione* è il set di classificazione di base e definisce lo schema generale e ha la precedenza in tutti i conflitti di unione. Gli altri set di classificazione vengono applicati in ordine crescente."
+>abstract="Il *set di classificazione* ![Chiavi](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) è il set di classificazione di base che definisce lo schema generale e ha la precedenza in tutti i conflitti di unione. Gli altri set di classificazione vengono applicati in ordine dall’alto verso il basso."
 
 
 Per creare un consolidamento delle classificazioni, nell’interfaccia principale di Adobe Analytics:
@@ -61,12 +61,12 @@ Dopo aver creato un consolidamento, i passaggi successivi sono i seguenti:
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_mismatch"
 >title="Mancata corrispondenza"
->abstract="La percentuale di mancate corrispondenze chiave quando il valore nel set di classificazione consolidato non corrisponde al set di classificazione di origine."
+>abstract="Percentuale di mancate corrispondenze delle chiavi quando il valore nel set di classificazione consolidato non corrisponde al set di classificazione di origine."
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidations_absent"
 >title="Assente"
->abstract="La percentuale di chiavi nel set di classificazione consolidato, ma non nel set di classificazione di origine."
+>abstract="Percentuale di chiavi presenti nel set di classificazione consolidato, ma non nel set di classificazione di origine."
 
 Per modificare il consolidamento di una classificazione, nell’interfaccia principale di Adobe Analytics:
 

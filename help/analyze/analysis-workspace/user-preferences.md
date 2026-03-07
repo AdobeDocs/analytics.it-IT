@@ -18,7 +18,7 @@ Puoi gestire le impostazioni di Analysis Workspace e dei relativi componenti per
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire le preferenze](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire le preferenze](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -101,7 +101,7 @@ Fai clic sui titoli delle preferenze collegati per ulteriori informazioni e cont
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/it/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
@@ -135,7 +135,7 @@ Fai clic sui titoli delle preferenze collegati per ulteriori informazioni e cont
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_defaulttablemetric"
 >title="Metrica tabella predefinita"
->abstract="Seleziona la metrica predefinita da utilizzare per le tabelle a forma libera. Se la suite di rapporti selezionata non contiene la metrica predefinita selezionata, la tabella passa automaticamente a un’altra metrica principale."
+>abstract="Seleziona la metrica predefinita da utilizzare per le tabelle a forma libera. Se la suite di rapporti selezionata non contiene la metrica predefinita selezionata, la tabella passa automaticamente a un’altra metrica primaria."
 
 
 Puoi personalizzare le preferenze delle tabelle a forma libera per tutti i nuovi progetti creati in Analysis Workspace. Per informazioni su come accedere a queste preferenze, consulta la sezione [Aggiornare le preferenze](#update-preferences).
