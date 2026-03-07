@@ -16,5 +16,5 @@ ht-degree: 8%
 
 >[!WARNING]
 >
->Il grafico dei dispositivi in Analisi multidispositivo è [discontinuo](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) e non è più disponibile dal **31 dicembre 2025**. Cambiare qualsiasi suite di rapporti virtuali abilitata per Device Graph al [metodo basato sui campi](/help/components/cda/field-based-stitching.md).
+>Il grafico dei dispositivi in Analisi multidispositivo è [discontinuo](https://experienceleague.adobe.com/it/docs/discontinued/using/device-graph) e non è più disponibile dal **31 dicembre 2025**. Cambiare qualsiasi suite di rapporti virtuali abilitata per Device Graph al [metodo basato sui campi](/help/components/cda/field-based-stitching.md).
 >
