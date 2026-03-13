@@ -1,42 +1,47 @@
 ---
-title: Gestire Le Cartelle Di Lavoro Programmate In Report Builder
+title: Gestisci Cartelle Di Lavoro Pianificate Nel Report Builder
 description: Scopri come gestire le cartelle di lavoro pianificate in Report Builder.
 role: User
 feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fc0357f7-1762-47e4-9691-5fbdb177d45b
-source-git-commit: c3fe537967473754a3b5fe88c7b383647b2c742e
+source-git-commit: 6f55f750fa7243a445057dfb47d31d7cdeaed5dc
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '368'
 ht-degree: 5%
 
 ---
 
-# Gestire le cartelle di lavoro pianificate
+# Gestisci cartelle di lavoro pianificate
 
 Puoi pianificare una cartella di lavoro per la condivisione tramite e-mail o esportandola in una destinazione cloud, come descritto nei seguenti articoli:
 
 * [Pianificare le cartelle di lavoro condividendo tramite e-mail](/help/analyze/report-builder/schedule-reportbuilder.md)
 
-* [Pianificare le cartelle di lavoro esportandole in destinazioni cloud](/help/analyze/report-builder/report-builder-export.md)
+* [Schedule workbooks by exporting to cloud destinations](/help/analyze/report-builder/report-builder-export.md)
 
 Le sezioni seguenti descrivono come gestire le cartelle di lavoro dopo averle pianificate:
 
 ## Visualizzare e gestire cartelle di lavoro pianificate
 
-È possibile visualizzare e gestire tutte le cartelle di lavoro pianificate nella scheda **[!UICONTROL Workbooks]**.
+You can view and manage all scheduled workbooks in the **[!UICONTROL Workbooks]** tab.
 
-1. Seleziona **[!UICONTROL Schedule]** nell&#39;hub Report Builder
+1. Select **[!UICONTROL Schedule]** in the Report Builder hub
 
-1. Seleziona la scheda **[!UICONTROL Workbooks]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate.
+1. Seleziona la scheda **[!UICONTROL Workbooks]**. Viene visualizzato un elenco di tutte le cartelle di lavoro pianificate. In alternativa, è possibile selezionare la scheda **[!UICONTROL Legacy]** per visualizzare un elenco delle cartelle di lavoro legacy di cui è necessario eseguire la migrazione al nuovo Generatore report.
 
    ![Cartella di lavoro pianificata](assets/scheduled-workbooks.png){zoomable="yes"}
 
-   Passa il cursore del mouse sull’icona per visualizzare lo stato di una cartella di lavoro pianificata.
+1. Esegui una delle operazioni seguenti:
 
-   Utilizza ![Ricerca](/help/assets/icons/Search.svg) per cercare specifiche cartelle di lavoro pianificate.
-Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
+   * Passare il mouse sull&#39;icona per visualizzare lo stato di una cartella di lavoro pianificata.
+
+   * Nel campo di ricerca ![Cerca](/help/assets/icons/Search.svg), cerca specifiche cartelle di lavoro pianificate.
+
+   * Selezionare l&#39;icona della colonna ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
+
+   * Seleziona l&#39;icona filtro ![Icona filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg), quindi seleziona [!UICONTROL **Mostra tutto**] per visualizzare tutte le cartelle di lavoro pianificate per una determinata organizzazione.
 
 1. Selezionare una o più cartelle di lavoro.
 
@@ -54,7 +59,7 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le 
    | ![Elimina](/help/assets/icons/Delete.svg) | Elimina la pianificazione delle cartelle di lavoro selezionate. |
 
 
-## Cronologia e stato delle cartelle di lavoro pianificate
+## Cronologia e stato delle cartelle di lavoro programmate
 
 È possibile visualizzare la cronologia e lo stato delle cartelle di lavoro pianificate nella scheda **[!UICONTROL History]**.
 
@@ -67,9 +72,9 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le 
    Utilizzare ![Cerca](/help/assets/icons/Search.svg) per cercare cartelle di lavoro specifiche nell&#39;elenco.
 Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per definire le colonne da visualizzare.
 
-   La scheda **[!UICONTROL History]** consente di rivedere lo stato di ogni attività pianificata. Una riga separata documenta la modifica dello stato per ogni attività pianificata.
+   The **[!UICONTROL History]** tab allows you to review the status of each scheduled task. Una riga separata documenta la modifica dello stato per ogni attività pianificata.
 
-   * Un ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) indica che la cartella di lavoro è stata inviata correttamente.
+   * Un elemento ![CheckmarkCircleGreen](/help/assets/icons/CheckmarkCircleGreen.svg) indica che la cartella di lavoro è stata inviata correttamente.
    * Un ![AlertRed](/help/assets/icons/AlertRed.svg) indica che si è verificato un errore.
 
-In alternativa, è possibile selezionare ![Cronologia](/help/assets/icons/History.svg) per una o più cartelle di lavoro selezionate nella scheda **[!UICONTROL Workbooks]**. Questa azione mostra la scheda **[!UICONTROL History]** con un elenco filtrato in base alla selezione. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un filtro.
+In alternativa, è possibile selezionare ![Cronologia](/help/assets/icons/History.svg) per una o più cartelle di lavoro selezionate nella scheda **[!UICONTROL Workbooks]**. Questa azione consente di visualizzare la scheda **[!UICONTROL History]** con un elenco filtrato in base alla selezione. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un filtro.
