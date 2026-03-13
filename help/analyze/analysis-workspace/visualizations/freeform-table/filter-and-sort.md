@@ -4,7 +4,7 @@ title: Filtra E Ordina
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 734b76ab304c023e2b80ca30d085401e5b025849
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '1538'
 ht-degree: 50%
@@ -45,14 +45,16 @@ Per escludere righe specifiche da una tabella a forma libera:
 
    Tieni premuto il tasto ***Maiusc*** per selezionare un intervallo di righe oppure il tasto ***Cmd*** (in Mac) o il tasto ***Ctrl*** (in Windows) per selezionare più righe.
 
-<!--### Right-click > Delete selected rows
+<!--
+### Right-click > Delete selected rows
 
 Note: this option does not seem to work. AN-338422
 
 1. Select 1 or more rows. 
 1. Right-click and select **[!UICONTROL Delete Selected Rows]**. 
 
-   This action will remove the rows from the table and apply a table filter.-->
+   This action will remove the rows from the table and apply a table filter.
+-->
 
 
 ### Applicare un filtro semplice o avanzato a una tabella

@@ -3,7 +3,7 @@ description: Scopri come risolvere i problemi relativi ai segmenti.
 title: Risoluzione dei problemi
 feature: Segmentation
 exl-id: ca51110e-1ba7-4182-b5b2-baf9b0c017af
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 1%
@@ -14,7 +14,8 @@ ht-degree: 1%
 
 In questo articolo sono elencati alcuni problemi comuni relativi ai segmenti e come risolverli.
 
-<!-- Looks like this is not part anymore of the current UI.
+<!--
+Looks like this is not part anymore of the current UI.
 
 ## Error: "Incompatible elements in this segment" {#incompatible}
 
@@ -22,7 +23,6 @@ This error occurs when you try to save a segment in the Data Warehouse folder wh
 
 * Save the segment in a different folder 
 * Remove or change the incompatible portions of the segment.
-
 -->
 
 ## Perché il segmento non restituisce alcun dato? {#no-data}
