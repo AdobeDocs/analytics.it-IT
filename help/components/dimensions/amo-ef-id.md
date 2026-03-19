@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # ID AMO EF
 
-**[!UICONTROL AMO EF ID]** è un identificatore di ad click utilizzato nelle integrazioni Adobe Advertising. È un token univoco che Adobe Advertising utilizza per associare l’attività a un clic online o a un’esposizione pubblicitaria a livello di visitatore. La dimensione viene creata automaticamente quando si abilita l&#39;integrazione di [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
+**[!UICONTROL AMO EF ID]** è un identificatore di ad click utilizzato nelle integrazioni Adobe Advertising. È un token univoco che Adobe Advertising utilizza per associare l’attività a un clic online o a un’esposizione pubblicitaria a livello di visitatore. La dimensione viene creata automaticamente quando si abilita l&#39;integrazione di [Analytics for Advertising](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/overview).
 
 ## Popolare questa dimensione con i dati
 
