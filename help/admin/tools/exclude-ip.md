@@ -4,10 +4,10 @@ description: Impedisci la visualizzazione nei rapporti dei dati generati da alcu
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 4b4febd839682d88164b2f505245441d18ef2543
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 26%
+source-wordcount: '312'
+ht-degree: 12%
 
 ---
 
@@ -27,8 +27,8 @@ Per escludere i dati per indirizzo IP, puoi configurare le esclusioni come descr
 >* Non è necessario escludere gli indirizzi IP privati. Solo gli indirizzi IP esterni raggiungono i server di raccolta dati di Adobe. Gli indirizzi privati includono `10.*.*.*`, `192.168.*.*`, `172.[16-31].*.*` e `169.254.*.*`.
 >* È possibile utilizzare gli indicatori dei caratteri jolly (&#42;) per escludere un intervallo di indirizzi. Ad esempio, `[!DNL 0.0.*.0]` escluderebbe tutti gli indirizzi IP compresi tra `[!DNL 0.0.0.0]` e `[!DNL 0.0.255.0]`. Puoi escludere fino a 50 indirizzi IP diversi.
 >* I dati provenienti da un indirizzo IP escluso vengono esclusi per qualsiasi nuovo hit introdotto nel sistema entro 5 minuti dall’impostazione dell’esclusione.
->* I dati per gli hit acquisiti prima del momento in cui sono state apportate le modifiche all’indirizzo IP non sono interessati.
->
+>* I dati per gli hit acquisiti prima del momento in cui sono state apportate le modifiche all’indirizzo IP non sono interessati. L’esclusione degli IP si applica solo ai dati che progrediscono.
+>* Gli hit esclusi sono ancora visibili in [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md) (contrassegnati come `exclude_hit = 4`).
 
 Per configurare le esclusioni per indirizzo IP:
 
@@ -36,11 +36,9 @@ Per configurare le esclusioni per indirizzo IP:
 
 1. Nella pagina Amministrazione, selezionare **[!UICONTROL Exclude by IP]**.
 
+## Impatto dell’utilizzo dell’offuscamento dell’IP con esclusione dell’IP
 
+L&#39;impatto dell&#39;utilizzo di [offuscamento IP](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) insieme all&#39;esclusione IP dipende dall&#39;impostazione di offuscamento IP di ogni suite di rapporti:
 
-
-## Impatto dell’offuscamento dell’IP {#section_51B7529FFF16449CA016FDC51D87E2CA}
-
-Se l’offuscamento dell’IP è abilitato, l’esclusione di tale IP si verifica prima che l’indirizzo IP sia offuscato, pertanto i clienti non devono apportare alcuna modifica quando abilitano l’offuscamento dell’IP.
-
-Se l’ultimo ottetto viene rimosso, questa operazione viene eseguita prima del filtro dell’IP. Di conseguenza, l’ultimo ottetto viene sostituito da 0 e le regole di esclusione IP devono essere aggiornate in modo che corrispondano agli indirizzi IP con uno zero alla fine. La corrispondenza &#42; deve corrispondere a 0.
+* **Offuscamento IP (ultimo ottetto)**: IP parzialmente offuscato PRIMA dell&#39;esecuzione dell&#39;esclusione IP. Assicurarsi che le regole di esclusione IP prevedano sempre un `0` come ultimo ottetto (i caratteri jolly sono validi in quanto includono `0`).
+* **Offuscamento IP (rimozione IP)**: l&#39;IP è completamente offuscato DOPO l&#39;esecuzione dell&#39;esclusione IP. Non è necessaria alcuna configurazione della regola di esclusione IP.

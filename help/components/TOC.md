@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 6e818b5f25b5d7636513a756b534b13dd87ec35d
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 94%
+source-wordcount: '745'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 94%
    + [Area geografica di Activity Map](dimensions/activity-map-region.md)
    + [Consenso per la piattaforma di annunci](dimensions/ad-consent.md)
    + [Classificazione di tutte le pagine di ricerca](dimensions/all-search-page-rank.md)
+   + [ID AMO](dimensions/amo-id.md)
+   + [ID AMO EF](dimensions/amo-ef-id.md)
+   + [ID clic degli annunci Meta AMO](dimensions/amo-meta-id.md)
    + [AM/PM](dimensions/am-pm.md)
    + [Nome bot](dimensions/bot-name.md)
    + [Altezza browser](dimensions/browser-height.md)
@@ -52,7 +55,7 @@ ht-degree: 94%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar &#x200B;](dimensions/evar.md)
+   + [eVar ](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
@@ -120,7 +123,7 @@ ht-degree: 94%
    + [Codice di avviamento postale](dimensions/zip-code.md)
 + Metriche {#metrics}
    + [Panoramica delle metriche](metrics/overview.md)
-   + [Conta istanze ripetute](metrics/count-repeat-instances.md)
+   + [Metriche di Advertising](metrics/amo-metrics.md)
    + [Profondità media della pagine](metrics/average-page-depth.md)
    + [Visualizzazioni di pagina medie per visita](metrics/average-page-views-per-visit.md)
    + [Lunghezza media della sessione](metrics/average-session-length.md)
@@ -265,7 +268,7 @@ ht-degree: 94%
       + [Panoramica](classifications/sets/overview.md)
       + [File di dati](classifications/sets/data-files.md)
       + [Creare e modificare](/help/components/classifications/sets/create-set.md)
-      + [Gestire i](/help/components/classifications/sets/manage-sets.md)
+      + [Gestire](/help/components/classifications/sets/manage-sets.md)
       + Set di classificazione {#set}
          + [Impostazioni](classifications/sets/manage/settings.md)
          + [Schema](classifications/sets/manage/schema.md)
@@ -273,7 +276,7 @@ ht-degree: 94%
       + [Processi di classificazione](classifications/sets/job-manager.md)
       + Consolidamenti di classificazione {#consolidations}
          + [Creare e modificare](classifications/sets/consolidations/process.md)
-         + [Gestire i](classifications/sets/consolidations/manage.md)
+         + [Gestire](classifications/sets/consolidations/manage.md)
    + Classificazioni legacy {#legacy-classifications}
       + Generatore regole di classificazione {#classifications-rulebuilder}
          + [Panoramica](classifications/crb/classification-rule-builder.md)

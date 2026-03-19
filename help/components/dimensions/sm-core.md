@@ -3,9 +3,9 @@ title: Dimensioni principali dei servizi di contenuti multimediali in streaming
 description: Dimensioni disponibili quando si abilita [!UICONTROL Media Core] per una suite di rapporti.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+source-git-commit: fd82e93bd98021e124f2db6913b5e5c59797a26f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '383'
 ht-degree: 7%
 
 ---
@@ -28,6 +28,7 @@ Quando abiliti **[!UICONTROL Media Core]** in [Generazione rapporti multimediali
 | **[!UICONTROL Content segment]** | L’intervallo che descrive la parte del contenuto visualizzata, in minuti. Il segmento viene calcolato come valori minimo e massimo della testina di riproduzione durante una sessione di riproduzione. | Chiusura file multimediale | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
 | **[!UICONTROL Content type]** | Il tipo di contenuto. I valori validi includono `song`, `podcast`, `audiobook`, `radio`, `VoD`, `Live`, `Linear`, `UGC`, `DVoD` o un valore personalizzato. | Avvio file multimediale, Chiusura file multimediale | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
 | **[!UICONTROL Media path]** | Il percorso seguito dal visitatore per raggiungere il contenuto. | Avvio file multimediale | `a.media.path` | |
+| **[!UICONTROL Media session ID]** | Identifica un’istanza di un flusso di contenuto univoco per una singola riproduzione. | Avvio file multimediale, Chiusura file multimediale | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
 | **[!UICONTROL Stream type]** | Il tipo di flusso. I valori validi includono `audio` e `video`. | Avvio file multimediale, Chiusura file multimediale | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
 
 Oltre alle dimensioni di cui sopra, Adobe crea automaticamente le seguenti dimensioni di classificazione. Per visualizzare i rapporti che utilizzano queste dimensioni, devi caricare i dati di classificazione.

@@ -3,29 +3,39 @@ title: Accesso singolo
 description: Il numero di volte in cui un elemento dimensione non è cambiato in una visita.
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '439'
 ht-degree: 2%
 
 ---
 
 # Accesso singolo
 
-La [metrica](overview.md) di &quot;Accesso singolo&quot; mostra il numero di visite in cui l&#39;elemento dimensione conteneva un solo valore univoco per l&#39;intera visita. Questa metrica è utile nel contesto di qualsiasi dimensione in cui desideri vedere quali elementi dimensionali ristagnano durante una visita.
+La **[!UICONTROL Single access]** [metrica](overview.md) mostra il numero di visite in cui la dimensione di reporting applicabile conteneva un solo valore per un&#39;intera visita. Si tratta della versione più ampia di [[!UICONTROL Single page visits]](single-page-visits.md) specifica per la dimensione. Questa metrica è utile nel contesto di qualsiasi dimensione in cui desideri visualizzare il valore di una dimensione quando è stata impostata una sola volta durante una visita.
 
 ## Come è calcolata questa metrica
 
-Questa metrica conta le visite in cui l’elemento dimensionale conteneva un singolo valore univoco. Puoi impostare l’elemento dimensionale più volte oppure impostarlo in modo che persista e venga comunque conteggiato come un singolo accesso. Non appena un elemento dimensionale diventa un secondo valore univoco, la visita non si qualifica più come un singolo accesso.
+La definizione di questa metrica dipende dall&#39;impostazione del progetto di [[!UICONTROL Count repeat instances]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings):
 
-## Differenza tra &quot;Accesso singolo&quot; e &quot;Visita a pagina singola&quot;
+* **Conta istanze ripetute abilitate**: conta le visite in cui la dimensione contiene esattamente un valore in una visita. Se la dimensione persiste, non può più essere considerata un singolo accesso.
+* **Numero istanze ripetute disabilitate**: conta le visite in cui la dimensione contiene un singolo valore univoco. Puoi impostare più volte lo stesso valore per l’elemento dimensionale, oppure impostarlo in modo che persista e venga comunque conteggiato come un singolo accesso.
 
-Nel contesto della dimensione [Pagina](../dimensions/page.md), &quot;Accesso singolo&quot; e &quot;Visite a pagina singola&quot; sono identici. Le loro differenze emergono quando utilizzate altre quote.
+Indipendentemente da &#39;[!UICONTROL Count repeat instances]&#39;, la visita non è più considerata un singolo accesso se la dimensione cambia in un secondo valore univoco. Le chiamate di tracciamento dei collegamenti sono incluse in questo calcolo se in esse è impostata la dimensione.
 
-* **Accesso singolo**: mostra il numero di visite in cui l&#39;elemento dimensione specificato non è stato modificato per l&#39;intera visita. È contestuale alla dimensione utilizzata nel progetto.
-* **Visita a pagina singola**: mostra il numero di visite in cui la dimensione &quot;Pagina&quot; non è cambiata per l&#39;intera visita. Anche se utilizzi un’altra dimensione nel rapporto, vengono comunque conteggiate le visite che contengono un singolo elemento dimensione &quot;Pagina&quot; univoco.
+## Differenza tra &#39;[!UICONTROL Single access]&#39; e &#39;[!UICONTROL Single page visit]&#39;
 
-Ad esempio, considera l’esempio seguente due visite hit. La dimensione nel report è [Sezione del sito](../dimensions/site-section.md).
+Nel contesto della dimensione [[!UICONTROL Page]](../dimensions/page.md), &#39;[!UICONTROL Single access]&#39; e &#39;[!UICONTROL Single page visits]&#39; sono sempre identici indipendentemente dall&#39;impostazione del progetto &#39;[!UICONTROL Count repeat instances]&#39;. Le loro differenze emergono quando utilizzate altre quote.
 
-* Un visitatore visita due pagine, ma si trovano entrambe nella stessa sezione del sito. Poiché la sezione del sito è rimasta la stessa durante la visita, conta come un accesso singolo. Non viene conteggiata come visita a pagina singola perché la visita contiene più di un elemento dimensione Pagina univoco.
-* Un visitatore visita due pagine in diverse sezioni del sito, ma entrambe le pagine hanno lo stesso nome. La visita non viene conteggiata come accesso singolo perché sono presenti due valori univoci della sezione del sito. Conta come visita di una singola pagina perché era presente un singolo elemento dimensione Pagina univoco.
+* **[!UICONTROL Single access]**: mostra il numero di visite in cui era presente l&#39;elemento dimensione specificato per un singolo hit. È contestuale alla dimensione utilizzata nel progetto.
+* **[!UICONTROL Single page visit]**: mostra il numero di visite in cui la dimensione &#39;[!UICONTROL Page]&#39; era presente per un singolo hit. Anche se si utilizza un&#39;altra dimensione nel report, vengono comunque conteggiate le visite che contengono un singolo elemento di dimensione univoco &#39;[!UICONTROL Page]&#39;.
+
+Se [[!UICONTROL Count repeat instances]](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md#project-info-settings) è disabilitato, le definizioni delle metriche cambiano leggermente:
+
+* **Accesso singolo**: mostra il numero di visite in cui l&#39;elemento dimensione specificato non è stato modificato per l&#39;intera visita.
+* **Visita a pagina singola**: mostra il numero di visite in cui la dimensione &#39;[!UICONTROL Page]&#39; non è stata modificata per l&#39;intera visita.
+
+Ad esempio, considera il seguente esempio di visite con due hit. La dimensione nel report è [[!UICONTROL Site section]](../dimensions/site-section.md) e &#39;[!UICONTROL Count repeat instances]&#39; è disabilitato.
+
+* Un visitatore visita due pagine, ma si trovano entrambe nella stessa sezione del sito. Poiché la sezione del sito è rimasta la stessa durante la visita, conta come un singolo accesso. Non viene conteggiata come visita di una singola pagina perché la visita contiene più di un elemento dimensione [!UICONTROL Page] univoco.
+* Un visitatore visita due pagine in diverse sezioni del sito, ma entrambe le pagine hanno lo stesso nome. La visita non viene conteggiata come un singolo accesso perché sono presenti due valori univoci della sezione del sito. Conta come una visita a pagina singola perché è presente un singolo elemento dimensione [!UICONTROL Page] univoco.

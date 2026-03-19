@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 761ee1993296cab3c29f706d6e1c79bb08b46303
+source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
 workflow-type: tm+mt
-source-wordcount: '6585'
+source-wordcount: '6610'
 ht-degree: 88%
 
 ---
@@ -27,11 +27,13 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | --- | --- |
 | **Marzo 2026** | |
 | È stata identificata l’opzione predefinita per l’offuscamento dell’IP nelle nuove suite di rapporti | Sono state aggiunte informazioni che indicano che **Rimuovi indirizzo IP** è l&#39;opzione predefinita di [offuscamento IP per le nuove suite di rapporti](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). |
+| Revisione ordine di elaborazione | Miglioramenti significativi all&#39;[Ordine di elaborazione in Adobe Analytics](/help/technotes/processing-order.md). |
+| Integrazione con Adobe Advertising | Aggiunte di dimensioni e metriche di integrazione Adobe Advertising, incluso [AMO ID](/help/components/dimensions/amo-id.md). |
 | **Febbraio 2026** |  |
 | Sono state aggiunte informazioni sull’utilizzo dei rapporti sulle aree geografiche e sulle tecnologie | Sono state aggiunte informazioni sulle differenze durante l&#39;utilizzo dei rapporti geografici e tecnologici [in vari prodotti Analytics](/help/analyze/get-started/analytics-product-comparison.md). |
 | **Gennaio 2026** | |
 | Generatore di regole per i set di classificazione | Documentazione per la nuova funzionalità [Generatore regole nei set di classificazione](/help/components/classifications/sets/manage/rules.md). |
-| Device Graph | Sono stati rimossi i riferimenti alla [funzionalità del grafo di dispositivi interrotta](https://experienceleague.adobe.com/it/docs/discontinued/using/device-graph). |
+| Device Graph | Sono stati rimossi i riferimenti alla [funzionalità del grafo di dispositivi interrotta](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph). |
 
 ### 2025 {#year2025}
 
@@ -58,7 +60,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Nuove azioni di scelta rapida da tastiera | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [spostare i pannelli di Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#move-panel-actions) in alto e in basso in un progetto. |
 | **Marzo 2025** |  |
 | Inventario di Analytics | [L&#39;inventario di Analytics](/help/admin/tools/analytics-inventory.md) fornisce una panoramica completa dell&#39;ambiente Adobe Analytics, incluso il numero di progetti e componenti, suite di rapporti, utenti e altro ancora. |
-| Guida per l’aggiornamento di Customer Journey Analytics | Consente di generare una [guida dettagliata](https://experienceleague.adobe.com/it/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. |
+| Guida per l’aggiornamento di Customer Journey Analytics | Consente di generare una [guida dettagliata](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations?lang=en#recommended-upgrade-steps-for-most-organizations) per l&#39;aggiornamento da Adobe Analytics a Customer Journey Analytics. |
 | Formattazione data più chiara nelle esportazioni Data Warehouse | I valori delle dimensioni basati sul tempo nelle esportazioni Data Warehouse hanno una formattazione della data non standard. Sono state aggiunte informazioni che spiegano come interpretare i valori delle date dalle esportazioni Data Warehouse. <p>Vedi [Dimensioni supportate in modo diverso (formattazione della data non standard)](/help/export/data-warehouse/component-support.md#dimensions-supported-in-a-different-way-non-standard-date-formatting) in [Supporto dei componenti in Data Warehouse](/help/export/data-warehouse/component-support.md).</p> |
 | Sono state aggiornate le informazioni sulle esclusioni IP | Sono state aggiunte informazioni che spiegano che [le esclusioni IP](/help/admin/tools/exclude-ip.md) possono richiedere fino a 5 minuti prima di diventare effettive e che le modifiche si applicano solo ai nuovi hit (i dati acquisiti prima dell&#39;impostazione dell&#39;esclusione non sono interessati). <p>È stato aggiornato anche il layout dei contenuti per migliorarne la leggibilità.</p> |
 | **Febbraio 2025** |  |
@@ -248,7 +250,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 18 agosto 2021 | Struttura di primo livello rivista e consolidata in un’unica [Pagina di destinazione](https://experienceleague.adobe.com/docs/analytics.html?lang=it) |
 | 18 agosto 2021 | Nuovo argomento su [A4T e suite di rapporti virtuali](/help/components/vrs/vrs-a4t.md) |
 | 18 agosto 2021 | Nuovo argomento su [Best practice di attribuzione](/help/analyze/analysis-workspace/attribution/best-practices.md) |
-| 5 agosto 2021 | Nuovo argomento sulla funzione [Conta istanze ripetute](/help/components/metrics/count-repeat-instances.md). |
+| 5 agosto 2021 | Nuovo argomento sul conteggio delle istanze ripetute. |
 | 5 agosto 2021 | È stata aggiornata la documentazione sulle classificazioni relativa a [modelli](/help/components/classifications/importer/c-download-saint-data.md), [importazione browser](/help/components/classifications/importer/browser-import.md) ed [esportazione browser](/help/components/classifications/importer/browser-export.md) per indicare le opzioni non disponibili per le suite di rapporti abilitate per la nuova architettura di classificazione. |
 | 2 agosto 2021 | Sono state aggiornate diverse pagine a seguito del branding di [Adobe Experience Platform Launch](/help/implement/launch/overview.md). |
 | **Luglio 2021** |  |

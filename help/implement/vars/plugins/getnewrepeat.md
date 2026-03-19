@@ -4,9 +4,9 @@ description: Tracciare l’attività dei visitatori nuovi rispetto a quelli ripe
 feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '615'
 ht-degree: 7%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 {{plug-in}}
 
-Il plug-in `getNewRepeat` consente di determinare se un visitatore del sito è un nuovo visitatore o un visitatore ripetuto entro un numero desiderato di giorni. Adobe consiglia di utilizzare questo plug-in se si desidera identificare i visitatori come &quot;nuovi&quot; utilizzando un numero di giorni personalizzato. Questo plug-in non è necessario se le dimensioni Visitatore nuovo/ripetuto in Analysis Workspace soddisfano le esigenze della tua organizzazione.
+Il plug-in `getNewRepeat` consente di determinare se un visitatore del sito è un nuovo visitatore o un visitatore ripetuto entro un numero desiderato di giorni. Adobe consiglia di utilizzare questo plug-in se si desidera identificare i visitatori come &quot;nuovi&quot; utilizzando un numero di giorni personalizzato. Questo plug-in non è necessario se i segmenti &#39;[!UICONTROL New Visitors]&#39; e &#39;[!UICONTROL Repeat Visitors]&#39; in Analysis Workspace soddisfano le esigenze della tua organizzazione.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
