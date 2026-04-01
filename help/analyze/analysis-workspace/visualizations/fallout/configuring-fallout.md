@@ -4,10 +4,10 @@ title: Configurare Una Visualizzazione Abbandono
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 89cc33528d3907d955a543f3e43774a1065e149a
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 17%
+source-wordcount: '833'
+ht-degree: 13%
 
 ---
 
@@ -24,34 +24,44 @@ Puoi eseguire la tracciatura di percorsi per dimensioni, metriche e segmenti. Ad
 ## Utilizzo
 
 1. Aggiungi una visualizzazione ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg) **[!UICONTROL Fallout]**. Consulta [Aggiungere una visualizzazione a un pannello](../freeform-analysis-visualizations.md#add-visualizations-to-a-panel).
-1. Trascina una pagina, ad esempio Home, dalla dimensione Pagina al menu a discesa *Aggiungi punto di contatto*.
+1. Trascinare un componente nel menu a discesa **[!UICONTROL Add touchpoint]**.
+
+   Ad esempio, puoi aggiungere una singola pagina al rapporto di abbandono, anziché l’intera dimensione. Fare clic sulla freccia destra ![ChevronRight](/help/assets/icons/ChevronRight.svg) nella dimensione pagina per scegliere una pagina specifica, ad esempio **[!UICONTROL home]**, da aggiungere al report Abbandono.
 
    ![La home page dalla dimensione Home page è stata trascinata nel campo Aggiungi punto di contatto.](assets/fallout-drag.png)
 
-   Passa il puntatore del mouse su un punto di contatto per vedere l’abbandono e altre informazioni su tale livello, come il nome del punto di contatto e il numero di persone a quel punto. E osserva il tasso di successo per quel punto di contatto (nonché confronta il tasso di successo con altri punti di contatto).
+1. Continua ad aggiungere punti di contatto fino al completamento della sequenza.
 
    I numeri cerchiati nella porzione grigia della barra mostrano l’abbandono tra i punti di contatto (non l’abbandono complessivo per quel punto). **[!UICONTROL Touchpoint %]** mostra l&#39;abbandono riuscito dal passaggio precedente al passaggio corrente nel report sull&#39;abbandono.
 
-   Puoi anche aggiungere una sola pagina al rapporto di abbandono, invece che l’intera dimensione. Fare clic sulla freccia destra ![ChevronRight](/help/assets/icons/ChevronRight.svg) nella dimensione pagina per scegliere una pagina specifica da aggiungere al report Abbandono.
-
-1. Continua ad aggiungere punti di contatto fino al completamento della sequenza.
-
-   Puoi **combinare più punti di contatto** trascinando uno o più componenti aggiuntivi su un punto di contatto.
-
-   >[!NOTE]
-   >
-   >Per unire più segmenti si usa l’operatore AND; per unire più elementi, ad esempio elementi dimensione, si usa l’operatore OR.
-
    ![Pagina:CamerRoll o Pagina: punti di contatto fotocamera evidenziati.](assets/fallout-or.png)
 
-1. Puoi anche **vincolare singoli punti di contatto all&#39;evento successivo** (anziché *alla fine*) all&#39;interno del percorso. Sotto ogni punto di contatto è presente un selettore con le opzioni **[!UICONTROL Eventual path]** e **[!UICONTROL Next event]**, come illustrato di seguito:
+   Quando aggiungi punti di contatto, puoi effettuare una delle seguenti operazioni:
 
-   ![La vista Tutte le visite mostra l&#39;opzione Percorso finale evidenziata. &#x200B;](assets/fallout-nexthit.png)
+   * Combina più componenti trascinando uno o più componenti aggiuntivi su un singolo punto di contatto.
 
-   | Opzione | Descrizione |
-   |---|---|
-   | **[!UICONTROL Eventual path]** (predefinito) | Sono conteggiati i visitatori che *alla fine* approderanno sulla pagina successiva del percorso, ma non necessariamente sull&#39;evento successivo. |
-   | **[!UICONTROL Next event]** | Sono conteggiati i visitatori che arriveranno alla pagina successiva del percorso nel prossimo evento. |
+     >[!NOTE]
+     >
+     >Per unire più segmenti si usa l’operatore AND; per unire più elementi, ad esempio elementi dimensione, si usa l’operatore OR.
+
+   * Riordina i punti di contatto trascinandoli a un livello diverso all’interno della gerarchia di abbandono.
+
+   * Combinare un punto di contatto con un altro punto di contatto. Per combinare i punti di contatto, trascinateli su un altro. Rilasciarlo quando viene visualizzata la parola **[!UICONTROL Combine]**.
+
+     ![Combina punti di contatto](assets/fallout-combine-touchpoints.png)
+
+   * Vincola singoli punti di contatto all&#39;evento successivo (anziché *alla fine*) all&#39;interno del percorso. Sotto ogni punto di contatto è presente un selettore con le opzioni **[!UICONTROL Eventual path]** e **[!UICONTROL Next event]**, come illustrato di seguito:
+
+     ![La vista Tutte le visite mostra l&#39;opzione Percorso finale evidenziata. ](assets/fallout-nexthit.png)
+
+     | Opzione | Descrizione |
+     |---|---|
+     | **[!UICONTROL Eventual path]** (predefinito) | Sono conteggiati i visitatori che *alla fine* approderanno sulla pagina successiva del percorso, ma non necessariamente sull&#39;evento successivo. |
+     | **[!UICONTROL Next event]** | Sono conteggiati i visitatori che arriveranno alla pagina successiva del percorso nel prossimo evento. |
+
+   * Passa il puntatore del mouse su un punto di contatto per visualizzare l’abbandono e altre informazioni su tale livello. Le informazioni includono il nome del punto di contatto, il conteggio delle persone e la percentuale di successo. Puoi anche confrontare il tasso di successo con altri punti di contatto.
+
+     ![Descrizione comando punto di contatto](assets/fallout-tooltip.png)
 
 
 ## Impostazioni
@@ -67,15 +77,29 @@ Come parte della visualizzazione, sono disponibili impostazioni specifiche.
 
 Come parte della visualizzazione, sono disponibili opzioni di menu di scelta rapida specifiche.
 
-![Opzioni di abbandono](assets/fallout-options.png)
+### Accedere al menu di scelta rapida
+
+È possibile accedere al menu di scelta rapida in uno dei modi seguenti:
+
+* Passa il puntatore del mouse su un punto di contatto nella visualizzazione, quindi seleziona **[!UICONTROL Click to analyze]**.
+
+  ![Accedi al menu di scelta rapida dal passaggio del mouse](assets/fallout-tooltip-analyze.png)
+
+* Fai clic con il pulsante destro del mouse su un punto di contatto nella visualizzazione.
+
+  ![Opzioni di abbandono](assets/fallout-options.png)
+
+### Opzioni del menu di scelta rapida
+
+Sono disponibili le seguenti opzioni del menu di scelta rapida:
 
 | Opzione | Descrizione |
 |--- |--- |
 | **[!UICONTROL Trend touchpoint]** | Vedi i dati di tendenza per un punto di contatto in un grafico a linee, con alcuni dati predefiniti di rilevamento delle anomalie. |
 | **[!UICONTROL Trend touchpoint (%)]** | Genera tendenze sulla percentuale di abbandono totale. |
 | **[!UICONTROL Trend all touchpoints (%)]** | Genera tendenze su tutte le percentuali dei punti di contatto nell&#39;abbandono (tranne **[!UICONTROL All People]**, se incluso) nello stesso grafico. |
-| **[!UICONTROL Break down fallthrough at this touchpoint]** | Puoi vedere cosa hanno fatto i visitatori tra due punti di contatto (questo e il successivo) se hanno continuato fino al punto di contatto successivo. In questo modo viene creata una tabella a forma libera che mostra le dimensioni. Potete sostituire le quote e altri elementi della tabella. Ad esempio, una tabella etichettata **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** e contenente **[!UICONTROL Page]** come dimensione e **[!UICONTROL Unique Visitors]** segmentata dal [segmento rapido solo progetto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** come metrica. Ispeziona il segmento per capire come viene determinato il segmento di fallthrough. |
-| **[!UICONTROL Break down fallout at this touchpoint]** | Visualizza cosa hanno fatto immediatamente dopo il passaggio selezionato i visitatori che non hanno effettuato il passaggio in funnel. In questo modo viene creata una tabella a forma libera che mostra le dimensioni. Potete sostituire le quote e altri elementi della tabella. Ad esempio, una tabella etichettata **[!UICONTROL Fallout: All Visitors > Page equals any of home]** e contenente **[!UICONTROL Page]** come dimensione e **[!UICONTROL Unique Visitors]** segmentata dal segmento rapido [solo progetto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** come metrica. Ispeziona il segmento per capire come viene determinato il segmento di abbandono. |
+| **[!UICONTROL Breakdown fallthrough at this touchpoint]** | Puoi vedere cosa hanno fatto i visitatori tra due punti di contatto (questo e il successivo) se hanno continuato fino al punto di contatto successivo. Questa opzione crea una tabella a forma libera che mostra le dimensioni. Potete sostituire le quote e altri elementi della tabella. Ad esempio, una tabella etichettata **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** e contenente **[!UICONTROL Page]** come dimensione e **[!UICONTROL Unique Visitors]** segmentata dal [segmento rapido solo progetto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** come metrica. Ispeziona il segmento per capire come viene determinato il segmento di fallthrough. |
+| **[!UICONTROL Breakdown fallout at this touchpoint]** | Visualizza cosa hanno fatto immediatamente dopo il passaggio selezionato i visitatori che non hanno effettuato il passaggio in funnel. Questa opzione crea una tabella a forma libera che mostra le dimensioni. Potete sostituire le quote e altri elementi della tabella. Ad esempio, una tabella etichettata **[!UICONTROL Fallout: All Visitors > Page equals any of home]** e contenente **[!UICONTROL Page]** come dimensione e **[!UICONTROL Unique Visitors]** segmentata dal segmento rapido [solo progetto](/help/components/segmentation/segmentation-workflow/seg-quick.md) **[!UICONTROL Fallthrough: All Visitors > Page equals any of home]** come metrica. Ispeziona il segmento per capire come viene determinato il segmento di abbandono. |
 | **[!UICONTROL Create segment from touchpoint]** | Crea un nuovo segmento dal punto di contatto selezionato. |
 
 >[!MORELIKETHIS]
