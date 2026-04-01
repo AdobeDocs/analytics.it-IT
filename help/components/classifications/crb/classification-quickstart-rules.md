@@ -133,7 +133,7 @@ Nel [!UICONTROL Rule Builder], configura la regola come segue:
 
 | Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | Su |
 |---|---|---|---|
-| Espressione regolare | &Hat;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
+| Espressione regolare | &amp;Hat;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
 
 **Sintassi**
 
@@ -391,7 +391,7 @@ Per convalidare e attivare le regole di classificazione:
 
    ![](assets/overwrite_keys.png)
 
-1. Per sovrascrivere le classificazioni, abilita **[!UICONTROL Overwrite classifications for]** &lt;*selezione*> (facoltativo).
+1. (Facoltativo) Per sovrascrivere le classificazioni, abilita **[!UICONTROL Overwrite classifications for]** &lt;*selezione*>.
 
    Questa opzione consente di sovrascrivere le classificazioni esistenti per le chiavi interessate.
 
