@@ -4,7 +4,7 @@ title: Lead time richiesto per aumento di traffico
 feature: Report Suite Settings
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
 ht-degree: 100%
 
