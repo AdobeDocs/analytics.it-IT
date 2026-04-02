@@ -4,9 +4,9 @@ title: Panoramica Dei Pannelli In Analysis Workspace
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: c86e1ef4a93591e7623fe5a9f2f9d92529773516
+source-git-commit: f290b859f6e41de15bc115c8f4e90b616c9a1d8c
 workflow-type: tm+mt
-source-wordcount: '2566'
+source-wordcount: '2591'
 ht-degree: 35%
 
 ---
@@ -91,7 +91,7 @@ Puoi gestire un pannello nei modi seguenti:
 
 ## Suite di rapporti
 
-Ogni pannello è associato a una [suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**&#x200B;nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**nel menu a discesa in alto a destra del pannello.
 
 Quando crei un nuovo pannello, la suite di rapporti predefinita si basa sulla suite di rapporti dell’ultimo pannello su cui hai lavorato nel progetto Analysis Workspace.
 
@@ -177,9 +177,9 @@ Per aggiungere o sostituire segmenti o raggruppamenti (rapidi):
       * [Segmento](#segment) per qualsiasi componente del segmento di cui si rilascia ❷.
       * [Segmento rapido](#quick-segment) per qualsiasi componente non relativo al segmento (intervalli di date, metriche, dimensioni, elementi dimensionali) eliminato ❸.
    * Rilascia la selezione **mentre tieni premuto** ⇧ (MAIUSC) per creare i seguenti componenti:
-      * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per i segmenti selezionati da eliminare ❹.
-      * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per gli intervalli di date selezionati per i quali si rilascia ❺.
-      * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per le metriche selezionate su cui si rilascia ❻.
+      * Menu a discesa del segmento statico [](#drop-down-menu) con elementi da filtrare per i segmenti selezionati da eliminare ❹.
+      * Menu a discesa del segmento statico [](#drop-down-menu) con elementi da filtrare per gli intervalli di date selezionati per i quali si rilascia ❺.
+      * Menu a discesa del segmento statico [](#drop-down-menu) con elementi da filtrare per le metriche selezionate su cui si rilascia ❻.
       * Menu a discesa [statico](#drop-down-menu) o menu a discesa [con raggruppamenti](#drop-down-menu) con elementi su cui filtrare o raggruppare la dimensione selezionata *elementi* per la quale si eliminano ❼.
       * Menu a discesa [segmento dinamico](#drop-down-menu) o menu a discesa [raggruppamento](#drop-down-menu) con elementi su cui filtrare o raggruppare le dimensioni selezionate su cui rilasciare ❽.
 
@@ -226,16 +226,16 @@ Ad esempio, puoi aggiungere due menu a discesa dinamici utilizzando una dimensio
 
 Per qualsiasi componente di metrica, segmento o intervallo di date che rilasci **mentre tieni premuto** ⇧, viene creato un menu a discesa del segmento. Il menu a discesa consente di filtrare il pannello in base agli elementi disponibili per il componente rilasciato.
 
-Per qualsiasi componente *dimension* a cui viene rilasciato **mentre si tiene** ⇧, viene creato un menu a discesa dei segmenti. Questo menu a discesa ti consente di filtrare il pannello in base agli elementi disponibili per gli elementi dimensione eliminati (menu a discesa [static](#static) segmento) o per il componente dimensione (menu a discesa [dynamic](#dynamic) segmento). Per configurare il menu a discesa in modo esplicito per filtrare utilizzando i segmenti:
+Per qualsiasi componente *dimension* a cui viene rilasciato **mentre si tiene** ⇧, viene creato un menu a discesa dei segmenti. Questo menu a discesa ti consente di filtrare il pannello in base agli elementi disponibili per gli elementi dimensione eliminati (menu a discesa [static](#static) segmento) o per il componente dimensione (menu a discesa [dynamic](#dynamic) segmento). Per configurare esplicitamente il menu a discesa per filtrare un pannello utilizzando i segmenti:
 
-* Selezionare ![Raggruppamento](/help/assets/icons/Breakdown.svg) e ![Filtro](/help/assets/icons/Filter.svg) dal menu di scelta rapida per il componente ❾.
+* Selezionare ![Raggruppamento](/help/assets/icons/Breakdown.svg) e ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** | **[!UICONTROL Filters the data in the panel]** dal menu di scelta rapida per il componente ❾.
 
 
 #### Suddividere un pannello
 
-Per qualsiasi componente *dimension* a cui viene rilasciato **mentre si tiene** ⇧, viene creato un menu a discesa dei segmenti. Al suo posto, puoi configurare il menu a discesa per suddividerlo. Per configurare il menu a discesa in modo esplicito per la suddivisione utilizzando le suddivisioni:
+Per qualsiasi componente *dimension* a cui viene rilasciato **mentre si tiene** ⇧, viene creato un menu a discesa dei segmenti. Puoi configurare il menu a discesa per suddividere il pannello in base agli elementi disponibili per gli elementi dimensionali eliminati (menu a discesa con raggruppamento [statico](#static)) o per il componente dimensione (menu a discesa con raggruppamento [dinamico](#dynamic)). Per configurare esplicitamente il menu a discesa in modo da suddividere un pannello utilizzando le suddivisioni:
 
-* Selezionare ![Filtro](/help/assets/icons/Filter.svg) e selezionare ![Raggruppamento](/help/assets/icons/Breakdown.svg) dal menu di scelta rapida per il componente ❾.
+* Selezionare ![Filtro](/help/assets/icons/Filter.svg) e ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** | **[!UICONTROL Breaks down the data in the panel]** dal menu di scelta rapida per il componente ❾.
 
 >[!IMPORTANT]
 >
@@ -283,13 +283,13 @@ Puoi gestire i componenti nella zona di rilascio come segue:
 
 >[!BEGINSHADEBOX]
 
-Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di filtri in Analysis Workspace](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"} per un video demo.
+Vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizzo di filtri in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Menu a discesa dinamici](https://experienceleague.adobe.com/it/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Menu a discesa dinamici](https://experienceleague.adobe.com/en/docs/customer-journey-analytics-learn/tutorials/analysis-workspace/tips-and-tricks/dynamic-drop-downs){target="_blank"}.
 
 {{videocja}}
 
