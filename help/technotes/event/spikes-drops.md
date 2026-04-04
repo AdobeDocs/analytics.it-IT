@@ -25,7 +25,7 @@ Le riduzioni di traffico sono suddivise in due sezioni: dati parziali e dati nul
 * **Latenza suite di rapporti**: occasionalmente, una suite di rapporti può riscontrare [latenza](../latency.md) a causa di una serie di fattori. Molti problemi di latenza vengono risolti in poche ore. Se hai dubbi su una suite di rapporti specifica, contatta l’Assistenza clienti di Adobe con l’ID suite di rapporti interessato.
 * **Rimozione dell&#39;implementazione**: a volte, quando un&#39;organizzazione apporta modifiche all&#39;implementazione o ristruttura il proprio sito, la riimplementazione di Analytics viene ignorata. Collabora con gli sviluppatori della tua organizzazione per implementare nuovamente il codice sul tuo sito.
 * **Problema di interfaccia/memorizzazione nella cache di Analytics**: in rari casi, la cache di un browser contiene dati non validi che fanno sì che tutti i rapporti restituiscano degli zeri. Per risolvere il problema, cancella i cookie e la cache del browser. Se la cancellazione dei cookie/cache non funziona, contatta l’Assistenza clienti per ottenere il rapporto mancante e l’intervallo di date; possono duplicare il problema e fornire ulteriori informazioni.
-* **Disponibilità di Analytics**: controllare [status.adobe.com](https://status.adobe.com/products/1173/) per eventuali problemi relativi alla raccolta o all&#39;elaborazione dei dati.
+* **Disponibilità di Analytics**: controllare [status.adobe.com](https://status.adobe.com/it/products/1173/) per eventuali problemi relativi alla raccolta o all&#39;elaborazione dei dati.
 
 ### Possibili cause di dati parzialmente mancanti o traffico ridotto
 

@@ -18,7 +18,7 @@ Determinare i possibili motivi per cui un processo potrebbe non riuscire a elabo
 
 Se un feed di dati funziona correttamente su base oraria o giornaliera ma di recente ha esito negativo, verifica quanto segue:
 
-* Utilizzare lo strumento [Stato Adobe](https://status.adobe.com/en/experience_cloud) per determinare se sono presenti finestre di manutenzione pianificate o problemi di disponibilità. Se al momento è presente un problema noto, Adobe elabora automaticamente i feed di dati pianificati dopo il ripristino del servizio.
+* Utilizzare lo strumento [Stato Adobe](https://status.adobe.com/it-it/experience_cloud) per determinare se sono presenti finestre di manutenzione pianificate o problemi di disponibilità. Se al momento è presente un problema noto, Adobe elabora automaticamente i feed di dati pianificati dopo il ripristino del servizio.
 * Assicurati che ci sia abbastanza spazio disponibile sul sito FTP. Se lo spazio su disco del sito FTP è insufficiente, eliminare alcuni file dal server per liberare spazio per i nuovi file.
 * Se non sono presenti problemi noti e il sito FTP dispone di spazio su disco sufficiente, puoi inviare nuovamente il feed di dati.
 
