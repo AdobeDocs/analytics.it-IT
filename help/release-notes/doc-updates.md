@@ -26,7 +26,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Marzo 2026** | |
-| Suddividere un pannello | È stata ristrutturata la documentazione intorno alla zona di rilascio [ per un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità [suddividi](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
+| Suddividere un pannello | È stata ristrutturata la documentazione intorno alla zona di rilascio [&#x200B; per un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità [suddividi](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | È stata identificata l’opzione predefinita per l’offuscamento dell’IP nelle nuove suite di rapporti | Sono state aggiunte informazioni che indicano che **Rimuovi indirizzo IP** è l&#39;opzione predefinita di [offuscamento IP per le nuove suite di rapporti](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). |
 | Revisione ordine di elaborazione | Miglioramenti significativi all&#39;[Ordine di elaborazione in Adobe Analytics](/help/technotes/processing-order.md). |
 | Integrazione con Adobe Advertising | Aggiunte di dimensioni e metriche di integrazione Adobe Advertising, incluso [AMO ID](/help/components/dimensions/amo-id.md). |
