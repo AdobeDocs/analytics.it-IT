@@ -4,9 +4,8 @@ description: Scopri come creare e implementare collegamenti di rinuncia per i vi
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
-hidefromtoc: true
 role: Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 4%
@@ -18,7 +17,7 @@ ht-degree: 4%
 >[!IMPORTANT]
 >
 > Questo articolo fornisce a **clienti Adobe Analytics che (prevedono di) implementare Adobe Analytics** sul proprio sito Web istruzioni su come fornire agli utenti del sito Web collegamenti di rinuncia. <p><p>
-><p>-ERR:REF-NOT-FOUND-<p>-ERR:REF-NOT-FOUND-> Se **stai visitando un sito Web che ha implementato Adobe Analytics** e desideri rinunciare, **<span style="color:red">questo articolo NON è adatto a te</span>**. Consulta [Opzioni sulla privacy di Adobe](https://www.adobe.com/privacy/opt-out.html) per controllare come Adobe utilizza le tue informazioni.
+> Se **stai visitando un sito Web che ha implementato Adobe Analytics** e desideri rinunciare, **<span style="color:red">questo articolo NON è adatto a te</span>**. Consulta [Opzioni sulla privacy di Adobe](https://www.adobe.com/privacy/opt-out.html) per controllare come Adobe utilizza le tue informazioni.
 
 Alcuni visitatori del tuo sito web preferiscono non includere le informazioni di navigazione nel set di dati. Adobe offre la possibilità di fornire ai visitatori del sito web un mezzo per rinunciare alle informazioni analizzate.
 
@@ -44,7 +43,7 @@ La pagina di rinuncia per l&#39;organizzazione dipende dal valore della variabil
    1. Sul server web, apri il file AppMeasurement.js utilizzato sul sito in un editor di codice o di testo.
    1. Nota il valore della variabile `trackingServer`.
 
-* Utilizzo di [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=it):
+* Utilizzo di [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Passa al sito utilizzando il browser Chrome.
    1. Apri Experience Cloud Debugger, quindi passa a [!UICONTROL Network tab].
    1. Nota il valore [!UICONTROL Request URL - Hostname].
@@ -58,7 +57,7 @@ Dopo aver trovato il dominio `trackingServer` dell&#39;implementazione, aggiunge
 
 Esistono impostazioni che è possibile caricare automaticamente in questa pagina utilizzando le stringhe di query.
 
-### Impostazioni internazionali
+### Lingua
 
 Cambia automaticamente la lingua della pagina di rinuncia includendo il parametro della stringa di query `locale`. Assegna al parametro della stringa di query uno dei seguenti valori:
 
