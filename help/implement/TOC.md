@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: ae4c68f29e878101ae0b2f863823ebf20b6095cd
+source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 78%
@@ -64,7 +64,7 @@ ht-degree: 78%
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
       + [eVar &#x200B;](vars/page-vars/evar.md)
       + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
-      + Eventi {#events}
+      + eventi {#events}
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)
          + [Evento di acquisto](vars/page-vars/events/event-purchase.md)
          + [Serializzazione degli eventi](vars/page-vars/events/event-serialization.md)
@@ -170,7 +170,7 @@ ht-degree: 78%
    + [Mappare gli elementi dati dei tag alle variabili Analytics](launch/elements-to-variable.md)
 + Implementazione di Analytics tramite JavaScript {#js}
    + [Panoramica di JavaScript](js/overview.md)
-   + [Implementazione dei collegamenti di opt-out](js/opt-out.md)
+   + {hide-from-toc}[Implementazione dei collegamenti di opt-out](js/opt-out.md)
    + [Override variabili](js/overrides.md)
    + [Migra da codice H](js/migrate-from-hcode.md)
    + Codice H {#h-code}
