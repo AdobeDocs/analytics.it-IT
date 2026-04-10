@@ -46,7 +46,7 @@ Per informazioni, consulta la [Guida collaboratore per i documenti di Adobe](htt
 
 ## Come utilizzare Markdown per formattare l’argomento
 
-Tutti gli articoli in questo archivio utilizzano il markdown GitHub. Se non conosci Markdown, consulta [Sintassi di base per la scrittura e la formattazione](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) nei documenti GitHub.
+Tutti gli articoli in questo archivio utilizzano il markdown GitHub. Se non conosci Markdown, consulta [Sintassi di scrittura e formattazione di base](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) nei documenti GitHub.
 
 ## Etichette
 
