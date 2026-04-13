@@ -1,5 +1,5 @@
 ---
-description: Utilizza la visualizzazione di Venn per trascinare fino a 3 segmenti e una metrica per creare un diagramma di Venn.
+description: Use the Venn visualization to drag up to 3 segments and one metric to build a Venn diagram.
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
@@ -26,7 +26,7 @@ ht-degree: 56%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Venn in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/venn) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_This article documents the Venn visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_See [Venn](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/venn)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +34,9 @@ La visualizzazione ![Tipo](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]**
 
 >[!NOTE]
 >
->Analysis Workspace utilizza diagrammi di Venn proporzionali all’area. I diagrammi di Venn con tre o più cerchi rappresentati in due dimensioni non possono sempre essere disegnati con proporzioni perfette.
+>Analysis Workspace uses area-proportional Venn diagrams. Venn diagrams with three or more circles that are represented in two dimensions cannot always be drawn with perfect proportions.
 > 
->Workspace tenta di creare Venn approssimativamente il più vicino possibile, ma i risultati potrebbero non essere sempre visivamente precisi.
+>Workspace attempts to create the closest approximate Venn, but the results might not always be visually accurate.
 
 ![Visualizzazione Venn che include tre filtri.](assets/venn.png)
 

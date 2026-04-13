@@ -136,7 +136,7 @@ Nella parte superiore delle visualizzazioni viene visualizzato un riepilogo dell
 
 Per approfondire ulteriormente i dati, hai a disposizione diverse opzioni:
 
-* Il diagramma di flusso è interattivo. Passa il puntatore del mouse sul diagramma per modificare i dettagli visualizzati.
+* The flow diagram is interactive. Mouse over the diagram to change the details that are shown.
 
 * Quando selezioni un nodo nel diagramma, vengono visualizzati i dettagli per tale nodo. Seleziona nuovamente il nodo per comprimerlo.
 
@@ -177,7 +177,7 @@ Utilizza un menu contestuale su qualsiasi nodo della visualizzazione del flusso 
 | **[!UICONTROL Show next column]** / **[!UICONTROL Show previous column]** | Mostra la colonna successiva (destra) o precedente (sinistra) della visualizzazione. |
 | **[!UICONTROL Hide colum]**&#x200B;n | Nasconde la colonna selezionata dalla visualizzazione. |
 | **[!UICONTROL Expand entire column]** | Espandere una colonna per visualizzare tutti i nodi. Per impostazione predefinita, vengono visualizzati solo i primi cinque nodi. |
-| **[!UICONTROL Create audience from selection]** | Crea un pubblico in base alla colonna selezionata. |
+| **[!UICONTROL Create audience from selection]** | Creates an audience based on the column that is selected. |
 | **[!UICONTROL Collapse entire column]** | Nasconde tutti i nodi di una colonna. |
 
 ## Limita alla prima/ultima occorrenza

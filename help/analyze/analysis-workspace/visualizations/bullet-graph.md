@@ -1,5 +1,5 @@
 ---
-description: Scopri come utilizzare la visualizzazione punto elenco in Analysis Workspace. La visualizzazione bullet consente di confrontare o misurare altre gamme di prestazioni (obiettivi).
+description: Learn how to use the bullet visualization in Analysis Workspace. The bullet visualization allows you to compare to or measures against other performance ranges (goals).
 title: Bullet
 feature: Visualizations
 role: User, Admin
@@ -33,7 +33,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Punto elenco in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Bullet](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_This article documents the Bullet visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_See [Bullet](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 

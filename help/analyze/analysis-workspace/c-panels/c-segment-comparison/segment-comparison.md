@@ -77,7 +77,7 @@ Seleziona **[!UICONTROL Build]** per creare il pannello.
 
 ### Output del pannello
 
-Adobe Analytics Al termine dell’analisi dei due segmenti desiderati, i pannelli di output mostrano i risultati tramite diverse visualizzazioni:
+Al termine dell’analisi dei due segmenti desiderati, i pannelli di output mostrano i risultati tramite diverse visualizzazioni:
 
 ![Confronto segmenti output pannello](assets/segment-comparison-output.png)
 
