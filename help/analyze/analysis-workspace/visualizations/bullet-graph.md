@@ -33,7 +33,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-_This article documents the Bullet visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_See [Bullet](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** version of this article._
+_This article documents the Bullet visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_See [Bullet](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Il grafico bullet presenta una singola misura primaria (ad esempio le entrate an
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione del grafico bullet](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"}.
+Per un video dimostrativo consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione del grafico bullet](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
