@@ -8,7 +8,7 @@ exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 81%
+ht-degree: 67%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 81%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Istogramma in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Visualizza [Istogramma](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/histogram) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Istogramma in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Visualizza [Istogramma](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -52,9 +52,9 @@ Come parte della visualizzazione, sono disponibili impostazioni specifiche dell�
 
 | Impostazioni istogramma | Descrizione |
 |---|---|
-| **[!UICONTROL Starting bucket]** | Determina con quale intervallo inizia l’istogramma. L’impostazione predefinita è 1. Puoi impostare il numero iniziale da 0 all’infinito (non sono consentiti numeri negativi). |
+| **[!UICONTROL Starting bucket]** | Determina con quale bucket inizia l’istogramma. &quot;1&quot; è il valore predefinito. È possibile impostare i numeri iniziali da 0 a infinito (nessun numero negativo). |
 | **[!UICONTROL Metric buckets]** | Consente di aumentare/diminuire il numero di intervalli di dati (bucket). Il numero massimo di bucket è 50. |
-| **[!UICONTROL Metric bucket size]** | Puoi impostare la dimensione di ogni intervallo. Ad esempio, puoi cambiare la dimensione dell’intervallo da 1 a 2 visualizzazioni di pagina. |
+| **[!UICONTROL Metric bucket size]** | Consente di impostare la dimensione di ciascun bucket. Ad esempio, puoi modificare la dimensione del bucket dalla visualizzazione a 1 pagina a 2 visualizzazioni di pagina. |
 | **[!UICONTROL Counting method]** | Seleziona da **[!UICONTROL Person]**, **[!UICONTROL Session]**, o **[!UICONTROL Event]**. Ad esempio, visualizzazioni di pagina per sessione, per persona o per evento. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
@@ -69,7 +69,7 @@ Come parte della visualizzazione, sono disponibili impostazioni specifiche dell�
 >[!MORELIKETHIS]
 >
 >[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->&#x200B;>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->&#x200B;>[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->&#x200B;>[Utilizzo di istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=it)
+>[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
+>[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
+>[Utilizzo di istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
 

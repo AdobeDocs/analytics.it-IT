@@ -1,5 +1,5 @@
 ---
-description: Scopri come utilizzare la visualizzazione punto elenco in Analysis Workspace. La visualizzazione bullet consente di confrontare o misurare altre gamme di prestazioni (obiettivi).
+description: Learn how to use the bullet visualization in Analysis Workspace. The bullet visualization allows you to compare to or measures against other performance ranges (goals).
 title: Bullet
 feature: Visualizations
 role: User, Admin
@@ -33,7 +33,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Punto elenco in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Bullet](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_This article documents the Bullet visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_See [Bullet](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** version of this article._
 
 >[!ENDSHADEBOX]
 
@@ -45,7 +45,7 @@ Il grafico bullet presenta una singola misura primaria (ad esempio le entrate an
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione del grafico bullet](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"}.
+Per un video dimostrativo consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Visualizzazione del grafico bullet](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/visualizations/bullet-graph-visualization){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -56,7 +56,7 @@ Puoi definire impostazioni specifiche per una visualizzazione [!UICONTROL Bullet
 
 | Impostazione | Descrizione |
 |---|---|
-| **[!UICONTROL Bullet options]** | Specifica i valori per l’**[!UICONTROL High goal]**, l’**[!UICONTROL Mid goal]** e l’**[!UICONTROL Low goal]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL High goal]**&#x200B;è l’obiettivo principale a cui stai mirando. L’**[!UICONTROL Low goal]**&#x200B;e l’**[!UICONTROL Mid goal]**&#x200B;creano intervalli al di sotto dell’obiettivo alto. Nota: quando l’opzione **[!UICONTROL Percentages]**&#x200B;è selezionata, immetti gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
+| **[!UICONTROL Bullet options]** | Specifica i valori per l’**[!UICONTROL High goal]**, l’**[!UICONTROL Mid goal]** e l’**[!UICONTROL Low goal]** nella visualizzazione [!UICONTROL Bullet]. <br/>**[!UICONTROL High goal]**è l’obiettivo principale a cui stai mirando. L’**[!UICONTROL Low goal]**e l’**[!UICONTROL Mid goal]**creano intervalli al di sotto dell’obiettivo alto. Nota: quando l’opzione **[!UICONTROL Percentages]**è selezionata, immetti gli obiettivi come numeri interi. Ad esempio: `20` se l’obiettivo è il venti percento. |
 
 >[!MORELIKETHIS]
 >
