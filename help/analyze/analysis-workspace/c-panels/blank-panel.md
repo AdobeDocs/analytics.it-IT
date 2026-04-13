@@ -26,7 +26,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello vuoto in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta [Pannello vuoto](/help/analyze/analysis-workspace/c-panels/blank-panel.md) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta il pannello vuoto in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Pannello vuoto](/help/analyze/analysis-workspace/c-panels/blank-panel.md) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 

@@ -26,7 +26,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione a forma libera in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta la [tabella a forma libera](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione a forma libera in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta la [tabella a forma libera](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/freeform-table) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Il modo più rapido per creare una tabella consiste nel trascinare i componenti 
 
 Se prima preferisci aggiungere diversi componenti alla tabella e quindi eseguire il rendering dei dati, puoi selezionare **[!UICONTROL Enable table builder]**. Con il generatore abilitato, puoi trascinare e rilasciare dimensioni, raggruppamenti, metriche e filtri per creare tabelle che rispondano a domande più complesse. I dati vengono aggiornati dopo la selezione di **[!UICONTROL Build]**.
 
-![Un generatore di tabelle a forma libera mostra ](assets/table-builder.png)
+![Un generatore di tabelle a forma libera mostra &#x200B;](assets/table-builder.png)
 
 ## Interazioni
 
@@ -98,7 +98,7 @@ Le seguenti opzioni del [menu di scelta rapida](../freeform-analysis-visualizati
 
 | Opzione | Descrizione |
 | --- | --- |
-| **[!UICONTROL Insert copied visualization]**n | Incolla (inserisci) una visualizzazione copiata altrove nello stesso progetto o in un altro progetto. |
+| **[!UICONTROL Insert copied visualization]**&#x200B;n | Incolla (inserisci) una visualizzazione copiata altrove nello stesso progetto o in un altro progetto. |
 | **[!UICONTROL Copy data to clipboard]** | Copia i dati dalla visualizzazione negli appunti. |
 | **[!UICONTROL Copy selection to clipboard]** | Copia la selezione dalla visualizzazione negli appunti. |
 | **[!UICONTROL Download items as CSV (*nome dimensione *)]** | Scarica immediatamente gli elementi dimensionali (fino a un massimo di 50.000) della visualizzazione sul dispositivo locale. Un massimo di 50.000 elementi dimensionali per la dimensione selezionata. |

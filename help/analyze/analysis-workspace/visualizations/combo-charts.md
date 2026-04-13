@@ -25,9 +25,9 @@ ht-degree: 92%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione combinata in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._
+_Questo articolo documenta la visualizzazione combinata in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._
 
-_Consulta [Combo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
+_Consulta [Combo](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/combo-charts) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -68,7 +68,7 @@ Tieni presente che:
 
    L’output è simile a:
 
-   ![Un grafico combinato che mostra il periodo corrente in un grafico a barre e il periodo di confronto nel grafico a linee ](assets/combo-output.png)
+   ![Un grafico combinato che mostra il periodo corrente in un grafico a barre e il periodo di confronto nel grafico a linee &#x200B;](assets/combo-output.png)
 
    Il periodo corrente viene visualizzato nel grafico a barre. Il grafico a linee rappresenta il periodo di confronto. I punti nel grafico a linee sono noti come *manubri*.
 
