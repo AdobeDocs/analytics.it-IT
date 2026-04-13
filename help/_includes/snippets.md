@@ -1,8 +1,8 @@
 ---
 source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3025'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 # Snippet
@@ -11,14 +11,14 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->Una nuova versione semplificata di [Report Builder](/help/analyze/report-builder/rb-overview.md) è disponibile dal 16 ottobre 2024. Questo Report Builder è supportato su macOS, Windows e browser web e può essere utilizzato con Adobe Analytics e Customer Journey Analytics.
->Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
+>Dal 16 ottobre 2024 è disponibile un nuovo [Report Builder](/help/analyze/report-builder/rb-overview.md) semplificato. Questo Report Builder è supportato in macOS, Windows e nei browser web e può essere utilizzato con Adobe Analytics e Customer Journey Analytics.
+>Questa versione precedente del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro precedenti](/help/analyze/report-builder/convert-workbooks.md) nel nuovo Report Builder.
 
-## Annuncio sulla fine del ciclo di vita di Reports & Analytics {#ra-eol}
+## Annuncio sulla fine del ciclo di vita di Reports &amp; Analytics {#ra-eol}
 
 >[!IMPORTANT]
 >
->A decorrere dal **17 gennaio 2024**, Adobe ha interrotto Reports &amp; Analytics e i relativi rapporti e funzioni. In quel momento Reports &amp; Analytics e tutti i suoi rapporti e pianificazioni cessarono di funzionare. I rapporti, le visualizzazioni e la tecnologia alla base di Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. Per informazioni, vedere [Utilizzare i modelli](/help/analyze/analysis-workspace/templates/use-templates.md).
+>Dal **17 gennaio 2024**, Adobe ha interrotto Reports &amp; Analytics e i relativi rapporti e funzioni. In tale data, Reports &amp; Analytics e tutti i relativi rapporti e pianificazioni hanno cessato di funzionare. I rapporti, le visualizzazioni e la tecnologia alla base di Reports &amp; Analytics non soddisfano più gli standard tecnologici di Adobe. La maggior parte delle funzioni di Reports &amp; Analytics sono disponibili in Analysis Workspace. Per informazioni, consulta [Utilizzare i modelli](/help/analyze/analysis-workspace/templates/use-templates.md).
 > 
 >Dal rilascio di Analysis Workspace nel 2015, le funzionalità e le caratteristiche di Reports &amp; Analytics sono state spostate in Analysis Workspace ed è stata raggiunta una soglia di parità dei flussi di lavoro. Questo avviso spiega il processo di fine del ciclo di vita.
 >
@@ -58,12 +58,12 @@ ht-degree: 87%
 
 >[!AVAILABILITY]
 >
->La funzionalità descritta in questa sezione è disponibile solo per i clienti esistenti che dispongono già di una licenza per tale funzionalità. Questa funzionalità non viene più offerta come componente aggiuntivo per clienti nuovi o esistenti.
+>La funzionalità descritta in questa sezione è disponibile solo per i clienti esistenti che dispongono già di una licenza per tale funzionalità. La funzionalità non è più offerta come componente aggiuntivo ai nuovi clienti o a quelli esistenti.
 >
 
-## Customer Journey Analytics dimostrativo {#videocja}
+## Video dimostrativo Customer Journey Analytics  {#videocja}
 
-Questo video illustra le funzionalità di con Customer Journey Analytics. Tuttavia, la funzionalità è disponibile in modo simile in Adobe Analytics. Presta attenzione alle differenze di terminologia tra Adobe Analytics e Customer Journey Analytics (ad esempio *visite* e *sessioni*).
+Questo video illustra la funzionalità che utilizza Customer Journey Analytics. Tuttavia, questa funzionalità è disponibile anche in Adobe Analytics. Tieni presente che vi sono differenze di terminologia tra Adobe Analytics e Customer Journey Analytics (ad esempio, *visite* e *sessioni*).
 
 
 ## Modelli di attribuzione {#attribution-models-details}
@@ -90,8 +90,8 @@ Un modello di attribuzione determina quali elementi dimensionali ricevono credit
 
 Un contenitore attribuzione definisce l’ambito desiderato per l’attribuzione. Le opzioni possibili sono:
 
-* **Visita**: esamina le conversioni dall&#39;ambito del contenitore Visita. Quando **[!UICONTROL Visit]** è selezionata, l’[intervallo di lookback dell’attribuzione](#atribution-lookback-window) viene impostato automaticamente su **[!UICONTROL Reporting window]** e non può essere modificato.
-* **Visitatore**: esamina le conversioni dall&#39;ambito del contenitore visitatore.
+* **Visita**: esamina le conversioni nell’ambito del contenitore Visita. Quando **[!UICONTROL Visit]** è selezionata, l’[intervallo di lookback dell’attribuzione](#atribution-lookback-window) viene impostato automaticamente su **[!UICONTROL Reporting window]** e non può essere modificato.
+* **Visitatore**: esamina le conversioni nell’ambito del contenitore Visitatore.
 
 ## Finestra di lookback di attribuzione {#attribution-lookback-window}
 
@@ -135,15 +135,15 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 |---------|----------|---------|---------|
 | **Sequenza di pagine predefinita** | Sì</br>Combina analisi predefinite ed esplorative. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché alla fine passino da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi successivi immediati (non finali). | Sì</br>Il percorso può essere un percorso finale o essere vincolato al punto di contatto successivo | No |
 | **Sequenza di pagine esplorativa (analisi ad hoc)** | Sì</br>Combina l’analisi predefinita ed esplorativa. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché alla fine passino da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi successivi immediati (non finali). | Limitato</br>È possibile fare clic con il pulsante destro del mouse per visualizzare il fallout immediato in una tabella a forma libera. | Sì</br>Solo analisi esplorativa. Sempre all’interno di un’istanza di dimensione tra due nodi. Ogni nodo mostra il punto di contatto successivo immediato (non finale) lungo il percorso. |
-| **Mostra dove le persone hanno abbandonato (fallout) e continuato (proseguito)** | Sì</br>Mostra per percorsi predefiniti ed esplorativi | Sì</br>Viene mostrato per percorsi predefiniti | Sì</br>Viene mostrato per percorsi esplorativi |
+| **Mostra dove le persone hanno abbandonato (fallout) e continuato (proseguito)** | Sì</br>Viene mostrato per percorsi sia predefiniti che esplorativi | Sì</br>Viene mostrato per percorsi predefiniti | Sì</br>Viene mostrato per percorsi esplorativi |
 | **Percorsi lineari** | Sì | Sì | No |
 | **Percorsi non lineari con più punti di ingresso e percorsi** | Sì | No | Sì |
 | **Metrica primaria** | Qualsiasi metrica, comprese quelle calcolate | Solo sessione o persona | Solo occorrenze (visualizzazioni percorso) |
 | **Metrica secondaria** | Sì<p>Qualsiasi metrica, comprese quelle calcolate</p> | No | No |
-| **Supporto dei componenti nei nodi o nei punti di contatto** | Metriche, elementi dimensionali, filtri e intervalli di date. | Metriche, elementi dimensionali, filtri e intervalli di date. | Solo elementi dimensionali (ad eccezione del punto di contatto iniziale e finale) |
+| **Supporto dei componenti nei nodi o nei punti di contatto** | Metriche, elementi dimensionali, segmenti e intervalli di date. | Metriche, elementi dimensionali, segmenti e intervalli di date. | Solo elementi dimensionali (ad eccezione del punto di contatto iniziale e finale) |
 | **Confronta filtri** | No | Sì<p>Eseguire confronti affiancati di due diversi filtri nello stesso rapporto</p> | No |
 | **Interazione tramite trascinamento per componenti** | Sì | Sì | No |
-| **Percorsi Adobe Journey Optimizer** | Sì</br>Apri percorsi da Journey Optimizer per analisi più approfondite e personalizzazione | No | No |
+| **Percorsi Adobe Journey Optimizer** | Sì</br>Apri percorsi da Journey Optimizer per analisi e personalizzazioni più approfondite | No | No |
 
 {style="table-layout:auto"}
 
@@ -160,7 +160,7 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 
 | Suite di rapporti | Descrizione |
 |---|---|
-| ![Ripubblica suite](/help/assets/filter-reportsuite.png){width="300"} | La sezione **[!UICONTROL Report suite]** ti consente di filtrare in base alle suite di rapporti. <ul><li>Puoi ![cercare](/help/assets/icons/Search.svg) *Cerca suite di rapporti* per cercare suite di rapporti che puoi utilizzare per filtrare.</li><li>Puoi selezionare più di una suite di rapporti. Le suite di rapporti disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(2)**: numero di suite di rapporti selezionate (se sono selezionate una o più suite di rapporti).</li><li>**3︎⃣**: numero di suite di rapporti disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: numero di elementi associati alla suite di rapporti specifica.</li></ul></li></ul> |
+| ![Suite di rapporti](/help/assets/filter-reportsuite.png){width="300"} | La sezione **[!UICONTROL Report suite]** consente di filtrare le suite di rapporti. <ul><li>È possibile usare ![Ricerca](/help/assets/icons/Search.svg) *Ricerca suite di rapporti* per cercare quelle da utilizzare come filtro.</li><li>È possibile selezionare più di una suite di rapporti. Le suite di rapporti disponibili dipendono dalle selezioni effettuate in altre sezioni del pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(2)**: numero di suite di rapporti selezionate (se sono selezionate una o suite di rapporti).</li><li>**3︎⃣**: numero di suite di rapporti disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: numero di elementi associati alla specifica suite di rapporti.</li></ul></li></ul> |
 
 ## Sezione filtro di stato abilitato {#enabledstatusfiltersection}
 
@@ -193,20 +193,20 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 | ![Intervallo date](/help/assets/filter-daterange.png){width="300"} | La sezione Intervallo di date applicato consente di filtrare in base a un intervallo di date applicabile agli elementi.<ol><li>Seleziona un intervallo di date.</li><li>Nel pop-up del calendario definisci un intervallo di date o seleziona uno dei predefiniti disponibili.<br>In alternativa, puoi anche specificare un intervallo di date direttamente nella sezione Intervallo date del pannello Filtro.</li></ol><ul><li>I numeri indicano:<ul><li>**(1)**: numero di intervalli di date modificati dai predefiniti preimpostati.</li><li>**5︎⃣**: numero di intervalli di date disponibili per gli elementi risultanti dal filtro corrente.</li></ul> |
 
 
-## Obsolescenza importazione classificazioni {#classification-importer-deprecation}
+## Rimozione della funzionalità Importazione classificazioni {#classification-importer-deprecation}
 
 >[!WARNING]
 >
->L&#39;importazione di classificazioni diventerà obsoleta il **31 agosto 2026**. Passa a utilizzare l&#39;esperienza [Set di classificazione](/help/components/classifications/sets/overview.md) per garantire la continuità delle funzionalità.
+>Importazione classificazioni diventerà obsoleta il **31 agosto 2026**. Passa all’utilizzo dell’esperienza [Set di classificazione](/help/components/classifications/sets/overview.md) per garantire funzionalità continue.
 >
 
 
 
-## Generatore regole di classificazione obsoleto {#classification-rulebuilder-deprecation}
+## Rimozione della funzionalità Generatore regole di classificazione {#classification-rulebuilder-deprecation}
 
 >[!WARNING]
 >
->Il generatore di regole di classificazione diventerà obsoleto il **28 febbraio 2027**. Passa a utilizzare l&#39;esperienza [Regole dei set di classificazione](/help/components/classifications/sets/manage/rules.md), una volta disponibile, per garantire la continuità delle funzionalità.
+>Il generatore di regole di classificazione diventerà obsoleto il **28 febbraio 2027**. Passa all’utilizzo dell’esperienza [Regole dei set di classificazione](/help/components/classifications/sets/manage/rules.md), quando diventano disponibili, per garantire funzionalità continue.
 >
 
 
