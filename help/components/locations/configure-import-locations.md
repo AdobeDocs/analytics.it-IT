@@ -1,17 +1,17 @@
 ---
 description: Configura l’account di importazione cloud e il percorso in cui è possibile caricare i dati di classificazione
 keywords: Analysis Workspace
-title: Configurare i percorsi di importazione ed esportazione cloud
+title: Configurare posizioni di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: 235974d1c7cbf819f846d1af887e3157d462177d
+source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
 workflow-type: tm+mt
 source-wordcount: '1700'
-ht-degree: 30%
+ht-degree: 29%
 
 ---
 
-# Configurare i percorsi di importazione ed esportazione cloud
+# Configurare posizioni di importazione ed esportazione cloud
 
 <!-- This page is almost duplicated with the "Configure cloud export locations" article in CJA. Differences are that Snowflake isn't supported here and there is a Suffix field for each account type. -->
 
@@ -143,7 +143,7 @@ Per configurare una posizione RBAC di Azure, specifica le informazioni seguenti:
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Account**] | Account di archiviazione Azure. |
+   | [!UICONTROL **Account**] | L’account di archiviazione Azure. |
    | [!UICONTROL **Contenitore**] | Il contenitore all’interno dell’account specificato nel punto in cui desideri inviare i dati di Adobe Analytics. Assicurati di concedere le autorizzazioni per caricare i file nell’applicazione Azure creata in precedenza. |
    | [!UICONTROL **Prefisso**] | La cartella all’interno del contenitore in cui desideri inserire i dati. Specifica il nome di una cartella, quindi aggiungi una barra rovesciata dopo il nome per creare la cartella. Ad esempio: `folder_name/` |
 
@@ -241,7 +241,7 @@ Sono supportate le seguenti 16 aree geografiche standard di AWS (utilizzando l�
 
 +++BLOB di Azure
 
-Data warehouse supporta le destinazioni BLOB di Azure. Richiede un contenitore, un account e una chiave. Amazon crittografa automaticamente i dati inattivi. Quando scarichi i dati, questi vengono decrittografati automaticamente. Per ulteriori informazioni, consulta [Creare un account di archiviazione](https://learn.microsoft.com/it-it/azure/storage/common/storage-account-create?tabs=azure-portal#view-and-copy-storage-access-keys) nelle documentazioni di Microsoft Azure.
+Data warehouse supporta le destinazioni BLOB di Azure. Richiede un contenitore, un account e una chiave. Azure crittografa automaticamente i dati inattivi. Quando scarichi i dati, questi vengono decrittografati automaticamente. Per ulteriori informazioni, consulta [Creare un account di archiviazione](https://learn.microsoft.com/it-it/azure/storage/common/storage-account-create?tabs=azure-portal#view-and-copy-storage-access-keys) nelle documentazioni di Microsoft Azure.
 
 >[!NOTE]
 >
