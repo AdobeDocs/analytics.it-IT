@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: Configurare posizioni di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: a92fe17205823e51068a3220790e80fb6b99da2e
+source-git-commit: 7dc04a26d69a534ea056474cbfb14d07ce7c3463
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1708'
 ht-degree: 29%
 
 ---
@@ -78,7 +78,7 @@ Per configurare una posizione ARN per il ruolo Amazon S3, specifica le seguenti 
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Report Builder](/help/analyze/report-builder/report-builder-export.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
 
    I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
 
@@ -102,7 +102,7 @@ Per configurare una posizione di Google Cloud Platform, specifica le informazion
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Report Builder](/help/analyze/report-builder/report-builder-export.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
 
    I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
 
@@ -126,7 +126,7 @@ Per configurare una posizione SAS di Azure, specifica le informazioni seguenti:
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Report Builder](/help/analyze/report-builder/report-builder-export.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
 
    I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
 
@@ -151,7 +151,7 @@ Per configurare una posizione RBAC di Azure, specifica le informazioni seguenti:
 
 1. Seleziona [!UICONTROL **Salva**].
 
-   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md) o [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
+   Ora puoi importare o esportare dati da o verso l’account e la posizione configurati. Per esportare i dati, utilizzare [Feed dati](/help/export/analytics-data-feed/create-feed.md), [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md) o [Report Builder](/help/analyze/report-builder/report-builder-export.md). Per importare i dati, utilizzare [Set di classificazione](/help/components/classifications/sets/overview.md).
 
    I dati importati non vengono eliminati dalla destinazione cloud dopo l’importazione.
 
