@@ -4,16 +4,14 @@ title: Panoramica di Reporting Activity Manager
 feature: Admin Tools
 exl-id: 18293404-3a41-42d4-bbce-ad520ec66a62
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 83%
+source-wordcount: '263'
+ht-degree: 82%
 
 ---
 
 # Panoramica di Reporting Activity Manager
-
-[!UICONTROL Reporting Activity Manager] è disponibile per gli amministratori.
 
 Se nell’organizzazione si verifica un peggioramento delle prestazioni di reporting durante i periodi di picco, Reporting Activity Manager consente di diagnosticare autonomamente e risolvere i problemi di capacità senza l’intervento dell’Assistenza clienti di Adobe. Puoi gestire facilmente le code di reporting all’interno di un’unica interfaccia e agire immediatamente per migliorare l’esperienza degli utenti.
 

@@ -4,10 +4,10 @@ description: Comprendere ogni elemento di autorizzazione in Strumenti delle suit
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
 role: Admin
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 8b5705d8ac54180770b70f1ff7b3a97e0c344f9a
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 79%
+source-wordcount: '497'
+ht-degree: 75%
 
 ---
 
@@ -46,7 +46,7 @@ Questa tabella elenca tutti gli elementi di autorizzazione in Strumenti delle su
 | [!UICONTROL RealTime Report] | Consente di accedere a Coinvolgimento > In tempo reale nei modelli di Adobe. |
 | [!UICONTROL Reporting Activity Manager Admins] | Non utilizzato |
 | [!UICONTROL Reporting Activity Manager Access] | Non utilizzato |
-| [!UICONTROL Report Suite Mgmt] | Consente l’accesso a Report Suite Manager, ma non consente alcuna modifica. |
+| [!UICONTROL Report Suite Mgmt] | Consente di accedere a Report Suite Manager. Consente la creazione di suite di rapporti, ma non concede l&#39;accesso ad alcun elemento in &#39;[!UICONTROL Edit Settings]&#39;. Consulta anche [[!UICONTROL Report Suites Admin UI Access]](analytics-tools.md). |
 | [!UICONTROL Return Visits] | Non utilizzato |
 | [!UICONTROL R&A Dashboard Company Summary Reportlet] | Non utilizzato |
 | [!UICONTROL R&A Dashboard External Reportlet] | Non utilizzato |
@@ -60,5 +60,3 @@ Questa tabella elenca tutti gli elementi di autorizzazione in Strumenti delle su
 | [!UICONTROL Traffic Variables] | Consente l’accesso a Traffico > Variabili di traffico in Report Suite Manager. |
 | [!UICONTROL Unique Visitor] | Consente l’accesso a Conversione > Variabile visitatore univoco. Non viene generalmente utilizzato nelle implementazioni moderne. |
 | [!UICONTROL URL Filters] | Consente l’accesso a Generali > Filtri URL interni in Report Suite Manager. |
-
-{style="table-layout:auto"}
