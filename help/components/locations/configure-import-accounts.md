@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Configurare account di importazione ed esportazione cloud
 feature: Classifications
 exl-id: 40d3d3f1-1047-4c37-8caf-6b0aabaa590a
-source-git-commit: 5a6b1ab3c4ae81b85ec841f1816b0f34ed0df79c
+source-git-commit: abdb37626f8f81a1a8a57bb818565856af3a3714
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 49%
+source-wordcount: '1596'
+ht-degree: 47%
 
 ---
 
@@ -145,14 +145,19 @@ Per configurare un account di importazione o esportazione cloud dopo averlo crea
 
    +++FTP
 
-   I dati del feed dati possono essere inviati a una posizione FTP di Adobe o ospitata dal cliente. Richiede un host FTP, un nome utente e una password. Utilizza il campo del percorso per inserire i file di feed in una cartella. Le cartelle devono già esistere. I feed generano un errore se il percorso specificato non esiste.
+   >[!IMPORTANT]
+   >
+   >FTP non deve essere utilizzato perché i dati scorrono su Internet in testo normale.
+
+
+   I dati del feed dati possono essere inviati a una posizione FTP di Adobe o ospitata dal cliente. Richiede un host FTP, un nome utente e una password.
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Host**] | Immetti l&#39;URL di destinazione FTP desiderato. Ad esempio: `ftp.adobe.com`. |
-   | [!UICONTROL **Percorso**] | Può essere lasciato vuoto. |
+   | [!UICONTROL **Nome host**] | Immetti l&#39;URL di destinazione FTP desiderato. Ad esempio: `ftp.adobe.com`. |
+   | [!UICONTROL **Porta**] | Può essere lasciato vuoto. Utilizzare questo campo per inserire file di feed in una cartella. Le cartelle devono già esistere. I feed generano un errore se la porta specificata non esiste. |
    | [!UICONTROL **Nome utente**] | Immetti il nome utente per accedere al sito FTP. |
-   | [!UICONTROL **Password e conferma password**] | Immettere la password per accedere al sito FTP. |
+   | [!UICONTROL **Segreto account località**] | Immetti la password (segreta) per accedere al sito FTP. |
 
    {style="table-layout:auto"}
 
@@ -160,9 +165,9 @@ Per configurare un account di importazione o esportazione cloud dopo averlo crea
 
    +++SFTP
 
-   È disponibile il supporto SFTP per i feed di dati. Questo richiede un host SFTP, un nome utente e il sito di destinazione per contenere una chiave pubblica RSA o DSA valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
+   È disponibile il supporto SFTP per i feed di dati. Questo richiede un host SFTP, un nome utente e il sito di destinazione per contenere una chiave pubblica RSA o ed25519 valida. Puoi scaricare la chiave pubblica adatta al momento della creazione del feed.
 
-   Quando si scarica la chiave pubblica RSA o DSA per i feed di dati, effettuare una delle seguenti operazioni:
+   Quando si scarica la chiave pubblica RSA o ed25519 per i feed di dati, effettuare una delle seguenti operazioni:
 
    * Rinomina il file della chiave pubblica scaricato in `authorized_keys`, quindi carica il file nella cartella `.ssh` sul server SFTP.
 

@@ -3,7 +3,7 @@ title: Creare un feed dati
 description: Scopri come creare un feed di dati e le informazioni sui file da fornire ad Adobe.
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: d2ceb1ae2cd6856a0c595a4c37e795b83dbaec68
 workflow-type: tm+mt
 source-wordcount: '2052'
 ht-degree: 13%
@@ -120,7 +120,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
    >
    >Quando configuri la destinazione di rapporto, tieni presente quanto segue:
    >
-   >* Adobe consiglia di utilizzare un account cloud per la destinazione del rapporto. [Sono disponibili account FTP e SFTP precedenti](#legacy-destinations), ma non sono consigliati.
+   >* Adobe consiglia di utilizzare un account cloud per la destinazione del rapporto. [Sono disponibili account FTP e SFTP precedenti](/help/components/locations/configure-import-accounts.md), ma non sono consigliati.
    >* Tutti gli account cloud configurati in precedenza sono disponibili per l’utilizzo con i feed di dati. Puoi configurare gli account cloud in uno dei seguenti modi:
    >
    >   * Durante la configurazione degli account cloud per [Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
