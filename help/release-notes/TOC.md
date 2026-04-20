@@ -5,9 +5,9 @@ user-guide-title: Note sulla versione di Analytics
 breadcrumb-title: Note sulla versione
 user-guide-description: Scopri le nuove funzionalità e le correzioni di Adobe Analytics.
 source-git-commit: 4f7af07b9524dedbc61980bce96fcbe79b968fd7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '55'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
