@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Guida dell’amministratore di Analytics
 breadcrumb-title: Guida dell’amministratore
 user-guide-description: Scopri le attività di amministrazione di Analytics, come gestire utenti e prodotti nell’Admin Console di Experience Cloud, configurare suite di rapporti e altro ancora.
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+source-git-commit: b7839e58e9ac279b3b3ce35c591b67daaeac1b87
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 88%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 88%
       + [Visualizzare/gestire le etichette sulla privacy della suite di rapporti](tools/privacy-labeling/view-settings.md)
       + [Tecniche di etichettatura consigliate](tools/privacy-labeling/best-practices.md)
       + [Esempi di etichettatura](tools/privacy-labeling/examples.md)
-      + [Namespace](tools/privacy-labeling/namespaces.md)
+      + [Spazi dei nomi](tools/privacy-labeling/namespaces.md)
    + Utilizzo chiamate al server {#server-call-usage}
       + [Guida per il primo amministratore di Adobe Analytics](tools/server-call-usage/overage-overview.md)
       + [Visualizzazione dell&#39;utilizzo della chiamata server corrente](tools/server-call-usage/server-call-usage-dashboard.md)
@@ -160,4 +160,3 @@ ht-degree: 88%
          + [Eseguire la migrazione degli account utente di Analytics per Enterprise ID e Federated ID](tools/user-management/user-migration/migrate-enterprise.md)
          + [Disattivazione degli accessi legacy](tools/user-management/user-migration/t-disable-legacy-login.md)
          + [API interessate dalla migrazione](tools/user-management/user-migration/developer.md)
-+ [Amministratore API](https://developer.adobe.com/analytics-apis/docs/2.0/)
