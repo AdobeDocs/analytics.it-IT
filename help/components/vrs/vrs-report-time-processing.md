@@ -43,7 +43,7 @@ Le seguenti opzioni di configurazione sono attualmente disponibili per le suite 
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starting a new visit with event](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starting a new visit with event](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 

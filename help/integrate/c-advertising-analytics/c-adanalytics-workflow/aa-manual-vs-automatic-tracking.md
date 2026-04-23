@@ -18,7 +18,7 @@ Il tipo di tracciamento determina il modo in cui l’implementazione di Adobe An
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -37,7 +37,7 @@ Per configurare un account del motore di ricerca con tipo **[!UICONTROL Auto]**,
 
 >[!IMPORTANT]
 >
->Ulteriori informazioni sull&#39;aggiunta del parametro `s_kwcid` ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
+>Ulteriori informazioni sull&#39;aggiunta del parametro `s_kwcid` ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/it/docs/id-service/using/reference/csp).
 
 ## Tracciamento manuale {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
