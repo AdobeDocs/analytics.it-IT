@@ -3,9 +3,9 @@ description: Domande frequenti su Advertising Analytics.
 title: Domande frequenti per l’analisi della pubblicità
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,9 @@ ht-degree: 0%
 
 ## Accesso/Diritti {#access}
 
-+++ Per accedere a questa funzionalità, devo essere un cliente di Adobe Advertising Cloud o Adobe Advertising Cloud (AMO)?
++++ Per accedere a questa funzionalità è necessario essere cliente di Adobe Advertising?
 
-No, questa funzionalità è disponibile per i clienti non Advertising Cloud e AMO.
-
-I clienti AMO possono sfruttare l’integrazione Analytics-AMO esistente; non potranno utilizzare Ad Analytics.
+No, questa funzionalità è disponibile per i clienti non Advertising. I clienti di Adobe Advertising possono sfruttare l’integrazione Analytics + Advertising esistente.
 
 +++
 
@@ -46,9 +44,9 @@ No, Advertising Analytics utilizza un tipo di origine dati speciale che non comp
 
 +++
 
-+++ Se utilizzo già Advertising Cloud/AMO, posso continuare a utilizzare la funzionalità Advertising Analytics?
++++ Se utilizzo già Adobe Advertising, posso continuare a utilizzare la funzionalità Advertising Analytics?
 
-Tutti gli account compatibili dei motori di ricerca passeranno ad Advertising Analytics e verranno visualizzati in sola lettura. Tutte le modifiche o gli aggiornamenti devono essere gestiti in Advertising Cloud/AMO.
+Tutti gli account compatibili dei motori di ricerca passeranno ad Advertising Analytics e verranno visualizzati in sola lettura. Tutte le modifiche o gli aggiornamenti devono essere gestiti in Advertising.
 
 +++
 
@@ -74,20 +72,20 @@ Dopo aver effettuato l&#39;accesso ad Adobe Analytics, passa a [!UICONTROL Admin
 
 +++ Come vengono raccolti e trasmessi i dati in Analytics? 
 
-Advertising Analytics utilizza una serie di API personalizzate per trasmettere ad Analytics i dati dai motori di ricerca tramite Adobe Advertising Cloud.
+Advertising Analytics utilizza una serie di API personalizzate per trasmettere i dati dai motori di ricerca tramite Adobe Advertising ad Adobe Analytics.
 
 +++
 
 +++ Quali dati di ricerca ottengo con questa integrazione? 
 
-Otterrai
+Otteni:
 
 * Impression
 * Clic
 * Costi
 * punteggio di qualità
-* Posizione media direttamente dai motori di ricerca, nonché
-* Istanze AMO ID (fai clic su Istanze).
+* Posizione media direttamente dai motori di ricerca
+* Istanze AMO ID (Istanze di clic)
 
 +++
 
@@ -107,7 +105,7 @@ No, i dati di ricerca non elaborati verranno inseriti come set di dati indipende
 
 +++ Sto tentando di mappare i miei account Advertising Analytics su una suite di rapporti specifica, ma non è disponibile nella finestra modale Suite di rapporti. Perché? 
 
-Prima di poter assegnare una suite di rapporti a un account Advertising Analytics, è necessario eseguire il provisioning della suite di rapporti desiderata per il reporting di Advertising Analytics [&#128279;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Prima di poter assegnare una suite di rapporti a un account Advertising Analytics, è necessario eseguire il provisioning della suite di rapporti desiderata per il reporting di Advertising Analytics [](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 Questa operazione viene eseguita tramite una pagina Amministratore separata accessibile da: Amministratore > Suite di rapporti > `[select report suite]` > Modifica impostazioni > Configurazione Advertising Analytics.
 
 +++

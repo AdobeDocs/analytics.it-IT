@@ -3,10 +3,10 @@ title: Compatibilità delle dimensioni di Analytics
 description: Riferimento per dimensioni e rapporti di Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: 7609ecb3c34fb0bc8293fc1ecd409cfabb327295
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 19%
+source-wordcount: '894'
+ht-degree: 29%
 
 ---
 
@@ -16,9 +16,9 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 
 >[!NOTE]
 >
->I nomi delle variabili, le classificazioni e gli attributi dei visitatori personalizzati vengono omessi da questo elenco. Questi elementi dimensionali sono specifici per le singole suite di rapporti.
+>Custom variable names, classifications, and visitor attributes are omitted from this list. These dimension items are specific to individual report suites.
 
-## Dimensioni supportate in Analysis Workspace
+## Dimensions supported in Analysis Workspace
 
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |---|---|
@@ -39,7 +39,7 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Giorni precedenti al primo acquisto](days-before-first-purchase.md) | `daysbeforefirstpurchase` |
 | [Giorni dall&#39;ultimo acquisto](days-since-last-purchase.md) | `dayssincelastpurchase` |
 | [Dominio](domain.md) | `filtereddomain` |
-| [Collegamento di download](download-link.md) | `downloadlink` |
+| [Download Link](download-link.md) | `downloadlink` |
 | [Pagina di ingresso](entry-dimensions.md) | `entrypage` |
 | [Pagina di ingresso originale](entry-dimensions.md) | `entrypageoriginal` |
 | [Collegamento di uscita](exit-link.md) | `exitlink` |
@@ -59,7 +59,7 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Tipo di dispositivo mobile](mobile-dimensions.md) | `mobiledevicetype` |
 | [Lunghezza massima e-mail mobile](mobile-dimensions.md) | `mobileemaillength` |
 | [Supporto immagini per dispositivi mobili](mobile-dimensions.md) | `mobileimagesupport` |
-| [Produttore di dispositivi mobili](mobile-dimensions.md) | `mobilemanufacturer` |
+| [Mobile Manufacturer](mobile-dimensions.md) | `mobilemanufacturer` |
 | [Sistema operativo mobile (obsoleto)](mobile-dimensions.md) | `mobileos` |
 | [Altezza schermo mobile](mobile-dimensions.md) | `mobilescreenheight` |
 | [Dimensioni schermo dispositivo mobile](mobile-dimensions.md) | `mobilescreensize` |
@@ -78,7 +78,7 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Aree geografiche](regions.md) | `georegion` |
 | [Restituisci frequenza](return-frequency.md) | `returnfrequency` |
 | SC-TnT | `tntbase` |
-| [Motore di ricerca](search-engine.md) | `searchengine` |
+| [Search Engine](search-engine.md) | `searchengine` |
 | [Parola chiave di ricerca](search-keyword.md) | `searchenginekeyword` |
 | [Motore di ricerca - Naturale](search-engine.md) | `searchenginenatural` |
 | [Motore di ricerca - Pagato](search-engine.md) | `searchenginepaid` |
@@ -98,8 +98,8 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Numero visita](visit-number.md) | `visitnumber` |
 | [Codice postale](zip-code.md) | `zip` |
 | [AM / PM](am-pm.md) | `timepartampm` |
-| [Altezza browser - Bucket](browser-height.md) | `browserheightbucketed` |
-| [Larghezza browser - Bucket](browser-width.md) | `browserwidthbucketed` |
+| [Browser Height - Bucketed](browser-height.md) | `browserheightbucketed` |
+| [Browser Width - Bucketed](browser-width.md) | `browserwidthbucketed` |
 | [Giorno](day.md) | `daterangeday` |
 | [Giorno del mese](day-of-month.md) | `timepartdayofmonth` |
 | [Giorno della settimana](day-of-week.md) | `dayofweek` |
@@ -115,7 +115,7 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Esci da pagina](exit-dimensions.md) | `exitpage` |
 | [Esci dal server](exit-dimensions.md) | `exitserver` |
 | [Esci da sezione sito](exit-dimensions.md) | `exitsitesections` |
-| [Profondità di hit](hit-depth.md) | `hitdepth` |
+| [Hit Depth](hit-depth.md) | `hitdepth` |
 | [Tipo di occorrenza](hit-type.md) | `hittype` |
 | [Ora](hour.md) | `daterangehour` |
 | [Ora del giorno](hour-of-day.md) | `timeparthourofday` |
@@ -130,15 +130,15 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Protocolli di rete mobile](mobile-dimensions.md) | `mobilenetprotocols` |
 | [Push Mobile A Talk](mobile-dimensions.md) | `mobilepushtotalk` |
 | [Mese](month.md) | `daterangemonth` |
-| [Mese dell&#39;anno](month-of-year.md) | `timepartmonthofyear` |
+| [Mese dell’anno](month-of-year.md) | `timepartmonthofyear` |
 | [Tipi di sistemi operativi](operating-system-types.md) | `operatingsystemgroup` |
 | [Ricerca a pagamento](paid-search.md) | `paidsearch` |
 | [Supporto per cookie persistenti](persistent-cookie-support.md) | `persistentcookie` |
 | [Trimestre](quarter.md) | `daterangequarter` |
-| [Trimestre dell&#39;anno](quarter-of-year.md) | `timepartquarterofyear` |
+| [Trimestre dell’anno](quarter-of-year.md) | `timepartquarterofyear` |
 | Sondaggio | `surveybase` |
-| [Tempo trascorso sulla pagina - Bucket](time-spent-on-page.md) | `averagepagetime` |
-| [Tempo trascorso sulla pagina - Granulare](time-spent-on-page.md) | `pagetimeseconds` |
+| [Time Spent on Page - Bucketed](time-spent-on-page.md) | `averagepagetime` |
+| [Time Spent on Page - Granular](time-spent-on-page.md) | `pagetimeseconds` |
 | [Tracking del motivo di rinuncia](tracking-opt-out-reason.md) | `optoutreason` |
 | [Giorno feriale / Fine settimana](weekday-weekend.md) | `timepartweekdayweekend` |
 | [Settimana](week.md) | `daterangeweek` |
@@ -152,8 +152,8 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | ID sessione multimediale | `videosessionid` |
 | Metodo di accesso Nielsen | `nielsenaccmethod` |
 | ID app Nielsen | `nielsenappid` |
-| Risorsa di canale Nielsen | `nielsenchannelasset` |
-| Tipo di contenuto Nielsen | `nielsencontenttype` |
+| Risorsa canale Nielsen | `nielsenchannelasset` |
+| Nielsen - Tipo di contenuto | `nielsencontenttype` |
 
 ## Dimensioni in base al contenuto supportate da Analysis Workspace
 
@@ -163,8 +163,8 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 |--- |--- |
 | [Contenuto](sm-core.md) | `video` |
 | [Segmento di contenuto](sm-core.md) | `videosegment` |
-| [Tipo di contenuto](sm-core.md) | `videocontenttype` |
-| [Nome Lettore Annuncio](sm-ads.md) | `videoadplayername` |
+| [Content Type](sm-core.md) | `videocontenttype` |
+| [Ad Player Name](sm-ads.md) | `videoadplayername` |
 | [Annuncio in posizione pod](sm-ads.md) | `videoadinpod` |
 | [Frame rilasciati](sm-quality.md) | `videoqoedroppedframecountevar` |
 | [Errori](sm-quality.md) | `videoqoeerrorcountevar` |
@@ -180,9 +180,9 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Canale contenuto](sm-core.md) | `videochannel` |
 | [Capitolo](sm-chapters.md) | `videochapter` |
 | [Nome contenuto (variabile)](sm-core.md) | `videoname` |
-| [Lunghezza contenuto (variabile)](sm-core.md) | `videolength` |
-| [Nome annuncio (variabile)](sm-ads.md) | `videoadname` |
-| [Lunghezza annuncio (variabile)](sm-ads.md) | `videoadlength` |
+| [Content Length (variable)](sm-core.md) | `videolength` |
+| [Ad Name (variable)](sm-ads.md) | `videoadname` |
+| [Ad Length (variable)](sm-ads.md) | `videoadlength` |
 | [Mostra](sm-video-metadata.md) | `videoshow` |
 | [Stagione](sm-video-metadata.md) | `videoseason` |
 | [Episodio](sm-video-metadata.md) | `videoepisode` |
@@ -202,9 +202,9 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Esci dal percorso file multimediale](exit-dimensions.md) | `exitvideopath` |
 | [Genere voce](entry-dimensions.md) | `entryvideogenre` |
 | [Esci da genere](exit-dimensions.md) | `exitvideogenre` |
-| [ID errore SDK lettore di ingresso](entry-dimensions.md) | `entryvideoqoeplayersdkerrors` |
-| [ID errore uscita SDK lettore](exit-dimensions.md) | `exitvideoqoeplayersdkerrors` |
-| [ID errore esterni voce](entry-dimensions.md) | `entryvideoqoeextneralerrors` |
+| [Entry Player SDK Error IDs](entry-dimensions.md) | `entryvideoqoeplayersdkerrors` |
+| [Exit Player SDK Error IDs](exit-dimensions.md) | `exitvideoqoeplayersdkerrors` |
+| [Entry External Error IDs](entry-dimensions.md) | `entryvideoqoeextneralerrors` |
 | [Esci da ID errore esterni](exit-dimensions.md) | `exitvideoqoeextneralerrors` |
 
 ### Adobe Social
@@ -217,17 +217,17 @@ Adobe Social è ritirato.
 | Piattaforme/proprietà social | `socialcontentprovider` |
 | Autori | `socialauthor` |
 | Lingua | `sociallanguage` |
-| Latitudine/Longitudine | `sociallatlong` |
+| Latitudine / Longitudine | `sociallatlong` |
 | Codici di tracciamento delle risorse | `socialassettrackingcode` |
 | Proprietà social possedute | `socialaccountandappids` |
 | ID dei post di proprietà | `socialownedpostids` |
 | Definizioni social di proprietà | `socialinteractiontype` |
 | ID proprietà possedute | `socialownedpropertyid` |
-| Proprietà di proprietà e applicazione | `socialownedpropertypropertyvsapp` |
-| Nome proprietà di proprietà | `socialownedpropertyname` |
-| Proprietà definizione di proprietà e post | `socialowneddefinitionpropertyvspost` |
-| Tipo Insight di definizione di proprietà | `socialowneddefinitioninsighttype` |
-| Valore Insight della definizione di proprietà | `socialowneddefinitioninsightvalue` |
+| Proprietà posseduta vs applicazione | `socialownedpropertypropertyvsapp` |
+| Nome proprietà possedute | `socialownedpropertyname` |
+| Proprietà definizione propria e Post | `socialowneddefinitionpropertyvspost` |
+| Tipo di insight definizione di proprietà | `socialowneddefinitioninsighttype` |
+| Valore insight definizione di proprietà | `socialowneddefinitioninsightvalue` |
 | Metrica di definizione di proprietà | `socialowneddefinitionmetric` |
 | Risorsa | `socialmediaid` |
 
@@ -245,9 +245,9 @@ Adobe Social è ritirato.
 | [Sistema operativo (SDK)](lifecycle-dimensions.md) | `mobileosenvironment` |
 | [Giorni dall’ultimo aggiornamento](lifecycle-dimensions.md) | `mobiledayssincelastupgrade` |
 | [Avvii dall’ultimo aggiornamento](lifecycle-dimensions.md) | `mobilelaunchessincelastupgrade` |
-| [Nome dispositivo (SDK)](lifecycle-dimensions.md) | `mobiledevice` |
-| [Versione sistema operativo (SDK)](lifecycle-dimensions.md) | `mobileosversion` |
-| [Beacon principale](lifecycle-dimensions.md) | `mobilebeaconmajor` |
+| [Device Name (SDK)](lifecycle-dimensions.md) | `mobiledevice` |
+| [Operating System Version (SDK)](lifecycle-dimensions.md) | `mobileosversion` |
+| [Beacon Major](lifecycle-dimensions.md) | `mobilebeaconmajor` |
 | [Beacon secondario](lifecycle-dimensions.md) | `mobilebeaconminor` |
 | [UUID beacon](lifecycle-dimensions.md) | `mobilebeaconuuid` |
 | [Prossimità beacon](lifecycle-dimensions.md) | `mobilebeaconproximity` |
@@ -268,7 +268,7 @@ Adobe Social è ritirato.
 | [Prossimità beacon di ingresso](lifecycle-dimensions.md) | `entrymobilebeaconproximity` |
 | [Prossimità beacon di uscita](lifecycle-dimensions.md) | `exitmobilebeaconproximity` |
 
-### Adobe Advertising Cloud (AMO)
+### Adobe Advertising
 
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
@@ -291,15 +291,15 @@ Per ulteriori informazioni su come implementare questa integrazione, consulta l&
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
 | Modello annuncio Nielsen | `nielsenadmodel` |
-| Nielsen, segmento C | `nielsensegmentc` |
-| Nielsen, segmento B | `nielsensegmentb` |
-| Nielsen, segmento A | `nielsensegmenta` |
+| Nielsen - Segmento C | `nielsensegmentc` |
+| Nielsen - Segmento B | `nielsensegmentb` |
+| Nielsen - Segmento A | `nielsensegmenta` |
 | ID contenuto Nielsen | `nielsencontentid` |
 | Risorsa/Programma Nielsen | `nielsenasset` |
-| Nielsen VCID | `nielsenvcid` |
-| Rinuncia di Nielsen | `nielsenoptout` |
+| Nielsen - VCID  | `nielsenvcid` |
+| Rinuncia Nielsen | `nielsenoptout` |
 | ID client Nielsen + VCID | `nielsenclientidvcid` |
-| ID client Nielsen | `nielsenclientid` |
+| ID cliente Nielsen | `nielsenclientid` |
 | Voce Nielsen - Rinuncia | `entrynielsenoptout` |
 | Esci da Nielsen Opt Out | `exitnielsenoptout` |
 | ID client Nielsen entry + VCID | `entrynielsenclientidvcid` |
@@ -313,9 +313,9 @@ Per ulteriori informazioni su come implementare questa integrazione, consulta l&
 |--- |--- |
 | ID risorsa | `aemassetid` |
 | Origine risorsa | `aemassetsource` |
-| ID risorsa selezionata | `aemclickedassetid` |
+| ID risorsa cliccato | `aemclickedassetid` |
 | ID risorsa di ingresso | `entryaemassetid` |
-| Esci da ID risorsa | `exitaemassetid` |
+| Exit Asset ID | `exitaemassetid` |
 
 ### Adobe Campaign
 

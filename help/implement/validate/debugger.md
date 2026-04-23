@@ -1,12 +1,12 @@
 ---
 title: Debugger legacy di Adobe Experience Cloud
-description: Installa il debugger legacy di Adobe Experience Cloud. Questo debugger esamina i tag per Analytics, Target, Advertising Cloud, Identity Service e Data Collection.
+description: Installa il debugger legacy di Adobe Experience Cloud. Questo debugger analizza i tag di Analytics, Target, Advertising, Identity Service e Data Collection.
 feature: Implementation Basics
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 role: Admin, Developer, Leader, User
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '675'
 ht-degree: 0%
 
 ---

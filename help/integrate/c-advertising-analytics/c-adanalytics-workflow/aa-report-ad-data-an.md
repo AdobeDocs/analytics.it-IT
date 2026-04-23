@@ -3,10 +3,10 @@ description: Dettagli sul modello Analysis Workspace e reporting in Report Build
 title: Rapporto sui dati pubblicitari in Adobe Analytics
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 4%
+source-wordcount: '341'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,7 @@ Questo articolo fornisce dettagli sul rapporto di Analysis Workspace e sul repor
 
 >[!NOTE]
 >
->Devi aspettarti di attendere almeno 24 ore prima che i dati del motore di ricerca inizino a essere inseriti nei rapporti di Analytics. Inoltre, la generazione rapporti di Analytics non restituisce dati con granularità oraria, perché i dati di Advertising Cloud non supportano tale granularità.
+>I rapporti di Analytics devono essere compilati almeno 24 ore prima che i dati del motore di ricerca inizino a essere inseriti. La generazione rapporti di Analytics non restituisce dati con granularità oraria, perché i dati di Adobe Advertising non supportano tale granularità.
 
 ## Rapporto di ricerca a pagamento {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
@@ -30,14 +30,14 @@ Questo rapporto consente a chiunque implementi l’integrazione del motore di ri
 
 | Tabella/Visualizzazione | Descrizione |
 |--- |--- |
-| Tendenze di Advertising | Panoramica con tendenze giornaliere per impressioni AMO, clic AMO e costo AMO. |
+| Tendenze pubblicitarie | Panoramica con tendenze giornaliere per impressioni AMO, clic AMO e costo AMO. |
 | Piattaforme annuncio | Grafico ad anello per il costo delle prime 2 piattaforme (Google Ads, Microsoft Advertising). |
-| Totali in Ad Platform | Tabella a forma libera delle piattaforme principali suddivisa per impressioni AMO, clic AMO, costi AMO, media AMO. Posizione, media AMO punteggio di qualità. |
+| Totali piattaforma di annunci | Tabella a forma libera delle piattaforme principali suddivisa per impressioni AMO, clic AMO, costi AMO, media AMO. Posizione, media AMO punteggio di qualità. |
 | Account | Superfici di costo in pila. |
-| Totali conto | Tabella a forma libera dei principali account suddivisa per le metriche associate. |
+| Totali account | Tabella a forma libera dei principali account suddivisa per le metriche associate. |
 | Campagne | Grafico a barre del costo della campagna. |
 | Totali campagna | Tabella a forma libera delle campagne principali suddivisa per le metriche associate. |
-| Groups (Gruppi) | Mappa ad albero del costo. |
+| Gruppi | Mappa ad albero del costo. |
 | Totali gruppo | Tabella a forma libera dei principali gruppi pubblicitari suddivisi per le metriche associate. |
 | Annunci | Grafico a barre orizzontale con impression, clic e costi. |
 | Totali annuncio | Tabella a forma libera dei principali annunci suddivisa per le metriche associate. |

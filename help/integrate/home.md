@@ -3,25 +3,25 @@ title: Integrazione di Analytics
 description: Scopri come integrare in Adobe Analytics i dati derivanti da altre posizioni.
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
 feature: Audience Analytics, Advertising Analytics, Activity Map
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 76%
+source-wordcount: '167'
+ht-degree: 67%
 
 ---
 
 # Integrazione di Analytics
 
-Questa guida si concentra sull’integrazione di più soluzioni Adobe Experience Cloud, quali Audience Manager, Advertising Cloud e Target. Include:
+Questa guida si concentra sull’integrazione di più soluzioni Adobe Experience Cloud, come Audience Manager, Advertising o Target. Include:
 
 * **Audience Analytics:** integra Adobe Audience Manager in Adobe Analytics.
 * **Advertising Analytics:** puoi visualizzare i dati da sistemi di ricerca a pagamento insieme ai dati di Adobe Analytics.
-* **Analytics for Advertising Cloud DSP:** integra Adobe Analytics e Adobe Advertising Cloud per estendere e migliorare le funzionalità di ciascun prodotto.
+* **Analytics per Advertising DSP:** integra Adobe Analytics e Adobe Advertising per estendere e migliorare le funzionalità di ciascun prodotto.
 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising Cloud](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/introduction-to-the-analytics-for-advertising-cloud-dsp-integration){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -49,7 +49,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 
 ## Risorse chiave per Analytics
 
-* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/it?support-solution=Analytics?lang=it#support)
-* [Adobe Analytics Community su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it)
-* [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=it)
+* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/?support-solution=Analytics?lang=it#support)
+* [Adobe Analytics Community su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
+* [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
 * [Experience League](https://landing.adobe.com/experience-league/)

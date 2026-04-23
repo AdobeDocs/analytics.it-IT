@@ -3,9 +3,9 @@ title: Rapporti sul comportamento in Adobe Analytics
 description: Scopri come creare rapporti di comportamento in Adobe Analytics
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '800'
 ht-degree: 5%
 
 ---
@@ -87,4 +87,4 @@ Poiché questa funzione richiede modifiche all’implementazione, Adobe consigli
 
 ## Rapporti di Publisher
 
-Così come Google richiede una connessione con Google Ad Manager, Adobe offre un prodotto dedicato per fornire insight denominato Adobe Advertising Cloud. Se la tua organizzazione è interessata a utilizzare questo prodotto, contatta il team del tuo account Adobe.
+Così come Google richiede una connessione con Google Ad Manager, Adobe offre un prodotto dedicato per fornire insight denominato Adobe Advertising. Se la tua organizzazione è interessata a utilizzare questo prodotto, contatta il team del tuo account Adobe.

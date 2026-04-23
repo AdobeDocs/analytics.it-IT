@@ -3,9 +3,9 @@ title: Rapporti di acquisizione in Adobe Analytics
 description: Scopri come creare rapporti basati sull’acquisizione utilizzando Analysis Workspace.
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1574'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ I rapporti Source e medium mostrano i domini che hanno portato il traffico al si
 Per ulteriori informazioni sulle rispettive dimensioni, consulta le pagine seguenti nella guida utente dei Componenti:
 
 * [Dominio di riferimento](/help/components/dimensions/referring-domain.md)
-* [Tipo di destinatario che inoltra](/help/components/dimensions/referrer-type.md)
+* [Tipo di referrer](/help/components/dimensions/referrer-type.md)
 * [Parola chiave di ricerca](/help/components/dimensions/search-keyword.md)
 
 ## Tutto il traffico - Riferimenti
@@ -141,4 +141,4 @@ Il rapporto delle parole chiave organiche mostra il comportamento di ciascuna pa
 
 ## Analisi dei costi
 
-Questo rapporto mostra i dati sulle prestazioni di visite, costi e ricavi per i canali di marketing a pagamento. Adobe fornisce un prodotto dedicato per fornire insight denominato Adobe Advertising Cloud. Se la tua organizzazione è interessata a utilizzare questo prodotto, contatta il team del tuo account Adobe.
+Questo rapporto mostra i dati sulle prestazioni di visite, costi e ricavi per i canali di marketing a pagamento. Adobe Advertising, un prodotto separato, offre questa funzionalità. Se la tua organizzazione è interessata a utilizzare questo prodotto, contatta il team del tuo account Adobe.
