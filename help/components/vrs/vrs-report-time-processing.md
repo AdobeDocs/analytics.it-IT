@@ -5,22 +5,22 @@ role: Admin
 solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1275'
 ht-degree: 4%
 
 ---
 
 # Elaborazione dei tempi di reporting
 
-[!UICONTROL Report time processing] è un&#39;impostazione della suite di rapporti virtuale che consente l&#39;elaborazione dei dati in Analysis Workspace in modo retroattivo e non distruttivo.
+[!UICONTROL Report time processing] is a virtual report suite setting that allows data in Analysis Workspace to be processed in a non-destructive, retroactive fashion.
 
-[!UICONTROL Report Time Processing] influisce solo sui dati nella suite di rapporti virtuali e non influisce su alcun dato o raccolta di dati nella suite di rapporti di base. La differenza tra l&#39;elaborazione di [!UICONTROL Report Time Processing] e quella tradizionale di Analytics è meglio compresa utilizzando il diagramma seguente:
+[!UICONTROL Report Time Processing] affects only the data in the virtual report suite and does not impact any data or data collection in the base report suite. The difference between [!UICONTROL Report Time Processing] and traditional Analytics processing is best understood using the following diagram:
 
-![Pipeline di elaborazione tradizionale](assets/google1.jpg)
+![Traditional processing pipeline](assets/google1.jpg)
 
-Durante l’elaborazione dei dati di Analytics, i dati scorrono attraverso la pipeline di raccolta dati e si trasformano in un passaggio di pre-elaborazione, che prepara i dati per il reporting. Questo passaggio di preelaborazione applica la logica di scadenza delle visite e la logica di persistenza di eVar (tra le altre cose) ai dati durante la raccolta. Lo svantaggio principale di questo modello di pre-elaborazione è che richiede che qualsiasi configurazione venga eseguita in anticipo prima della raccolta dei dati. Ciò significa che qualsiasi modifica alle impostazioni di pre-elaborazione si applica solo ai nuovi dati da quel momento in poi. Ciò è problematico se i dati arrivano fuori servizio o se le impostazioni non sono state configurate correttamente.
+During Analytics data processing, data flows through the data collection pipeline and into a preprocessing step, which prepares data for reporting. Questo passaggio di preelaborazione applica la logica di scadenza delle visite e la logica di persistenza di eVar (tra le altre cose) ai dati durante la raccolta. Lo svantaggio principale di questo modello di pre-elaborazione è che richiede che qualsiasi configurazione venga eseguita in anticipo prima della raccolta dei dati. Ciò significa che qualsiasi modifica alle impostazioni di pre-elaborazione si applica solo ai nuovi dati da quel momento in poi. Ciò è problematico se i dati arrivano fuori servizio o se le impostazioni non sono state configurate correttamente.
 
 [!UICONTROL Report Time Processing] è un modo fondamentalmente diverso di elaborare i dati di Analytics per il reporting. Invece di predeterminare la logica di elaborazione prima della raccolta dei dati, Analytics ignora il set di dati durante il passaggio di preelaborazione e applica questa logica ogni volta che viene eseguito un rapporto:
 
@@ -34,22 +34,22 @@ Questa architettura di elaborazione offre opzioni di reporting molto più flessi
 
 Le seguenti opzioni di configurazione sono attualmente disponibili per le suite di rapporti virtuali con l’opzione Elaborazione al momento del rapporto abilitata:
 
-* **[!UICONTROL Visit Timeout]:** L&#39;impostazione di timeout visita definisce la quantità di inattività che un visitatore univoco deve avere prima dell&#39;avvio automatico di una nuova visita. Il valore predefinito è 30 minuti. Ad esempio, se imposti il timeout visita su 15 minuti, viene creato un nuovo raggruppamento di visite per ogni sequenza di hit raccolta, separate da 15 minuti di inattività. Questa impostazione influisce non solo sui conteggi delle visite, ma anche sul modo in cui vengono valutati i contenitori dei segmenti di visita e sulla logica di scadenza delle visite per tutte le eVar in scadenza alla visita. La riduzione del timeout visita probabilmente aumenterà il numero totale di visite nel reporting, mentre l’aumento del timeout visita probabilmente diminuirà il numero totale di visite nel reporting.
-* **[!UICONTROL Mobile App Visit Settings]:** Per le suite di rapporti contenenti dati generati dalle app mobili tramite gli [SDK Adobe Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=it), sono disponibili impostazioni di visita aggiuntive. Queste impostazioni non sono distruttive e influiscono solo sugli hit raccolti tramite gli SDK di Mobile. Queste impostazioni non hanno alcun impatto sui dati raccolti al di fuori del SDK mobile.
+* **[!UICONTROL Visit Timeout]:** L&#39;impostazione di timeout visita definisce la quantità di inattività che un visitatore univoco deve avere prima dell&#39;avvio automatico di una nuova visita. Il valore predefinito è 30 minuti. For example, if you set the visit timeout to 15 minutes, a new visit grouping is created for each sequence of hits collected, separated by 15 minutes of inactivity. This setting impacts not only your visit counts, but also how visit segment containers are evaluated, and the visit expiration logic for any eVars expiring on visit. Decreasing the visit timeout will likely increase the total number of visits in your reporting, while increasing the visit timeout will likely decrease the total number of visits in your reporting.
+* **[!UICONTROL Mobile App Visit Settings]:** Per le suite di rapporti contenenti dati generati dalle app mobili tramite gli [SDK Adobe Mobile](https://experienceleague.adobe.com/docs/mobile.html?lang=it), sono disponibili impostazioni di visita aggiuntive. These settings are non-destructive and only affect hits that have been collected via the Mobile SDKs. Queste impostazioni non hanno alcun impatto sui dati raccolti al di fuori del SDK mobile.
 * **[!UICONTROL Prevent Background Hits from starting a new Visit]:** Gli hit in background vengono raccolti dagli SDK di Mobile quando l&#39;app si trova in uno stato di background.
-* **[!UICONTROL Start a New Visit upon each App Launch]:** Oltre al timeout della visita, puoi forzare l&#39;inizio di una visita ogni volta che un evento App Launch viene registrato dagli SDK di Mobile, indipendentemente dalla finestra di inattività. Questa impostazione influisce sulla metrica Visita e sul contenitore del segmento di visita, nonché sulla logica di scadenza della visita nelle eVar.
-* **[!UICONTROL Start New Visit with Event]:** Una nuova sessione viene avviata quando viene attivato un evento, indipendentemente dal timeout di una sessione. La nuova sessione creata include l’evento che l’ha avviata. Inoltre, puoi utilizzare più eventi per avviare una sessione e una nuova sessione viene avviata se nei dati viene rilevato uno qualsiasi degli eventi. Questa impostazione influirà sul conteggio delle visite, sul contenitore di segmentazione delle visite e sulla logica di scadenza delle visite nelle eVar.
+* **[!UICONTROL Start a New Visit upon each App Launch]:** Oltre al timeout della visita, puoi forzare l&#39;inizio di una visita ogni volta che un evento App Launch viene registrato dagli SDK di Mobile, indipendentemente dalla finestra di inattività. This setting affects the visit metric and the visit segment container, as well as visit expiration logic on eVars.
+* **[!UICONTROL Start New Visit with Event]:** A new session starts when an event is fired, regardless of whether a session has timed out. La nuova sessione creata include l’evento che l’ha avviata. Inoltre, puoi utilizzare più eventi per avviare una sessione e una nuova sessione viene avviata se nei dati viene rilevato uno qualsiasi degli eventi. This setting will impact your visit count, the visit segmentation container, and the visit expiration logic on eVars.
 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Avvio di una nuova visita con evento](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} per un video dimostrativo.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Starting a new visit with event](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
 
 
-## Limitazioni dell’elaborazione dei tempi di report
+## Report Time Processing limitations
 
 L’elaborazione dei tempi di report non supporta tutte le metriche e le dimensioni disponibili nel reporting tradizionale di Analytics. Le suite di rapporti virtuali che utilizzano l’elaborazione dei tempi di report sono accessibili solo in Analysis Workspace e non in Data Warehouse, Report Builder, Data Feed o nell’API di reporting.
 
@@ -58,18 +58,18 @@ Inoltre, Elaborazione dell’ora rapporto elabora solo i dati che provengono dal
 Le dimensioni e le metriche seguenti non sono supportate con l’elaborazione dell’ora rapporto:
 
 * **Analytics for Target**
-* **Dimensioni/metriche di Analytics per Advertising Cloud**
+* [**Dimensioni/metriche di Advertising**](/help/components/dimensions/amo-id.md)
 * **eVar contatore**
 * [**Giorni precedenti al primo acquisto**](/help/components/dimensions/days-before-first-purchase.md)
 * [**Giorni dall’ultimo acquisto**](/help/components/dimensions/days-since-last-purchase.md)
 * [**Giorni dall’ultima visita**](/help/components/dimensions/days-since-last-visit.md)
-* **Pagina di ingresso originale**
-* **eVar di allocazione lineare**
+* [**Pagina di ingresso originale**](/help/components/dimensions/entry-dimensions.md)
+* **Linear allocation eVars**
 * **Variabili elenco**
 * [**Dimensioni dei canali di marketing**](/help/components/dimensions/marketing-channel.md)
 * [**Dominio di riferimento originale**](/help/components/dimensions/original-referring-domain.md)
 * [**Frequenza di ritorno**](/help/components/dimensions/return-frequency.md)
-* [**Accesso singolo**](/help/components/metrics/single-access.md)
+* [**Single Access**](/help/components/metrics/single-access.md)
 * **Origini dati ID transazione**
 * [**Numero di visite**](/help/components/dimensions/visit-number.md)
 
@@ -83,11 +83,11 @@ Di seguito è riportato un elenco di dimensioni e metriche interessate a seconda
    * **Tempo trascorso per visita:** solo le visite che includono hit in primo piano contribuiscono a questa metrica.
    * [**Metrica di ingresso**](/help/components/metrics/entries.md) / [**Metrica di uscita:**](/help/components/metrics/exits.md) In questa dimensione vengono visualizzate solo le entrate e le uscite dalle visite con hit in primo piano.
    * [**Dimensione di ingresso**](/help/components/dimensions/entry-dimensions.md) / [**Dimensioni di uscita:**](/help/components/dimensions/exit-dimensions.md) In questa dimensione vengono visualizzate solo le entrate e le uscite dalle visite con hit di primo piano.
-   * [**Metrica Visitatori univoci:**](/help/components/metrics/unique-visitors.md) Visitatori univoci non include i visitatori che hanno avuto solo hit di background nell&#39;intervallo di date del rapporto.
-* [**Visite:**](/help/components/metrics/visits.md) le visite riflettono le impostazioni configurate dalla suite di rapporti virtuali, che possono essere diverse dalla suite di rapporti di base.
+   * [**Unique Visitors Metric:**](/help/components/metrics/unique-visitors.md) Unique Visitors does not include visitors who had only background hits in the reporting date range.
+* [**Visits:**](/help/components/metrics/visits.md) Visits reflects whatever settings the virtual report suite has configured, which can be different from the base report suite.
 * **Eventi serializzati con ID evento:** Gli eventi che utilizzano la serializzazione degli eventi con un ID evento vengono deduplicati solo per gli eventi che si verificano nell&#39;intervallo di date del report per un visitatore. Questi eventi non vengono deduplicati in tutte le date o i visitatori a livello globale a causa della finestra di dialogo della data di elaborazione dell’ora rapporto.
 * **Acquisti** / [**Ricavi**](/help/components/metrics/revenue.md) / [**Ordini**](/help/components/metrics/orders.md) / [**Unità:**](/help/components/metrics/units.md) Quando viene utilizzato l&#39;ID acquisto, queste metriche vengono deduplicate solo per gli ID acquisto duplicati che si verificano nell&#39;intervallo di date del rapporto per un visitatore anziché in tutte le date o i visitatori a livello globale a causa della finestra di visualizzazione della data di elaborazione dell&#39;ora rapporto.
-* [**eVar non merchandising**](/help/components/dimensions/evar.md) / **eVar riservate:** I valori impostati in un eVar persistono solo se il valore è stato impostato nell&#39;intervallo di date del report a causa della finestra di visualizzazione della data di elaborazione dell&#39;ora report. Inoltre, le scadenze basate sull’ora possono scadere con un’ora di anticipo o con un’ora di ritardo se la persistenza si estende oltre la modifica dell’ora legale.
-* [**eVar per merchandising**](/help/components/dimensions/evar-merchandising.md) / **eVar riservate:** Vedi sopra. Inoltre, per la sintassi di conversione, in cui l’associazione è impostata su &quot;any event&quot;, viene utilizzato &quot;any hit&quot;.
-* [**Tipo di hit:**](/help/components/dimensions/hit-type.md) Questa dimensione specifica se un hit è in primo piano o in background.
-* **Dimensioni con (traffico ridotto) o &quot;valori univoci superati&quot;:** l&#39;elemento della riga (traffico ridotto) viene determinato in modo leggermente diverso quando si utilizza l&#39;elaborazione dell&#39;ora rapporto e non è garantito che corrisponda a quanto osservato durante il reporting sulla suite rapporti di base. Non è garantito che gli elementi di riga Dimension che non fanno parte di Low-traffic rappresentino il 100% dei dati per tale elemento di riga. Queste differenze possono diventare più pronunciate quanto più elevato è il numero di valori univoci in una dimensione.
+* [**eVar non merchandising**](/help/components/dimensions/evar.md) / **eVar riservate:** I valori impostati in un eVar persistono solo se il valore è stato impostato nell&#39;intervallo di date del report a causa della finestra di visualizzazione della data di elaborazione dell&#39;ora report. In addition, time-based expirations can expire an hour early or an hour late if the persistence spans a daylight savings time change.
+* [**Merchandising eVars**](/help/components/dimensions/evar-merchandising.md) / **reserved eVars:** See above. In addition, for conversion syntax, where the binding is set to &quot;any event,&quot; &quot;any hit&quot; is used instead.
+* [**Hit Type:**](/help/components/dimensions/hit-type.md) This dimension specifies whether a hit is foreground or background.
+* **Dimensions with (Low-traffic) or &quot;Uniques Exceeded&quot;:** The (Low-traffic) line item is determined slightly differently when using Report Time Processing, and is not guaranteed to match what is observed when reporting on the base Report Suite. Dimension line items that are not part of Low-traffic are not guaranteed to represent 100% of the data for that line item. These differences may become more pronounced the higher the number of unique values exist in a dimension.

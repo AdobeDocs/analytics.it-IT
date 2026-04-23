@@ -3,10 +3,10 @@ description: Configura una suite di rapporti mappata da Experience Cloud da util
 title: Abilitare suite di rapporti per Advertising Analytics
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-source-git-commit: c53b533a1d037ab3ed811bcc0960418f037a708f
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 6%
+source-wordcount: '233'
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,7 @@ Per visualizzare i dati di ricerca di Advertising Analytics in Analytics, devi c
 1. Seleziona la suite di rapporti mappata sulla tua organizzazione Experience Cloud.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**.
 
-   ![Reporting](assets/aa-reporting.png)
-
-   >[!IMPORTANT]
-   >
-   >AMO ID fa riferimento alla variabile Adobe Advertising Cloud (nota anche come Adobe Media Optimizer) in cui verranno inseriti i dati di ricerca.
+   ![Generazione rapporti](assets/aa-reporting.png)
 
 1. Selezionare **[!UICONTROL Unfamiliar with Advertising Analytics? Click here to learn more]** per ulteriori informazioni su Advertising Analytics.
 

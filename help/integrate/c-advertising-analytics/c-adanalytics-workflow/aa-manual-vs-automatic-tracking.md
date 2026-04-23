@@ -3,7 +3,7 @@ description: Il tipo di tracciamento determina il modo in cui l’implementazion
 title: Tipo di tracciamento
 feature: Advertising Analytics
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Sono supportate due modalità di tracciamento: [!UICONTROL Auto] e [!UICONTROL M
 
 ## Tracciamento di [!UICONTROL Auto] {#concept_C4C6107838C947CFBB7F4E0CB94264F0}
 
-Il monitoraggio di [!UICONTROL Auto] consente al motore di Advertising Cloud di decidere come gestire i dati del motore di ricerca. Il tracciamento automatico è l’approccio più semplice, ma potrebbe non risultare nel miglior set di dati integrato.
+Il monitoraggio di [!UICONTROL Auto] consente al motore di Adobe Advertising di decidere come gestire i dati del motore di ricerca. Il tracciamento automatico è l’approccio più semplice, ma potrebbe non risultare nel miglior set di dati integrato.
 
 Di conseguenza, è necessario selezionare una casella di controllo di conferma quando si seleziona **[!UICONTROL Auto]** prima di poter salvare l&#39;impostazione dell&#39;account.
 

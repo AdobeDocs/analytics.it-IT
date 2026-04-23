@@ -3,16 +3,16 @@ description: Scopri tutto quello che puoi fare con Advertising Analytics, compre
 title: Advertising Analytics
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 6bedfb9b1333a442bf17cf71dad1e0883b97fd45
+source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 78%
+source-wordcount: '1005'
+ht-degree: 76%
 
 ---
 
 # Advertising Analytics
 
-Advertising Analytics ti consente di visualizzare tutti i tuoi dati di ricerca a pagamento Google Ads e Microsoft Advertising in Adobe Analytics. In precedenza, qualsiasi dato di Google Ads o Microsoft Advertising doveva essere visualizzato in Adobe Advertising Cloud (AMO) o in ogni rispettiva interfaccia pubblicitaria. Ora è possibile ottenere dati su impression, clic e costi direttamente dai motori di ricerca e dalle istanze AMO ID (Istanze di clic).
+Advertising Analytics ti consente di visualizzare tutti i tuoi dati di ricerca a pagamento Google Ads e Microsoft Advertising in Adobe Analytics. In precedenza, qualsiasi dato di Google Ads o Microsoft Advertising doveva essere visualizzato in Adobe Advertising o nelle rispettive interfacce pubblicitarie. Ora è possibile ottenere dati su impression, clic e costi direttamente dai motori di ricerca e dalle istanze AMO ID (Istanze di clic).
 
 Riunendo i dati di questi motori di ricerca in Adobe Analytics è possibile analizzarli servendosi della potenza di Analysis Workspace. L’analisi è facilitata da un nuovo modello di [Prestazioni di Paid Search](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md) in Workspace.
 
@@ -27,7 +27,7 @@ Questa integrazione è destinata ai seguenti tipi di pubblico:
 ## Prerequisiti {#prerequisites}
 
 * Advertising Analytics è disponibile solo per gli SKU di Adobe Analytics [Select](https://www.adobe.com/it/data-analytics-cloud/analytics/select.html), [Prime](https://www.adobe.com/it/data-analytics-cloud/analytics/prime.html) e [Ultimate](https://www.adobe.com/it/data-analytics-cloud/analytics/ultimate.html).
-* Questa funzionalità è disponibile per chi non è cliente Advertising Cloud e AMO.
+* Questa funzionalità è disponibile per i clienti che non utilizzano Adobe Advertising.
 * Devi essere un amministratore di Adobe Analytics per poter accedere ad Advertising Analytics o appartenere a un profilo di prodotto a cui è stato concesso l&#39;[accesso](/help/integrate/c-advertising-analytics/overview.md#permissions) ad Advertising Analytics.
 * Per ogni suite di rapporti in cui desideri visualizzare i dati di ricerca di Google Ads o Microsoft Advertising, devi [abilitare le suite di rapporti per Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 * È necessario disporre di credenziali di accesso per utenti con autorizzazioni di modifica per gli account di ricerca che si desidera integrare con Adobe Analytics, ad esempio l’ID e la password di un account Google.
@@ -50,7 +50,7 @@ Advertising Analytics aggiunge le dimensioni e le metriche seguenti ad Analysis 
 
 >[!IMPORTANT]
 >
->Questa integrazione crea un nuovo set di dimensioni attraverso classificazioni della variabile AMO ID. Le nuove dimensioni non influiscono né modificano i canali di marketing esistenti o le dimensioni variabili di tracciamento delle campagne. L’AMO ID è connesso al profilo di un visitatore quando questo arriva sul sito da un annuncio di ricerca a pagamento. Di conseguenza, le dimensioni AMO possono essere utilizzate per suddividere sia le metriche AMO fornite da questa integrazione che i dati acquisiti a valle dal visitatore (visite, visitatori, visualizzazioni di pagina, frequenza di rimbalzo, ordini, ricavi, eventi personalizzati, ecc.). È possibile suddividere questi dati anche per altre dimensioni quando si generano rapporti su altre metriche nel sito.
+>Questa integrazione crea un nuovo set di dimensioni attraverso classificazioni della variabile AMO ID. Le nuove dimensioni non influiscono né modificano i canali di marketing esistenti o le dimensioni variabili di tracciamento delle campagne. L’AMO ID è connesso al profilo di un visitatore quando questo arriva sul sito da un annuncio di ricerca a pagamento. Di conseguenza, le dimensioni AMO possono essere utilizzate per suddividere sia le metriche AMO fornite da questa integrazione che i dati acquisiti a valle dal visitatore (visite, visitatori, visualizzazioni di pagina, frequenza di rimbalzo, ordini, entrate, eventi personalizzati, ecc.). È possibile suddividere questi dati anche per altre dimensioni quando si generano rapporti su altre metriche nel sito.
 >
 >Le classificazioni per queste metriche vengono aggiornate ogni giorno. Pertanto, se si apportano modifiche ai metadati in un motore di ricerca, tali modifiche potrebbero non essere visibili fino al giorno successivo nel momento in cui le classificazioni vengono aggiornate.
 
@@ -72,7 +72,7 @@ Advertising Analytics aggiunge le dimensioni e le metriche seguenti ad Analysis 
 | **[!UICONTROL Network (AMO ID)]** | La rete su cui viene servito l’annuncio. Per Advertising Analytics questo valore è sempre “Search”. |
 | **[!UICONTROL Placement (AMO ID)]** | Il sito web di posizionamento gestito (per le reti di contenuti). Questa dimensione viene utilizzata solo per i posizionamenti gestiti. |
 | **[!UICONTROL Product Target (AMO ID)]** | Nome del target di prodotto utilizzato sugli annunci PLA (non il prodotto effettivamente acquistato). |
-| **[!UICONTROL Optimization (AMO ID)]** | Questa dimensione non viene utilizzata da Advertising Analytics, ma solo dai clienti di Advertising Cloud. |
+| **[!UICONTROL Optimization (AMO ID)]** | Non utilizzato da Advertising Analytics. Viene utilizzato solo dai clienti Adobe Advertising. |
 | **[!UICONTROL Device (AMO ID)]** | Non è in uso al momento. È un segnaposto per un potenziale miglioramento futuro del prodotto per il tipo di dispositivo di destinazione indicato dell’annuncio (ad es. mobile, desktop), non il dispositivo effettivo del visitatore. |
 
 ### Metriche
