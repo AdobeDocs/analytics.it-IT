@@ -3,9 +3,9 @@ title: Schema del set di classificazione
 description: Scopri come visualizzare e modificare lo schema per un singolo set di classificazione.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
+source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1410'
 ht-degree: 7%
 
 ---
@@ -119,7 +119,7 @@ Nella finestra di dialogo **[!UICONTROL Download data for _nome set di classific
    * **[!UICONTROL Comma separated values]** (CSV).
    * **[!UICONTROL Excel tab separated values]** (TSV o TAB).
 
-1. Per selezionare la [codifica del file](/help/components/classifications/sets/data-files.md#general-file-requirements) in cui viene scaricato il file, 2. Per selezionare la [codifica file](/help/components/classifications/sets/data-files.md#general-file-requirements) quando il file viene scaricato, selezionare un&#39;opzione dal menu a discesa Codifica file. Le opzioni sono:
+1. Per selezionare la [codifica file](/help/components/classifications/sets/data-files.md#general-file-requirements) al momento del download del file, selezionare un&#39;opzione dal menu a discesa **[!UICONTROL File-Encoding]**. Le opzioni sono:
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
