@@ -3,9 +3,9 @@ title: Schema del set di classificazione
 description: Scopri come visualizzare e modificare lo schema per un singolo set di classificazione.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
+source-git-commit: 7afae22c4e5153aebe859e663358cdd01c949e06
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1410'
 ht-degree: 7%
 
 ---
@@ -119,7 +119,7 @@ Nella finestra di dialogo **[!UICONTROL Download data for _nome set di classific
    * **[!UICONTROL Comma separated values]** (CSV).
    * **[!UICONTROL Excel tab separated values]** (TSV o TAB).
 
-1. Per selezionare la [codifica del file](/help/components/classifications/sets/data-files.md#general-file-requirements) in cui viene scaricato il file, 2. Per selezionare la [codifica file](/help/components/classifications/sets/data-files.md#general-file-requirements) quando il file viene scaricato, selezionare un&#39;opzione dal menu a discesa Codifica file. Le opzioni sono:
+1. Per selezionare la [codifica file](/help/components/classifications/sets/data-files.md#general-file-requirements) al momento del download del file, selezionare un&#39;opzione dal menu a discesa **[!UICONTROL File-Encoding]**. Le opzioni sono:
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -204,7 +204,7 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
    * **[!UICONTROL Latin-1]**.
 
 1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
-1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud completataSe la convalida ha esito positivo, viene visualizzato un messaggio con un avviso popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Seleziona **[!UICONTROL Save]**&#x200B;se hai creato la connessione alla connessione cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**&#x200B;per annullare la configurazione del percorso cloud.
+1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud completataSe la convalida ha esito positivo, viene visualizzato un messaggio con un avviso popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Seleziona **[!UICONTROL Save]**se hai creato la connessione alla connessione cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**per annullare la configurazione del percorso cloud.
 
 Quando carichi i file nel percorso cloud, entro 15 minuti il file viene rilevato e inviato come processo di importazione. Il risultato di questo processo di importazione è riportato in [Gestione processi classificazioni](/help/components/classifications/sets/job-manager.md). Se vieni aggiunto all’elenco di utenti a cui inviare notifiche sul completamento dei processi di acquisizione, riceverai anche messaggi e-mail.
 
