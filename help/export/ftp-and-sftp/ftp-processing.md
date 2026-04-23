@@ -1,20 +1,20 @@
 ---
-description: Le tempistiche di elaborazione di un qualsiasi file FTP, sia per le classificazioni che per le origini dati, si basano sul numero di file già presenti nella coda di elaborazione e dalla dimensione del file in questione.
+description: Il tempo di elaborazione per qualsiasi file FTP, sia per le classificazioni che per Origini dati, si basa sul numero di file già presenti nella coda di elaborazione e sulle dimensioni del file.
 keywords: ftp;sftp
-title: Tempistiche di elaborazione FTP
+title: Tempi di elaborazione FTP e SFTP
 feature: FTP Export
 exl-id: 151a5f42-d581-457f-a1d5-113dee21cf1a
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6008cd51b86e403668c15bbfb9d50513e46ddf4d
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 1%
 
 ---
 
-# Tempistiche di elaborazione FTP
+# Tempi di elaborazione FTP e SFTP
 
-Le tempistiche di elaborazione di un qualsiasi file FTP, sia per le classificazioni che per le origini dati, si basano sul numero di file già presenti nella coda di elaborazione e dalla dimensione del file in questione.
+Il tempo di elaborazione per qualsiasi file FTP, sia per le classificazioni che per Origini dati, si basa sul numero di file già presenti nella coda di elaborazione e sulle dimensioni del file.
 
-Se il file che invii ha dimensioni maggiori di 5 MB, potrebbe essere necessario più tempo per l&#39;importazione. Se dopo 1 o 2 giorni non visualizzi il file completato nel tuo spazio FTP e non vedi i dati caricati presenti negli strumenti di report, chiedi agli utenti supportati della tua organizzazione di contattare l&#39;Assistenza clienti Adobe per sapere se si è verificato un problema con il file.
+Se il file inviato supera i 5 MB, potrebbero verificarsi tempi di importazione leggermente più lunghi. Se il file completato non viene visualizzato nel sito FTP dopo 1-2 giorni, ma i dati caricati non vengono visualizzati negli strumenti di reporting, gli utenti supportati della tua organizzazione devono contattare l&#39;Assistenza clienti di Adobe per determinare se si è verificato un problema con il file.
 
-Durante la creazione del tuo file FTP, accertati di inserire l&#39;indirizzo e-mail del destinatario a cui inviare le notifiche. In questo modo puoi ricevere una notifica per la maggior parte degli errori.
+Assicurati di aggiungere l’indirizzo e-mail del destinatario della notifica quando crei il file FTP. In questo modo la maggior parte dei problemi fa sì che una notifica venga inviata al destinatario.
