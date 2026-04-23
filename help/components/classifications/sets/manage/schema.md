@@ -3,16 +3,16 @@ title: Schema del set di classificazione
 description: Scopri come visualizzare e modificare lo schema per un singolo set di classificazione.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 5f6c12d21a8007d77e0f40ba11bb14cc13750dfa
+source-git-commit: 6c4e34b8905860b3d09ebf093e5cf00aecb00b11
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1423'
 ht-degree: 7%
 
 ---
 
 # Schema del set di classificazione
 
-Lo schema è l’elenco delle classificazioni che desideri applicare alle dimensioni chiave definite per il set di classificazione. Ad esempio, se hai definito prodotto come dimensione chiave e questo campo contiene uno SKU di prodotto, utilizza lo schema per aggiungere classificazioni come nome del prodotto, colore del prodotto, dimensione del prodotto e altro ancora.
+Lo schema è l’elenco delle classificazioni che desideri applicare alle dimensioni chiave definite per il set di classificazione. Ad esempio, se hai definito prodotto come dimensione chiave e questo campo contiene uno SKU di prodotto, utilizza lo schema per aggiungere classificazioni quali nome del prodotto, colore e dimensione.
 
 Per modificare lo schema per un set di classificazione:
 
@@ -107,7 +107,7 @@ Per scaricare i dati di classificazione, seleziona ![Scarica](/help/assets/icons
 Nella finestra di dialogo **[!UICONTROL Download data for _nome set di classificazione_]**:
 
 1. Immettere il numero di **[!UICONTROL Rows]** che si desidera scaricare. Ad esempio: `10000`.
-1. Per selezionare il periodo per il quale si desidera scaricare righe di dati di classificazione, immettere i dati di inizio e fine per **[!UICONTROL Download Rows Received Between]**. In alternativa, utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per utilizzare un popup del calendario per selezionare il periodo.
+1. Per selezionare il periodo per il quale scaricare righe di dati di classificazione, immettere una data di inizio e una data di fine per **[!UICONTROL Download Rows Received Between]**. In alternativa, utilizzare ![Calendario](/help/assets/icons/Calendar.svg) per utilizzare un popup del calendario per selezionare il periodo.
 1. Per selezionare i dati da restituire, selezionare un&#39;opzione da **[!UICONTROL Data Returned]**.
 
    * **[!UICONTROL All values]** restituisce tutti i valori per i dati di classificazione correnti.
@@ -119,7 +119,7 @@ Nella finestra di dialogo **[!UICONTROL Download data for _nome set di classific
    * **[!UICONTROL Comma separated values]** (CSV).
    * **[!UICONTROL Excel tab separated values]** (TSV o TAB).
 
-1. Per selezionare la [codifica del file](/help/components/classifications/sets/data-files.md#general-file-requirements) in cui scaricare il file, selezionare un&#39;opzione dal menu a discesa Codifica file. Le opzioni sono:
+1. Per selezionare la [codifica del file](/help/components/classifications/sets/data-files.md#general-file-requirements) in cui viene scaricato il file, 2. Per selezionare la [codifica file](/help/components/classifications/sets/data-files.md#general-file-requirements) quando il file viene scaricato, selezionare un&#39;opzione dal menu a discesa Codifica file. Le opzioni sono:
 
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
@@ -146,7 +146,7 @@ Nella finestra di dialogo **[!UICONTROL Download template for _nome set di class
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
-1. Seleziona **[!UICONTROL Download]** per scaricare il modello di dati di classificazione. Puoi trovare il file scaricato nella directory di download predefinita del browser e si chiama <code><i>Set di classificazione</i>.<i>csv</i>|<i>tsv</i></code>. Se il file esiste già, un numero di sequenza <code>(<i>x</i>)</code> viene aggiunto al nome del file.
+1. Seleziona **[!UICONTROL Download]** per scaricare il modello di dati di classificazione. Puoi trovare il file scaricato nella directory di download predefinita del browser. Il file si chiama <code><i>Set di classificazione</i>.<i>csv</i>|<i>tsv</i></code>. Se il file esiste già, un numero di sequenza <code>(<i>x</i>)</code> viene aggiunto al nome del file.
 
 
 ### Automatizza {#automate}
@@ -166,8 +166,6 @@ Nella finestra di dialogo **[!UICONTROL Download template for _nome set di class
 >additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=it" text="Configurare posizioni di importazione ed esportazione cloud"
 
 Puoi automatizzare l’acquisizione dei dati di classificazione tramite la configurazione e l’utilizzo dell’account cloud e delle posizioni cloud.
-
-
 
 >[!IMPORTANT]
 >L’automazione dell’acquisizione delle classificazioni dagli account cloud richiede che tu (o il tuo amministratore di rete) specifichi intervalli di indirizzi IP per consentire l’acquisizione dei dati nella rete. Configura uno o più intervalli di indirizzi IP a seconda della posizione dei centri dati di Analytics che utilizzi.
@@ -206,14 +204,18 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
    * **[!UICONTROL Latin-1]**.
 
 1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
-1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud.
-1. Se la convalida ha esito positivo, verrà visualizzato un messaggio popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**&#x200B;se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**&#x200B;per annullare la configurazione del percorso cloud.
+1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud completataSe la convalida ha esito positivo, viene visualizzato un messaggio con un avviso popup che mostra ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Seleziona **[!UICONTROL Save]**se hai creato la connessione alla connessione cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**per annullare la configurazione del percorso cloud.
 
 Quando carichi i file nel percorso cloud, entro 15 minuti il file viene rilevato e inviato come processo di importazione. Il risultato di questo processo di importazione è riportato in [Gestione processi classificazioni](/help/components/classifications/sets/job-manager.md). Se vieni aggiunto all’elenco di utenti a cui inviare notifiche sul completamento dei processi di acquisizione, riceverai anche messaggi e-mail.
 
 Ad esempio:
 
 ![Set di classificazione - E-mail di convalida del processo](assets/job-failed-validation.png){width="400"}
+
+>[!IMPORTANT]
+>
+>Rimuovere manualmente i file dal percorso del cloud o utilizzando un criterio di rotazione dei file una volta che i file sono stati importati ed elaborati correttamente. In caso contrario, i file vengono reimportati ed elaborati al successivo processo di importazione.
+
 
 
 ## Barra delle azioni
