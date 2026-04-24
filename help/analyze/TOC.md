@@ -4,9 +4,10 @@ audience: end-user
 user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
-source-git-commit: 744376df6f8c577d41d0df4195a780912042b71b
+index: true
+source-git-commit: b17c00ac631759e199b2c518883c143f1522881e
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '884'
 ht-degree: 95%
 
 ---
