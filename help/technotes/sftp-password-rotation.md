@@ -3,9 +3,9 @@ title: Requisiti di sicurezza per server FTP e SFTP
 description: Scopri i requisiti di sicurezza per i server FTP e SFTP.
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 9067b57a7436656b6776de08e8411ee0a87f2b20
+source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '1933'
 ht-degree: 1%
 
 ---
@@ -28,10 +28,10 @@ Questa pagina descrive i requisiti di sicurezza per i server FTP e SFTP esistent
 >
 >Considera le seguenti situazioni prima di completare i passaggi descritti in questo articolo.
 >
->* **Adobe consiglia di passare a una destinazione cloud moderna anziché eseguire l&#39;aggiornamento a SFTP, se possibile.**
+>* **Adobe consiglia di passare a una destinazione cloud moderna anziché effettuare l&#39;aggiornamento a SFTP, se possibile.**
 >FTP e SFTP sono tipi di destinazione legacy. Invece di aggiornare gli account FTP a SFTP e ruotare le password SFTP come descritto in questo articolo, Adobe consiglia di passare a un tipo di destinazione cloud moderno (come Amazon S3, Google Cloud Platform o Azure). Queste destinazioni cloud forniscono un livello di sicurezza più elevato. Per ulteriori informazioni, vedere [Configurare gli account di importazione ed esportazione cloud](https://experienceleague.adobe.com/it/docs/analytics/components/locations/configure-import-accounts).
 >
->* **Se gli account FTP e SFTP sono utilizzati esclusivamente per le classificazioni, esegui la migrazione ai set di classificazione.**
+>* **Se gli account FTP e SFTP sono utilizzati esclusivamente per le classificazioni, effettua la migrazione ai set di classificazione.**
 >Se il tuo account FTP o SFTP è utilizzato esclusivamente per le classificazioni, devi migrare dall&#39;**Importazione classificazioni** ai **Set di classificazione**, anziché aggiornare gli account FTP a SFTP e ruotare le password SFTP come descritto in questo articolo. L&#39;importazione di classificazioni diventerà obsoleta e non sarà più accessibile dopo il **31 agosto 2026**. Per ulteriori informazioni, vedere [Panoramica sui set di classificazione](https://experienceleague.adobe.com/it/docs/analytics/components/classifications/sets/overview).
 
 ## Prerequisiti
@@ -211,7 +211,7 @@ Modifica ogni richiesta Data Warehouse pianificata configurata con la vecchia de
 
 1. Nella pagina Data Warehouse, seleziona la richiesta da modificare.
 
-   ![Gestire una richiesta](assets/dw-manage-request.png)
+   ![Gestire una richiesta](/help/technotes/assets/dw-manage-request.png)
 
 1. Seleziona [!UICONTROL **Modifica**].
 
