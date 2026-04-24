@@ -3,7 +3,7 @@ title: Requisiti di sicurezza per server FTP e SFTP
 description: Scopri i requisiti di sicurezza per i server FTP e SFTP.
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 40c4d507a885e9d8b91ba296db4884bc7c8b98b8
+source-git-commit: 94059a3b7d667fafe1900a4a9c82ed931d769df1
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 1%
@@ -211,7 +211,7 @@ Modifica ogni richiesta Data Warehouse pianificata configurata con la vecchia de
 
 1. Nella pagina Data Warehouse, seleziona la richiesta da modificare.
 
-   ![Gestire una richiesta](/help/technotes/assets/dw-manage-request.png)
+   ![Gestire una richiesta](assets/dw-manage-request.png)
 
 1. Seleziona [!UICONTROL **Modifica**].
 
