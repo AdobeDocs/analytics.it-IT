@@ -4,10 +4,11 @@ audience: end-user
 user-guide-title: Guida all’importazione di Analytics
 breadcrumb-title: Guida all’importazione
 user-guide-description: Trasferisci i dati in Adobe Analytics da sorgenti esterne, sia in massa che in tempo reale.
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+index: true
+source-git-commit: d1ce4b6a6db2d8016559f2553e7f94d240a16c71
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 90%
+source-wordcount: '74'
+ht-degree: 91%
 
 ---
 
