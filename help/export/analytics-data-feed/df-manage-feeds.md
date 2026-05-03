@@ -5,8 +5,8 @@ feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '1296'
-ht-degree: 2%
+source-wordcount: '1315'
+ht-degree: 5%
 
 ---
 
@@ -26,7 +26,7 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_manager"
 >title="Gestire i feed dati"
->abstract="Puoi visualizzare, creare e gestire feed di dati da questa pagina. Cerca i feed per nome o ID, oppure seleziona l’icona del filtro per visualizzare i filtri disponibili."
+>abstract="Da questa pagina puoi visualizzare, creare e gestire i feed di dati. Puoi cercare i feed per nome o ID, o selezionare l’icona del filtro per visualizzare i filtri disponibili."
 
 <!-- markdownlint-enable MD034 -->
 

@@ -5,8 +5,8 @@ feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
 source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 3%
+source-wordcount: '525'
+ht-degree: 15%
 
 ---
 
@@ -20,8 +20,8 @@ I job sono singole attività che generano un file compresso. Sono create e gesti
 
 >[!CONTEXTUALHELP]
 >id="aa_datafeed_job_history"
->title="Cronologia dei processi del feed dati"
->abstract="Puoi visualizzare un elenco di processi di feed dati per un dato feed dati da questa pagina. Cerca i processi per ID richiesta o data di inizio periodo richiesta. Le informazioni su ciascun processo sono visualizzate nelle colonne disponibili. È inoltre possibile inviare nuovamente un processo con gli stessi dati o rielaborare i dati di origine di un processo prima di inviarlo nuovamente."
+>title="Cronologia dei processi di feed di dati"
+>abstract="Da questa pagina puoi visualizzare un elenco dei processi di feed di dati per un determinato feed di dati. Puoi cercare i processi per ID richiesta o data di inizio del periodo della richiesta. Le informazioni su ciascun processo sono mostrate nelle colonne disponibili. Puoi anche inviare di nuovo un processo con gli stessi dati o rielaborare i dati di origine di un processo prima di inviarlo di nuovo."
 
 <!-- markdownlint-enable MD034 -->
 
