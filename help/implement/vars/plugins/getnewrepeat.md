@@ -4,10 +4,10 @@ description: Tracciare l’attività dei visitatori nuovi rispetto a quelli ripe
 feature: Appmeasurement Implementation
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 role: Admin, Developer
-source-git-commit: 6d2c278c5525c89b73c39bbfcedbe644806bf989
+source-git-commit: 53f44c09cd68fce618f08ea0042c411cfc6d1681
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 7%
+source-wordcount: '653'
+ht-degree: 8%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 {{plug-in}}
 
-Il plug-in `getNewRepeat` consente di determinare se un visitatore del sito è un nuovo visitatore o un visitatore ripetuto entro un numero desiderato di giorni. Adobe consiglia di utilizzare questo plug-in se si desidera identificare i visitatori come &quot;nuovi&quot; utilizzando un numero di giorni personalizzato. Questo plug-in non è necessario se i segmenti &#39;[!UICONTROL New Visitors]&#39; e &#39;[!UICONTROL Repeat Visitors]&#39; in Analysis Workspace soddisfano le esigenze della tua organizzazione.
+Il plug-in `getNewRepeat` consente di determinare se un visitatore del sito è un nuovo visitatore o un visitatore ripetuto entro un numero desiderato di giorni. Adobe consiglia di utilizzare questo plug-in se si desidera identificare i visitatori come &quot;nuovi&quot; utilizzando un numero di giorni personalizzato. Questo plug-in non è necessario se i segmenti [!UICONTROL First Time Visits] e [!UICONTROL Return Visits] in Analysis Workspace soddisfano le esigenze della tua organizzazione.
 
 ## Installare il plug-in utilizzando l’estensione Web SDK
 
@@ -40,7 +40,7 @@ Questo plug-in non è ancora supportato per l&#39;utilizzo in un&#39;implementaz
 
 Adobe offre un’estensione che consente di utilizzare i plug-in più comunemente utilizzati con Adobe Analytics.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante [!UICONTROL Catalog]
 1. Installa e pubblica l&#39;estensione [!UICONTROL Common Analytics Plugins]
