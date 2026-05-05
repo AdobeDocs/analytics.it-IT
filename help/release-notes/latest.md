@@ -3,16 +3,16 @@ title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 907f510e02a0f5cb378c139a20cc147304ad0d70
+source-git-commit: 6aa5bc2679a367d050e0d67c0621943f9893d0e0
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 91%
+source-wordcount: '1240'
+ht-degree: 79%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (aprile 2026)
 
-**Ultimo aggiornamento**: giovedì 22 aprile 2026
+**Ultimo aggiornamento**: 22 aprile 2026
 
 Queste note sulla versione coprono il periodo di rilascio di aprile 2026. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -20,7 +20,7 @@ Queste note sulla versione coprono il periodo di rilascio di aprile 2026. Le ver
 
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ---- |
-| **Server MCP per Adobe Analytics** <br/>I server MCP (Model Context Protocol) di Analytics consentono di collegare un client MCP supportato ad Adobe Analytics. Una volta connesso, il client MCP può richiamare strumenti specifici per il prodotto per recuperare dati, eseguire query o eseguire operazioni supportate come parte di un flusso di lavoro LLM o agente. Per ulteriori informazioni, vedere [Server MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/).<p>Se hai utilizzato questi server MCP durante il periodo beta, tieni presente che esistono URL diversi tra gli endpoint beta e di produzione. Assicurati che tutti i flussi di lavoro agenti creati durante il periodo beta vengano aggiornati per utilizzare gli endpoint di produzione prima del 31 maggio.</p> | | giovedì 29 aprile 2026 |
+| **Server MCP per Adobe Analytics** <br/>I server MCP (Model Context Protocol) di Analytics consentono di collegare un client MCP supportato ad Adobe Analytics. Una volta connesso, il client MCP può richiamare strumenti specifici per il prodotto per recuperare dati, eseguire query o eseguire operazioni supportate come parte di un flusso di lavoro LLM o agente. Per ulteriori informazioni, vedere [Server MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/).<p>Se hai utilizzato questi server MCP durante il periodo beta, tieni presente che esistono URL diversi tra gli endpoint beta e di produzione. Assicurati che tutti i flussi di lavoro agenti creati durante il periodo beta vengano aggiornati per utilizzare gli endpoint di produzione prima del 31 maggio.</p> | | 5 maggio 2026 |
 | **Servizi multimediali in streaming: supporto dei dati di pianificazione** <br/>Ora puoi caricare dati di pianificazione di precedenti contenuti live multimediali in streaming per monitorare l’audience con maggiore facilità e precisione.<p>Di seguito sono riportati alcuni esempi di contenuti live supportati con il caricamento dei dati di pianificazione:</p><ul><li>Piattaforme FAST (Free Ad Supported TV)</li><li>Flussi locali</li><li>Sport live</li></ul><p>Il caricamento dei dati di pianificazione ti consente di tenere traccia dei dati sul pubblico per i singoli programmi eseguiti durante il periodo di tempo indicato nel file di caricamento. Puoi anche raccogliere i dati sul pubblico per argomenti o segmenti di programma specifici.</p><p>Queste funzionalità sono disponibili indipendentemente da come hai implementato Streaming Media Collection.</p><p>In precedenza, era difficile collegare con precisione una determinata sessione a programmi specifici durante l’analisi di contenuti live, a singoli argomenti o a segmenti di programma.</p><p>Per ulteriori informazioni, consulta [Caricare i dati di pianificazione per tenere traccia del contenuto live](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 29 ottobre 2025 | Prima metà del 2026<p>Rilascio originariamente pianificato per il 29 ottobre 2025</p> |
 | **Formattazione aggiuntiva dell’intervallo di date API**<br/> Sono ora supportati due nuovi formati per specificare gli intervalli di date nelle richieste di rapporti API di Analytics 2.0. Ciò include una formula di data e un formato misto. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#date-range-field--supported-formats) | | Marzo 2026 |
 | **Dimensione facoltativa nelle richieste di rapporti API**<br/> Non è necessario un oggetto dimensione nelle richieste di rapporti API. Se non è specificata alcuna dimensione, la risposta mostra i dati di un rapporto sui totali. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/#using-dimension-in-report-payload-requests) | | Marzo 2026 |
@@ -30,14 +30,14 @@ Queste note sulla versione coprono il periodo di rilascio di aprile 2026. Le ver
 
 **Activity Map**:
 **Analysis Workspace**: AN-442813, AN-442410, AN-441943, AN-441717, AN-434855, AN-431409, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
-**Classificazioni**: AN-443453, AN-443275, AN-443148, AN-442906, AN-442232, AN-442207, AN-442148, AN-442133, AN-441937, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441149, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727, AN-440716, AN-440511, AN-440496, AN-432100
-**Feed di dati e Data Warehouse**: AN-442211, AN-441719, AN-441183, AN-441011, AN-440625, AN-438953
+**Classificazioni**: AN-443453, AN-443275, AN-443148, AN-442906, AN-442232, AN-442207, AN-442148, AN-442133, AN-441937, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441149, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727 440716 440511 440496 432100, AN-, AN-, AN-, AN-, AN-
+**Feed dati e Data Warehouse**: AN-442211, AN-441719, AN-441183, AN-441011, AN-440625, AN-438953
 **Migrazione**: AN-442467, AN-440380, AN-440357
-**Esportazioni**:
+**esportazioni**:
 **Report Builder**: AN-441136, AN-438147, AN-425150
-**Reporting**: AN-441506, AN-440919, AN-440545, AN-440300
+**Generazione rapporti**: AN-441506, AN-440919, AN-440545, AN-440300
 **Suite di rapporti**: AN-439429, AN-439423, AN-430988
-**Rapporti pianificati**:
+**Report pianificati**:
 **Segmentazione**:
 **Altro**: AN-423359, AN-406242, AN-397985
 
@@ -62,5 +62,5 @@ Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, consulta le [note
 
 * [Note sulle versioni precedenti 2025](/help/release-notes/2025.md)
 * [Note sulla versione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it)
-* [Note sulla versione dei servizi multimediali in streaming &#x200B;](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=it)
-* Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cloud](https://business.adobe.com/it/products/adobe-experience-cloud-products.html)
+* [Note sulla versione di Streaming Media Services](https://experienceleague.adobe.com/docs/media-analytics/using/additional-resources/release-notes.html?lang=it)
+* Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cloud](https://business.adobe.com/products/adobe-experience-cloud-products.html)
