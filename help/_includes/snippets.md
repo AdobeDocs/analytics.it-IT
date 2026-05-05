@@ -1,8 +1,8 @@
 ---
-source-git-commit: 7f7f0db4790dc7c09361dd6410591eb2e611498a
-workflow-type: ht
-source-wordcount: '3025'
-ht-degree: 100%
+source-git-commit: 851e0aaa0b19e95dca057dbc30d9466a897145a6
+workflow-type: tm+mt
+source-wordcount: '3022'
+ht-degree: 98%
 
 ---
 # Snippet
@@ -61,7 +61,7 @@ ht-degree: 100%
 >La funzionalità descritta in questa sezione è disponibile solo per i clienti esistenti che dispongono già di una licenza per tale funzionalità. La funzionalità non è più offerta come componente aggiuntivo ai nuovi clienti o a quelli esistenti.
 >
 
-## Video dimostrativo Customer Journey Analytics  {#videocja}
+## Video dimostrativo Customer Journey Analytics {#videocja}
 
 Questo video illustra la funzionalità che utilizza Customer Journey Analytics. Tuttavia, questa funzionalità è disponibile anche in Adobe Analytics. Tieni presente che vi sono differenze di terminologia tra Adobe Analytics e Customer Journey Analytics (ad esempio, *visite* e *sessioni*).
 
@@ -82,7 +82,7 @@ Un modello di attribuzione determina quali elementi dimensionali ricevono credit
 | ![J inversa](/help/assets/icons/AttributeInverseJ.svg) | J inversa | Attribuisce un credito del 60% al primo punto di contatto, un credito del 20% all’ultimo punto di contatto e divide il restante 20% in qualsiasi punto di contatto intermedio. Per le conversioni con un singolo punto di contatto, viene assegnato un credito del 100%. Per le conversioni con due punti di contatto, viene assegnato il 75% di credito alla prima interazione e il 25% di credito all’ultima. Simile al modello a forma di J, questo modello di attribuzione favorisce la prima e l’ultima interazione, ma dà credito in modo più significativo alla prima interazione. |
 | ![Decadimento nel tempo](/help/assets/icons/AttributeTimeDecay.svg) | Decadimento nel tempo | Segue un decadimento esponenziale con un parametro di mezza durata personalizzato, dove il valore predefinito è 7 giorni. Il valore di ciascun canale dipende dalla quantità di tempo trascorsa tra l’avvio del punto di contatto e l’eventuale conversione. La formula utilizzata per determinare il credito è `2^(-t/halflife)`, dove `t` è il tempo tra un punto di contatto e una conversione. Tutti i punti di contatto vengono quindi normalizzati al 100%. Ideale per scenari in cui desideri misurare l’attribuzione rispetto a un evento specifico e significativo. Più tempo passa perché si verifichi una conversione dopo un evento di marketing, meno credito viene assegnato. |
 | ![Personalizzato](/help/assets/icons/AttributeCustom.svg) | Personalizzato | Consente di specificare i pesi da assegnare al primo punto di contatto, all’ultimo punti di contatto e a eventuali punti di contatto intermedi. I valori specificati vengono normalizzati al 100% anche se la somma dei numeri personalizzati immessi è inferiore a 100. Per le conversioni con un singolo punto di contatto, viene assegnato un credito del 100%. Per le interazioni con due punti di contatto, il parametro intermedio viene ignorato. Il primo e l’ultimo punto di contatto vengono quindi normalizzati al 100% e il credito viene assegnato di conseguenza. Questo modello è ideale per gli analisti che desiderano avere pieno controllo sul proprio modello di attribuzione e che hanno esigenze specifiche che altri modelli di attribuzione non soddisfano. |
-| ![Algoritmico](/help/assets/icons/AttributeAlgorithmic.svg) | Algoritmico | Utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. L’algoritmo utilizzato per l’attribuzione è basato sul dividendo Harsanyi dalla teoria del gioco cooperativo. Il dividendo Harsanyi è una generalizzazione della soluzione del valore di Shapley (che prende il nome da Lloyd Shapley, un economista premio Nobel) per la distribuzione del credito tra i giocatori in un gioco con contributi disuguali al risultato.<br>Ad alto livello, l’attribuzione viene calcolata come una coalizione di giocatori tra i quali deve essere equamente distribuito un surplus. La distribuzione del surplus di ciascuna coalizione è determinata in base al surplus creato in precedenza da ogni sub-coalizione (o dagli elementi dimensionali partecipanti in precedenza) in modo ricorsivo. Per maggiori dettagli, vedi gli articoli originali di John Harsanyi e Lloyd Shapley:<br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributions to the Theory of Games, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220. |
+| ![Algoritmico](/help/assets/icons/AttributeAlgorithmic.svg) | Algoritmico | Utilizza tecniche statistiche per determinare in modo dinamico l’allocazione ottimale del credito per la metrica selezionata. L’algoritmo utilizzato per l’attribuzione è basato sul dividendo Harsanyi dalla teoria del gioco cooperativo. Il dividendo Harsanyi è una generalizzazione della soluzione del valore di Shapley (che prende il nome da Lloyd Shapley, un economista premio Nobel) per la distribuzione del credito tra i giocatori in un gioco con contributi disuguali al risultato.<br>Ad alto livello, l’attribuzione viene calcolata come una coalizione di giocatori tra i quali deve essere equamente distribuito un surplus. La distribuzione del surplus di ciascuna coalizione è determinata in base al surplus creato in precedenza da ogni sub-coalizione (o dagli elementi dimensionali partecipanti in precedenza) in modo ricorsivo. Per ulteriori dettagli, vedere gli articoli originali di John Harsanyi e Lloyd Shapley:<br>Shapley, Lloyd S. (1953). A value for n-person games. *Contributi alla teoria dei giochi, 2(28)*, 307-317.<br>Harsanyi, John C. (1963). A simplified bargaining model for the n-person cooperative game. *International Economic Review 4(2)*, 194-220. |
 
 {style="table-layout:auto"}
 
@@ -133,8 +133,8 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 
 | Funzione | Area di lavoro del percorso | Fallout | Flusso |
 |---------|----------|---------|---------|
-| **Sequenza di pagine predefinita** | Sì</br>Combina analisi predefinite ed esplorative. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché alla fine passino da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi successivi immediati (non finali). | Sì</br>Il percorso può essere un percorso finale o essere vincolato al punto di contatto successivo | No |
-| **Sequenza di pagine esplorativa (analisi ad hoc)** | Sì</br>Combina l’analisi predefinita ed esplorativa. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché alla fine passino da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi successivi immediati (non finali). | Limitato</br>È possibile fare clic con il pulsante destro del mouse per visualizzare il fallout immediato in una tabella a forma libera. | Sì</br>Solo analisi esplorativa. Sempre all’interno di un’istanza di dimensione tra due nodi. Ogni nodo mostra il punto di contatto successivo immediato (non finale) lungo il percorso. |
+| **Sequenza di pagine predefinita** | Sì</br>Combina l’analisi predefinita ed esplorativa. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché alla fine passino da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi successivi immediati (non finali). | Sì</br>Il percorso può essere un percorso finale o essere vincolato al punto di contatto successivo | No |
+| **Sequenza di pagine esplorativa (analisi ad hoc)** | Sì</br>Combina analisi predefinite ed esplorative. Il percorso finale viene utilizzato quando si utilizzano nodi predefiniti sul percorso (i visitatori vengono conteggiati purché alla fine passino da un nodo predefinito all’altro). È inoltre possibile visualizzare i nodi successivi immediati (non finali). | Limitato</br>È possibile fare clic con il pulsante destro del mouse per visualizzare il fallout immediato in una tabella a forma libera. | Sì</br>Solo analisi esplorativa. Sempre all’interno di un’istanza di dimensione tra due nodi. Ogni nodo mostra il punto di contatto successivo immediato (non finale) lungo il percorso. |
 | **Mostra dove le persone hanno abbandonato (fallout) e continuato (proseguito)** | Sì</br>Viene mostrato per percorsi sia predefiniti che esplorativi | Sì</br>Viene mostrato per percorsi predefiniti | Sì</br>Viene mostrato per percorsi esplorativi |
 | **Percorsi lineari** | Sì | Sì | No |
 | **Percorsi non lineari con più punti di ingresso e percorsi** | Sì | No | Sì |
@@ -143,7 +143,6 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 | **Supporto dei componenti nei nodi o nei punti di contatto** | Metriche, elementi dimensionali, segmenti e intervalli di date. | Metriche, elementi dimensionali, segmenti e intervalli di date. | Solo elementi dimensionali (ad eccezione del punto di contatto iniziale e finale) |
 | **Confronta filtri** | No | Sì<p>Eseguire confronti affiancati di due diversi filtri nello stesso rapporto</p> | No |
 | **Interazione tramite trascinamento per componenti** | Sì | Sì | No |
-| **Percorsi Adobe Journey Optimizer** | Sì</br>Apri percorsi da Journey Optimizer per analisi e personalizzazioni più approfondite | No | No |
 
 {style="table-layout:auto"}
 
@@ -190,7 +189,7 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 
 | Intervallo di date applicato | Descrizione |
 |---|---|
-| ![Intervallo date](/help/assets/filter-daterange.png){width="300"} | La sezione Intervallo di date applicato consente di filtrare in base a un intervallo di date applicabile agli elementi.<ol><li>Seleziona un intervallo di date.</li><li>Nel pop-up del calendario definisci un intervallo di date o seleziona uno dei predefiniti disponibili.<br>In alternativa, puoi anche specificare un intervallo di date direttamente nella sezione Intervallo date del pannello Filtro.</li></ol><ul><li>I numeri indicano:<ul><li>**(1)**: numero di intervalli di date modificati dai predefiniti preimpostati.</li><li>**5︎⃣**: numero di intervalli di date disponibili per gli elementi risultanti dal filtro corrente.</li></ul> |
+| ![Intervallo date](/help/assets/filter-daterange.png){width="300"} | La sezione Intervallo di date applicato consente di filtrare in base a un intervallo di date applicabile agli elementi.<ol><li>Seleziona un intervallo di date.</li><li>Nel popup del calendario definire un intervallo di date o selezionare uno dei predefiniti disponibili.<br>In alternativa, è possibile specificare un intervallo di date direttamente nella sezione Intervallo date del pannello Filtro.</li></ol><ul><li>I numeri indicano:<ul><li>**(1)**: numero di intervalli di date modificati dai predefiniti preimpostati.</li><li>**5︎⃣**: numero di intervalli di date disponibili per gli elementi risultanti dal filtro corrente.</li></ul> |
 
 
 ## Rimozione della funzionalità Importazione classificazioni {#classification-importer-deprecation}
