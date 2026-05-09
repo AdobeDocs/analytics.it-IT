@@ -5,10 +5,10 @@ title: Condividere progetti
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 96%
+source-wordcount: '1975'
+ht-degree: 94%
 
 ---
 
@@ -107,7 +107,7 @@ In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il pr
 
    Oppure
 
-   Fai clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. (Se il progetto è già stato condiviso, seleziona **[!UICONTROL Curate & Update]**). Ulteriori informazioni su [cura del progetto](/help/analyze/analysis-workspace/curate-share/curate.md).
+   Fai clic su **[!UICONTROL Curate and Share]** per applicare automaticamente la cura del progetto. Se il progetto è già stato condiviso, selezionare **[!UICONTROL Curate & Update]**. Ulteriori informazioni sulla [cura del progetto](/help/analyze/analysis-workspace/curate-share/curate.md).
 
 ## Condividere un collegamento a un progetto
 

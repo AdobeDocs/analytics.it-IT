@@ -4,10 +4,10 @@ title: Pannello Analytics For Target
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 48%
+source-wordcount: '1257'
+ht-degree: 41%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 48%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Pannello Analytics for Target"
->abstract="Analizza le attività ed esperienze Target in Analysis Workspace.<br/><br>**Parametri &#x200B;**<br/>**Attività Target**: l’attività Target che verrà analizzata.<br/>**Esperienza di controllo**: esperienza di controllo per l’attività Target selezionata.<br/>**Metrica di normalizzazione**: visitatori, visite o impression. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità.<br/>**Metriche di successo**: fino a 3 metriche di successo standard (non calcolate) per analizzare l’attività Target."
+>abstract="Analizza le attività ed esperienze Target in Analysis Workspace.<br/><br>**Parametri &#x200B;**<br/>**Attività Target**: attività Target analizzata.<br/>**Esperienza di controllo**: esperienza di controllo per l’attività Target selezionata.<br/>**Metrica di normalizzazione**: visitatori, visite o impression. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità.<br/>**Metriche di successo**: fino a 3 metriche di successo standard (non calcolate) per analizzare l’attività Target."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Analytics for Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Pannello Sperimentazione](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) per informazioni su come confrontare diverse esperienze utente, varianti di marketing o di messaggistica in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**._
+_Questo articolo documenta il pannello Analytics for Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Per informazioni su come confrontare diverse esperienze utente, varianti di marketing o di messaggistica in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**, consulta il [pannello Sperimentazione](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)._
 
 >[!ENDSHADEBOX]
 

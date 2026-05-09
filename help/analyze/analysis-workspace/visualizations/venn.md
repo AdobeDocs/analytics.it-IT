@@ -1,14 +1,14 @@
 ---
-description: Use the Venn visualization to drag up to 3 segments and one metric to build a Venn diagram.
+description: Utilizza la visualizzazione di Venn per trascinare fino a 3 segmenti e una metrica per creare un diagramma di Venn.
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: Visualizations
 role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 56%
+source-wordcount: '219'
+ht-degree: 47%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 56%
 
 >[!BEGINSHADEBOX]
 
-_This article documents the Venn visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_See [Venn](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/venn)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** version of this article._
+_Questo articolo documenta la visualizzazione Venn in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Venn](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/venn) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +34,9 @@ La visualizzazione ![Tipo](/help/assets/icons/TwoDots.svg) **[!UICONTROL Venn]**
 
 >[!NOTE]
 >
->Analysis Workspace uses area-proportional Venn diagrams. Venn diagrams with three or more circles that are represented in two dimensions cannot always be drawn with perfect proportions.
+>Analysis Workspace utilizza diagrammi di Venn proporzionali all’area. I diagrammi di Venn con tre o più cerchi rappresentati in due dimensioni non possono sempre essere disegnati con proporzioni perfette.
 > 
->Workspace attempts to create the closest approximate Venn, but the results might not always be visually accurate.
+>Workspace tenta di creare Venn approssimativamente il più vicino possibile, ma i risultati potrebbero non essere sempre visivamente precisi.
 
 ![Visualizzazione Venn che include tre filtri.](assets/venn.png)
 
@@ -61,7 +61,7 @@ Per un video dimostrativo, consulta [visualizzazione di Venn](https://experience
 
 >[!MORELIKETHIS]
 >
->[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

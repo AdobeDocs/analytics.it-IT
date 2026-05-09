@@ -5,10 +5,10 @@ uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: Visualizations
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
-source-git-commit: 978bd8642011dd2c8e43564c90303f194689a64e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 67%
+source-wordcount: '298'
+ht-degree: 65%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 67%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Testo in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Testo](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/text) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_In questo articolo viene documentata la visualizzazione Testo in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vedere [Testo](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/text) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
-È possibile
+È possibile eseguire le seguenti azioni:
 Per aggiungere testo RTF definito dall&#39;utente al progetto Workspace, puoi utilizzare una visualizzazione ![Testo](/help/assets/icons/Text.svg) **[!UICONTROL Text]** o una descrizione per una visualizzazione e un pannello.
 
 ## Utilizzo

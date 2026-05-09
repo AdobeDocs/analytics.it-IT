@@ -3,9 +3,9 @@ description: Descrive le tre opzioni di compatibilità del prodotto.
 title: Compatibilità delle metriche
 feature: Calculated Metrics
 exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '190'
 ht-degree: 25%
 
 ---
@@ -24,6 +24,6 @@ Quando crei metriche calcolate nel generatore di metriche calcolate, queste veng
 
 | Compatibile con | Descrizione |
 | --- | --- |
-| **[!UICONTROL Current Data]** | L&#39;opzione [!UICONTROL Include Current Data] in Adobe Analytics consente di visualizzare i dati Analytics più recenti, spesso prima che i dati vengano completamente elaborati e finalizzati. [!UICONTROL Current Data] visualizza la maggior parte delle metriche in pochi minuti, fornendo dati actionable per un processo decisionale rapido. [!UICONTROL Current Data] supporta solo le metriche calcolate (quelle che includono moltiplicazione, divisione, addizione e sottrazione) [!UICONTROL Current Data] non supporta le metriche calcolate avanzate (che contengono segmenti o funzioni). |
+| **[!UICONTROL Current Data]** | L&#39;opzione [!UICONTROL Include Current Data] in Adobe Analytics consente di visualizzare i dati Analytics più recenti, spesso prima che i dati vengano completamente elaborati e finalizzati. [!UICONTROL Current Data] visualizza la maggior parte delle metriche in pochi minuti, fornendo dati actionable per un processo decisionale rapido. [!UICONTROL Current Data] supporta solo le metriche calcolate, ovvero quelle che includono moltiplicazione, divisione, addizione e sottrazione. [!UICONTROL Current Data] non supporta le metriche calcolate avanzate (che contengono segmenti o funzioni). |
 | **[!UICONTROL Fully Processed Data]** | Dati completamente elaborati e che includono segmenti e classificazioni. Se si desidera visualizzare tutte le metriche dopo che i dati sono stati completamente elaborati, è possibile disabilitare [!UICONTROL Current Data] rimuovendo gli utenti dal gruppo Utenti dati correnti. |
 | **[!UICONTROL Marketing Channel Reports]** | Le metriche con allocazione di primo contatto sono compatibili solo con i rapporti Canale di marketing. |

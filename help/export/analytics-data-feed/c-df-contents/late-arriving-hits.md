@@ -3,9 +3,9 @@ title: Hit in arrivo
 description: Scopri come i feed di dati trattano gli hit in arrivo tardivo.
 feature: Data Feeds
 exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
-source-git-commit: 4d0007d1a23a81f0d5ba60541b4f7b9ac7b00ace
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '313'
 ht-degree: 20%
 
 ---

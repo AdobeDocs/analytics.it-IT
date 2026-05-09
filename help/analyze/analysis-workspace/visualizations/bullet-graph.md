@@ -1,13 +1,13 @@
 ---
-description: Learn how to use the bullet visualization in Analysis Workspace. The bullet visualization allows you to compare to or measures against other performance ranges (goals).
+description: Scopri come utilizzare la visualizzazione punto elenco in Analysis Workspace. La visualizzazione bullet consente di confrontare o misurare altre gamme di prestazioni (obiettivi).
 title: Bullet
 feature: Visualizations
 role: User, Admin
 exl-id: 4d4c1b85-0f23-4cf6-8014-fe854af91e33
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 79%
+source-wordcount: '267'
+ht-degree: 70%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 79%
 
 >[!BEGINSHADEBOX]
 
-_This article documents the Bullet visualization in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_See [Bullet](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph)  for the_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** version of this article._
+_In questo articolo viene documentata la visualizzazione Punto elenco in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vedere [Punto elenco](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/bullet-graph) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -60,7 +60,7 @@ Puoi definire impostazioni specifiche per una visualizzazione [!UICONTROL Bullet
 
 >[!MORELIKETHIS]
 >
->[Aggiungere una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
+>[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
 >[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
 >[Menu di scelta rapida della visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
 >

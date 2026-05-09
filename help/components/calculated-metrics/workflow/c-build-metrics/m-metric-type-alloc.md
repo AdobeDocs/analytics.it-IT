@@ -3,9 +3,9 @@ description: Scopri il tipo di metrica e l’attribuzione.
 title: Tipo Di Metrica E Attribuzione
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '572'
 ht-degree: 81%
 
 ---

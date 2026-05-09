@@ -4,9 +4,9 @@ description: Scopri le funzioni di base delle metriche calcolate.
 feature: Calculated Metrics
 exl-id: 63775753-337b-4dec-a3a2-a3a0ee9aac2e
 role: User
-source-git-commit: b8fae74ade75473f3d3d8d43598dfb16170b209f
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3575'
 ht-degree: 46%
 
 ---

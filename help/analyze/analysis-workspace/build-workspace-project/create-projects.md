@@ -4,10 +4,10 @@ title: Creare progetti
 feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 79%
+source-wordcount: '404'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ I [progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-o
 
 1. Seleziona **Progetto Workspace vuoto** per creare il tuo progetto Workspace utilizzando un browser.
 
-   Consulta [Scorecard per dispositivi mobili vuota](/help/analyze/mobile-app/curator.md) per ulteriori informazioni su come creare un progetto di scorecard per dispositivi mobili che puoi condividere con altre parti interessate utilizzando un&#39;app per dispositivi mobili.
+   Consulta [Scorecard per dispositivi mobili vuota](/help/analyze/mobile-app/curator.md) per ulteriori informazioni su come creare un progetto scorecard per dispositivi mobili che puoi condividere con gli altri stakeholder utilizzando un’app per dispositivi mobili.
 
 1. Seleziona [!UICONTROL **Crea**].
 
@@ -50,12 +50,12 @@ Dopo aver creato un progetto Workspace vuoto, assicurati di avere familiarità c
 >[!CONTEXTUALHELP]
 >id="workspace_project_countrepeatinstances"
 >title="Conta istanze ripetute"
->abstract="Specifica se le istanze ripetute vengono conteggiate o meno nei rapporti.<br/><br/>Nota: questa impostazione non si applica alle visualizzazioni Flusso o Fallout."
+>abstract="Specifica se nei rapporti vengono conteggiate le istanze ripetute.<br/><br/>Nota: questa impostazione non viene applicata alle visualizzazioni Flusso o Fallout."
 
 >[!CONTEXTUALHELP]
 >id="workspace_project_repeatinstances"
->title="Conta istanze ripetute"
->abstract="Specifica se le istanze ripetute vengono conteggiate o meno nei rapporti.<br/>Nota: questa impostazione non si applica alle visualizzazioni Flusso o Fallout."
+>title="Numero di istanze ripetute"
+>abstract="Specifica se nei rapporti vengono conteggiate le istanze ripetute.<br/>Nota: questa impostazione non viene applicata alle visualizzazioni Flusso o Fallout."
 
 
 >[!CONTEXTUALHELP]
