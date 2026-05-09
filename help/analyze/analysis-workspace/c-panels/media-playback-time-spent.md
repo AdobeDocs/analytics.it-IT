@@ -34,7 +34,7 @@ ht-degree: 81%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Tempo di riproduzione dei contenuti multimediali trascorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Consulta il [pannello Tempo di riproduzione dei contenuti multimediali trascorso](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) per la versione_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** di questo articolo._
+_Questo articolo documenta il pannello Tempo di riproduzione dei contenuti multimediali trascorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta il [pannello Tempo di riproduzione dei contenuti multimediali trascorso](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)) per la versione_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 

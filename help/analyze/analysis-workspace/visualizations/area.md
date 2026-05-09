@@ -16,7 +16,7 @@ ht-degree: 70%
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo vengono documentate le visualizzazioni Superfici e Superfici sovrapposte in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vedere [Superfici e Superfici sovrapposte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/area) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
+_In questo articolo vengono documentate le visualizzazioni Superfici e Superfici sovrapposte in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vedere [Superfici e Superfici sovrapposte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/area) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
