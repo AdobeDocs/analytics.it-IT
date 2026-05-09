@@ -1,12 +1,12 @@
 ---
 title: Schema del set di classificazione
-description: Learn how to view and edit the schema for a classification set in Adobe Analytics. Add, upload, download, or automate classification data using cloud locations..
+description: Scopri come visualizzare e modificare lo schema per un set di classificazione in Adobe Analytics. Aggiungi, carica, scarica o automatizza i dati di classificazione utilizzando le posizioni cloud.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 643cd85862b09d59d46f259c5ad20a7ce67c5995
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 7%
+source-wordcount: '1456'
+ht-degree: 9%
 
 ---
 
@@ -124,7 +124,7 @@ Nella finestra di dialogo **[!UICONTROL Download data for _nome set di classific
    * **[!UICONTROL Latin-1]**.
 
 
-1. Seleziona **[!UICONTROL Download]** per scaricare i dati di classificazione. Il file scaricato si trova nella directory di download predefinita del browser e si chiama <code><i>Set di classificazione</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se il file esiste già, un numero di sequenza <code>(<i>x</i>)</code> viene aggiunto al nome del file.<br/>Se sono state specificate opzioni che non restituiscono alcun dato, verrà visualizzata una finestra di dialogo **[!UICONTROL Notice]** in cui viene indicato di modificare le opzioni per l&#39;intervallo di date e i dati restituiti.
+1. Seleziona **[!UICONTROL Download]** per scaricare i dati di classificazione. Puoi trovare il file scaricato nella directory di download predefinita del browser con titolo <code><i>Set di classificazione</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se il file esiste già, un numero di sequenza <code>(<i>x</i>)</code> viene aggiunto al nome del file.<br/>Se sono state specificate opzioni che non restituiscono alcun dato, verrà visualizzata una finestra di dialogo **[!UICONTROL Notice]** in cui viene indicato di modificare le opzioni per l&#39;intervallo di date e i dati restituiti.
 
 
 ### Modello
@@ -203,7 +203,7 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
    * **[!UICONTROL Latin-1]**.
 
 1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
-1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud. Se la convalida ha esito positivo, viene visualizzato un messaggio popup con ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**&#x200B;se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**&#x200B;per annullare la configurazione del percorso cloud.
+1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud. Se la convalida ha esito positivo, viene visualizzato un messaggio popup con ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**per annullare la configurazione del percorso cloud.
 
 Quando carichi i file nel percorso cloud, entro 15 minuti il file viene rilevato e inviato come processo di importazione. Il risultato di questo processo di importazione è riportato in [Gestione processi classificazioni](/help/components/classifications/sets/job-manager.md). Se vieni aggiunto all’elenco di utenti a cui inviare notifiche sul completamento dei processi di acquisizione, riceverai anche messaggi e-mail.
 

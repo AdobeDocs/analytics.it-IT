@@ -4,10 +4,10 @@ description: Scopri le funzioni avanzate delle metriche calcolate.
 feature: Calculated Metrics
 exl-id: 3689a499-817d-4a59-8a1f-5f7bda297268
 role: User
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '4529'
-ht-degree: 98%
+source-wordcount: '4581'
+ht-degree: 96%
 
 ---
 
@@ -761,7 +761,7 @@ Only available in CJA
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LINEAR REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
 
-[!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b. Restituisce il coefficiente di correlazione.
+[!BADGE Tabella]{type="Neutral"} Regressione lineare: Y = a X + b.  Restituisce il coefficiente di correlazione.
 
 
 | Argomento | Descrizione |
@@ -873,13 +873,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-corr-log"
 >title="Regressione logaritmica: coefficiente di correlazione"
->abstract="Regressione logaritmica: Y = a In(X) + b. Restituisce il coefficiente di correlazione."
+>abstract="Regressione logaritmica: Y = a ln(X) + b. Restituisce il coefficiente di correlazione."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: CORRELATION COEFFICIENT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione logaritmica: Y = a In(X) + b. Restituisce il coefficiente di correlazione.
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce il coefficiente di correlazione.
 
 | Argomento | Descrizione |
 |---|---|
@@ -901,7 +901,7 @@ Only available in CJA
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: INTERCEPT(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione logaritmica: Y = a ln(X) + b. Restituisce b.
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce b.
 
 | Argomento | Descrizione |
 |---|---|
@@ -924,7 +924,7 @@ Only available in CJA
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: PREDICTED Y(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Riga]{type="Neutral"} Regressione logaritmica: Y = a ln(X) + b. Restituisce Y.
+[!BADGE Riga]{type="Neutral"} Regressione registro: Y = a ln(X) + b. Restituisce Y.
 
 | Argomento | Descrizione |
 |---|---|
@@ -941,13 +941,13 @@ Only available in CJA
 >[!CONTEXTUALHELP]
 >id="functions-ls-slope-log"
 >title="Regressione logaritmica: pendenza"
->abstract="Regressione logaritmo: Y = a ln(X) + b. Restituisce a."
+>abstract="Regressione logaritmica: Y = a ln(X) + b. Restituisce a."
 
 <!-- markdownlint-enable MD034 -->
 
 ![Effetto](/help/assets/icons/Effect.svg) **[!UICONTROL LOG REGRESSION: SLOPE(metric_X, metric_Y, include_zeros)]**
 
-[!BADGE Tabella]{type="Neutral"} Regressione logaritmo: Y = a ln(X) + b. Restituisce a.
+[!BADGE Tabella]{type="Neutral"} Regressione del registro: Y = a ln(X) + b. Restituisce a.
 
 | Argomento | Descrizione |
 |---|---|

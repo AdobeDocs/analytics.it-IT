@@ -4,10 +4,10 @@ title: Pannello vuoto
 feature: Panels
 role: User, Admin
 exl-id: 8ba771ce-e57a-477b-ae6f-f29c3f6d08cb
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 83%
+source-wordcount: '246'
+ht-degree: 84%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 83%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello vuoto in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta [Pannello vuoto](/help/analyze/analysis-workspace/c-panels/blank-panel.md) per_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_In questo articolo viene documentato il pannello vuoto in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Vedere [Pannello vuoto](/help/analyze/analysis-workspace/c-panels/blank-panel.md) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 

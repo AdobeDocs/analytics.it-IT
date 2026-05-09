@@ -3,10 +3,10 @@ title: Regole dei set di classificazione
 description: Scopri come utilizzare le regole dei set di classificazione per definire regole per i dati di classificazione.
 feature: Classifications
 exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
-source-git-commit: e37b8f3e9508ebaf673c992c03064a43559fb9cf
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 15%
+source-wordcount: '1592'
+ht-degree: 13%
 
 ---
 
@@ -34,14 +34,14 @@ Per definire un set di regole per un set di classificazione:
             * Selezionare **[!UICONTROL Migrate rules]** per confermare la migrazione. Al termine della migrazione, utilizzare l&#39;[interfaccia set di regole](#rule-set-interface) per creare nuove regole e modificare le regole di cui è stata eseguita la migrazione.
             * Seleziona **[!UICONTROL Cancel]** per annullare la migrazione
 
-      * **Ricomincia**. Crea nuove regole di classificazione da zero utilizzando il nuovo generatore di regole. Seleziona questa opzione se vuoi riprogettare la logica di classificazione o iniziare da capo con regole di classificazione.
+      * **Ricomincia**. Crea nuove regole di classificazione da zero utilizzando il nuovo generatore di regole. Seleziona questa opzione se desideri riprogettare la logica di classificazione o iniziare da capo con nuove regole di classificazione.
          * Seleziona **[!UICONTROL Create new rules]** (Avanti) per continuare.
          * Nella finestra di dialogo **[!UICONTROL Confirm start fresh]**, leggi le implicazioni di un nuovo inizio.
             * Selezionare **[!UICONTROL Start fresh]** per confermare un nuovo avvio ed eliminare eventuali regole esistenti. Utilizza l&#39;interfaccia [set di regole](#rule-set-interface) per creare nuove regole.
             * Seleziona **[!UICONTROL Cancel]** per annullare.
 
 
-      * **Usa interfaccia legacy**. Continua a utilizzare l’interfaccia del generatore di regole precedente. Puoi effettuare la migrazione alla nuova esperienza in qualsiasi momento, quando tutto è pronto.
+      * **Usa interfaccia legacy**. Continua a utilizzare la precedente interfaccia del generatore di regole. Puoi migrare alla nuova esperienza in qualsiasi momento quando sei pronto.
          * Seleziona **[!UICONTROL Go to legacy interface]** per continuare. Si è indirizzati all&#39;interfaccia legacy **[!UICONTROL Classification Rule Builder]**.
 
    * Se hai già eseguito la migrazione delle regole o ne hai create di nuove per un set di classificazione, finisci direttamente nell’interfaccia del set di regole.
@@ -63,7 +63,7 @@ Per creare o modificare le regole, utilizza l’interfaccia Set di regole.
 | | Nome | Descrizione |
 |---|---|---|
 | 1 | **[!UICONTROL Functions]** | Utilizza l&#39;area **[!UICONTROL Functions]** per selezionare e trascinare le funzioni nel generatore di set di regole. |
-| 2 | **Generatore set di regole** | Puoi creare il set di regole utilizzando una o più regole. Una regola è l’implementazione di una funzione e sempre associata a una sola funzione. Una funzione può avere più operatori. Per creare una regola, devi trascinare una funzione nel generatore di set di regole. Il tipo di funzione definisce l’interfaccia della regola. <br/>Per ulteriori informazioni, vedere [Interfaccia regola](#rule-interface).<br/>È possibile inserire funzioni in qualsiasi luogo e le funzioni vengono eseguite in sequenza per determinare i valori finali per le classificazioni.<br/>Utilizzare **[!UICONTROL Collapse all]** per comprimere tutte le regole e **[!UICONTROL Expand all]** per espandere tutte le regole. |
+| 2 | **Generatore set di regole** | Puoi creare il set di regole utilizzando una o più regole. Una regola è l’implementazione di una funzione e sempre associata a una sola funzione. Una funzione può avere più operatori. Per creare una regola, devi trascinare una funzione nel generatore di set di regole. Il tipo di funzione definisce l’interfaccia della regola. <br/>Consulta [Interfaccia regola](#rule-interface) per ulteriori informazioni.<br/>È possibile inserire funzioni in qualsiasi luogo e le funzioni vengono eseguite in sequenza per determinare i valori finali per le classificazioni.<br/>Utilizzare **[!UICONTROL Collapse all]** per comprimere tutte le regole e **[!UICONTROL Expand all]** per espandere tutte le regole. |
 | 3 | **[!UICONTROL Status]** | Mostra lo stato e la data dell’ultima modifica del set di regole. <br/>Selezionare **[!UICONTROL Activate]** per attivare il set di regole. <br/>Selezionare **[!UICONTROL Deactivate]** per disattivare il set di regole. |
 | 4 | **[!UICONTROL Lookback]** | Specifica l’intervallo di lookback per il set di regole.<br/>Selezionare un&#39;opzione (da 1 a 6 mesi) dal menu a discesa.<br/>Selezionare **[!UICONTROL Perform lookback]** per eseguire un lookback utilizzando il periodo di lookback selezionato. |
 | 5 | **[!UICONTROL Test options]** | Utilizza valori di dimensione chiave di esempio per testare le classificazioni: <ul><li>Aggiungere o incollare valori nell&#39;area di testo **[!UICONTROL Sample keys]**.<br/>Controllare **[!UICONTROL Remember sample keys]** per assicurarsi che le chiavi di esempio persistano in diversi utilizzi dell&#39;interfaccia del set di regole.</li><li>Seleziona **[!UICONTROL Test rule set]** per verificare il set di regole.</li></ul> |

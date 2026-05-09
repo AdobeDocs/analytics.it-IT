@@ -1,12 +1,12 @@
 ---
-description: Learn how to publish segments for marketing activity in Audience Library, Target, and Audience Manager.
-title: Publish Segments
+description: Scopri come pubblicare segmenti per le attività di marketing in Libreria tipi di pubblico, Target e Audience Manager.
+title: Pubblicare segmenti
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 45%
+source-wordcount: '1320'
+ht-degree: 43%
 
 ---
 
@@ -30,7 +30,7 @@ Puoi pubblicare i segmenti di Analytics in Experience Cloud in meno di 8 ore. Ut
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -49,8 +49,8 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica se
 
 * **Limiti delle suite di rapporti**: puoi pubblicare fino a 75 segmenti per suite di rapporti. Questo limite viene sempre applicato. Se hai già pubblicato 75 segmenti, non puoi pubblicarne altri finché non annulli la pubblicazione di un numero di segmenti tale da scendere al di sotto della soglia di 75 segmenti.
 * **Limiti di appartenenza**: i tipi di pubblico condivisi con [!DNL Experience Cloud] da Adobe Analytics non possono superare i 20 milioni di membri univoci.
-* **Privacy dei dati**: i tipi di pubblico non vengono filtrati sulla base dello stato di autenticazione di un visitatore. Un visitatore potrebbe essere in grado di navigare nel sito come utente autenticato o non autenticato. Actions that occur when a visitor is un-authenticated can still cause a visitor to be included in an audience. Consulta [Privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html) per comprendere tutte le implicazioni in materia di privacy derivanti dalla condivisione dei tipi di pubblico.
-* For a discussion about the **differences between segments in [!DNL Adobe Analytics] and[!DNL Audience Manager]**, see [Understand segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
+* **Privacy dei dati**: i tipi di pubblico non vengono filtrati sulla base dello stato di autenticazione di un visitatore. Un visitatore potrebbe essere in grado di navigare nel sito come utente autenticato o non autenticato. Le azioni che si verificano quando un visitatore non è autenticato possono comunque determinare l’inclusione del visitatore nel pubblico. Consulta [Privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html) per comprendere tutte le implicazioni in materia di privacy derivanti dalla condivisione dei tipi di pubblico.
+* Per una discussione sulle **differenze tra i segmenti in [!DNL Adobe Analytics] e[!DNL Audience Manager]**, vedi [Comprendere i segmenti in Analytics e Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md).
 
 ## Timeline per la pubblicazione dei segmenti
 
@@ -65,7 +65,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica se
 
 ## Pubblicare i segmenti in [!UICONTROL Segment builder]
 
-1. In Adobe Analytics, go to **[!UICONTROL Components]** > **[!UICONTROL Segments]**
+1. In Adobe Analytics, vai a **[!UICONTROL Components]** > **[!UICONTROL Segments]**
 1. Seleziona **[!UICONTROL Add]** per creare un nuovo segmento.
    ![Pubblicare in Experience Cloud](assets/publish-ec.png)
 1. Fornisci un titolo e una descrizione per il segmento. Questi campi sono necessari prima di poter salvare il segmento.
@@ -73,12 +73,12 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica se
 
    >[!IMPORTANT]
    >
-   >Make sure that you monitor **[!UICONTROL Visitors with Experience Cloud ID]** in the **[!UICONTROL Data Preview]** instead of the **[!UICONTROL Unique Visitors]**  when you compare Adobe Analytics numbers to Audience Manager numbers.
+   >Verificare di monitorare **[!UICONTROL Visitors with Experience Cloud ID]** in **[!UICONTROL Data Preview]** anziché **[!UICONTROL Unique Visitors]** quando si confrontano i numeri di Adobe Analytics con i numeri di Audience Manager.
    >
 
 | Elemento | Descrizione |
 |---|---|
-| **[!UICONTROL Publish this segment to the Experience Cloud (for *suite di rapporti *)]** | Quando questa opzione è abilitata, il titolo e la definizione del segmento vengono condivisi istantaneamente con Experience Cloud, mentre l’appartenenza al segmento viene valutata e condivisa ogni 4 ore. <br>Quando quel pubblico viene associato a un’attività in [!DNL Target], ad esempio, [!DNL Analytics] inizia a inviare ID per i visitatori idonei per quel pubblico di Experience Cloud [!DNL Target]. A questo punto, il nome del pubblico e i dati corrispondenti iniziano a essere visualizzati sulla pagina [!DNL Audience Library] in Experience Cloud. </br> |
+| **[!UICONTROL Publish this segment to the Experience Cloud (for *suite di rapporti *)]** | Quando questa opzione è abilitata, il titolo e la definizione del segmento vengono condivisi istantaneamente con Experience Cloud, mentre l’appartenenza al segmento viene valutata e condivisa ogni 4 ore. <br> Quando quel pubblico viene associato a un&#39;attività in [!DNL Target], ad esempio, [!DNL Analytics] inizia a inviare ID per i visitatori idonei per quel pubblico di Experience Cloud e [!DNL Target]. A questo punto, il nome del pubblico e i dati corrispondenti iniziano a essere visualizzati sulla pagina [!DNL Audience Library] in Experience Cloud. </br> |
 | **[!UICONTROL Audience Creation Window]** | L’intervallo di tempo selezionato viene utilizzato per creare il pubblico su base di calendario continuo. Ad esempio, **[!UICONTROL Last 30 days]** (impostazione predefinita) include i visitatori idonei per il pubblico negli ultimi 30 giorni dalla data odierna (NON dalla data originale di creazione del segmento). |
 | **[!UICONTROL Create in Audience Library]** | I segmenti creati e pubblicati possono essere resi disponibili senza latenza nella pagina [!DNL Audience Library] in Experience Cloud. Non dipendono dagli aggiornamenti di Analytics. Questi segmenti non vengono conteggiati rispetto al limite di 75 segmenti pubblicati. |
 | **[!UICONTROL x of 75 Published]** | Il numero di segmenti pubblicati in Experience Cloud. Fai clic sul collegamento per visualizzare un elenco dei segmenti pubblicati e della suite di rapporti e del relativo proprietario associati. |
@@ -88,22 +88,22 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica se
 
 >[!CAUTION]
 >
->To delete a segment that has been published to Experience Cloud, you have to unpublish the segment first. To unpublish a segment, just unselect **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite *)]**.
+>Per eliminare un segmento pubblicato in Experience Cloud, devi prima annullare la pubblicazione del segmento. Per annullare la pubblicazione di un segmento, deseleziona **[!UICONTROL Publish this segment to the Experience Cloud (for *suite di rapporti *)]**.
 
 
 >[!NOTE]
 >
->You **cannot** unpublish a segment that is currently in use by any of the following Adobe solutions: Analytics (in Audience Analytics), Campaign, Advertising (for Core Service and Audience Manager customers) and all other external partners (for Audience Manager customers). You **can** unpublish a segment that is in use by Target.
+>**impossibile** annullare la pubblicazione di un segmento attualmente in uso da una delle seguenti soluzioni Adobe: Analytics (in Audience Analytics), Campaign, Advertising (per i clienti del servizio core e di Audience Manager) e tutti gli altri partner esterni (per i clienti di Audience Manager). **puoi** annullare la pubblicazione di un segmento utilizzato da Target.
 
 ## Visualizzare lo stato di pubblicazione dei segmenti
 
-The maximum number of publishable Adobe Analytics segments is 75.
+Il numero massimo di segmenti Adobe Analytics pubblicabili è 75.
 
-To view published segments:
+Per visualizzare i segmenti pubblicati:
 
-1. In Adobe Analytics, go to **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
+1. In Adobe Analytics, vai a **[!UICONTROL Components]** > **[!UICONTROL Segments]**.
 
-1. View the **[!UICONTROL Published]** column. **[!UICONTROL Yes]** in this column indicates that the segment is published to Experience Cloud. **[!UICONTROL No]** indicates that the segment is not published.
+1. Visualizza la colonna **[!UICONTROL Published]**. **[!UICONTROL Yes]** in questa colonna indica che il segmento è pubblicato in Experience Cloud. **[!UICONTROL No]** indica che il segmento non è pubblicato.
 
 ## Recupera l’UUID di [!DNL Audience Manager]
 
@@ -126,21 +126,21 @@ Le schermate seguenti mostrano come recuperare l’UUID di Adobe Audience Manage
 ### Metodo 2: utilizzare gli strumenti per sviluppatori di Chrome (o altri strumenti per sviluppatori del browser)
 
 1. Avvia gli strumenti per sviluppatori di Chrome prima di caricare una pagina
-1. Carica la pagina e seleziona Applicazioni > Cookie. The Adobe Audience Manager UUID should be set in the third-party
-Demdex cookie ([adobe.demdex.net](https://experienceleague.adobe.com/it/docs/audience-manager/user-guide/reference/demdex-calls) in the example below). The field demdex is the Adobe Audience Manager UUID set
-on the browser (`35721780439475290181087231320657663953` in the example below).
+1. Carica la pagina e seleziona Applicazioni > Cookie. L’UUID di Adobe Audience Manager deve essere impostato nel componente di terze parti
+Cookie demdex ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) nell&#39;esempio seguente). Il campo demdex è l’UUID di Adobe Audience Manager impostato
+nel browser (`35721780439475290181087231320657663953` nell&#39;esempio seguente).
 
    ![Strumenti per gli sviluppatori di Chrome](assets/devtools.png)
 
 ## Utilizza il [!UICONTROL Visitor Profile Viewer] di Audience Manager
 
-L&#39;UUID di Adobe Audience Manager nel browser è per impostazione predefinita quando viene caricato [!UICONTROL Visitor Profile Viewer]. If you verify trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Per ulteriori informazioni, consulta il [Visualizzatore del profilo del visitatore](https://experienceleague.adobe.com/it/docs/audience-manager/user-guide/features/visitor-profile-viewer).
+L&#39;UUID di Adobe Audience Manager nel browser è per impostazione predefinita quando viene caricato [!UICONTROL Visitor Profile Viewer]. Se verifichi le realizzazioni delle caratteristiche per altri utenti, inserisci un UUID nel campo UUID e fai clic su [!UICONTROL Refresh]. Per ulteriori informazioni, consulta il [Visualizzatore del profilo del visitatore](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer).
 
 ## Visualizzare le caratteristiche del segmento in [!DNL Audience Manager]
 
-In Adobe Audience Manager, the list of visitors with ECIDs for a given segment is evaluated while Analytics shares segments with Experience Cloud.
+In Adobe Audience Manager, l’elenco dei visitatori con ECID per un dato segmento viene valutato mentre Analytics condivide segmenti con Experience Cloud.
 
-1. In [!DNL Audience Manager], go to **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** > **[!UICONTROL Analytics Traits]**. You see a folder for each Analytics reports suite that is mapped to your Experience Cloud organization. Queste cartelle (per Caratteristiche, Segmenti e Origini dati) sono create quando viene avviato o eseguito il provisioning del servizio principale Profili e Tipi di pubblico/Persone.
+1. In [!DNL Audience Manager], vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** > **[!UICONTROL Analytics Traits]**. Viene visualizzata una cartella per ogni suite di rapporti di Analytics mappata alla tua organizzazione Experience Cloud. Queste cartelle (per Caratteristiche, Segmenti e Origini dati) sono create quando viene avviato o eseguito il provisioning del servizio principale Profili e Tipi di pubblico/Persone.
 1. Seleziona la cartella per la suite di rapporti in cui hai creato in precedenza il segmento che desideri condividere con [!DNL Audience Manager]. Puoi vedere il segmento/pubblico creato. Quando condividi un segmento, si verificano 2 cose in [!DNL Audience Manager]:
    * viene creata una caratteristica, all’inizio senza dati. Circa 8 ore dopo la pubblicazione del segmento in [!DNL Analytics], l’elenco degli ECID viene acquisito e condiviso con [!DNL Audience Manager] e altre soluzioni Experience Cloud.
 
@@ -151,11 +151,11 @@ In Adobe Audience Manager, the list of visitors with ECIDs for a given segment i
 
 ## Visualizzare il segmento in [!DNL Adobe Target]
 
-The **[!UICONTROL Publish this segment to the Experience Cloud]** allows the segment to be available within the Adobe Target&#39;s custom audience library. Puoi utilizzare un segmento creato in Analytics o Audience Manager per attività in Target. Ad esempio, puoi creare campagne sulla base delle metriche di conversione di Analytics e sui segmenti di pubblico creati in Analytics.
+**[!UICONTROL Publish this segment to the Experience Cloud]** consente di rendere disponibile il segmento nella libreria dei tipi di pubblico personalizzata di Adobe Target. Puoi utilizzare un segmento creato in Analytics o Audience Manager per attività in Target. Ad esempio, puoi creare campagne sulla base delle metriche di conversione di Analytics e sui segmenti di pubblico creati in Analytics.
 
 In Adobe Target:
 
 1. Seleziona **[!UICONTROL Audiences]**.
 1. Nella pagina **[!UICONTROL Audiences]**, individua il pubblico ottenuto da [!DNL Experience Cloud]. Questi tipi di pubblico sono disponibili per l’utilizzo nelle attività di [!DNL Target].
 
-   ![Target audiences](assets/target-audiences.png)
+   ![Pubblico di destinazione](assets/target-audiences.png)

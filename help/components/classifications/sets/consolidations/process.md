@@ -3,10 +3,10 @@ title: Creare E Modificare I Consolidamenti Di Classificazione
 description: Spiega come creare, convalidare, eseguire, approvare e annullare i consolidamenti delle classificazioni.
 exl-id: f36bcbcb-0ed0-44a7-a6a9-b28fd244fb27
 feature: Classifications
-source-git-commit: cfa8335008548254786e46dfe634229edad5bd54
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 11%
+source-wordcount: '919'
+ht-degree: 12%
 
 ---
 

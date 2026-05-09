@@ -4,10 +4,10 @@ title: Inventario analitico
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 21%
+source-wordcount: '1203'
+ht-degree: 23%
 
 ---
 
@@ -112,7 +112,7 @@ Le risposte a queste domande ti daranno una buona idea su quali suite di rapport
    | Occorrenze (ultimi 90 giorni) | La metrica &quot;Occorrenze&quot; mostra il numero di hit in cui una determinata dimensione è stata impostata o persistita. Quanti hit ha ricevuto questa suite di rapporti negli ultimi 90 giorni? |
    | Metriche | Quante metriche sono definite in questa suite di rapporti? |
    | Dimensioni | Quante dimensioni sono definite in questa suite di rapporti? |
-   | Analytics for Target (A4T) abilitato | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Analytics for Target](https://experienceleague.adobe.com/it/docs/target/using/integrate/a4t/a4t)? |
+   | Analytics for Target (A4T) abilitato | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
    | Canali di marketing abilitati | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md)? |
    | Connettore di origine abilitato | Questa suite di rapporti è abilitata per [Adobe Analytics Source Connector per i dati della suite di rapporti](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa suite di rapporti a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
    | Tipo di calendario | [Nascosto per impostazione predefinita] Per ulteriori informazioni, fare riferimento a [Calendari personalizzati](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |

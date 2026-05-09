@@ -3,7 +3,7 @@ title: Gestisci processi feed dati
 description: Scopri come gestire singoli lavori nei feed dati. Naviga nell’interfaccia, utilizza i filtri e cerca, quindi trova le definizioni delle colonne.
 feature: Data Feeds
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-source-git-commit: bf0d91c65e259f789e5f55ece0735ed387b7482e
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 15%

@@ -4,9 +4,9 @@ title: Reporting Activity Manager
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1971'
 ht-degree: 79%
 
 ---
@@ -164,7 +164,7 @@ Quando selezioni la scheda [!UICONTROL **Richiesta**], nella tabella risultano d
 | [!UICONTROL **Tempo di attesa**] | Tempo di attesa della richiiesta prima dell’elaborazione. Questo valore è generalmente “0” quando c’è abbastanza capacità. |
 | [!UICONTROL **Applicazione**] | Le applicazioni supportate dalla [!UICONTROL Reporting Activity Manager] sono: <ul><li>Interfaccia utente di Analysis Workspace</li><li>Progetti pianificati in Workspace</li><li>Report Builder</li><li>Interfaccia utente di Builder: segmento, metriche calcolate, annotazioni, pubblico, ecc.</li><li>Chiamate API da 1.4 o 2.0 API</li><li>Avvisi</li><li>Collegamenti Condividi con chiunque</li><li>Qualsiasi altra applicazione che esegue query sul motore di reporting di Analytics</li></ul> |
 | [!UICONTROL **Utente**] | L’utente che ha avviato la richiesta. <p>**Nota:** se il valore di questa colonna è [!UICONTROL **Non riconosciuto**], significa che l&#39;utente si trova in una società di accesso per la quale non si dispone di autorizzazioni amministrative.</p> |
-| [!UICONTROL **Progetto**] | Nomi di progetto Workspace salvati, ID di report API e così via (I metadati possono variare tra le varie applicazioni). |
+| [!UICONTROL **Progetto**] | Nomi di progetto Workspace salvati, ID di rapporto API e così via (i metadati possono variare a seconda delle applicazioni). |
 | [!UICONTROL **Stato**] | Indicatori di stato: <ul><li>**In esecuzione**: richiesta in fase di elaborazione.</li><li>**In sospeso**: richiesta in attesa di elaborazione.</li></ul> |
 | [!UICONTROL **Complessità**] | Il tempo di elaborazione non è uguale per tutte le richieste. La complessità delle richieste può essere utile per avere un’idea generale sul tempo necessario per elaborarle. <p>I valori possibili includono:</p> <ul><li>[!UICONTROL **Basso**]</li><li>[!UICONTROL **Medio**]</li><li>[!UICONTROL **Alto**]</li></ul>Questo valore è influenzato dai valori delle colonne seguenti:<ul><li>[!UICONTROL **Limiti del mese**]</li><li>[!UICONTROL **Colonne**]</li><li>[!UICONTROL **Segmenti**]</li></ul> |
 | [!UICONTROL **Limiti del mese**] | Il numero di mesi inclusi in una richiesta. Più alti sono i limiti mensili, maggiore è la complessità della richiesta. |

@@ -3,9 +3,9 @@ description: Istruzioni per individuare gli ID account per Google Ads e Microsof
 title: Individuare gli ID account
 feature: Advertising Analytics
 exl-id: 2faccfd1-df7b-4b0c-a2f3-23138c39a838
-source-git-commit: 586459d99674f01a3b18f84f975a3365ddf2fcd9
+source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '312'
 ht-degree: 22%
 
 ---
