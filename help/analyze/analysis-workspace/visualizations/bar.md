@@ -16,7 +16,7 @@ ht-degree: 69%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta le visualizzazioni Barre e Barre sovrapposte in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vedi [Barre e Barre sovrapposte](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/bar) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta le visualizzazioni Barre e Barre sovrapposte in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vedi [Barre e Barre sovrapposte](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/bar) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
