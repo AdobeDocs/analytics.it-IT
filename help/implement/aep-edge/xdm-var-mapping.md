@@ -37,7 +37,7 @@ La maggior parte dei campi oggetto XDM in questa tabella corrisponde a un [campo
 
 ## Mappatura campo oggetto XDM
 
-Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei commit su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/xdm-var-mapping.md) di questa pagina.
+Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei commit su GitHub](https://github.com/AdobeDocs/analytics.it-IT/commits/main/help/implement/aep-edge/xdm-var-mapping.md) di questa pagina.
 
 | Percorso campo XDM | Variabile e descrizione di Analytics |
 | --- | --- |
@@ -92,7 +92,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | `xdm._experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`xdm._experience.analytics.customDimensions.`<br/>`props.prop75` | Imposta la rispettiva dimensione [Prop](/help/components/dimensions/prop.md). |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.id` | Applica la [serializzazione degli eventi](../vars/page-vars/events/event-serialization.md) alla rispettiva metrica [Eventi personalizzati](/help/components/metrics/custom-events.md). Ogni ID evento risiede nel relativo elemento principale di 100 gruppi. Ad esempio, per applicare la serializzazione a `event678`, utilizza `xdm._experience.analytics.event601to700.event678.id`. |
 | `xdm._experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`xdm._experience.analytics.event901to1000.`<br/>`event1000.value` | Incrementa la rispettiva metrica [Eventi personalizzati](/help/components/metrics/custom-events.md) della quantità desiderata. Ogni evento risiede nel relativo elemento principale di 100 gruppi. Ad esempio, il campo per `event567` è `xdm._experience.analytics.event501to600.event567.value`. |
-| `xdm.identityMap.ECID[0].id` | L’[ID del servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/en/docs/id-service/using/home). |
+| `xdm.identityMap.ECID[0].id` | L’[ID del servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/it/docs/id-service/using/home). |
 | `xdm.marketing.trackingCode` | Imposta la dimensione [Codice di tracciamento](/help/components/dimensions/tracking-code.md). |
 | `xdm.media.mediaTimed.completes.value` | La metrica dei servizi multimediali in streaming [Contenuto completato](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/content-completes). |
 | `xdm.media.mediaTimed.dropBeforeStart.value` | `a.media.view`, `a.media.timePlayed`, `a.media.play` |
