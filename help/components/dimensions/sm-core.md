@@ -3,37 +3,50 @@ title: Dimensioni principali dei servizi di contenuti multimediali in streaming
 description: Dimensioni disponibili quando si abilita [!UICONTROL Media Core] per una suite di rapporti.
 feature: Dimensions
 exl-id: 1316a646-a31a-49a4-a670-d56d90dd462b
-source-git-commit: fd82e93bd98021e124f2db6913b5e5c59797a26f
+TQID: https://experienceleague.adobe.com/JYaEwFPGW4YHtZySogcJkYvDCHPJy-l0JlGxh9eFHSQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 7%
+source-wordcount: 233
+ht-degree: 0%
 
 ---
 
 # Dimensioni principali dei servizi di contenuti multimediali in streaming
 
-*In questa pagina sono descritte le dimensioni disponibili quando si abilita [!UICONTROL Media Core] per una suite di rapporti. Per informazioni sulle metriche disponibili, vedere [Metriche di base di Streaming Media Services](../metrics/sm-core.md).*
+Le dimensioni principali di Streaming Media Services forniscono funzionalità di reporting di base per i dati raccolti tramite le librerie di raccolta di contenuti multimediali in streaming. Queste dimensioni richiedono **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
-Le dimensioni principali dei servizi di contenuti multimediali in streaming forniscono funzionalità di reporting di base ai dati raccolti tramite le librerie dei servizi di contenuti multimediali in streaming. L&#39;utilizzo di queste dimensioni richiede **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Per informazioni, contatta il team del tuo account di Adobe.
+Per utilizzare queste dimensioni, abilita **[!UICONTROL Media Core]** in [[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md) per la suite di rapporti.
 
-Quando abiliti **[!UICONTROL Media Core]** in [Generazione rapporti multimediali](/help/admin/tools/manage-rs/edit-settings/media-management.md), sono disponibili le seguenti dimensioni:
+Sono disponibili le seguenti dimensioni:
 
-| Nome dimensione | Descrizione | Inviato con | Variabile dati contestuali | Campo XDM |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Content]** | ID contenuto. | Avvio file multimediale, Chiusura file multimediale | `a.media.`<br>`name` | `xdm.mediaCollection.`<br>`sessionDetails.name`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.name` |
-| **[!UICONTROL Content channel]** | La stazione di distribuzione o il canale in cui viene riprodotto il contenuto. Qualsiasi valore stringa è valido. | Avvio file multimediale, Chiusura file multimediale | `a.media.`<br>`channel` | `xdm.mediaCollection.`<br>`sessionDetails.channel`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.channel` |
-| **[!UICONTROL Content length (variable)]** | La lunghezza massima (o durata) del contenuto utilizzato, in secondi. Questa dimensione è necessaria per diverse metriche, tra cui &#39;[!UICONTROL Average minute audience]&#39;. Se questa dimensione non è impostata, le metriche dipendenti non sono disponibili.<br><br>È disponibile anche una dimensione di classificazione denominata &#39;[!UICONTROL Video length]&#39;, che fornisce uno scopo simile. Questa dimensione e la classificazione sono trattate come due dimensioni distinte. | Avvio file multimediale, Chiusura file multimediale | `a.media.`<br>`length` | `xdm.mediaCollection.`<br>`sessionDetails.length`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.length` |
-| **[!UICONTROL Content name (variable)]** | Il nome descrittivo del contenuto. È disponibile anche una classificazione denominata &#39;[!UICONTROL Video name]&#39;, che fornisce uno scopo simile. Questa dimensione e la classificazione sono trattate come due dimensioni distinte. | Avvio file multimediale, Chiusura file multimediale | `a.media.`<br>`friendlyName` | `xdm.mediaCollection.`<br>`sessionDetails.friendlyName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.friendlyName` |
-| **[!UICONTROL Content player name]** | Nome del lettore di contenuti. | Avvio file multimediale, Chiusura file multimediale | `a.media.`<br>`playerName` | `xdm.mediaCollection.`<br>`sessionDetails.playerName`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.playerName` |
-| **[!UICONTROL Content segment]** | L’intervallo che descrive la parte del contenuto visualizzata, in minuti. Il segmento viene calcolato come valori minimo e massimo della testina di riproduzione durante una sessione di riproduzione. | Chiusura file multimediale | `a.media.`<br>`segment` | `xdm.mediaReporting.`<br>`sessionDetails.segment` |
-| **[!UICONTROL Content type]** | Il tipo di contenuto. I valori validi includono `song`, `podcast`, `audiobook`, `radio`, `VoD`, `Live`, `Linear`, `UGC`, `DVoD` o un valore personalizzato. | Avvio file multimediale, Chiusura file multimediale | `a.contentType` | `xdm.mediaCollection.`<br>`sessionDetails.contentType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.contentType` |
-| **[!UICONTROL Media path]** | Il percorso seguito dal visitatore per raggiungere il contenuto. | Avvio file multimediale | `a.media.path` | |
-| **[!UICONTROL Media session ID]** | Identifica un’istanza di un flusso di contenuto univoco per una singola riproduzione. | Avvio file multimediale, Chiusura file multimediale | `a.media.vsid` | `xdm.mediaReporting`<br>`sessionDetails.ID` |
-| **[!UICONTROL Stream type]** | Il tipo di flusso. I valori validi includono `audio` e `video`. | Avvio file multimediale, Chiusura file multimediale | `a.media.`<br>`streamType` | `xdm.mediaCollection.`<br>`sessionDetails.streamType`<br><br>`xdm.mediaReporting.`<br>`sessionDetails.streamType` |
+* [[!UICONTROL Content]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content)
+* [[!UICONTROL Content channel]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-channel)
+* [[!UICONTROL Content length (variable)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length)
+* [[!UICONTROL Content name (variable)]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name)
+* [[!UICONTROL Content player name]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-player-name)
+* [[!UICONTROL Content segment]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-segment)
+* [[!UICONTROL Content type]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-type)
+* [[!UICONTROL Media path]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-path)
+* [[!UICONTROL Media session ID]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-session-id)
+* [[!UICONTROL Stream type]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/stream-type)
 
 Oltre alle dimensioni di cui sopra, Adobe crea automaticamente le seguenti dimensioni di classificazione. Per visualizzare i rapporti che utilizzano queste dimensioni, devi caricare i dati di classificazione.
 
-| Nome classificazione | Dimensione principale | Descrizione |
-| --- | --- | --- |
-| **[!UICONTROL Video length]** | [!UICONTROL Content] | La lunghezza massima (o durata) del contenuto utilizzato, in secondi. Le metriche che dipendono dalla lunghezza del contenuto non possono utilizzare questa classificazione. È necessario creare una metrica calcolata per ottenere metriche quali &#39;[!UICONTROL Average minute audience]&#39; utilizzando questa classificazione. |
-| **[!UICONTROL Video name]** | [!UICONTROL Content] | Il nome descrittivo del contenuto. Equivalente di classificazione di &#39;[!UICONTROL Content name (variable)]&#39;. |
+| Nome classificazione | Dimensione principale |
+| --- | --- |
+| [[!UICONTROL Video length]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-length) | [!UICONTROL Content] |
+| [[!UICONTROL Video name]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/content-name) | [!UICONTROL Content] |
+
+Per informazioni sulle metriche corrispondenti, vedere [Metriche di base dei servizi multimediali in streaming](../metrics/sm-core.md).

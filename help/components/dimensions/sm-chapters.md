@@ -1,33 +1,47 @@
 ---
-title: Dimensioni del capitolo di Streaming Media
+title: Dimensioni del capitolo dei servizi multimediali in streaming
 description: Dimensioni disponibili quando si abilita [!UICONTROL Media Chapters] per una suite di rapporti.
 feature: Dimensions
 exl-id: cac66a0b-3f83-46a9-b35c-ba08e0eafb92
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/AfI1gvM3quhjC1zV6oRKx86vS-aLDIRNtuw1vEhuK4A
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 5%
+source-wordcount: 164
+ht-degree: 1%
 
 ---
 
 # Dimensioni del capitolo dei servizi multimediali in streaming
 
-*In questa pagina sono descritte le dimensioni disponibili quando si abilita [!UICONTROL Media Chapters] per una suite di rapporti. Per informazioni sulle metriche disponibili, vedere il capitolo [Metriche dei servizi multimediali in streaming](../metrics/sm-chapters.md).*
+Le dimensioni del capitolo dei servizi di contenuti multimediali in streaming forniscono funzionalità di reporting supplementari per i dati raccolti tramite le librerie di raccolta di contenuti multimediali in streaming. Queste dimensioni richiedono **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Per informazioni, contatta il team del tuo account di Adobe.
 
-Le dimensioni del capitolo dei servizi di contenuti multimediali in streaming forniscono funzionalità di reporting supplementari per la raccolta dei dati tramite le librerie dei servizi di contenuti multimediali in streaming. L&#39;utilizzo di queste dimensioni richiede **[!UICONTROL Adobe Analytics for Streaming Media Add-on]**. Per informazioni, contatta il team del tuo account di Adobe.
+Per utilizzare queste dimensioni, abilita **[!UICONTROL Media Chapters]** in [[!UICONTROL Media Reporting]](/help/admin/tools/manage-rs/edit-settings/media-management.md) per la suite di rapporti.
 
-Quando abiliti **[!UICONTROL Media Chapters]** in [Generazione rapporti multimediali](/help/admin/tools/manage-rs/edit-settings/media-management.md), è disponibile la seguente dimensione:
+È disponibile la seguente dimensione:
 
-| Nome dimensione | Descrizione | Inviato con | Variabile dati contestuali | Campo XDM |
-| --- | --- | --- | --- | --- |
-| **[!UICONTROL Chapter]** | ID del capitolo generato automaticamente. | Chiusura capitolo | `a.media.chapter.name` | `xdm.mediaReporting.`<br>`chapterDetails.ID` |
+* [[!UICONTROL Chapter]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter)
 
-Oltre alle dimensioni di cui sopra, Adobe crea automaticamente le seguenti dimensioni di classificazione. Per visualizzare i rapporti che utilizzano queste dimensioni, devi caricare i dati di classificazione.
+Oltre alla dimensione precedente, Adobe crea automaticamente le seguenti dimensioni di classificazione. Per visualizzare i rapporti che utilizzano queste dimensioni, devi caricare i dati di classificazione.
 
-| Nome classificazione | Dimensione principale | Descrizione |
-| --- | --- | --- |
-| **[!UICONTROL Originator]** | [[!UICONTROL Content]](sm-core.md) | Il creatore del contenuto. |
-| **[!UICONTROL Chapter length]** | [!UICONTROL Chapter] | Durata del capitolo in secondi. |
-| **[!UICONTROL Chapter name]** | [!UICONTROL Chapter] | Il nome descrittivo del capitolo. |
-| **[!UICONTROL Chapter offset]** | [!UICONTROL Chapter] | Offset del capitolo all’interno del contenuto dall’inizio, in secondi. |
-| **[!UICONTROL Chapter position]** | [!UICONTROL Chapter] | Posizione di indice del capitolo nel contenuto. |
+| Nome classificazione | Dimensione principale |
+| --- | --- |
+| [[!UICONTROL Originator]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL Content]](sm-core.md) |
+| [[!UICONTROL Chapter length]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL Chapter] |
+| [[!UICONTROL Chapter name]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL Chapter] |
+| [[!UICONTROL Chapter offset]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL Chapter] |
+| [[!UICONTROL Chapter position]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL Chapter] |
+
+Per le metriche corrispondenti, vedere il capitolo [Metriche dei servizi multimediali in streaming](../metrics/sm-chapters.md).
