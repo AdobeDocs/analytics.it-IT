@@ -4,10 +4,16 @@ description: Note cumulative sulla versione di AppMeasurement per JavaScript.
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 role: Admin, Developer, Leader, User
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/iszRZIB8QN3ihEcNWcOHyO1rVGMuKpt6YTkrquuKfWs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c069c44e-5426-4c1a-accc-8028662f2fdeid: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889beid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
 workflow-type: tm+mt
-source-wordcount: '2725'
-ht-degree: 86%
+source-wordcount: 2839
+ht-degree: 80%
 
 ---
 
@@ -151,7 +157,7 @@ Data di rilascio: **10 aprile 2019**
 Data di rilascio: **22 febbraio 2019**
 
 * Il modulo Gestione del pubblico è stato aggiornato a DIL 9.1. (AN-175255)
-* Il criterio di sicurezza GTM non consente l’esecuzione del modulo Activity Map. (AN-174679)
+* I criteri di sicurezza GTM non consentono il modulo Activity Map. (AN-174679)
 * AppMeasurement è stato migliorato per rispettare eventuali rinunce (opt-out) quando Identity Service non è approvato in consenso (opt-in). (AN-175259)
 
 ## Versione 2.11.0
@@ -169,7 +175,7 @@ Data di rilascio: **20 settembre 2018**
 Questa versione assicura che la libreria di [!DNL AppMeasurement] esegua correttamente l’invio dei cookie per tutti i tipi di connessione.
 
 * [!DNL AppMeasurement] blocca la trasmissione dei cookie durante richieste POST. (AN-165538)
-* È stato interrotto il supporto per XDomainRequest. (AN-165733)
+* Elimina il supporto per XDomainRequest. (AN-165733)
 * In [!DNL AppMeasurement] la durata predefinita del cookie è stata ridotta da cinque a due anni. (AN-158572)
 * È stato rimosso il modulo Media da Code Manager ( [!DNL AppMeasurement]) (AN-166590)
 
@@ -213,7 +219,7 @@ Nuovo bundle dell’API Visitor 3.1.0 (AN-159524), che include gli hot fix: (COR
 
 Data di rilascio: **18 gennaio 2018**
 
-* Fine del supporto per IE da 6 a 9
+* Eliminazione del supporto per IE da 6 a 9
 * Inclusione di Visitor API v3.0.0
 * Inclusione di DIL v7.00
 
@@ -234,7 +240,7 @@ Data di rilascio: **21 settembre 2017**
 
 Data di rilascio: **17 agosto 2017**
 
-* Inclusa dil.js v6.11
+* Includi dil.js v6.11
 * Inclusa API Visitor 2.4.0
 
 ## Versione 2.3.0
@@ -257,23 +263,23 @@ Data di rilascio: **20 aprile 2017**
 
 * Inclusa versione aggiornata di `dil.js` (AN-140396)
 * Aggiunto supporto per il parametro `adobe_mc_ref` che si sovrappone al referente pagina. (AN-131920)
-* API 2.1.0 visitatore nuovamente inclusa. (AN-140873)
+* È Stata Inclusa Di Nuovo API Visitor 2.1.0. (AN-140873)
 * È stato aggiunto il parametro `mcorgid`. (AN-139586)
-* Aggiunto parametro cp (customerPerspective). (AN-140897)
+* È stato aggiunto il parametro cp (customerPerspective). (AN-140897)
 
 ## Versione 2.0.0
 
 Data di rilascio: **9 marzo 2017**
 
-* È stato spostato a un nuovo processo di build che richiede un aggiornamento del numero di versione a 2.0.0. (AN-137878)
-* È stata spostata la gestione di mboxMCSDID nella posizione della sezione corretta in cui viene effettuata la chiamata di tracciamento. (AN-138483)
+* Passato a un nuovo processo di compilazione che richiede l’aggiornamento del numero di versione a 2.0.0. (AN-137878)
+* La gestione di mboxMCSDID è stata spostata nella posizione corretta della sezione in cui viene effettuata la chiamata di tracciamento. (AN-138483)
 
 ## Versione 1.8.0
 
 Data di rilascio: **19 gennaio 2017**
 
 * Include Visitor API 2.0.0
-* È stata modificata la sequenza di chiamate di funzioni e verifiche in modo che SDID viene consumato dopo il completamento della verifica di interruzione. (AN-134364)
+* Chiamate e controlli di funzione rimessi in sequenza in modo che l’identificatore SDID venga utilizzato al termine del controllo di interruzione. (AN-134364)
 * È stato aggiunto `s.registerPreTrackCallback` e gli hook di `s.registerPostTrackCallback`. (AN-134567)
 
 ## Versione 1.7.0
@@ -405,7 +411,7 @@ Data di rilascio: **15 gennaio 2015**
 
 Data di rilascio: **18 settembre 2014**
 
-* Aggiunta di una variabile `tagContainerMarker` che consente l’implementazione per specificare fino a 4 caratteri da aggiungere alla stringa della versione con un delimitatore di caratteri in forma di trattino. La variabile viene utilizzata per la gestione dinamica dei tag.
+* Aggiunta di una variabile `tagContainerMarker` che consente l’implementazione per specificare fino a 4 caratteri da aggiungere alla stringa della versione con un delimitatore di caratteri in forma di trattino. Viene utilizzato dalla gestione dinamica dei tag.
 
   ```js
   // JavaScript
@@ -415,10 +421,10 @@ Data di rilascio: **18 settembre 2014**
   //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
   ```
 
-  È possibile utilizzare 4 caratteri consentiti in percorsi di file URL, ad esempio caratteri alfanumerici e punto.
+  I 4 caratteri sono limitati ai caratteri consentiti nei percorsi dei file URL, ad esempio alfanumerico e punto.
 
-* Correzione di un loop che potrebbe verificarsi durante il monitoraggio automatico dei collegamenti (download e uscita) con monitoraggio forzato dei collegamenti abilitato (impostazione predefinita in browser WebKit) in pagine con doppio tag e codice H. Per evitare tali loop, è stata inoltre aggiunta una protezione automatica generale per il monitoraggio automatico dei collegamenti. Questa protezione limita il monitoraggio automatico dei collegamenti di clic ripetuti sullo *stesso* oggetto a una volta ogni 10 secondi. La protezione si applica solo al monitoraggio automatico dei collegamenti, le chiamate al monitoraggio manuale dei collegamenti (s. tl) non sono limitate. La protezione non viene applicata a clic su oggetti diversi, che vengono invece monitorati.
-* Correzione relativa alla gestione di elementi oggetti di clic in caso sia necessario applicare un ritardo.
+* Correzione di un loop che potrebbe verificarsi durante il monitoraggio automatico dei collegamenti (download e uscita) con monitoraggio forzato dei collegamenti abilitato (impostazione predefinita in browser WebKit) in pagine con doppio tag e codice H. Per evitare tali loop, è stata inoltre aggiunta una protezione automatica generale per il monitoraggio automatico dei collegamenti. Questa protezione limita il tracciamento automatico dei collegamenti dei clic ripetuti sull&#39;oggetto *same* a una volta ogni 10 secondi. Questa salvaguardia si applica solo al tracciamento automatico dei collegamenti, pertanto le chiamate al tracciamento manuale dei collegamenti (s.tl) non sono limitate. Anche i clic su oggetti diversi non sono interessati da questa protezione e verranno tracciati.
+* È stata corretta la gestione dell’oggetto su cui è stato fatto clic quando era necessario un ritardo.
 * Risoluzione del problema che causava un doppio conteggio pagina-vista in caso di chiamata a s.tl da una funzione di collegamento OnClick, nel caso in cui l’API Visitor non contenesse ancora i valori necessari.
 * Supporto HTTP POST.
 
@@ -485,7 +491,7 @@ Data di rilascio: **15 novembre 2013**
 
 Data di rilascio: **14 novembre 2013**
 
-* È stato aggiunto il supporto per la misurazione video [Heartbeat](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=it).
+* È stato aggiunto il supporto per la misurazione video [Heartbeat](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).
 * È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
 
 ## Versione 1.1.1
