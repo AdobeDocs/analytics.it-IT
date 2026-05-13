@@ -5,9 +5,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 TQID: https://experienceleague.adobe.com/epK-BLSIpnZV1-0eqPxb2aGXSbon4Oc1mRDnRljpCxI
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 567
@@ -34,7 +40,7 @@ Se alcune delle richieste selezionate sono Layout personalizzati, non è possibi
 Per aggiungere una o più metriche
 
 1. Seleziona una o più richieste in Excel e fai clic con il pulsante destro del mouse per selezionare **[!UICONTROL Edit Metrics]**. (Oppure fai clic su **[!UICONTROL Manage]** > **[!UICONTROL Edit Multiple]** > `<choose metric>` > **[!UICONTROL Edit Group]** per selezionare il gruppo di richieste da modificare.)
-1. Seleziona **[!UICONTROL Add Metric(s)]**e seleziona le metriche da aggiungere.
+1. Seleziona **[!UICONTROL Add Metric(s)]**&#x200B;e seleziona le metriche da aggiungere.
 
    ![Schermata che mostra l&#39;opzione Modifica richiesta, Aggiungi metriche selezionata.](assets/add_metric.png)
 

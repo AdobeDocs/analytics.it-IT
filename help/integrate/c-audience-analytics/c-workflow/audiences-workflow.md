@@ -5,9 +5,14 @@ title: Panoramica del flusso di lavoro di Audience Analytics
 feature: Audience Analytics
 exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
 TQID: https://experienceleague.adobe.com/8wGeihAHDE7T6zFx98ZnS7fwxJAHMulLG2kIeJ2ceDA
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 128

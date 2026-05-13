@@ -7,11 +7,20 @@ type: Documentation
 solution: Analytics
 exl-id: b6f2b1f5-8790-4342-85c8-524fdf346073
 TQID: https://experienceleague.adobe.com/4BaqA2FPfve4sF2K-Tpxd0hcbVlAWw2QeVhl4xxeb9s
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 514
@@ -38,7 +47,7 @@ Report Builder for Adobe Analytics è un componente aggiuntivo di Microsoft Exce
 
 ## Report Builder legacy
 
-Questo Report Builder sostituisce il componente aggiuntivo legacy di Report Builder [](/help/analyze/legacy-report-builder/home.md) e offre diversi vantaggi:
+Questo Report Builder sostituisce il componente aggiuntivo legacy di Report Builder [&#128279;](/help/analyze/legacy-report-builder/home.md) e offre diversi vantaggi:
 
 - Trova informazioni in Excel in modo più semplice e veloce con flussi di lavoro migliorati per la creazione e la gestione dei blocchi di dati, inclusa una maggiore flessibilità
 - Multipiattaforma: non è più possibile accedere alla macchina virtuale per utilizzare Report Builder, in quanto ora sono supportati PC, Mac ed Excel Online

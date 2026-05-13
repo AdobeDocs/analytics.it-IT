@@ -5,11 +5,25 @@ feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 TQID: https://experienceleague.adobe.com/-V97SlgKbo3MCJoiq-owEKW2HMjjMZjhr2L2zkS1RNY
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1257
@@ -33,13 +47,13 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Pannello Analytics for Target"
->abstract="Analizza le attività ed esperienze Target in Analysis Workspace.<br/><br>**Parametri **<br/>**Attività Target**: attività Target analizzata.<br/>**Esperienza di controllo**: esperienza di controllo per l’attività Target selezionata.<br/>**Metrica di normalizzazione**: visitatori, visite o impression. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità.<br/>**Metriche di successo**: fino a 3 metriche di successo standard (non calcolate) per analizzare l’attività Target."
+>abstract="Analizza le attività ed esperienze Target in Analysis Workspace.<br/><br>**Parametri &#x200B;**<br/>**Attività Target**: attività Target analizzata.<br/>**Esperienza di controllo**: esperienza di controllo per l’attività Target selezionata.<br/>**Metrica di normalizzazione**: visitatori, visite o impression. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità.<br/>**Metriche di successo**: fino a 3 metriche di successo standard (non calcolate) per analizzare l’attività Target."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Analytics for Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Per informazioni su come confrontare diverse esperienze utente, varianti di marketing o di messaggistica in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**, consulta il [pannello Sperimentazione](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)._
+_Questo articolo documenta il pannello Analytics for Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Per informazioni su come confrontare diverse esperienze utente, varianti di marketing o di messaggistica in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**, consulta il [pannello Sperimentazione](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)._
 
 >[!ENDSHADEBOX]
 

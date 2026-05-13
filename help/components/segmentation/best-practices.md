@@ -4,10 +4,16 @@ description: Scopri alcune best practice per la segmentazione.
 feature: Segmentation
 exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
 TQID: https://experienceleague.adobe.com/PJi-kkv6HL3jHEKArltzxMGk9BVtZ-Mr1ivHMkhxt88
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 287
@@ -21,7 +27,7 @@ I segmenti complessi sono spesso necessari per ottenere i dati desiderati. Se i 
 
 ## Utilizza l&#39;operatore `Contains` solo come ultima risorsa
 
-L&#39;operatore [**[!UICONTROL Contains]**](/help/components/segmentation/seg-reference/seg-operators.md) è una delle funzionalità di elaborazione più complesse della segmentazione, in quanto l&#39;operatore deve analizzare l&#39;intero contenuto di ogni valore. Prendere in considerazione l&#39;utilizzo di altri operatori come **[!UICONTROL Starts with]**o **[!UICONTROL Ends with]**se i valori desiderati si trovano all&#39;inizio o alla fine di una stringa.
+L&#39;operatore [**[!UICONTROL Contains]**](/help/components/segmentation/seg-reference/seg-operators.md) è una delle funzionalità di elaborazione più complesse della segmentazione, in quanto l&#39;operatore deve analizzare l&#39;intero contenuto di ogni valore. Prendere in considerazione l&#39;utilizzo di altri operatori come **[!UICONTROL Starts with]**&#x200B;o **[!UICONTROL Ends with]**&#x200B;se i valori desiderati si trovano all&#39;inizio o alla fine di una stringa.
 
 Se un operatore **[!UICONTROL Contains]** in un segmento restituisce un numero elevato di risultati, in genere si verifica un timeout del rapporto. Ad esempio, se hai creato un segmento in cui **[!UICONTROL Referrer]** **[!UICONTROL equals]** `"."`, il segmento esegue ricerche nel contenuto di ogni valore. Valuta l&#39;utilizzo dell&#39;operatore **[!UICONTROL Exists]**.
 

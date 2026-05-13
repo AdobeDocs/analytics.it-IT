@@ -4,8 +4,11 @@ description: Scopri cosa sono le ricerche dinamiche e come abilitarle. Include g
 exl-id: 12327239-06a2-4092-b27d-b94da39abf30
 feature: Data Feeds
 TQID: https://experienceleague.adobe.com/hKuBXw8dX419msIgSjvd3Dl5uE4rJS6nouIbR18RmVo
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 306

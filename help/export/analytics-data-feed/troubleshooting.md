@@ -4,9 +4,13 @@ description: Scopri i motivi per cui un processo di feed dati potrebbe non riusc
 feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
 TQID: https://experienceleague.adobe.com/JkayhoeQk24AwoDkz25lvZBzq-xNcFjW6l-cN-TwuKk
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 467

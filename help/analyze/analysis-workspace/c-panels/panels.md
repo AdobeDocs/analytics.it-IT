@@ -5,11 +5,26 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 TQID: https://experienceleague.adobe.com/VmKuk8QK2OTHkHxEL-Ptu7qvwVnq-0a1yvqftpofHvw
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 2679
@@ -97,7 +112,7 @@ Puoi gestire un pannello nei modi seguenti:
 
 ## Suite di rapporti
 
-Ogni pannello è associato a una [suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**nel menu a discesa in alto a destra del pannello.
+Ogni pannello è associato a una [suite di rapporti](/help/admin/tools/manage-rs/report-suites-admin.md), identificata da ![Dati](/help/assets/icons/Data.svg) **[!UICONTROL *nome della suite di rapporti *]**&#x200B;nel menu a discesa in alto a destra del pannello.
 
 Quando crei un nuovo pannello, la suite di rapporti predefinita si basa sulla suite di rapporti dell’ultimo pannello su cui hai lavorato nel progetto Analysis Workspace.
 
@@ -183,9 +198,9 @@ Per aggiungere o sostituire segmenti o raggruppamenti (rapidi):
       * [Segmento](#segment) per qualsiasi componente del segmento di cui si rilascia ❷.
       * [Segmento rapido](#quick-segment) per qualsiasi componente non relativo al segmento (intervalli di date, metriche, dimensioni, elementi dimensionali) eliminato ❸.
    * Rilascia la selezione **mentre tieni premuto** ⇧ (MAIUSC) per creare i seguenti componenti:
-      * Menu a discesa del segmento statico [](#drop-down-menu) con elementi da filtrare per i segmenti selezionati da eliminare ❹.
-      * Menu a discesa del segmento statico [](#drop-down-menu) con elementi da filtrare per gli intervalli di date selezionati per i quali si rilascia ❺.
-      * Menu a discesa del segmento statico [](#drop-down-menu) con elementi da filtrare per le metriche selezionate su cui si rilascia ❻.
+      * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per i segmenti selezionati da eliminare ❹.
+      * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per gli intervalli di date selezionati per i quali si rilascia ❺.
+      * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per le metriche selezionate su cui si rilascia ❻.
       * Menu a discesa [statico](#drop-down-menu) o menu a discesa [con raggruppamenti](#drop-down-menu) con elementi su cui filtrare o raggruppare la dimensione selezionata *elementi* per la quale si eliminano ❼.
       * Menu a discesa [segmento dinamico](#drop-down-menu) o menu a discesa [raggruppamento](#drop-down-menu) con elementi su cui filtrare o raggruppare le dimensioni selezionate su cui rilasciare ❽.
 
