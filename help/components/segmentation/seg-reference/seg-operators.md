@@ -3,10 +3,20 @@ description: Scopri come utilizzare gli operatori nel generatore di segmenti per
 title: Operatori
 feature: Segmentation
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/5FYLEO96F94w5Zbu8fVvqQ3qPpsJpES-EFdDShY0jMY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 40%
+source-wordcount: 1076
+ht-degree: 39%
 
 ---
 
@@ -31,7 +41,7 @@ L&#39;unico carattere jolly supportato per gli operatori che supportano i caratt
 Ad esempio, hai un nome di pagina denominato *My cool product*.
 
 * La regola del segmento **[!UICONTROL Page name]** **[!UICONTROL matches]** `* product` corrisponderà al nome della pagina indicato sopra.
-* Tuttavia, la regola **[!UICONTROL Page name]** **[!UICONTROL matches]** `My \* product` corrisponde solo al nome pagina *My * Product*.
+* Tuttavia, la regola **[!UICONTROL Page name]** **[!UICONTROL matches]** `My \* product` corrisponde solo al nome pagina *My* Product*.
 
 ## Operatori standard
 

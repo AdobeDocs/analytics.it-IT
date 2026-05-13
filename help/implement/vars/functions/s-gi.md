@@ -4,10 +4,25 @@ description: Crea e tieni traccia delle istanze di AppMeasurement.
 feature: Appmeasurement Implementation
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 role: Admin, Developer
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+TQID: https://experienceleague.adobe.com/N-D1e7uZDRz0s0ZxLeFK7RRYfc5EL4-vQbQUl0OIyxY
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 10%
+source-wordcount: 485
+ht-degree: 13%
 
 ---
 
@@ -19,7 +34,7 @@ La funzione `s_gi()` crea un&#39;istanza di AppMeasurement o la trova in base al
 
 L&#39;estensione Web SDK crea e gestisce automaticamente l&#39;oggetto di tracciamento. Tuttavia, puoi personalizzare il nome dell’oggetto di tracciamento nelle impostazioni dell’estensione:
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Passare alla scheda [!UICONTROL Extensions], quindi fare clic sul pulsante **[!UICONTROL Configure]** in Adobe Experience Platform Web SDK.
 1. Modificare il campo [!UICONTROL Name] nel valore desiderato. Il valore predefinito è `alloy`.
@@ -44,7 +59,7 @@ Per ulteriori informazioni, vedere [Installare SDK](https://experienceleague.ado
 
 L&#39;estensione Analytics crea e gestisce automaticamente l&#39;oggetto di tracciamento. Tuttavia, è anche possibile impostare un oggetto di tracciamento globale nel pannello a soffietto [!UICONTROL Library Management] durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
 1. Espandere il pannello a soffietto [!UICONTROL Library Management] e selezionare un pulsante di opzione diverso da [!UICONTROL Manage the library for me].

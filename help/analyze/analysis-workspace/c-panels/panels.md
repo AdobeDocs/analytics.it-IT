@@ -4,10 +4,31 @@ title: Panoramica Dei Pannelli In Analysis Workspace
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: f290b859f6e41de15bc115c8f4e90b616c9a1d8c
+TQID: https://experienceleague.adobe.com/VmKuk8QK2OTHkHxEL-Ptu7qvwVnq-0a1yvqftpofHvw
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 35%
+source-wordcount: 2679
+ht-degree: 34%
 
 ---
 
@@ -228,14 +249,14 @@ Per qualsiasi componente di metrica, segmento o intervallo di date che rilasci *
 
 Per qualsiasi componente *dimension* a cui viene rilasciato **mentre si tiene** ⇧, viene creato un menu a discesa dei segmenti. Questo menu a discesa ti consente di filtrare il pannello in base agli elementi disponibili per gli elementi dimensione eliminati (menu a discesa [static](#static) segmento) o per il componente dimensione (menu a discesa [dynamic](#dynamic) segmento). Per configurare esplicitamente il menu a discesa per filtrare un pannello utilizzando i segmenti:
 
-* Selezionare ![Raggruppamento](/help/assets/icons/Breakdown.svg) e ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** | **[!UICONTROL Filters the data in the panel]** dal menu di scelta rapida per il componente ❾.
+* Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) e seleziona ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** | **[!UICONTROL Filters the data in the panel]** dal menu di scelta rapida per il componente ❾.
 
 
 #### Suddividere un pannello
 
 Per qualsiasi componente *dimension* a cui viene rilasciato **mentre si tiene** ⇧, viene creato un menu a discesa dei segmenti. Puoi configurare il menu a discesa per suddividere il pannello in base agli elementi disponibili per gli elementi dimensionali eliminati (menu a discesa con raggruppamento [statico](#static)) o per il componente dimensione (menu a discesa con raggruppamento [dinamico](#dynamic)). Per configurare esplicitamente il menu a discesa in modo da suddividere un pannello utilizzando le suddivisioni:
 
-* Selezionare ![Filtro](/help/assets/icons/Filter.svg) e ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** | **[!UICONTROL Breaks down the data in the panel]** dal menu di scelta rapida per il componente ❾.
+* Seleziona ![Filtro](/help/assets/icons/Filter.svg) e ![Raggruppamento](/help/assets/icons/Breakdown.svg) **[!UICONTROL Breakdown]** | **[!UICONTROL Breaks down the data in the panel]** dal menu di scelta rapida per il componente ❾.
 
 >[!IMPORTANT]
 >

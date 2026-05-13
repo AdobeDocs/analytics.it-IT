@@ -5,9 +5,19 @@ title: Casi di utilizzo delle regole di elaborazione
 feature: Processing Rules
 role: Admin
 exl-id: 914a0d31-d256-456e-a44a-008490e86a23
-source-git-commit: 0616f35599fd40ee8b88f7809f943bb11a84429b
+TQID: https://experienceleague.adobe.com/hQ8AzjYEoPS35w7SFD6F8xSopdCXgWBX0HgPTulQrC8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: 771
 ht-degree: 26%
 
 ---
@@ -134,7 +144,7 @@ Adobe consiglia di utilizzare l’opzione di corrispondenza più restrittiva pos
 Puoi rimuovere o eliminare un evento specifico da un hit utilizzando le regole di elaborazione senza modificare l’implementazione. Se si imposta l&#39;evento sul valore personalizzato `0`, l&#39;evento non verrà conteggiato.
 
 | Set di regole | Valore |
-| Condizione | Nessuno (esegui sempre) |
+| Condizione | Nessuno (eseguire sempre) |
 | Azione | [!UICONTROL Set event] Evento1 a [!UICONTROL Custom value] `0` |
 
 ![Schermata dell&#39;interfaccia delle regole di elaborazione visualizzata in per rimuovere un evento](assets/remove_event.png)

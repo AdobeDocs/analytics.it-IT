@@ -4,10 +4,20 @@ description: Invia ad Adobe una chiamata di tracciamento per la visualizzazione 
 feature: Appmeasurement Implementation
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/xDA52lSi35dDd4zgvT3gt1Ufgbc-LTvLL84UEN2dQp8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 14%
+source-wordcount: 448
+ht-degree: 15%
 
 ---
 
@@ -41,7 +51,7 @@ Adobe riceve la richiesta di immagine, quindi analizza l’intestazione della ri
 
 Utilizza un’azione per configurare l’invio di dati evento XDM ad Adobe. Lo stream di dati riceve tali dati, applica eventuali mappature configurate e inoltra tali dati ad Adobe Analytics, se si tratta di un servizio aggiunto a tale stream di dati.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 1. In [!UICONTROL Actions], fare clic sull&#39;azione desiderata o sull&#39;icona **&#39;+&#39;** per aggiungere un&#39;azione.
@@ -63,7 +73,7 @@ Per ulteriori informazioni, vedere [`sendEvent`](https://experienceleague.adobe.
 
 L’estensione Adobe Analytics in Adobe Experience Platform Data Collection dispone di una posizione dedicata per impostare una chiamata di tracciamento per la visualizzazione della pagina.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 1. In [!UICONTROL Actions], fare clic sull&#39;azione desiderata o sull&#39;icona **&#39;+&#39;** per aggiungere un&#39;azione.

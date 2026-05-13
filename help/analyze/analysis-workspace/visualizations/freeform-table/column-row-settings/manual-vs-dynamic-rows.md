@@ -4,10 +4,23 @@ description: Scopri come utilizzare gli elementi dimensionali dinamici e statici
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/hP5X4gRBiRB1wmGziYT25iGS-Enpuu0C--3qeGxrvb4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 39%
+source-wordcount: 570
+ht-degree: 38%
 
 ---
 
@@ -21,7 +34,7 @@ Gli elementi dimensionali dinamici cambiano nel tempo e dipendono dalla metrica 
 
 Quando rilasci una dimensione in una tabella a forma libera, vengono restituite righe dinamiche. Le righe dinamiche rappresentano gli elementi principali che corrispondono alla dimensione per una metrica e un periodo di tempo specifici. È inoltre possibile rilasciare una dimensione nelle colonne di una tabella a forma libera. Così facendo la dimensione si espande automaticamente nei primi 5 elementi dimensionali.
 
-Ad esempio, quando trascini la dimensione Tipo di browser nella tabella, gli elementi principali della dimensione Tipo di browser (ad esempio, Microsoft, Apple, Google, ecc.) tornano dinamicamente alle righe della tabella. Se viene rilasciata in una colonna, sono restituiti in modo dinamico i primi cinque elementi della dimensione Tipo di browser.
+Ad esempio, quando trascini la dimensione Tipo di browser nella tabella, gli elementi dimensionali principali (ad esempio Microsoft, Apple, Google, ecc.) tornare dinamicamente alle righe della tabella. Se viene rilasciata in una colonna, sono restituiti in modo dinamico i primi cinque elementi della dimensione Tipo di browser.
 
 Gli elementi dimensionali dinamici dispongono dell&#39;opzione filtro righe ![Filtro](/help/assets/icons/Filter.svg) e di una ![Chiusura](/help/assets/icons/Close.svg) e **non** dispongono di un blocco ![BloccoChiuso](/help/assets/icons/LockClosed.svg). <!--do they have the lock icon? --> Quando fai clic su ![Chiudi](/help/assets/icons/Close.svg) accanto a un elemento di dimensione dinamica, viene applicato automaticamente un filtro. Per ulteriori informazioni sull&#39;applicazione di filtri alle tabelle, vedere [Filtrare e ordinare le tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 

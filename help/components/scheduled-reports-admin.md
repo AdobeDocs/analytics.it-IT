@@ -5,9 +5,23 @@ feature: Admin Tools
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 exl-id: 7287e6c7-e354-48a0-9343-35dccfc46e63
 role: Admin
-source-git-commit: be5a73347d417c8dc6667d4059e7d46ef5f0f5cd
+TQID: https://experienceleague.adobe.com/HL78cbB5NqKCjv4NvZ5OiqjfbwBjI0KAC8hEr8Afd2U
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: 295
 ht-degree: 100%
 
 ---
@@ -43,7 +57,7 @@ Ad esempio, se desideri filtrare tutti i rapporti pianificati per ogni ora, dovr
 
 ## Coda dei rapporti {#section_03C866115D354BB182E90BF4D52F1E0B}
 
-Questa coda ti consente di gestire ed eventualmente eliminare qualsiasi rapporto pianificato che sta “intasando” la coda. (In genere, i rapporti scadono dopo 4 ore.)
+Questa coda ti consente di gestire ed eventualmente eliminare qualsiasi rapporto pianificato che sta “intasando” la coda. (In genere, i rapporti vengono interrotti per timeout dopo 4 ore.)
 
 ![](assets/scheduled_reports_2.png)
 

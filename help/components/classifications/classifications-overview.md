@@ -3,10 +3,24 @@ title: Panoramica delle classificazioni
 description: Personalizza il raggruppamento di elementi dimensionali.
 feature: Classifications
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: 2e07f1b9495801383b030b2396e5468c39299f50
+TQID: https://experienceleague.adobe.com/raB90u-JEBgDroQPLC1eCSmxs4V-J7Av8Snr6oeKwvk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 34%
+source-wordcount: 307
+ht-degree: 31%
 
 ---
 
@@ -18,7 +32,7 @@ Una classificazione è un modo per classificare i dati delle variabili di Analyt
 
 * **Classificazioni legacy** documenta i metodi di classificazione legacy per classificare i dati. Questi metodi diventeranno obsoleti nel prossimo futuro e non saranno più accessibili.
 
-   * [Regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md): crea regole che assegnano un dato elemento dimensione a un elemento dimensionale di classificazione. Questo metodo per classificare i dati è ideale quando una dimensione incontra spesso nuovi valori univoci o quando le classificazioni manuali sarebbero frequenti e onerose. Questa funzionalità diventerà obsoleta dopo il 28 febbraio 2027.
+   * [Regole di classificazione](/help/components/classifications/crb/classification-rule-builder.md): crea regole che assegnano un dato elemento dimensione a un elemento dimensione di classificazione. Questo metodo per classificare i dati è ideale quando una dimensione incontra spesso nuovi valori univoci o quando le classificazioni manuali sarebbero frequenti e onerose. Questa funzionalità diventerà obsoleta dopo il 28 febbraio 2027.
 
    * [Importazione classificazioni](/help/components/classifications/importer/c-working-with-saint.md): esporta un foglio di calcolo modello con elementi dimensionali in ogni riga. Le colonne rappresentano ogni classificazione per una dimensione. Questo metodo di classificazione dei dati è ideale quando tutti gli elementi dimensionali sono noti e non richiedono aggiornamenti frequenti. Questa funzionalità diventerà obsoleta dopo il 31 agosto 2026. Se questa opzione è obsoleta, non sarà più possibile importare le classificazioni utilizzando l’FTP standard.
 

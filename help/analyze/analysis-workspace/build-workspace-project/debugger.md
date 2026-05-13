@@ -5,10 +5,21 @@ feature: Workspace Basics
 title: Debugger progetto
 role: User
 exl-id: 7a3a195e-d4f3-4fc8-90f9-507964052c9b
-source-git-commit: b6509693440f00a0c93668109daa7e7f3786f39c
+TQID: https://experienceleague.adobe.com/-A6Q0J2-zNTdnl-DamTjPURbBU5epwoPsAqdPoDtuvc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 2%
+source-wordcount: 407
+ht-degree: 3%
 
 ---
 
@@ -73,7 +84,7 @@ Per utilizzare il debugger per una visualizzazione specifica:
    * XML (risposta)
    * JSON (richiesta)
    * JSON (risposta)
-   * Richiesta curl
+   * Richiesta cURL
 
 1. Utilizza ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** sotto **[!UICONTROL cURL Request]** per copiare la richiesta negli Appunti.
 1. Passa il puntatore del mouse su una delle **[!UICONTROL Request]** o **[!UICONTROL Response]** aree di testo per visualizzare e selezionare ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy to clipboard]** per copiare il contenuto di tale area di testo (XML o JSON) negli Appunti.

@@ -4,10 +4,17 @@ description: Domande frequenti sull’identificazione dei visitatori cross-devic
 feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
 role: Developer
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+TQID: https://experienceleague.adobe.com/h3kyR8lnSdl5rQKj9kmVXBt6rspjsALfUUaEh2-cAhM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 81%
+source-wordcount: 204
+ht-degree: 80%
 
 ---
 

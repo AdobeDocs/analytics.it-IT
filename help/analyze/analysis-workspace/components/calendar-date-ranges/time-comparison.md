@@ -4,9 +4,22 @@ title: Confronto delle date
 feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/8JGo2UzVdsArtXKFa3pLZtvjOSH5qQowPoftuzNvZfs
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: 686
 ht-degree: 11%
 
 ---
@@ -17,7 +30,7 @@ Il confronto delle date in Analysis Workspace consente di prendere una qualsiasi
 
 ## Confronto tra periodi temporali
 
-L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo di tempo precedente. Ad esempio, la domanda *Quanto stai facendo meglio o peggio rispetto a questo periodo dell&#39;anno scorso?* è fondamentale per comprendere la tua attività. Il confronto delle date include automaticamente una colonna *differenza* che mostra la variazione percentuale rispetto a un periodo di tempo specificato.
+L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo di tempo precedente. Ad esempio, la domanda *Quanto stai facendo meglio o peggio ora rispetto a questo periodo dell&#39;anno scorso?* è fondamentale per comprendere la propria attività. Il confronto delle date include automaticamente una colonna *differenza* che mostra la variazione percentuale rispetto a un periodo di tempo specificato.
 
 1. Crea una [tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md), con tutte le dimensioni e le metriche che desideri confrontare in un periodo di tempo.
 1. Imposta il periodo di tempo sul pannello o sulla colonna per determinare l’intervallo di tempo del confronto e se si tratta di un confronto in tempo continuo o fisso.
@@ -63,7 +76,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
    | Opzione | Descrizione |
    |---|---|
-   | **[!UICONTROL Prior *x *settimane/mesi/trimestri/anni a questo intervallo di date]** | Aggiungi una colonna con settimana/mese/ecc. immediatamente prima di questo intervallo di date. |
+   | **[!UICONTROL Prior *x *settimane/mesi/trimestri/anni a questo intervallo di date]** | Aggiungi una colonna con la settimana/mese/ecc. immediatamente prima di questo intervallo di date. |
    | **[!UICONTROL These *x *settimane/mesi/trimestri/anni ultimo anno a questo intervallo di date]** | Aggiungi lo stesso intervallo di date un anno fa. |
    | **[!UICONTROL Custom date range to this date range]** | Consentono di creare un intervallo di date personalizzato. |
 

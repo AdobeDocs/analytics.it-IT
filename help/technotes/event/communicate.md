@@ -3,9 +3,17 @@ title: Comunicare l’impatto agli utenti
 description: Scopri modi efficaci per comunicare l’impatto di un evento nella tua organizzazione.
 exl-id: 9ba83f3f-2eea-44c2-80b2-a0a9111d51cf
 feature: Curate and Share
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+TQID: https://experienceleague.adobe.com/Ku2Rgll0xTFejohK1gTwbQ6qY8IrneI0i0Ii5Tpycho
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: 346
 ht-degree: 0%
 
 ---

@@ -4,10 +4,18 @@ description: Naviga nell’interfaccia di gestione delle origini dati.
 exl-id: 315501fb-26e1-436a-938d-5957ca037cd0
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: https://experienceleague.adobe.com/Tc5-I54BKMPlv2tVZb9pMYfvdddcTPuskdh3W24wFUU
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 7%
+source-wordcount: 612
+ht-degree: 6%
 
 ---
 
@@ -31,7 +39,7 @@ L&#39;origine dati più in alto è sempre [!UICONTROL Web Beacon]. Questa origin
 
 Ciascuna origine dati dispone delle seguenti opzioni:
 
-* **[!UICONTROL Restart Processing]**: riavvia l&#39;elaborazione dell&#39;origine dati precedentemente interrotta a causa di errori. L&#39;elaborazione continua fino al rilevamento dell&#39;errore successivo. Origini dati interrompe l&#39;elaborazione di un file Origini dati solo quando si seleziona **[!UICONTROL Stop processing on errors]**.
+* **[!UICONTROL Restart Processing]**: riavvia l&#39;elaborazione dell&#39;origine dati precedentemente interrotta a causa di errori. L’elaborazione continua fino a quando non viene rilevato l’errore successivo. Origini dati interrompe l&#39;elaborazione di un file Origini dati solo quando si seleziona **[!UICONTROL Stop processing on errors]**.
 * **[!UICONTROL Complete Processing]**: non più utilizzato. Questo pulsante è stato utilizzato solo per [origini dati a elaborazione completa](full-processing-eol.md).
 * **[!UICONTROL Stop processing on errors]**: casella di controllo che indica al server di elaborazione di arrestarsi quando viene rilevato un errore. L&#39;origine dati riprende l&#39;elaborazione solo dopo la selezione di **[!UICONTROL Restart Processing]**. Quando un&#39;origine dati rileva un errore di file, notifica l&#39;errore. Adobe sposta il file con l&#39;errore in una cartella denominata `files_with_errors` sul server FTP. Dopo aver risolto il problema, invia nuovamente il file per l&#39;elaborazione.
 * **[!UICONTROL Configure]**: collegamento che consente di eseguire la procedura guidata di creazione delle origini dati per questa origine dati. Questa procedura guidata consente di rinominare l&#39;origine dati o riconfigurare le variabili incluse automaticamente durante il download di un file modello.
@@ -50,7 +58,7 @@ Una volta che un’origine dati riceve i dati, viene visualizzata una tabella co
 
 La scheda **[!UICONTROL Create]** offre un punto di partenza per la procedura guidata di creazione delle origini dati.
 
-![Crea](assets/create.png)
+![Creare &#x200B;](assets/create.png)
 
 La categoria e il tipo di origine dati erano più importanti nelle versioni precedenti di Adobe Analytics. Tuttavia, hanno ancora un uso limitato:
 

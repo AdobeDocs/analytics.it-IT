@@ -4,9 +4,25 @@ description: Approfondisci i concetti alla base delle eVar di merchandising e co
 feature: Admin Tools
 role: Admin
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/ualdvwO-ym7q9XtStQQ4GIHUJ5-P6pv3MXd-z5JWvOs
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '5248'
+source-wordcount: 5292
 ht-degree: 86%
 
 ---
@@ -189,7 +205,7 @@ Se utilizziamo l’esempio originale “sandals” e lo adattiamo per utilizzare
 
 `s.products=";sandal123;;;;eVar2=sandals|eVar1=internal search|eVar3=non-internal campaign|eVar4=non-browse|eVar5=non-cross-sell";`
 
-In questo esempio la sintassi della variabile di prodotti è lunga, ma associerà ciascuno dei valori eVar elencati all’ID prodotto “sandal123”. Dopodiché tutti gli eventi di successo (ad esempio, aggiunte al carrello, acquisti) che vengono acquisiti contemporaneamente al prodotto “sandal123” vengono attribuiti agli ultimi valori eVar associati al prodotto. Questo esempio di codice indica se un acquisto di 1 unità del prodotto “sandal123” (per un valore di $ 79,95) avviene dopo che le eVar di cui sopra sono stati associate al prodotto “sandal123”:
+In questo esempio la sintassi della variabile di prodotti è lunga, ma associerà ciascuno dei valori eVar elencati all’ID prodotto “sandal123”. Dopodiché tutti gli eventi di successo (ad esempio, aggiunte al carrello, acquisti) che vengono acquisiti contemporaneamente al prodotto “sandal123” vengono attribuiti agli ultimi valori eVar associati al prodotto.  Questo esempio di codice indica se un acquisto di 1 unità del prodotto “sandal123” (per un valore di $ 79,95) avviene dopo che le eVar di cui sopra sono stati associate al prodotto “sandal123”:
 
 ```js
 s.products=";sandal123;1;79.95";
@@ -208,7 +224,7 @@ Questa è l’attribuzione corretta, il che non è un problema. Piuttosto, il pr
 
 Nella maggior parte dei casi con sintassi prodotto, le eVar di metodo di ricerca dei prodotti devono essere impostate su una pagina di dettagli del prodotto anziché sulla pagina in cui è stato effettivamente utilizzato il metodo di ricerca (ad esempio la pagina dei risultati della ricerca per parola chiave, la pagina Sfoglia, la pagina di destinazione della campagna interna e così via). È ragionevole supporre che un prodotto non sia stato effettivamente “trovato” finché un visitatore non interagisce in qualche modo con esso. Di conseguenza, queste eVar (con sintassi prodotto) non devono essere impostate sulla pagina del metodo di ricerca dato che, in genere, più prodotti vengono visualizzati su tali pagine. Il valore del metodo di ricerca deve essere associato solo ai prodotti con cui il visitatore ha effettivamente interagito.
 
-Inoltre, su una pagina del metodo di ricerca, potrebbe essere possibile sia fare clic su un link per passare alla pagina dei dettagli di uno specifico singolo, sia aggiungere direttamente un singolo prodotto al carrello. Utilizzando l’esempio della parola chiave di ricerca &quot;sandals&quot;, se un visitatore aggiunge il prodotto &quot;sandal123&quot; al carrello direttamente da una pagina dei risultati della ricerca, il codice per acquisire l’aggiunta al carrello (tramite l’evento onClick del pulsante Add-to-Cart, ecc.) deve essere generato in modo dinamico nel momento in cui l’aggiunta al carrello avviene o &quot;codificato&quot; direttamente tramite il codice della pagina o un sistema di gestione dei tag.  Il codice da attivare in questi casi sarà comunque simile al seguente:
+Inoltre, su una pagina del metodo di ricerca, potrebbe essere possibile sia fare clic su un link per passare alla pagina dei dettagli di uno specifico singolo, sia aggiungere direttamente un singolo prodotto al carrello. Utilizzando l’esempio della parola chiave di ricerca &quot;sandals&quot;, se un visitatore aggiunge il prodotto &quot;sandal123&quot; al carrello direttamente da una pagina dei risultati della ricerca, il codice per acquisire l’aggiunta al carrello (tramite l’evento onClick del pulsante Aggiungi al carrello, ecc.) deve essere generato in modo dinamico nel momento in cui avviene l’aggiunta al carrello oppure codificato direttamente tramite il codice della pagina o un sistema di gestione dei tag.  Il codice da attivare in questi casi sarà comunque simile al seguente:
 
 ```js
 s.linkTrackVars="products,events";
@@ -300,7 +316,7 @@ Non è necessario preoccuparsi di passare dati da pagina a pagina né tentare di
 
 Come spiegato in precedenza, per tutte le eVar di merchandising che utilizzano la sintassi per variabile di conversione, l’impostazione di allocazione è “Most Recent (Last)” (Più recente, ultimo). Una volta impostata un’eVar uguale a qualsiasi valore, tale valore persiste in tutti gli hit successivi (tramite la colonna post_evar). Persiste finché non viene impostato un valore diverso o fino alla scadenza dell’eVar. Pertanto, tutti i prodotti con cui si interagisce dopo che sono state impostate le eVar, se non sono già stati associati a tali eVar, vengono associati ai valori “Most Recent (Last)” (Più recente, ultimo) passati nell’eVar.
 
-Nell’esempio precedente, i valori `eVar2` “sandals”, eVar1 “internal keyword search” ecc. persistono in tutte le pagine visualizzate dopo la ricerca per parole chiave. Persistono finché le eVar non vengono sovrascritte con altri valori. Supponiamo che, dalla pagina dei risultati della ricerca per parola chiave, un visitatore faccia clic su un collegamento alla pagina dei dettagli del prodotto con ID prodotto “sandal123”.  L’ID prodotto “sandal123” (se non è ancora stato associato) viene quindi associato a ciascuno dei valori contenuti nelle colonne post_evar o ai valori eVar raccolti dalla pagina precedente (risultati di ricerca).
+Nell&#39;esempio precedente, il valore `eVar2` di &quot;sandals&quot; e il valore eVar1 di &quot;internal keyword search&quot;, ecc. persistono in tutte le pagine visualizzate dopo la ricerca per parola chiave. Persistono finché le eVar non vengono sovrascritte con altri valori. Supponiamo che, dalla pagina dei risultati della ricerca per parola chiave, un visitatore faccia clic su un collegamento alla pagina dei dettagli del prodotto con ID prodotto “sandal123”.  L’ID prodotto “sandal123” (se non è ancora stato associato) viene quindi associato a ciascuno dei valori contenuti nelle colonne post_evar o ai valori eVar raccolti dalla pagina precedente (risultati di ricerca).
 
 C’è un altro aspetto da riconsiderare riguardo alla sintassi per variabile di conversione. Gli eventi di associazione devono essere impostati in modo da associare un valore eVar a un prodotto. La semplice impostazione di un’eVar di merchandising (nella sua variabile) insieme a un prodotto (nella variabile dei prodotti) in una richiesta di immagine di Adobe Analytics non associa necessariamente il valore eVar al prodotto.  L’impostazione dell’evento di binding merchandising, specificata in Report Suite Manager, determina i criteri secondo i quali un valore eVar viene associato a un prodotto.
 
@@ -342,7 +358,7 @@ post_eVar4="non-browse";
 post_eVar5="non-cross sell";
 ```
 
-Queste colonne post vengono memorizzate nel database di Adobe e persistono oltre l’hit corrente in cui sono state inizialmente impostate, fintanto che la variabile non abbia una scadenza o non venga ripristinata. Nei server di Adobe, questi valori post_evar sono “disponibili” al momento dell’elaborazione di chiamate server future che contengono sia l’evento di binding che la variabile prodotti.
+Queste colonne post vengono memorizzate nel database di Adobe e persistono oltre l’hit corrente in cui sono state inizialmente impostate, fintanto che la variabile non abbia una scadenza o non venga ripristinata.  Nei server di Adobe, questi valori post_evar sono “disponibili” al momento dell’elaborazione di chiamate server future che contengono sia l’evento di binding che la variabile prodotti.
 
 L’associazione avviene unicamente tra questi valori post_evar e il contenuto della variabile prodotti. L’evento di binding non viene necessariamente associato alle variabili eVar o prodotti. Funge da “catalizzatore” e comunica ai server di Adobe di associare i valori post_evar ai prodotti.
 

@@ -3,10 +3,28 @@ description: Domande frequenti su Advertising Analytics.
 title: Domande frequenti per l’analisi della pubblicità
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/HC9F-en-nLFRkxsaY6Szdtb3jR5NgdpsbjSAX6kTBlQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2296997-5d79-4905-b32e-99b5aa892429
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 0%
+source-wordcount: 1292
+ht-degree: 2%
 
 ---
 
@@ -105,7 +123,7 @@ No, i dati di ricerca non elaborati verranno inseriti come set di dati indipende
 
 +++ Sto tentando di mappare i miei account Advertising Analytics su una suite di rapporti specifica, ma non è disponibile nella finestra modale Suite di rapporti. Perché? 
 
-Prima di poter assegnare una suite di rapporti a un account Advertising Analytics, è necessario eseguire il provisioning della suite di rapporti desiderata per il reporting di Advertising Analytics [&#128279;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
+Prima di poter assegnare una suite di rapporti a un account Advertising Analytics, è necessario eseguire il provisioning della suite di rapporti desiderata per il reporting di Advertising Analytics: [&#128279;](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 Questa operazione viene eseguita tramite una pagina Amministratore separata accessibile da: Amministratore > Suite di rapporti > `[select report suite]` > Modifica impostazioni > Configurazione Advertising Analytics.
 
 +++
@@ -128,7 +146,7 @@ I dati di ricerca vengono estratti dai motori di ricerca intorno alle 6 del matt
 
 +++
 
-+++ Cosa è possibile acquisire *prima del clic*? Portiamo impressioni, costi, posizione media, ecc.? anche senza clic?
++++ Cosa è possibile acquisire *prima del clic*? Portiamo impressioni, costi, posizione media, ecc. anche senza clic?
 
 L’AMO ID acquisirà le metriche del motore di ricerca: impression, costo, clic, posizione media e punteggio di qualità medio. Se non ci sono clic ma sono presenti impression, i dati di impression/posizione/punteggio di qualità verranno comunque inviati ad Analytics. In genere, se non ci sono clic, allora non c&#39;è anche alcun costo.
 

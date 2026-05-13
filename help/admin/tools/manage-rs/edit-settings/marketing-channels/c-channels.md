@@ -5,9 +5,17 @@ title: Gestire i canali di marketing
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 role: Admin
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/o-l-xrW6JQDjwjD5SZU-ZIX6sgo3unB5byiFnn1xyug
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: 706
 ht-degree: 100%
 
 ---
@@ -56,7 +64,7 @@ Aggiungi canali di marketing in Gestione canali di marketing.
 
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Manager]**.
 
-   Se nella suite di rapporti non sono definiti canali, compare la pagina [Configurazione automatica](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+   Se nella suite di rapporti non sono definiti canali, viene visualizzata la pagina [Configurazione automatica](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
 1. Nella pagina [!UICONTROL Marketing Channel Manager], fai clic su **[!UICONTROL Add Channel]**.
 

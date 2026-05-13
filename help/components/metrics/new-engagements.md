@@ -1,16 +1,26 @@
 ---
-title: Nuovi engagement
+title: Nuovi coinvolgimenti
 description: Il numero di volte in cui è impostato un canale di primo contatto.
 feature: Metrics
 exl-id: a419d048-9715-4d7b-9c24-d34129755371
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/UsPu31wUqpoDYQy5aT9wnzSUgJ6i9mHVZ8pAtFQgzGo
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: 148
 ht-degree: 6%
 
 ---
 
-# Nuovi engagement
+# Nuovi coinvolgimenti
 
 La [metrica](overview.md) dei &quot;Nuovi impegni&quot; mostra il numero di volte in cui un visitatore corrisponde a un canale di marketing per la prima volta nel periodo di coinvolgimento del visitatore. Questa metrica è utile quando desideri confrontare per la prima volta qualsiasi dimensione con un visitatore che corrisponde a una regola di elaborazione del canale di marketing.
 

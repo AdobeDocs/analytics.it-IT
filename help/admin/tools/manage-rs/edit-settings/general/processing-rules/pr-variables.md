@@ -5,10 +5,23 @@ title: Dimensioni e metriche disponibili per le regole di elaborazione
 feature: Processing Rules
 role: Admin
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/FFwTZQBj3LWLQdASF91ZwMis12EuOP5a1VhHyxUqXm0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 9%
+source-wordcount: 719
+ht-degree: 10%
 
 ---
 
@@ -27,7 +40,7 @@ Dimensioni e metriche disponibili che è possibile leggere e scrivere utilizzand
 
 | Attributo | Stato lettura/scrittura | Descrizione |
 | --- | --- | --- |
-| **URL della pagina** | Lettura e scrittura | La dimensione [URL pagina](/help/components/dimensions/page-url.md). Gli hit di tracciamento dei collegamenti eliminano questa dimensione prima di raggiungere le regole di elaborazione. Se inserisci nuovamente un valore URL della pagina utilizzando le regole di elaborazione, l&#39;hit viene considerato come [Visualizzazione pagina](/help/components/metrics/page-views.md) invece di [Evento pagina](/help/components/metrics/page-events.md). Adobe consiglia di verificare la presenza di un valore nella dimensione pagina prima di modificarlo. |
+| **URL della pagina** | Lettura e scrittura | La dimensione [URL della pagina](/help/components/dimensions/page-url.md). Gli hit di tracciamento dei collegamenti eliminano questa dimensione prima di raggiungere le regole di elaborazione. Se inserisci nuovamente un valore URL della pagina utilizzando le regole di elaborazione, l&#39;hit viene considerato come [Visualizzazione pagina](/help/components/metrics/page-views.md) invece di [Evento pagina](/help/components/metrics/page-events.md). Adobe consiglia di verificare la presenza di un valore nella dimensione pagina prima di modificarlo. |
 | **Nome pagina** | Lettura e scrittura | La dimensione [Pagina](/help/components/dimensions/page.md). Gli hit di tracciamento dei collegamenti eliminano questa dimensione prima di raggiungere le regole di elaborazione. Se inserisci nuovamente un valore di pagina utilizzando le regole di elaborazione, l&#39;hit viene considerato come [Visualizzazione pagina](/help/components/metrics/page-views.md) invece di [Evento pagina](/help/components/metrics/page-events.md). Adobe consiglia di verificare la presenza di un valore nella dimensione pagina prima di modificarlo. |
 | **ID suite di rapporti** | Sola lettura | La suite di rapporti su cui viene eseguita la regola di elaborazione. Questa suite di rapporti può essere diversa dalla suite di rapporti inviata originariamente tramite AppMeasurement, ad esempio quando si utilizzano le regole VISTA. |
 | **Versione codice AppMeasurement** | Sola lettura | Versione della libreria AppMeasurement utilizzata per generare la richiesta di immagine. |

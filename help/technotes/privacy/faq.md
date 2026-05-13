@@ -4,10 +4,27 @@ title: Domande frequenti sulla governance dei dati
 feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 2d5348a4a6377313f5aab229214d97a02c826939
+TQID: https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2040'
-ht-degree: 40%
+source-wordcount: 2102
+ht-degree: 36%
 
 ---
 
@@ -57,13 +74,13 @@ Per ulteriori informazioni sulle etichette per la governance dei dati, vedi [Eti
 
 In genere, i clienti di Analytics configurano alcune suite di rapporti di prova per verificare la funzionalità prima che venga rilasciata al pubblico. I siti web o le app di pre-produzione inviano i dati a queste suite di rapporti test/dev/QA per valutare come funzioneranno le cose quando il codice viene rilasciato prima che il traffico reale venga inviato alle suite di rapporti di produzione.
 
-Tuttavia, con una normale configurazione, l’elaborazione delle richieste RGDP non può essere verificata inizialmente su queste suite di rapporti di prova, prima di applicare le richieste alle suite di rapporti di produzione. Questo perché una richiesta di Privacy dei dati viene applicata automaticamente a tutte le suite di rapporti nell’organizzazione Experience Cloud, che spesso sono tutte le suite di rapporti per la tua azienda.
+Tuttavia, con una configurazione normale, l’elaborazione delle richieste RGPD non può essere testata prima su queste suite di rapporti di prova, prima di applicare le richieste alle suite di rapporti di produzione. Questo perché una richiesta di Privacy dei dati viene applicata automaticamente a tutte le suite di rapporti nell’organizzazione Experience Cloud, che spesso sono tutte le suite di rapporti per la tua azienda.
 
 Tuttavia, esistono alcuni modi per verificare l’elaborazione Privacy dei dati prima di applicarla a tutte le suite di rapporti:
 
 * Un’opzione consiste nell’impostare un’organizzazione Experience Cloud diversa che contiene solo suite di rapporti di prova. Quindi si utilizza questa organizzazione Experience Cloud per il test Privacy dei dati e la normale organizzazione Experience Cloud per l’elaborazione effettiva Privacy dei dati.
 
-* Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione. Ad esempio, puoi usare il prefisso “qa-” per ogni namespace nelle suite di rapporti di prova. Quando si inviano richieste di Privacy dei dati con solo namespace con il prefisso qa, queste richieste verranno eseguite solo sulle suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l&#39;approccio consigliato, a meno che non si utilizzino gli spazi dei nomi `visitorId`, AAID, ECID o `customVisitorId`. Questi spazi dei nomi sono codificati e non è possibile specificarne nomi alternativi nelle suite di rapporti di prova.**
+* Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione. Ad esempio, puoi usare il prefisso “qa-” per ogni spazio dei nomi nelle suite di rapporti di prova. Le richieste di Privacy dei dati contenenti solo spazi dei nomi con il prefisso “qa” verranno eseguite solo per le suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l&#39;approccio consigliato, a meno che non si utilizzino gli spazi dei nomi `visitorId`, AAID, ECID o `customVisitorId`. Questi spazi dei nomi sono codificati e non è possibile specificarne nomi alternativi nelle suite di rapporti di prova.**
 
 +++
 
@@ -91,7 +108,7 @@ I criteri di conservazione dei dati correnti di ogni suite di report vengono vis
 
 +++ **Un cliente può ridurre o estendere il periodo di conservazione dei dati predefinito?**
 
-I clienti possono richiedere che i propri dati vengano eliminati prima di 25 mesi chiamando l’Assistenza clienti. Inoltre i clienti possono estendere il periodo di conservazione dei dati oltre i 25 mesi acquistando un’estensione. Sono disponibili proroghe di 1 anno supplementare, fino a un massimo di 8 anni aggiuntivi (10 anni totali). Queste estensioni richiederanno termini di contratto aggiornati e costi aggiuntivi.
+I clienti possono richiedere che i propri dati vengano eliminati prima di 25 mesi chiamando l’Assistenza clienti. I clienti possono inoltre estendere la conservazione dei dati oltre i 25 mesi acquistando un’estensione. Sono disponibili proroghe di 1 anno supplementare, fino a un massimo di 8 anni aggiuntivi (10 anni totali). Queste estensioni richiederanno termini di contratto aggiornati e costi aggiuntivi.
 
 +++
 
@@ -107,7 +124,7 @@ Considera anche i casi in cui i dipendenti hanno scaricato rapporti di Adobe Ana
 
 L&#39;API [Data Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) è stata fornita per aiutarti a soddisfare le richieste relative alla Privacy dei dati, soggette a scadenza. L’utilizzo di questa API per altri scopi non è supportato da Adobe e potrebbe influire sulla capacità di Adobe di fornire tempestivamente richieste di Privacy dei dati avviate dall’utente ad alta priorità per altri clienti Adobe.
 
-Chiediamo all’utente di non utilizzare l’API Privacy dei dati per altri scopi, come la cancellazione dei dati che sono stati accidentalmente inviati in grandi gruppi di visitatori. È inoltre necessario tenere presente che ogni visitatore con un hit eliminato (aggiornato o anonimizzato) a seguito di una richiesta di cancellazione di Privacy dei dati avrà le informazioni sullo stato reimpostate. La prossima volta che il visitatore ritorna sul tuo sito web, sarà un nuovo visitatore. Tutte le attribuzioni eVar ricominceranno, così come informazioni quali numeri di visita, referrer, prima pagina visitata, ecc. Questo effetto collaterale non è opportuno nelle situazioni in cui si desidera cancellare i campi di dati ed evidenzia un motivo per cui l’API Privacy dei dati è inappropriata per questo utilizzo.
+Chiediamo all’utente di non utilizzare l’API Privacy dei dati per altri scopi, come la cancellazione dei dati che sono stati accidentalmente inviati in grandi gruppi di visitatori. È inoltre necessario tenere presente che ogni visitatore con un hit eliminato (aggiornato o anonimizzato) a seguito di una richiesta di cancellazione di Privacy dei dati avrà le informazioni sullo stato reimpostate. La prossima volta che il visitatore ritorna sul tuo sito web, sarà un nuovo visitatore. Tutte le attribuzioni di eVar ricominceranno, così come informazioni quali numeri di visita, referrer, prima pagina visitata, ecc. Questo effetto collaterale non è opportuno nelle situazioni in cui si desidera cancellare i campi di dati ed evidenzia un motivo per cui l’API Privacy dei dati non è appropriata per questo utilizzo.
 
 Contatta il team del tuo account Adobe per coordinarti con il team di consulenza ingegneristico per rivedere ulteriormente e rimuovere eventuali problemi di PII o dati.
 
@@ -117,7 +134,7 @@ Contatta il team del tuo account Adobe per coordinarti con il team di consulenza
 
 L&#39;API [Data Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/) è stata fornita per aiutarti a soddisfare le richieste relative alla Privacy dei dati, soggette a scadenza. L’utilizzo di questa API per altri scopi non è supportato da Adobe e potrebbe influire sulla capacità di Adobe di fornire tempestivamente richieste di Privacy dei dati avviate dall’utente ad alta priorità per altri clienti Adobe. Chiediamo all’utente di non utilizzare l’API Privacy dei dati per altri scopi, come la cancellazione dei dati che sono stati accidentalmente inviati in grandi gruppi di visitatori.
 
-È inoltre necessario tenere presente che ogni visitatore con un hit eliminato (aggiornato o anonimizzato) a seguito di una richiesta di cancellazione di Privacy dei dati avrà le informazioni sullo stato reimpostate. La prossima volta che il visitatore ritorna sul tuo sito web, sarà un nuovo visitatore. Tutte le attribuzioni eVar ricominceranno, così come informazioni quali numeri di visita, referrer, prima pagina visitata, ecc. Questo effetto collaterale non è opportuno nelle situazioni in cui si desidera cancellare i campi di dati ed evidenzia un motivo per cui l’API Privacy dei dati è inappropriata per questo utilizzo.
+È inoltre necessario tenere presente che ogni visitatore con un hit eliminato (aggiornato o anonimizzato) a seguito di una richiesta di cancellazione di Privacy dei dati avrà le informazioni sullo stato reimpostate. La prossima volta che il visitatore ritorna sul tuo sito web, sarà un nuovo visitatore. Tutte le attribuzioni di eVar ricominceranno, così come informazioni quali numeri di visita, referrer, prima pagina visitata, ecc. Questo effetto collaterale non è opportuno nelle situazioni in cui si desidera cancellare i campi di dati ed evidenzia un motivo per cui l’API Privacy dei dati non è appropriata per questo utilizzo.
 
 Contatta il team del tuo account Adobe per coordinarti con il team di consulenza ingegneristico per eseguire un’ulteriore esame e rimuovere eventuali problemi di PII o dati.
 

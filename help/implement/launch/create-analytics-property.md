@@ -4,10 +4,19 @@ description: Crea uno spazio per personalizzare la modalità di raccolta dei dat
 feature: Tags
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/x3NtfziIBWYyzUcbWk6QUjLjgTJBhdmyNl5KqfLXkdg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 11%
+source-wordcount: 492
+ht-degree: 15%
 
 ---
 

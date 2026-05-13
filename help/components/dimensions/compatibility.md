@@ -3,9 +3,29 @@ title: Compatibilità delle dimensioni di Analytics
 description: Riferimento per dimensioni e rapporti di Analytics.
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/WntN8KyUXgQUt8vvoHUZyQfTtEUSS3aPOF6pIDbJynk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
+  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: 905
 ht-degree: 29%
 
 ---
@@ -16,9 +36,9 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 
 >[!NOTE]
 >
->Custom variable names, classifications, and visitor attributes are omitted from this list. These dimension items are specific to individual report suites.
+>I nomi delle variabili, le classificazioni e gli attributi dei visitatori personalizzati vengono omessi da questo elenco. Questi elementi dimensionali sono specifici per le singole suite di rapporti.
 
-## Dimensions supported in Analysis Workspace
+## Dimensioni supportate in Analysis Workspace
 
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |---|---|
@@ -39,7 +59,7 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Giorni precedenti al primo acquisto](days-before-first-purchase.md) | `daysbeforefirstpurchase` |
 | [Giorni dall&#39;ultimo acquisto](days-since-last-purchase.md) | `dayssincelastpurchase` |
 | [Dominio](domain.md) | `filtereddomain` |
-| [Download Link](download-link.md) | `downloadlink` |
+| [Collegamento di download](download-link.md) | `downloadlink` |
 | [Pagina di ingresso](entry-dimensions.md) | `entrypage` |
 | [Pagina di ingresso originale](entry-dimensions.md) | `entrypageoriginal` |
 | [Collegamento di uscita](exit-link.md) | `exitlink` |
@@ -59,7 +79,7 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Tipo di dispositivo mobile](mobile-dimensions.md) | `mobiledevicetype` |
 | [Lunghezza massima e-mail mobile](mobile-dimensions.md) | `mobileemaillength` |
 | [Supporto immagini per dispositivi mobili](mobile-dimensions.md) | `mobileimagesupport` |
-| [Mobile Manufacturer](mobile-dimensions.md) | `mobilemanufacturer` |
+| [Produttore di dispositivi mobili](mobile-dimensions.md) | `mobilemanufacturer` |
 | [Sistema operativo mobile (obsoleto)](mobile-dimensions.md) | `mobileos` |
 | [Altezza schermo mobile](mobile-dimensions.md) | `mobilescreenheight` |
 | [Dimensioni schermo dispositivo mobile](mobile-dimensions.md) | `mobilescreensize` |
@@ -78,7 +98,7 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Aree geografiche](regions.md) | `georegion` |
 | [Restituisci frequenza](return-frequency.md) | `returnfrequency` |
 | SC-TnT | `tntbase` |
-| [Search Engine](search-engine.md) | `searchengine` |
+| [Motore di ricerca](search-engine.md) | `searchengine` |
 | [Parola chiave di ricerca](search-keyword.md) | `searchenginekeyword` |
 | [Motore di ricerca - Naturale](search-engine.md) | `searchenginenatural` |
 | [Motore di ricerca - Pagato](search-engine.md) | `searchenginepaid` |
@@ -98,8 +118,8 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Numero visita](visit-number.md) | `visitnumber` |
 | [Codice postale](zip-code.md) | `zip` |
 | [AM / PM](am-pm.md) | `timepartampm` |
-| [Browser Height - Bucketed](browser-height.md) | `browserheightbucketed` |
-| [Browser Width - Bucketed](browser-width.md) | `browserwidthbucketed` |
+| [Altezza browser - Bucket](browser-height.md) | `browserheightbucketed` |
+| [Larghezza browser - Bucket](browser-width.md) | `browserwidthbucketed` |
 | [Giorno](day.md) | `daterangeday` |
 | [Giorno del mese](day-of-month.md) | `timepartdayofmonth` |
 | [Giorno della settimana](day-of-week.md) | `dayofweek` |
@@ -115,7 +135,7 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Esci da pagina](exit-dimensions.md) | `exitpage` |
 | [Esci dal server](exit-dimensions.md) | `exitserver` |
 | [Esci da sezione sito](exit-dimensions.md) | `exitsitesections` |
-| [Hit Depth](hit-depth.md) | `hitdepth` |
+| [Profondità di hit](hit-depth.md) | `hitdepth` |
 | [Tipo di occorrenza](hit-type.md) | `hittype` |
 | [Ora](hour.md) | `daterangehour` |
 | [Ora del giorno](hour-of-day.md) | `timeparthourofday` |
@@ -137,8 +157,8 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Trimestre](quarter.md) | `daterangequarter` |
 | [Trimestre dell’anno](quarter-of-year.md) | `timepartquarterofyear` |
 | Sondaggio | `surveybase` |
-| [Time Spent on Page - Bucketed](time-spent-on-page.md) | `averagepagetime` |
-| [Time Spent on Page - Granular](time-spent-on-page.md) | `pagetimeseconds` |
+| [Tempo trascorso sulla pagina - Bucket](time-spent-on-page.md) | `averagepagetime` |
+| [Tempo trascorso sulla pagina - Granulare](time-spent-on-page.md) | `pagetimeseconds` |
 | [Tracking del motivo di rinuncia](tracking-opt-out-reason.md) | `optoutreason` |
 | [Giorno feriale / Fine settimana](weekday-weekend.md) | `timepartweekdayweekend` |
 | [Settimana](week.md) | `daterangeweek` |
@@ -163,8 +183,8 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 |--- |--- |
 | [Contenuto](sm-core.md) | `video` |
 | [Segmento di contenuto](sm-core.md) | `videosegment` |
-| [Content Type](sm-core.md) | `videocontenttype` |
-| [Ad Player Name](sm-ads.md) | `videoadplayername` |
+| [Tipo di contenuto](sm-core.md) | `videocontenttype` |
+| [Nome Lettore Annuncio](sm-ads.md) | `videoadplayername` |
 | [Annuncio in posizione pod](sm-ads.md) | `videoadinpod` |
 | [Frame rilasciati](sm-quality.md) | `videoqoedroppedframecountevar` |
 | [Errori](sm-quality.md) | `videoqoeerrorcountevar` |
@@ -180,9 +200,9 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Canale contenuto](sm-core.md) | `videochannel` |
 | [Capitolo](sm-chapters.md) | `videochapter` |
 | [Nome contenuto (variabile)](sm-core.md) | `videoname` |
-| [Content Length (variable)](sm-core.md) | `videolength` |
-| [Ad Name (variable)](sm-ads.md) | `videoadname` |
-| [Ad Length (variable)](sm-ads.md) | `videoadlength` |
+| [Lunghezza contenuto (variabile)](sm-core.md) | `videolength` |
+| [Nome annuncio (variabile)](sm-ads.md) | `videoadname` |
+| [Lunghezza annuncio (variabile)](sm-ads.md) | `videoadlength` |
 | [Mostra](sm-video-metadata.md) | `videoshow` |
 | [Stagione](sm-video-metadata.md) | `videoseason` |
 | [Episodio](sm-video-metadata.md) | `videoepisode` |
@@ -202,9 +222,9 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Esci dal percorso file multimediale](exit-dimensions.md) | `exitvideopath` |
 | [Genere voce](entry-dimensions.md) | `entryvideogenre` |
 | [Esci da genere](exit-dimensions.md) | `exitvideogenre` |
-| [Entry Player SDK Error IDs](entry-dimensions.md) | `entryvideoqoeplayersdkerrors` |
-| [Exit Player SDK Error IDs](exit-dimensions.md) | `exitvideoqoeplayersdkerrors` |
-| [Entry External Error IDs](entry-dimensions.md) | `entryvideoqoeextneralerrors` |
+| [ID errore SDK lettore di ingresso](entry-dimensions.md) | `entryvideoqoeplayersdkerrors` |
+| [ID errore uscita SDK lettore](exit-dimensions.md) | `exitvideoqoeplayersdkerrors` |
+| [ID errore esterni voce](entry-dimensions.md) | `entryvideoqoeextneralerrors` |
 | [Esci da ID errore esterni](exit-dimensions.md) | `exitvideoqoeextneralerrors` |
 
 ### Adobe Social
@@ -245,9 +265,9 @@ Adobe Social è ritirato.
 | [Sistema operativo (SDK)](lifecycle-dimensions.md) | `mobileosenvironment` |
 | [Giorni dall’ultimo aggiornamento](lifecycle-dimensions.md) | `mobiledayssincelastupgrade` |
 | [Avvii dall’ultimo aggiornamento](lifecycle-dimensions.md) | `mobilelaunchessincelastupgrade` |
-| [Device Name (SDK)](lifecycle-dimensions.md) | `mobiledevice` |
-| [Operating System Version (SDK)](lifecycle-dimensions.md) | `mobileosversion` |
-| [Beacon Major](lifecycle-dimensions.md) | `mobilebeaconmajor` |
+| [Nome dispositivo (SDK)](lifecycle-dimensions.md) | `mobiledevice` |
+| [Versione sistema operativo (SDK)](lifecycle-dimensions.md) | `mobileosversion` |
+| [Beacon principale](lifecycle-dimensions.md) | `mobilebeaconmajor` |
 | [Beacon secondario](lifecycle-dimensions.md) | `mobilebeaconminor` |
 | [UUID beacon](lifecycle-dimensions.md) | `mobilebeaconuuid` |
 | [Prossimità beacon](lifecycle-dimensions.md) | `mobilebeaconproximity` |
@@ -296,7 +316,7 @@ Per ulteriori informazioni su come implementare questa integrazione, consulta l&
 | Nielsen - Segmento A | `nielsensegmenta` |
 | ID contenuto Nielsen | `nielsencontentid` |
 | Risorsa/Programma Nielsen | `nielsenasset` |
-| Nielsen - VCID  | `nielsenvcid` |
+| Nielsen - VCID | `nielsenvcid` |
 | Rinuncia Nielsen | `nielsenoptout` |
 | ID client Nielsen + VCID | `nielsenclientidvcid` |
 | ID cliente Nielsen | `nielsenclientid` |
@@ -315,7 +335,7 @@ Per ulteriori informazioni su come implementare questa integrazione, consulta l&
 | Origine risorsa | `aemassetsource` |
 | ID risorsa cliccato | `aemclickedassetid` |
 | ID risorsa di ingresso | `entryaemassetid` |
-| Exit Asset ID | `exitaemassetid` |
+| Esci da ID risorsa | `exitaemassetid` |
 
 ### Adobe Campaign
 

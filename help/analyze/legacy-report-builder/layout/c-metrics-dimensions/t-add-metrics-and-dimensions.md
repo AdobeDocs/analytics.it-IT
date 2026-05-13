@@ -5,10 +5,20 @@ uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 feature: Report Builder
 role: User, Admin
 exl-id: d4e36b69-b5aa-43e5-b394-3b6d93143f15
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/nKf59WLxvtYrcyR-mQ8oM41rUDLl3qpkwbujRDBV27A
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 1%
+source-wordcount: 544
+ht-degree: 2%
 
 ---
 
@@ -37,7 +47,7 @@ Quando aggiungi metriche e dimensioni, considera le seguenti linee guida.
 
 * Quando inserisci un termine di ricerca, l’elenco viene aggiornato automaticamente in modo da visualizzare le metriche con etichette che corrispondono al termine di ricerca.
 * La corrispondenza è senza distinzione tra maiuscole e minuscole ed equivale a una ricerca *contains*.
-* Le ricerche di parole complete e altri flag di ricerca speciali (che iniziano con, terminano con, E, O, ecc.) non sono supportati.
+* Ricerche di parole complete e altri contrassegni di ricerca speciali (inizia con, termina con, E, O, ecc.) non sono supportati.
 
 Il termine di ricerca viene cancellato se si esce dalla Creazione guidata richieste quando si fa clic su [!UICONTROL Finish] o [!UICONTROL Cancel], si torna al Passaggio 1 della Creazione guidata richieste o si modifica la categoria della metrica.
 
@@ -75,7 +85,7 @@ Per ordinare una richiesta per metrica
    * Intervallo di date (quando non è specificata alcuna granularità)
 
 1. Modificare le metriche e le dimensioni configurando [opzioni di formato](/help/analyze/legacy-report-builder/layout/t-format-display-headers.md) e filtri.
-1. Fare clic su **[!UICONTROL Finish]**.
+1. Fai clic su **[!UICONTROL Finish]**.
 Nell&#39;esempio seguente, le dimensioni si riferiscono alla metrica [!UICONTROL Page]. La dimensione [!UICONTROL Referring Domain] crea un rapporto di suddivisione tra [!UICONTROL Page] e [!UICONTROL Referring Domain]. La scheda [!UICONTROL Dimension] viene aggiornata con le sole dimensioni che è possibile aggiungere a un report di suddivisione.
 
    ![Schermata che mostra le dimensioni relative alla metrica.](assets/page_pageview_02.png)

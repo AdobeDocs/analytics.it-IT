@@ -5,9 +5,23 @@ keywords: packet sniffer, stato http, 200, 302, charles
 feature: Implementation Basics
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 role: Admin, Developer, Leader
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+TQID: https://experienceleague.adobe.com/debgxI3FK1fp1Q02GY1-0H40z-L4G2HSmq11Tog97-Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: 676
 ht-degree: 1%
 
 ---
@@ -57,7 +71,7 @@ Quando AppMeasurement invia i dati ai server di raccolta dati di Adobe, questi r
 
 Questo messaggio si verifica perché la richiesta di immagine per il tracciamento dei collegamenti è progettata per consentire al browser di passare alla pagina successiva prima di attendere una risposta dai server di raccolta dati di Adobe.
 
-La risposta di Adobe alla richiesta di immagine è semplicemente un’immagine trasparente 1x1 vuota, che non è pertinente al contenuto della pagina. Adobe Se nel monitor pacchetti viene visualizzata una riga con una risposta di **[!UICONTROL 200 OK]** o di **[!UICONTROL NS_BINDING_ABORTED]**, i dati hanno raggiunto i server di Adobe. Non è più necessario attendere la pagina.
+La risposta di Adobe alla richiesta di immagine è semplicemente un’immagine trasparente 1x1 vuota, che non è pertinente al contenuto della pagina. Se nel monitor pacchetti viene visualizzata una riga con una risposta di **[!UICONTROL 200 OK]** o di **[!UICONTROL NS_BINDING_ABORTED]**, i dati hanno raggiunto i server di Adobe. Non è più necessario attendere la pagina.
 
 I monitor per pacchetti integrati come plug-in raramente ottengono una risposta completa. Tendono a vedere la richiesta interrotta perché la risposta completa non è stata ricevuta. Inoltre, questi monitor raramente distinguono tra la richiesta o la risposta interrotta. In genere, il monitor di un pacchetto indipendente visualizza messaggi più dettagliati e segnala lo stato in modo più preciso. Ad esempio, un utente potrebbe ricevere un messaggio in *Charles* che indica che il client ha chiuso la connessione prima di ricevere l&#39;intera risposta. Ciò significa che i dati hanno effettivamente raggiunto i nostri server, solo che il browser è passato alla pagina successiva prima che il pixel 1x1 venisse ricevuto.
 

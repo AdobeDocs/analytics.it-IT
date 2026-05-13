@@ -1,19 +1,30 @@
 ---
-description: Questo documento descrive cosa fare in Adobe Analytics per supportare i diritti di accesso e cancellazione delle persone interessate in base al RGPD.
+description: Questo documento descrive le operazioni da eseguire in Adobe Analytics per supportare i diritti di accesso ed eliminazione dei dati degli interessati ai sensi del RGPD.
 title: Adobe Analytics e GDPR
 feature: Data Governance
 role: Admin
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/G-3emGJR0FMicoTI8WUlWdM3SSoWjGb7sr6lxqceBdg
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 86%
+source-wordcount: 480
+ht-degree: 66%
 
 ---
 
 # Adobe Analytics e GDPR
 
-Questo documento descrive cosa fare in Adobe Analytics per supportare i diritti di accesso e cancellazione delle persone interessate in base al RGPD.
+Questo documento descrive le operazioni da eseguire in Adobe Analytics per supportare i diritti di accesso ed eliminazione dei dati degli interessati ai sensi del RGPD.
 
 >[!IMPORTANT]
 >
@@ -37,6 +48,6 @@ Acquisisci familiarità con [il modo in cui Adobe Analytics gestisce il GDPR](ht
 
 Poiché Adobe riconosce che l’utente ha più familiarità con i dati personalizzati nelle suite di rapporti, consente all’utente stesso di definire le impostazioni e le preferenze di governance dei dati.
 
-A tal fine, Adobe Analytics fornisce un’interfaccia utente per la governance dei dati che ti consente, in qualità di titolare del trattamento dei dati, di impostare le [etichette sulla privacy](/help/admin/tools/privacy-labeling/labels.md#data-governance-labels), oltre a tutte le dimensioni e le metriche, nelle suite di rapporti di Analytics. Puoi identificare le colonne nel set di dati che contengono i dati direttamente o indirettamente identificabili in modo da poter inviare le richieste di accesso e cancellazione per il trattamento di tali dati. Per ogni richiesta, le etichette definite nell&#39;interfaccia utente per la governance dei dati di Analytics verranno rispettate per l&#39;identificatore specifico che corrisponde a tale richiesta.
+A tal fine, Adobe Analytics fornisce un’interfaccia utente per la governance dei dati che ti consente, in qualità di titolare del trattamento dei dati, di impostare le [etichette sulla privacy](/help/admin/tools/privacy-labeling/labels.md#data-governance-labels), oltre a tutte le dimensioni e le metriche, nelle suite di rapporti di Analytics. È possibile identificare le colonne del set di dati che contengono dati direttamente identificabili o indirettamente identificabili in modo da poter inviare le richieste di accesso ed eliminazione per indirizzare tali dati. Per ogni richiesta, le etichette definite nell’interfaccia utente di Governance dei dati di Analytics saranno rispettate per l’identificatore specifico che corrisponde a tale richiesta.
 
 Per ulteriori informazioni su come impostare le etichette, vedere [Etichettare i dati della suite di rapporti](/help/admin/tools/privacy-labeling/labeling-overview.md).

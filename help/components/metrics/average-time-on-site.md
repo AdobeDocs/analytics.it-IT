@@ -3,9 +3,20 @@ title: Tempo medio sul sito
 description: Il tempo medio in cui un dato elemento della dimensione è esistito tra gli hit.
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: 9e140a6be5ab151d7a4e88e317c59eafea4d6e1d
+TQID: https://experienceleague.adobe.com/X40377agpfFVmmsowK8klOWorntCPOwgU5xpJn0bVQM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: 551
 ht-degree: 2%
 
 ---

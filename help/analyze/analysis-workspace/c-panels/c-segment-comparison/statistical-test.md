@@ -5,10 +5,22 @@ title: Test Statistici Utilizzati Nel Confronto Dei Segmenti
 feature: Segmentation
 role: User, Admin
 exl-id: b1c235ca-2eab-48d2-bf11-e8a8c4067d03
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+TQID: https://experienceleague.adobe.com/49kZ6LC9OMizQvqxE2PCq1LtqhUHtf5iKQUgpgqSmmE
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 44%
+source-wordcount: 444
+ht-degree: 9%
 
 ---
 
@@ -23,12 +35,12 @@ Un punteggio pari a 0 significa che non c’è differenza tra i due segmenti e u
 
 ## Punteggio di differenza delle metriche principali
 
-Nella tabella Metriche principali, lo strumento Confronto segmenti utilizza due esempi di test U Mann-Whitney. Questo test è un test di uguaglianza non parametrico utilizzato per confrontare le distribuzioni di probabilità unidimensionali di ogni metrica per ogni segmento considerato. Il punteggio di differenza nella tabella metriche è rappresentato da una combinazione del valore p ottenuto dalla statistica U calcolata (che rappresenta il modo in cui i due segmenti si distribuiscono in modo stocasticamente diverso in una data metrica) e la grandezza relativa della differenza osservata. Un punteggio di differenza elevato (vicino a 1) significa che una particolare metrica ha una differenza relativa grande e un’elevata affidabilità statistica che i segmenti sono diversi.
+Nella tabella Metriche principali, lo strumento Confronto segmenti utilizza due esempi di test U Mann-Whitney. Questo test è un test di uguaglianza non parametrico utilizzato per confrontare le distribuzioni di probabilità unidimensionali di ogni metrica per ogni segmento considerato. Il punteggio di differenza nella tabella delle metriche è una combinazione del valore p dalla statistica U calcolata (che rappresenta la differenza stocastica tra i due segmenti distribuiti in una particolare metrica) e la grandezza relativa della differenza osservata. Un punteggio di differenza elevato (vicino a 1) significa che una particolare metrica ha una differenza relativa grande e un’elevata affidabilità statistica che i segmenti sono diversi.
 
 ## Punteggi di differenza relativi a elementi di dimensione principali e segmenti principali
 
-Per calcolare il punteggio di differenza sulle tabelle Elementi dimensione principali e Differenza segmento principale, viene impiegato un algoritmo di differenziazione del rischio relativo (simile al rapporto di rischio, anche se si utilizza una differenza e non un rapporto). Una differenza di rischio viene calcolata sottraendo le incidenze cumulative di un elemento della dimensione (o sovrapponendolo con un segmento dalla relativa tabella) di un segmento selezionato dall’altro. Un punteggio di differenza elevato (vicino a 1) significa che il particolare elemento dimensionale o segmento terziario era molto prominente in uno dei segmenti selezionati e non nell’altro.
+Per calcolare il punteggio di differenza nelle tabelle Principali elementi di Dimension e Differenza segmento superiore, viene utilizzato un algoritmo di differenza del rischio relativo (simile al rapporto di rischio, ma utilizzando una differenza anziché un rapporto). Una differenza di rischio viene calcolata sottraendo le incidenze cumulative di un elemento dimensione (o sovrapposizione con un segmento dalla tabella dei segmenti) di un segmento selezionato dall’altro. Un punteggio di differenza elevato (vicino a 1) significa che il particolare elemento dimensionale o segmento terziario era molto prominente in uno dei segmenti selezionati e non nell’altro.
 
 >[!NOTE]
 >
->In tutte e tre le tabelle, la statistica della differenza si basa su un campione appropriato di visitatori per consentire al processo di funzionare nel modo più veloce possibile, mantenendo al tempo stesso l’accuratezza statistica. Mentre il punteggio di differenza si basa su un campione, i risultati mostrati nella tabella non sono sottoposti a campionamento. Per garantire significatività statistica, ciascun test statistico si basa su un algoritmo di assegnazione dinamica, in modo che il segmento più piccolo contenga una dimensione del campione che offre meno del 3% di margine di errore. Se un segmento contiene un numero molto limitato di visitatori (meno di 1.000), per calcolare il punteggio di differenza vengono utilizzati tutti i dati disponibili invece del campione.
+>In tutte e tre le tabelle, la statistica della differenza si basa su un campione appropriato di visitatori per consentire al processo di funzionare nel modo più veloce possibile, mantenendo al tempo stesso l’accuratezza statistica. Anche se il punteggio di differenza si basa su un campione, i risultati presentati nella tabella non vengono campionati. Per garantire la significatività statistica, ogni test statistico si basa su un algoritmo di allocazione dinamica in modo che il segmento più piccolo contenga una dimensione del campione che fornisce un margine di errore inferiore al 3%. Se un segmento contiene un numero molto limitato di visitatori (meno di 1.000), per calcolare il punteggio di differenza vengono utilizzati tutti i dati disponibili invece del campione.

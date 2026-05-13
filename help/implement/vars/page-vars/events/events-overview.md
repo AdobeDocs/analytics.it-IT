@@ -1,17 +1,35 @@
 ---
-title: events
+title: eventi
 description: Imposta la variabile degli eventi, che governa la maggior parte delle metriche sul sito.
 feature: Appmeasurement Implementation
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/ZP2y0-Ip7JFp6DZvB5VW0PgTk7yhTWUocwzkLX2D2RM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 5%
+source-wordcount: 845
+ht-degree: 6%
 
 ---
 
-# events
+# eventi
 
 Dimensioni e metriche sono componenti vitali per i rapporti. La variabile `events` è responsabile della raccolta dei dati di molte metriche sul sito. In genere, gli eventi incrementano [metriche](/help/components/metrics/overview.md) nei rapporti.
 
@@ -44,7 +62,7 @@ Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mappin
 
 Puoi impostare gli eventi sia durante la configurazione dell’estensione Analytics (variabili globali) sia nelle regole.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.

@@ -4,9 +4,19 @@ description: Configura la logica immediatamente prima che un hit venga compilato
 feature: Appmeasurement Implementation
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/T-AyesoP2IMk3J-ftdnR-o48HqTmoRsAYtaIgn9cc1Q
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: 310
 ht-degree: 15%
 
 ---
@@ -24,7 +34,7 @@ Utilizza la variabile `doPlugins` per richiamare il codice del plug-in e imposta
 
 Anziché `doPlugins`, il Web SDK utilizza `onBeforeEventSend` con funzionalità simili.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Passa alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in [!UICONTROL Adobe Experience Platform Web SDK].
 1. In [!UICONTROL Data Collection] fare clic sul pulsante **[!UICONTROL Edit on before event send callback code]**.

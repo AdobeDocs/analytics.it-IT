@@ -4,10 +4,30 @@ description: Elenca tutti i parametri della stringa di query utilizzati nelle ri
 feature: Implementation Basics
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
 role: Admin, Developer, Leader, User
-source-git-commit: 29ab0cc535bd8f74b50428c11756bf8b446a23ab
+TQID: https://experienceleague.adobe.com/aB92GXPxYSkjcDD9wi0vj47jijqndMbOGaECvXs38-Y
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: c069c44e-5426-4c1a-accc-8028662f2fde
+  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 100%
+source-wordcount: 725
+ht-degree: 95%
 
 ---
 
@@ -73,7 +93,7 @@ Nella tabella seguente sono elencati tutti i parametri delle stringhe di query u
 | `server` | [`server`](../vars/page-vars/server.md) | Dimensione [server](/help/components/dimensions/server.md). |
 | `sv` | [`server`](../vars/page-vars/server.md) | Abbreviazione per la stringa di query `server`. |
 | `state` | [`state`](../vars/page-vars/state.md) | Dimensione stato. |
-| `t` | Nessuno | Data/ora generata dell’hit. Utilizza il formato `dd/mm/yyyy hh:mm:ss w o`.<br>- `dd/mm/yyyy hh:mm:ss` è data/ora in JavaScript. Mese `0` è gennaio, mentre mese `11` è dicembre.<br>- `w` è il giorno della settimana. `0` è domenica, mentre `6` è sabato.<br>- `o` è lo scostamento GMT negativo in minuti. Ad esempio: `420` è GMT-7. |
+| `t` | Nessuno | Data/ora generata dell’hit. Utilizza il formato `dd/mm/yyyy hh:mm:ss w o`.<br>-`dd/mm/yyyy hh:mm:ss` è data/ora in JavaScript. Il mese `0` è gennaio, mentre il mese `11` è dicembre.<br>-`w` è il giorno della settimana. `0` è domenica, mentre `6` è sabato.<br>- `o` è l&#39;offset GMT negativo in minuti. Ad esempio: `420` è GMT-7. |
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | La marca temporale personalizzata impostata con l’hit. Generalmente utilizzata per il tracciamento offline. |
 | `v` | Nessuno | Utilizzato nella dimensione [Java abilitato](/help/components/dimensions/java-enabled.md). |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | Dimensione [Codice di tracciamento](/help/components/dimensions/tracking-code.md). |

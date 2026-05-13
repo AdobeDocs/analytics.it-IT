@@ -4,10 +4,26 @@ description: Per i siti di eCommerce, imposta la valuta in cui sono effettuate l
 feature: Appmeasurement Implementation
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/DKHPWh0KRGKXW6QOspE5K0FGBFCrzLYSrTufIt3Xf4g
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 97%
+source-wordcount: 946
+ht-degree: 94%
 
 ---
 
@@ -20,7 +36,7 @@ La conversione della valuta utilizza la seguente logica su ogni hit. Questi pass
 * Se `currencyCode` non è definita, Adobe presuppone che tutti i valori di valuta siano la valuta della suite di rapporti. Consulta le [Impostazioni account generali](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md) nelle Impostazioni della suite di rapporti per visualizzare la valuta della suite di rapporti.
 * Se `currencyCode` è definita e corrisponde alla valuta della suite di rapporti, non viene applicata alcuna conversione di valuta.
 * Se `currencyCode` è definita ed è diversa dalla valuta della suite di rapporti, Adobe applica una conversione della valuta in base al tasso di cambio del giorno corrente. Adobe collabora con [XE](https://xe.com) per convertire la valuta ogni giorno. Tutti i valori memorizzati nella suite di rapporti si trovano nella valuta della suite di rapporti.
-* Se `currencyCode` è impostata su un valore non valido, **l’intero hit viene eliminato causando la perdita di dati.** Assicurati che questa variabile sia definita correttamente ogni volta che viene utilizzata.
+* Se `currencyCode` è impostato su un valore non valido, **l&#39;intero hit viene eliminato causando la perdita di dati.** Assicurati che questa variabile sia definita correttamente ogni volta che viene utilizzata.
 
 Questa variabile non persiste negli hit. Assicurati che questa variabile sia definita in ogni pagina che include entrate o eventi di valuta che non corrispondono alla valuta predefinita della suite di rapporti.
 
@@ -41,7 +57,7 @@ Il codice valuta è mappato alle seguenti variabili:
 
 Il Codice valuta è un campo che si trova sotto il pannello a soffietto [!UICONTROL General] durante la configurazione dell’estensione di Adobe Analytics.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
 1. Espandi il pannello a soffietto [!UICONTROL General], che mostra il campo [!UICONTROL Currency Code].

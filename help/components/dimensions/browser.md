@@ -3,16 +3,32 @@ title: Browser
 description: Nome e versione del browser utilizzato.
 feature: Dimensions
 exl-id: 2bdf2a5a-3482-43fa-b2e1-fbea892918fb
-source-git-commit: 206df584deab5f6f9b8eeb09d9c8ad4983424eea
+TQID: https://experienceleague.adobe.com/J6rDfVwmRZpRLrultdurQkRih2HcPygjcjwO0bkms5E
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 5%
+source-wordcount: 199
+ht-degree: 9%
 
 ---
 
 # Browser
 
-La [!UICONTROL Browser]dimensione[&#x200B; &#39;](overview.md)&#39; riporta il nome e la versione del browser che invia l&#39;hit. Questa dimensione è utile quando desideri misurare i browser più comuni utilizzati dai visitatori. Quando esegui il test di nuove versioni del sito, puoi eseguirli sui browser principali in questa dimensione per massimizzare le attività di controllo della qualità.
+La [dimensione](overview.md) &#39;[!UICONTROL Browser]&#39; riporta il nome e la versione del browser che invia l&#39;hit. Questa dimensione è utile quando desideri misurare i browser più comuni utilizzati dai visitatori. Quando esegui il test di nuove versioni del sito, puoi eseguirli sui browser principali in questa dimensione per massimizzare le attività di controllo della qualità.
 
 ## Popolare questa dimensione con i dati
 

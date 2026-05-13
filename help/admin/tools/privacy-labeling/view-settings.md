@@ -4,10 +4,24 @@ title: Visualizzazione/gestione delle etichette sulla privacy per la governance 
 feature: Data Governance
 role: Admin
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/0muNPJ8HVoX6ro-bqp6I3dWiOrNGSHF9yBy-qRWLhZI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 33%
+source-wordcount: 783
+ht-degree: 24%
 
 ---
 
@@ -17,7 +31,7 @@ La finestra di dialogo **[!UICONTROL Privacy Labeling for Data Governance]** for
 
 ## Visualizza etichette privacy {#view-privacy}
 
-1. Accedi ad Adobe Experience Cloud.
+1. Accedi a Adobe Experience Cloud.
 2. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** > **[!UICONTROL Data Governance]**.
 
    >[!NOTE]
@@ -31,11 +45,11 @@ La finestra di dialogo **[!UICONTROL Privacy Labeling for Data Governance]** for
 | Impostazione | Descrizione |
 | --- | --- |
 | **[!UICONTROL Component Name]** | In questa colonna sono elencati tutti i componenti (dimensioni, metriche) che fanno parte di questa suite di rapporti. |
-| **[!UICONTROL Identity]** | Le etichette &quot;I&quot; dei dati di identità sono utilizzate per categorizzare i dati che possono identificare o contattare una persona specifica. [Ulteriori informazioni](/help/admin/tools/privacy-labeling/labels.md#data-privacy-identity-labels) |
-| **[!UICONTROL Sensitivity]** | Le etichette “S” per i dati sensibili vengono usate per organizzare in categorie i dati sensibili, come i dati geografici. In futuro saranno introdotte etichette aggiuntive per i dati sensibili per identificare altri tipi di informazioni sensibili. [Ulteriori informazioni](/help/admin/tools/privacy-labeling/labels.md#sensitive-data-labels) |
+| **[!UICONTROL Identity]** | Le etichette di identità “I” vengono utilizzate per categorizzare i dati che possono identificare o contattare una persona specifica. [Ulteriori informazioni](/help/admin/tools/privacy-labeling/labels.md#data-privacy-identity-labels) |
+| **[!UICONTROL Sensitivity]** | Le etichette per dati sensibili “S” vengono utilizzate per categorizzare i dati sensibili, come i dati geografici. In futuro saranno introdotte etichette aggiuntive per i dati sensibili per identificare altri tipi di informazioni sensibili. [Ulteriori informazioni](/help/admin/tools/privacy-labeling/labels.md#sensitive-data-labels) |
 | **[!UICONTROL GDPR Access]** | Le etichette per la governance dei dati consentono agli utenti di classificare i dati che riflettono considerazioni relative alla privacy e condizioni contrattuali conformi alle normative e alle politiche aziendali. [Ulteriori informazioni](/help/admin/tools/privacy-labeling/labels.md#data-privacy-access-labels) |
 | **[!UICONTROL GDPR Delete]** | L’etichetta Elimina è necessaria solo per i campi che contengono un valore che consentirebbe l’associazione di un hit all’interessato (ovvero che consentirebbe l’identificazione dell’interessato). [Ulteriori informazioni](/help/admin/tools/privacy-labeling/labels.md#data-privacy-delete-labels) |
-| **[!UICONTROL Namespace]** | Quando si applica un’etichetta ID-DEVICE o ID-PERSON a una variabile, viene richiesto di fornire un namespace. Puoi usare il namespace definito in precedenza o puoi definirne uno nuovo. |
+| **[!UICONTROL Namespace]** | Quando si applica a una variabile un’etichetta ID-DEVICE o ID-PERSON, viene richiesto di fornire uno spazio dei nomi. Puoi utilizzare uno spazio dei nomi definito in precedenza o definirne uno nuovo. |
 | **[!UICONTROL Category]** | Riferisce il tipo di componente, ad esempio Componente standard, Variabile di conversione e così via. |
 
 {style="table-layout:auto"}
@@ -59,14 +73,14 @@ Se desideri applicare le stesse impostazioni di Privacy dei dati a più di una s
 
    Quando copi le etichette per una variabile o per un set di variabili in una suite di rapporti diversa, la copia passa alla variabile nella posizione corrispondente nella suite di rapporti di destinazione. Per i componenti standard, le variabili elenco e gli eventi di successo, le etichette verranno copiate nella variabile con **lo stesso nome** nella suite di rapporti di destinazione.
 
-   Tuttavia, per le variabili di conversione (eVar) e le dimensioni di traffico (prop), la copia viene inviata alla variabile con **lo stesso numero** nella suite di rapporti di destinazione. Ad esempio, eVar12 verrà copiata in eVar12 in tutte le suite di rapporti di destinazione. I nomi di queste variabili verranno ignorati durante la determinazione della destinazione della copia. Se la variabile corrispondente non è abilitata nella suite di rapporti di destinazione, la copia non potrà essere eseguita per tale variabile.
+   Tuttavia, per le variabili di conversione (eVar) e le dimensioni di traffico (prop), la copia viene inviata alla variabile con **lo stesso numero** nella suite di rapporti di destinazione. Ad esempio, eVar12 verrà copiata in eVar12 in tutte le suite di rapporti di destinazione. I nomi di queste variabili verranno ignorati durante la determinazione della destinazione della copia. Se la variabile corrispondente non è abilitata nella suite di rapporti di destinazione, la copia non riuscirà per tale variabile.
 
-   Durante la copia delle etichette per le classificazioni definite per una variabile, le etichette verranno copiate in una classificazione nella variabile corrispondente nella suite di rapporti di destinazione (ad esempio da eVar7 a eVar7) che ha un nome identico alla classificazione da copiare. Altrimenti, la copia delle etichette della classificazione non verrà eseguita.
+   Durante la copia delle etichette per le classificazioni definite per una variabile, le etichette verranno copiate in una classificazione nella variabile corrispondente nella suite di rapporti di destinazione (ad esempio da eVar7 a eVar7) che ha un nome identico alla classificazione da copiare. In caso contrario, la copia delle etichette di tale classificazione avrà esito negativo.
 
 1. Seleziona la casella accanto a una o più suite di rapporti in cui le impostazioni corrispondono.
 1. Fai clic su **[!UICONTROL Apply]**.
 
-   Dopo l&#39;applicazione di un&#39;etichetta viene visualizzato un messaggio di stato. Il messaggio di stato includerà i nomi delle variabili o delle classificazioni di destinazione e le relative suite di rapporti per cui la copia non è riuscita.
+   Dopo l&#39;applicazione di un&#39;etichetta viene visualizzato un messaggio di stato. Il messaggio di stato includerà i nomi di tutte le variabili o classificazioni di destinazione e delle relative suite di rapporti per le quali la copia non è riuscita.
 
    >[!IMPORTANT]
    >
@@ -74,7 +88,7 @@ Se desideri applicare le stesse impostazioni di Privacy dei dati a più di una s
 
 ## Esporta in un file .csv {#export-csv}
 
-Puoi scaricare un file CSV contenente tutte le definizioni delle etichette correnti per tutte le variabili per le suite di rapporti selezionate. Consigliamo al team legale di esaminare le scelte di etichettatura; questa opzione facilita la revisione. Invece di dover eseguire la revisione quando sei autenticato nell’interfaccia utente della governance dei dati, puoi condividere il file .CSV.
+Puoi scaricare un file CSV contenente tutte le definizioni delle etichette correnti per tutte le variabili per le suite di rapporti selezionate. Consigliamo al team legale di esaminare le scelte di etichettatura; questa opzione facilita la revisione. Invece di eseguire la revisione durante l’accesso all’interfaccia utente di governance dei dati, puoi condividere con loro il file .CSV.
 
 1. Fai clic su **[!UICONTROL Export CSV]** in alto a destra per visualizzare questa finestra di dialogo:
 

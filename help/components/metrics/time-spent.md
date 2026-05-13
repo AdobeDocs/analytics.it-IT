@@ -3,10 +3,23 @@ title: Calcolo del tempo trascorso in Adobe Analytics
 description: Una pagina aggregata di dimensioni e metriche relative al tempo trascorso.
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
-source-git-commit: 03502f42473791bec930cc688c0b7905acf12de6
+TQID: https://experienceleague.adobe.com/kooM00bX8ASPWbIIf7wOO-rwcFEqxGt7DefLea5BC6E
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 11%
+source-wordcount: 1536
+ht-degree: 14%
 
 ---
 
@@ -24,7 +37,7 @@ Varie [!UICONTROL 'time spent'] [metriche](overview.md) e dimensioni sono offert
 | [!UICONTROL Time Spent/User (State)] | Circa *Totale secondi trascorsi in app mobili/visitatori univoci in app mobili*<br> Rappresenta il tempo medio di interazione dei visitatori di un&#39;app mobile con uno specifico elemento di dimensione nell&#39;arco della vita del visitatore (durata del cookie). **Nota**: questa metrica non può essere calcolata in modo indipendente perché il denominatore di questa funzione è una metrica interna. | Analysis Workspace |
 | [[!UICONTROL Average time spent on site] (secondi)](average-time-on-site.md) | Rappresenta il tempo totale in cui i visitatori interagiscono con un elemento dimensione specifico, per sequenza con un elemento dimensione. Non è limitato solo alle medie &quot;del sito&quot;, come suggerisce il nome. Per ulteriori informazioni sulle sequenze, consulta la sezione &quot;Modalità di calcolo del tempo trascorso&quot;.<br>**Nota**: è molto probabile che questa metrica differisca da &quot;Tempo trascorso per visita&quot; a livello di elemento dimensione a causa delle differenze nel denominatore nel calcolo. | Analysis Workspace, Report Builder (in minuti) |
 | [[!UICONTROL Average time on site]](average-time-on-site.md) | Questa è la stessa metrica di *Tempo medio trascorso sul sito (secondi)*, ad eccezione del formato Tempo (`hh:mm:ss`) | Analysis Workspace |
-| [!UICONTROL Average time spent on page] | Metrica obsoleta.<br> Adobe consiglia invece di utilizzare [[!UICONTROL Average time spent on site]](average-time-on-site.md) se è necessario il tempo medio per un elemento della dimensione. | Report Builder (quando una dimensione è nella richiesta) |
+| [!UICONTROL Average time spent on page] | Metrica obsoleta.<br> Al contrario, Adobe consiglia di utilizzare [[!UICONTROL Average time spent on site]](average-time-on-site.md) se è necessario il tempo medio per un elemento della dimensione. | Report Builder (quando una dimensione è nella richiesta) |
 
 ## Dimensioni &quot;Tempo trascorso&quot;
 
@@ -140,7 +153,7 @@ In base alla tabella precedente, le metriche tempo trascorso vengono calcolate c
 | C | 0 | 0 | 0 | 0 | 0 |
 | Ora non attribuita | 100 | - | - | - | - |
 
-| eVar1 | Totale secondi trascorsi | Tempo trascorso per visita | Tempo trascorso per visitatore | Numero di sequenze | Tempo medio trascorso sul sito |
+| EVAR1 | Totale secondi trascorsi | Tempo trascorso per visita | Tempo trascorso per visitatore | Numero di sequenze | Tempo medio trascorso sul sito |
 |---|---|---|---|---|---|
 | Rosso | 30+50=80 | 80/1=80 | 80/1=80 | 1 | 80/1=80 |
 | Blu | 10+40+60=110 | 110/1=110 | 110/1=110 | 1 | 110/1=110 |

@@ -4,9 +4,15 @@ title: Creare e gestire i modelli
 feature: Analysis Workspace
 role: User, Admin
 exl-id: 905aa2eb-1963-4227-b18c-33e3a4c66111
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/0wxutWLa734asQ1xXyzJQnWH7xTmmDSVyQcx8-4E1r0
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: 669
 ht-degree: 96%
 
 ---
@@ -45,7 +51,7 @@ Per informazioni su come gli utenti possono creare un progetto basato su un mode
 
 Gli amministratori possono modificare o eliminare i modelli aziendali.
 
-1. In Analysis Workspace, seleziona la scheda [!UICONTROL **Workspace**], quindi seleziona **[!UICONTROL _login_company_name _modelli]**.
+1. In Analysis Workspace, seleziona la scheda [!UICONTROL **Workspace**], quindi seleziona **[!UICONTROL _login _company_name_ modelli]**.
 
 1. Se visualizzi i modelli in una vista a colonne ![icona vista a colonne](assets/column-view-icon.png):
 
@@ -63,7 +69,7 @@ Gli amministratori possono modificare o eliminare i modelli aziendali.
 
    1. Individua il modello che desideri modificare o eliminare.
 
-      ![Vista a schede dei modelli aziendali](assets/company-template-cards.png)
+      ![Vista a schede modello aziendale](assets/company-template-cards.png)
 
    1. Seleziona l’icona Altro, quindi seleziona **[!UICONTROL Edit]** o **[!UICONTROL Delete]**.
 

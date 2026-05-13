@@ -1,11 +1,27 @@
 ---
 title: Importare metriche di ricerca a pagamento
-description: Passaggi per configurare Adobe Analytics per tenere traccia delle metriche di ricerca a pagamento (ad esempio, Google Ads, Microsoft Advertising, ecc.) tramite Origini dati.
+description: Passaggi per configurare Adobe Analytics per tenere traccia delle metriche di ricerca a pagamento (ad esempio, Google Ads, Microsoft Advertising, ecc.) utilizzo di Origini dati.
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
 feature: Data Sources
-source-git-commit: 665319bdfc4c1599292c2e7aea45622d77a291a7
+TQID: https://experienceleague.adobe.com/QGwbmxtBYd0zgg5Zum-ErovDVJK2-wQnrXfqJztLjrA
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: 1109
 ht-degree: 3%
 
 ---
@@ -58,7 +74,7 @@ Dovresti ricevere un messaggio che informa che i tuoi salvataggi sono stati appr
    ![Origini dati](assets/data-sources.png)
 
 1. Sotto **[!UICONTROL Select Type]**, seleziona **[!UICONTROL Generic Pay-Per-Click Service]**.
-1. Fare clic su **[!UICONTROL Activate]**.
+1. Fai clic su **[!UICONTROL Activate]**.
 [!UICONTROL Data Source Activation Wizard] visualizza:
 
    ![Attivazione guidata](assets/ds-activation-wizard.png)
@@ -99,10 +115,10 @@ Assicurati che l’esportazione includa i seguenti campi: data, URL di destinazi
 1. In Microsoft Excel eliminare tutte le colonne diverse da quelle sopra indicate.
 1. Elimina eventuali righe in eccesso nella parte superiore.
 1. Per isolare i codici di tracciamento dagli URL di destinazione:
-a. Copiare e incollare dati da tutte le colonne.
-b. Fare clic su **[!UICONTROL Data > Text to Columns]**.
+a. Copia e incolla dati da tutte le colonne.
+b. Fai clic su **[!UICONTROL Data > Text to Columns]**.
 c. Nel passaggio 1 della procedura guidata, assicurarsi che **[!UICONTROL Delimited]** sia selezionato e fare clic su **[!UICONTROL Next]**.
-d. Nel passaggio 2 della procedura guidata, specifica il delimitatore a seconda di come hai creato i tuoi URL (? o &amp;) e fare clic su **[!UICONTROL Next]**.
+d. Nel passaggio 2 della procedura guidata, specifica il delimitatore a seconda di come hai creato gli URL (? o &amp;) e fare clic su **[!UICONTROL Next]**.
 e. Nel passaggio 3 della procedura guidata, visualizza l’anteprima dei dati e assicurati che una delle colonne sia &quot;trackingcodename=trackingcode&quot;. Se disponi di variabili aggiuntive, ripeti questi passaggi (utilizzando &amp; come delimitatore).
 f. Elimina tutte le colonne ad eccezione dei codici di tracciamento, delle impression, dei clic e dei costi. Aggiungi una nuova colonna denominata Data e organizza le colonne nel seguente ordine: Data :: Codice di tracciamento :: Impression :: Clic :: Costo.
 1. Aggiungi questi dati al modello scaricato nella sezione &quot;Imposta origini dati&quot; di cui sopra.
@@ -123,7 +139,7 @@ Ad esempio, puoi aggiungere queste [metriche calcolate](/help/components/calcula
 | Nome | Formula | Tipi di metriche | Descrizione |
 | --- | --- | --- | --- |
 | Visualizzazioni pagina per visita | Visualizzazioni/visite pagina | Numerici | Se applicato a livello di sito: mostra il numero medio di pagine per visita. Quando applicato nel rapporto Pagine più popolari: mostra il numero medio di volte in cui una pagina specifica è stata visualizzata per visita. |
-| Valore ordine medio | Ricavi/Ordini | Valuta | Mostra i ricavi medi per ordine. |
+| Valore medio ordine | Ricavi/Ordini | Valuta | Mostra i ricavi medi per ordine. |
 | Ricavo per visita | Ricavo/visita | Valuta | Mostra il reddito medio per visita. |
 | Percentuale di click-through (CTR) | Clic/impressioni | Numerici | Misura il rapporto tra clic e impression di un annuncio online o di una campagna di marketing via e-mail. |
 | Profitto | Ricavi - Costo | Valuta | Mostra i ricavi di una campagna meno il costo. |

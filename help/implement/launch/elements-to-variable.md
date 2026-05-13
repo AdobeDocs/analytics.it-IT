@@ -4,13 +4,23 @@ description: Assegna elementi dati alle variabili di Analytics in modo da poterl
 feature: Tags
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 role: Admin, Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/-eif71BEIQnPRQWSaXK5Wb5WL0rTROwRDDxzbUNL98I
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 13%
+source-wordcount: 436
+ht-degree: 15%
 
 ---
-
 
 # Mappare gli elementi dati dei tag alle variabili Analytics
 
@@ -30,7 +40,7 @@ La pubblicazione di una libreria di tag dopo aver seguito questi passaggi consen
 
 Le variabili globali sono ideali nei casi in cui desideri impostare i valori delle variabili su tutte le pagine in cui esiste l’elemento dati.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Fai clic su [!UICONTROL Extensions tab], quindi su [!UICONTROL Configure] sotto l&#39;estensione Adobe Analytics.
 1. Fai clic sul pannello a soffietto [!UICONTROL Global variables], che mostra l&#39;interfaccia per assegnare le variabili globali.
@@ -39,7 +49,7 @@ Le variabili globali sono ideali nei casi in cui desideri impostare i valori del
 
 Le variabili impostate nelle regole sono ideali nei casi in cui non si desideri impostare le variabili su ogni pagina. Definisci i criteri nella regola. Vedi [Regole](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html?lang=it) nella documentazione dei tag di Adobe Experience Platform.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Fai clic sulla proprietà del tag desiderata.
 1. Fai clic sulla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o creane una).
 1. Fare clic sul pulsante [!UICONTROL Add] in [!UICONTROL Actions].

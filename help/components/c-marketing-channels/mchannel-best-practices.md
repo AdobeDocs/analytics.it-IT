@@ -3,10 +3,23 @@ title: Best practice per l’implementazione dei canali di marketing Adobe Analy
 description: Le best practice per l’utilizzo dei canali di marketing sono state aggiornate con informazioni sulla funzione Attribuzione e su Customer Journey Analytics
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: ac1f85ade5b47a95329e23c740c4794a9406de02
+TQID: https://experienceleague.adobe.com/mKq-l0nm-MFJjcvWoIwUfQ2QM-dYD6VlcfH-CszsUv8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 81%
+source-wordcount: 669
+ht-degree: 78%
 
 ---
 
@@ -27,7 +40,7 @@ Per ottimizzare l’analisi del canale di marketing, è preferibile utilizzare l
 ![](assets/attribution.png)
 
 * La configurazione delle dimensioni Canale di marketing e Dettagli canale di marketing stabilisce i punti di contatto da valutare, corrispondenti a ogni istanza del canale di marketing.
-* Per l’analisi delle metriche, la tua organizzazione deve allinearsi a uno o più modelli di attribuzione. Salva le metriche personalizzate con questo modello per riutilizzarle facilmente.
+* Per l’analisi delle metriche, l’organizzazione deve allinearsi a uno o più modelli di attribuzione. Salva le metriche personalizzate con questo modello per un facile riutilizzo.
 * Per impostazione predefinita, i dati vengono assegnati utilizzando Ultimo contatto e l’impostazione Periodo di coinvolgimento del visitatore. I modelli di metriche di attribuzione offrono un maggiore controllo sulle finestre di lookback e una maggiore varietà, tra cui l’[attribuzione algoritmica](/help/analyze/analysis-workspace/attribution/algorithmic.md#analysis-workspace).
 
 ## Best practice n. 2: nessuna definizione dei canali Diretto e Aggiornamento sessione

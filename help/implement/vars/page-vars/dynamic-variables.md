@@ -4,9 +4,19 @@ description: Copia le variabili senza aumentare la lunghezza della richiesta del
 feature: Appmeasurement Implementation
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/zhUMapnVeA3UShaCE3zLx39leeKYFti2RFBD1vqOlK4
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: 426
 ht-degree: 15%
 
 ---
@@ -39,7 +49,7 @@ Utilizza la mappatura dello stream di dati per inviare dati a più variabili di 
 
 Puoi utilizzare le variabili dinamiche in qualsiasi campo dimensione che accetta una stringa. Gli elementi Dimension vengono in genere impostati durante la configurazione dell’estensione Analytics (variabili globali) o nelle regole.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Rules], quindi fai clic sulla regola desiderata (o crea una regola).
 4. Nella sezione [!UICONTROL Actions], fai clic su un’azione [!UICONTROL Adobe Analytics - Set Variables] esistente o fai clic sull’icona “+”.

@@ -4,10 +4,27 @@ keywords: privacy
 title: Panoramica sulla privacy
 feature: Data Governance
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 98%
+source-wordcount: 1004
+ht-degree: 88%
 
 ---
 
@@ -17,9 +34,9 @@ Adobe desidera abilitare l’organizzazione in modo che possa conformarsi alle l
 
 Adobe consiglia vivamente di attenersi ai seguenti concetti generali:
 
-* **Se raccogli dati personali, accertati di rispettare le leggi e le normative sulla privacy.** Le variabili personalizzate ti consentono di raccogliere praticamente tutto ciò a cui puoi accedere; tuttavia, devi anche considerare l’informativa sulla privacy della tua organizzazione e le leggi applicabili.
-* **Fornisci alla clientela informazioni sulla privacy della tua organizzazione facili da trovare e da comprendere.** Informazioni utili includono collegamenti di rinuncia, come vengono utilizzati i dati di navigazione e come utilizzi e prevedi di utilizzare i servizi di Adobe.
-* **Tieni in considerazione le leggi locali e internazionali che si applicano al tuo caso.** Se la tua organizzazione opera a livello globale, possono essere applicate alcune leggi internazionali.
+* **Se raccogli dati personali, assicurati di rispettare le leggi e le normative sulla privacy.** Le variabili personalizzate ti consentono di raccogliere praticamente tutto ciò a cui puoi accedere; tuttavia, devi anche considerare l’informativa sulla privacy della tua organizzazione e le leggi applicabili.
+* **Fornisci ai clienti informazioni sulla privacy facili da trovare e da comprendere per la tua organizzazione.** Informazioni utili includono collegamenti di rinuncia, come vengono utilizzati i dati di navigazione e come utilizzi o prevedi di utilizzare i servizi di Adobe.
+* **Presta attenzione alle leggi locali e alle leggi internazionali applicabili.** Se la tua organizzazione opera su scala globale, possono essere applicate alcune leggi internazionali.
 
 ## Raggruppamento della raccolta dati
 

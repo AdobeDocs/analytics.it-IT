@@ -3,16 +3,31 @@ title: Aree geografiche
 description: L’area geografica del visitatore.
 feature: Dimensions
 exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+TQID: https://experienceleague.adobe.com/Yjy-VGZ0alwfMR408QClnOEIB2z-rfgH5XCn9K0bE1A
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 5%
+source-wordcount: 382
+ht-degree: 11%
 
 ---
 
 # Aree geografiche
 
-La [dimensione](overview.md) &quot;Aree geografiche&quot; segnala l&#39;area geografica del visitatore. Si tratta di un&#39;area geografica più piccola di un paese ma più grande di una città. In alcuni Paesi, un’area geografica è uno stato, una provincia o una prefettura. In altre aree, è un paese costituente, un dipartimento o una regione metropolitana. L&#39;utilizzo di questa dimensione è utile se desideri che insight sia più granulare di [Paesi](countries.md) ma non granulare come [Città](cities.md).
+La [dimensione](overview.md) &quot;Aree geografiche&quot; segnala l&#39;area geografica del visitatore. Si tratta di un&#39;area geografica più piccola di un paese ma più grande di una città. In alcuni Paesi, un’area geografica è uno stato, una provincia o una prefettura. In altre aree, è un Paese costituente, un dipartimento o un’area metropolitana. L&#39;utilizzo di questa dimensione è utile se desideri che insight sia più granulare di [Paesi](countries.md) ma non granulare come [Città](cities.md).
 
 ## Popolare questa dimensione con i dati
 

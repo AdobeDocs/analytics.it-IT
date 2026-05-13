@@ -3,9 +3,20 @@ title: Differenze di elaborazione e architettura tra le piattaforme Analytics
 description: Scopri come alcuni dati vengono raccolti e visualizzati in modo diverso tra piattaforme quali Adobe Analytics e Google Analytics.
 feature: Third-party Integration
 exl-id: 3e457915-3c2d-49f7-9b77-df18c04d49cd
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+TQID: https://experienceleague.adobe.com/pL36oKany2sKuJrEn4-oIja3O91PZ47YQGoNvhdt6y8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: 480
 ht-degree: 0%
 
 ---

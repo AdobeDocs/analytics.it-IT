@@ -3,9 +3,19 @@ title: Gestire i set di classificazione
 description: Gestisci i set di classificazione in Adobe Analytics.
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
 feature: Classifications
-source-git-commit: eb12185be8d6e2e6dc15df9da17ce34b5f6b9c80
+TQID: https://experienceleague.adobe.com/qSpr-B-e-VdROnw3ngLDcoWqsLgiUDz7GRniffxOM2c
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2:
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: 572
 ht-degree: 3%
 
 ---
@@ -67,7 +77,7 @@ Quando selezioni uno o più set di classificazione nell&#39;elenco dei set di cl
 | ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Edit]** | [Modifica il set di classificazione](create-set.md#edit-a-classification-set) nel generatore di set di classificazione. |
 | ![Rinomina](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Rinomina un set di classificazione.<br/>Nella finestra di dialogo **[!UICONTROL Rename: _set di classificazione_]** immettere un nuovo nome e selezionare **[!UICONTROL Rename]**. |
 | ![Unione](/help/assets/icons/Merge.svg) | **[!UICONTROL Consolidate]** | [Consolidare i set di classificazione](/help/components/classifications/sets/consolidations/manage.md). |
-| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina un set di classificazione.<br/>Il **[!UICONTROL Delete _set di classificazione _?Viene visualizzata la finestra di dialogo]**. L’eliminazione di un set di classificazione non può essere annullata. Tutti i progetti o i consolidamenti programmati che utilizzano questa serie di classificazione continuano a utilizzare la definizione di questa serie di classificazione fino a quando non vengono salvati nuovamente i progetti programmati o non vengono convalidati nuovamente i consolidamenti programmati. Selezionare **[!UICONTROL Delete]**&#x200B;per eliminare il set di classificazione. |
+| ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Elimina un set di classificazione.<br/>Il **[!UICONTROL Delete _set di classificazione _?]**&#x200B;viene visualizzata. L’eliminazione di un set di classificazione non può essere annullata. Tutti i progetti o i consolidamenti programmati che utilizzano questa serie di classificazione continuano a utilizzare la definizione di questa serie di classificazione fino a quando non vengono salvati nuovamente i progetti programmati o non vengono convalidati nuovamente i consolidamenti programmati. Selezionare **[!UICONTROL Delete]**&#x200B;per eliminare il set di classificazione. |
 | ![Etichetta](/help/assets/icons/Label.svg) | **[!UICONTROL Tag]** | Assegna tag al set di classificazione.<br/>Nella finestra di dialogo **[!UICONTROL Tag: _set di classificazione_]**, seleziona uno o più tag dal menu a discesa **[!UICONTROL Tags]** per aggiungere i tag. Oppure immetti uno o più nuovi tag. Utilizza ![CrossSize100](/help/assets/icons/CrossSize100.svg) per rimuovere un tag. <br/>Selezionare **[!UICONTROL Save]** per salvare i tag. |
 
 

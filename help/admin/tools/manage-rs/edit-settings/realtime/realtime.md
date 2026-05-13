@@ -3,10 +3,24 @@ description: Visualizza il traffico della pagina web e classifica le visualizzaz
 title: Rapporti in tempo reale
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/SqFAddRYrXCrQyB-LjgsaLWoEQXMLc7hkdgcAcgUdsM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 16%
+source-wordcount: 606
+ht-degree: 0%
 
 ---
 
@@ -50,11 +64,11 @@ L&#39;impostazione e la visualizzazione di rapporti in tempo reale è riservata 
 
 ## Latenza dei dati come risultato della configurazione A4T {#latency}
 
-Dopo che l’integrazione A4T è abilitata in Adobe Target, si verificherà una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento della latenza consente la memorizzazione dei dati da Analytics e Target nello stesso hit, con conseguente possibilità di suddividere i test per pagina e sezione del sito.
+Dopo che l’integrazione A4T è abilitata in Adobe Target, si verificherà una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento di latenza consente di memorizzare i dati di Analytics e Target sullo stesso hit, e di suddividere i test per pagina e sezione del sito.
 
-Questo aumento si riflette in tutti i servizi e gli strumenti di Adobe Analytics, compresi lo streaming live e il reporting in tempo reale e si applica nei seguenti scenari:
+Questo aumento si riflette in tutti i servizi e gli strumenti di Adobe Analytics, compresi il flusso live e il reporting in tempo reale, e si applica nei seguenti scenari:
 
-* Per lo streaming live, i rapporti in tempo reale e le richieste API e per i dati correnti per le variabili di traffico, vengono ritardati solo gli insiemi con ID di dati supplementari.
-* Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit sono ritardati di altri 5-7 minuti.
+* Per il flusso live, i rapporti in tempo reale e le richieste API e i dati correnti per le variabili di traffico, vengono ritardati solo gli hit con un ID dati supplementare.
+* Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit subiscono un ritardo di ulteriori 5-7 minuti.
 
 Tieni presente che l’aumento della latenza inizia dopo l’implementazione del servizio Identity, anche se non hai implementato completamente questa integrazione.

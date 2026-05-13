@@ -3,9 +3,22 @@ description: Scopri perché non tutti i segmenti creati nel Generatore di segmen
 title: Compatibilità dei segmenti con Data Warehouse
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-source-git-commit: 35f2812c1a1a4eed090e04d67014fcebf88a80ec
+TQID: https://experienceleague.adobe.com/7CrArNYD-8ZXVpfO86d1l42ySkTuv8V04PWJFeNWx3s
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
+  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: 345
 ht-degree: 74%
 
 ---
@@ -35,7 +48,7 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
   </tr> 
   <tr> 
    <td> <b>AND e OR possono essere combinati senza limiti</b> </td> 
-   <td> Supportato </td> 
+   <td> Supportati </td> 
    <td> Alcune limitazioni. Vedi le *note* sotto la tabella. </td> 
   </tr> 
   <tr> 
@@ -88,7 +101,7 @@ Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con [!DN
   </tr> 
   <tr> 
    <td> <b>Stacking dei segmenti</b> </td> 
-   <td> Supportato </td> 
+   <td> Supportati </td> 
    <td> Supportato </td> 
   </tr>
   <tr>

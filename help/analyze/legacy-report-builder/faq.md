@@ -4,9 +4,25 @@ title: Domande frequenti su Report Builder
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/vFQWGX3ojl070mQIg7GXhY87kxC-7d0dlYl-0rFU9Uk
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: 471
 ht-degree: 100%
 
 ---
@@ -33,7 +49,7 @@ Report Builder supporta le cartelle di lavoro entro i seguenti limiti:
 
 * **1000 richieste**: una singola cartella di lavoro può contenere fino a 1000 richieste di dati. In presenza di rapporti o progetti che richiedono più di 1000 richieste, Adobe consiglia di separarli in più cartelle di lavoro.
 * **20.000 richieste all’ora per azienda**: Report Builder utilizza l’API di reporting di Analytics per recuperare i dati. Ogni singola richiesta utilizza una chiamata API ogni volta che viene creata o aggiornata. Se l’organizzazione accumula più di 20.000 chiamate API in una determinata ora, devi aspettare l’ora successiva per recuperare nuovamente i dati.
-* **Tempo di elaborazione di 4 ore**: i rapporti pianificati scadono dopo l’elaborazione per più di 4 ore. Se la cartella di lavoro contiene molte richieste complesse che utilizzano set di dati di grandi dimensioni, il rapporto pianificato potrebbe non riuscire.
+* **Tempo di elaborazione di 4 ore**: i rapporti pianificati vengono interrotti per timeout se l’elaborazione supera le 4 ore. Se la cartella di lavoro contiene molte richieste complesse che utilizzano set di dati di grandi dimensioni, il rapporto pianificato potrebbe non riuscire.
 
 ## Come è possibile sapere se ho accesso a Report Builder? {#access}
 

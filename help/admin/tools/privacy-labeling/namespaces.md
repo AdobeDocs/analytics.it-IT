@@ -1,27 +1,39 @@
 ---
-description: A ciascun ID che si desidera cercare viene assegnato uno spazio dei nomi, o namespace, ovvero una stringa personalizzata che identifica l’ID in qualsiasi variabile in cui esso viene usato per tutte le suite di rapporti.
-title: Namespace
+description: A ogni ID che desideri poter cercare viene assegnato uno spazio dei nomi, una stringa personalizzata che identifica l’ID in qualsiasi variabile in cui viene utilizzato in tutte le suite di rapporti.
+title: Spazi dei nomi
 feature: Data Governance
 role: Admin
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/f9Pqs889VWpF4jyxX2GDBVdLyrDqWpHAkcHmDUizoGQ
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 88%
+source-wordcount: 942
+ht-degree: 56%
 
 ---
 
-# Namespace
+# Spazi dei nomi
 
-A ciascun ID che si desidera cercare viene assegnato uno spazio dei nomi, o namespace, ovvero una stringa personalizzata che identifica l’ID in qualsiasi variabile in cui esso viene usato per tutte le suite di rapporti.
+A ogni ID che desideri poter cercare viene assegnato uno spazio dei nomi, una stringa personalizzata che identifica l’ID in qualsiasi variabile in cui viene utilizzato in tutte le suite di rapporti.
 
-La stringa namespace viene usata per identificare i campi in cui si desidera eseguire le ricerche quando si fornisce un ID come parte di una richiesta di Privacy dei dati. Quando una richiesta di Privacy dei dati viene inviata, la richiesta includerà una sezione JSON che specifica gli ID dell’interessato da utilizzare per la richiesta. È possibile includere più ID come parte di una singola richiesta per un interessato. La sezione JSON include:
+La stringa dello spazio dei nomi viene usata per identificare i campi in cui si desidera eseguire le ricerche quando si fornisce un ID come parte di una richiesta di Privacy dei dati. Quando una richiesta di Privacy dei dati viene inviata, la richiesta includerà una sezione JSON che specifica gli ID dell’interessato da utilizzare per la richiesta. È possibile includere più ID come parte di una singola richiesta per un interessato. Il JSON include:
 
-* Un campo “namespace” contenente la stringa namespace.
-* Un campo “type” che per la maggior parte delle richieste di Adobe Analytics contiene il valore “analytics”.
-* Un campo “value” contenente l’ID che Analytics deve cercare nelle variabili namespace associate di ciascuna suite di rapporti.
+* Campo &quot;namespace&quot; contenente la stringa namespace.
+* Un campo &quot;type&quot; che per la maggior parte delle richieste di Adobe Analytics contiene il valore &quot;analytics&quot;.
+* Un campo &quot;value&quot; contenente l’ID che Analytics deve cercare nelle variabili dello spazio dei nomi associate da ciascuna suite di rapporti.
 
-Per ulteriori informazioni e per un [elenco degli spazi dei nomi di identità standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it), consulta la [documentazione API Privacy dei dati per Experience Cloud](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix#standard-namespaces). Vedi [Creare un processo di accesso/eliminazione](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/privacy-jobs#access-delete) per una richiesta di esempio.
+Per ulteriori informazioni e per un [elenco degli spazi dei nomi di identità standard](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix#standard-namespaces), consulta la [documentazione API Privacy dei dati per Experience Cloud](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it). Vedi [Creare un processo di accesso/eliminazione](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/privacy-jobs#access-delete) per una richiesta di esempio.
 
 ## ID cookie
 
@@ -35,7 +47,7 @@ Cookie di monitoraggio Analytics Legacy, noto anche come ID Adobe Analytics (AAI
 }
 ```
 
-Questo valore deve essere specificato come due numeri esadecimali separati da un trattino. Tutte le cifre esadecimali che sono caratteri alfabetici devono essere specificate con caratteri maiuscoli. I valori esadecimali non dovrebbero avere zeri iniziali (notare la differenza rispetto allo stesso valore specificato nella forma obsoleta, dove sono richiesti gli zeri iniziali).
+Il valore deve essere specificato come due numeri esadecimali separati da un trattino. Tutte le cifre esadecimali che sono caratteri alfabetici devono essere specificate utilizzando lettere maiuscole. I valori esadecimali non devono avere zeri iniziali (si noti la differenza rispetto allo stesso valore specificato nel modulo obsoleto, in cui sono richiesti gli zeri iniziali).
 
 È consentito usare `"namespaceId": 10` al posto o in aggiunta di `"namespace": "AAID"` e potresti riscontrare che altri prodotti Adobe usano quel modulo.
 
@@ -49,7 +61,7 @@ Questo valore deve essere specificato come due numeri esadecimali separati da un
 }
 ```
 
-Questo valore deve essere specificato come due numeri esadecimali a 16 cifre oppure due numeri decimali a 19 cifre separati da un trattino. I numeri devono essere separati da un trattino, un trattino basso o due punti. Gli zeri iniziali devono essere aggiunti qualora le due serie non fossero composte da un numero di cifre sufficienti.
+Il valore deve essere specificato come due numeri esadecimali a 16 cifre o come due numeri decimali a 19 cifre. I numeri devono essere separati da un trattino, un carattere di sottolineatura o due punti. Gli zeri iniziali devono essere aggiunti qualora le due serie non fossero composte da un numero di cifre sufficienti.
 
 ## Cookie del servizio Identity
 
@@ -75,7 +87,7 @@ Se il formato della porzione di valore di uno qualsiasi di questi cookie ID non 
 
 Nella maggior parte dei casi questi ID cookie vengono raccolti usando il nuovo [JavaScript per la privacy](https://developer.adobe.com/experience-platform-apis/references/privacy-service/), che fornirà automaticamente tutte le coppie chiave/valore pertinenti per questi ID JSON.
 
-Questo codice JavaScript compila il JSON con altre coppie chiave/valore oltre a quelle elencate in precedenza (namespace, tipo, valore), ma i campi elencati sopra sono quelli più importanti per l’elaborazione Privacy dei dati in Analytics e gli unici campi da specificare se si raccolgono gli ID in altri modi.
+Questo codice JavaScript compila il JSON con altre coppie chiave/valore oltre a quelle elencate in precedenza (namespace, type, value), ma i campi elencati sopra sono quelli più importanti per l’elaborazione Privacy dei dati in Analytics e gli unici campi da specificare se si raccolgono gli ID in altri modi.
 
 ## ID visitatore personalizzato
 
@@ -87,7 +99,7 @@ Questo codice JavaScript compila il JSON con altre coppie chiave/valore oltre a 
 }
 ```
 
-Anche il namespace è predefinito per l&#39;ID visitatore personalizzato.
+Lo spazio dei nomi è predefinito anche per l’ID visitatore personalizzato.
 
 ## ID nelle variabili personalizzate
 
@@ -104,16 +116,16 @@ Anche il namespace è predefinito per l&#39;ID visitatore personalizzato.
 }
 ```
 
-Per gli ID nelle variabili di conversione e traffico personalizzate (proprietà ed eVar), devi assegnare alla variabile l’etichetta ID-DEVICE o ID-PERSON e quindi il tuo nome namespace a quel tipo di ID. Vedi [Fornire un namespace quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile.](/help/admin/tools/privacy-labeling/labels.md)
+Per gli ID nelle variabili di conversione e traffico personalizzate (Prop ed eVar), devi assegnare alla variabile l’etichetta ID-DEVICE o ID-PERSON e quindi, a quel tipo di ID, il nome del tuo spazio dei nomi. Vedi [Fornire uno spazio dei nomi quando si applicano a una variabile etichette come ID-DEVICE o ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)
 
-Puoi anche vedere i namespace definiti in precedenza per altre variabili o suite di rapporti e riutilizzare una di queste, in modo che lo stesso namespace possa essere facilmente usato per tutte le suite di rapporti che contengono quel tipo di ID. È anche possibile assegnare lo stesso namespace a più variabili all’interno della suite di rapporti. Ad esempio, alcuni clienti memorizzano un ID CRM in una variabile di traffico e in una variabile di conversione (può trovarsi in una sola pagina o in entrambe le pagine a seconda dei casi) e possono assegnare il namespace “ID CRM” a entrambe le variabili.
+Puoi anche visualizzare gli spazi dei nomi definiti in precedenza per altre variabili o suite di rapporti e riutilizzarne uno, in modo che lo stesso spazio dei nomi possa essere facilmente utilizzato per tutte le suite di rapporti che memorizzano tale tipo di ID. È anche possibile assegnare lo stesso spazio dei nomi a più variabili all’interno della suite di rapporti. Ad esempio, alcuni clienti memorizzano un ID del sistema di gestione delle relazioni con i clienti in una variabile di traffico e una variabile di conversione (a seconda della pagina, a volte si trova in una delle due variabili, oppure in entrambe) e possono assegnare il namespace &quot;CRM ID&quot; a entrambe le variabili.
 
 >[!TIP]
 >
->Evita di usare il nome descrittivo di una variabile (il nome visualizzato nell’interfaccia utente di reporting) o il numero della variabile (ad esempio eVar12) quando si specifica il namespace nell’API Privacy dei dati, a meno che non si tratti anche del namespace specificato durante l’applicazione dell’etichetta ID-DEVICE o ID-PERSON a questa variabile. L’uso di un namespace invece di un nome descrittivo consente allo stesso blocco di identità dell’utente di specificare la variabile corretta per suite di rapporti multiple. Per esempio, se l’ID si trova in eVars diversi di alcune delle suite di rapporti, o se i nomi descrittivi non corrispondono (come quando il nome descrittivo è stato localizzato per una specifica suite di rapporti).
+>Per specificare lo spazio dei nomi nell’API Privacy dei dati, evita di usare il nome descrittivo di una variabile (il nome visualizzato nell’interfaccia utente di reporting) o il numero della variabile (ad esempio eVar12), a meno che non si tratti anche dello spazio dei nomi specificato durante l’applicazione dell’etichetta ID-DEVICE o ID-PERSON a tale variabile. Quando si utilizza uno spazio dei nomi invece di un nome descrittivo, con uno stesso blocco di identità dell’utente è possibile specificare la variabile corretta per più suite di rapporti. Per esempio, se l’ID si trova in eVars diversi di alcune delle suite di rapporti, o se i nomi descrittivi non corrispondono (come quando il nome descrittivo è stato localizzato per una specifica suite di rapporti).
 
 >[!CAUTION]
 >
 >Gli spazi dei nomi `visitorId` e `customVisitorId` sono riservati per identificare il cookie di tracciamento legacy di Analytics e l&#39;ID visitatore del cliente Analytics. Non utilizzare questi spazi dei nomi per le variabili di traffico o conversione personalizzate.
 
-Per altre informazioni vedi [Fornire un namespace quando si applicano etichette come ID-DEVICE o ID-PERSON a una variabile.](/help/admin/tools/privacy-labeling/labels.md)
+Per altre informazioni vedi [Fornire uno spazio dei nomi quando si applicano a una variabile etichette come ID-DEVICE o ID-PERSON.](/help/admin/tools/privacy-labeling/labels.md)

@@ -3,10 +3,26 @@ title: Criteri di conservazione dei dati
 description: Un criterio di conservazione dei dati determina per quanto tempo Adobe archivia i dati.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-source-git-commit: bb068d39f756c4cce06349d0bd969212e19cb33e
+TQID: https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2:
+  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 95%
+source-wordcount: 616
+ht-degree: 92%
 
 ---
 
@@ -14,7 +30,7 @@ ht-degree: 95%
 
 I dati raccolti da Adobe Analytics vengono conservati per un periodo di tempo specifico. Il periodo di tempo in cui Adobe conserva i dati varia da contratto a contratto ed è descritto nei criteri di conservazione dei dati di un’organizzazione. Questo criterio si applica ai dati stessi, influendo su tutte le funzionalità di reporting di Analytics (Analysis Workspace, API di reporting, ecc.).
 
-**Il criterio di conservazione dei dati predefinito per Adobe Analytics corrisponde a 25 mesi.** I criteri di conservazione della tua organizzazione possono essere diversi, a seconda del contratto.
+**I criteri di conservazione dei dati predefiniti per Adobe Analytics sono di 25 mesi.** I criteri di conservazione della tua organizzazione possono essere diversi, a seconda del contratto.
 
 I dati conservati si basano sulla data corrente e sulla data/ora dei dati storici. La data/ora registrata negli hit può essere diversa dalla data/ora in cui gli hit sono stati ricevuti da Adobe.
 

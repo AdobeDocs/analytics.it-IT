@@ -5,10 +5,22 @@ uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/ZAVAW4NN9WCHCdj-ZPXDOflV4oC0-WPbClzkdlrf3JM
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2:
+  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 2%
+source-wordcount: 554
+ht-degree: 3%
 
 ---
 
@@ -71,7 +83,7 @@ Visualizzare i dettagli dello stato di una richiesta e utilizzare le descrizioni
    <td colname="col2"> <p> (O Modifica più volte) Modifica una richiesta selezionata. Verrà visualizzata la finestra di dialogo <span class="wintitle"> Richiesta guidata</span>. Vedi <a href="/help/analyze/legacy-report-builder/manage-requests/t-edit-multiple-requests.md"   > Modifica più richieste</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Eliminazione </p> </td> 
+   <td colname="col1"> <p>Elimina </p> </td> 
    <td colname="col2"> <p>Elimina le richieste. Puoi eliminare più richieste selezionate. Per eliminare una richiesta dall’elenco, selezionala e premi Elimina dalla tastiera. </p> </td> 
   </tr> 
   <tr> 

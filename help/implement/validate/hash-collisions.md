@@ -4,9 +4,19 @@ description: Descrive cosa è una collisione hash e come può manifestarsi.
 feature: Implementation Basics
 exl-id: 693d5c03-4afa-4890-be4f-7dc58a1df553
 role: Admin, Developer
-source-git-commit: e6dd38fe34d7e0ab69bdf1c68716427905caa356
+TQID: https://experienceleague.adobe.com/yjYX-h-8jJA7k-jzRMOJ0l2BxN5-no2kCfySkGYss8w
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9b4525e014170b72688044a6ead344b1bde8c39b
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: 535
 ht-degree: 3%
 
 ---
@@ -37,16 +47,16 @@ Simile al paradosso del [compleanno](https://en.wikipedia.org/wiki/Birthday_prob
 
 ## Mitigazione delle collisioni hash
 
-Le collisioni hash non possono essere eliminate completamente, ma il loro impatto sui rapporti può essere mitigato. La maggior parte delle collisioni hash si verifica con due valori non comuni, che non hanno alcun impatto significativo sui rapporti. Even if a hash collides with a common and uncommon value, the result is negligible. However, in rare cases where two popular values experience a hash collision, it is possible to see its effect clearly. Adobe recommends the following to reduce its effect in reports:
+Le collisioni hash non possono essere eliminate completamente, ma il loro impatto sui rapporti può essere mitigato. La maggior parte delle collisioni hash si verifica con due valori non comuni, che non hanno alcun impatto significativo sui rapporti. Anche se un hash si scontra con un valore comune e non comune, il risultato è trascurabile. Tuttavia, in rari casi in cui due valori popolari sperimentano una collisione hash, è possibile vedere chiaramente il suo effetto. Per ridurre l’effetto nei rapporti, Adobe consiglia di effettuare le seguenti operazioni:
 
-* **Change the date range**: Hash tables change each month. Changing the date range to span another month can give each value different hashes that don&#39;t collide. It is usually the fastest way to clear a visible anomaly from a specific report.
-* **Reduce the number of unique values**: You can adjust your implementation or use [Processing rules](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) to help reduce the number of unique values that a dimension collects. For example, if your dimension collects a URL, you can strip query strings or protocol.
-* **Use [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) or [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md)**: These tools do not rely on hash tables.
-* **Move to [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=it)**: Customer Journey Analytics has no hashing layer and [no cardinality limits on dimensions](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html). Consider moving to this product if hash collisions or [[!UICONTROL Low-Traffic]](/help/technotes/low-traffic.md) frequently affect your reports.
+* **Modifica l&#39;intervallo di date**: le tabelle hash cambiano ogni mese. Se si modifica l’intervallo di date in modo che si estenda su un altro mese, a ogni valore possono essere assegnati hash diversi che non si scontrano. In genere è il modo più rapido per eliminare un’anomalia visibile da un rapporto specifico.
+* **Riduci il numero di valori univoci**: puoi regolare l&#39;implementazione o utilizzare [Regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) per ridurre il numero di valori univoci raccolti da una dimensione. Ad esempio, se la dimensione raccoglie un URL, puoi rimuovere stringhe di query o protocollo.
+* **Usa [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) o [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md)**: questi strumenti non si basano su tabelle hash.
+* **Passa a [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=it)**: Customer Journey Analytics non ha livelli di hashing e [nessun limite di cardinalità per le dimensioni](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html). Prendere in considerazione il passaggio a questo prodotto se i rapporti sono spesso influenzati da conflitti di hash o da [[!UICONTROL Low-Traffic]](/help/technotes/low-traffic.md).
 
 >[!MORELIKETHIS]
 >
->* [[!UICONTROL Low-Traffic] value in Adobe Analytics](/help/technotes/low-traffic.md)
->* [Processing rules overview](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
+>* Valore [[!UICONTROL Low-Traffic] in Adobe Analytics](/help/technotes/low-traffic.md)
+>* [Panoramica delle regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md)
 
 <!-- https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=OmniArch&title=Uniques -->
