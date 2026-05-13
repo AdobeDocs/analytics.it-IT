@@ -4,10 +4,14 @@ description: Crea funzioni di callback prima di inviare un hit ad Adobe.
 feature: Appmeasurement Implementation
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 role: Admin, Developer
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: https://experienceleague.adobe.com/jL-4dheXUBOdrkCxVfq3CpWrTOgwjvEDWZ-Eg-sL2y0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 7%
+source-wordcount: 419
+ht-degree: 8%
 
 ---
 
@@ -37,7 +41,7 @@ Il Web SDK non può eseguire l&#39;hook di una funzione dopo la compilazione dei
 
 ## Pre-tracciare il callback manualmente implementando Web SDK
 
-Il Web SDK non può eseguire l&#39;hook di una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati ad Adobe. Tuttavia, è possibile utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell&#39;invio dei dati, in modo analogo a `doPlugins`. Per ulteriori informazioni, vedere [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=it#modifying-events-globally) nella documentazione di Web SDK.
+Il Web SDK non può eseguire l&#39;hook di una funzione dopo la compilazione dei dati, ma prima che questi vengano inviati ad Adobe. Tuttavia, è possibile utilizzare `onBeforeEventSend` per registrare una funzione da eseguire immediatamente prima dell&#39;invio dei dati, in modo analogo a `doPlugins`. Per ulteriori informazioni, vedere [Modifica globale degli eventi](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) nella documentazione di Web SDK.
 
 ```js
 // Set the trackingCode XDM field to "New value"

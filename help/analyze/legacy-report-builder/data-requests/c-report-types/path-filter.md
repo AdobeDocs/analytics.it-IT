@@ -4,9 +4,13 @@ title: Filtrare un rapporto di percorso mediante la Creazione guidata richieste
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/DQ75Rl9mhTocg9aDfBfTYvwUZxb875iEynjc7BCcy90
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 373
 ht-degree: 4%
 
 ---
@@ -29,7 +33,7 @@ In questo esempio vengono utilizzati i percorsi delle sezioni del sito.
 
 1. Fai clic su **[!UICONTROL Next]**.
 
-1. Nel passaggio 2 della procedura guidata fare clic sul collegamento **[!UICONTROL Row Labels]** in **[!UICONTROL Top 1-10 (pattern applied)]**. In un report di percorsi, viene applicato un pattern per impostazione predefinita.
+1. Nel passaggio 2 della procedura guidata fare clic sul collegamento **[!UICONTROL Top 1-10 (pattern applied)]** in **[!UICONTROL Row Labels]**. In un report di percorsi, viene applicato un pattern per impostazione predefinita.
 
    ![Schermata che mostra il modello di percorso predefinito.](assets/site_section_path_2.png)
 

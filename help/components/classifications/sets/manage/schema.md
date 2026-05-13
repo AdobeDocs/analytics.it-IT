@@ -3,13 +3,17 @@ title: Schema del set di classificazione
 description: Scopri come visualizzare e modificare lo schema per un set di classificazione in Adobe Analytics. Aggiungi, carica, scarica o automatizza i dati di classificazione utilizzando le posizioni cloud.
 exl-id: 4a7c5bfe-ff2b-4380-af46-435801d73c1e
 feature: Classifications
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/pqcWCQO2M4A07xY42YusMBHRqHMvDvkI1bro-KxcmNI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: 1456
 ht-degree: 9%
 
 ---
-
 
 # Schema del set di classificazione
 
@@ -169,7 +173,7 @@ Puoi automatizzare l’acquisizione dei dati di classificazione tramite la confi
 >[!IMPORTANT]
 >L’automazione dell’acquisizione delle classificazioni dagli account cloud richiede che tu (o il tuo amministratore di rete) specifichi intervalli di indirizzi IP per consentire l’acquisizione dei dati nella rete. Configura uno o più intervalli di indirizzi IP a seconda della posizione dei centri dati di Analytics che utilizzi.
 >
->| Posizione del centro dati di Analytics | Aggiungere questo intervallo di indirizzi IP a un inserisco nell&#39;elenco Consentiti di accesso alla rete in uso |
+>| Posizione del centro dati di Analytics | Aggiungere questo intervallo di indirizzi IP a un inserisco nell&#39;elenco Consentiti di nella rete |
 >|---|---:|
 >| Pacifico nord-occidentale | `52.254.104.0/22` |
 >| Londra | `51.138.16.0/22` |
@@ -203,7 +207,7 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
    * **[!UICONTROL Latin-1]**.
 
 1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
-1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud. Se la convalida ha esito positivo, viene visualizzato un messaggio popup con ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**&#x200B;se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**&#x200B;per annullare la configurazione del percorso cloud.
+1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud. Se la convalida ha esito positivo, viene visualizzato un messaggio popup con ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**per annullare la configurazione del percorso cloud.
 
 Quando carichi i file nel percorso cloud, entro 15 minuti il file viene rilevato e inviato come processo di importazione. Il risultato di questo processo di importazione è riportato in [Gestione processi classificazioni](/help/components/classifications/sets/job-manager.md). Se vieni aggiunto all’elenco di utenti a cui inviare notifiche sul completamento dei processi di acquisizione, riceverai anche messaggi e-mail.
 

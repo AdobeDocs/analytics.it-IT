@@ -5,10 +5,16 @@ title: Gestione di utenti e prodotti
 feature: Admin Tools
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
 role: Admin
-source-git-commit: 50e6a09e62db60a765da05fa65089a006f103a2b
+TQID: https://experienceleague.adobe.com/NSfOfy6aLyM69Xqgn-bXb5PHzbI1eIWg4Q5pf8mXvSA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 65%
+source-wordcount: 266
+ht-degree: 67%
 
 ---
 

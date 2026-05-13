@@ -4,9 +4,15 @@ title: 'Pubblicare su Power BI: panoramica'
 feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/cbxgWbtfj-VSPgIoc9WTd3COG8EL6Vg-U-WRv11KZaY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: 1113
 ht-degree: 100%
 
 ---
@@ -111,7 +117,7 @@ Puoi trasformare tutte le richieste in tabelle di set di dati e aggiungere visua
 >Se la cartella di lavoro contiene più di 100 richieste, solo le prime 100 richieste verranno pubblicate in Power BI. Inoltre, per ogni richiesta pubblicata in Power BI, verranno pubblicate solo le prime 10.000 righe di dati. Pertanto, anche se queste richieste verranno consegnate correttamente tramite la pianificazione, l’ambito di pubblicazione in Power BI è limitato.
 
 1. In Report Builder apri o crea una cartella di lavoro con le richieste di Report Builder.
-1. Sulla barra degli strumenti del Report Builder, fai clic su **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. Sulla barra degli strumenti di Report Builder, fai clic su **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
 
 1. Nella procedura guidata per la pianificazione di base, fai clic su **[!UICONTROL Advanced Scheduling Options]**.
 1. Nella [!UICONTROL Scheduling Wizard - Advanced], sulla scheda **[!UICONTROL Publishing Options]**, seleziona la casella accanto a **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![Schermata che mostra la procedura guidata per la pianificazione ed evidenzia l’opzione Pubblica tutte le richieste del Report Builder come tabelle di set di dati di Power BI.](assets/advanced-schedule-wizard2.png)

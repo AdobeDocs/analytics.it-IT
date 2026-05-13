@@ -3,9 +3,14 @@ title: Impostare un account Advertising in Advertising Analytics
 description: Questo articolo spiega come creare nuovi account pubblicitari e mappare più account su più suite di rapporti.
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: cbfe932eecf2e89d72b1aa373d723de4cf0af073
+TQID: https://experienceleague.adobe.com/UAPEgVKZ4EW-GMvHGgz9tMHi36M2HazOuEBHOtJ1OUY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: 628
 ht-degree: 5%
 
 ---
@@ -40,7 +45,7 @@ Compila **[!UICONTROL Tracking Settings]** seguendo queste linee guida:
 
    | Impostazione | Descrizione |
    | --- | --- |
-   | Tipo | <ul><li>**Automatico**: consente al motore Adobe Advertising di decidere in che modo i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/URL di destinazione di. [!UICONTROL Auto Type Tracking] è l&#39;approccio più semplice, ma potrebbe non produrre il set di dati meglio integrato.<br>**Importante:** Per configurare un account del motore di ricerca con [!UICONTROL Auto Type Tracking], è necessario eseguire le azioni seguenti:<ul><li>Il parametro e il valore `s_kwcid` vengono aggiunti ai modelli di tracciamento dell&#39;account o agli URL della pagina di destinazione nell&#39;account aggiunto. Il parametro e il valore vengono inseriti alla fine dell’URL. Se il server Web richiede una coppia di `key=value` alla fine dell&#39;URL, potrebbe essere necessaria un&#39;azione aggiuntiva. Oppure è necessario un aggiornamento per supportare qualsiasi nuova coppia `key=value` nell&#39;URL. **Nota**: ulteriori informazioni sull&#39;aggiunta di questo parametro ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/it/docs/id-service/using/reference/csp).</li><li>Inoltre, è possibile inserire parole chiave nell&#39;URL di destinazione come parte del valore `s_kwcid`. Se le parole chiave contengono caratteri o simboli speciali, verificare che il server Web in uso supporti tali caratteri. Un esempio di caratteri speciali comuni è `+`, utilizzato nelle parole chiave &quot;Broad Match Modified&quot;.</li></ul></li><li>**Manuale**: consente di gestire come i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/URL di destinazione del motore di ricerca. [Per ogni motore di ricerca](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md), fare riferimento a questi esempi di rilevamento manuali.</li></ul> |
+   | Tipo | <ul><li>**Automatico**: consente al motore Adobe Advertising di decidere in che modo i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/URL di destinazione di. [!UICONTROL Auto Type Tracking] è l&#39;approccio più semplice, ma potrebbe non risultare nel set di dati meglio integrato.<br>**Importante:** Per configurare un account del motore di ricerca con [!UICONTROL Auto Type Tracking], è necessario eseguire le azioni seguenti:<ul><li>Il parametro e il valore `s_kwcid` vengono aggiunti ai modelli di tracciamento dell&#39;account o agli URL della pagina di destinazione nell&#39;account aggiunto. Il parametro e il valore vengono inseriti alla fine dell’URL. Se il server Web richiede una coppia di `key=value` alla fine dell&#39;URL, potrebbe essere necessaria un&#39;azione aggiuntiva. Oppure è necessario un aggiornamento per supportare qualsiasi nuova coppia `key=value` nell&#39;URL. **Nota**: ulteriori informazioni sull&#39;aggiunta di questo parametro ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).</li><li>Inoltre, è possibile inserire parole chiave nell&#39;URL di destinazione come parte del valore `s_kwcid`. Se le parole chiave contengono caratteri o simboli speciali, verificare che il server Web in uso supporti tali caratteri. Un esempio di caratteri speciali comuni è `+`, utilizzato nelle parole chiave &quot;Broad Match Modified&quot;.</li></ul></li><li>**Manuale**: consente di gestire come i parametri di tracciamento vengono aggiunti ai modelli di tracciamento/URL di destinazione del motore di ricerca. [Per ogni motore di ricerca](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md), fare riferimento a questi esempi di rilevamento manuali.</li></ul> |
 
 1. Seleziona **[!UICONTROL Save]**.
 1. Una liberatoria visualizza un elenco di avvertenze. Conferma di aver letto e compreso il presente contratto. Selezionare la casella di controllo, quindi selezionare **[!UICONTROL OK]**.

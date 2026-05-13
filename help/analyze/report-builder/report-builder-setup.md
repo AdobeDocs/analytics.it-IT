@@ -6,9 +6,14 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: 9d0161a9-ee7b-43a9-92ad-4079cf4b9c6c
-source-git-commit: 1e893ce94ee3da46bbf22d7a90573681950d1135
+TQID: https://experienceleague.adobe.com/a7cYk3fdAL90KUUllMaAmlhqrNPSboBmOoQ9gaPbDWg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 555
 ht-degree: 1%
 
 ---

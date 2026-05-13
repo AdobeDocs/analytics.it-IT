@@ -4,9 +4,15 @@ description: Utilizza la variabile linkInternalFilters per facilitare il traccia
 feature: Appmeasurement Implementation
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/st-CkocgfEJIAQs1JTiY0DpUNuo2uU-CR-o8togtLGg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: 426
 ht-degree: 9%
 
 ---
@@ -29,13 +35,13 @@ Activity Map utilizza questa variabile per determinare quali collegamenti sono i
 
 I collegamenti vengono qualificati automaticamente come collegamento di uscita se il dominio di destinazione del collegamento è diverso dall&#39;attuale `window.location.hostname`. Il Web SDK non offre variabili di configurazione per modificare il rilevamento automatico dei collegamenti di uscita. Se è necessario personalizzare i domini qualificati come collegamento di uscita, è possibile utilizzare la logica personalizzata nel callback `onBeforeEventSend`.
 
-Per ulteriori informazioni, vedere [Tracciamento automatico dei collegamenti](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=it#automaticLinkTracking) nella documentazione di Web SDK.
+Per ulteriori informazioni, vedere [Tracciamento automatico dei collegamenti](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html#automaticLinkTracking) nella documentazione di Web SDK.
 
 ## Collegamenti in uscita: non tenere mai traccia di utilizzando l’estensione Adobe Analytics
 
 Il campo Never Track è un elenco separato da virgole di filtri (in genere domini) nel Pannello a soffietto [!UICONTROL Link Tracking] durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 2. Fai clic sulla proprietà del tag desiderata.
 3. Vai alla scheda [!UICONTROL Extensions], quindi fai clic sul pulsante **[!UICONTROL Configure]** in Adobe Analytics.
 4. Espandi il pannello a soffietto [!UICONTROL Link Tracking], che mostra il campo [!UICONTROL Outbound Links - Never Track].

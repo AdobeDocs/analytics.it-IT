@@ -4,9 +4,15 @@ description: Utilizza Adobe Analytics per tenere traccia delle tue attività rel
 feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/Jz-kv8lbo-l8d-xiR0B2FFR6GhVL8Gb-PiuHejRzMac
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: 581
 ht-degree: 100%
 
 ---
@@ -20,7 +26,7 @@ Se la tua organizzazione desidera tenere traccia delle prestazioni e del tasso d
 1. [Impostare o regolare l’implementazione di Adobe Analytics per includere i dati del codice di tracciamento](#include-campaign-variables-in-your-implementation)
 1. [Visualizzare i rapporti in Analysis Workspace](#view-the-reports-in-analysis-workspace)
 
-[Adobe Campaign](https://business.adobe.com/it/products/campaign/adobe-campaign.html?lang=it) può aiutare a semplificare ciascuno di questi passaggi per dare il massimo valore alle attività relative al marketing. Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe.
+[Adobe Campaign](https://business.adobe.com/products/campaign/adobe-campaign.html?lang=it) può aiutare a semplificare ciascuno di questi passaggi per dare il massimo valore alle attività relative al marketing. Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe.
 
 ## Stabilire un processo di generazione del codice di tracciamento
 

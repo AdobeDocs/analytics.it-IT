@@ -2,10 +2,16 @@
 title: Inviare dati ad Adobe Analytics utilizzando la libreria JavaScript di Web SDK
 description: Inizia con un’implementazione pulita di Web SDK per inviare dati ad Adobe Analytics utilizzando la libreria JavaScript.
 exl-id: 593b63ac-e411-4f88-af7e-78f026269ec0
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/ABGykiS-qco3XECUtZqQpR2m-d1yXsLbaRQRXg0ObO4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 2%
+source-wordcount: 1129
+ht-degree: 3%
 
 ---
 
@@ -66,7 +72,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td> 4</td>
 <td><b>Installare la versione standalone predefinita</b>. Puoi fare riferimento alla libreria (<code>alloy.js</code>) nel CDN direttamente nella tua pagina oppure scaricarla e ospitarla nella tua infrastruttura. In alternativa, è possibile utilizzare il pacchetto NPM.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html?lang=it">Installazione della versione standalone predefinita</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html?lang=it">Utilizzo del pacchetto NPM</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/library.html">Installazione della versione standalone predefinita</a> e <a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/install/npm.html">Utilizzo del pacchetto NPM</a></td>
 </tr>
 
 <tr>
@@ -77,20 +83,20 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 <td>6</td>
 <td><b>Aggiungi un servizio Adobe Analytics</b> allo stream di dati. Tale servizio controlla se e come i dati vengono inviati ad Adobe Analytics e a quali suite di rapporti in particolare.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=it#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html#analytics">Aggiungere il servizio Adobe Analytics a uno stream di dati</a></td>
 </tr>
 
 <tr>
 <td>7</td>
 <td><b>Configura Web SDK</b>. Verificare che la libreria installata nel passaggio 4 sia configurata correttamente con l'ID dello stream di dati (precedentemente noto come ID configurazione edge (<code>datastreamId</code>)), l'ID organizzazione (<code>orgId</code>) e altre opzioni disponibili. Assicurati che la mappatura delle variabili sia corretta. </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html?lang=it">Configura il mapping della variabile oggetto XDM del Web SDK</a><br/><a href="../xdm-var-mapping.md"></a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/configure/overview.html">Configura il mapping della variabile oggetto XDM del Web SDK</a><br/><a href="../xdm-var-mapping.md"></a></td>
 </tr>
 
 <tr>
 <td>8</td>
 <td><b>Esegui comandi</b> e/o <b>traccia eventi</b>. Dopo aver implementato il codice di base nella pagina Web, puoi iniziare a eseguire comandi ed eventi di tracciamento con SDK.
 </td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html?lang=it">Inviare eventi</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/web-sdk/commands/sendevent/overview.html">Inviare eventi</a></td>
 </tr>
 
 <tr>

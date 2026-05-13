@@ -4,9 +4,15 @@ description: Inizia a utilizzare le dimensioni e la sovrapposizione di Activity 
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: a7670fcda3e8e6af0c036c8b263746e142278255
+TQID: https://experienceleague.adobe.com/Wt30b3LTZWyzAQFOKqkqBdWH2Ifatq5FLp-Z0z7nktA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: df312454-73c4-43f6-a90e-18f5043f074cid: e7d92df1-c5ba-4e93-85df-f83171b889beid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: 846
 ht-degree: 1%
 
 ---
@@ -48,7 +54,7 @@ L&#39;impostazione di configurazione **[!UICONTROL Click data collection]** gest
 1. Seleziona **[!UICONTROL Save]**.
 1. Se necessario, crea le modifiche in una libreria e pubblicale in produzione.
 
-Per ulteriori informazioni, vedere [Configurare l&#39;estensione tag Web SDK](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection).
+Per ulteriori informazioni, vedere [Configurare l&#39;estensione tag Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration#data-collection).
 
 +++
 
@@ -56,7 +62,7 @@ Per ulteriori informazioni, vedere [Configurare l&#39;estensione tag Web SDK](ht
 
 La raccolta dati di Activity Map richiede la libreria Web SDK JavaScript v2.20 o successiva. Le versioni della libreria fino alla versione v2.15 sono supportate in modo limitato. Queste versioni precedenti della libreria inviano i dati di Activity Map in un evento separato dal resto dei dati. Questo evento aggiuntivo aumenta il numero di hit inviati ad Adobe Analytics o Adobe Experience Platform.
 
-La variabile di configurazione del Web SDK [`clickCollectionEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) gestisce la raccolta automatica dei dati di Activity Map. È abilitato per impostazione predefinita, a meno che non sia esplicitamente disabilitato.
+La variabile di configurazione del Web SDK [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) gestisce la raccolta automatica dei dati di Activity Map. È abilitato per impostazione predefinita, a meno che non sia esplicitamente disabilitato.
 
 ```js
 alloy("configure", {
@@ -82,7 +88,7 @@ L&#39;impostazione di configurazione **[!UICONTROL Use Activity Map]** gestisce 
 1. Seleziona **[!UICONTROL Save]**.
 1. Se necessario, crea le modifiche in una libreria e pubblicale in produzione.
 
-Per ulteriori informazioni, consulta la [panoramica dell&#39;estensione Adobe Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/analytics/overview).
+Per ulteriori informazioni, consulta la [panoramica dell&#39;estensione Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/analytics/overview).
 
 +++
 

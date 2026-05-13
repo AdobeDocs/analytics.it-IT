@@ -4,10 +4,16 @@ title: Panoramica reportistica in tempo reale
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/2QizNDKGlAUqX7IbHANm-nGMicLXDfKSnl7nYGkETxQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 9%
+source-wordcount: 630
+ht-degree: 2%
 
 ---
 
@@ -59,9 +65,9 @@ L&#39;impostazione e la visualizzazione di rapporti in tempo reale è riservata 
 
 Dopo l&#39;abilitazione dell&#39;integrazione A4T in Adobe [!DNL Target], si verificherà una latenza aggiuntiva di 5-10 minuti in Adobe Analytics. Questo aumento di latenza consente di memorizzare i dati da Analytics e [!DNL Target] sullo stesso hit, consentendo di suddividere i test per pagina e sezione del sito.
 
-Questo aumento si riflette in tutti i servizi e gli strumenti di Adobe Analytics, compresi lo streaming live e il reporting in tempo reale e si applica nei seguenti scenari:
+Questo aumento si riflette in tutti i servizi e gli strumenti di Adobe Analytics, compresi il flusso live e il reporting in tempo reale, e si applica nei seguenti scenari:
 
 * Per i flussi live, i rapporti in tempo reale, le richieste API e i dati correnti per le variabili di traffico, vengono ritardati solo gli hit con un ID dati supplementare.
-* Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit sono ritardati di altri 5-7 minuti.
+* Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit subiscono un ritardo di ulteriori 5-7 minuti.
 
 Tieni presente che l’aumento della latenza inizia dopo l’implementazione del servizio Identity, anche se non hai implementato completamente questa integrazione.

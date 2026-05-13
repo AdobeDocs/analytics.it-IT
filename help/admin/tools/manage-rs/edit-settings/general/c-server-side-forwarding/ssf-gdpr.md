@@ -4,10 +4,14 @@ title: Conformità a GDPR/ePrivacy e inoltro lato server
 feature: Report Suite Settings
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 role: Admin
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: https://experienceleague.adobe.com/Q4HJtRLxJvr4fy7bF5jxCW2FLH5sdKCU6rAUzN0yNv0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 59%
+source-wordcount: 570
+ht-degree: 61%
 
 ---
 
@@ -17,7 +21,7 @@ Questa sezione specifica i miglioramenti relativi all’inoltro lato server intr
 
 L’inoltro lato server viene utilizzato per condividere in tempo reale dati da Adobe Analytics ad altre [!DNL Experience Cloud Solutions], come ad esempio Audience Manager. Se abilitato, l’inoltro lato server consente ad Analytics di trasmettere i dati ad altre soluzioni Experience Cloud e a queste di trasmetterli ad Analytics durante il processo di raccolta dei dati.
 
-In precedenza, l’inoltro lato server non disponeva di un metodo che permettesse di distinguere eventi/hit di consenso e pre-consenso. A partire dal 1° novembre 2018, in qualità di titolare del trattamento dei dati (cliente Adobe Analytics) puoi limitare i dati divulgati prima del consenso ad Adobe Analytics e impedirne l’inoltro a Adobe Audience Manager. Una nuova variabile di contesto dell’implementazione consente di contrassegnare ogni hit per cui non è stato ricevuto il consenso. La variabile, se impostata, impedisce che tali hit vengano inviati a Adobe Audience Manager finché non sia stato ricevuto il consenso.
+In precedenza, l’inoltro lato server non disponeva di un metodo che permettesse di distinguere eventi/hit di consenso e pre-consenso. A partire dal 1° novembre 2018, in qualità di titolare del trattamento dei dati (cliente Adobe Analytics) puoi limitare i dati divulgati prima del consenso ad Adobe Analytics e impedirne l’inoltro a Adobe Audience Manager. Una nuova variabile di contesto dell’implementazione consente di contrassegnare ogni hit per cui non è stato ricevuto il consenso. La variabile, se impostata, impedisce che tali hit vengano inviati ad Adobe Audience Manager finché non sia stato ricevuto il consenso.
 
 Quando la nuova variabile di contesto `cm.ssf=1` esiste in un hit, questo viene contrassegnato e non viene inoltrato lato server a Adobe Audience Manager. Al contrario, se questa stringa non viene visualizzata su un hit, l’hit viene inoltrato a Adobe Audience Manager.
 

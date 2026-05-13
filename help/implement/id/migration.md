@@ -1,9 +1,16 @@
 ---
 title: Considerazioni sulla migrazione al servizio ID visitatori per Adobe Analytics
 description: Panoramica dell’interfaccia di Adobe Analytics con il servizio ID visitatori.
-source-git-commit: f682f9c8533536e9b33f320f2a420055c6f4e397
+exl-id: da1f9917-5254-41fb-9e2c-c94f66a22360
+TQID: https://experienceleague.adobe.com/NnZ-Vv2M5cWkfekbVX1B-dFesdtxy50fMdTlwPYviYQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 671
 ht-degree: 0%
 
 ---
@@ -34,8 +41,8 @@ Se coordini la distribuzione del Servizio ID visitatore in tutte le aree del sit
 
 Alcune implementazioni legacy degli ID visitatore di Analytics potrebbero utilizzare &quot;cookie di terze parti descrittivi&quot;, in cui due domini condividono lo stesso cookie visitatore su un dominio comune come `data.example.com`. Poiché i cookie di terze parti descrittivi sono ancora cookie di terze parti, molti browser moderni li rifiutano, facendo in modo che Analytics si basi su un ID di fallback (`fid`) per l&#39;identificazione dei visitatori. Il passaggio al servizio ID consente a tutti i domini di impostare il cookie `AMCV` in un contesto di prime parti, aumentando la possibilità di mantenere un ID visitatore.
 
-Il servizio ID visitatori tenta di impostare un cookie di terze parti per il monitoraggio tra più domini (il cookie [`demdex`](https://experienceleague.adobe.com/it/docs/id-service/using/intro/cookies)), ma viene spesso rifiutato dai browser moderni. Prendere in considerazione l&#39;utilizzo del metodo [`appendVisitorIDsTo`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/appendvisitorid) per passare l&#39;ID Experience Cloud di un visitatore (`mid`) tra i domini di cui si è proprietari.
+Il servizio ID visitatori tenta di impostare un cookie di terze parti per il monitoraggio tra più domini (il cookie [`demdex`](https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies)), ma viene spesso rifiutato dai browser moderni. Prendere in considerazione l&#39;utilizzo del metodo [`appendVisitorIDsTo`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/appendvisitorid) per passare l&#39;ID Experience Cloud di un visitatore (`mid`) tra i domini di cui si è proprietari.
 
 ## Tracciamento lato server
 
-È possibile chiamare [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/getmcvid) per ottenere l&#39;ID Experience Cloud (`mid`) e [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid) per ottenere l&#39;ID Analytics legacy (`aid`). Adobe consiglia di controllare entrambi per preservare la logica di identificazione dei visitatori.
+È possibile chiamare [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid) per ottenere l&#39;ID Experience Cloud (`mid`) e [`getAnalyticsVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getanalyticsvisitorid) per ottenere l&#39;ID Analytics legacy (`aid`). Adobe consiglia di controllare entrambi per preservare la logica di identificazione dei visitatori.

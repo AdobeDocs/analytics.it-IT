@@ -4,9 +4,14 @@ description: Implementare Adobe Analytics utilizzando un tag immagine HTML (rich
 feature: Implementation Basics
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/XXUtfW2sg1vMECfIEVseUavNhWshzpP-ifcIxu7KzmQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: 687
 ht-degree: 0%
 
 ---

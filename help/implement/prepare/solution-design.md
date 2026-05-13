@@ -4,9 +4,15 @@ description: Scopri cos’è un documento di progettazione della soluzione e com
 feature: Implementation Basics
 exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
 role: Admin, Developer, Leader
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/OLSxdEz9--Xe8bCRH6-TimsPloUUdesg4-wrBNL3uPU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: 698
 ht-degree: 2%
 
 ---
@@ -21,16 +27,16 @@ Un documento di progettazione della soluzione (noto anche come Solution Design R
 
 ## Proprietà e ubicazione del documento di progettazione
 
-* **Determinare chi, all&#39;interno dell&#39;organizzazione, sarà responsabile della gestione del documento di progettazione della soluzione.** Questo ruolo può essere un singolo utente o un team. Assicurati che la manutenzione della progettazione della soluzione sia preservata anche attraverso modifiche dei ruoli o ristrutturazioni dell’organizzazione. Si tratta di un documento vivo e deve essere mantenuto in modo adeguato.
-* **Determinare la posizione del documento della soluzione.** Non esiste un&#39;unica posizione ottimale per i documenti di progettazione delle soluzioni, ma in genere si trovano in una posizione interna ampiamente accessibile. Alcuni esempi includono un foglio di calcolo condiviso o un’area di lavoro collaborativa come SharePoint o un wiki interno. Non deve essere modificabile per tutti, ma è utile per coloro che possono accedere ai rapporti almeno per poterlo visualizzare.
+* **Determinare i responsabili della gestione del documento di progettazione della soluzione all&#39;interno dell&#39;organizzazione.** Questo ruolo può essere un singolo utente o un team. Assicurati che la manutenzione della progettazione della soluzione sia preservata anche attraverso modifiche dei ruoli o ristrutturazioni dell’organizzazione. Si tratta di un documento vivo e deve essere mantenuto in modo adeguato.
+* **Determinare dove risiederà il documento della soluzione.** Non esiste un unico luogo ideale in cui risiedere per i documenti di progettazione delle soluzioni, ma in genere si trovano in una posizione interna ampiamente accessibile. Alcuni esempi includono un foglio di calcolo condiviso o un’area di lavoro collaborativa come SharePoint o un wiki interno. Non deve essere modificabile per tutti, ma è utile per coloro che possono accedere ai rapporti almeno per poterlo visualizzare.
 
 ## Definire i requisiti aziendali
 
 Quando si determinano i dati da raccogliere, è facile dire &quot;tutto&quot;, tuttavia ciò può diventare rapidamente difficile da gestire e può persino fornire meno valore rispetto alla raccolta di quantità più concise di dati.
 
-1. **Determinare gli indicatori di prestazioni chiave.** Come desideri che facciano i visitatori? La risposta a questa domanda varia a seconda del settore e del settore verticale, e può essere molteplici. Alcuni esempi includono acquisti, registrazioni o clic sugli annunci.
-1. **Individuare i dati più importanti da raccogliere.** Poni alle domande di lavoro a cui desideri risposte specifiche. Le risposte a queste domande fornirebbero ad insight informazioni su come migliorare i KPI.
-1. **Rispondi a queste domande e determina quali sono le tue esigenze di tracciamento.** raggrupparle in dimensioni e metriche.
+1. **Determinare gli indicatori di prestazioni chiave.** Cosa volete che facciano in definitiva i visitatori? La risposta a questa domanda varia a seconda del settore e del settore verticale, e può essere molteplici. Alcuni esempi includono acquisti, registrazioni o clic sugli annunci.
+1. **Individuare i dati più importanti da raccogliere.** Poni le tue domande aziendali alle quali desideri risposte specifiche. Le risposte a queste domande fornirebbero ad insight informazioni su come migliorare i KPI.
+1. **Rispondi a queste domande e determina quali sono le tue esigenze di tracciamento.** Raggruppale in dimensioni e metriche.
    * Le dimensioni sono variabili che contengono testo. Alcuni esempi includono il termine di ricerca interno, la categoria di prodotto o il nome di un’area su cui un visitatore ha fatto clic.
    * Le metriche sono eventi specifici che desideri che un visitatore faccia: quando esegui un’azione desiderata, il numero aumenta di uno. Alcuni esempi includono l’invio di un ordine, l’abbonamento a una newsletter o l’invio di una risposta al sondaggio.
 1. **Mappare dimensioni e metriche in una pagina o in un foglio di calcolo.** Questa pagina o tabella diventa il documento di progettazione della soluzione. Alcune colonne o punti elenco utili da includere:

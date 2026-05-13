@@ -3,9 +3,15 @@ title: Risoluzione di problemi dell’importazione di classificazioni
 description: Problemi di caricamento comuni quando si utilizza l’importazione classificazioni.
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
-source-git-commit: 4eea524bf95c9b6bc9ddc878c8c433bc1e60daee
+TQID: https://experienceleague.adobe.com/YDa--mPqMNfRfRT-xUYTj6jJVEFf2HXWSUtELvuBpy4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: 875
 ht-degree: 83%
 
 ---

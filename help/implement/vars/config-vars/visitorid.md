@@ -4,10 +4,14 @@ description: Utilizza un ID visitatore personalizzato.
 feature: Appmeasurement Implementation
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 role: Admin, Developer
-source-git-commit: de98bf68c57f5453b6662f6e6e57312d8fd3e642
+TQID: https://experienceleague.adobe.com/NVNZ5qIzAa3ztoH2JIHxpGGskQAATqA0EUOZbspauzY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 4%
+source-wordcount: 502
+ht-degree: 6%
 
 ---
 
@@ -58,4 +62,4 @@ s.visitorID = "abc123";
 
 ## ID visitatore che utilizza il Web SDK
 
-Adobe Experience Platform Edge Network consente di fornire più identificatori utilizzando la [Identity Map](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=it#using-identitymap) di XDM. Ogni identità in Identity Map ha uno spazio dei nomi diverso. È possibile specificare lo spazio dei nomi da utilizzare per l&#39;ID visitatore come parte della [configurazione dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it#analytics). Una volta configurato, questo campo viene utilizzato automaticamente come ID visitatore in Analytics quando invii un evento con un valore specificato per questo spazio dei nomi.
+Adobe Experience Platform Edge Network consente di fornire più identificatori utilizzando la [Identity Map](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html#using-identitymap) di XDM. Ogni identità in Identity Map ha uno spazio dei nomi diverso. È possibile specificare lo spazio dei nomi da utilizzare per l&#39;ID visitatore come parte della [configurazione dello stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html#analytics). Una volta configurato, questo campo viene utilizzato automaticamente come ID visitatore in Analytics quando invii un evento con un valore specificato per questo spazio dei nomi.

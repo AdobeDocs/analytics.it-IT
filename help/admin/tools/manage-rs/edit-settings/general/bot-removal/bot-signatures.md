@@ -4,10 +4,14 @@ description: Riconoscere gli identificatori comuni dei bot.
 feature: Bot Removal
 role: Admin
 exl-id: 57622af6-c1d3-4ef1-b3e6-10c14f04a55c
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/5pfpWlD50DyOhSADhRnchl-bclDhdpFFS5mjl0M9AoQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: 535
+ht-degree: 94%
 
 ---
 
@@ -65,7 +69,7 @@ L’utente non effettua l’accesso in alcun punto della visita e le eVar di ide
 
 ## Nessun KPI nella visita
 
-I bot generalmente non aggiungono prodotti al carrello o non procedono al pagamento. Nella maggior parte dei casi non inviano moduli lead o altri eventi di successo, ma alcuni bot inviano moduli HTML semplici.
+I bot generalmente non aggiungono prodotti al carrello o non procedono al pagamento. Nella maggior parte dei casi non inviano moduli lead o altri eventi di successo, ma alcuni bot inviano semplici moduli HTML. &#x200B;
 
 ## Stringa query specifica presente
 
@@ -73,6 +77,6 @@ A volte i bot tentano di bloccare la cache o di interrompere in altro modo i sit
 
 ## Indirizzi IP provenienti da piattaforme di elaborazione distribuite
 
-I servizi di hosting web come Amazon Web Services o Google Cloud possono essere usati impropriamente come bot farm. Questi indirizzi IP sono ad alto rischio come potenziali bot:
-
+I servizi di hosting web come Amazon Web Services o Google Cloud possono essere usati impropriamente come bot farm. Questi indirizzi IP sono ad alto rischio come bot:
+&#x200B;
 * [Google Cloud](https://cloud.google.com/compute/): l’indirizzo IP inizia con `&#x200B;35.199` o `35.194&#x200B;`

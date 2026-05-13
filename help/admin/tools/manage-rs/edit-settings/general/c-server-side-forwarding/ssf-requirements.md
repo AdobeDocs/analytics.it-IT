@@ -5,9 +5,14 @@ title: Requisiti per l’inoltro lato server
 feature: Report Suite Settings
 exl-id: af0cf85a-381e-46d2-a4fd-9a5b073c8a8d
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/1GCflxlY4IpT-pPTr93FuOmxkJLC4baJe3Z2SGjj1So
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: 326
 ht-degree: 100%
 
 ---
@@ -22,7 +27,7 @@ L’inoltro lato server funziona con [Analytics](https://www.adobe.com/it/data-a
 
 ## Servizi richiesti
 
-L’inoltro lato server richiede [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Identity Service fornisce un ID universale che identifica i visitatori in tutte le soluzioni di Experience Cloud. È necessario implementare il servizio ID prima di attivare l’inoltro lato server.
+L’inoltro lato server richiede [Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Identity Service fornisce un ID universale che identifica i visitatori del sito in tutte le soluzioni di Experience Cloud. È necessario implementare il servizio ID prima di attivare l’inoltro lato server.
 
 ## Versioni del codice
 

@@ -3,10 +3,16 @@ description: Utilizza le sottoclassificazioni con il generatore di regole di cla
 title: Sottoclassificazioni e Generatore di regole
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/Qlqt3scXHVUv6EODq57zzaF2007Vvf5x324CHjrsNE0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 84%
+source-wordcount: 403
+ht-degree: 81%
 
 ---
 
@@ -63,7 +69,7 @@ Esempi di passaggi che descrivono come caricare le sottoclassificazioni utilizza
 
    Esempio:
 
-   | Chiave | Canale | Broad Campaign code | Broad Campaign code&Hat;Campaign type | Broad Campaign code&Hat;Campaign Director | ... |
+   | Chiave | Canale | Broad Campaign code | Codice ampia campagna&amp;Hat;Tipo di campagna | Codice ampia campagna&amp;Hat;Direttore campagna | ... |
    |---|---|---|---|---|---|
    | &#42; |  | 111 | Brand | Suzanne |  |
    | &#42; |  | 222 | Brand | Frank |  |

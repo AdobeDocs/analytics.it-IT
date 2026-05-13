@@ -4,9 +4,15 @@ title: Inventario analitico
 feature: Admin Tools
 role: Admin
 exl-id: 9fc985c8-93d7-4838-9342-72a6268ef96f
-source-git-commit: 035723a8a1dcdee96c9be9a2ee7a0b2e98a8f56e
+TQID: https://experienceleague.adobe.com/C9HUL-UJiicjOhUX8wjq4HFgAsr2eqLghtRLfnnG-zc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: c153fd90-23e1-4614-81d3-3cc7571227f7id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b22bc0f7-b089-4966-95a1-31e7b3b69b79id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: 1203
 ht-degree: 23%
 
 ---
@@ -112,7 +118,7 @@ Le risposte a queste domande ti daranno una buona idea su quali suite di rapport
    | Occorrenze (ultimi 90 giorni) | La metrica &quot;Occorrenze&quot; mostra il numero di hit in cui una determinata dimensione è stata impostata o persistita. Quanti hit ha ricevuto questa suite di rapporti negli ultimi 90 giorni? |
    | Metriche | Quante metriche sono definite in questa suite di rapporti? |
    | Dimensioni | Quante dimensioni sono definite in questa suite di rapporti? |
-   | Analytics for Target (A4T) abilitato | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Analytics for Target](https://experienceleague.adobe.com/it/docs/target/using/integrate/a4t/a4t)? |
+   | Analytics for Target (A4T) abilitato | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t)? |
    | Canali di marketing abilitati | [Nascosto per impostazione predefinita] Questa suite di rapporti è abilitata per [Canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md)? |
    | Connettore di origine abilitato | Questa suite di rapporti è abilitata per [Adobe Analytics Source Connector per i dati della suite di rapporti](https://experienceleague.adobe.com/it/docs/experience-platform/sources/connectors/adobe-applications/analytics) in Adobe Experience Platform? In altre parole, è possibile migrare questa suite di rapporti a Customer Journey Analytics utilizzando il connettore Source di Analytics? |
    | Tipo di calendario | [Nascosto per impostazione predefinita] Per ulteriori informazioni, fare riferimento a [Calendari personalizzati](/help/admin/tools/manage-rs/edit-settings/general/custom-calendar.md) |

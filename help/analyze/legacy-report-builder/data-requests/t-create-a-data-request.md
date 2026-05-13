@@ -4,9 +4,13 @@ title: Create a Data Request (Creare una richiesta di archivio dati)
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: https://experienceleague.adobe.com/w-oiIfs1qFMoQbaN8YrNIn1TRNHeN97lQOlkLeXdLb0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: 267
 ht-degree: 2%
 
 ---
@@ -22,7 +26,7 @@ Passaggi per creare una richiesta di dati di base.
 1. (Facoltativo) Seleziona un segmento da applicare alla richiesta. Dopo aver selezionato uno o più segmenti, questi si sposteranno all’inizio dell’elenco.
 
    Report Builder utilizza i segmenti nello stesso modo in cui Adobe Analytics li utilizza. Consulta la [Guida alla segmentazione di Analytics](/help/components/segmentation/seg-home.md).
-1. Selezionare un tipo di report [&#128279;](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md).
+1. Selezionare un tipo di report [](/help/analyze/legacy-report-builder/data-requests/c-report-types/select-report-types.md).
 1. Specifica un [intervallo di date](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/custom-calendar.md) e report [granularità](/help/analyze/legacy-report-builder/data-requests/configuring-report-dates/granularity.md).
 1. Fai clic su **[!UICONTROL Next]**.
 1. Nella finestra [Layout - Creazione guidata richieste passaggio 2](/help/analyze/legacy-report-builder/layout/layout.md), specificare un layout:

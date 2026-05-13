@@ -4,10 +4,16 @@ description: Scopri Analysis Workspace, lo strumento di analisi principale per A
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/etNwY5Q1n5Mv2olhGc1qyNAxAkv1o-mTh2O9JZe0QfM
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 95%
+source-wordcount: 1289
+ht-degree: 93%
 
 ---
 
@@ -17,7 +23,7 @@ Analysis Workspace consente di realizzare rapidamente le analisi per raccogliere
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}.
+Per un video demo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Panoramica di Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -75,7 +81,7 @@ Per una panoramica dei menu disponibili, consulta le seguenti tabelle.
 | **[!UICONTROL Refresh project]** | **[!UICONTROL *Opzione+r *]** | **[!UICONTROL *Alt+r *]** | Aggiorna il progetto. |
 | **[!UICONTROL Download CSV]** | **[!UICONTROL *Maiusc+Comando+v *]** | **[!UICONTROL *Maiusc+Ctrl+v *]** | Esporta il proggetto come file CSV. |
 | **[!UICONTROL Download PDF]** | **[!UICONTROL *Maiusc+Comando+b *]** | **[!UICONTROL *Maiusc+Ctrl+b *]** | Scarica il progetto come documento PDF. |
-| **[!UICONTROL Project info & settings]** | | | Definisci le impostazioni per i progetti, ad esempio nome, tag, palette di colori e altro ancora. |
+| **[!UICONTROL Project info & settings]** | | | Definisci le impostazioni per i progetti, ad esempio nome, tag, palette colori e altro ancora. |
 | **[!UICONTROL User settings]** | | | [Configura le preferenze per l’utilizzo di Analysis Workspace](/help/analyze/analysis-workspace/user-preferences.md). |
 
 
@@ -119,7 +125,7 @@ Per una panoramica dei menu disponibili, consulta le seguenti tabelle.
 | Aiuto | Descrizione |
 |---|---|
 | **[!UICONTROL Videos]** | Apri il canale YouTube di Customer Journey Analytics in una nuova scheda del browser. |
-| **[!UICONTROL Help documentation]** | Apri la documentazione (quella che stai leggendo in questo momento) in una nuova scheda del browser. |
+| **[!UICONTROL Help documentation]** | Apri la documentazione (stai leggendo in questo momento...) in una nuova scheda del browser. |
 | **[!UICONTROL Help forum]** | Apri il forum delle community Experience League per Adobe Analytics in una nuova scheda del browser. |
 | **[!UICONTROL Hotkeys]** | Mostra una panoramica dei tasti di scelta rapida che è possibile utilizzare in Workspace. |
 | **[!UICONTROL Enable debugger]** | Abilita il debugger. Il progetto verrà ricaricato. |

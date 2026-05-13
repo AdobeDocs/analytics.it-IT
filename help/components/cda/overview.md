@@ -4,10 +4,16 @@ description: Scopri come trasformare i dati incentrati sul dispositivo in incent
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
 role: Admin
-source-git-commit: f75a1f6d9f08f422595c24760796abf0f8332ddb
+TQID: https://experienceleague.adobe.com/SEHyUllyHtYjtfpaw9uI64WNytw3MMrR1Np9BN2Ckyk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 56%
+source-wordcount: 837
+ht-degree: 54%
 
 ---
 
@@ -17,7 +23,7 @@ ht-degree: 56%
 
 >[!WARNING]
 >
->Il grafico dei dispositivi in Analisi multidispositivo è [obsoleto](https://experienceleague.adobe.com/it/docs/discontinued/using/device-graph) e non sarà più disponibile il **31 dicembre 2025**. Cambiare qualsiasi suite di rapporti virtuali abilitata per Device Graph al [metodo basato sui campi](/help/components/cda/field-based-stitching.md).
+>Il grafico dei dispositivi in Analisi multidispositivo è [obsoleto](https://experienceleague.adobe.com/en/docs/discontinued/using/device-graph) e non sarà più disponibile il **31 dicembre 2025**. Cambiare qualsiasi suite di rapporti virtuali abilitata per Device Graph al [metodo basato sui campi](/help/components/cda/field-based-stitching.md).
 >
 
 
@@ -55,7 +61,7 @@ Analytics tra dispositivi è una funzione innovativa e affidabile, ma presenta l
 * Le suite di rapporti di Adobe Analytics non possono essere mappate su più di un ID organizzazione. Poiché Cross-Device Analytics unisce i dispositivi all’interno di una determinata suite di rapporti, non è possibile utilizzare Cross-Device Analytics per unire i dati di più ID organizzazione.
 * Analytics tra dispositivi utilizza una pipeline di elaborazione complessa, con più componenti dipendenti. Questa pipeline viene eseguita in parallelo con il flusso di lavoro di base di Analytics per la generazione di rapporti. Per il numero totale di hit tra la suite di rapporti originale e la suite di rapporti virtuale di Analytics tra dispositivi diversi, si può verificare una mancata corrispondenza dei dati di circa l’1%.
 * Analytics tra dispositivi utilizza una suite di rapporti virtuale e l’elaborazione al momento del rapporto, con proprie limitazioni. Ad esempio, al momento non supportano le variabili dei canali di marketing. Per ulteriori informazioni su queste limitazioni, consulta [Suite di rapporti virtuali](/help/components/vrs/vrs-about.md) ed [Elaborazione al momento del rapporto](/help/components/vrs/vrs-report-time-processing.md).
-* Private Graph sfrutta le stesse sincronizzazioni ID delle sincronizzazioni ID utilizzate dalla funzionalità [Attributi del cliente](https://experienceleague.adobe.com/it/docs/core-services/interface/services/customer-attributes/attributes) disponibile in Experience Cloud e Adobe Analytics. Tuttavia, le suite di rapporti virtuali di Analytics tra dispositivi (basate su Private Graph o unione basata sui campi) non sono compatibili con il resto della funzionalità Attributi del cliente. In altre parole, le dimensioni basate sugli attributi del cliente non sono disponibili per l’utilizzo con le suite di rapporti virtuali di Analytics tra dispositivi.
+* Private Graph sfrutta le stesse sincronizzazioni ID delle sincronizzazioni ID utilizzate dalla funzionalità [Attributi del cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/attributes) disponibile in Experience Cloud e Adobe Analytics. Tuttavia, le suite di rapporti virtuali di Analytics tra dispositivi (basate su Private Graph o unione basata sui campi) non sono compatibili con il resto della funzionalità Attributi del cliente. In altre parole, le dimensioni basate sugli attributi del cliente non sono disponibili per l’utilizzo con le suite di rapporti virtuali di Analytics tra dispositivi.
 * Analytics tra dispositivi non è attualmente compatibile con A4T.
 * L’API 1.4 non è supportato. Report Builder e i connettori Power BI si basano sull’API 1.4 e non sono quindi compatibili con CDA.
 * Il monitoraggio attivo del processo di unione di Analytics tra dispositivi da parte di Adobe è limitato solo alle suite di rapporti di produzione.

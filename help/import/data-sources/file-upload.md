@@ -4,9 +4,13 @@ description: Processo per caricare un file di origini dati in Adobe Analytics pe
 exl-id: 64e3cd70-b511-4c4e-abd0-94eb36bc3519
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: https://experienceleague.adobe.com/75kyNzjsBehTPilhSr9Wir6bHuGPJvZVCtZUnrxtffw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: 365
 ht-degree: 1%
 
 ---

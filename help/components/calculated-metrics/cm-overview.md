@@ -4,10 +4,15 @@ keywords: Metriche calcolate
 title: Panoramica sulle metriche calcolate
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/3bZdi3MZ8Q5MibUfwOlO1CmumXTqlWxBH6hy35M9tUk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 39%
+source-wordcount: 301
+ht-degree: 37%
 
 ---
 
@@ -17,7 +22,7 @@ I calcoli sono metriche personalizzate che puoi creare dalle metriche esistenti.
 
 Le metriche calcolate sono metriche personalizzate che puoi creare dalle metriche esistenti. Le metriche calcolate offrono un modo flessibile di generare, gestire e curare metriche personalizzate che consentono di analizzare i dati senza dover modificare l’implementazione.
 
-Le metriche calcolate sono disponibili in ciascun pacchetto [!DNL Analytics], tuttavia Adobe Analytics Foundation Pack per Experience Cloud è limitato alle metriche calcolate di base che includono [tipi di formato (decimale, ora, percentuale, valuta)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [modifiche di allocazione (predefinita, lineare, partecipazione, ecc.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [tipi di metrica (standard, totale)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) e [operatori di base](workflow/c-build-metrics/cm-build-metrics.md#operators) (aggiungere, sottrarre, moltiplicare e dividere).
+Le metriche calcolate sono disponibili in ogni pacchetto [!DNL Analytics], tuttavia Adobe Analytics Foundation Pack per Experience Cloud è limitato alle metriche calcolate di base che includono [tipi di formato (decimale, ora, percentuale, valuta)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [modifiche di allocazione (predefinita, lineare, partecipazione, ecc.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [tipi di metrica (standard, totale)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) e [operatori di base](workflow/c-build-metrics/cm-build-metrics.md#operators) (aggiungere, sottrarre, moltiplicare e dividere).
 
 
 Per ulteriori informazioni, vedere [Descrizione del prodotto Adobe Analytics](https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics.html).
@@ -59,13 +64,13 @@ Alcune funzionalità di [!DNL Analytics] non consentono l&#39;utilizzo di metric
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Metriche calcolate](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Metriche calcolate](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione delle metriche calcolate nei segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione delle metriche calcolate nei segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -84,7 +89,7 @@ Here is a short overview of the [!UICONTROL Calculated metrics] tools:
 
 >[!MORELIKETHIS]
 >
->[Crea metriche](/help/components/calculated-metrics/workflow/cm-workflow.md)
->[Genera metriche](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
+>[Creare le metriche](/help/components/calculated-metrics/workflow/cm-workflow.md)
+>[Creare metriche](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md)
 >[Usa funzioni](/help/components/calculated-metrics/workflow/c-build-metrics/cm-using-functions.md)
 >

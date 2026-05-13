@@ -4,13 +4,18 @@ keywords: segmentazione;segmenti
 title: Contenitori di segmenti
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: 8b1e25b9633b6db3e49da079f7014e6b7b595474
+TQID: https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '3549'
+source-wordcount: 3530
 ht-degree: 96%
 
 ---
-
 
 # Contenitori di segmenti
 
@@ -47,7 +52,7 @@ Ogni contenitore consente di generare rapporti sulla cronologia di un visitatore
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -306,7 +311,7 @@ Il reporting dal contenitore Hit mostra come la generazione di rapporti da conte
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrica | # | % |
 |---|---|--:|--:|
-| | Visualizzazioni di pagina:<br/>Visualizzazioni:<br/>Visitatori univoci | **69.252** di 351.292 <br/>**67.554** di 165.175 <br/>**63.541** di 113.169 | **19%**<br/>**40%**<br/>**56%** |
+| | Visualizzazioni pagina:<br/>Visite:<br/>Visitatori univoci: | **69.252** di 351.292 <br/>**67.554** di 165.175 <br/>**63.541** di 113.169 | **19%**<br/>**40%**<br/>**56%** |
 
 
 <!--![](assets/container_report_PV.png)-->
@@ -332,7 +337,7 @@ Visualizzando i valori del segmento dal contenitore Visita, noterai che il numer
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrica | # | % |
 |---|---|--:|--:|
-| | Visualizzazioni pagina:<br/>Visualizzazioni:<br/>Visitatori univoci: | **226.193** di 351,292 <br/>**67.554** di 165,175 <br/>**63.541** di 113,169 | **64%**<br/>**40%**<br/>**56%** |
+| | Visualizzazioni pagina:<br/>Visite:<br/>Visitatori univoci: | **226.193** di 351,292 <br/>**67.554** di 165,175 <br/>**63.541** di 113,169 | **64%**<br/>**40%**<br/>**56%** |
 
 <!--![](assets/container_report_Visit.png)-->
 
@@ -368,7 +373,7 @@ Visualizzando i segmenti dal contenitore Visitatore, noterai un aumento delle vi
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrica | # | % |
 |---|---|--:|--:|
-| | Visualizzazioni pagina: <br/>Visite:<br/> Visitatori univoci: | **240.094** di 351.292 <br/>**83.823** di 165.175 <br/>**63.541** di 113.169 | **68%**<br/>**50%**<br/>**56%** |
+| | Visualizzazioni pagina:<br/>Visite:<br/>Visitatori univoci: | **240.094** di 351.292 <br/>**83.823** di 165.175 <br/>**63.541** di 113.169 | **68%**<br/>**50%**<br/>**56%** |
 
 <!--![](assets/container_report_Visitor.png)-->
 
@@ -495,7 +500,7 @@ Poiché tutte le pagine hanno lo stesso valore del dominio di riferimento in bas
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrica | # | % |
 |---|---|--:|--:|
-| | Visualizzazioni pagina:<br/>Visualizzazioni:<br/>Visitatori univoci: | **98.248** di 351.165 <br/>**33.203** di 165.173 <br/>**32.269** di 113.110 | **27%**<br/>**20%**<br/>**28%** |
+| | Visualizzazioni pagina:<br/>Visite:<br/>Visitatori univoci: | **98.248** di 351.165 <br/>**33.203** di 165.173 <br/>**32.269** di 113.110 | **27%**<br/>**20%**<br/>**28%** |
 
 <!--![](assets/container_report_persist_Visit.png)-->
 
@@ -535,7 +540,7 @@ Quando visualizzi i dati dal contenitore Visitatore, noterai che le visualizzazi
 
 | <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrica | # | % |
 |---|---|--:|--:|
-| | Visualizzazioni di pagina: <br/>Visite: <br/>Visitatori univoci: | **112.925** di 351.165 <br/>**43.448** di 165.173 <br/>**32.269** di 113.110 | **32%**<br/>**26%**<br/>**28%** |
+| | Visualizzazioni pagina:<br/>Visite:<br/>Visitatori univoci: | **112.925** di 351.165 <br/>**43.448** di 165.173 <br/>**32.269** di 113.110 | **32%**<br/>**26%**<br/>**28%** |
 
 <!--![](assets/container_report_persist_Visitor.png)-->
 

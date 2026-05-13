@@ -3,9 +3,15 @@ title: Ora del giorno
 description: L’ora numerica del giorno, indipendentemente dal giorno.
 feature: Dimensions
 exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+TQID: https://experienceleague.adobe.com/cktusukSxy7fHIIUi-7MSmx8Gl9FlUObfmJGS3VC3Jw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: 362
 ht-degree: 9%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 9%
 
 La dimensione &#39;Ora del giorno&#39; [dimensione](overview.md) riporta l&#39;ora numerica di un dato giorno come elemento dimensione. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno si raggruppa nello stesso elemento dimensionale. Questo rapporto è utile se desideri un rapporto suddiviso per ora del giorno relativa, ma non vuoi ore statiche come elementi dimensionali. È particolarmente utile come dimensione nei rapporti pianificati, in quanto questa dimensione viene aggregata all’intervallo di date selezionato.
 
-Questa dimensione si basa sul fuso orario della suite di rapporti e non su quello locale del visitatore. Ad esempio, se la suite di rapporti è in Fuso orario e un visitatore in California visita il tuo sito alle 00:00 (ora del Pacifico), gli hit vengono raggruppati sotto l’elemento di dimensione :00. `11:00 AM` Se desideri una dimensione che registri l&#39;ora del visitatore locale, Adobe consiglia di utilizzare il plug-in [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
+Questa dimensione si basa sul fuso orario della suite di rapporti e non su quello locale del visitatore. Ad esempio, se la suite di rapporti è in Fuso orario e un visitatore in California visita il tuo sito alle 00:00 (ora del Pacifico), gli hit vengono raggruppati sotto l’elemento di dimensione `11:00 AM`. :00Se desideri una dimensione che registri l&#39;ora del visitatore locale, Adobe consiglia di utilizzare il plug-in [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
 
 ## Popolare questa dimensione con i dati
 
@@ -22,7 +28,7 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono `12:00 AM` - `11:00 PM`, che rappresenta l&#39;ora del giorno in cui si è verificato l&#39;hit (arrotondato per difetto). Ad esempio, se un hit è stato generato alle 15:00, viene raggruppato sotto l&#39;elemento dimensionale :58.`3:00 PM`
+Gli elementi di Dimension includono `12:00 AM` - `11:00 PM`, che rappresenta l&#39;ora del giorno in cui si è verificato l&#39;hit (arrotondato per difetto). Ad esempio, se un hit è stato generato alle 15:00, viene raggruppato sotto l&#39;elemento dimensionale `3:00 PM`.:58
 
 ## Ora legale
 

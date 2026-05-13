@@ -4,10 +4,15 @@ description: Carica dati di esempio in una suite di rapporti per lo sviluppo.
 exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
 feature: Data Sources
 role: Admin
-source-git-commit: 27bcbd638848650c842ad8d8aaa7ab59e27e900e
+TQID: https://experienceleague.adobe.com/ekoyQHdhFXTc4bbOReIbGc-CKnhA3--laugeI91RvnU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 0%
+source-wordcount: 651
+ht-degree: 1%
 
 ---
 

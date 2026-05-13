@@ -3,10 +3,16 @@ title: Termini utilizzati in Adobe Analytics
 description: Glossario di Adobe Analytics che definisce i termini comuni utilizzati.
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: e934de3938f013067d6bbd6b516b0444b0c9f782
+TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c67272a6-888e-425e-9e97-a87304637eedid: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: e9cb007b-c8b7-4975-bc81-11a788c535faid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60bid: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '2579'
-ht-degree: 89%
+source-wordcount: 2639
+ht-degree: 88%
 
 ---
 
@@ -36,7 +42,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Classificazione:** una funzione di Adobe Analytics che consente il raggruppamento di elementi dimensionali. Consulta [Classificazioni](/help/components/classifications/classifications-overview.md) nella Guida utente sui componenti.
 * **ClickMap:** non più utilizzato. Plug-in del browser precedente che mostra le aree del sito su cui sono stati fatti più clic. Questo strumento è stato ritirato a favore di Activity Map.
 * **Feed di dati Clickstream:** consulta i feed di dati
-* **Coorte:** un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Consulta [Cos’è un’analisi per coorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) nella Guida agli strumenti di Analytics.
+* **Coorte:** un gruppo di persone che condividono le stesse caratteristiche per un determinato periodo di tempo. Vedi [Cos&#39;è l&#39;analisi per coorte?](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) nella Guida agli strumenti di Analytics.
 * **Server di raccolta:** consulta il server di raccolta dati.
 * **Componente:** i componenti in Analysis Workspace sono dimensioni, metriche, segmenti, intervalli di date, avvisi e metriche calcolate che è possibile trascinare su un progetto. Consulta [Panoramica dei componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) nella Guida agli strumenti di Analytics.
 * **Variabili dei dati contestuali:** variabili temporanee utilizzate esclusivamente nelle regole di elaborazione. I valori delle variabili dei dati contestuali vengono persi definitivamente se una regola di elaborazione non li copia in una variabile di conversione o di traffico. Consulta le [Variabili dei dati contestuali](../implement/vars/page-vars/contextdata.md) nella Guida utente per l’implementazione.
@@ -95,7 +101,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Intervallo date continuo:** tipo di intervallo di date relativo che cambia con il passare del tempo. Ad esempio, un rapporto che mostra gli ultimi 7 giorni può essere considerato un intervallo di date continuo. Consulta anche Intervallo di date statico.
 * **RSID:** abbreviazione di ID suite di rapporti. Una suite di rapporti ha sia un nome descrittivo che un ID suite di rapporti.
 * **s.t():** il nome della funzione in una libreria di AppMeasurement che invia una richiesta di immagine per la visualizzazione della pagina. Al contrario, alcune librerie di AppMeasurement utilizzano `s.track()`. Consulta [t](../implement/vars/functions/t-method.md) nella Guida utente per l’implementazione.
-* **s<span>.</span>tl():** il nome della funzione in una libreria di AppMeasurement che invia una richiesta di immagine di tracciamento dei collegamenti. Al contrario, alcune librerie di AppMeasurement utilizzano `s.trackLink()`. Consulta [tl](../implement/vars/functions/tl-method.md) nella Guida utente per l’implementazione.
+* **s<span>.</span>tl():** nome della funzione in una libreria AppMeasurement che invia una richiesta di immagine per il tracciamento dei collegamenti. Al contrario, alcune librerie di AppMeasurement utilizzano `s.trackLink()`. Consulta [tl](../implement/vars/functions/tl-method.md) nella Guida utente per l’implementazione.
 * **s_code.js:** nome del file JavaScript utilizzato nelle versioni storiche di Adobe Analytics. Il nome corrente del file JavaScript utilizzato è AppMeasurement.js.
 * **Chiamata al server secondaria:** nome alternativo della richiesta di immagine o hit, utilizzato principalmente nel contesto dell’assegnazione di tag per più suite e della fatturazione. Quando lo stesso hit viene inviato a più suite di rapporti, tutte queste elencate dopo la prima sono chiamate al server secondarie. Consulta anche Chiamate al server primarie.
 * **Segmento:** consente di concentrarsi su un sottoinsieme specifico di dati. Consulta [Segmentazione](/help/components/segmentation/seg-overview.md) nella Guida utente sui componenti.

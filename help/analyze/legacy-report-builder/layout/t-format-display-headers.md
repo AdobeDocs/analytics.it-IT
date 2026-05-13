@@ -5,9 +5,13 @@ uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/n9LlAH6wZ87xQTOO7SLYSpKudcHxuqqielFv6hJXAYw
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: 394
 ht-degree: 2%
 
 ---
@@ -29,7 +33,7 @@ Puoi assegnare un nome al rapporto e configurare la modalità di visualizzazione
    | Nome report | Visualizza il nome del tipo di report selezionato dalla struttura nella Richiesta guidata: Passaggio 1 (ad esempio, [!DNL Traffic Report]) oppure il nome digitato nel campo [!DNL Name this Request]. |
    | Filtri Parametri | Visualizza i filtri dimensione, ad esempio un filtro di ricerca. |
    | Segmento | Visualizza il parametro del segmento. |
-   | Data Recency | Visualizza i parametri di aggiornamento dei dati. Ad esempio:    Data Recency: Visualizzazioni pagina (1,5 ore fa), Uscite (30 minuti fa) Per informazioni sull&#39;elaborazione dei dati correnti, consulta [Opzioni](/help/analyze/legacy-report-builder/options.md). |
+   | Data Recency | Visualizza i parametri di aggiornamento dei dati. Ad esempio: Data Recency: Visualizzazioni pagina (1,5 ore fa), Uscite (30 minuti fa) Per informazioni sull&#39;elaborazione dei dati correnti, consulta [Opzioni](/help/analyze/legacy-report-builder/options.md). |
 
    Per quanto riguarda l&#39;ordine di visualizzazione, se la griglia [!UICONTROL Row Label] (nel passaggio 2) contiene un elemento, verrà visualizzata per prima nella richiesta. In caso contrario, verrà utilizzato il primo elemento presente nella griglia [!UICONTROL Column Label]. Se non esistono elementi riga o colonna, verrà visualizzato il primo elemento nella griglia [!UICONTROL Metrics].
 

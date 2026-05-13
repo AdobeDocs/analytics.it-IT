@@ -4,9 +4,15 @@ description: Implementa Adobe Analytics sulle pagine AMP.
 feature: Implementation Basics
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 role: Developer
-source-git-commit: 7d8df7173b3a78bcb506cc894e2b3deda003e696
+TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e6c28e30-8689-4bf4-8fa8-561343d308a9id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: 939
 ht-degree: 1%
 
 ---
@@ -31,7 +37,7 @@ Nella tabella seguente vengono confrontati i due metodi seguenti:
 | Conteggi di visitatori e visite nella suite di rapporti esistente | Elevata inflazione | Inflazione minima |
 | Utilizzare una suite di rapporti separata | Consigliato | Non necessario |
 | Visitatori nuovi e di ritorno | Non supportati | Supportati |
-| Servizio ID visitatori | Non supportati | Supportati |
+| Servizio ID visitatore | Non supportati | Supportati |
 | Tracciamento di video e collegamenti | Supporto parziale | Non ancora supportato |
 | Difficoltà di implementazione | Difficile | Relativamente facile |
 | Integrazioni Adobe Experience Cloud | Non supportati | Supporto parziale |

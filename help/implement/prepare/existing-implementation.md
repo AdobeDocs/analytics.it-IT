@@ -4,9 +4,13 @@ description: Istruzioni per gli amministratori che non hanno mai utilizzato unâ€
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 role: Admin, Developer, Leader
-source-git-commit: 08e29da4847e8ef70bd4435949e26265d770f557
+TQID: https://experienceleague.adobe.com/5F0Q5NrSnaTQp4xPizJ7fRmeRygZ-4YEteo-pKH-AjE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: 172
 ht-degree: 13%
 
 ---
@@ -24,7 +28,7 @@ Consulta questi suggerimenti dal tuo collega Proprietario tecnico, Sarah Owen. S
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza il playbook di implementazione ereditato](https://video.tv.adobe.com/v/3438767?quality=12&learn=on&captions=ita){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza il playbook di implementazione ereditato](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

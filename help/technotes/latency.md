@@ -4,9 +4,14 @@ keywords: dati mancanti;lento
 title: Disponibilità e latenza dei dati
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/tUoPm4FFCjyp9J4w6fHMMe-guBoVzLwbpU0Tbk-lgCA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: 824
 ht-degree: 0%
 
 ---
@@ -29,7 +34,7 @@ La latenza è causata da una delle seguenti categorie generali:
 
 * **Picco di traffico imprevisto:** Questo tipo di latenza si verifica quando vengono inviati a una suite di rapporti più dati di quelli impegnati contrattualmente o previsti. È la causa più comune di latenza.
 * **Problemi hardware normali:** Adobe utilizza strategie all&#39;avanguardia per la gestione e il monitoraggio del centro dati, la ridondanza dei dati e l&#39;affidabilità hardware. L&#39;hardware viene aggiornato regolarmente e insieme alle finestre di manutenzione pubblicate. La manutenzione di emergenza dell&#39;hardware guasto può richiedere un arresto necessario e temporaneo dell&#39;elaborazione dei dati (non nella raccolta dati) quando l&#39;hardware sostitutivo viene portato online. Questa interruzione temporanea dell’elaborazione può causare una latenza notevole.
-* **Dati anormali:** I pattern di dati non naturali, ad esempio visite insolitamente lunghe causate da un bot o da un crawler, possono aumentare temporaneamente alcuni carichi di elaborazione che determinano latenza.
+* **Dati anormali:** I pattern di dati non naturali, ad esempio visite insolitamente lunghe causate da un bot o da un crawler, possono aumentare temporaneamente alcuni carichi di elaborazione che determinano una latenza.
 
 ## Funzioni che dipendono dalla latenza
 
@@ -50,7 +55,7 @@ Esistono diverse strategie per evitare la latenza o ridurre il tempo di ripristi
    * Più di 20 valori nella variabile prodotti
    * Serializzazione degli eventi
 
-* Abilita filtro bot IAB: [Il filtro bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) può ridurre notevolmente la latenza se la suite di rapporti è frequentata da bot o crawler. Si consiglia di utilizzare l&#39;elenco di bot IAB, in quanto è aggiornato e gestito da [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un utente può personalizzare le proprie regole bot per integrare quelle di IAB.
+* Abilita il filtro dei bot IAB: [Il filtro dei bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) può ridurre notevolmente la latenza se la suite di rapporti è frequentata da bot o crawler. Si consiglia di utilizzare l&#39;elenco di bot IAB, in quanto è aggiornato e gestito da [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un utente può personalizzare le proprie regole bot per integrare quelle di IAB.
 
 ## Come comportarsi con la latenza
 

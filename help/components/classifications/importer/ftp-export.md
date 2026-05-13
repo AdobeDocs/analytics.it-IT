@@ -3,9 +3,14 @@ title: Esportazione dei dati di classificazione tramite FTP
 description: L’esportazione FTP offre maggiore flessibilità con i download dei set di dati, tra cui il download di dati da più suite di rapporti e il download di file di set di dati di dimensioni superiori a 50.000 righe di dati
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: 592
 ht-degree: 1%
 
 ---
@@ -45,8 +50,8 @@ Questi passaggi descrivono come esportare (scaricare) le classificazioni da Adob
 | [!UICONTROL Select Number of Rows] | Specifica quante righe di dati esportare.<ul><li>Selezionare **[!UICONTROL All]** per scaricare tutti i dati del report.</li><li>Selezionare **[!UICONTROL Limit Data Rows To]** se si desidera specificare un numero specifico di righe da scaricare.</li></ul> |
 | [!UICONTROL Filter by Date Received] | (Facoltativo) Filtra i dati in base alla data di ricezione. Specifica l’intervallo di date per il quale desideri scaricare i dati. |
 | [!UICONTROL Apply Data Filter] | (Facoltativo) Filtra il set di dati in base a criteri di dati. Puoi filtrare il download per includere righe di dati che includono un valore specifico o righe di dati con valori di colonna (classificazione) non assegnati. |
-| [!UICONTROL Date Filter] | (Facoltativo) Filtra i dati in base ai dati della campagna.Puoi scaricare i dati solo dalle campagne attive o selezionare le campagne che iniziano (o terminano) in un intervallo di date specifico. |
+| [!UICONTROL Date Filter] | (Facoltativo) Filtra i dati per dati della campagna.Puoi scaricare i dati solo dalle campagne attive, oppure selezionare le campagne che iniziano (o terminano) in un intervallo di date specifico. |
 | [!UICONTROL Export Numeric 2] | Puoi importare le classificazioni numeriche 2 nel sistema utilizzando l’importazione. Le classificazioni numeriche 2 sono utili per le variabili che cambiano nel tempo per elementi diversi, come i valori di costo e budget per il rapporto Canale di marketing. |
 | [!UICONTROL FTP Account] | Specifica le informazioni sul server FTP da cui vuoi che Adobe scarichi il file di dati, tra cui nome host e porta, percorso della directory di destinazione, nome utente e password. |
 | [!UICONTROL Notification] | Specifica l&#39;indirizzo e-mail per ricevere notifiche sul download FTP. |
-| [!UICONTROL Encoding] | Selezionare la codifica dei caratteri per il file di dati. Il formato di codifica predefinito è UTF-8 o ISO-8859-1, in base alla codifica caricata per la classificazione. Da UTF-8 a UTF-16 converte le classificazioni con codifica UTF-8 in codifica UTF-16. Le classificazioni codificate ISO-8859-1 in UTF-16 convertono le classificazioni codificate ISO-8859-1 nella codifica UTF-16.<br>**Nota:** se si sceglie di convertire in UTF-16, la codifica di origine deve corrispondere alla codifica del caricamento originale oppure è possibile ottenere risultati imprevisti. È consigliabile codificare tutti i file caricati in UTF-8 senza DBA. |
+| [!UICONTROL Encoding] | Selezionare la codifica dei caratteri per il file di dati. Il formato di codifica predefinito è UTF-8 o ISO-8859-1, in base alla codifica caricata per la classificazione. Da UTF-8 a UTF-16 converte le classificazioni con codifica UTF-8 in codifica UTF-16. ISO-8859-1 in UTF-16 converte le classificazioni con codifica ISO-8859-1 nella codifica UTF-16.<br>**Nota:** Se si sceglie di convertire in UTF-16, la codifica di origine deve corrispondere alla codifica del caricamento originale oppure è possibile ottenere risultati imprevisti. È consigliabile codificare tutti i file caricati in UTF-8 senza DBA. |

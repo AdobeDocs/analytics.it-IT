@@ -4,10 +4,16 @@ description: Collabora con Adobe per assicurarti che gli eventi a traffico eleva
 feature: Report Suite Settings
 role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/sRBWnaCF2I3WCOMrgWQvF9DP-jZ8eKwSfPbnbWpUcEI
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 66%
+source-wordcount: 715
+ht-degree: 68%
 
 ---
 
@@ -28,7 +34,7 @@ Per pianificare un picco di traffico:
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Traffic Management]** > **[!UICONTROL Schedule Spike]**.
 1. (Facoltativo) Puoi stimare chiamate server passate per avere un’idea migliore della dimensione del picco di traffico da pianificare.
 
-   Ad esempio, puoi ottenere la media giornaliera delle chiamate al server dell’anno scorso durante un intervallo di tempo specifico, più un aumento previsto del volume di chiamate al server per quest’anno. Puoi quindi pianificare i picchi di traffico in base a questo fattore di moltiplicazione.
+   Ad esempio, puoi ottenere la media giornaliera delle chiamate al server dell’anno scorso durante un intervallo di tempo specifico, più un aumento previsto del volume di chiamate al server per quest’anno. Puoi quindi pianificare un picco di traffico in base a questo fattore di moltiplicazione.
 
    1. Nell&#39;area **[!UICONTROL Past Server Calls]**, seleziona una data di inizio e una data di fine per le suite di rapporti selezionate.
 

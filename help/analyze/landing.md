@@ -4,10 +4,15 @@ title: Pagina di destinazione di Adobe Analytics
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 6b291ec1f9477bf814a26da35138449bfcb013a0
+TQID: https://experienceleague.adobe.com/TrWb3KVdVzowGpVN-y4vPSojpqvBSQCIS1sv0Q4orSE
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a5b0e28e-686f-409c-8733-7a2b13fe13c2id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b54aca0d-8aee-45f3-9966-1a84bd7bef52id: dcae653e-62c6-4cc8-84e6-ee110b848296id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 86%
+source-wordcount: 1470
+ht-degree: 85%
 
 ---
 
@@ -25,7 +30,7 @@ La pagina di destinazione di Adobe Analytics include le seguenti schede secondar
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta la ![pagina di destinazione di Adobe Analytics](/help/assets/icons/VideoCheckedOut.svg) [VideoCheckedOut](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"}.
+Per un video dimostrativo, consulta la ![pagina di destinazione di Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/navigating-the-new-landing-page){target="_blank"} [VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg).
 
 >[!ENDSHADEBOX]
 
@@ -35,7 +40,7 @@ La sezione **[!UICONTROL Projects]** nella barra a sinistra funge da home page p
 
 Per accedere ai progetti in Adobe Analytics:
 
-1. Seleziona la scheda [!UICONTROL **Workspace**].
+1. Selezionare la scheda [!UICONTROL **Workspace**].
 
 1. Seleziona [!UICONTROL **Progetti**] nella barra a sinistra.
 
@@ -101,7 +106,7 @@ Le colonne disponibili sono:
 
 Per accedere ai modelli in Adobe Analytics:
 
-1. Seleziona la scheda [!UICONTROL **Workspace**].
+1. Selezionare la scheda [!UICONTROL **Workspace**].
 
 1. Nella sezione [!UICONTROL **Modelli**] della barra a sinistra, puoi selezionare modelli Adobe o modelli aziendali.
 

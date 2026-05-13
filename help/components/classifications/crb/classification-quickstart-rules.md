@@ -3,10 +3,16 @@ description: Le regole di classificazione cercano regolarmente termini non class
 title: Regole di classificazione
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 39e4575fe059621c56d6531ab7d26898913188b8
+TQID: https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1913'
-ht-degree: 86%
+source-wordcount: 1921
+ht-degree: 83%
 
 ---
 
@@ -72,7 +78,7 @@ about_classification_rules.xml
 
   Le regole attive vengono elaborate ogni quattro ore ed esaminano i dati di classificazione che risalgono in genere a un mese. Le regole verificano automaticamente la presenza di nuovi valori e caricano le classificazioni utilizzando l’importazione.
 
-* **Sovrascrittura delle classificazioni esistenti**: consulta [In quali casi le regole non classificano le chiavi?](/help/components/classifications/crb/classification-quickstart-rules.md) Se necessario, puoi eliminare o rimuovere le classificazioni esistenti utilizzando l’importazione.
+* **Sovrascrittura delle classificazioni esistenti**: vedere [In quali casi le regole non classificano le chiavi?](/help/components/classifications/crb/classification-quickstart-rules.md) Se necessario, puoi eliminare o rimuovere le classificazioni esistenti utilizzando l’importazione.
 
 ## In quali casi le regole non classificano le chiavi?
 
@@ -133,14 +139,14 @@ Nel [!UICONTROL Rule Builder], configura la regola come segue:
 
 | Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | Su |
 |---|---|---|---|
-| Espressione regolare | &Hat;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
+| Espressione regolare | &amp;Cappello;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
 
 **Sintassi**
 
 | Espressione regolare | Stringa o risultato della corrispondenza | Relativi gruppi di corrispondenza |
 |--- |--- |--- |
 | `^(.+)\:(.+)\:(.+)$` | `em:JuneSale:20XX0601` | `$0`: `em:JuneSale:20XX0601` `$1`: em `$2`: JuneSale `$3`: 20XX0601 |
-| Creazione della sintassi | `^` = avvia la riga  () = raggruppa i caratteri e consente di estrarre i caratteri corrispondenti tra parentesi.  `(.+)` = acquisisce un carattere ( . ) e ( + ) qualsiasi altro carattere \ = inizio di una stringa.  `$` = indica che il carattere precedente (o il gruppo di caratteri) è l’ultimo della riga. | |
+| Creazione della sintassi | `^` = avvia la riga () = raggruppa i caratteri e consente di estrarre i caratteri corrispondenti tra parentesi.  `(.+)` = acquisisce un carattere ( . ) e ( + ) qualsiasi altro carattere \ = inizio di una stringa.  `$` = indica che il carattere precedente (o il gruppo di caratteri) è l&#39;ultimo della riga. | |
 
 Per informazioni sul significato dei caratteri in un’espressione regolare, consulta [Espressioni regolari - Tabella riferimenti](/help/components/classifications/crb/classification-quickstart-rules.md).
 
@@ -391,7 +397,7 @@ Per convalidare e attivare le regole di classificazione:
 
    ![](assets/overwrite_keys.png)
 
-1. (Facoltativo) Per sovrascrivere le classificazioni, abilita **[!UICONTROL Overwrite classifications for]** &lt;*selezione*>.
+1. Per sovrascrivere le classificazioni, abilita **[!UICONTROL Overwrite classifications for]** &lt;*selezione*> (facoltativo).
 
    Questa opzione consente di sovrascrivere le classificazioni esistenti per le chiavi interessate.
 

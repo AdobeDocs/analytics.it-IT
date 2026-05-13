@@ -4,10 +4,15 @@ description: Scopri come implementare Adobe Analytics utilizzando i tag e l’es
 feature: Tags
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 role: Admin, Developer
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/bnn0eqUbhHvQL2YPd1qVa9cSWWvGbAAae33IyC-w9kA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 23%
+source-wordcount: 396
+ht-degree: 25%
 
 ---
 
@@ -65,7 +70,7 @@ Panoramica ad alto livello dei compiti di implementazione:
 <tr>
 <td>6</td> 
 <td><b>Convalida e pubblicazione in produzione</b>. Incorpora il codice per includere la proprietà tag nelle pagine del sito web. Quindi utilizza elementi dati, regole e così via, per personalizzare l’implementazione.</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=it#embed-code">Codice di incorporamento</a><br/><a href="./validate-publish-prod.md">Convalidare un'implementazione di sviluppo e pubblicare in produzione</a></td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html#embed-code">Codice di incorporamento</a><br/><a href="./validate-publish-prod.md">Convalidare un'implementazione di sviluppo e pubblicare in produzione</a></td>
 </tr>
 
 </table>
@@ -74,6 +79,6 @@ Panoramica ad alto livello dei compiti di implementazione:
 
 I tag possono essere altamente personalizzati. Scopri come ottenere il massimo da Adobe Analytics includendo i dati corretti nella tua implementazione.
 
-- [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it#): scopri come funziona l&#39;interfaccia e quali estensioni sono disponibili.
+- [Documentazione sui tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#): scopri come funziona l&#39;interfaccia e quali estensioni sono disponibili.
 
 - [Variabili di implementazione](../vars/overview.md): determinare le variabili da inviare ai server di raccolta dati.

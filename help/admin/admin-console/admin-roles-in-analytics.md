@@ -4,10 +4,15 @@ description: Scopri come iniziare a utilizzare Adobe Analytics, i tipi di ruolo 
 feature: Admin Tools
 exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/zw5i-IcWrh9hlcYExqh8Wkukxa5dBlmF34oDbScnwBQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 51%
+source-wordcount: 1114
+ht-degree: 52%
 
 ---
 
@@ -43,7 +48,7 @@ Per consentire ad Adobe Analytics di accedere a te stesso o ad altri utenti:
 1. Assegna al profilo il nome &#39;Accesso completo come amministratore di Analytics&#39;, quindi fai clic su **[!UICONTROL Next]** > **[!UICONTROL Save]**.
 1. Nella pagina Profili di prodotto, fai clic sul nuovo profilo creato, quindi sulla scheda **[!UICONTROL Permissions]**.
 1. Fai clic su uno degli elementi della riga delle autorizzazioni. Se **[!UICONTROL Auto-include]** è disponibile, abilitalo. Se **[!UICONTROL Auto-include]** non è disponibile, fare clic su **[!UICONTROL Add all]**. Entrambe le opzioni spostano tutti gli elementi delle autorizzazioni nella colonna a destra.
-1. Fare clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]**.
 Ripeti il passaggio precedente per tutte le categorie di autorizzazione.
 1. Dopo aver concesso tutte le categorie di autorizzazione al profilo, torna alla pagina Prodotti facendo clic su **[!UICONTROL Product]** in alto.
 1. Nel riquadro Adobe Analytics fare clic su **[!UICONTROL Assign Users]**.
@@ -68,7 +73,7 @@ L’accesso come amministratore di prodotto per la raccolta dati in Experience P
 
 ## Concedere l’accesso come amministratore del prodotto per i profili di prodotto
 
-Per informazioni sull&#39;assegnazione degli utenti come amministratori dei profili di prodotto, consulta la sezione &quot;Gestire gli amministratori dei profili di prodotto&quot; nell&#39;articolo [Gestire i profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) nella guida utente Enterprise.
+Per informazioni sull&#39;assegnazione degli utenti come amministratori dei profili di prodotto, consulta la sezione &quot;Gestire gli amministratori dei profili di prodotto&quot; nell&#39;articolo [Gestire i profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) nella guida utente Enterprise.
 
 ## Passaggi successivi
 

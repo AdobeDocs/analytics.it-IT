@@ -4,10 +4,15 @@ title: Tecniche Di Statistica Utilizzate Nel Rilevamento Delle Anomalie
 feature: Anomaly Detection
 role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
-source-git-commit: b4c1636bdc9d5be522b16f945a46beabf4f7a733
+TQID: https://experienceleague.adobe.com/4DIICc89-1ppuJWmUpJBrDrOU7MH78dYBTCHTqkBE2E
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 70%
+source-wordcount: 1101
+ht-degree: 40%
 
 ---
 
@@ -21,21 +26,21 @@ A seconda della granularità della data applicata al rapporto, vengono usate 3 d
 
 Per i report con granularità giornaliera, l’algoritmo considera diversi fattori importanti per fornire risultati quanto più precisi possibile. In primo luogo, l’algoritmo determina il tipo di modello da applicare in base ai dati disponibili di cui seleziona una delle due classi: un modello basato su serie temporali o un modello di rilevamento di dati aberranti (filtro funzionale).
 
-Il primo si basa sulle seguenti combinazioni per tipo di errore, tendenza e stagionalità (ETS) come descritto da [Hyndman et al. (2008)](https://link.springer.com/book/10.1007/978-3-540-71918-2). Nello specifico, l’algoritmo prova le seguenti combinazioni:
+La selezione del modello della serie temporale si basa sulle seguenti combinazioni per tipo di errore, tendenza e stagionalità (ETS), come descritto da [Hyndman et al. (2008)](https://link.springer.com/book/10.1007/978-3-540-71918-2). In particolare, l’algoritmo prova le seguenti combinazioni:
 
 1. ANA (errore additivo, nessuna tendenza, stagionalità additiva)
 1. AAA (errore additivo, tendenza additiva, stagionalità additiva)
 1. MNM (errore moltiplicativo, nessuna tendenza, stagionalità moltiplicativa)
 1. MNA (errore moltiplicativo, nessuna tendenza, stagionalità additiva)
-1. AAN (errore additivo, tendenza additiva, nessuna stagionalità)
+1. AN (errore additivo, tendenza additiva, nessuna stagionalità)
 
-L’algoritmo verifica l’idoneità di ciascuna delle combinazioni selezionando quella con il miglior errore percentuale assoluto medio (MAPE). Tuttavia, se il valore MAPE del modello per serie temporale migliore è maggiore del 15%, viene applicato il filtro funzionale. In genere, i dati con un elevato grado di ripetizione (ad esempio, settimana su settimana o mese su mese) sono i più adatti a un modello di serie temporali.
+L’algoritmo verifica l’idoneità di ciascuna delle combinazioni selezionando quella con il miglior errore percentuale assoluto medio (MAPE). Tuttavia, se il MAPE del modello di serie temporali migliore è superiore al 15%, viene applicato un filtro funzionale. In genere, i dati con un elevato grado di ripetizione (ad esempio, settimana su settimana o mese su mese) sono i più adatti a un modello di serie temporali.
 
-Dopo la selezione del modello, l’algoritmo regola i risultati in base a festività e stagionalità anno su anno. Per le festività, l’algoritmo verifica la presenza delle seguenti festività nell’intervallo di date del rapporto:
+Dopo la selezione del modello, l’algoritmo regola quindi i risultati in base alle festività e alla stagionalità su base annua. Per le festività, l’algoritmo controlla se nell’intervallo di date del rapporto sono presenti le seguenti festività:
 
-* Memorial Day
+* Giorno della memoria
 * 4 luglio
-* Giorno del Ringraziamento
+* Ringraziamento
 * Black Friday
 * Cyber Monday
 * 24-26 dicembre
@@ -48,11 +53,11 @@ Dopo aver selezionato il modello e individuato le festività nell’intervallo d
 
 1. Costruire il periodo di riferimento delle anomalie. Questo periodo include fino a 35 giorni prima dell’intervallo di date del rapporto e un intervallo corrispondente di 1 anno prima. e tiene conto dei giorni bisestili quando necessario e di tutte le festività applicabili che possono essersi verificate in un giorno di calendario diverso nell’anno precedente.
 1. Verifica se le festività nel periodo corrente (escludendo l’anno precedente) sono anomale in base ai dati più recenti.
-1. Se la festività nell’intervallo di date corrente è anomala, regola il valore previsto e l’intervallo di affidabilità della festività corrente data la festività corrispondente dell’anno prima (considerando 2 giorni prima e dopo). La correzione per la festività corrente si basa sul valore MAPE più basso di:
+1. Se la festività nell’intervallo di date corrente è anomala, regola il valore previsto e l’intervallo di affidabilità della festività corrente data la festività corrispondente dell’anno prima (considerando 2 giorni prima e dopo). La correzione per la festività corrente si basa sull’errore percentuale assoluto medio più basso di:
 
    1. Effetti additivi
    1. Effetti moltiplicativi
-   1. Differenza anno su anno
+   1. Differenza YoY
 
 Osserva il notevole miglioramento delle prestazioni per i giorni di Natale e Capodanno nell’esempio seguente:
 
@@ -60,13 +65,13 @@ Osserva il notevole miglioramento delle prestazioni per i giorni di Natale e Cap
 
 ## Rilevamento delle anomalie con granularità oraria
 
-I dati orari si basano sullo stesso approccio algoritmico utilizzato per la granularità giornaliera. Tuttavia, contano su due pattern di tendenze: il ciclo di 24 ore e il ciclo weekend/feriale. Per acquisire questi due effetti stagionali, l’algoritmo orario crea due modelli distinti per weekend e giorno feriale utilizzando lo stesso approccio già descritto.
+I dati orari si basano sullo stesso approccio utilizzato dall’algoritmo di granularità giornaliera per le serie temporali. Tuttavia, contano su due pattern di tendenze: il ciclo di 24 ore e il ciclo weekend/feriale. Per cogliere questi due effetti stagionali, l’algoritmo orario costruisce due modelli distinti per un fine settimana e un giorno feriale, utilizzando lo stesso approccio descritto sopra.
 
-Le finestre di formazione per le tendenze orarie si basano su una finestra di lookback di 336 ore.
+Le finestre di formazione per le tendenze orarie si basano su un intervallo di lookback di 336 ore.
 
 ## Rilevamento delle anomalie con granularità settimanale e mensile
 
-Le tendenze settimanali e mensili non presentano le stesse tendenze settimanali o giornaliere riscontrate con granularità giornaliera o oraria; per questo motivo viene utilizzato un algoritmo distinto. Ogni settimana e ogni mese, un approccio di rilevamento dei valori anomali in due fasi è noto come test GESD (Generalized Extreme Studentized Deviate). Questo test considera il numero massimo di anomalie previste combinato con l’approccio di tipo diagramma a scatola regolato (metodo non parametrico per il rilevamento di dati aberranti) per determinare il numero massimo di dati aberranti. Le due fasi sono:
+Le tendenze settimanali e mensili non presentano le stesse tendenze settimanali o giornaliere rilevate con granularità giornaliera o oraria, pertanto viene utilizzato un algoritmo separato. Ogni settimana e ogni mese, un approccio di rilevamento dei valori anomali in due fasi è noto come test GESD (Generalized Extreme Studentized Deviate). Questo test considera il numero massimo di anomalie previste combinate con l’approccio box-plot adeguato (un metodo non parametrico per la scoperta di valori aberranti) per determinare il numero massimo di valori aberranti. Le due fasi sono:
 
 1. Funzione box-plot ponderata: determina il numero massimo di anomalie per i dati di input.
 1. Funzione GESD: applicata ai dati di input con il risultato della prima fase.
@@ -75,7 +80,7 @@ La fase di rilevamento delle anomalie stagionali per festività e anno su anno q
 
 ## Tecniche di statistica utilizzate nell’analisi dei contributi
 
-L’analisi dei contributi è un potente processo di machine learning progettato per individuare i fattori che contribuiscono a un’anomalia osservata in Adobe Analytics. Questa funzione è utile per individuare aree di interesse o opportunità per ulteriore analisi, in modo molto più rapido di quanto sarebbe altrimenti possibile.
+L’analisi dei contributi è un processo di apprendimento automatico intensivo progettato per individuare i contributori a un’anomalia osservata in Adobe Analytics. Questa funzione è utile per individuare aree di interesse o opportunità per ulteriore analisi, in modo molto più rapido di quanto sarebbe altrimenti possibile.
 
 L’analisi dei contributi esegue un algoritmo in due parti per ogni singolo elemento dimensionale disponibile nel rapporto Analisi dei contributi dell’utente. L’algoritmo opera in questo ordine:
 
@@ -87,7 +92,7 @@ L’analisi dei contributi esegue un algoritmo in due parti per ogni singolo ele
 
    ![](assets/cramers-v.png)
 
-1. Per ogni elemento dimensione, il residuo di Pearson (PR) viene utilizzato per misurare l’associazione tra la metrica anomala e ogni elemento dimensione. Il PR segue una distribuzione normale standard, che consente all’algoritmo di confrontare i PR di due variabili casuali anche se le deviazioni non sono paragonabili. In pratica, l’errore non è noto ed è stimato con correzione a campione finita.
+1. Per ogni elemento dimensione, il residuo di Pearson (PR) viene utilizzato per misurare l’associazione tra la metrica anomala e ogni elemento dimensione. PR segue una distribuzione normale standard, che consente all&#39;algoritmo di confrontare le PR di due variabili casuali anche se le deviazioni non sono confrontabili. In pratica, l’errore non è noto e viene stimato utilizzando una correzione del campione finita.
 
    Nell’esempio precedente della tabella 1, la PR, con correzione del campione finita per il paese i e il periodo di tempo 2, è data da
 

@@ -3,9 +3,14 @@ title: Risolvere i problemi relativi a picchi e cadute nei dati
 description: Scopri possibili motivi per cui puoi vedere aumenti o diminuzioni drastiche nei rapporti con tendenze.
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
 feature: Curate and Share, Data Configuration and Collection
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/fm9qbkh5RMaAQpgZa20YtZxbXioIO1Dm5DoZCBhEo9k
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: 856
 ht-degree: 0%
 
 ---
@@ -25,7 +30,7 @@ Le riduzioni di traffico sono suddivise in due sezioni: dati parziali e dati nul
 * **Latenza suite di rapporti**: occasionalmente, una suite di rapporti può riscontrare [latenza](../latency.md) a causa di una serie di fattori. Molti problemi di latenza vengono risolti in poche ore. Se hai dubbi su una suite di rapporti specifica, contatta l’Assistenza clienti di Adobe con l’ID suite di rapporti interessato.
 * **Rimozione dell&#39;implementazione**: a volte, quando un&#39;organizzazione apporta modifiche all&#39;implementazione o ristruttura il proprio sito, la riimplementazione di Analytics viene ignorata. Collabora con gli sviluppatori della tua organizzazione per implementare nuovamente il codice sul tuo sito.
 * **Problema di interfaccia/memorizzazione nella cache di Analytics**: in rari casi, la cache di un browser contiene dati non validi che fanno sì che tutti i rapporti restituiscano degli zeri. Per risolvere il problema, cancella i cookie e la cache del browser. Se la cancellazione dei cookie/cache non funziona, contatta l’Assistenza clienti per ottenere il rapporto mancante e l’intervallo di date; possono duplicare il problema e fornire ulteriori informazioni.
-* **Disponibilità di Analytics**: controllare [status.adobe.com](https://status.adobe.com/it/products/1173/) per eventuali problemi relativi alla raccolta o all&#39;elaborazione dei dati.
+* **Disponibilità di Analytics**: controllare [status.adobe.com](https://status.adobe.com/products/1173/) per eventuali problemi relativi alla raccolta o all&#39;elaborazione dei dati.
 
 ### Possibili cause di dati parzialmente mancanti o traffico ridotto
 

@@ -2,10 +2,14 @@
 title: Migrare dall’estensione tag Adobe Analytics all’estensione tag Web SDK
 description: Aggiorna l’implementazione di Analytics sui tag di raccolta dati di Adobe Experience Platform per utilizzare l’estensione Web SDK.
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
-source-git-commit: 7bd4a188e5a2171260f1f0696d8bebad854dba4a
+TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 5%
+source-wordcount: 1619
+ht-degree: 6%
 
 ---
 

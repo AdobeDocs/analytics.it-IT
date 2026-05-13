@@ -4,10 +4,16 @@ description: Scopri come i profili di prodotto possono essere utilizzati come pr
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
 role: Admin
-source-git-commit: 8f1a17d2b07d5b37ef6d3d3f426234b29be61319
+TQID: https://experienceleague.adobe.com/pEMsqMvXmpASV9-DOBoZHzbWp88v5kJioww9H1nJkzY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c67272a6-888e-425e-9e97-a87304637eedid: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 59%
+source-wordcount: 686
+ht-degree: 60%
 
 ---
 
@@ -15,7 +21,7 @@ ht-degree: 59%
 
 I profili di prodotto sono predefiniti di autorizzazione che gli amministratori di prodotto possono assegnare agli utenti all’interno di un’organizzazione. Se crei un profilo di prodotto e assegni un utente di Experience Cloud a tale profilo di prodotto, questi ereditano gli elementi di autorizzazione contenuti nel profilo di prodotto.
 
-Per informazioni generali sui profili di prodotto, tra cui la creazione di profili di prodotto e l&#39;assegnazione di utenti, consulta [Gestione dei profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) nella guida utente Enterprise.
+Per informazioni generali sui profili di prodotto, tra cui la creazione di profili di prodotto e l&#39;assegnazione di utenti, consulta [Gestione dei profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) nella guida utente Enterprise.
 
 ## Amministratori del profilo di prodotto
 
@@ -26,7 +32,7 @@ Gli amministratori dei profili di prodotto sono un gruppo facoltativo che può a
 * Gli amministratori dei profili di prodotto possono assegnare o rimuovere i profili di prodotto ai gruppi di utenti.
 * Gli amministratori dei profili di prodotto sono ideali per i lead o i manager dei team che devono concedere e gestire l’accesso ad Adobe Analytics per il proprio team. Gli utenti singoli non dovranno più preoccuparsi degli amministratori di sistema o dei prodotti per concedere l’accesso ad Adobe Analytics.
 
-Per informazioni su come assegnare gli amministratori dei profili di prodotto, consulta la sezione &quot;Gestire gli amministratori dei profili di prodotto&quot; nell&#39;articolo [Gestire i profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/it/enterprise/using/manage-product-profiles.html?lang=it) nella guida utente Enterprise.
+Per informazioni su come assegnare gli amministratori dei profili di prodotto, consulta la sezione &quot;Gestire gli amministratori dei profili di prodotto&quot; nell&#39;articolo [Gestire i profili di prodotto per gli utenti Enterprise](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html?lang=it) nella guida utente Enterprise.
 
 ## Autorizzazioni Adobe Analytics
 

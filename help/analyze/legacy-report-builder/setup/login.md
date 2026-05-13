@@ -5,9 +5,13 @@ uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
 role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
-source-git-commit: fcecc8a493852f5682fd7fbd5b9bb484a850922c
+TQID: https://experienceleague.adobe.com/xkXfYdzVjIIRXRCNrtQxaAl6KgisCVXTmTva0AqNbLA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: 248
 ht-degree: 2%
 
 ---
@@ -26,7 +30,7 @@ Per accedere a Report Builder, utilizza il tuo account di accesso di Experience 
 
 L’accesso ad Experience Cloud consente di utilizzare l’Enterprise ID (e-mail e password) per accedere a Adobe Experience Cloud.
 
-Fare clic su **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzati alla pagina Single Sign-On della società. Per ulteriori informazioni su Enterprise ID, consulta [Accedi all&#39;account aziendale o dell&#39;istituto di istruzione](https://helpx.adobe.com/it/enterprise/kb/enterprise-id-faq.html#whatis).
+Fare clic su **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzati alla pagina Single Sign-On della società. Per ulteriori informazioni su Enterprise ID, consulta [Accedi all&#39;account aziendale o dell&#39;istituto di istruzione](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
 
 ![Schermata che mostra la finestra di accesso di Adobe Experience Cloud con le opzioni di accesso con o senza il tuo Adobe ID](assets/adobe_id_login.png)
 

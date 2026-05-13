@@ -5,10 +5,16 @@ feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 hide: true
 role: Developer
-source-git-commit: 6b42f369c831daafa380b16b0dddb401567f41c0
+TQID: https://experienceleague.adobe.com/3X3RsfI3J96Ml4Q2UvnaaPLfBihSPvD-bfE8-yZujzU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 4%
+source-wordcount: 628
+ht-degree: 6%
 
 ---
 
@@ -16,8 +22,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
-> Questo articolo fornisce a **clienti Adobe Analytics che (prevedono di) implementare Adobe Analytics** sul proprio sito Web istruzioni su come fornire agli utenti del sito Web collegamenti di rinuncia. <p><p>
-> Se **stai visitando un sito Web che ha implementato Adobe Analytics** e desideri rinunciare, **<span style="color:red">questo articolo NON è adatto a te</span>**. Consulta [Opzioni sulla privacy di Adobe](https://www.adobe.com/privacy/opt-out.html) per controllare come Adobe utilizza le tue informazioni.
+> Questo articolo fornisce a **clienti Adobe Analytics che (prevedono di) implementare Adobe Analytics** sul proprio sito Web istruzioni su come fornire agli utenti del sito Web collegamenti di rinuncia. <p><p>> Se **stai visitando un sito Web che ha implementato Adobe Analytics** e desideri rinunciare, **<span style="color:red">questo articolo NON è adatto a te</span>**. Consulta [Opzioni sulla privacy di Adobe](https://www.adobe.com/privacy/opt-out.html) per controllare come Adobe utilizza le tue informazioni.
 
 Alcuni visitatori del tuo sito web preferiscono non includere le informazioni di navigazione nel set di dati. Adobe offre la possibilità di fornire ai visitatori del sito web un mezzo per rinunciare alle informazioni analizzate.
 
@@ -34,7 +39,7 @@ Quando un visitatore raggiunge un URL di rinuncia, gli viene richiesto di instal
 La pagina di rinuncia per l&#39;organizzazione dipende dal valore della variabile [`trackingServer`](../vars/config-vars/trackingserver.md) nell&#39;implementazione.
 
 * Nell’estensione Analytics:
-   1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+   1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
    1. Fai clic sulla proprietà del tag desiderata.
    1. Fare clic sulla scheda [!UICONTROL Extensions], quindi su [!UICONTROL Configure] in Adobe Analytics.
    1. Fare clic sul pannello a soffietto [!UICONTROL General] e prendere nota del valore [!UICONTROL Tracking Server].
@@ -43,7 +48,7 @@ La pagina di rinuncia per l&#39;organizzazione dipende dal valore della variabil
    1. Sul server web, apri il file AppMeasurement.js utilizzato sul sito in un editor di codice o di testo.
    1. Nota il valore della variabile `trackingServer`.
 
-* Utilizzo di [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=it):
+* Utilizzo di [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html):
    1. Passa al sito utilizzando il browser Chrome.
    1. Apri Experience Cloud Debugger, quindi passa a [!UICONTROL Network tab].
    1. Nota il valore [!UICONTROL Request URL - Hostname].

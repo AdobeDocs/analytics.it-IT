@@ -4,10 +4,16 @@ description: Come rimuovere i bot in Adobe Analytics
 feature: Bot Removal
 role: Admin
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/oAChv7R7BAOTvI4mKpkHsYLyaxhXSxXDWq4R8ma1n-M
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 74%
+source-wordcount: 770
+ht-degree: 63%
 
 ---
 
@@ -44,7 +50,7 @@ Una volta configurato l’elemento dati, segui [queste istruzioni](https://exper
 
 ### Passaggio 2: utilizza la segmentazione per identificare i bot
 
-Ora che l’ECID del visitatore è passato in un ID dichiarato, puoi utilizzare la [segmentazione in Analysis Workspace](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) per identificare i visitatori che si comportano come bot. I bot sono spesso definiti dal loro comportamento: visite a accesso singolo, agenti utente insoliti, informazioni sconosciute su dispositivi/browser, mancanza di referrer, nuovi visitatori, pagine di destinazione insolite e così via. Utilizza la potenza dei drill-down e della segmentazione di Workspace per identificare i bot che hanno evitato il filtro IAB e le regole bot della suite di rapporti. Ad esempio, questa è la schermata di un segmento che puoi utilizzare:
+Ora che l’ECID del visitatore è passato in un ID dichiarato, puoi utilizzare la [segmentazione in Analysis Workspace](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md) per identificare i visitatori che si comportano come bot. I bot sono spesso definiti dal loro comportamento: visite a accesso singolo, agenti utente insoliti, informazioni sconosciute su dispositivi/browser, assenza di referrer, nuovi visitatori, pagine di destinazione insolite e così via. Utilizza la potenza dei drill-down e della segmentazione di Workspace per identificare i bot che hanno evitato il filtro IAB e le regole bot della suite di rapporti. Ad esempio, questa è la schermata di un segmento che puoi utilizzare:
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-filter-seg1.png)
 
@@ -87,7 +93,7 @@ Imposta almeno un promemoria mensile per identificare e filtrare i nuovi bot, pr
 
 >[!MORELIKETHIS]
 >
->* [Blocco Bot Migliore (Parte 1): Nozioni Di Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=it)
->* [Migliore blocco dei bot (parte 2): identificazione dei bot e utilizzo di CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=it)
->* [Blocco Bot Migliore (Parte 3): Hit Governor](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=it)
+>* [Blocco Bot Migliore (Parte 1): Nozioni Di Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [Migliore blocco dei bot (parte 2): identificazione dei bot e utilizzo di CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [Blocco Bot Migliore (Parte 3): Hit Governor](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 

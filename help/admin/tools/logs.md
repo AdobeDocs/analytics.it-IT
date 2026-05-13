@@ -4,10 +4,16 @@ title: Registri
 feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 role: Admin
-source-git-commit: e09234ca27fbf923e026aa1f2ed0ebfed636bf7c
+TQID: https://experienceleague.adobe.com/TsWKmf74-b1RhjP0CSGZatLrGN39xDylj9tbFZg5R-Y
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: c6a85389-fb1b-4b26-96ea-08f17fed0c9fid: e44bec7e-8653-4d5b-b53e-60b1ae7c3475id: e499b847-6dc4-408a-9f0b-70d35ce9b711id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 18%
+source-wordcount: 578
+ht-degree: 20%
 
 ---
 
@@ -19,7 +25,7 @@ I file di registro sono utili per capire quando gli utenti accedono al sistema e
 
 ## Registro amministratore {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
-Il registro di amministrazione segnala tutte le modifiche apportate dagli amministratori negli strumenti di amministrazione. Il registro fornisce un gateway per i rapporti definiti dall’utente da uno qualsiasi dei tre registri. Puoi cercare gli eventi che corrispondono ai criteri selezionati in un intervallo di date specificato.
+Il registro di amministrazione segnala tutte le modifiche apportate dagli amministratori negli strumenti di amministrazione. Inoltre permette di creare rapporti definiti dall’utente da uno dei tre registri disponibili. Puoi cercare gli eventi che corrispondono ai criteri selezionati in un intervallo di date specificato.
 
 ## Registro di utilizzo e accesso {#section_6FBAF92D9EA244809C45A78A2F0A7232}
 
@@ -28,7 +34,7 @@ Il registro di amministrazione segnala tutte le modifiche apportate dagli ammini
 | Elemento | Descrizione |
 |---|---|
 | Intervallo date | Specifica un filtro per intervalli di date. È possibile immettere manualmente una data nel formato AAAA-MM-GG oppure fare clic sull&#39;icona Calendario per selezionare una data. |
-| Login | Filtra il registro in base al nome utente. |
+| Accedi | Filtra il registro in base al nome utente. |
 | IP | Filtra il registro in base a un indirizzo IP. |
 | Suite di rapporti | Filtra il registro in base a un ID suite di rapporti specifico. |
 | Tipo evento | Filtra il registro per tipo di evento. Seleziona un tipo di evento dall’elenco a discesa. Consulta l’elenco completo dei tipi di evento riportato di seguito. |
@@ -57,14 +63,14 @@ Il registro di amministrazione segnala tutte le modifiche apportate dagli ammini
 | Impostazioni dei rapporti | È stata gestita un’impostazione di report. |
 | Rapporti pianificati | Un report pianificato è stato gestito. |
 | Escludi per indirizzo IP | L&#39;impostazione IP è stata modificata. |
-| Denomina pagine | Obsoleto. |
+| Pagine dei nomi | Obsoleto. |
 | Classificazioni | È stata gestita una classificazione. |
 | Origini dati | Origine dati gestita. |
 | Progetto Workspace | Un progetto Workspace è stato visualizzato o modificato. |
 | Segmento | Un segmento è stato creato/modificato. |
 | Metrica calcolata | È stata creata/modificata una metrica calcolata. |
 | Intervallo date | È stato creato/modificato un intervallo di date. |
-| Suite di rapporti virtuali | È stata creata/modificata una suite di rapporti virtuale. |
+| Suite di rapporti virtuale | È stata creata/modificata una suite di rapporti virtuale. |
 | Analisi contributi | È stato eseguito un processo di analisi dei contributi. |
 | Metodo Api | È stata effettuata una chiamata API. |
 
@@ -83,7 +89,7 @@ Gli strumenti che possono modificare una suite di rapporti dall&#39;esterno di [
 |---|---|
 | Intervallo date | Specifica un filtro per intervalli di date. È possibile immettere manualmente una data nel formato AAAA-MM-GG oppure fare clic sull&#39;icona Calendario per selezionare una data. |
 | Azienda | Filtra il registro in base al nome della società. |
-| Login | Filtra il registro in base al nome utente. |
+| Accedi | Filtra il registro in base al nome utente. |
 | IP | Filtra il registro in base a un indirizzo IP. |
 | Evento | Filtra il registro in base a una parola o a una frase nella descrizione dell’evento. |
 | Scarica rapporto | Esporta il contenuto di [!UICONTROL Usage & Access Log] in un file delimitato da tabulazioni. |

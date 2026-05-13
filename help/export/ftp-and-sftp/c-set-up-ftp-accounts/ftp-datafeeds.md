@@ -1,13 +1,16 @@
 ---
-description: I feed dati sono un'esportazione dei dati clickstream ricevuti da Adobe, che offre sia feed di dati standard, che personalizzati.
+description: I feed di dati sono un’esportazione dei dati di click-stream ricevuti da Adobe che offre feed di dati sia standard che personalizzati.
 keywords: ftp;sftp
 title: Feed dati
 feature: FTP Export
 exl-id: 286050fa-e197-4b70-b167-da6921615c1b
-source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
+TQID: https://experienceleague.adobe.com/SWXC-g3KTGuKiT0CBFfptUSBigs8pgkPVdRLzWhl6z4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 61%
+source-wordcount: 322
+ht-degree: 1%
 
 ---
 
@@ -19,8 +22,8 @@ ht-degree: 61%
 
 I feed di dati sono un&#39;esportazione dei dati clickstream ricevuti da Adobe che offre [feed di dati](/help/export/analytics-data-feed/data-feed-overview.md) standard e personalizzati.
 
-Se hai acquistato Adobe Data Warehouse, [!UICONTROL Standard Data Feeds] puoi impostare i tuoi feed dati di Analytics. Questi feed possono essere inviati a un qualsiasi account FTP (uno configurato da Adobe o un FTP esterno). Adobe Engineering Services offre [!UICONTROL Data Feeds] personalizzati che possono essere inviati con qualsiasi mezzo.
+Se hai acquistato Adobe Data Warehouse, [!UICONTROL Standard Data Feeds] puoi impostare i tuoi feed dati di Analytics. Possono essere inviati a qualsiasi account FTP (configurato da Adobe o da un FTP esterno). Adobe Engineering Services offre [!UICONTROL Data Feeds] personalizzati che possono essere inviati con qualsiasi mezzo.
 
-[!UICONTROL Data Feed] account FTP consentono 10 GB (per impostazione predefinita). Tutti gli altri account FTP standard consentono di archiviare 50 MB, per impostazione predefinita. Quando i client utilizzano l&#39;account FTP in maniera corretta e per il proprio utilizzo previsto, alcuni utenti che generano elevate quantità di traffico potrebbero riempire velocemente questi account. Quando un account FTP è pieno, non è possibile trasmettervi in push nessun altro file. Di conseguenza, tutti i file consegnati a tale account FTP ( [!UICONTROL Data Feeds], richieste data warehouse e così via) non vengono consegnati. Questo è solo uno dei motivi per cui è importante gestire il tuo account Adobe FTP rimuovendo i file ricevuti e già scaricati.
+[!UICONTROL Data Feed] account FTP consentono 10 GB (per impostazione predefinita). Tutti gli altri account FTP standard hanno una dimensione predefinita di 50 MB. Nei casi in cui i clienti utilizzano l’account FTP per il suo corretto utilizzo, alcuni utenti con grandi quantità di traffico possono riempire rapidamente questi account. Quando un account FTP è pieno, non è possibile inviare loro altri file. Di conseguenza, tutti i file consegnati a tale account FTP ( [!UICONTROL Data Feeds], richieste data warehouse e così via) non vengono consegnati. Questo è uno dei motivi per cui è importante gestire il tuo account FTP di Adobe rimuovendo i file che sono stati ricevuti e scaricati.
 
-Quando un account FTP è pieno dovrai scaricare e rimuovere tutti i file contenuti e comunicare ad Adobe che è stato liberato spazio utile. Adobe può quindi inviare nuovamente file eventualmente non consegnati. Alcuni strumenti, come ad esempio data warehouse, permettono agli utenti di inviare nuovamente tali file. Il nuovo invio potrebbe non richiedere l&#39;intervento di Adobe. Se ritieni che il tuo account FTP si riempia velocemente, contatta l&#39;Assistenza clienti di Adobe, la quale può consigliarti alternative per la consegna che possono includere un aumento dello spazio FTP e della porzione dedicata ai file nell&#39;account.
+Quando un account FTP è pieno, devi scaricare e rimuovere i file correnti e comunicare ad Adobe che lo spazio è stato cancellato. Adobe può quindi inviare nuovamente i file che non sono stati consegnati. Alcuni strumenti, ad esempio data warehouse, consentono agli utenti di inviare nuovamente questi file. L’invio può non richiedere il coinvolgimento di Adobe. Se l’account FTP sembra riempirsi frequentemente, contatta l’Assistenza clienti di Adobe, che può suggerire alternative di consegna che possono includere l’aumento dello spazio FTP e della quota del numero di file sull’account.

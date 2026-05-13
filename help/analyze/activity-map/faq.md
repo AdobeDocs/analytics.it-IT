@@ -4,9 +4,14 @@ description: Domande frequenti relative ad Activity Map.
 feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-source-git-commit: f242ec6613cf046224f76f7edc7813a34c65fff8
+TQID: https://experienceleague.adobe.com/Bpcg3brrcxd9D6O3vFfhdZ7evCrJfarsKSzlOcYCMUg
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: 1065
 ht-degree: 16%
 
 ---
@@ -138,7 +143,7 @@ Sì. Tuttavia, a causa delle limitazioni della suite di rapporti virtuali, la mo
 Il metodo per disabilitare Activity Map dipende dal tipo di implementazione:
 
 * **Estensione Web SDK**: nelle impostazioni di configurazione dell&#39;estensione, deselezionare le caselle **[!UICONTROL Collect internal link clicks]**, **[!UICONTROL Collect external link clicks]** e **[!UICONTROL Collect download link clicks]**.
-* **Libreria Web SDK JavaScript**: impostare [`clickCollectionEnabled`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) su `false`.
+* **Libreria Web SDK JavaScript**: impostare [`clickCollectionEnabled`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/clickcollectionenabled) su `false`.
 * **Estensione Analytics**: nelle impostazioni di configurazione dell&#39;estensione, deselezionare la casella con etichetta **[!UICONTROL Use Activity Map]**.
 * **AppMeasurement**: rimuovi o commenta il modulo Activity Map in `AppMeasurement.js` oppure sovrascrivi la chiamata della funzione del modulo con un corpo vuoto:
 

@@ -4,10 +4,15 @@ title: Esempi di etichettatura
 feature: Data Governance
 role: Admin
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 0b8b9d0067c183bfeb13816f942b3726ac66d08c
+TQID: https://experienceleague.adobe.com/pnvpIQ1J8-XkP4bTA7JqTXswkYxxLKb-Df3ABRC1NcY
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 46%
+source-wordcount: 734
+ht-degree: 51%
 
 ---
 
@@ -23,11 +28,11 @@ Supponiamo di disporre dei seguenti dati di hit:
 
 | Etichette | I2 <br> ID-PERSON <br> DEL-PERSON <br> ACC-PERSON | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL | I2 <br> DEL-PERSON <br> ACC-PERSON | I2 <br> DEL-DEVICE <br> DEL-PERSON <br> ACC-ALL | I2 <br> ID-DEVICE <br> DEL-DEVICE <br> ACC-ALL |
 |---|---|---|---|---|---|
-| **Nome variable** <br> **(Namespace)** | **MyProp1** <br> **(utente)** | **ID visitatore** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
+| **Nome variable** <br> **(Spazio dei nomi)** | **MyProp1** <br> **(utente)** | **ID visitatore** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | Dati hit | Mary | 77 | A | M | X |
 | | Mary | 88 | B | N | Y |
 | | Mary | 99 | C | O | Z |
-| | John | 77 | D | P | L |
+| | John | 77 | D | P | W |
 | | John | 88 | E | N | U |
 | | John | 44 | F | Q | V |
 | | John | 55 | G | R | X |
@@ -46,7 +51,7 @@ Ad esempio, il file di riepilogo contiene i valori indicati nella tabella seguen
     <th colspan="5" style="text-align:center">Dati in un file di accesso di riepilogo</th>
   </tr>
   <tr>
-    <th>Namespace/ID</th>
+    <th>Spazio dei nomi/ID</th>
     <th>expandIDs</th>
     <th></th>
     <th>MyProp1</th>
@@ -259,7 +264,7 @@ Con una richiesta di eliminazione che utilizza i valori API nella prima riga del
     <td>77</td>
     <td>D</td>
     <td>P</td>
-    <td>L</td>
+    <td>W</td>
   </tr>
   <tr>
     <td>John</td>

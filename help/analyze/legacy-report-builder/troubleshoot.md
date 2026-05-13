@@ -5,10 +5,15 @@ uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+TQID: https://experienceleague.adobe.com/al9ySg7-3MCg-NZgdci4bDs4B9jNzpdBxlgBTrew2Hs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 52%
+source-wordcount: 1407
+ht-degree: 46%
 
 ---
 
@@ -26,8 +31,8 @@ Questo introduce un problema di compatibilità per le versioni successive: quand
 
 Si verificherà questo effetto collaterale all’apertura di una cartella di lavoro ARB v5.1 con richiesta di classificazione:
 
-* All’apertura della cartella di lavoro viene visualizzato il seguente avviso: “La cartella di lavoro è stata salvata l’ultima volta con Report Builder v5.1. Questa versione ha introdotto alcune funzionalità incompatibili con la versione di Report Builder installata in questo computer. Prima di aggiornare la cartella di lavoro, si consiglia di effettuare l’aggiornamento alla versione più recente di Report Builder”.
-* Facendo clic con il pulsante destro del mouse su una richiesta ARB con classificazione, i menu di scelta rapida di Report Builder (modifica richiesta, aggiungi richiesta dipendente...) non verranno visualizzati.
+* All’apertura della cartella di lavoro viene visualizzato il seguente avviso: &quot;La cartella di lavoro è stata salvata l’ultima volta con Report Builder v5.1. Questa versione ha introdotto alcune funzionalità incompatibili con la versione di Report Builder installata nel computer. Prima di aggiornare la cartella di lavoro, si consiglia di effettuare l’aggiornamento alla versione più recente di Report Builder”.
+* Se fai clic con il pulsante destro del mouse su una richiesta ARB con classificazione, vengono visualizzati i menu di scelta rapida di Report Builder (modifica richiesta, aggiungi richiesta dipendente...) non verrà visualizzato.
 * Se si esegue un aggiornamento completo facendo clic sul terzo pulsante o aggiornando un set di richieste dal modulo Request Manager, la richiesta di classificazione verrà eseguita senza errori. Tuttavia, i valori delle classificazioni non verranno forniti.
 * È comunque possibile modificare la richiesta aprendo Request Manager e passando da una riga all’altra fino a raggiungere la richiesta corretta.
 * Se si modifica la richiesta lasciando invariati tutti i parametri e si fa clic su Fine, la risposta verrà fornita correttamente. La modifica della richiesta risolve il problema mano a mano che i parametri del layout di risposta vengono nuovamente serializzati. Quindi c’è una soluzione alternativa, anche se richiede molto tempo.
@@ -57,14 +62,14 @@ I seguenti fattori possono aumentare la complessità delle richieste e rallentar
   |  | Esempio: in caso di raggruppamento da A a Z, il numero di elementi per A deve sempre essere minore del numero di elementi per Z, in caso contrario il tempo di richiesta può aumentare notevolmente. |  |
   | Intervallo date | Intervallo piccolo | Intervallo ampio |
   | Filtro | Filtro specifico | Filtri più popolari |
-  | Granularity (Granularità) | Aggregata | Oraria<ul><li>Giornaliero</li><li>Settimanale</li><li>Mensile</li><li>Trimestrale</li><li>Annuale</li></ul> |
+  | Granularity (Granularità) | Aggregata | Oraria<ul><li>Ogni giorno</li><li>Settimanale</li><li>Mensile</li><li>Trimestrale</li><li>Annuale</li></ul> |
   | Numero di voci | Set di dati piccolo | Set di dati grande |
 
 * **Ora di pianificazione**: pianificazione scaglionata su un periodo di 24 ore (vedere la tabella seguente). I segnalibri, le dashboard e le cartelle di lavoro di Report Builder esistenti pianificati insieme potrebbero causare ritardi. Pianifica le richieste più grandi e complesse la mattina presto per consentire l’esecuzione di richiami manuali e aggiornamenti durante la giornata lavorativa.
 
   | Tempo di pianificazione | 1:00 - 2:00 | 2:00 - 7:00 | 7:00 - 18:00 | 18:00 - mezzanotte |
   |--- |--- |--- |--- |--- |
-  | Utilizzo di Report Builder | Poco utilizzato | Molto utilizzato | Utilizzo lato client.<br>Volumi più elevati di utenti che aggiornano localmente e richiedono invii immediati.<br>Inoltre, verifica se la coda API viene cancellata quando scadono le cartelle di lavoro pianificate. | Non molto utilizzato |
+  | Utilizzo di Report Builder | Poco utilizzato | Molto utilizzato | Utilizzo lato client.<br>Volumi più elevati di utenti che aggiornano localmente e richiedono invii immediati.<br>Verificare inoltre che la coda API venga cancellata quando scadono le cartelle di lavoro pianificate. | Non molto utilizzato |
 
 * **Timeout**: qualsiasi rapporto pianificato scade dopo quattro ore. Il sistema tenta di pianificare altre tre volte, generando potenzialmente un errore. In genere, più grande è il set di dati, più lungo sarà il tempo necessario per l&#39;esecuzione. Questi sono visibili nella reportistica di [!DNL Analytics] e in Report Builder:
 
@@ -76,12 +81,12 @@ Questa sezione include un elenco di esempi di messaggi di errore che possono ver
 >
 >Questo è un esempio di messaggi di errore e non un elenco esaustivo. Per ulteriori informazioni sulla risoluzione degli errori, contatta l’amministratore.
 
-* **Questa caratteristica può essere applicata solo a una cartella di lavoro aperta.**: se in Excel non sono aperte cartelle di lavoro (documenti foglio di calcolo) e si fa clic su una delle icone nella barra degli strumenti di Report Builder, viene visualizzato questo messaggio. Inoltre, la barra degli strumenti viene disattivata fino all’apertura di un foglio di calcolo. Tuttavia, è possibile fare clic sull’icona della guida online mentre la barra degli strumenti è ancora abilitata senza causare questo errore.
-* **Uscire da [!UICONTROL Request Wizard] prima di attivare [!UICONTROL Request Manager].**: anche se [!UICONTROL Request Manager] e [!UICONTROL Request Wizard] sono collegati correttamente, non è possibile iniziare a lavorare con [!UICONTROL Request Manager] prima di completare o annullare le azioni eseguite in [!UICONTROL Request Wizard].
+* **Questa caratteristica può essere applicata solo a una cartella di lavoro aperta.**: se non sono aperte cartelle di lavoro (documenti foglio di calcolo) in Excel e si fa clic su una delle icone nella barra degli strumenti di Report Builder, viene visualizzato questo messaggio. Inoltre, la barra degli strumenti viene disattivata fino all’apertura di un foglio di calcolo. Tuttavia, è possibile fare clic sull’icona della guida online mentre la barra degli strumenti è ancora abilitata senza causare questo errore.
+* **È necessario uscire da [!UICONTROL Request Wizard]prima di attivare [!UICONTROL Request Manager].**: anche se [!UICONTROL Request Manager] e [!UICONTROL Request Wizard] sono collegati correttamente, non è possibile iniziare a lavorare con [!UICONTROL Request Manager] prima di completare o annullare le azioni eseguite in [!UICONTROL Request Wizard].
 * **Nessuna richiesta associata a questo intervallo.**: questo messaggio di errore si verifica se si fa clic sul pulsante [!UICONTROL From Sheet] in [!UICONTROL Request Manager] quando una cella del foglio di calcolo non contiene richieste. Per identificare le celle del foglio di calcolo contenenti richieste, fai clic sulle singole richieste elencate nella tabella in [!UICONTROL Request Manager]. Se una richiesta è associata alle celle, queste ultime appaiono evidenziate quando la richiesta viene selezionata nella tabella.
-* **L’intervallo selezionato non è valido. Seleziona un altro intervallo.**: se è selezionata una cella del foglio di calcolo a cui è già stata mappata una richiesta, si verifica questo errore. Elimina la richiesta mappata alle celle o scegli un altro intervallo di celle da mappare. Per eliminare le celle è importante individuare le celle contenenti richieste ed eliminare la richiesta prima di eliminare le celle (ovvero rimuovere righe o colonne).
-* **Esci dalla cella Excel con lo stato attivo prima di utilizzare questa funzione.**: se sei in *modalità di modifica* in una cella Excel e fai clic su una delle icone di Report Builder, viene visualizzato questo messaggio di errore. La modalità di modifica in una cella Excel indica che la cella è selezionata e il cursore viene visualizzato al suo interno. In una cella di Excel è inoltre attiva la modalità di modifica quando si digita direttamente nella barra [!UICONTROL Formula] o nella [!UICONTROL Name Box] nella parte superiore di Excel.
-* **L’intervallo selezionato interseca l’intervallo di un’altra richiesta. Modifica la selezione.**: se hai già mappato un set di celle al foglio di calcolo, viene visualizzato questo errore.
+* **L’intervallo selezionato non è valido. Selezionare un altro intervallo.**: se è selezionata una cella del foglio di calcolo a cui è già associata una richiesta, si verifica questo errore. Elimina la richiesta mappata alle celle o scegli un altro intervallo di celle da mappare. Per eliminare le celle è importante individuare le celle contenenti richieste ed eliminare la richiesta prima di eliminare le celle (ovvero rimuovere righe o colonne).
+* **Esci dalla cella Excel con lo stato attivo prima di utilizzare questa funzionalità.**: se sei in *modalità di modifica* in una cella Excel e fai clic su una delle icone di Report Builder, viene visualizzato questo messaggio di errore. La modalità di modifica in una cella Excel indica che la cella è selezionata e il cursore viene visualizzato al suo interno. In una cella di Excel è inoltre attiva la modalità di modifica quando si digita direttamente nella barra [!UICONTROL Formula] o nella [!UICONTROL Name Box] nella parte superiore di Excel.
+* **L’intervallo selezionato interseca l’intervallo di un’altra richiesta. Modificare la selezione.**: se è già stato mappato un set di celle al foglio di calcolo, verrà visualizzato questo errore.
 * **Ripristino della cartella di lavoro (record rimossi: formula dalla parte /xl/calcChain.xml)**: a volte le formule di una cartella di lavoro vengono danneggiate durante il salvataggio o il trasferimento. Quando il file viene aperto, Excel tenta di eseguire queste formule e ha esito negativo. È possibile risolvere il problema rimuovendo `calcChain.xml` dal foglio di calcolo, obbligando Excel ad aggiornare i calcoli della formula.
    1. Rinominare l&#39;estensione di file della cartella di lavoro da `.xlsx` a `.zip`.
    2. Decomprimere il contenuto e aprire la cartella `/xl/`.

@@ -6,9 +6,13 @@ feature: Report Builder
 type: Documentation
 solution: Analytics
 exl-id: fd3ff12a-14de-46f6-ab89-a0152fb11b0d
-source-git-commit: ff1722416fe5062d16c12185d17271ebc2d6b624
+TQID: https://experienceleague.adobe.com/RDgK9vgflGZC0HWd1GD-9nmBNdsJAHYEWt4jrmLGw5w
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 733
 ht-degree: 2%
 
 ---
@@ -114,8 +118,8 @@ Per creare il blocco di dati, seleziona i componenti del rapporto, quindi person
 >[!MORELIKETHIS]
 >
 >[Seleziona una suite di rapporti](select-report-suite.md)
->[Seleziona un intervallo di date](select-date-range.md)
->[Filtra dimensioni](filter-dimensions.md)
+>[Selezionare un intervallo di date](select-date-range.md)
+>[Filtrare le dimensioni](filter-dimensions.md)
 >[Operazioni con i segmenti](work-with-segments.md)
 >
 

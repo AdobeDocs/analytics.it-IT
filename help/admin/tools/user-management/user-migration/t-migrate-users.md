@@ -1,17 +1,23 @@
 ---
 description: Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’Admin Console.
-title: 'Eseguire la migrazione degli account utente di Analytics per Adobe ID '
+title: Eseguire la migrazione degli account utente di Analytics per Adobe ID
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 role: Admin
-source-git-commit: a6967c7d4e1dca5491f13beccaa797167b503d6e
+TQID: https://experienceleague.adobe.com/bD-qiEI3KbDBNe4aO01-MqzjoZ-OMcGAnd9vnMTBmZs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 91%
+source-wordcount: 398
+ht-degree: 70%
 
 ---
 
-# Eseguire la migrazione degli account utente di Analytics per Adobe ID 
+# Eseguire la migrazione degli account utente di Analytics per Adobe ID
 
 Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’Admin Console.
 
@@ -23,7 +29,7 @@ Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’
 
    ![](/help/admin/tools/user-management/user-migration/assets/migration-progress.png)
 
-   La pagina Migrazione ID utente contiene due sezioni: *Avanzamento migrazione* e *Informazioni utente*.
+   La pagina Migrazione ID utente include due sezioni: *Avanzamento migrazione* e *Informazioni utente*.
 
 ## Avanzamento migrazione
 
@@ -40,15 +46,15 @@ Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’
       <td colname="col2"> <p>Gli utenti hanno accettato l’invito. </p> </td> 
    </tr> 
    <tr> 
-      <td colname="col1"> <p>Accesso legacy disattivato </p> </td> 
-      <td colname="col2"> <p>L’accesso legacy con un ID della società è stato disattivato. Gli utenti adesso potranno accedere a Experience Cloud utilizzando il proprio Adobe ID o Enterprise ID. Quando tutti gli utenti avranno raggiunto questa fase, avrai completato la migrazione. </p> <p>Durante la migrazione, l’accesso legacy è disattivato. Gli utenti vengono reindirizzati a <span class="filepath"> experiencecloud.adobe.com</span> e devono accedere utilizzando il loro Adobe ID o Enterprise ID. </p> </td> 
+      <td colname="col1"> <p>Accesso legacy disabilitato </p> </td> 
+      <td colname="col2"> <p>L’accesso legacy tramite un ID società è disabilitato. Ora gli utenti accedono all’Experience Cloud utilizzando il proprio Adobe ID o Enterprise ID. Quando tutti gli utenti avranno raggiunto questa fase, avrai completato la migrazione. </p> <p>Durante la migrazione, l’accesso legacy è disattivato. Gli utenti vengono reindirizzati a <span class="filepath"> experiencecloud.adobe.com</span> e devono accedere utilizzando il loro Adobe ID o Enterprise ID. </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
 ## Informazioni utente
 
-Informazioni utente descrive gli utenti nella tua organizzazione, separati per nome del dominio.
+Informazioni utente delinea gli utenti dell’organizzazione, separati per nome di dominio.
 
 <table id="table_3822E27AF81E4A188562FEB5131548A5"> 
 <thead> 
@@ -60,7 +66,7 @@ Informazioni utente descrive gli utenti nella tua organizzazione, separati per n
 <tbody> 
 <tr> 
    <td colname="col1"> <p>Dominio </p> </td> 
-   <td colname="col2"> <p>I domini sono specifici degli ID e-mail dell’attuale base di utenti di Analytics. Un dominio può essere registrato da una sola organizzazione ed esclusivamente dagli amministratori di sistema. Per ulteriori informazioni, vedi <a href="https://helpx.adobe.com/it/enterprise/help/request-access-to-claimed-domain.html">Richiedere l’accesso a un dominio registrato</a>. </p> </td> 
+   <td colname="col2"> <p>I domini sono specifici per gli ID e-mail della base di utenti Analytics corrente. Un dominio può essere registrato da una sola organizzazione ed esclusivamente dagli amministratori di sistema. Per ulteriori informazioni, vedi <a href="https://helpx.adobe.com/it/enterprise/help/request-access-to-claimed-domain.html">Richiedere l’accesso a un dominio registrato</a>. </p> </td> 
 </tr> 
 <tr> 
    <td colname="col1"> <p>Dominio registrato </p> </td> 

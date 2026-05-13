@@ -3,10 +3,15 @@ title: Confrontare i dati di Adobe Analytics con prodotti di terze parti
 description: Scopri le opzioni quando confronti direttamente i dati in Adobe Analytics con quelli raccolti da altre soluzioni Analytics.
 feature: Third-party Integration
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+TQID: https://experienceleague.adobe.com/I-zMxnrvOOk3NUjeQFbcrIq0nAPO6AAaO0eznskChgQ
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 0%
+source-wordcount: 259
+ht-degree: 3%
 
 ---
 

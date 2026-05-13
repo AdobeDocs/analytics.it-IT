@@ -1,12 +1,17 @@
 ---
 description: Il gestore delle suite di rapporti virtuali consente agli amministratori di modificare, aggiungere, assegnare tag, eliminare, rinominare, approvare, copiare, esportare e filtrare le suite di rapporti virtuali. questa funzione non è visibile agli utenti non amministratori.
-keywords: Suite di rapporti virtuali
+keywords: Suite di rapporti virtuale
 title: Gestione delle suite di rapporti virtuali
 feature: VRS
 exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
-source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+TQID: https://experienceleague.adobe.com/ty0vdByiytUJcbNpBMqyp10S2wDRCVllzxbY99r3coA
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: 474
 ht-degree: 19%
 
 ---

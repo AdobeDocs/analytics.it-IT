@@ -3,9 +3,12 @@ title: Ricerca istanze di eVar merchandising in post_product_list
 description: Trova l’istanza di Merchandising eVar per ogni valore di ricerca nella colonna post_product_list in un feed di dati.
 feature: Data Feeds
 exl-id: d4b7d53b-21da-42d1-b54a-4602920bb6d4
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+TQID: https://experienceleague.adobe.com/oFCnqcz4u7zjk1RHRXlAhXeYUT35nCtyp3GTsLr2M4I
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 568
 ht-degree: 44%
 
 ---
@@ -18,7 +21,7 @@ La ricerca dell’istanza di eVar Merchandising per post_product_list è diversa
 
 | Valore di ricerca | Istanza merchandising |
 |--- |--- |
-| 101 | eVar1 |
+| 101 | EVAR1 |
 | 102 | EVAR2 |
 | 103 | EVAR3 |
 | 104 | EVAR4 |

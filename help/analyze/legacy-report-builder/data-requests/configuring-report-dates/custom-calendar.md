@@ -1,13 +1,17 @@
 ---
-description: Report Builder utilizza il calendario personalizzato di Analytics. Puoi utilizzare il calendario per definire il primo giorno della settimana e dell’anno oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati del calendario vengono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l’analisi dei costi del ciclo paghe o la regolamentazione del conteggio dell’inventario fisico.
+description: Report Builder utilizza il calendario personalizzato di Analytics. Puoi utilizzare il calendario per definire il primo giorno della settimana e dell’anno oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati del calendario vengono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l’analisi dei costi per paghe e contributi o la regolamentazione del conteggio delle scorte a magazzino.
 title: Calendario personalizzato
 feature: Report Builder
 role: User, Admin
 exl-id: e65cb6c8-8bb0-4dcd-a3a3-d22adcd024fa
-source-git-commit: ae6ffed05f5a33f032d0c7471ccdb1029154ddbd
+TQID: https://experienceleague.adobe.com/At3YiOPV0jx5WXwe-VvA05n3yIEmiAJIRzoOoeISeA4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 55%
+source-wordcount: 409
+ht-degree: 68%
 
 ---
 
@@ -15,7 +19,7 @@ ht-degree: 55%
 
 {{legacy-arb}}
 
-Report Builder utilizza il calendario personalizzato di Analytics. Puoi utilizzare il calendario per definire il primo giorno della settimana e dell’anno oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati del calendario vengono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l’analisi dei costi del ciclo paghe o la regolamentazione del conteggio dell’inventario fisico.
+Report Builder utilizza il calendario personalizzato di Analytics. Puoi utilizzare il calendario per definire il primo giorno della settimana e dell’anno oppure utilizzare un diverso stile di calendario per la vendita al dettaglio. I formati del calendario vengono utilizzati per vari scopi, tra cui il confronto delle vendite e la standardizzazione delle previsioni, l’analisi dei costi per paghe e contributi o la regolamentazione del conteggio delle scorte a magazzino.
 
 Di seguito sono descritti tutti i formati del calendario.
 
@@ -41,7 +45,7 @@ Di seguito sono descritti tutti i formati del calendario.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Calendario personalizzato </p> </td> 
-   <td colname="col2"> <p> Offre tre formati in base al numero di settimane in ogni mese. Il numero di settimane in ogni mese dipende dal primo giorno dell’anno selezionato. </p> <p>Un anno ha 52 settimane. Dividilo in 4 trimestri e ottieni 13 settimane al trimestre. Ma ci sono 3 mesi in un trimestre. 13 non è divisibile per tre quindi si finisce per inserire la settimana aggiuntiva in uno dei mesi in modo che sia sempre coerente. 5-4-4 significa che il primo mese del trimestre contiene una settimana supplementare. 4-5-4 significa che il secondo mese contiene la settimana supplementare e così via. Nel calendario 5-4-4, la 53a settimana viene aggiunta all’ultimo trimestre dell’anno. </p> 
+   <td colname="col2"> <p> Offre tre formati in base al numero di settimane in ogni mese. Il numero di settimane in ogni mese dipende dal primo giorno dell’anno selezionato. </p> <p>Un anno ha 52 settimane. Dividilo in 4 trimestri e ottieni 13 settimane al trimestre. Ma ci sono 3 mesi in un trimestre. 13 non è divisibile per tre quindi la settimana extra viene inserita in uno dei mesi in modo da mantenere la coerenza. 5-4-4 significa che il primo mese del trimestre contiene una settimana supplementare. 4/5/4 significa che il secondo mese ha la settimana supplementare, ecc. Nel calendario 5-4-4, la 53a settimana viene aggiunta all’ultimo trimestre dell’anno. </p> 
     <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>: gennaio ha quattro settimane, febbraio ha cinque settimane, marzo ha quattro settimane e così via. </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>: gennaio ha quattro settimane, febbraio ha quattro settimane, marzo ha cinque settimane e così via. </li> 

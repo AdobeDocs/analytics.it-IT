@@ -4,10 +4,15 @@ description: Scopri in che modo gli hint client sostituiranno gradualmente l’a
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 feature: Data Configuration and Collection
 role: Admin
-source-git-commit: 8861dc27f9353d00ef3cf62568822c74d6e70d25
+TQID: https://experienceleague.adobe.com/ewlZMmg1l8tPyF-mrTttQcXgk3Ms4QUwBhSemCgjg90
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeaeid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 61%
+source-wordcount: 1283
+ht-degree: 62%
 
 ---
 
@@ -39,7 +44,7 @@ Questo [articolo di blog di Google](https://web.dev/user-agent-client-hints/) è
 
 +++**Come si abilita la raccolta di hint client?**
 
-Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consulta le istruzioni per [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=it#enabling-high-entropy-client-hints) e [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
+Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consulta le istruzioni per [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
 
 Per entrambe le librerie, la raccolta di hint ad alta entropia è **disattivata per impostazione predefinita**.
 
@@ -61,9 +66,9 @@ La tabella seguente descrive gli hint client da ottobre 2022.
 
 | Hint | Descrizione | Alta o bassa entropia | Esempio |
 | --- | --- | --- | --- |
-| Sec-CH-UA | Browser e versione rilevante | Bassa | `"Google Chrome 84"` |
-| Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Bassa | `true` |
-| Sec-CH-UA-Platform | Sistema operativo/piattaforma | Bassa | `"Android"` |
+| Sec-CH-UA | Browser e versione rilevante | Basso | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Basso | `true` |
+| Sec-CH-UA-Platform | Sistema operativo/piattaforma | Basso | `"Android"` |
 | architettura | Architettura del sito | Alta | `"arm"` |
 | amarezza | Abilità dell&#39;architettura | Alto | `"64"` |
 | fullVersionList | Elenco dei marchi e versione | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |

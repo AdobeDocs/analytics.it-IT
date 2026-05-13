@@ -3,9 +3,14 @@ title: Visite
 description: Scopri la metrica Visite in Analytics. Scopri come viene calcolato, i comportamenti che lo influenzano, come modificarne la definizione e altro ancora.
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
-source-git-commit: 5f80d1f56fb8a95780ff2daf18644ac5ffb548d6
+TQID: https://experienceleague.adobe.com/7dKKNNW9DKlWxXzBv-gJRKGwe1X-o3OZTtv6mGcC-MU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: 713
 ht-degree: 80%
 
 ---
@@ -50,7 +55,7 @@ Puoi modificare la definizione di visita in un periodo diverso da 30 minuti.
 
 ## Visite che si estendono su un limite di date
 
-Per ogni periodo di tempo interessato, viene considerata una visita. Ad esempio, se un visitatore inizia a navigare nel tuo sito lunedì alle 23:45 e poi invia la sua ultima richiesta di immagine martedì alle 00:00, vedrai una visita attribuita sia a lunedì che a martedì. :10 Tuttavia, la metrica di visita totale è deduplicata e mostra una singola visita per l’intervallo di date del progetto.
+Per ogni periodo di tempo interessato, viene considerata una visita. Ad esempio, se un visitatore inizia a navigare nel tuo sito lunedì alle 23:45 e poi invia la sua ultima richiesta di immagine martedì alle 00:00, vedrai una visita attribuita sia a lunedì che a martedì. :10Tuttavia, la metrica di visita totale è deduplicata e mostra una singola visita per l’intervallo di date del progetto.
 
 ## Visite su una dimensione rispetto alle visite totali
 

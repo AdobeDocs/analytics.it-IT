@@ -4,16 +4,21 @@ description: Impedisci la visualizzazione nei rapporti dei dati generati da alcu
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 role: Admin
-source-git-commit: 4b4febd839682d88164b2f505245441d18ef2543
+TQID: https://experienceleague.adobe.com/OfpXjqwAyn6DDwykgQMbYMIZXNPklUVvDFU1CsuC9CU
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 12%
+source-wordcount: 312
+ht-degree: 18%
 
 ---
 
 # Escludi per indirizzo IP
 
-Puoi escludere dai rapporti i dati provenienti da indirizzi IP specifici, ad esempio attività interne al sito web, test del sito e utilizzo dei dipendenti. L’esclusione dei dati migliora la precisione dei rapporti, escludendo i dati dell’indirizzo IP. Inoltre, puoi rimuovere i dati da denial of service o altri eventi dannosi che possono distorcere i dati dei rapporti.
+Puoi escludere dai rapporti i dati provenienti da indirizzi IP specifici, ad esempio attività interne al sito web, test del sito e utilizzo dei dipendenti. L’esclusione dei dati migliora la precisione dei rapporti, escludendo i dati dell’indirizzo IP. Inoltre, puoi rimuovere i dati da attacchi di negazione del servizio o altri eventi dannosi che possono alterare i dati dei rapporti.
 
 Per escludere i dati per indirizzo IP, puoi configurare le esclusioni come descritto di seguito oppure [configurare il firewall](/help/technotes/ip-addresses.md).
 

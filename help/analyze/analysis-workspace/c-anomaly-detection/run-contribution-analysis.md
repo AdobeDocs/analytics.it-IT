@@ -4,10 +4,16 @@ title: Eseguire l’analisi dei contributi
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 feature: Anomaly Detection
-source-git-commit: 325a42c080290509309e90c9127138800d5ac496
+TQID: https://experienceleague.adobe.com/gRnQxBkxEqtDdZ-zbgeg4Oe0MweTmqKwtThl3NYPpgs
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 15%
+source-wordcount: 521
+ht-degree: 9%
 
 ---
 
@@ -60,7 +66,7 @@ I passaggi per eseguire Analisi contributi sono i seguenti:
    * [Tendenza di una o più righe](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [Aggiungi nuove visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [Crea avvisi](/help/components/alerts/alerts-overview.md)
-   * [Creazione o confronto di segmenti](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+   * [Creare o confrontare segmenti.](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
 >[!NOTE]
 >
@@ -69,7 +75,7 @@ I passaggi per eseguire Analisi contributi sono i seguenti:
 
 ## Escludere le dimensioni
 
-È possibile escludere alcune dimensioni dall’analisi dei contributi. Ad esempio, se non ti interessano le dimensioni relative a browser o hardware, puoi escluderle per velocizzare l’analisi.
+È possibile escludere alcune dimensioni dall’analisi dei contributi. Ad esempio, potresti non interessarti delle dimensioni relative al browser o all’hardware e desideri velocizzare l’analisi rimuovendole.
 
 Per gestire la dimensione esclusa:
 
