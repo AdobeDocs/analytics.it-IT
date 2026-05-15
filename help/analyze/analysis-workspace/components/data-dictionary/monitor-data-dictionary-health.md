@@ -15,14 +15,34 @@ subfeature_v2:
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
-source-wordcount: 237
-ht-degree: 100%
+source-wordcount: 361
+ht-degree: 66%
 
 ---
 
-# Monitorare l’integrità del dizionario dei dati
+# Monitorare l’integrità del dizionario dei dati {#monitor-data-dictionary}
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datadictionary_share_primary"
+>title="Condividi componente primario"
+>abstract="Quando questa opzione è selezionata, il componente principale viene condiviso con tutti coloro che hanno accesso ai componenti duplicati (sia i proprietari che gli utenti con cui i componenti sono condivisi). Tali utenti possono quindi selezionare il componente principale dall’elenco dei componenti per i progetti futuri. Tuttavia, non possono modificare il componente, anche se erano i proprietari di un componente duplicato che era stato consolidato. <br/>Questa opzione è disponibile solo quando il componente principale è un segmento, una metrica calcolata o un intervallo di date. Le metriche e le dimensioni sono sempre disponibili per tutti gli utenti."
+>
+>When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
+
+<!-- markdownlint-disable MD034 -->
+
+<!-- markdownlint-enable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_datadictionary_delete_duplicates"
+>title="Elimina duplicati sostituiti"
+>abstract="Quando questa opzione è selezionata, i duplicati consolidati non sono più disponibili per l’uso. Deseleziona questa opzione se desideri che i duplicati continuino a essere disponibili."
+
+<!-- markdownlint-enable MD034 -->
 
 Gli amministratori di Analytics sono responsabili della gestione di un dizionario dei dati integro.
 
