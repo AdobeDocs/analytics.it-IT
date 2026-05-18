@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1218
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="Visualizzatori simultanei di file multimediali"
->abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concorrenza o suddividi e confronta.<br/><br>**Granularità**: seleziona il periodo di tempo in base al quale visualizzare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello**:<br/>opzione che consente di visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco di concomitanza. Il valore minimo mostra i dettagli del punto inferiore.<br/>**Raggruppamento per serie (facoltativo)**: puoi raggruppare la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello."
+>abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concomitanza o raggruppa e confronta.<br/><br>**Granularità**: seleziona il periodo di tempo per visualizzare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello**:<br/>opzione che consente di visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco di concomitanza. Il valore minimo mostra i dettagli del punto inferiore.<br/>**Raggruppamento per serie (facoltativo)**: puoi raggruppare la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello."
 
 <!-- markdownlint-enable MD034 -->
 

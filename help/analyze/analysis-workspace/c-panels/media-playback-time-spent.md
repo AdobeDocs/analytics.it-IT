@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1180
-ht-degree: 81%
+ht-degree: 83%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaplaybacktimespent_panel"
 >title="Tempo trascorso su contenuti multimediali"
->abstract="Analizza il consumo di video nel tempo, seleziona varie granularità, suddivisioni e confronti.<br/><br/>**Granularità**: seleziona il periodo di tempo in base al quale visualizzare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello (facoltativo)**: opzione per visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco del tempo di riproduzione trascorso. Il valore minimo mostra i dettagli del punto inferiore. Somma mostra i dettagli della somma totale del tempo di riproduzione trascorso.<br/>**Raggruppamento per serie (facoltativo)**: puoi raggruppare la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.<br/>**Formato ora**: opzione per la visualizzazione del formato ora, in ore o minuti."
+>abstract="Analizza il consumo video nel tempo, seleziona varie granularità, aggruppamenti e confronti. <br/><br/>**Granularità** seleziona il periodo di tempo per visualizzare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello (facoltativo)**: opzione per visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco del tempo di riproduzione trascorso. Il valore minimo mostra i dettagli del punto inferiore. Somma mostra i dettagli della somma totale del tempo di riproduzione trascorso.<br/>**Raggruppamento per serie (facoltativo)**: puoi raggruppare la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.<br/>**Formato ora**: opzione per la visualizzazione del formato ora, in ore o minuti."
 
 <!-- markdownlint-enable MD034 -->
 

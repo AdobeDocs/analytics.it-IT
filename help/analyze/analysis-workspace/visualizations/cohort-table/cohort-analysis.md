@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 711
-ht-degree: 81%
+ht-degree: 85%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="workspace_cohorttable_panel"
 >title="Tabella coorte"
->abstract="Raggruppa gli utenti in base al completamento di un evento, quindi analizza il loro coinvolgimento e abbandono nel tempo.<br/><br/>**Parametri &#x200B;**<br/>**Criteri di inclusione**: i componenti utilizzati per definire le coorti di visitatori iniziali.<br/>**Criteri di ritorno**: i componenti utilizzati per determinare se un visitatore è tornato."
+>abstract="Raggruppa gli utenti in base al completamento di un evento, quindi analizzane il coinvolgimento continuo e l’abbandono nel tempo.<br/><br/>**Parametri &#x200B;**<br/>**Criteri di inclusione**: componenti utilizzati per definire le coorti di visitatori iniziali.<br/>**Criteri di ritorno**: i componenti utilizzati per determinare se un visitatore è tornato."
 
 <!-- markdownlint-enable MD034 -->
 

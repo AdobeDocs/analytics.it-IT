@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 701
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="workspace_attribution_panel"
 >title="Pannello Attribuzione"
->abstract="Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione.<br/><br/>**Parametri &#x200B;**<br/>**Canale**<br/> Dimensione rispetto alla quale eseguire l’attribuzione. Questa dimensione può essere canali di marketing, campagne o qualsiasi altra dimensione.<br/>**Modelli**<br/> Il modello determina come viene assegnato il credito ai punti di contatto.<br/>**Intervallo di lookback**<br/> Questa impostazione determina la finestra di attribuzione dei dati che viene applicata a ogni conversione."
+>abstract="Confronta e visualizza rapidamente più modelli di attribuzione utilizzando qualsiasi dimensione e metrica di conversione.<br/><br/>**Parametri &#x200B;**<br/>**Canale**<br/> Dimensione rispetto alla quale eseguire l’attribuzione. Questa dimensione può essere rappresentata da canali di marketing, campagne o qualsiasi altra dimensione.<br/>**Modelli**<br/> Il modello determina il modo in cui il credito viene assegnato ai punti di contatto.<br/>**Intervallo di lookback**<br/> Questa impostazione determina la finestra di attribuzione dei dati che viene applicata a ogni conversione."
 >additional-url="https://www.youtube.com/watch?v=Yu0hy2klzA0" text="Pannello Attribution IQ"
 
 <!-- markdownlint-enable MD034 -->

@@ -20,7 +20,7 @@ role_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 521
-ht-degree: 28%
+ht-degree: 32%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="workspace_segmentcomparison_panel"
 >title="Pannello Confronto dei segmenti"
->abstract="Confronta rapidamente due segmenti su tutti i punti dati per trovare automaticamente differenze rilevanti.<br/><br/>**Parametri &#x200B;**<br/>**Aggiungi un segmento**: il primo segmento che desideri analizzare.<br/>**Confronta con**: il secondo segmento di cui desideri eseguire il confronto, popolato automaticamente con *Qualsiasi altro*, ovvero l’inverso del primo segmento. Se lo desideri, puoi sostituire *Qualsiasi altro* con un segmento diverso.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
+>abstract="Confronta rapidamente due segmenti su tutti i punti dati per individuare automaticamente le differenze rilevanti. <br/><br/>**Parametri &#x200B;**<br/>**Aggiungi un segmento**: il primo segmento da analizzare.<br/>**Confronta con**: il secondo segmento di cui desideri eseguire il confronto, popolato automaticamente con *Qualsiasi altro*, ovvero l’inverso del primo segmento. Se lo desideri, puoi sostituire *Qualsiasi altro* con un segmento diverso.<br/>**Impostazioni avanzate**: la possibilità di escludere i componenti dall’analisi nel confronto tra segmenti."
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]

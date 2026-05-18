@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 18719
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -1199,7 +1199,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="template--referringDomainRankedReport"
 >title="Visualizza i domini su cui le persone fanno clic per raggiungere il tuo sito."
->abstract="**Questo può aiutarti** a comprendere meglio quali siti di terze parti favoriscono maggiore traffico verso il tuo sito. (Un collegamento deve esistere sul sito esterno e un visitatore deve fare clic su di esso per visualizzare l&#39;elemento dimensione.)<br/>**In base a ciò che apprendi, potresti** fare qualsiasi cosa, come creare o modificare il contenuto per allinearlo più strettamente agli interessi dei visitatori provenienti dai principali domini di riferimento. <br/>Questo modello utilizza la dimensione Dominio di riferimento."
+>abstract="**Questo può aiutarti** a comprendere meglio quali siti di terze parti favoriscono maggiore traffico verso il tuo sito. Affinché l’elemento dimensionale venga visualizzato, deve esistere un collegamento sul sito esterno e un visitatore deve fare clic su di esso.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, come creare o adattare il contenuto per allinearlo maggiormente agli interessi dei visitatori provenienti dai domini di riferimento più frequenti. <br/>Questo modello utilizza la dimensione Dominio di riferimento."
 
 <!-- markdownlint-enable MD034 -->
 

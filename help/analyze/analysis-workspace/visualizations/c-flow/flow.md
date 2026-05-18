@@ -19,7 +19,7 @@ role_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 333
-ht-degree: 47%
+ht-degree: 63%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="workspace_flow_panel"
 >title="Flusso"
->abstract="Analizza il flusso di visite o visitatori da un punto di contatto all&#39;altro.<br/><br/>**Parametri &#x200B;**<br/>**Inizia con**: aggiungi una dimensione, un elemento dimensione o una metrica per visualizzare i primi punti di contatto che si verificano dopo l&#39;occorrenza del componente selezionato.<br/>**Contiene**: aggiungi una dimensione o un elemento dimensione per visualizzare i primi punti di contatto che si verificano prima e dopo l&#39;occorrenza del componente selezionato.<br/>**Termina con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano prima dell’occorrenza del componente selezionato.<br/>**Dimensione percorso**: aggiungi una dimensione da utilizzare come percorso che porta o proviene dal componente selezionato."
+>abstract="Analizza il flusso di visite o visitatori da un punto di contatto a quello successivo.<br/><br/>**Parametri &#x200B;**<br/>**Inizia con**: aggiungi una dimensione, un elemento dimensionale o una metrica per vedere i punti di contatto principali che si verificano dopo l’occorrenza del componente selezionato.<br/>**Contiene**: aggiungi una dimensione o un elemento dimensionale per visualizzare i punti di contatto principali che si verificano prima e dopo l’occorrenza del componente selezionato.<br/>**Termina con**: aggiungi una dimensione, un elemento dimensionale o una metrica per visualizzare i punti di contatto principali che si verificano prima dell’occorrenza del componente selezionato.<br/>**Dimensione percorso**: aggiungi una dimensione da utilizzare come percorso che porta o proviene dal componente selezionato."
 
 <!-- markdownlint-enable MD034 -->
 
