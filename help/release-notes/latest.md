@@ -21,10 +21,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
+source-git-commit: 2be38df3df510c4e460497be8c085ed2a26b4760
 workflow-type: tm+mt
 source-wordcount: 1365
-ht-degree: 61%
+ht-degree: 60%
 
 ---
 
@@ -82,4 +82,4 @@ Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, consulta le [note
 * [Note sulle versioni precedenti 2025](/help/release-notes/2025.md)
 * [Note sulla versione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it)
 * [Note sulla versione di Streaming Media Services](https://experienceleague.adobe.com/it/docs/media-analytics/using/release-notes/release-notes)
-* Scopri gli ultimi aggiornamenti sulle versioni dei [prodotti Adobe Experience Cloud](https://business.adobe.com/it/products/adobe-experience-cloud-products.html)
+* Ultimi aggiornamenti sulle versioni dei [prodotti Adobe CX Enterprise](https://business.adobe.com/it/products/adobe-experience-cloud-products.html)

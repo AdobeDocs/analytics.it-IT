@@ -16,16 +16,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 232
-ht-degree: 44%
+source-wordcount: 229
+ht-degree: 32%
 
 ---
 
 # API interessate dalla migrazione degli utenti{#apis-affected-by-the-migration}
 
-Adobe sta eseguendo la migrazione di tutte società di accesso ad Analytics da [!DNL my.omniture.com] all’autenticazione mediante Adobe Experience Cloud. Una volta che una società inizia questa migrazione, la creazione e la gestione programmatiche degli utenti mediante le autorizzazioni specifiche di Analytics e i metodi di `GetLoginKey` disponibili tramite le versioni v1.3 e v1.4 della API di amministrazione di Analytics non saranno più supportati. Tali operazioni ora saranno abilitate in Experience Cloud tramite [!DNL adobe.io].
+Adobe sta eseguendo la migrazione di tutte le società di accesso ad Analytics da [!DNL my.omniture.com] all&#39;autenticazione tramite Adobe CX Enterprise. Una volta che una società inizia questa migrazione, la creazione e la gestione programmatiche degli utenti mediante le autorizzazioni specifiche di Analytics e i metodi di `GetLoginKey` disponibili tramite le versioni v1.3 e v1.4 della API di amministrazione di Analytics non saranno più supportati. Tali azioni verranno ora abilitate in CX Enterprise tramite `adobe.io`.
 
 ## Metodi API interessati {#methods}
 
@@ -48,7 +48,7 @@ I seguenti metodi API nelle versioni v1.3 e v1.4 di Admin API non saranno più s
 
 ## Azioni da intraprendere {#actions}
 
-Se la tua azienda utilizza attualmente questi metodi, cerca una notifica di premigrazione a partire dal 31 marzo 2018. La notifica viene inviata almeno 30 giorni prima dell’inizio della migrazione della tua azienda all’autenticazione di Experience Cloud e, in tale momento, questi metodi non saranno più supportati.
+Se la tua azienda utilizza attualmente questi metodi, cerca una notifica di premigrazione a partire dal 31 marzo 2018. La notifica verrà inviata almeno 30 giorni prima dell&#39;inizio della migrazione all&#39;autenticazione aziendale CX e, in tale momento, questi metodi non saranno più supportati.
 
 Se la tua azienda non utilizza nessuno di questi metodi, non è necessaria alcuna azione se non quella di assicurarsi di non iniziare a utilizzare questi metodi.
 
@@ -56,4 +56,4 @@ Per ulteriori informazioni:
 
 * [Informazioni generali sulla gestione utenti](https://helpx.adobe.com/it/enterprise/help/users.html)
 * [Forum API per la gestione degli utenti](https://community.adobe.com/t5/enterprise-teams/bd-p/enterprise-and-teams)
-* [Migrazione della gestione e degli accessi utente di Analytics ad Experience Cloud](/help/admin/tools/user-management/user-migration/c-migration-tool.md)
+* [Migrazione di Analytics User Access and Management a CX Enterprise](/help/admin/tools/user-management/user-migration/c-migration-tool.md)

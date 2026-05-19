@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 301
 ht-degree: 37%
@@ -29,7 +29,7 @@ I calcoli sono metriche personalizzate che puoi creare dalle metriche esistenti.
 
 Le metriche calcolate sono metriche personalizzate che puoi creare dalle metriche esistenti. Le metriche calcolate offrono un modo flessibile di generare, gestire e curare metriche personalizzate che consentono di analizzare i dati senza dover modificare l’implementazione.
 
-Le metriche calcolate sono disponibili in ogni pacchetto [!DNL Analytics], tuttavia Adobe Analytics Foundation Pack per Experience Cloud è limitato alle metriche calcolate di base che includono [tipi di formato (decimale, ora, percentuale, valuta)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [modifiche di allocazione (predefinita, lineare, partecipazione, ecc.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [tipi di metrica (standard, totale)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) e [operatori di base](workflow/c-build-metrics/cm-build-metrics.md#operators) (aggiungere, sottrarre, moltiplicare e dividere).
+Le metriche calcolate sono disponibili in ogni pacchetto [!DNL Analytics], tuttavia Adobe Analytics Foundation Pack per CX Enterprise è limitato alle metriche calcolate di base che includono [tipi di formato (decimale, ora, percentuale, valuta)](/help/components/calculated-metrics/workflow/c-build-metrics/cm-build-metrics.md), [modifiche di allocazione (predefinita, lineare, partecipazione, ecc.)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md), [tipi di metrica (standard, totale)](/help/components/calculated-metrics/workflow/c-build-metrics/m-metric-type-alloc.md) e [operatori di base](workflow/c-build-metrics/cm-build-metrics.md#operators) (aggiungere, sottrarre, moltiplicare e dividere).
 
 
 Per ulteriori informazioni, vedere [Descrizione del prodotto Adobe Analytics](https://helpx.adobe.com/it/legal/product-descriptions/adobe-analytics.html).
@@ -77,7 +77,7 @@ Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.sv
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione delle metriche calcolate nei segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}.
+Per un video dimostrativo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmentazione delle metriche calcolate nei segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-segmented-metrics){target="_blank"}.
 
 >[!ENDSHADEBOX]
 

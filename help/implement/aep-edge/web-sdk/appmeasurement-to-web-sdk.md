@@ -12,9 +12,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1421
+source-wordcount: 1423
 ht-degree: 8%
 
 ---
@@ -48,7 +48,7 @@ Le seguenti fasi contengono obiettivi concreti da perseguire. Fai clic su ogni p
 
 Creare uno stream di dati in Raccolta dati di Adobe Experience Platform. Quando invii dati a questo stream di dati, questi vengono inoltrati ad Adobe Analytics. In futuro, lo stesso flusso di dati inoltra i dati a Customer Journey Analytics.
 
-1. Passa a [experience.adobe.com](https://experience.adobe.com) e accedi con le tue credenziali.
+1. Passa a [Adobe CX Enterprise](https://experience.adobe.com) e accedi con le tue credenziali.
 1. Utilizzare la home page o il selettore di prodotti in alto a destra per passare a **[!UICONTROL Data Collection]**.
 1. Nel menu di navigazione a sinistra, selezionare **[!UICONTROL Datastreams]**.
 1. Seleziona **[!UICONTROL New Datastream]**.
@@ -73,7 +73,7 @@ Fare riferimento alla versione più recente di `alloy.js` in modo che sia possib
 
 Configurare l&#39;implementazione in modo che punti allo stream di dati creato nel passaggio precedente utilizzando il comando Web SDK [`configure`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/overview). Il comando `configure` deve essere impostato su ogni pagina, in modo da poterlo includere insieme al codice di installazione della libreria.
 
-Utilizzare le proprietà [`datastreamId`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/datastreamid) e [`orgId`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/orgid) nel comando Web SDK `configure`:
+Utilizzare le proprietà [`datastreamId`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/datastreamid) e [`orgId`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/orgid) nel comando Web SDK `configure`:
 
 * Imposta `datastreamId` sull&#39;ID dello stream di dati recuperato dal passaggio precedente.
 * Imposta `orgId` per l&#39;organizzazione IMS della tua organizzazione.

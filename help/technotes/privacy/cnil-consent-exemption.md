@@ -20,10 +20,10 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 765
-ht-degree: 61%
+ht-degree: 58%
 
 ---
 
@@ -35,7 +35,7 @@ Le Linee guida prevedono un’esenzione limitata dall’obbligo di consenso (&qu
 
 * Periodo massimo di conservazione dei dati di 25 mesi.  È possibile rivedere le impostazioni di conservazione dei dati correnti in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Data Governance].  [Conservazione dati](/help/technotes/data-retention.md)
 * Disattiva i cookie di terze parti in ECID. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=it#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=it#id-service-api) e [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=it#id-service-api)
-* Limite di 13 mesi per i cookie.  Puoi modificare la scadenza dei cookie di analisi utilizzando la variabile `cookieLifetime`. I cookie di Experience Cloud, tra cui Analytics ed ECID, estendono la data di scadenza del cookie a ogni visita.  Per impostare una scadenza dei cookie statica e non continua, puoi: (1) scrivere un codice personalizzato per impostare una data in cui eliminare il cookie, oppure (2) utilizzare la tua CMP per controllare la data di reimpostazione del cookie.   [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) e [cookie Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=it#ec-cookies)
+* Limite di 13 mesi per i cookie.  Puoi modificare la scadenza dei cookie di analisi utilizzando la variabile `cookieLifetime`. I cookie di CX Enterprise, inclusi Analytics ed ECID, estendono la data di scadenza dei cookie a ogni visita.  Per impostare una scadenza dei cookie statica e non continua, puoi: (1) scrivere un codice personalizzato per impostare una data in cui eliminare il cookie, oppure (2) utilizzare la tua CMP per controllare la data di reimpostazione del cookie.   [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) e [cookie CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=it#ec-cookies)
 * Ambito limitato. L’ambito del cookie deve essere limitato a un solo sito o applicazione. [Cookie del browser](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * Anonimizzazione. Anonimizza l’ultimo ottetto dell’indirizzo IP. [Impostazioni account generali](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
 * Nascondi l’ID visitatore dal reporting.  Per impostazione predefinita, gli ID visitatore non sono visibili in Adobe Workspace e Adobe Reports and Analytics.  Gli ID visitatore sono disponibili in Data Feeds e Data Warehouse.  L&#39;accesso a Data Feeds e Data Warehouse può essere limitato da [Autorizzazioni di accesso in Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=it) e [Riferimento sulla colonna Feed dati](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
@@ -51,7 +51,7 @@ Si applicano le seguenti considerazioni aggiuntive:
 * Adobe Analytics gestisce centri di elaborazione dati negli Stati Uniti, nel Regno Unito e a Singapore al fine di fornire flessibilità a tutti i clienti per raccogliere, elaborare e archiviare i propri dati a livello regionale. Durante la configurazione della configurazione iniziale di Adobe Analytics, i clienti possono selezionare la posizione desiderata del centro di elaborazione dati. I dati dei clienti vengono infine memorizzati nell’area selezionata per il prodotto Analytics di base.
 * Prendi in considerazione la raccolta dello stato di consenso (opt-in) in una variabile Analytics al fine di separare i dati con e senza consenso per la segmentazione, per le suite di rapporti virtuali o per l’indirizzamento a end-point diversi.
 * Nessuna misurazione all’esterno del sito o dell’app senza previo consenso, ad esempio nessuna campagna off-site, campagne e-mail o iFrame.
-* La raccolta di informazioni personali in variabili non è consentita senza consenso. [Controllare le attività Experience Cloud in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=it#implementing-opt-in-on-the-page)
+* La raccolta di informazioni personali in variabili non è consentita senza consenso. [Controlla le attività aziendali di CX in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=it#implementing-opt-in-on-the-page)
 * I dati devono essere utilizzati solo per produrre dati statistici anonimi, senza essere combinati con altri dati.
 * I dati non vengono utilizzati per azioni di riferimento incrociato.
 * I dati di geolocalizzazione GPS non vengono raccolti.

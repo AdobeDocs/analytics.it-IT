@@ -23,10 +23,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 93%
+source-wordcount: 1294
+ht-degree: 91%
 
 ---
 
@@ -155,7 +155,7 @@ Sincronizza le visualizzazioni per controllare quale tabella dati oppure origine
 
 Per iniziare a utilizzare Analysis Workspace:
 
-1. Accedi ad [Adobe Experience Cloud](https://experience.adobe.com).
+1. Accedi a [Adobe CX Enterprise](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
 1. Seleziona **[!UICONTROL Customer Journey Analytics]** dal selettore di app ![App](/help/assets/icons/Apps.svg) in alto a destra nell’interfaccia.
 1. La pagina **[!UICONTROL Projects]** di Analysis Workspace viene mostrata per impostazione predefinita. Se è stato selezionato per un progetto specifico o hai lavorato sul progetto di recente, questo viene mostrato per impostazione predefinita.
 
@@ -176,4 +176,4 @@ Una volta che il progetto è stato completato e sta raccogliendo informazioni ap
 ## Risorse aggiuntive {#resources}
 
 - Adobe offre centinaia di [tutorial di formazione video per Analytics](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/overview).
-- Per aggiornamenti sulle nuove funzioni, consulta [Note sulla versione di Adobe Experience Cloud](https://experienceleague.adobe.com/it/docs/release-notes/experience-cloud/current).
+- Consulta le [note sulla versione di Adobe CX Enterprise](https://experienceleague.adobe.com/it/docs/release-notes/experience-cloud/current) per informazioni aggiornate sulle nuove funzioni.

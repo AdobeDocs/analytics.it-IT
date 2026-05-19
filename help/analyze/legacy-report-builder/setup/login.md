@@ -1,5 +1,5 @@
 ---
-description: Scopri come accedere a Report Builder utilizzando il tuo account di accesso di Experience Cloud.
+description: Scopri come accedere a Report Builder utilizzando il tuo account di accesso CX Enterprise.
 title: Come accedere a Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 248
+source-wordcount: 247
 ht-degree: 2%
 
 ---
@@ -27,21 +27,21 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Report Builder versione 5.6.47 e successive supporta solo il login a Experience Cloud e non supporta metodi di accesso legacy, ad esempio Site Catalyst Single Sign-on o Standard Login. **Entro il 22 luglio 2021, tutti gli utenti di Report Builder devono aggiornare il componente aggiuntivo di Report Builder alla versione 5.6.47 o successiva, che include un aggiornamento critico del processo di accesso.**
+>Report Builder versione 5.6.47 e successive supporta solo il login a CX Enterprise e non supporta metodi di accesso legacy, ad esempio Site Catalyst Single Sign-on o Standard Login. **Entro il 22 luglio 2021, tutti gli utenti di Report Builder devono aggiornare il componente aggiuntivo di Report Builder alla versione 5.6.47 o successiva, che include un aggiornamento critico del processo di accesso.**
 
-Per accedere a Report Builder, utilizza il tuo account di accesso di Experience Cloud.
+Per accedere a Report Builder, utilizzare l&#39;account di accesso di CX Enterprise.
 
-## Accedi a Adobe Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
+## Accedere ad Adobe CX Enterprise {#section_1FA230F35AB54021A874A7A28DE4C850}
 
-L’accesso ad Experience Cloud consente di utilizzare l’Enterprise ID (e-mail e password) per accedere a Adobe Experience Cloud.
+L&#39;accesso a CX Enterprise consente di utilizzare Enterprise ID (e-mail e password) per accedere ad Adobe CX Enterprise.
 
 Fare clic su **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzati alla pagina Single Sign-On della società. Per ulteriori informazioni su Enterprise ID, consulta [Accedi all&#39;account aziendale o dell&#39;istituto di istruzione](https://helpx.adobe.com/it/enterprise/kb/enterprise-id-faq.html#whatis).
 
-![Schermata che mostra la finestra di accesso di Adobe Experience Cloud con le opzioni di accesso con o senza il tuo Adobe ID](assets/adobe_id_login.png)
+![Schermata che mostra la finestra di accesso di Adobe CX Enterprise con le opzioni per l&#39;accesso con o senza Adobe ID](assets/adobe_id_login.png)
 
 >[!NOTE]
 >
->L’accesso ad Experience Cloud è basato su sessione e il token scade dopo 30 giorni.
+>L&#39;accesso a CX Enterprise è basato su sessione e il token scade dopo 30 giorni.
 
 ## Accedi a Report Builder
 

@@ -17,9 +17,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 824
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ La latenza è causata da una delle seguenti categorie generali:
 
 ## Funzioni che dipendono dalla latenza
 
-Alcune funzionalità di Adobe Experience Cloud offrono una latenza innata oltre al tempo di elaborazione standard.
+Alcune funzionalità di Adobe CX Enterprise offrono una latenza innata oltre al tempo di elaborazione standard.
 
 * Analytics for Target (A4T) richiede una latenza aggiuntiva di 5-10 minuti per consentire l’archiviazione dei dati raccolti da entrambe le piattaforme nello stesso hit.
 * I dati con marca temporale richiedono un tempo aggiuntivo a causa di server diversi in cui vengono elaborati. Gli hit con marca temporale ricevuta in tempo reale o quasi, possono richiedere fino a 15 minuti. Gli hit ricevuti con una marca temporale di ieri possono richiedere fino a 2 ore. Gli hit più vecchi possono richiedere più tempo, aumentando ogni giorno fino a un tetto di circa 24 ore.

@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1725
+source-wordcount: 1723
 ht-degree: 3%
 
 ---
@@ -77,7 +77,7 @@ Il rapporto User Explorer consente a un analista di visualizzare le singole visi
 
 I dati demografici e relativi agli interessi forniscono informazioni su età, genere e interessi degli utenti del sito. Tali dati vengono raccolti da Google tramite le loro funzionalità di tracciamento intersito.
 
-I dati demografici e relativi agli interessi non vengono raccolti automaticamente da Adobe. Tuttavia, se l’organizzazione ottiene questi dati, puoi utilizzare gli attributi del cliente, una funzione all’interno di Adobe Experience Cloud Platform. Consente il pieno controllo sull’organizzazione dei dati per attributi e non è limitato solo a dati demografici o interessi.
+I dati demografici e relativi agli interessi non vengono raccolti automaticamente da Adobe. Tuttavia, se l&#39;organizzazione ottiene questi dati, è possibile utilizzare gli attributi del cliente, una funzione di Adobe CX Enterprise. Consente il pieno controllo sull’organizzazione dei dati per attributi e non è limitato solo a dati demografici o interessi.
 
 Per ulteriori informazioni, consulta la guida Attributi del cliente.
 

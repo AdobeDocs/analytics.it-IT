@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1027
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 
@@ -59,7 +59,7 @@ Questa integrazione è destinata ai seguenti tipi di pubblico:
 
 Analytics dispone di due autorizzazioni che vengono concesse automaticamente agli amministratori di Analytics. Gli amministratori possono quindi scegliere di concedere queste autorizzazioni agli utenti non amministratori.
 
-| Autorizzazione | Definizione | Concedere l’autorizzazione se è stato effettuato l’accesso ad Adobe Experience Cloud |
+| Autorizzazione | Definizione | Concedere l&#39;autorizzazione se si è connessi ad Adobe CX Enterprise |
 | --- | --- | --- |
 | Gestione di Advertising Analytics | Consente agli utenti di configurare, modificare e visualizzare gli account per annunci e di ricerca. | Accedi a [adminconsole.adobe.com](https://adminconsole.adobe.com) > [!UICONTROL Products] > [!UICONTROL Adobe Analytics] > [!UICONTROL Product Profile] > scheda [!UICONTROL Permissions] > [!UICONTROL Analytics Tools] > [!UICONTROL Advertising Analytics Management] |
 | Configurazione di Advertising Analytics | Consente agli utenti di configurare suite di rapporti su cui effettuare il provisioning per Advertising Analytics. | Accedi a [adminconsole.adobe.com](https://adminconsole.adobe.com) > [!UICONTROL Products] > [!UICONTROL Adobe Analytics] > [!UICONTROL Product Profile] > scheda [!UICONTROL Permissions] > [!UICONTROL Analytics Tools] > [!UICONTROL Advertising Analytics Configuration] |

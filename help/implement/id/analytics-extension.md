@@ -13,9 +13,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 467
+source-wordcount: 469
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ L’estensione tag Adobe Analytics fornisce consente di implementare AppMeasurem
 
 Per utilizzare il servizio ID visitatori con l&#39;estensione tag Adobe Analytics, includi l&#39;estensione tag del servizio Experience Cloud ID nella proprietà tag.
 
-1. Accedi a [experience.adobe.com](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
+1. Accedi a [Adobe CX Enterprise](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
 1. Passa a **[!UICONTROL Data Collection]** > **[!UICONTROL Tags]**.
 1. Individua la proprietà tag desiderata.
 1. Passa a **[!UICONTROL Extensions]**, quindi seleziona la scheda **[!UICONTROL Catalog]**.

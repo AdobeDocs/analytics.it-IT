@@ -23,10 +23,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 511
-ht-degree: 100%
+source-wordcount: 510
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ Domande frequenti sull’implementazione e collegamenti a ulteriori informazioni
 
 ## Qual è la differenza tra l’ID visitatore Experience Cloud e l’ID visitatore Analytics?
 
-Identity Service assegna un identificatore univoco e permanente che può essere condiviso tra le altre soluzioni Experience Cloud. L’ID visitatore di Analytics è utilizzato solo da Analytics. Adobe consiglia di utilizzare il servizio ID visitatori di Experience Cloud per la tua implementazione.
+Identity Service assegna un identificatore univoco e permanente che può essere condiviso tra le altre soluzioni di CX Enterprise. L’ID visitatore di Analytics è utilizzato solo da Analytics. Adobe consiglia di utilizzare il servizio ID visitatori di Experience Cloud per la tua implementazione.
 
 ## Come si implementa il Tracciamento video Heartbeat?
 

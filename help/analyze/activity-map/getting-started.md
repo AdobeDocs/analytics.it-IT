@@ -27,9 +27,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: af860ea2bf90f0f25bfb95b943d9ae11bf808028
 workflow-type: tm+mt
-source-wordcount: 846
+source-wordcount: 860
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ La raccolta dati di Activity Map richiede l&#39;estensione **[!UICONTROL Adobe E
 
 L&#39;impostazione di configurazione **[!UICONTROL Click data collection]** gestisce la raccolta dati di Activity Map ed è in genere abilitata per impostazione predefinita. Puoi verificare che sia abilitato nelle impostazioni di configurazione dell&#39;estensione:
 
-1. Accedi a [experience.adobe.com](https://experience.adobe.com)
+1. Accedi a [Adobe CX Enterprise](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
 1. Seleziona **[!UICONTROL Data Collection]** nel menu di accesso rapido o il selettore di prodotto in alto a destra.
 1. Selezionare **[!UICONTROL Tags]** nel menu di navigazione a sinistra.
 1. Seleziona il tag desiderato da modificare.
@@ -95,7 +95,7 @@ alloy("configure", {
 
 L&#39;impostazione di configurazione **[!UICONTROL Use Activity Map]** gestisce la raccolta dati di Activity Map ed è in genere abilitata per impostazione predefinita. È disponibile per tutte le estensioni tag versione 1.9.0 o successiva. Puoi verificare che sia abilitato nelle impostazioni di configurazione dell&#39;estensione:
 
-1. Accedi a [experience.adobe.com](https://experience.adobe.com)
+1. Accedi a [Adobe CX Enterprise](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
 1. Seleziona **[!UICONTROL Data Collection]** nel menu di accesso rapido o il selettore di prodotto in alto a destra.
 1. Selezionare **[!UICONTROL Tags]** nel menu di navigazione a sinistra.
 1. Seleziona il tag desiderato da modificare.

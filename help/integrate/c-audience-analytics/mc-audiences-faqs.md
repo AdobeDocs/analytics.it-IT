@@ -1,13 +1,13 @@
 ---
 description: Risposte alle domande che potresti avere durante l’implementazione di Audience Analytics.
-solution: Experience Cloud
+solution: Analytics
 title: Domande frequenti per Audience Analytics
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 3aa8ce6af928693fd08d42be6e7dd2b939566804
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 0%
+source-wordcount: '1108'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Se hai e-mail, indirizzi e così via in una prop o eVar, puoi usare l’hashing 
 
 Queste non si applicano all’invio di dati di Adobe Analytics a Adobe Audience Manager. Chiediti:
 
-* Condividerai un segmento condiviso con Analytics con una dimensione MCA di nuovo in Experience Cloud?
+* Condividerai un segmento condiviso con Analytics con una dimensione MCA di nuovo a CX Enterprise?
 
 * Stai esportando (ad esempio tramite feed di dati) in un sistema Business Intelligence (BI) utilizzato per questi scopi?
 
@@ -133,7 +133,7 @@ Sì. Nella configurazione della destinazione Adobe Audience Manager, verranno vi
 
 +++ Perché non posso attivare alcune suite di rapporti per SSF in Analytics Admin?
 
-È possibile abilitare solo le suite mappate sull’organizzazione Experience Cloud.
+È possibile abilitare solo le suite mappate all&#39;organizzazione CX Enterprise.
 
 Per ulteriori domande frequenti su questo argomento, vedi [Domande frequenti sull&#39;inoltro lato server](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
@@ -155,7 +155,7 @@ Consulta [Informazioni sui segmenti in Analytics e Audience Manager](/help/integ
 
 +++ Qual è la differenza tra attributi del cliente e dati del cliente integrati da Adobe Audience Manager?
 
-Gli attributi del cliente non sono basati sul tempo, ma vengono applicati retroattivamente e proseguono. I dati integrati di Adobe Audience Manager sono basati solo sul tempo e possono essere utilizzati solo successivamente. Inoltre, attributi del cliente è una tabella di ricerca per gli ID visitatore di Experience Cloud, mentre l’integrazione di Adobe Audience Manager è costituita dai dati uniti in ogni hit di un visitatore.
+Gli attributi del cliente non sono basati sul tempo, ma vengono applicati retroattivamente e proseguono. I dati integrati di Adobe Audience Manager sono basati solo sul tempo e possono essere utilizzati solo successivamente. Inoltre, gli attributi del cliente sono una tabella di ricerca per gli ID visitatore CX Enterprise, mentre l&#39;integrazione Adobe Audience Manager è costituita dai dati uniti in ogni hit di un visitatore.
 
 +++
 

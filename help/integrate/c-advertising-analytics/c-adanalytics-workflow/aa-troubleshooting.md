@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 175
 ht-degree: 6%
@@ -39,7 +39,7 @@ Stai tentando di [configurare un nuovo account Advertising](/help/integrate/c-ad
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1. La suite di rapporti non è mappata sull’ID organizzazione Experience Cloud dell’utente di accesso. </p> </td> 
+   <td colname="col1"> <p>1. La suite di rapporti non è mappata sull’ID organizzazione CX Enterprise dell’utente di accesso. </p> </td> 
    <td colname="col2"> <p>Contatta l’Assistenza clienti per mappare la suite di rapporti su un ID organizzazione.</p> </td> 
   </tr> 
   <tr> 

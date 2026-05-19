@@ -21,9 +21,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 333
+source-wordcount: 332
 ht-degree: 75%
 
 ---
@@ -34,7 +34,7 @@ Questa guida presenta i tipi di rapporti più comuni che consentono di apprender
 
 Google Analytics e Adobe Analytics sono piattaforme potenti che consentono di ottenere informazioni preziose sulle prestazioni dei siti web. Ognuna di esse dispone di una propria architettura di elaborazione e di un’interfaccia utente che offrono vantaggi unici alla piattaforma. Questa guida è stata progettata per aiutare gli utenti esperti di Google Analytics a prendere familiarità con Adobe Analytics.
 
-In Adobe Analytics, il modo principale per richiamare rapporti di base dopo l&#39;accesso a Adobe Experience Cloud è quello di utilizzare **Analysis Workspace**. Il menu a sinistra consente all’utente di trascinare e rilasciare componenti per creare un rapporto. Consente una maggiore libertà per soddisfare le esigenze di reporting esatte. Gli utenti esperti nella creazione di dashboard e di rapporti personalizzati con Google Analytics potrebbero riconoscere questo layout.
+In Adobe Analytics, il modo principale per richiamare rapporti di base dopo aver effettuato l&#39;accesso a Adobe CX Enterprise è quello di utilizzare **Analysis Workspace**. Il menu a sinistra consente all’utente di trascinare e rilasciare componenti per creare un rapporto. Consente una maggiore libertà per soddisfare le esigenze di reporting esatte. Gli utenti esperti nella creazione di dashboard e di rapporti personalizzati con Google Analytics potrebbero riconoscere questo layout.
 
 ## Percorso di apprendimento consigliato
 

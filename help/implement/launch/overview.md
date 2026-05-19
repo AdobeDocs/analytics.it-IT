@@ -15,7 +15,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 396
 ht-degree: 25%
@@ -28,7 +28,7 @@ Nel corso del ciclo di vita di Adobe Analytics, Adobe ha offerto diversi metodi 
 
 Tag in Adobe Experience Platform è una soluzione di gestione dei tag che consente di distribuire il codice Analytics insieme ad altri requisiti di assegnazione tag. Adobe offre integrazioni con altre soluzioni e prodotti e consente di implementare codice personalizzato. Tutte queste attività possono essere eseguite senza dover ricorrere a un team di sviluppatori nell’organizzazione per aggiornare il codice sul sito.
 
-Tutti i clienti con un contratto Adobe Experience Cloud attivo possono utilizzare i tag. Se non sai se puoi accedere a, contatta uno degli amministratori di sistema di Experience Cloud della tua organizzazione.
+Tutti i clienti con un contratto Adobe CX Enterprise attivo possono utilizzare i tag. Se non si è sicuri di avere accesso, contattare uno degli amministratori di sistema CX Enterprise della propria organizzazione.
 
 Panoramica ad alto livello dei compiti di implementazione:
 

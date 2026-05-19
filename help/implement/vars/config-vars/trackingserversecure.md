@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 792
+source-wordcount: 794
 ht-degree: 7%
 
 ---
@@ -62,7 +62,7 @@ alloy("configure", {
 
 [!UICONTROL SSL Tracking Server] è un campo nel pannello a soffietto [!UICONTROL General] durante la configurazione dell&#39;estensione Adobe Analytics.
 
-1. Accedi a [Raccolta dati di Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
+1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Seleziona la proprietà tag desiderata.
 1. Vai alla scheda [!UICONTROL Extensions], quindi seleziona il pulsante **[!UICONTROL Configure]** in Adobe Analytics.
 1. Espandi il pannello a soffietto [!UICONTROL General], che mostra il campo [!UICONTROL SSL Tracking Server].
@@ -92,8 +92,8 @@ Il valore utilizzato per `trackingServerSecure` (o `edgeDomain`) dipende da dive
 
 **Se non partecipi al programma di certificazione**, imposta il valore su un sottodominio di `data.adobedc.net`. Adobe consiglia di utilizzare per coerenza l’ID azienda della tua organizzazione. Ad esempio, `example.data.adobedc.net`. Per determinare l&#39;ID società, effettua le seguenti operazioni:
 
-1. Accedi a [experience.adobe.com](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
-1. In qualsiasi punto dell&#39;interfaccia di Experience Cloud, premere `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
+1. Accedi a [Adobe CX Enterprise](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
+1. In qualsiasi punto dell&#39;interfaccia di CX Enterprise, premere `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
 1. Verrà visualizzato **[!UICONTROL User data debugger]**. Seleziona la scheda **[!UICONTROL Assigned orgs]**.
 1. Espandi l’organizzazione IMS desiderata.
 1. Individua il campo **[!UICONTROL Tenant]**. Questo valore è il sottodominio consigliato di `data.adobedc.net` da utilizzare.

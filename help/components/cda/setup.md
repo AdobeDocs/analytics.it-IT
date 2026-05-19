@@ -13,7 +13,7 @@ subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 543
 ht-degree: 2%
@@ -34,7 +34,7 @@ Una volta soddisfatti tutti i prerequisiti, procedi come segue per abilitare Cro
 
 Il provisioning di CDA viene eseguito sulla suite di rapporti multi-dispositivo dai tecnici Adobe. Per avviare questo processo, contatta l’Assistenza clienti e preparati a fornire le seguenti informazioni:
 
-* ID organizzazione Adobe Experience Cloud (stringa alfanumerica che termina con @AdobeOrg)
+* ID organizzazione Adobe CX Enterprise (stringa alfanumerica che termina con @AdobeOrg)
 * ID suite di rapporti per la suite di rapporti multi-dispositivo che desideri abilitare con CDA
 * Metodo CDA da utilizzare (unione basata sui campi)
 * Se intendi utilizzare l’unione basata sui campi, la proprietà o l’eVar che contiene l’ID utente

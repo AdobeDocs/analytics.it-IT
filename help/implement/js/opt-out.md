@@ -21,7 +21,7 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 628
 ht-degree: 6%
@@ -36,7 +36,7 @@ ht-degree: 6%
 
 Alcuni visitatori del tuo sito web preferiscono non includere le informazioni di navigazione nel set di dati. Adobe offre la possibilità di fornire ai visitatori del sito web un mezzo per rinunciare alle informazioni analizzate.
 
-I collegamenti di rinuncia consentono ai visitatori del sito web di omettere i propri dati dai rapporti di Analytics. Questi collegamenti sono limitati alle implementazioni di AppMeasurement; Adobe consiglia di utilizzare il servizio Opt-in di [Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it). Il servizio Opt-in è più robusto e funziona su più prodotti Adobe Experience Cloud, tra cui Adobe Analytics e AppMeasurement.
+I collegamenti di rinuncia consentono ai visitatori del sito web di omettere i propri dati dai rapporti di Analytics. Questi collegamenti sono limitati alle implementazioni di AppMeasurement; Adobe consiglia di utilizzare il servizio Opt-in [Adobe CX Enterprise](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it). Il servizio Opt-in è più affidabile e funziona su più prodotti Adobe CX Enterprise, inclusi Adobe Analytics e AppMeasurement.
 
 Quando un visitatore raggiunge un URL di rinuncia, gli viene richiesto di installare un cookie di rinuncia. Se un utente sceglie di non essere tracciato e viene impostato un cookie di rinuncia, AppMeasurement continua a inviare dati ad Adobe. Tuttavia, tali dati non vengono elaborati o inclusi nei rapporti.
 
@@ -58,9 +58,9 @@ La pagina di rinuncia per l&#39;organizzazione dipende dal valore della variabil
    1. Sul server web, apri il file AppMeasurement.js utilizzato sul sito in un editor di codice o di testo.
    1. Nota il valore della variabile `trackingServer`.
 
-* Utilizzo di [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=it):
+* Utilizzo di [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=it):
    1. Passa al sito utilizzando il browser Chrome.
-   1. Apri Experience Cloud Debugger, quindi passa a [!UICONTROL Network tab].
+   1. Aprire CX Enterprise Debugger, quindi passare a [!UICONTROL Network tab].
    1. Nota il valore [!UICONTROL Request URL - Hostname].
 
 Dopo aver trovato il dominio `trackingServer` dell&#39;implementazione, aggiungere il percorso `/optout.html` alla fine. Ad esempio:

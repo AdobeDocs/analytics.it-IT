@@ -21,7 +21,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1004
 ht-degree: 88%
@@ -30,7 +30,7 @@ ht-degree: 88%
 
 # Panoramica sulla privacy
 
-Adobe desidera abilitare l’organizzazione in modo che possa conformarsi alle leggi e alle normative applicabili. Per ulteriori informazioni, consulta [Privacy di Adobe Experience Cloud](https://www.adobe.com/it/privacy/experience-cloud.html){target=_blank}. Tra Adobe Analytics e l’organizzazione, Adobe agisce come “responsabile del trattamento dei dati” e l’organizzazione è il “titolare del trattamento” (o equivalente in base alle leggi sulla privacy e la protezione dei dati applicabili). È compito dell’organizzazione divulgare in che modo utilizza i prodotti e i servizi Adobe, in quanto l’organizzazione controlla esclusivamente l’implementazione delle soluzioni di Adobe. Durante l’utilizzo di Adobe Analytics, l’organizzazione è responsabile del rispetto della propria informativa sulla privacy, del contratto sui servizi con Adobe e di tutte le leggi applicabili.
+Adobe desidera abilitare l’organizzazione in modo che possa conformarsi alle leggi e alle normative applicabili. Per ulteriori informazioni, vedere [Privacy di Adobe CX Enterprise](https://www.adobe.com/it/privacy/experience-cloud.html){target=_blank}. Tra Adobe Analytics e l’organizzazione, Adobe agisce come “responsabile del trattamento dei dati” e l’organizzazione è il “titolare del trattamento” (o equivalente in base alle leggi sulla privacy e la protezione dei dati applicabili). È compito dell’organizzazione divulgare in che modo utilizza i prodotti e i servizi Adobe, in quanto l’organizzazione controlla esclusivamente l’implementazione delle soluzioni di Adobe. Durante l’utilizzo di Adobe Analytics, l’organizzazione è responsabile del rispetto della propria informativa sulla privacy, del contratto sui servizi con Adobe e di tutte le leggi applicabili.
 
 Adobe consiglia vivamente di attenersi ai seguenti concetti generali:
 

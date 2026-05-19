@@ -16,7 +16,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1114
 ht-degree: 52%
@@ -29,10 +29,10 @@ Adobe Analytics supporta vari tipi di amministratori. Gli amministratori Adobe A
 
 >[!NOTE]
 >
->Prima che a qualsiasi utente possano essere assegnati ruoli in Adobe Analytics, deve essere assegnato un utente come primo amministratore in Experience Cloud. Il primo amministratore può quindi assegnare agli utenti dell’organizzazione altri ruoli chiave, come descritto in questo articolo. Per ulteriori informazioni sul primo amministratore, consulta [Prima guida amministratore di Adobe Analytics](/help/admin/admin-console/first-admin-guide.md).
+>Prima di poter assegnare ruoli a qualsiasi utente in Adobe Analytics, è necessario assegnare un utente come primo amministratore in CX Enterprise. Il primo amministratore può quindi assegnare agli utenti dell’organizzazione altri ruoli chiave, come descritto in questo articolo. Per ulteriori informazioni sul primo amministratore, consulta [Prima guida amministratore di Adobe Analytics](/help/admin/admin-console/first-admin-guide.md).
 
 
-## Ruoli chiave in Experience Cloud e Adobe Analytics
+## Ruoli chiave in CX Enterprise e Adobe Analytics
 
 Quando utilizzi Adobe Analytics, considera i seguenti ruoli chiave:
 
@@ -88,9 +88,9 @@ Per informazioni sull&#39;assegnazione degli utenti come amministratori dei prof
 
 [Creare una proprietà tag di Analytics](/help/implement/launch/create-analytics-property.md): chiedi all’amministratore della raccolta dati di accedere allo strumento e creare una proprietà da implementare sul tuo sito
 
-Prima che a qualsiasi utente possano essere assegnati ruoli in Adobe Analytics, deve essere assegnato un utente come primo amministratore in Experience Cloud. Il primo amministratore può quindi assegnare agli utenti dell’organizzazione altri ruoli chiave, come descritto in questo articolo.
+Prima di poter assegnare ruoli a qualsiasi utente in Adobe Analytics, è necessario assegnare un utente come primo amministratore in CX Enterprise. Il primo amministratore può quindi assegnare agli utenti dell’organizzazione altri ruoli chiave, come descritto in questo articolo.
 
-Un primo amministratore è il punto di partenza per consentire al resto dell’organizzazione di utilizzare ogni soluzione Experience Cloud.
+Un primo amministratore è il punto di partenza per consentire al resto dell&#39;organizzazione di utilizzare ogni soluzione CX Enterprise.
 
 Dopo la firma di un contratto
 

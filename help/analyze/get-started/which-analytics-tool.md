@@ -27,10 +27,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 1171
-ht-degree: 88%
+source-wordcount: 1170
+ht-degree: 87%
 
 ---
 
@@ -87,7 +87,7 @@ Le **[origini dati](/help/import/data-sources/overview.md)** sono utili nei se
 
 Gli **[Attributi cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it)** sono indicati per i seguenti casi:
 
-* Se acquisisci dati cliente Enterprise in un database CRM (Customer Relationship Management) e vuoi caricarli in Experience Cloud.
+* Se si acquisiscono dati di clienti aziendali in un database CRM (Customer Relationship Management) e si desidera caricarli in CX Enterprise.
 * Se desideri utilizzare i dati CRM per analisi più approfondite in Analytics o come criteri di targeting in Adobe Target.
 
 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)** è indicato nei seguenti casi:

@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 378
 ht-degree: 8%
@@ -31,7 +31,7 @@ La metrica &#39;Visitatori con ID Experience Cloud&#39; [metric](overview.md) mo
 
 >[!NOTE]
 >
->Questa metrica è particolarmente importante per il debug se utilizzi più servizi Experience Cloud, come Adobe Target o Adobe Audience Manager. I segmenti condivisi tra i prodotti Experience Cloud non includono i visitatori senza un Experience Cloud ID.
+>Questa metrica è particolarmente importante per il debug se si utilizzano più servizi CX Enterprise, come Adobe Target o Adobe Audience Manager. I segmenti condivisi tra i prodotti aziendali CX non includono i visitatori senza un Experience Cloud ID.
 
 ## Come è calcolata questa metrica
 
@@ -39,7 +39,7 @@ Questa metrica si basa sulla metrica [Visitatori univoci](unique-visitors.md), t
 
 ## Debug della configurazione dell’Experience Cloud ID
 
-La metrica &quot;Visitatori con Experience Cloud ID&quot; può essere utile per risolvere problemi di integrazioni Experience Cloud o per identificare aree del sito in cui non è implementato il servizio ID.
+La metrica &quot;Visitatori con Experience Cloud ID&quot; può essere utile per risolvere problemi relativi alle integrazioni CX Enterprise o per identificare aree del sito in cui non è stato implementato il servizio ID.
 
 Trascina &quot;Visitatori con Experience Cloud ID&quot; accanto a Visitatori univoci per confrontarli:
 

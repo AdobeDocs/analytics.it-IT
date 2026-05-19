@@ -1,5 +1,5 @@
 ---
-description: L’inoltro lato server è progettato per i clienti che vogliono condividere in tempo reale dati da Analytics ad altre soluzioni Experience Cloud. Se abilitato, l’inoltro lato server consente ad Analytics di trasmettere i dati ad altre soluzioni Experience Cloud e a queste di trasmetterli ad Analytics durante il processo di raccolta dei dati.
+description: L'inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale dati da Analytics ad altre soluzioni CX Enterprise. Quando è abilitato, l'inoltro lato server consente ad Analytics di inviare dati ad altre soluzioni CX Enterprise e a queste di inviarli ad Analytics durante il processo di raccolta dei dati.
 solution: Analytics
 title: Panoramica sull’inoltro lato server
 feature: Report Suite Settings
@@ -16,21 +16,21 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 887
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # Panoramica sull’inoltro lato server
 
-L’inoltro lato server è progettato per i clienti che vogliono condividere in tempo reale dati da Analytics ad altre soluzioni Experience Cloud. Se abilitato, l’inoltro lato server consente ad Analytics di trasmettere i dati ad altre soluzioni Experience Cloud e a queste di trasmetterli ad Analytics durante il processo di raccolta dei dati.
+L&#39;inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale dati da Analytics ad altre soluzioni CX Enterprise. Quando è abilitato, l&#39;inoltro lato server consente ad Analytics di inviare dati ad altre soluzioni CX Enterprise e a queste di inviarli ad Analytics durante il processo di raccolta dei dati.
 
 L’inoltro lato server migliora la raccolta dati perché:
 
 * Riduce le chiamate dalla pagina. Con l’inoltro lato server, i clienti di [!DNL Audience Manager] non dovranno più utilizzare DIL per la raccolta dati, in quanto questi vengono inoltrati da Analytics. La rimozione di DIL comporta l’eliminazione di una chiamata `"/event"`. Un numero inferiore di chiamate consente di migliorare i tempi di caricamento della pagina, assicurando una migliore esperienza del cliente sul sito.
-* Consente di sfruttare la condivisione dati tra soluzioni Experience Cloud.
+* Consente di sfruttare la condivisione dei dati tra le soluzioni CX Enterprise.
 * Rispetta le nostre best practice per l’implementazione e la distribuzione del codice di Audience Manager.
 
 >[!TIP]
@@ -82,4 +82,4 @@ Vai a **Analytics** > **Admin** > **Report Suites** > (seleziona una **suite di 
 
 >[!NOTE]
 >
->I dati non verranno visualizzati in altre soluzioni Experience Cloud, come [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=it) o [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) fino al completamento di tutti e 3 i passaggi. Una volta abilitata, l’applicazione delle impostazioni richiederà alcune ore.
+>I dati non verranno visualizzati in altre soluzioni CX Enterprise, ad esempio [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=it) o [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) fino al completamento di tutti e 3 i passaggi. Una volta abilitata, l’applicazione delle impostazioni richiederà alcune ore.

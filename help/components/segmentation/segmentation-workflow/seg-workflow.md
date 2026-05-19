@@ -13,10 +13,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 266
-ht-degree: 47%
+source-wordcount: 265
+ht-degree: 40%
 
 ---
 
@@ -33,7 +33,7 @@ Questo articolo descrive un flusso di lavoro consigliato per creare segmenti con
 | 4 | [Segmenti di tag](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Assegna tag ai segmenti per semplificarne l’organizzazione e la condivisione. Scopri come pianificare e assegnare tag per ricerche e organizzazioni semplici e avanzate. |
 | 5 | [Approvare segmenti](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Approva i segmenti per renderli canonici. |
 | 6 | [Usa segmenti](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | Puoi applicare segmenti dai componenti dei segmenti direttamente a un rapporto. |
-| 7 | [Condividere segmenti](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Condividi i segmenti con il pubblico previsto in altri strumenti Analytics e in Adobe Target e Adobe Experience Cloud. |
+| 7 | [Condividere segmenti](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Condividi i segmenti con il pubblico previsto in altri strumenti di Analytics e in Adobe Target e Adobe CX Enterprise. |
 | 8 | [Filtrare segmenti](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | È possibile filtrare per tag, proprietari e altri filtri (Mostra tutto, Personali, Condivisi con me, Preferiti e Approvati). |
 | 9 | [Segmento contrassegnato come preferito](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | Contrassegnare i segmenti come preferiti è un altro modo per organizzarli in modo semplice e intuitivo. |
 

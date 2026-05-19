@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1433
 ht-degree: 55%
@@ -80,7 +80,7 @@ Verrà effettuata la migrazione di questi segmenti e diventeranno modelli di seg
 
 +++
 
-+++ **Cos’è successo ai segmenti Experience Cloud (Suite):**
++++ **Cos&#39;è successo ai segmenti CX Enterprise (Suite):**
 
 * Non acquirenti
 * Acquirenti

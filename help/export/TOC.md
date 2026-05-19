@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Scopri come utilizzare i feed di dati e Data Warehouse per recuperare l’output di dati.
-source-git-commit: 0fa5d471401d78f0564887cdbf08894973bac150
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 92%
+source-wordcount: '267'
+ht-degree: 87%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 92%
    + [Componenti supportati in Data Warehouse](data-warehouse/component-support.md)
    + [Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)](data-warehouse/data-warehouse-bp.md)
 + FTP e SFTP {#ftp-and-sftp}
-   + [Utilizzare FTP e SFTP con Adobe Experience Cloud](ftp-and-sftp/ftp-overview.md)
+   + [Utilizzare FTP e SFTP con Adobe CX Enterprise](ftp-and-sftp/ftp-overview.md)
    + Configurare account FTP ospitati da Adobe {#set-up-ftp-accounts}
       + [Configurare account FTP: panoramica](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [Classificazioni](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
@@ -73,4 +73,4 @@ ht-degree: 92%
       + [Invio di dati Adobe a un account FTP esterno tramite SFTP](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [Invio di richieste di Data Warehouse a server SFTP](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [Connessione ad Adobe tramite SFTP senza password](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [API Adobe Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/)
++ [API ADOBE ANALYTICS](https://developer.adobe.com/analytics-apis/docs/2.0/)

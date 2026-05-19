@@ -18,7 +18,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 783
 ht-degree: 24%
@@ -31,7 +31,7 @@ La finestra di dialogo **[!UICONTROL Privacy Labeling for Data Governance]** for
 
 ## Visualizza etichette privacy {#view-privacy}
 
-1. Accedi a Adobe Experience Cloud.
+1. Accedere ad Adobe CX Enterprise.
 2. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL Data configuration & collection]** > **[!UICONTROL Data Governance]**.
 
    >[!NOTE]
@@ -69,7 +69,7 @@ Se desideri applicare le stesse impostazioni di Privacy dei dati a più di una s
 
    >[!IMPORTANT]
    >
-   >Tieni presente che tutte le suite di rapporti selezionate devono essere mappate nell’organizzazione Experience Cloud.
+   >Tenere presente che tutte le suite di rapporti selezionate devono essere mappate all&#39;organizzazione CX Enterprise.
 
    Quando copi le etichette per una variabile o per un set di variabili in una suite di rapporti diversa, la copia passa alla variabile nella posizione corrispondente nella suite di rapporti di destinazione. Per i componenti standard, le variabili elenco e gli eventi di successo, le etichette verranno copiate nella variabile con **lo stesso nome** nella suite di rapporti di destinazione.
 

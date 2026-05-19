@@ -17,10 +17,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 714
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
@@ -53,4 +53,4 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Configurazi
 | Supporto di caratteri multibyte | Il supporto per caratteri multibyte memorizza i caratteri nella suite di rapporti utilizzando il formato UTF-8. Al momento della ricezione, il sistema converte i dati dal set di caratteri della pagina web al set di caratteri UTF-8, in modo da poter utilizzare qualsiasi lingua nei rapporti di marketing. Per modificare il supporto dei caratteri multibyte per una suite di rapporti esistente, contatta il team Adobe Account o l’Assistenza clienti. |
 | Attivato | Specifica se la suite di rapporti è attivata o meno. |
 | Valuta di base | Consente di specificare la [valuta](/help/implement/vars/config-vars/currencycode.md) di base per questa suite di rapporti. |
-| ID organizzazione | ID associato alla società di Experience Cloud con provisioning. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (e che deve includere) @AdobeOrg. |
+| ID organizzazione | L&#39;ID associato all&#39;azienda con provisioning CX Enterprise. Questo ID è una stringa alfanumerica composta da 24 caratteri, seguita da (e che deve includere) @AdobeOrg. |

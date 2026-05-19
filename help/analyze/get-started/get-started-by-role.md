@@ -38,10 +38,10 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1700
-ht-degree: 99%
+source-wordcount: 1699
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,7 @@ Prima di rendere Adobe Analytics disponibile agli utenti dell’organizzazione, 
 | Gestire i componenti | Utilizza il dizionario dati e le aree di gestione per ciascun tipo di componente per definire quali di essi sono disponibili nell’implementazione di Analytics e quali sono approvati per la tua organizzazione.<p>Questa dovrebbe essere un’attività continua per garantire che i componenti vengano utilizzati in modo efficace all’interno della tua organizzazione. </p> | <ul><li>[Panoramica del dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[Gestione metriche calcolate](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[Gestire i segmenti](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[Creare di intervalli di date personalizzati](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
 | Rilevamento delle anomalie | Il rilevamento anomalie fornisce un metodo statistico per determinare come una particolare metrica è cambiata in relazione ai dati precedenti. | [Panoramica del rilevamento anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Analisi dei contributi | L’analisi dei contributi riconosce pattern nascosti nei dati per spiegare le anomalie statistiche e identificare le correlazioni alla base di azioni inaspettate da parte della clientela, valori fuori dalla norma e improvvisi picchi o ribassi di metriche selezionate su segmenti di pubblico convergenti. | [Panoramica dell’analisi dei contributi](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
-| Segmentazione di Analytics | Ti consente di creare, gestire, condividere e applicare segmenti di pubblico efficaci e mirati ai tuoi rapporti utilizzando le funzionalità di Analytics, Adobe Experience Cloud, Adobe Target e altri prodotti Adobe integrati. | [Segmentazione di Analytics](/help/components/segmentation/seg-home.md) |
+| Segmentazione di Analytics | Consente di creare, gestire, condividere e applicare segmenti di pubblico potenti e mirati ai tuoi rapporti utilizzando le funzionalità di Analytics, Adobe CX Enterprise, Adobe Target e altri prodotti Adobe integrati. | [Segmentazione di Analytics](/help/components/segmentation/seg-home.md) |
 | Pubblicare tipi di pubblico su Audience Manager | Adobe Audience Manager è una potente piattaforma di gestione dei dati che consente di creare profili di pubblico univoci da integrazioni di dati di prime, seconde e terze parti (partner). | [Panoramica di Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md) |
 | Integrazioni | È possibile far emergere le informazioni da altre applicazioni in Adobe Analytics. <p>Di seguito sono riportate alcune integrazioni comuni:</p><ul><li><a href="/help/analyze/analysis-workspace/c-panels/a4t-panel.md">Analytics for Target</a></li><li><a href="https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview">Servizi multimediali in streaming</a></li> | [Integrazione di Analytics](/help/integrate/home.md) |
 

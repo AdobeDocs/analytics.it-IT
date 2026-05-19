@@ -15,10 +15,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 398
-ht-degree: 70%
+source-wordcount: 394
+ht-degree: 63%
 
 ---
 
@@ -28,7 +28,7 @@ Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’
 
 >[!NOTE]
 >
->Se un amministratore che non ha eseguito l’accesso tramite Experience Cloud tenta di accedere allo strumento di migrazione degli ID utente, verrà reindirizzato alla pagina di accesso di Experience Cloud.
+>Se un amministratore che non ha eseguito l&#39;accesso a CX Enterprise tenta di accedere allo strumento di migrazione degli ID utente, viene reindirizzato alla pagina di accesso di CX Enterprise.
 
 1. Passa a **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
 
@@ -52,7 +52,7 @@ Eseguire la migrazione dal sistema legacy di gestione utenti di Analytics all’
    </tr> 
    <tr> 
       <td colname="col1"> <p>Accesso legacy disabilitato </p> </td> 
-      <td colname="col2"> <p>L’accesso legacy tramite un ID società è disabilitato. Ora gli utenti accedono all’Experience Cloud utilizzando il proprio Adobe ID o Enterprise ID. Quando tutti gli utenti avranno raggiunto questa fase, avrai completato la migrazione. </p> <p>Durante la migrazione, l’accesso legacy è disattivato. Gli utenti vengono reindirizzati a <span class="filepath"> experiencecloud.adobe.com</span> e devono accedere utilizzando il loro Adobe ID o Enterprise ID. </p> </td> 
+      <td colname="col2"> <p>L’accesso legacy tramite un ID società è disabilitato. Gli utenti ora accedono a CX Enterprise utilizzando il proprio Adobe ID o Enterprise ID. Quando tutti gli utenti avranno raggiunto questa fase, avrai completato la migrazione. </p> <p>Durante la migrazione, l’accesso legacy è disattivato. Gli utenti vengono reindirizzati a <span class="filepath"> experiencecloud.adobe.com</span> e devono accedere utilizzando il loro Adobe ID o Enterprise ID. </p> </td> 
    </tr> 
    </tbody> 
    </table>

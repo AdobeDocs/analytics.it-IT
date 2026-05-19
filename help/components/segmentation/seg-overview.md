@@ -24,10 +24,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 985
-ht-degree: 73%
+source-wordcount: 989
+ht-degree: 70%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 73%
 
 I segmenti consentono di identificare sottoinsiemi di visitatori in base a caratteristiche o interazioni con siti web. I segmenti sono progettati come insight sul pubblico che puoi creare per esigenze specifiche e successivamente puoi verificarli, modificarli e condividerli con altri membri del team o utilizzarli in altri prodotti Adobe e in altre funzionalità di Analytics.
 
-I segmenti si basano su una gerarchia a livello di [!UICONTROL Visitor], [!UICONTROL Visit] e [!UICONTROL Hit] che utilizza un modello di contenitori nidificati. I contenitori nidificati ti consentono di definire gli attributi e le azioni dei visitatori in base alle regole tra e all’interno dei contenitori. I segmenti di Analytics possono essere generati, approvati, condivisi, salvati ed eseguiti tra più prodotti e funzionalità in [!DNL Adobe Experience Cloud]. I segmenti possono essere generati da un rapporto, incorporati in un rapporto dashboard o contrassegnati con segnalibro per l’accesso rapido.
+I segmenti si basano su una gerarchia a livello di [!UICONTROL Visitor], [!UICONTROL Visit] e [!UICONTROL Hit] che utilizza un modello di contenitori nidificati. I contenitori nidificati ti consentono di definire gli attributi e le azioni dei visitatori in base alle regole tra e all’interno dei contenitori. I segmenti di Analytics possono essere generati, approvati, condivisi, salvati ed eseguiti tra più prodotti e funzionalità in Adobe CX Enterprise. I segmenti possono essere generati da un rapporto, incorporati in un rapporto dashboard o contrassegnati con segnalibro per l’accesso rapido.
 
 È possibile generare e salvare i segmenti nel Generatore di segmenti o generarli da un rapporto di fallout (in [!UICONTROL Analysis Workspace]). Puoi anche utilizzare ed estendere segmenti predefiniti basati su regole specifiche tra contenitori nidificati, per filtrare i risultati e applicarli ai rapporti. Inoltre, i segmenti possono essere utilizzati insieme come [segmenti sovrapposti](/help/components/segmentation/segmentation-workflow/seg-workflow.md).
 
@@ -261,7 +261,7 @@ Questo video offre una breve panoramica sui contenitori di segmenti e su come ut
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Contenitori di segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/segmentation/segment-containers){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -278,7 +278,7 @@ Gli amministratori possono modificare qualsiasi segmento e condividere i segment
 
 +++ **Posso visualizzare tutti i segmenti nella mia azienda?**
 
-Sì, gli amministratori possono visualizzare tutti i segmenti all’interno dell’interfaccia utente di [!DNL Analysis Workspace].
+Sì, gli amministratori possono visualizzare tutti i segmenti nell’interfaccia utente di Analysis Workspace.
 
 Report Builder mostra i segmenti di tua proprietà e quelli condivisi con te.
 
@@ -296,6 +296,6 @@ Report Builder mostra solo i segmenti generati da te o quelli che sono stati con
 
 +++ **Perché non posso eliminare un segmento?**
 
-Se il segmento è stato [pubblicato in Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md), non è possibile eliminarlo o modificarlo. Tuttavia, puoi copiare il segmento e modificare la versione copiata.
+Se il segmento è stato [pubblicato in CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-workflow.md), non è possibile eliminarlo o modificarlo. Tuttavia, puoi copiare il segmento e modificare la versione copiata.
 
 +++

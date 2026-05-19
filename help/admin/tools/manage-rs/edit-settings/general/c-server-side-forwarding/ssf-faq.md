@@ -13,10 +13,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 707
-ht-degree: 100%
+ht-degree: 67%
 
 ---
 
@@ -36,11 +36,11 @@ Domande frequenti sulle caratteristiche, sulle funzionalità e sui problemi corr
 | Domanda | Risposta |
 |--- |--- |
 | D: cosa succede se dispongo di tag per più suite sul sito? L’inoltro lato server raddoppierà le chiamate server ad Audience Manager? | No, un hit inoltrato da Analytics all’Audience Manager verrà inoltrato una sola volta, indipendentemente dal numero di suite di rapporti nell’hit. Se disponi di origini di dati corrispondenti nell’Audience Manager per ciascuna suite di rapporti nell’hit, ciascuna di esse verrà compilata in modo appropriato dall’hit singolo.  Tieni presente tuttavia che se al momento utilizzi la raccolta dati lato client (DIL) e abiliti l’inoltro lato server senza installare il modulo Gestione dell’audience, le chiamate server all’Audience Manager verranno raddoppiate indipendentemente dal numero di suite di rapporti disponibili nell’hit di Analytics. |
-| D: cosa succede se dispongo di suite di rapporti con tag con più suite mappate su organizzazioni di Experience Cloud separate? | Non devi mai inviare dati da un singolo hit di Analytics a due suite di rapporti che appartengono a organizzazioni di Experience Cloud separate, ma se ciò si verifica, l’hit verrà inoltrato solo all’organizzazione di Experience Cloud che corrisponde alla configurazione del servizio Identity nella pagina. |
-| D: cosa succede se dispongo di tag con più suite e una sola suite di rapporti è mappata sulla mia organizzazione Experience Cloud e l’altra no? | Inoltreremo l’hit al server di raccolta dati corrispondente per l’organizzazione Experience Cloud nella tua suite di rapporti mappata. Tuttavia, poiché la suite di rapporti non mappata non avrà un’origine dati associata nell’Audience Manager, non verranno registrati dati per la suite di rapporti non mappata nell’Audience Manager. |
-| D: cosa succede se dispongo di una suite di rapporti mappata su più organizzazioni di Experience Cloud? | Analytics considererà questa suite di rapporti come non mappata e non consentirà l’inoltro lato server di essere abilitato per questa suite di rapporti. Contattata il servizio clienti per risolvere il problema di mappatura. |
+| D: cosa succede se dispongo di suite di rapporti con tag con più suite mappate su organizzazioni aziendali CX separate? | Non devi mai inviare dati da un singolo hit di Analytics a due suite di rapporti che appartengono a organizzazioni CX Enterprise separate, ma se ciò si verifica, l’hit verrà inoltrato solo all’organizzazione CX Enterprise che corrisponde alla configurazione del servizio Identity nella pagina. |
+| D: cosa succede se dispongo di tag per più suite e una sola suite di rapporti è mappata sulla mia organizzazione CX Enterprise e l’altra no? | Inoltreremo l’hit al server di raccolta dati corrispondente per l’organizzazione CX Enterprise nella suite di rapporti mappata. Tuttavia, poiché la suite di rapporti non mappata non avrà un’origine dati associata in Audience Manager, non verranno registrati dati per la suite di rapporti non mappata in Audience Manager. |
+| D: cosa succede se dispongo di una suite di rapporti mappata su più organizzazioni aziendali CX? | Analytics considererà questa suite di rapporti come non mappata e non consentirà l’inoltro lato server di essere abilitato per questa suite di rapporti. Contattata il servizio clienti per risolvere il problema di mappatura. |
 | D: il metodo di inoltro lato server basato su suite di rapporti sarà più lento rispetto all’inoltro lato server basato sul server di tracciamento? | No, il tempo di risposta sarà lo stesso. |
-| D: cosa succede se disponiamo di due organizzazioni di Experience Cloud (o istanze Adobe Audience Manager) e vogliamo condividere i dati tra entrambe le organizzazioni di Experience Cloud? Posso inoltrare un singolo hit di Analytics lato server a più organizzazioni di Experience Cloud? | No. Se devi condividere i dati raccolti in un’organizzazione di Experience Cloud con un’altra organizzazione di Experience Cloud, ti consigliamo di inviare un pubblico adeguato da un’istanza di Audience Manager a un’altra utilizzando audience marketplace. |
+| D: cosa succede se disponiamo di due organizzazioni CX Enterprise (o istanze Adobe Audience Manager) e vogliamo condividere i dati tra entrambe le organizzazioni CX Enterprise? È possibile inoltrare un singolo hit Analytics lato server a più organizzazioni CX Enterprise? | No. Se devi condividere i dati raccolti in un’organizzazione CX Enterprise con un’altra organizzazione CX Enterprise, ti consigliamo di inviare qualsiasi pubblico applicabile da un’istanza di Audience Manager a un’altra utilizzando audience marketplace. |
 | D: l’inoltro lato server comporterà una fatturazione aggiuntiva in Audience Manager o Analytics? | In Analytics non si verificherà alcuna fatturazione aggiuntiva. In Audience Manager, gli hit inoltrati vengono trattati come qualsiasi altro hit e vengono fatturati.  Per questo motivo è importante non abilitare contemporaneamente l’inoltro lato server e DIL, il che potrebbe causare la doppia fatturazione e la duplicazione dei dati. |
 
 >[!MORELIKETHIS]

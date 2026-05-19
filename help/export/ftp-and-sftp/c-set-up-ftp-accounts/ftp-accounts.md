@@ -12,9 +12,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 315
+source-wordcount: 316
 ht-degree: 2%
 
 ---
@@ -33,4 +33,4 @@ I clienti di Adobe ricevono notifiche di manutenzione tramite la procedura stand
 
 Il nome host FTP di Adobe è `ftp://ftp.omniture.com` o `ftp://ftp2.omniture.com`.
 
-Queste informazioni, insieme a un nome utente e una password, devono essere fornite all&#39;interno di [!UICONTROL Experience Cloud] (per classificazioni e origini dati) o dal rappresentante di Adobe responsabile della configurazione dell&#39;account su richiesta dell&#39;utente. Se non sai quale indirizzo FTP o SFTP utilizzare, contatta il team del tuo account Adobe, che può fornire l’indirizzo corretto. Inoltre, per le classificazioni e gli account Origini dati, Adobe non dispone di un’ora del giorno specifica in cui vengono elaborati i file FTP o SFTP. Al contrario, Adobe utilizza uno script che esegue costantemente il polling degli account FTP o SFTP per il processo di nuovi file. I file caricati in questi account vengono elaborati il più rapidamente possibile.
+Queste informazioni, insieme a un nome utente e una password, devono essere fornite all&#39;interno di CX Enterprise (per classificazioni e origini dati) o dal rappresentante di Adobe responsabile della configurazione dell&#39;account, su richiesta dell&#39;utente. Se non sai quale indirizzo FTP o SFTP utilizzare, contatta il team del tuo account Adobe, che può fornire l’indirizzo corretto. Inoltre, per le classificazioni e gli account Origini dati, Adobe non dispone di un’ora del giorno specifica in cui vengono elaborati i file FTP o SFTP. Al contrario, Adobe utilizza uno script che esegue costantemente il polling degli account FTP o SFTP per il processo di nuovi file. I file caricati in questi account vengono elaborati il più rapidamente possibile.

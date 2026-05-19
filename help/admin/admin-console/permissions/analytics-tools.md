@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f2ebe32aed6555a81f9d51e10a297679df5b8d4c
 workflow-type: tm+mt
 source-wordcount: 445
-ht-degree: 55%
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ Gli elementi di autorizzazione degli strumenti di Analytics concedono l’access
 | [!UICONTROL Reports & Analytics Access] | Non utilizzato |
 | [!UICONTROL Security] | Consente di accedere ad Admin > All admin > Company settings > Security Manager (Amministrazione > Tutte le attività di amministrazione > Impostazioni società > Gestione sicurezza). |
 | [!UICONTROL Segment Creation] | Consente di creare e condividere segmenti in tutte le funzionalità di Analytics. |
-| [!UICONTROL Segment Publishing] | Consente di usare un segmento come pubblico Experience Cloud durante la creazione o la modifica di un segmento. |
+| [!UICONTROL Segment Publishing] | Consente di rendere un segmento un pubblico aziendale CX durante la creazione o la modifica di un segmento. |
 | [!UICONTROL Server Call Usage] | Consente di accedere ad Admin > Server call usage (Amministrazione > Utilizzo chiamate al server). |
 | [!UICONTROL Share Project Links with Anyone] | Consente di concedere l’accesso in sola lettura ai progetti Analysis Workspace a persone che non hanno accesso ad Adobe Analytics. |
 | [!UICONTROL Support] | Consente di accedere ad Admin > All admin > Company settings > Support Information (Amministrazione > Tutte le attività di amministrazione > Impostazioni società > Informazioni di supporto). |

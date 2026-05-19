@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 1012
-ht-degree: 81%
+source-wordcount: 1010
+ht-degree: 73%
 
 ---
 
@@ -60,7 +60,7 @@ I seguenti termini sono importanti per comprendere l’utilizzo delle chiamate a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Società di fatturazione (ID fatturazione) </p> </td> 
-   <td colname="col2"> <p>Persona giuridica a cui vengono addebitate le chiamate al server. Ad esempio, adobe.com. Ciascuna società di fatturazione dispone di un ID fatturazione utilizzato per identificare in modo univoco il cliente di fatturazione. Un ID fatturazione può essere associato a più organizzazioni Experience Cloud, non esiste sempre una relazione 1:1 tra un’organizzazione e un ID fatturazione. </p> </td> 
+   <td colname="col2"> <p>Persona giuridica a cui vengono addebitate le chiamate al server. Ad esempio, adobe.com. Ciascuna società di fatturazione dispone di un ID fatturazione utilizzato per identificare in modo univoco il cliente di fatturazione. Un ID fatturazione può essere associato a più organizzazioni CX Enterprise; non esiste sempre una relazione 1:1 tra un'organizzazione e un ID fatturazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Società di accesso </p> </td> 
@@ -73,8 +73,8 @@ I seguenti termini sono importanti per comprendere l’utilizzo delle chiamate a
     </ul> <p>Nota: i dati relativi all’utilizzo delle chiamate al server per <u>tutte</u> le suite di rapporti all’interno di una società di fatturazione sono visibili a tutti gli utenti con l’appropriata <a href="/help/admin/tools/server-call-usage/overage-overview.md">autorizzazione</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Organizzazione Experience Cloud </p> </td> 
-   <td colname="col2"> <p>Un’organizzazione è l'entità che consente all’amministratore di configurare gruppi e utenti e di controllare il single sign-on in Experience Cloud. L'organizzazione funziona come una società di accesso che abbraccia tutti i prodotti e le soluzioni Experience Cloud. </p> <p>Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni. </p> </td> 
+   <td colname="col1"> <p>Organizzazione CX Enterprise </p> </td> 
+   <td colname="col2"> <p>Un'organizzazione è l'entità che consente all'amministratore di configurare gruppi e utenti e di controllare il single sign-on in CX Enterprise. L'organizzazione funziona come una società di accesso che abbraccia tutti i prodotti e le soluzioni CX Enterprise. </p> <p>Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Impegno di chiamata al server </p> </td> 
@@ -104,7 +104,7 @@ L’autorizzazione per l’utilizzo delle chiamate al server viene concessa auto
   <tr> 
    <th colname="col1" class="entry"> Nome autorizzazione </th> 
    <th colname="col3" class="entry"> Concedere l’autorizzazione se è stato effettuato l’accesso ad Adobe Analytics (accesso legacy) </th> 
-   <th colname="col4" class="entry"> Concedere l’autorizzazione se è stato effettuato l’accesso ad Adobe Experience Cloud </th> 
+   <th colname="col4" class="entry"> Concedere l'autorizzazione se si è connessi ad Adobe CX Enterprise </th> 
   </tr> 
  </thead>
  <tbody> 

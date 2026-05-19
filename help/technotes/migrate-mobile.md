@@ -17,7 +17,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 669
 ht-degree: 8%
@@ -44,7 +44,7 @@ Tuttavia, se imposti ulteriori regole di elaborazione nell’interfaccia utente 
 
    ![Variabile di contesto](assets/context-var.png)
 
-1. In Experience Cloud, passa ad Adobe Analytics e accertati di trovarti nella stessa suite di rapporti per dispositivi mobili che stavi esaminando in Mobile Services.
+1. In CX Enterprise, passa ad Adobe Analytics e accertati di trovarti nella stessa suite di rapporti per dispositivi mobili che stavi esaminando in Mobile Services.
 1. Vai a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]**.
 1. Fai clic su **[!UICONTROL Add Rule]**.
 1. Ignora le condizioni e procedi all’aggiunta delle stesse variabili di contesto esistenti in Mobile Services.

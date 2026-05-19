@@ -15,9 +15,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 471
+source-wordcount: 470
 ht-degree: 0%
 
 ---
@@ -104,4 +104,4 @@ L’esempio seguente mostra diverse variabili personalizzate incluse in una stri
 
 ## Articoli istantanei e privacy di Facebook
 
-Se la pagina HTML di Analytics è ospitata sul server web, Adobe supporta l’informativa sulla privacy esistente in tutti gli articoli istantanei di Facebook. Se un utente rinuncia al tracciamento sul sito principale, rinuncia anche al tracciamento su tutti gli articoli istantanei di Facebook. La pagina dell’utility supporta anche il servizio Adobe Experience Cloud Identity, in modo da poter integrare i dati degli articoli istantanei di Facebook con il resto di Experience Cloud.
+Se la pagina HTML di Analytics è ospitata sul server web, Adobe supporta l’informativa sulla privacy esistente in tutti gli articoli istantanei di Facebook. Se un utente rinuncia al tracciamento sul sito principale, rinuncia anche al tracciamento su tutti gli articoli istantanei di Facebook. La pagina dell&#39;utility supporta anche il servizio Adobe Experience Cloud Identity, in modo da poter integrare i dati degli Instant Article di Facebook con il resto di CX Enterprise.

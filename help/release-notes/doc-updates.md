@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: '7259'
+source-wordcount: '7258'
 ht-degree: 86%
 
 ---
@@ -321,7 +321,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 28 aprile 2020 | È stata aggiunta la documentazione per la metrica [Content Velocity](/help/components/metrics/content-velocity.md) (Velocità dei contenuti). |
 | 16 aprile 2020 | Documentazione su come creare automaticamente build [!UICONTROL Freeform Tables] da uno stato vuoto. In precedenza, non era possibile rilasciare componenti direttamente in un progetto o un pannello vuoto, ma era necessario aggiungere prima una tabella a forma libera. Ora è possibile rilasciare i componenti direttamente in un progetto o pannello vuoto, e verrà automaticamente creata una tabella a forma libera in un formato consigliato. Sono stati inoltre effettuati miglioramenti alla gestione dei tipi di componenti misti (ad es. dimensioni e metriche) quando vengono rilasciati insieme in una [!UICONTROL Freeform Table] vuota. |
 | **Marzo 2020** |  |
-| 12 marzo 2020 | Sono stati aggiunti aggiornamenti a [Pubblicare segmenti in Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
+| 12 marzo 2020 | Sono stati aggiunti aggiornamenti a [Pubblicare segmenti in CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). |
 | 12 marzo 2020 | Aggiornamenti alla latenza di unione di CDA. |
 | 12 marzo 2020 | Supporto per più suite di rapporti in Workspace. Ora è possibile inserire dati da più suite di rapporti in un singolo progetto per visualizzarli affiancati. [Ulteriori informazioni...](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) |
 | 12 marzo 2020 | Modello per tutorial in Workspace. Questo nuovo modello standard spiega la terminologia e i passaggi comuni per lo svolgimento della prima analisi in Workspace. È disponibile come modello standard nel modale Nuovo progetto e sostituisce il progetto di esempio attuale per i nuovi utenti che non hanno altri progetti nel loro elenco. [Ulteriori informazioni...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |

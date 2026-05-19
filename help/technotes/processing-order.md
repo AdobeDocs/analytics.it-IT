@@ -19,7 +19,7 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1106
 ht-degree: 37%
@@ -41,7 +41,7 @@ Prima dell’invio dei dati ad Adobe, in genere avviene una compilazione lato cl
 * **Tag nella raccolta dati di Adobe Experience Platform**: un file JavaScript a cui si fa riferimento in ogni pagina, contenente regole create all&#39;interno dell&#39;interfaccia utente di raccolta dati. L’estensione Adobe Analytics offre un modo più semplice per implementare AppMeasurement. L’estensione Web SDK offre un modo più semplice per implementare Web SDK.
 * **API**: sia AppMeasurement che Edge Network offrono metodi programmatici per inviare dati ad Adobe. AppMeasurement offre l&#39;[API di inserimento dati](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) e l&#39;[API di inserimento dati in blocco](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/); Edge Network offre l&#39;[API di raccolta dati](https://developer.adobe.com/data-collection-apis/docs/).
 
-Se invii dati ad Edge Network, puoi configurarlo per l’inoltro di dati ad Adobe Analytics (nonché a molte altre soluzioni Adobe Experience Cloud). Indipendentemente dal metodo di implementazione, i dati hit raccolti arrivano ai server di elaborazione Adobe Analytics in un formato che può essere analizzato.
+Se invii dati ad Edge Network, puoi configurarlo per l’inoltro dei dati ad Adobe Analytics (nonché a molte altre soluzioni Adobe CX Enterprise). Indipendentemente dal metodo di implementazione, i dati hit raccolti arrivano ai server di elaborazione Adobe Analytics in un formato che può essere analizzato.
 
 ## Pre-elaborazione nella raccolta Adobe Analytics
 

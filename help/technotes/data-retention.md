@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
 workflow-type: tm+mt
 source-wordcount: 616
 ht-degree: 92%
@@ -51,7 +51,7 @@ Una volta superati i criteri di conservazione dei dati, Adobe si riserva il diri
 
 ## Visualizzare/gestire i criteri di conservazione dei dati correnti
 
-La finestra di dialogo Governance dei dati in Strumenti di [!UICONTROL Admin] fornisce una panoramica delle suite di rapporti configurate per la governance dei dati. Indica inoltre se sono stati mappati a un’organizzazione Experience Cloud e se per questa suite di rapporti sono applicati i criteri di conservazione dei dati.
+La finestra di dialogo Governance dei dati in Strumenti di [!UICONTROL Admin] fornisce una panoramica delle suite di rapporti configurate per la governance dei dati. Indica inoltre se sono stati mappati a un&#39;organizzazione CX Enterprise e se per questa suite di rapporti sono stati impostati i criteri di conservazione dei dati.
 
 ## Domande frequenti
 

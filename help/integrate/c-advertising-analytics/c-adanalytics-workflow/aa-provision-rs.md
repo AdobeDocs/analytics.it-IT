@@ -1,5 +1,5 @@
 ---
-description: Configura una suite di rapporti mappata da Experience Cloud da utilizzare in Advertising Analytics.
+description: Configurare una suite di rapporti mappata CX Enterprise da utilizzare in Advertising Analytics.
 title: Abilitare suite di rapporti per Advertising Analytics
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
@@ -13,7 +13,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
 workflow-type: tm+mt
 source-wordcount: 234
 ht-degree: 16%
@@ -22,11 +22,11 @@ ht-degree: 16%
 
 # Abilitare suite di rapporti per Advertising Analytics
 
-Per visualizzare i dati di ricerca di Advertising Analytics in Analytics, devi configurare ogni suite di rapporti mappata da Experience Cloud per il reporting di Advertising Analytics.
+Per visualizzare i dati di ricerca di Advertising Analytics in Analytics, è necessario configurare ogni suite di rapporti mappata da CX Enterprise per il reporting di Advertising Analytics.
 
 1. Passa a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-1. Seleziona la suite di rapporti mappata sulla tua organizzazione Experience Cloud.
+1. Selezionare la suite di rapporti mappata all&#39;organizzazione CX Enterprise.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**.
 
    ![Generazione rapporti](assets/aa-reporting.png)

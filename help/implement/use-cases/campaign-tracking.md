@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 581
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -69,7 +69,7 @@ Se l’organizzazione raccoglie stringhe di query `utm`, puoi scegliere di:
 
 Dopo aver configurato correttamente l’implementazione per raccogliere i dati del codice di tracciamento, puoi visualizzare i rapporti in Analysis Workspace.
 
-1. Accedi ad [Adobe Experience Cloud](https://experience.adobe.com) e seleziona [!UICONTROL Adobe Analytics].
+1. Accedere a [Adobe CX Enterprise](https://experience.adobe.com) e selezionare [!UICONTROL Adobe Analytics].
 1. Crea un [progetto Workspace](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md).
 1. Nell’elenco dei componenti a sinistra, trascina la dimensione [Codice di tracciamento](/help/components/dimensions/tracking-code.md) nell’area di lavoro di Workspace.
 1. Trascina la metrica desiderata, ad esempio [Visite](/help/components/metrics/visits.md) o [Ordini](/help/components/metrics/orders.md) sul lato a destra dell’area di lavoro di Workspace.

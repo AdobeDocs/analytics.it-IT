@@ -18,10 +18,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 303
-ht-degree: 100%
+source-wordcount: 302
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,7 @@ Questo articolo è pensato per gli amministratori a livello di sistema o per gli
 
 ## Prerequisiti
 
-[Guida per il primo amministratore di Adobe Analytics](/help/admin/admin-console/first-admin-guide.md): assicurati che un amministratore a livello di sistema ti abbia concesso l’accesso ad Adobe Analytics tramite l’Admin Console di Experience Cloud.
+[Guida per il primo amministratore di Adobe Analytics](/help/admin/admin-console/first-admin-guide.md): verificare che un amministratore a livello di sistema ti abbia concesso l&#39;accesso ad Adobe Analytics tramite CX Enterprise Admin Console.
 
 ## Creare una suite di rapporti {#create-report-suite}
 
@@ -52,10 +52,10 @@ Un ID suite di rapporti ha una lunghezza massima di 40 byte. Un nome descrittivo
 
 ## Risoluzione dei problemi
 
-**Dopo aver effettuato l’accesso in Experience Cloud, l’icona Analytics è disattivata.**
+**Dopo aver effettuato l&#39;accesso a CX Enterprise, l&#39;icona Analytics è disattivata.**
 
 Ciò significa che al tuo account non sono state concesse le autorizzazioni corrette per Analytics. Lavora con un amministratore a livello di sistema nella tua organizzazione per assicurarti di appartenere a un profilo con autorizzazioni adeguate per accedere ad Adobe Analytics.
 
 ## Passaggi successivi
 
-[Crea una proprietà tag Adobe Analytics ](/help/implement/launch/create-analytics-property.md): consente di creare un’area per gestire l’implementazione di Analytics.
+[Crea una proprietà tag Adobe Analytics &#x200B;](/help/implement/launch/create-analytics-property.md): consente di creare un’area per gestire l’implementazione di Analytics.

@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 367
 ht-degree: 0%
@@ -31,7 +31,7 @@ Quasi tutti i problemi relativi alle sessioni derivano dalla rete aziendale pers
 
 Molte organizzazioni implementano funzionalità di rete aggiuntive per migliorare la sicurezza, ad esempio server proxy o firewall. A volte queste personalizzazioni possono interferire con la capacità di mantenere una sessione attiva in Adobe Analytics.
 
-Per determinare se la rete aziendale a cui sei connesso causa problemi con l’utilizzo di Adobe Analytics, utilizza le credenziali di accesso di Experience Cloud su un dispositivo esterno alla rete aziendale. Esempi di dispositivi possono essere tramite la rete domestica o il piano dati di un dispositivo mobile. Se riesci a passare da una pagina all’altra senza aver eseguito la disconnessione, è probabile che la rete della tua organizzazione sia il motivo per cui ti sei disconnesso da Adobe Analytics.
+Per determinare se la rete aziendale a cui si è connessi causa problemi con l&#39;utilizzo di Adobe Analytics, utilizzare le credenziali di accesso di CX Enterprise su un dispositivo esterno alla rete aziendale. Esempi di dispositivi possono essere tramite la rete domestica o il piano dati di un dispositivo mobile. Se riesci a passare da una pagina all’altra senza aver eseguito la disconnessione, è probabile che la rete della tua organizzazione sia il motivo per cui ti sei disconnesso da Adobe Analytics.
 
 ## Problemi dovuti al proxy {#proxy}
 

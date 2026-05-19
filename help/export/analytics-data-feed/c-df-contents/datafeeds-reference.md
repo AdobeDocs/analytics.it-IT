@@ -37,7 +37,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2c048f2c59b19ab8e19f53c3f2acea613e50a64a
+source-git-commit: 056ca9d821d97cc6109266e3fb8c8aec9d66792a
 workflow-type: tm+mt
 source-wordcount: 4138
 ht-degree: 50%
@@ -134,7 +134,7 @@ Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei c
 | | **`latlon1`** | Posizione (fino a 10 chilometri) | varchar(255) |
 | | **`latlon23`** | Posizione (fino a 100 m) | varchar(255) |
 | | **`latlon45`** | Posizione (fino a 1 m) | varchar(255) |
-| | **`mcvisid`** | ID visitatore di Experience Cloud. Numero a 128 bit costituito da due numeri concatenati a 64 bit aggiunti a 19 cifre. | varchar(255) |
+| | **`mcvisid`** | ID visitatore aziendale CX. Numero a 128 bit costituito da due numeri concatenati a 64 bit aggiunti a 19 cifre. | varchar(255) |
 | **`post_`** | **`mc_audiences`** | Elenco degli ID del segmento di Audience Manager a cui appartiene il visitatore. Nella colonna `post_mc_audiences` il delimitatore diventa `--**--`. | testo |
 | **`post_`** | **`mobileaction`** | Azione da dispositivo mobile. Raccolta automatica quando `trackAction` viene chiamato nelle implementazioni mobili. Consente il percorso automatico delle azioni nell’app. | varchar(100) |
 | **`post_`** | **`mobileappid`** | ID dell’app mobile. Memorizza il nome e la versione dell&#39;applicazione nel seguente formato: `[AppName] [BundleVersion]` | varchar(255) |

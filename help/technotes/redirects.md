@@ -16,7 +16,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 1120
 ht-degree: 1%
@@ -129,7 +129,7 @@ s.pageURL="https://www.flytohawaii.example"
 
 Eseguire un test per verificare che il referente, l&#39;URL di origine ( *`s_server`*) e le variabili della campagna vengano acquisiti.
 
-Queste variabili saranno rappresentate come i seguenti parametri nel [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it).
+Queste variabili verranno rappresentate come i seguenti parametri nel [CX Enterprise Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 

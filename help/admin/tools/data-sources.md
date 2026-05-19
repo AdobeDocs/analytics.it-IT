@@ -14,9 +14,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 160
+source-wordcount: 159
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ La funzione Origini dati consente di importare dati in Analytics da origini offl
 Utilizzare Origini dati per:
 
 * Integra i dati offline con i dati raccolti dal tuo sito web.
-* Raccogliere dati da server web, call center o altri sistemi. Quindi importalo in Experience Cloud per vedere la conversione da tutte le strade dell&#39;organizzazione.
+* Raccogliere dati da server web, call center o altri sistemi. Quindi importarlo in CX Enterprise per visualizzare la conversione da tutti i percorsi dell&#39;organizzazione.
 * Ottimizza la gestione delle offerte di parole chiave in base all’adempimento offline dei lead tramite SearchCenter.
 
 Quando Origini dati è attivato su una suite di rapporti, viene fornito un percorso FTP che ti consente di caricare i file da integrare nel reporting. Una volta caricati, i server di Adobe elaborano automaticamente i dati e li integrano nella suite di rapporti.

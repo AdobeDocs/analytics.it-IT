@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 1975
-ht-degree: 94%
+source-wordcount: 1974
+ht-degree: 88%
 
 ---
 
@@ -78,9 +78,9 @@ Puoi condividere un ruolo specifico con utenti o gruppi, oppure un collegamento.
 
 Quando condividi un ruolo di progetto specifico con utenti e gruppi dell’organizzazione, considera quanto segue:
 
-* I ruoli di progetto  (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]**, e **[!UICONTROL Read only]**) sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite nella [Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
+* I ruoli di progetto  (**[!UICONTROL Edit original]**, **[!UICONTROL Edit copy]**, e **[!UICONTROL Read only]**) sono legati all’ID dell’utente e del progetto specifico. I ruoli di progetto sono indipendenti dalle autorizzazioni utente gestite in [Adobe CX Enterprise Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it).
 
-* In Adobe Analytics, i gruppi sono definiti dai profili di prodotto nell’[Admin Console di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it). Gli amministratori possono condividere con qualsiasi gruppo, incluso “Tutti”. I non amministratori possono condividere con i gruppi di cui sono membri, ad eccezione di “Tutti”.
+* In Adobe Analytics, i gruppi sono definiti dai profili di prodotto nell&#39;[Admin Console di Adobe CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it). Gli amministratori possono condividere con qualsiasi gruppo, incluso “Tutti”. I non amministratori possono condividere con i gruppi di cui sono membri, ad eccezione di “Tutti”.
 
 * Un destinatario posizionato in più ruoli, avrà sempre l’esperienza di livello più elevato. Ciò potrebbe verificarsi se un utente viene aggiunto sia come singolo utente che come parte di un gruppo. Ad esempio, se a un utente viene assegnato il ruolo **[!UICONTROL Edit original]** come singolo utente e il ruolo **[!UICONTROL Read only]** come membro di un gruppo, riceverà un’esperienza di progetto **[!UICONTROL Edit original]**.
 
@@ -149,8 +149,8 @@ Per condividere il collegamento del progetto con gli utenti dell’organizzazion
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="Richiedere l’autenticazione Experience Cloud"
->abstract="La tua organizzazione richiede che gli utenti abbiano effettuato l’accesso ad Experience Cloud per utilizzare questo collegamento."
+>title="Richiedi autenticazione CX Enterprise"
+>abstract="Per utilizzare questo collegamento, la tua organizzazione richiede agli utenti di accedere a CX Enterprise."
 
 Puoi consentire l’[accesso di sola lettura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) ai progetti di Analysis Workspace a coloro che non hanno accesso ad Adobe Analytics. Questo può includere:
 
@@ -198,15 +198,15 @@ Per condividere un progetto Analysis Workspace con persone che non hanno accesso
 
 1. Scegli se abilitare la seguente opzione di sicurezza (questa opzione può essere controllata dall’amministratore di Analytics):
 
-   * **[!UICONTROL Require Experience Cloud authentication]:**
+   * **[!UICONTROL Require CX Enterprise authentication]:**
 
-     Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono quelli che possono accedere all’organizzazione Adobe Experience Cloud in cui è stato creato il progetto condiviso. Tuttavia, gli utenti con cui condividi non devono avere accesso ad Adobe Analytics.
+     Quando questa opzione è abilitata, gli unici utenti che possono accedere al progetto sono gli utenti che possono accedere all&#39;organizzazione Adobe CX Enterprise in cui è stato creato il progetto condiviso. Tuttavia, gli utenti con cui condividi non devono avere accesso ad Adobe Analytics.
 
      Gli amministratori di Analytics possono configurare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
 
       * Se questa opzione non è visibile, l’amministratore di Analytics non ha abilitato questa funzione.
 
-      * Se questa opzione è abilitata e disabilitata, l’amministratore di Analytics richiede l’autenticazione Experience Cloud per tutti coloro che accedono ai progetti Analysis Workspace.
+      * Se questa opzione è abilitata e disabilitata, l’amministratore di Analytics richiede l’autenticazione CX Enterprise per tutti coloro che accedono ai progetti Analysis Workspace.
 
 1. Accanto al campo **[!UICONTROL Share with anyone (no login required)]**, fai clic sull’icona **Copia collegamento** ![Icona Copia collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) per copiare il collegamento negli Appunti di sistema.
 

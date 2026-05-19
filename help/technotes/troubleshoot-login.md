@@ -13,10 +13,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 594
-ht-degree: 3%
+source-wordcount: 584
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 3%
 
 Adobe Analytics utilizza più metodi di autenticazione per accedere:
 
-* Adobe ID tramite Experience Cloud
+* Da Adobe ID a CX Enterprise
 * ID legacy di Analytics
 * Single Sign-On
 
@@ -34,9 +34,9 @@ Talvolta, possono verificarsi problemi di disponibilità che influiscono sulla c
 
 ## Adobe ID
 
-Risolvere i problemi relativi all’accesso ad Adobe Analytics utilizzando Experience Cloud.
+Risolvere i problemi relativi all&#39;accesso ad Adobe Analytics mediante CX Enterprise.
 
-1. Passa a [experience.adobe.com](https://experience.adobe.com). Se non è possibile accedere al sito, è possibile che l&#39;organizzazione non consenta l&#39;accesso al dominio tramite il firewall. Collabora con il team IT della tua organizzazione per consentirlo. Per informazioni utili da fornire al team IT, vedere [IP e domini utilizzati in Adobe Experience Cloud](https://helpx.adobe.com/it/analytics/kb/adobe-ip-addresses.html).
+1. Passare a [Adobe CX Enterprise](https://experience.adobe.com). Se non è possibile accedere al sito, è possibile che l&#39;organizzazione non consenta l&#39;accesso al dominio tramite il firewall. Collabora con il team IT della tua organizzazione per consentirlo. Consulta [Indirizzi IP utilizzati da Adobe Analytics](/help/technotes/ip-addresses.md) per informazioni utili da fornire al tuo team IT.
 
 2. Eseguire l&#39;autenticazione tramite Adobe ID: fare clic su **[!UICONTROL Sign In with an Adobe ID]**. Se non riesci ad accedere, controlla che l&#39;indirizzo e-mail sia stato digitato correttamente. In caso contrario, fai clic su **[!UICONTROL Reset password]** e segui le istruzioni per reimpostare la password di Adobe ID.
 
