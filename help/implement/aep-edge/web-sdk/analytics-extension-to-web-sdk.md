@@ -3,18 +3,12 @@ title: Migrare dall’estensione tag Adobe Analytics all’estensione tag Web SD
 description: Aggiorna l’implementazione di Analytics sui tag di raccolta dati di Adobe Experience Platform per utilizzare l’estensione Web SDK.
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
 TQID: https://experienceleague.adobe.com/G0Zx1BZ4gGinbpoU0-x-Eu-UyFnABPcotWKrcUT-JvU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1619
+source-wordcount: 1621
 ht-degree: 6%
 
 ---
@@ -48,7 +42,7 @@ Le seguenti fasi contengono obiettivi concreti da perseguire. Fai clic su ogni p
 
 Creare uno stream di dati in Raccolta dati di Adobe Experience Platform. Quando invii dati a questo stream di dati, questi vengono inoltrati ad Adobe Analytics. In futuro, lo stesso flusso di dati inoltra i dati a Customer Journey Analytics.
 
-1. Passa a [experience.adobe.com](https://experience.adobe.com) e accedi con le tue credenziali.
+1. Passa a [Adobe CX Enterprise](https://experience.adobe.com) e accedi con le tue credenziali.
 1. Utilizzare la home page o il selettore di prodotti in alto a destra per passare a **[!UICONTROL Data Collection]**.
 1. Nel menu di navigazione a sinistra, selezionare **[!UICONTROL Datastreams]**.
 1. Seleziona **[!UICONTROL New Datastream]**.

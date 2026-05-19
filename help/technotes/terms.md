@@ -4,41 +4,15 @@ description: Glossario di Adobe Analytics che definisce i termini comuni utilizz
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
 TQID: https://experienceleague.adobe.com/oitS6AHTds1O1jHjb193r6ruHWlIYMhXwDP-Z7M0Gr0
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c67272a6-888e-425e-9e97-a87304637eedid: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: e9cb007b-c8b7-4975-bc81-11a788c535faid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60bid: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 2639
-ht-degree: 88%
+source-wordcount: 2637
+ht-degree: 86%
 
 ---
 
@@ -61,7 +35,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Campagna:** può fare riferimento a:
    * La variabile Campagna, che popola la dimensione Codice di tracciamento. Consulta [campagna](../implement/vars/page-vars/campaign.md) nella Guida utente per l’implementazione
    * Una classificazione predefinita della dimensione Codice di tracciamento, creata automaticamente per tutte le suite di rapporti.
-   * Adobe Campaign, parte di Adobe Experience Cloud. Ulteriori informazioni su [Adobe.com](https://www.adobe.com/it/marketing/campaign.html).
+   * Adobe Campaign, parte di Adobe CX Enterprise. Ulteriori informazioni su [Adobe.com](https://www.adobe.com/it/marketing/campaign.html).
 * **Canale:** può fare riferimento a:
    * La variabile Canale, che popola la dimensione Sezioni del sito. Consulta [Variabili della pagina](/help/implement/vars/page-vars/page-variables.md) nella Guida utente per l’implementazione.
    * Canali di marketing, un componente che consente di comprendere il modo in cui gli utenti arrivano al sito. Consulta [Canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) nella Guida utente sui componenti.
@@ -75,7 +49,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Variabile di conversione:** nota anche come eVar. Memorizza un valore personalizzato e mantiene il valore della variabile fino alla scadenza. Consulta la dimensione [eVar](/help/components/dimensions/evar.md) nella Guida utente sui componenti.
 * **Correlazione:** termine non più utilizzato; sostituito con raggruppamenti per dimensioni. Nelle versioni precedenti di Adobe Analytics, le correlazioni consentivano di suddividere le variabili di traffico. Vedi [Suddividere dimensioni](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) nella Guida agli strumenti di Analytics.
 * **Collegamento personalizzato:** tipo di hit che contiene dati non di visualizzazione pagina. Consulta la [funzione s.tl()](../implement/vars/functions/tl-method.md) nella Guida utente per l’implementazione. Consulta anche gli hit.
-* **Attributi del cliente:** funzione di Experience Cloud che consente di caricare i dati degli attributi. Consulta gli [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it) nella Guida utente per i servizi core.
+* **Attributi del cliente:** funzionalità di CX Enterprise che consente il caricamento dei dati degli attributi. Consulta gli [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it) nella Guida utente per i servizi core.
 * **Server di raccolta dati:** server di proprietà di Adobe che ricevono ed elaborano dati. Le richieste di immagini vengono inviate ai server di raccolta dati di Adobe per l’utilizzo nei rapporti.
 * **Connettori dati:** una soluzione di sviluppo ritirata che consente a terzi di automatizzare il caricamento di dati in Adobe Analytics. I clienti di tali terze parti possono utilizzare un connettore dati per arricchire i propri dati in Adobe Analytics. Sostituzione con [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
 * **Feed di dati:** un’esportazione di dati non elaborati che elenca ogni hit come riga e le variabili come colonne separate. Utilizzato più comunemente per esportare dati di Adobe Analytics in un database di terze parti. Consulta i [Feed di dati](/help/export/analytics-data-feed/data-feed-overview.md) nella Guida utente per l’esportazione.
@@ -106,7 +80,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Canale di marketing:** funzione di Adobe Analytics che categorizza gli hit in base al modo in cui sono arrivati al sito. La logica utilizzata per categorizzare gli hit può essere personalizzata utilizzando le regole di elaborazione del canale di marketing. Consulta [Introduzione ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) nella Guida utente sui componenti.
 * **Metrica:** tipo di componente che contiene dati quantitativi. I valori delle metriche in genere contengono numeri, come Visualizzazioni pagina, Visite ed Entrate. Una dimensione è in genere la sua controparte.
 * **App mobile:** nota anche come **Adobe Analytics[!UICONTROL dashboards]**, l&#39;app mobile consente agli utenti di accedere a scorecard intuitive. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a sezioni che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. L’app mobile è supportata sia su sistemi operativi iOS che Android.
-* **Mobile Services:** prodotto Adobe ritirato che riuniva le funzionalità di marketing mobile di applicazioni per dispositivi mobili da Adobe Experience Cloud, consentendo di comprendere e migliorare il coinvolgimento utente con le applicazioni.
+* **Mobile Services:** prodotto Adobe ritirato che riunisce le funzionalità di mobile marketing per applicazioni mobili da Adobe CX Enterprise, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni.
 * **Assegnazione di tag a più suite:** pratica di inviare lo stesso hit a più suite di rapporti. Con l’introduzione delle suite di rapporti virtuali, questa pratica non è più in gran parte necessaria. La maggior parte delle attività di assegnazione di tag per più suite facilita la gestione di una suite di rapporti globale.
 * **Normalizzazione:** modo per organizzare una visualizzazione che prende tutte le metriche e le adatta a proporzioni uguali, consentendo un confronto più semplice delle tendenze.
 * **Occorrenze:** tipo di metrica che mostra per quanti hit è stato impostato o è persistente un elemento dimensione. Consulta la [occorrenze](/help/components/metrics/occurrences.md) nella guida utente dei componenti.

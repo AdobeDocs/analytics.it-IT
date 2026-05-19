@@ -1,48 +1,33 @@
 ---
-description: Informazioni necessarie sulla migrazione degli ID utente di Analytics all’Admin Console in Adobe Experience Cloud.
+description: Informazioni necessarie sulla migrazione degli ID utente di Analytics ad Admin Console in Adobe CX Enterprise.
 title: Migrazione degli utenti di Analytics all’Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 role: Admin
 TQID: https://experienceleague.adobe.com/bCf6DWIpIVALcGPAi3tL8zlZ5V8lzPR-9XNCm4HuFnY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
-  - id: e499b847-6dc4-408a-9f0b-70d35ce9b711
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: d124af73-4061-4b84-9063-ae2b60f2c1f3id: e499b847-6dc4-408a-9f0b-70d35ce9b711id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 2971
-ht-degree: 25%
+source-wordcount: 2960
+ht-degree: 19%
 
 ---
 
 # Migrazione degli utenti di Analytics al Adobe Admin Console{#analytics-user-migration-to-the-admin-console}
 
-Informazioni necessarie sulla migrazione degli ID utente di Analytics al Adobe Admin Console in Adobe Experience Cloud.
+Informazioni necessarie sulla migrazione degli ID utente di Analytics a Adobe Admin Console in Adobe CX Enterprise.
 
 Per informazioni generali sugli argomenti relativi a Adobe Admin Console (non correlati alla migrazione di Analytics), consulta la [Guida utente di Admin Console](https://helpx.adobe.com/it/enterprise/administering/user-guide.html).
 
-Dopo la migrazione, puoi [gestire utenti e prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it) in Adobe Admin Console.
+Dopo la migrazione, è possibile [gestire gli utenti e i prodotti CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=it) in Adobe Admin Console.
 
 ## Cos’è la migrazione degli ID utente di Analytics? {#section-adbe49aba10c4e62afa836a97894107c}
 
-La migrazione degli ID utente di Analytics permette agli amministratori di trasferire facilmente gli account utente in Gestione utenti di Analytics ad Adobe Admin Console. Dopo la migrazione, gli utenti potranno accedere alle soluzioni e ai servizi di base disponibili in Experience Cloud. La migrazione viene implementata per i clienti in più fasi.
+La migrazione degli ID utente di Analytics permette agli amministratori di trasferire facilmente gli account utente in Gestione utenti di Analytics ad Adobe Admin Console. Dopo la migrazione, gli utenti potranno accedere alle soluzioni e ai servizi di base disponibili in CX Enterprise. La migrazione viene implementata per i clienti in più fasi.
 
 L&#39;utilizzo di Adobe Admin Console offre i seguenti vantaggi:
 
@@ -56,7 +41,7 @@ L&#39;utilizzo di Adobe Admin Console offre i seguenti vantaggi:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Single Sign-On </p> </td> 
-   <td colname="col2"> <p>Gli utenti di Analytics possono accedere ad Experience Cloud e a tutte le soluzioni utilizzando il proprio Adobe ID o Enterprise ID. Questo accesso consente di accedere a soluzioni integrate e servizi di base in Experience Cloud. </p> <p>Dopo la migrazione, gli utenti che tenteranno di accedere con i metodi legacy (<span class="filepath">my.omniture.com</span> e <span class="filepath">sc.omniture.com</span>) verranno reindirizzati su <span class="filepath">experiencecloud.adobe.com</span>. </p> </td> 
+   <td colname="col2"> <p>Gli utenti di Analytics possono accedere a CX Enterprise e a tutte le soluzioni utilizzando il proprio Adobe ID o Enterprise ID. Questo accesso consente l'accesso alle soluzioni integrate e ai servizi principali di CX Enterprise. </p> <p>Dopo la migrazione, gli utenti che tenteranno di accedere con i metodi legacy (<span class="filepath">my.omniture.com</span> e <span class="filepath">sc.omniture.com</span>) verranno reindirizzati su <span class="filepath">experiencecloud.adobe.com</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gestione delle autorizzazioni e delle identità utente </p> </td> 
@@ -69,7 +54,7 @@ L&#39;utilizzo di Adobe Admin Console offre i seguenti vantaggi:
      <li id="li_DC31AE8BAAB843F39A7CC9EB047265D5">Invita nuovi utenti </li> 
      <li id="li_73724DD7D79E41F8A1D58C74E37674BA">Creare profili di prodotto </li> 
      <li id="li_7E75FC68E0F84873A9A211D2707B6DE7">Concedere agli utenti l’autorizzazione per prodotti e servizi specifici </li> 
-     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Accedere ai <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=it"> servizi core delle diverse soluzioni</a> disponibili in Adobe Experience Cloud </li> 
+     <li id="li_9C8A340A7C9A45A98EC0BD4AF9E100FF">Accedi a <a href="https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html?lang=it"> servizi core di più soluzioni</a> disponibili in Adobe CX Enterprise </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -89,7 +74,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Sono un amministratore di Analytics e ho ricevuto un’e-mail di pre-migrazione. Cosa faccio prima? </p> </td> 
-   <td colname="col2"> <p>Verifica di avere un Adobe ID e di poter accedere all’<a href="https://adminconsole.adobe.com/enterprise/"> Admin Console di Experience Cloud</a>. </p> <p>In caso contrario, contatta l’<a href="https://helpx.adobe.com/it/marketing-cloud/contact-support.html"> Assistenza clienti di Adobe</a>. Contatta prima il tuo amministratore di prodotto o di sistema che può invitarti nell’organizzazione appropriata. </p> </td> 
+   <td colname="col2"> <p>Verificare di disporre di un Adobe ID e di poter accedere a <a href="https://adminconsole.adobe.com/enterprise/"> CX Enterprise Admin Console</a>. </p> <p>In caso contrario, contatta l’<a href="https://helpx.adobe.com/it/marketing-cloud/contact-support.html"> Assistenza clienti di Adobe</a>. Contatta prima il tuo amministratore di prodotto o di sistema che può invitarti nell’organizzazione appropriata. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Integrazioni di AEM con Analytics </p> </td> 
@@ -109,7 +94,7 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
     </ul> <p> Il giorno della migrazione, i gruppi di autorizzazioni precedenti vengono automaticamente copiati in Adobe Admin Console. Non potrai più invitare nuovi utenti o creare nuovi gruppi dagli strumenti di amministrazione di Analytics. </p> <p>Dopo la migrazione: </p> 
     <ul id="ul_4639963EB08F407F8C18ACE2B3D30223"> 
      <li id="li_7F24A3FC900146C3B2E988D399C859EA">Gli amministratori utilizzeranno Adobe Admin Console per gestire gli utenti e le autorizzazioni di Analytics. Non utilizzerai più l’interfaccia di gestione utente in Analytics &gt; Amministratore &gt; Gestione utente. </li> 
-     <li id="li_5B5234D4F94A4B96A8920F6A5831A64C">Gli utenti accederanno ad Analytics con il proprio Adobe ID o Enterprise ID mediante Experience Cloud anziché tramite <span class="filepath"> my.omniture.com</span>. </li> 
+     <li id="li_5B5234D4F94A4B96A8920F6A5831A64C">Gli utenti accederanno ad Analytics utilizzando il proprio Adobe o Enterprise ID tramite CX Enterprise invece di <span class="filepath"> my.omniture.com</span>. </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -125,11 +110,11 @@ Risposte alle domande che potrebbero sorgere prima della migrazione.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Come posso eseguire la migrazione degli ID utente? </p> </td> 
-   <td colname="col2"> <p> Fare clic su <a href="/help/admin/tools/user-management/user-migration/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9"> Migra ID utente</a> nella sezione Gestione utente della pagina Amministratore. Utilizza lo strumento per aggiungere utenti ai profili di prodotto in Adobe Admin Console (replicato dai gruppi di autorizzazioni in Analytics). Puoi eseguire la migrazione degli ID utente al tuo ritmo. </p> <p>Sono necessari privilegi di amministrazione. Una volta completata, la migrazione non può essere annullata. </p> <p>Alla data di fine della migrazione, l’accesso mediante <span class="filepath"> my.omniture.com</span> verrà disattivato per gli utenti che fanno parte della tua società di accesso. Gli utenti (inclusi quelli per cui non è stata ancora eseguita la migrazione) verranno reindirizzati per l’accesso tramite il nuovo URL di Experience Cloud: <span class="filepath">experiencecloud.adobe.com</span>. </p> <p>Nota: Adobe consiglia di eseguire un controllo degli utenti e dei gruppi prima di eseguire la migrazione. Elimina gli account obsoleti e inutilizzati o gli account che non devono avere più accesso al prodotto (ad esempio, gli ex dipendenti). </p> <p>Argomento correlato: <a href="/help/admin/tools/user-management/user-migration/migrate-enterprise.md"> Eseguire la migrazione degli account utente di Analytics per Enterprise e Federated ID</a> </p> </td> 
+   <td colname="col2"> <p> Fare clic su <a href="/help/admin/tools/user-management/user-migration/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9"> Migra ID utente</a> nella sezione Gestione utente della pagina Amministratore. Utilizza lo strumento per aggiungere utenti ai profili di prodotto in Adobe Admin Console (replicato dai gruppi di autorizzazioni in Analytics). Puoi eseguire la migrazione degli ID utente al tuo ritmo. </p> <p>Sono necessari privilegi di amministrazione. Una volta completata, la migrazione non può essere annullata. </p> <p>Alla data di fine della migrazione, l’accesso mediante <span class="filepath"> my.omniture.com</span> verrà disattivato per gli utenti che fanno parte della tua società di accesso. Gli utenti (inclusi quelli per cui non è stata ancora eseguita la migrazione) verranno reindirizzati all'accesso tramite il nuovo URL CX Enterprise (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>Nota: Adobe consiglia di eseguire un controllo degli utenti e dei gruppi prima di eseguire la migrazione. Elimina gli account obsoleti e inutilizzati o gli account che non devono avere più accesso al prodotto (ad esempio, gli ex dipendenti). </p> <p>Argomento correlato: <a href="/help/admin/tools/user-management/user-migration/migrate-enterprise.md"> Eseguire la migrazione degli account utente di Analytics per Enterprise e Federated ID</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>La migrazione influirà sull’implementazione di Analytics o sulla modalità di raccolta dei dati? </p> </td> 
-   <td colname="col2"> <p>No. </p> <p>Lo strumento di migrazione serve a semplificare la transizione delle autorizzazioni e degli ID utente dal sistema di gestione degli utenti di Analytics all’<a href="https://adminconsole.adobe.com/enterprise/"> Admin Console di Experience Cloud</a>. </p> </td> 
+   <td colname="col2"> <p>No. </p> <p>Lo strumento di migrazione consente di trasferire gli ID utente e le autorizzazioni da Gestione utenti di Analytics a <a href="https://adminconsole.adobe.com/enterprise/"> CX Enterprise Admin Console</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Quanto tempo richiede il processo di migrazione? </p> </td> 
@@ -182,7 +167,7 @@ Informazioni importanti sul processo di migrazione e su come influisce sulla ges
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posso delegare l’impegno di migrazione a un altro amministratore? </p> </td> 
-   <td colname="col2"> <p>Una volta avviata la migrazione, qualsiasi amministratore che accede all’istanza Analytics tramite Experience Cloud può utilizzare lo strumento di migrazione per avviare (o continuare) la migrazione degli utenti. </p> </td> 
+   <td colname="col2"> <p>Una volta iniziata la migrazione, qualsiasi amministratore che accede all’istanza Analytics tramite CX Enterprise può utilizzare lo strumento di migrazione per avviare (o continuare) la migrazione degli utenti. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Posso aggiornare l’iscrizione al gruppo di autorizzazioni per gli utenti non trasferiti? </p> </td> 
@@ -195,7 +180,7 @@ Informazioni importanti sul processo di migrazione e su come influisce sulla ges
   </tr> 
   <tr> 
    <td colname="col1"> <p>Agli utenti che eseguo la migrazione utilizzando lo strumento di migrazione verrebbero assegnate le stesse autorizzazioni di cui disponevano in Analytics? </p> </td> 
-   <td colname="col2"> <p>Sì. Agli utenti migrati tramite questo strumento verranno concesse le autorizzazioni di cui dispongono attualmente in Analytics. Inoltre, quando accedono ad Analytics tramite Experience Cloud, conservano l’accesso alle loro risorse Analytics (come segmenti, progetti, metriche calcolate e così via). </p> </td> 
+   <td colname="col2"> <p>Sì. Agli utenti migrati tramite questo strumento verranno concesse le autorizzazioni di cui dispongono attualmente in Analytics. Inoltre, quando accedono ad Analytics tramite CX Enterprise, conservano l’accesso alle loro risorse Analytics (come segmenti, progetti, metriche calcolate e così via). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Gli utenti che trasferisco in Adobe Admin Console continueranno ad avere accesso ad Analytics utilizzando <span class="filepath"> my.omniture.com</span>? </p> </td> 
@@ -219,7 +204,7 @@ Informazioni importanti sul processo di migrazione e su come influisce sulla ges
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cosa sperimentano gli utenti quando eseguo la migrazione tramite lo strumento? </p> </td> 
-   <td colname="col2"> <p>Riceveranno un’e-mail di benvenuto indirizzata all’ID e-mail nel record utente di Analytics, con una notifica sul nuovo modo di accedere ad Analytics tramite Experience Cloud. Se non dispone di un’Adobe ID esistente, gli verrà richiesto di crearne una, dopodiché potrà accedere alla soluzione utilizzando il proprio Adobe ID. </p> </td> 
+   <td colname="col2"> <p>Riceveranno un’e-mail di benvenuto indirizzata all’ID e-mail nel record utente di Analytics, con una notifica sul nuovo modo di accedere ad Analytics tramite CX Enterprise. Se non dispone di un’Adobe ID esistente, gli verrà richiesto di crearne una, dopodiché potrà accedere alla soluzione utilizzando il proprio Adobe ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>È possibile utilizzare le API per migrare gli utenti anziché utilizzare lo strumento di migrazione? </p> </td> 
@@ -244,11 +229,11 @@ Informazioni importanti sul processo di migrazione e su come influisce sulla ges
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cosa succede alla data di fine della migrazione? </p> </td> 
-   <td colname="col2"> <p>Dopo la data di fine della migrazione (60 giorni dall’inizio della migrazione), tutti gli utenti all’interno della società di accesso vengono reindirizzati per l’accesso tramite la pagina di accesso di Experience Cloud utilizzando i propri Adobe ID. </p> </td> 
+   <td colname="col2"> <p>Dopo la data di fine della migrazione (60 giorni dall'inizio della migrazione), tutti gli utenti della società di accesso vengono reindirizzati per l'accesso tramite la pagina di accesso di CX Enterprise utilizzando i propri Adobe ID. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Non sono riuscito a eseguire la migrazione di tutti i miei utenti entro la data di fine della migrazione. Gli utenti non trasferiti perderebbero l’accesso ad Analytics? </p> </td> 
-   <td colname="col2"> <p>Gli utenti che non sono stati trasferiti entro la data di fine verranno reindirizzati alla pagina di accesso di Experience Cloud (experiencecloud.adobe.com) e non potranno accedere ad Analytics. Tuttavia, continuerai ad avere accesso allo strumento di migrazione per trovare e trasferire questi utenti e ripristinare il loro accesso. </p> </td> 
+   <td colname="col2"> <p>Gli utenti che non sono stati trasferiti entro la data di fine verranno reindirizzati alla pagina di accesso di CX Enterprise (experiencecloud.adobe.com) e non potranno accedere ad Analytics. Tuttavia, continuerai ad avere accesso allo strumento di migrazione per trovare e trasferire questi utenti e ripristinare il loro accesso. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -269,7 +254,7 @@ Informazioni importanti sul processo di migrazione e su come influisce sulla ges
   </tr> 
   <tr> 
    <td colname="col1"> <p>Scadenze account </p> </td> 
-   <td colname="col2"> <p> Puoi impostare manualmente una data di scadenza dell’account in Analytics in Strumenti di amministrazione. Una volta raggiunta la data di scadenza, l’utente non potrà accedere ad Analytics, ma al suo account utente effettivo Experience Cloud (ad esempio Adobe ID, Enterprise ID, Federated ID, ecc.) non scade. Possono comunque accedere ad Experience Cloud ma non ad Analytics. </p> </td> 
+   <td colname="col2"> <p> Puoi impostare manualmente una data di scadenza dell’account in Analytics in Strumenti di amministrazione. Una volta raggiunta la data di scadenza, l’utente non potrà accedere ad Analytics, ma al suo account utente CX Enterprise effettivo (ad esempio Adobe ID, Enterprise ID, Federated ID, ecc.) non scade. Possono comunque accedere a CX Enterprise, ma non potranno fare clic su Analytics. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -298,7 +283,7 @@ Informazioni importanti sul processo di migrazione e su come influisce sulla ges
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ultimo accesso (ultimo accesso) </p> </td> 
-   <td colname="col2"> <p> I dettagli relativi alla data e all’ora dell’ultimo accesso degli utenti saranno disponibili nel collegamento Utenti di Analytics e Assets e non in Adobe Admin Console. La data dell’ultimo accesso in Analytics si riferisce alla data in cui gli utenti hanno eseguito l’accesso ad Analytics mediante Experience Cloud e non alla data/ora in cui hanno eseguito l’accesso a Experience Cloud. </p> </td> 
+   <td colname="col2"> <p> I dettagli relativi alla data e all’ora dell’ultimo accesso degli utenti saranno disponibili nel collegamento Utenti di Analytics e Assets e non in Adobe Admin Console. La data dell'ultimo accesso in Analytics si riferisce alla data in cui gli utenti hanno effettuato l'accesso ad Analytics da CX Enterprise e non alla data/ora in cui hanno effettuato l'accesso a CX Enterprise. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>API di gestione utenti <a href="https://helpx.adobe.com/it/enterprise/help/identity.html"> Tipi di identità supportati da Adobe</a> </p> </td> 
@@ -310,7 +295,7 @@ Informazioni importanti sul processo di migrazione e su come influisce sulla ges
   </tr> 
   <tr> 
    <td colname="col1"> <p>Single Sign-On </p> </td> 
-   <td colname="col2"> <p> Le configurazioni Single Sign-On di Analytics verranno rimosse al termine della migrazione. Rimarranno attivi durante la migrazione. I clienti che utilizzano il Single Sign-On in Analytics devono eseguire l’aggiornamento all’<a href="https://helpx.adobe.com/it/enterprise/help/identity.html"> Adobe Federated ID</a>. </p> <p>Analytics consiglia di eseguire la migrazione degli utenti come Adobe ID per creare facilmente gli account Experience Cloud, quindi di convertirli in utenti Single Sign-On federati. </p> </td> 
+   <td colname="col2"> <p> Le configurazioni Single Sign-On di Analytics verranno rimosse al termine della migrazione. Rimarranno attivi durante la migrazione. I clienti che utilizzano il Single Sign-On in Analytics devono eseguire l’aggiornamento all’<a href="https://helpx.adobe.com/it/enterprise/help/identity.html"> Adobe Federated ID</a>. </p> <p>Analytics consiglia di eseguire la migrazione degli utenti come Adobe ID per creare facilmente gli account CX Enterprise, quindi di convertirli in utenti Single Sign-On federati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Download dei gruppi di autorizzazioni </p> </td> 

@@ -5,15 +5,10 @@ feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
 TQID: https://experienceleague.adobe.com/tcREdTxSH3L5XcCcu3W1aEQySJSDyAzrlQgyrutcUds
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 388
 ht-degree: 11%
@@ -42,7 +37,7 @@ Devi avere accesso ai server di hosting per implementare correttamente una pagin
    >
    >Il codice H richiede che lo script `s_code.js` sia chiamato all&#39;interno del tag `<body>`. Questo metodo è diverso da altri metodi di implementazione, la maggior parte dei quali richiede che i riferimenti agli script siano nel tag `<head>`.
 1. **Definisci le variabili specifiche della pagina in ogni pagina**: ogni pagina deve avere singole variabili definite, ad esempio il nome della pagina o le eVar. Le singole variabili vengono in genere definite con un tag `<script>` inline su ogni pagina.
-1. **Utilizza il debugger per verificare la raccolta dati**: scarica e installa [Experience Cloud debugger](../../validate/debugger.md) per assicurarti che i dati siano inviati ad Adobe e che le variabili di pagina siano definite correttamente.
+1. **Utilizza il debugger per verificare la raccolta dati**: scarica e installa [CX Enterprise Debugger](../../validate/debugger.md) per assicurarti che i dati vengano inviati ad Adobe e che le variabili di pagina siano definite correttamente.
 
 ## Memorizzazione in cache
 

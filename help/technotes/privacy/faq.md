@@ -5,26 +5,15 @@ feature: Data Governance
 role: Admin
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 TQID: https://experienceleague.adobe.com/lZYAh8OBOo5A7aPfIAjPUBrGXAqX9ypjUIffmX6ZSMQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 2102
-ht-degree: 36%
+source-wordcount: 2101
+ht-degree: 33%
 
 ---
 
@@ -32,7 +21,7 @@ ht-degree: 36%
 
 +++ **In che modo Adobe Analytics supporta le richieste di accesso e di cancellazione per gli utenti finali (persone interessate) convalidate dai clienti (titolari del trattamento)?**
 
-Quando entreranno in vigore diverse normative per la Privacy dei dati (RGPD, CCPA), Adobe Analytics supporterà l’elaborazione delle richieste verificate inviate dai titolari del trattamento all’API della Privacy dei dati per Experience Cloud al fine di favorire un processo maggiormente automatizzato. L’API della Privacy dei dati per Adobe è stata pensata per favorire l’elaborazione delle richieste di diritti emesse dagli individui (ad esempio, richieste di accesso e di cancellazione) per i dati dei clienti archiviati nelle soluzioni Adobe Experience Cloud. È flessibile e scalabile in base al numero di richieste di accesso e cancellazione dei dati che la tua azienda riceve dagli interessati.
+Quando entreranno in vigore diverse normative per la Privacy dei dati (RGPD, CCPA), Adobe Analytics supporterà l’elaborazione delle richieste verificate inviate dai titolari del trattamento all’API della Privacy dei dati per l’organizzazione CX per consentire un processo più automatizzato. L&#39;API Privacy dei dati di Adobe è stata progettata per facilitare l&#39;elaborazione delle richieste di diritti dei singoli utenti (ad esempio, richieste di accesso e di cancellazione) per i dati dei clienti archiviati nelle soluzioni Adobe CX Enterprise. È flessibile e scalabile in base al numero di richieste di accesso e cancellazione dei dati che la tua azienda riceve dagli interessati.
 
 Inoltre, l’API di Privacy Service consente al cliente di controllare lo stato del processo tramite il quale le richieste di accesso e di cancellazione dei dati vengono soddisfatte. Per ulteriori dettagli, consulta la [documentazione dell&#39;API Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service/).
 
@@ -48,7 +37,7 @@ In qualità di responsabile del trattamento dei dati, Adobe deve fornire al tito
 
 +++ **In che modo i clienti di Adobe (titolari del trattamento) individueranno le richieste di Privacy dei dati da mappare in corrispondenza agli ID in Adobe Analytics per l’elaborazione della Privacy dei dati?**
 
-I titolari del trattamento dei dati determinano come risolvere le identità per le richieste degli interessati. Prendi in considerazione la distribuzione del tag di recupero degli ID Privacy dei dati di Adobe. I team di sviluppo risparmiano tempo utilizzando il tag di recupero degli ID Privacy dei dati per acquisire gli ID degli utenti (ID cookie). Possono quindi utilizzare la nostra API Privacy dei dati per inviare tali ID utente alle soluzioni pertinenti in Adobe Experience Cloud per l’elaborazione della richiesta di Privacy dei dati. L’API Privacy dei dati può supportare una vasta gamma di ID cliente su più soluzioni Adobe.
+I titolari del trattamento dei dati determinano come risolvere le identità per le richieste degli interessati. Prendi in considerazione la distribuzione del tag di recupero degli ID Privacy dei dati di Adobe. I team di sviluppo risparmiano tempo utilizzando il tag di recupero degli ID Privacy dei dati per acquisire gli ID degli utenti (ID cookie). Possono quindi utilizzare la nostra API Privacy dei dati per inviare gli ID utente alle soluzioni pertinenti in Adobe CX Enterprise per l’elaborazione delle richieste di Privacy dei dati. L’API Privacy dei dati può supportare una vasta gamma di ID cliente su più soluzioni Adobe.
 
 Se un interessato invia una richiesta insieme a un identificatore (variabile personalizzata: prop o eVar), Adobe Analytics esegue la scansione dell’intera cronologia dei dati raccolti per l’identificatore specificato. Per ulteriori dettagli su come configurare gli ID personalizzati memorizzati nelle proprietà o eVar di Analytics, consulta la [documentazione di Analytics sugli spazi dei nomi](/help/admin/tools/privacy-labeling/namespaces.md).
 
@@ -74,11 +63,11 @@ Per ulteriori informazioni sulle etichette per la governance dei dati, vedi [Eti
 
 In genere, i clienti di Analytics configurano alcune suite di rapporti di prova per verificare la funzionalità prima che venga rilasciata al pubblico. I siti web o le app di pre-produzione inviano i dati a queste suite di rapporti test/dev/QA per valutare come funzioneranno le cose quando il codice viene rilasciato prima che il traffico reale venga inviato alle suite di rapporti di produzione.
 
-Tuttavia, con una configurazione normale, l’elaborazione delle richieste RGPD non può essere testata prima su queste suite di rapporti di prova, prima di applicare le richieste alle suite di rapporti di produzione. Questo perché una richiesta di Privacy dei dati viene applicata automaticamente a tutte le suite di rapporti nell’organizzazione Experience Cloud, che spesso sono tutte le suite di rapporti per la tua azienda.
+Tuttavia, con una configurazione normale, l’elaborazione delle richieste RGPD non può essere testata prima su queste suite di rapporti di prova, prima di applicare le richieste alle suite di rapporti di produzione. Questo perché una richiesta di Privacy dei dati viene applicata automaticamente a tutte le suite di rapporti nell’organizzazione CX Enterprise, che spesso sono tutte le suite di rapporti per la tua azienda.
 
 Tuttavia, esistono alcuni modi per verificare l’elaborazione Privacy dei dati prima di applicarla a tutte le suite di rapporti:
 
-* Un’opzione consiste nell’impostare un’organizzazione Experience Cloud diversa che contiene solo suite di rapporti di prova. Quindi si utilizza questa organizzazione Experience Cloud per il test Privacy dei dati e la normale organizzazione Experience Cloud per l’elaborazione effettiva Privacy dei dati.
+* Un&#39;opzione consiste nell&#39;impostare un&#39;organizzazione CX Enterprise separata che contenga solo suite di rapporti di prova. Quindi utilizza questa organizzazione CX Enterprise per il test Privacy dei dati e la normale organizzazione CX Enterprise per l’elaborazione effettiva Privacy dei dati.
 
 * Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione. Ad esempio, puoi usare il prefisso “qa-” per ogni spazio dei nomi nelle suite di rapporti di prova. Le richieste di Privacy dei dati contenenti solo spazi dei nomi con il prefisso “qa” verranno eseguite solo per le suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l&#39;approccio consigliato, a meno che non si utilizzino gli spazi dei nomi `visitorId`, AAID, ECID o `customVisitorId`. Questi spazi dei nomi sono codificati e non è possibile specificarne nomi alternativi nelle suite di rapporti di prova.**
 
@@ -94,7 +83,7 @@ Per informazioni dettagliate su come prepararsi alle normative sulla Privacy dei
 
 Il RGPD e il CCPA rappresentano una buona opportunità per riconsiderare la strategia e le pratiche di gestione dei consensi. Ciò include la determinazione della necessità del consenso e la considerazione della proposta di valore per l’utente. Considera la proposta di valore per la privacy dei consumatori, che può aiutare a promuovere la conversione e la fedeltà. Lo spazio di gestione del consenso (ad esempio, strumenti, standard, pratiche consigliate) si evolve rapidamente e deve essere sempre controllato. Per ridurre al minimo l’impatto sul coinvolgimento degli utenti, i Titolari del trattamento devono collaborare con i fornitori in questo spazio e con il proprio consulente legale, per assicurarsi di rispettare le leggi e le linee guida emergenti sul consenso e sui cookie. Una buona strategia è considerare la “privacy sperimentale” usando un’esperienza sul marchio pertinente a livello contestuale che definisca la proposta di valore delle attività di raccolta dei dati.
 
-In qualità di titolare del trattamento, è tua responsabilità ottenere il consenso esplicito degli interessati prima di raccogliere i dati personali (che potrebbero includere i dati di Adobe Analytics) e implementare un [meccanismo di rinuncia](https://www.adobe.com/it/privacy/opt-out.html#customeruse) sul sito Web. Questo consente agli interessati di rinunciare alla raccolta di dati Adobe Experience Cloud futuri.
+In qualità di titolare del trattamento, è tua responsabilità ottenere il consenso esplicito degli interessati prima di raccogliere i dati personali (che potrebbero includere i dati di Adobe Analytics) e implementare un [meccanismo di rinuncia](https://www.adobe.com/it/privacy/opt-out.html#customeruse) sul sito Web. Questo consente agli interessati di rinunciare alla raccolta di dati aziendali Adobe CX in futuro.
 
 +++
 
@@ -143,5 +132,5 @@ Contatta il team del tuo account Adobe per coordinarti con il team di consulenza
 Ulteriori risorse sulla Privacy dei dati:
 
 * [Termini comuni sul GDPR](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_commonterms.pdf)
-* [Pacchetto di assistenza](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf) per la Privacy dei dati di Experience Cloud
+* [Pacchetto di assistenza](https://landing.adobe.com/dam/uploads/2018/in/adobe_gdpr_carepackage.pdf) per la Privacy dei dati aziendali di CX
 * [Post di blog](https://theblog.adobe.com/experiential-privacy-an-investment-opportunity-for-the-experience-business/) sulla privacy sperimentale

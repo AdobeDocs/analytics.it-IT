@@ -4,21 +4,12 @@ description: Il numero di visitatori univoci che utilizzano il servizio Adobe Ex
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 TQID: https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-subfeature_v2:
-  - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: e6c28e30-8689-4bf4-8fa8-561343d308a9id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 378
 ht-degree: 8%
@@ -31,7 +22,7 @@ La metrica &#39;Visitatori con ID Experience Cloud&#39; [metric](overview.md) mo
 
 >[!NOTE]
 >
->Questa metrica è particolarmente importante per il debug se utilizzi più servizi Experience Cloud, come Adobe Target o Adobe Audience Manager. I segmenti condivisi tra i prodotti Experience Cloud non includono i visitatori senza un Experience Cloud ID.
+>Questa metrica è particolarmente importante per il debug se si utilizzano più servizi CX Enterprise, come Adobe Target o Adobe Audience Manager. I segmenti condivisi tra i prodotti aziendali CX non includono i visitatori senza un Experience Cloud ID.
 
 ## Come è calcolata questa metrica
 
@@ -39,7 +30,7 @@ Questa metrica si basa sulla metrica [Visitatori univoci](unique-visitors.md), t
 
 ## Debug della configurazione dell’Experience Cloud ID
 
-La metrica &quot;Visitatori con Experience Cloud ID&quot; può essere utile per risolvere problemi di integrazioni Experience Cloud o per identificare aree del sito in cui non è implementato il servizio ID.
+La metrica &quot;Visitatori con Experience Cloud ID&quot; può essere utile per risolvere problemi relativi alle integrazioni CX Enterprise o per identificare aree del sito in cui non è stato implementato il servizio ID.
 
 Trascina &quot;Visitatori con Experience Cloud ID&quot; accanto a Visitatori univoci per confrontarli:
 

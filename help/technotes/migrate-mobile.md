@@ -4,20 +4,12 @@ title: Migrare le regole di elaborazione di Mobile Services ad Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
 TQID: https://experienceleague.adobe.com/ISDjTVU-ro6M-zZmIvUHlvQKo8VsiCvyXlhaq-O7H58
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 669
 ht-degree: 8%
@@ -44,7 +36,7 @@ Tuttavia, se imposti ulteriori regole di elaborazione nell’interfaccia utente 
 
    ![Variabile di contesto](assets/context-var.png)
 
-1. In Experience Cloud, passa ad Adobe Analytics e accertati di trovarti nella stessa suite di rapporti per dispositivi mobili che stavi esaminando in Mobile Services.
+1. In CX Enterprise, passa ad Adobe Analytics e accertati di trovarti nella stessa suite di rapporti per dispositivi mobili che stavi esaminando in Mobile Services.
 1. Vai a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Processing Rules]**.
 1. Fai clic su **[!UICONTROL Add Rule]**.
 1. Ignora le condizioni e procedi all’aggiunta delle stesse variabili di contesto esistenti in Mobile Services.

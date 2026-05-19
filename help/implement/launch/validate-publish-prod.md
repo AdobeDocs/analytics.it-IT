@@ -5,23 +5,13 @@ feature: Tags
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 role: Admin, Developer
 TQID: https://experienceleague.adobe.com/FpJRwRs9GXGTzUY52vWqC5Ddej-I3mh2ASC6YKphNRI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: c153fd90-23e1-4614-81d3-3cc7571227f7
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: 616
 ht-degree: 4%
 
 ---
@@ -34,13 +24,13 @@ Una volta che la libreria di tag è stata inviata in produzione, la tua organizz
 
 [Implementare Analytics nell&#39;ambiente di sviluppo](deploy-dev.md): per seguire questa pagina, è necessario pubblicare un&#39;implementazione di Analytics nell&#39;ambiente di sviluppo.
 
-## Convalidare l’implementazione di sviluppo utilizzando Experience Cloud Debugger
+## Convalidare l&#39;implementazione di sviluppo utilizzando il debugger aziendale CX
 
-Experience Cloud debugger è un’estensione che mostra tutti i tag Experience Cloud presenti in una pagina.
+Il debugger di CX Enterprise è un&#39;estensione che mostra tutti i tag CX Enterprise presenti in una pagina.
 
 1. Installa l&#39;estensione per [Chrome](https://chromewebstore.google.com/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) o Firefox.
 2. Vai al tuo sito web di sviluppo su cui hai implementato i tag.
-3. Fai clic sull’icona di Adobe Experience Cloud Debugger nel browser.
+3. Fai clic sull’icona di Adobe CX Enterprise Debugger nel browser.
 4. Se tutto è implementato correttamente, dovresti visualizzare il contenuto all’interno di Adobe Analytics, i tag e il servizio ID visitatore di Adobe Experience Cloud.
 
 ## Implementare l’implementazione di sviluppo in staging/produzione
@@ -62,7 +52,7 @@ Una volta verificato che i dati sono visibili, puoi inviare l’implementazione 
 
 Verifica di visualizzare i dati sulla versione live del sito e avvia la raccolta dati ufficiale per Adobe Analytics.
 
-1. Dopo aver confermato dai proprietari del sito Web di aver inviato il codice tag alla produzione, accedi alla home page del sito Web in Chrome e apri [!UICONTROL Adobe Experience Cloud debugger].
+1. Dopo aver confermato dai proprietari del sito web di aver inviato il codice tag in produzione, accedi alla home page del sito web in Chrome e apri Adobe CX Enterprise Debugger.
 2. Se tutto funziona, nell’ambiente di sviluppo dovrebbero essere visualizzati dati simili ai test. A questo punto, stai raccogliendo dati sul tuo sito e ora puoi iniziare a utilizzare Adobe Analytics per il reporting.
 
 ## Risoluzione dei problemi

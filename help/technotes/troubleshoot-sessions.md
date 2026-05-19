@@ -4,17 +4,11 @@ description: Scopri come risolvere i problemi relativi alla disconnessione da Ad
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
 TQID: https://experienceleague.adobe.com/b8dTBhP3a6FZSmABKtQKTp9XkmYIjfS5--Vbzl6xRGE
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
 workflow-type: tm+mt
 source-wordcount: 367
 ht-degree: 0%
@@ -31,7 +25,7 @@ Quasi tutti i problemi relativi alle sessioni derivano dalla rete aziendale pers
 
 Molte organizzazioni implementano funzionalità di rete aggiuntive per migliorare la sicurezza, ad esempio server proxy o firewall. A volte queste personalizzazioni possono interferire con la capacità di mantenere una sessione attiva in Adobe Analytics.
 
-Per determinare se la rete aziendale a cui sei connesso causa problemi con l’utilizzo di Adobe Analytics, utilizza le credenziali di accesso di Experience Cloud su un dispositivo esterno alla rete aziendale. Esempi di dispositivi possono essere tramite la rete domestica o il piano dati di un dispositivo mobile. Se riesci a passare da una pagina all’altra senza aver eseguito la disconnessione, è probabile che la rete della tua organizzazione sia il motivo per cui ti sei disconnesso da Adobe Analytics.
+Per determinare se la rete aziendale a cui si è connessi causa problemi con l&#39;utilizzo di Adobe Analytics, utilizzare le credenziali di accesso di CX Enterprise su un dispositivo esterno alla rete aziendale. Esempi di dispositivi possono essere tramite la rete domestica o il piano dati di un dispositivo mobile. Se riesci a passare da una pagina all’altra senza aver eseguito la disconnessione, è probabile che la rete della tua organizzazione sia il motivo per cui ti sei disconnesso da Adobe Analytics.
 
 ## Problemi dovuti al proxy {#proxy}
 

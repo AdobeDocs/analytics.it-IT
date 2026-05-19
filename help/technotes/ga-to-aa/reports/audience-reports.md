@@ -4,26 +4,14 @@ description: Scopri come creare rapporti basati sul pubblico utilizzando Analysi
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 TQID: https://experienceleague.adobe.com/9CG4aXbANCD-8saZxlTfL4egFSMvf3IGfu4Jf17Dvfg
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6
-  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e3e906cf-5493-4e0a-9a33-bf0ac37393d6id: e9cb007b-c8b7-4975-bc81-11a788c535fa
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: 1725
+source-wordcount: 1723
 ht-degree: 3%
 
 ---
@@ -77,7 +65,7 @@ Il rapporto User Explorer consente a un analista di visualizzare le singole visi
 
 I dati demografici e relativi agli interessi forniscono informazioni su età, genere e interessi degli utenti del sito. Tali dati vengono raccolti da Google tramite le loro funzionalità di tracciamento intersito.
 
-I dati demografici e relativi agli interessi non vengono raccolti automaticamente da Adobe. Tuttavia, se l’organizzazione ottiene questi dati, puoi utilizzare gli attributi del cliente, una funzione all’interno di Adobe Experience Cloud Platform. Consente il pieno controllo sull’organizzazione dei dati per attributi e non è limitato solo a dati demografici o interessi.
+I dati demografici e relativi agli interessi non vengono raccolti automaticamente da Adobe. Tuttavia, se l&#39;organizzazione ottiene questi dati, è possibile utilizzare gli attributi del cliente, una funzione di Adobe CX Enterprise. Consente il pieno controllo sull’organizzazione dei dati per attributi e non è limitato solo a dati demografici o interessi.
 
 Per ulteriori informazioni, consulta la guida Attributi del cliente.
 

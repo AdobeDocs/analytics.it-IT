@@ -3,10 +3,10 @@ description: Informazioni generali di panoramica su Adobe Analytics, tra cui inf
 title: Informazioni sull’interfaccia di Analytics
 feature: Analytics Basics
 exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
-source-git-commit: ca84a5f807545d7196e2e0e90d3209c32d3fd789
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
-source-wordcount: '1969'
-ht-degree: 98%
+source-wordcount: '1989'
+ht-degree: 96%
 
 ---
 
@@ -45,7 +45,7 @@ La scheda [!UICONTROL Components] include funzioni che consentono di ottimizzare
 
    | Funzionalità del prodotto | Funzione | Ulteriori informazioni |
    |---------|----------|----------|
-   | Segmenti | Adobe Analytics ti consente di creare, gestire, condividere e applicare segmenti di pubblico efficaci e mirati ai tuoi rapporti utilizzando le funzionalità di Analytics, Adobe Experience Cloud, Adobe Target e altri prodotti Adobe integrati. | [Segmentazione di Analytics](/help/components/segmentation/seg-home.md) |
+   | Segmenti | Adobe Analytics consente di creare, gestire, condividere e applicare segmenti di pubblico potenti e mirati ai tuoi rapporti utilizzando le funzionalità di Analytics, Adobe CX Enterprise, Adobe Target e altri prodotti Adobe integrati. | [Segmentazione di Analytics](/help/components/segmentation/seg-home.md) |
    | Metriche calcolate | Le metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che puoi creare da metriche esistenti.  Consentono ai marketer, product manager e analisti di porre domande sui dati senza dover cambiare l’implementazione di Analytics. | [Metriche calcolate e metriche calcolate avanzate](/help/components/calculated-metrics/cm-overview.md) |
    | Intervalli di date | Analysis Workspace include un elenco di intervalli di date predefiniti che gli utenti possono utilizzare durante la creazione di analisi. Inoltre, è possibile creare intervalli di date personalizzati e renderli disponibili agli utenti in Analysis Workspace. | [Creare intervalli di date personalizzati](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Suite di rapporti virtuali | Le suite di rapporti virtuali segmentano i dati di Adobe Analytics, in modo da poter controllare l’accesso a ciascun segmento. | [Panoramica delle suite di rapporti virtuali](/help/components/vrs/vrs-about.md) |
@@ -74,7 +74,7 @@ La scheda [!UICONTROL Components] include funzioni che consentono di ottimizzare
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse rimanda alla copia dei dati di Analytics per l’archiviazione e i rapporti personalizzati, che si possono eseguire filtrando i dati. <p>La gestione richieste consente di visualizzare, duplicare e ridefinire le priorità delle richieste.</p> | [Gestire le richieste di Data Warehouse](/help/export/data-warehouse/data-warehouse-requests-manage.md) |
    | Activity Map | Activity Map è un’applicazione progettata per classificare l’attività dei collegamenti utilizzando sovrapposizioni visive e fornire una dashboard di analisi in tempo reale per monitorare il coinvolgimento del pubblico nelle pagine web. Ti consente di configurare varie viste per identificare visivamente l’accelerazione dell’attività della clientela, quantificare le iniziative di marketing e intervenire sulle esigenze e i comportamenti del tuo pubblico. | [Panoramica di Activity Map](/help/analyze/activity-map/overview.md) |
-   | Recommendations Classic | Recommendations è una funzione di Adobe Target che consente di visualizzare automaticamente prodotti, servizi o contenuti che potrebbero interessare i visitatori in base alle loro attività precedenti, preferenze o ad altri criteri. | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=it) |
+   | Recommendations Classic | La funzione Consigli di Adobe Target consente di visualizzare automaticamente prodotti, servizi o contenuti che potrebbero interessare i visitatori in base alle loro attività precedenti, preferenze o ad altri criteri. | [Funzione Consigli](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=it) |
    | Search&amp;Promote | Questa funzione non è più supportata. |  |
    | Mobile Services | Questa funzione non è più supportata. |  |
    | Dashboard di Analytics (app mobili) | L’app per dashboard di Adobe Analytics fornisce ovunque e in qualsiasi momento approfondimenti relativi ad Adobe Analytics. Attraverso l’app, gli utenti possono visualizzare scorecard intuitive create utilizzando l’interfaccia utente desktop di Adobe Analytics. | L’app per dashboard di Adobe Analytics è disponibile nell’App Store iOS o nel Google Play Store |
@@ -118,7 +118,7 @@ La scheda Amministrazione include funzioni e opzioni di configurazione per l’a
    | Security Manager | Security Manager consente di controllare l’accesso ai dati di reporting. Le opzioni includono password sicure, scadenza password, restrizioni di accesso IP e restrizioni del dominio e-mail. | [Security Manager](/help/admin/tools/company/security-manager.md) |
    | Servizi web | Le API dei servizi Web forniscono accesso programmatico ai rapporti di marketing e ad altri servizi della suite che consentono di duplicare e potenziare le funzionalità disponibili tramite l’interfaccia di Analytics. | [Servizi web](/help/admin/tools/company/web-services-admin.md) |
    | Rapporti di Report Builder | Gestire la licenza assegnata agli utenti di Report Builder. | [Report del Report Builder](/help/admin/tools/company/report-builder-reports-admin.md) |
-   | Servizio Single Sign-on | Il Single sign-on in Adobe Experience Cloud viene implementato tramite Admin Console. | [Analytics in Adobe Admin Console](/help/admin/admin-console/home.md) |
+   | Servizio Single Sign-on | Il Single Sign-On in Adobe CX Enterprise viene implementato tramite Admin Console. | [Analytics in Adobe Admin Console](/help/admin/admin-console/home.md) |
    | Nascondi le suite di rapporti | Consente di nascondere le suite di rapporti nell’interfaccia utente di Adobe Analytics se non desideri più rendere disponibile una suite di rapporti per te e per i tuoi utenti. | [Nascondi le suite di rapporti](/help/admin/tools/company/c-hide-report-suites.md) |
 
    {style="table-layout:auto"}

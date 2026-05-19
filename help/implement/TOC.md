@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 14f079db0cc381b120cb8345aae03dd996b663d0
+source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 78%
+source-wordcount: '471'
+ht-degree: 77%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 78%
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
-      + [eVar &#x200B;](vars/page-vars/evar.md)
+      + [eVar](vars/page-vars/evar.md)
       + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
       + eventi {#events}
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)
@@ -170,7 +170,7 @@ ht-degree: 78%
    + [Mappare gli elementi dati dei tag alle variabili Analytics](launch/elements-to-variable.md)
 + Implementazione di Analytics tramite JavaScript {#js}
    + [Panoramica di JavaScript](js/overview.md)
-   + {hide-from-toc}[Implementazione dei collegamenti di opt-out](js/opt-out.md)
+   + {hide-from-toc}[Implementare collegamenti di rinuncia](js/opt-out.md)
    + [Override variabili](js/overrides.md)
    + [Migra da codice H](js/migrate-from-hcode.md)
    + Codice H {#h-code}
@@ -198,7 +198,7 @@ ht-degree: 78%
    + [Utilizzare AppMeasurement con iFrame](use-cases/iframe.md)
    + [Flusso di lavoro di tracciamento delle campagne](use-cases/campaign-tracking.md)
 + Convalida l’implementazione {#validate}
-   + [Debugger legacy di Adobe Experience Cloud](validate/debugger.md)
+   + [Debugger legacy](validate/debugger.md)
    + [Parametri query della raccolta dati](validate/query-parameters.md)
    + [Monitor per pacchetti](validate/packet-monitor.md)
    + [Collisioni hash](validate/hash-collisions.md)

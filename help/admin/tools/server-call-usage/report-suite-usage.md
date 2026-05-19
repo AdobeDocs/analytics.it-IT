@@ -5,16 +5,13 @@ feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 role: Admin
 TQID: https://experienceleague.adobe.com/reCYMlZM7HH2H1ewI6tN6x6Bn4ghaKKyrkXGUzC64-g
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 423
-ht-degree: 93%
+ht-degree: 82%
 
 ---
 
@@ -26,11 +23,11 @@ La scheda Utilizzo suite di rapporti fornisce i dati di utilizzo del server per 
 
 >[!IMPORTANT]
 >
->Se una suite di rapporti non è collegata a un’organizzazione Experience Cloud, i relativi dati di utilizzo non vengono riportati in questa dashboard. Inoltre, un ID fatturazione può essere associato a più organizzazioni Experience Cloud; non esiste sempre una relazione 1:1 tra un&#39;organizzazione e un ID fatturazione.
+>Se una suite di rapporti non è collegata a un&#39;organizzazione CX Enterprise, i relativi dati di utilizzo non vengono riportati in questa dashboard. Inoltre, un ID fatturazione può essere associato a più organizzazioni CX Enterprise; non esiste sempre una relazione 1:1 tra un&#39;organizzazione e un ID fatturazione.
 
 Dashboard di utilizzo della suite di rapporti
 
-* Mostra l’utilizzo della chiamata al server nel periodo di utilizzo corrente (Tutte le chiamate, Primaria, Secondaria, Primaria da dispositivo mobile, Secondaria da dispositivo mobile) per ogni suite di rapporti nell’organizzazione Experience Cloud.
+* Mostra l’utilizzo della chiamata al server nel periodo di utilizzo corrente (Tutte le chiamate, Primaria, Secondaria, Primaria da dispositivo mobile, Secondaria da dispositivo mobile) per ogni suite di rapporti nell’organizzazione CX Enterprise.
 * Mostra la percentuale di utilizzo complessivo per categoria di chiamate al server.
 * Viene aggiornato ogni giorno.
 * È scaricabile.
