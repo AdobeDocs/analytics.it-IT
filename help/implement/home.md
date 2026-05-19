@@ -111,7 +111,7 @@ Per la tua **app mobile**, sono disponibili i seguenti metodi di implementazione
 
 ## Risorse chiave per Analytics
 
-* [Contatta l’Assistenza clienti](https://experienceleague.adobe.com/?support-solution=Analytics?lang=it#support)
-* [Community di Adobe Analytics su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community)
-* [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
+* [Contatta l’Assistenza clienti](https://experienceleague.adobe.com/it?support-solution=Analytics?lang=it#support)
+* [Community di Adobe Analytics su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it)
+* [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=it)
 * [Note sulla versione più recente](../release-notes/latest.md)

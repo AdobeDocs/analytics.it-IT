@@ -35,7 +35,7 @@ Per accedere a Report Builder, utilizzare l&#39;account di accesso di CX Enterpr
 
 L&#39;accesso a CX Enterprise consente di utilizzare Enterprise ID (e-mail e password) per accedere ad Adobe CX Enterprise.
 
-Fare clic su **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzati alla pagina Single Sign-On della società. Per ulteriori informazioni su Enterprise ID, consulta [Accedi all&#39;account aziendale o dell&#39;istituto di istruzione](https://helpx.adobe.com/enterprise/kb/enterprise-id-faq.html#whatis).
+Fare clic su **[!UICONTROL Sign In]** > **[!UICONTROL Sign in with an Enterprise ID]** per essere reindirizzati alla pagina Single Sign-On della società. Per ulteriori informazioni su Enterprise ID, consulta [Accedi all&#39;account aziendale o dell&#39;istituto di istruzione](https://helpx.adobe.com/it/enterprise/kb/enterprise-id-faq.html#whatis).
 
 ![Schermata che mostra la finestra di accesso di Adobe CX Enterprise con le opzioni per l&#39;accesso con o senza Adobe ID](assets/adobe_id_login.png)
 
