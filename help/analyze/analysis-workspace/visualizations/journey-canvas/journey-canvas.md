@@ -3,7 +3,7 @@ description: Scopri come utilizzare l’area di lavoro del percorso in Analysis 
 title: Panoramica dell’area di lavoro del percorso
 feature: Visualizations
 role: User, Admin
-source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
+source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 88%
@@ -15,31 +15,19 @@ ht-degree: 88%
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_button"
+>id="aa_journeycanvas_button"
 >title="Area di lavoro del percorso"
 >abstract="Mostra il modo in cui le persone procedono attraverso o escono da una serie di punti di contatto. Da utilizzare per percorsi con più punti di ingresso e percorsi."
 
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
-
 >[!CONTEXTUALHELP]
->id="cja_journeycanvas_panel"
+>id="aa_journeycanvas_panel"
 >title="Area di lavoro del percorso"
 >abstract="Analizza il modo in cui le persone procedono attraverso o escono da un percorso definito. Crea analisi dei percorsi degli utenti realizzando un grafico flessibile con nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e segmenti. Trascina i nodi nell’area di lavoro per riorganizzare gli eventi e le condizioni del percorso. Man mano che procedi, i dati vengono aggiornati di conseguenza."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="Area di lavoro del percorso"
 >abstract="Mostra il modo in cui le persone procedono attraverso o escono da una serie di punti di contatto. Da utilizzare per percorsi con più punti di ingresso e percorsi."
-
-<!-- markdownlint-enable MD034 -->
-
-<!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"
@@ -50,7 +38,7 @@ ht-degree: 88%
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Vedere [Panoramica dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) per la versione _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;di questo articolo._
+_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_.<br/><br/>_Vedere [Panoramica dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) per la versione_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -158,5 +146,5 @@ Puoi generare analisi nell’Area di lavoro del percorso basate su qualsiasi dim
 
 >[!MORELIKETHIS]
 >
-> * [Guida alla visualizzazione delle aree di lavoro del percorso in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=it)
+> * [Guida alla visualizzazione delle aree di lavoro del percorso in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
 
