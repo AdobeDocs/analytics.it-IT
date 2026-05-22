@@ -4,9 +4,13 @@ description: Scopri come l’uniformità intelligente dei dati analizza le tende
 feature: AI Tools
 role: User, Admin
 exl-id: b7a2e5d5-99d4-408d-84e6-67abff9e8727
-source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
+TQID: 'https://experienceleague.adobe.com/iqjuEBGaCRcwmWfZo6rC1DXi8y4iyj9gB87tpvXmJdk'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: 251
 ht-degree: 1%
 
 ---

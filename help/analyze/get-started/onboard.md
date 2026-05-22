@@ -4,20 +4,13 @@ description: Benvenuto nella serie sull’onboarding dell’esperienza digitale 
 role: Admin
 feature: Analytics Basics
 exl-id: c84f86cb-0925-4031-aa6c-2a9e8497a76a
-TQID: https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/APJRyqzGbZcfELD2NS3InIbHq46rfGgWH8USmpneJ2Y'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: a421fb65-2c82-457a-921c-28c46b697a39id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: c457b289-f974-4a67-a5b6-dec3ffa77675
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 573
 ht-degree: 13%
@@ -42,7 +35,7 @@ CARDS
   {description = Onboard to Adobe Experience League to access documentation, tutorials, and more to help you succeed.}
   {cta = Onboard}
   {url = #adobe-experience-league}
-  {image = https://video.tv.adobe.com/v/3476892/?captions=ita&format=jpeg&nocache=1763486440891}
+  {image = https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891}
 
 * ./onboard.md
   {title = Adobe Admin Console}
@@ -80,7 +73,7 @@ CARDS
             <div class="card-image">
                 <figure class="image x-is-16by9">
                     <a href="#adobe-experience-league" title="Adobe Experience League" target="_blank" rel="referrer">
-                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476892/?captions=ita&format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
+                        <img class="is-bordered-r-small" src="https://video.tv.adobe.com/v/3476846/?format=jpeg&nocache=1763486440891" alt="Adobe Experience League"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
                 </figure>
@@ -196,9 +189,9 @@ CARDS
 
 ## Adobe Experience League
 
->[!VIDEO](https://video.tv.adobe.com/v/3476892/?captions=ita&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476846/?learn=on&enablevpops)
 
-Onboarding per [Adobe Experience League](https://experienceleague.adobe.com/it?lang=it) per accedere alla [documentazione](https://experienceleague.adobe.com/it/docs/analytics), alle [esercitazioni](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/overview) e altro per facilitare la riuscita.
+Onboarding per [Adobe Experience League](https://experienceleague.adobe.com/?lang=it) per accedere alla [documentazione](https://experienceleague.adobe.com/it/docs/analytics), alle [esercitazioni](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/overview) e altro per facilitare la riuscita.
 
 
 ## Adobe Admin Console
@@ -217,7 +210,7 @@ Eseguire l&#39;onboarding in [Gestione utenti Adobe Admin Console](https://admin
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476787/?learn=on&enablevpops)
 
-Onboarding in Adobe Experience League per [sollevare un caso di supporto, rivedere i casi attivi e passati](https://experienceleague.adobe.com/home?lang=it#support).
+Onboarding in Adobe Experience League per [sollevare un caso di supporto, rivedere i casi attivi e passati](https://experienceleague.adobe.com/home#support).
 
 
 ## Adobe Analytics
@@ -230,7 +223,7 @@ Il tuo Percorso Adobe Analytics inizia con l’onboarding delle configurazioni e
 
 Dopo aver completato l’onboarding in Adobe Analytics e nelle sue piattaforme di supporto, esplora le seguenti risorse per approfondire le tue conoscenze e migliorare le tue competenze:
 
-1. [Introduzione ad Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [Comprendere e creare suite di rapporti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+1. [Introduzione ad Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
+2. [Comprendere e creare suite di rapporti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Documentazione di Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics)
 4. [Esercitazioni e video su Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/overview)

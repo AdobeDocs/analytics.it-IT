@@ -4,9 +4,14 @@ title: Come generare rapporti su AEM Assets in Adobe Analytics
 feature: Report Suite Settings
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
 role: Admin
-source-git-commit: 665bd68d7ebc08f0da02d93977ee0b583e1a28e6
+TQID: 'https://experienceleague.adobe.com/6m40YEloax2YnTmMz7AADpcgSoY20Svox5-FWjWJRAg'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2: id: fe0a7292-80bc-407a-b456-64170267d1ccid: a9364d69-0c51-44bf-8b5f-6d99c04493b8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: 107
 ht-degree: 100%
 
 ---
@@ -23,6 +28,6 @@ Consente ad Analytics di raccogliere impression e clic su [!UICONTROL Assets] da
 * Aggiunge nuove dimensioni alle variabili della risorsa in Analysis Workspace: ID risorsa, Origine risorsa e ID risorsa su cui è stato fatto clic
 * Aggiunge nuove dimensioni agli eventi delle risorse: clic sulle risorse e impression sulle risorse
 
-Per i dati da compilare, consulta la [ documentazione di AEM Asset Insights](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/assets-insights.html?lang=it) per le istruzioni complete sull’implementazione.
+Per i dati da compilare, consulta la [ documentazione di AEM Asset Insights](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/assets-insights.html) per le istruzioni complete sull’implementazione.
 
 <!--The content in this article is duplicated with the content in the Admin guide (adobe-experience-manager.md)-->

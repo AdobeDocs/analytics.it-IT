@@ -3,17 +3,12 @@ title: Metriche principali dei servizi di contenuti multimediali in streaming
 description: Metriche disponibili quando abiliti [!UICONTROL Media Core] per una suite di rapporti.
 feature: Metrics
 exl-id: f4ff5f84-18b6-4e67-b808-133faeaf8605
-TQID: https://experienceleague.adobe.com/GY-KDbtlsUfRfs-7mG-I2JFe9mkiL5ISb1gxNOHc3cg
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+TQID: 'https://experienceleague.adobe.com/GY-KDbtlsUfRfs-7mG-I2JFe9mkiL5ISb1gxNOHc3cg'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 209
 ht-degree: 0%

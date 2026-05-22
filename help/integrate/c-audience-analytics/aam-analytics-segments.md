@@ -3,9 +3,14 @@ description: Analytics e Audience Manager utilizzano entrambi i segmenti. Tuttav
 title: Comprendere i segmenti in Analytics e Audience Manager
 feature: Audience Analytics
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
-source-git-commit: 936644c719f46a1327c8a5aa247ed69a14d3da1e
+TQID: 'https://experienceleague.adobe.com/RjKoKg5fyxSwXNSQRCGHhJQcfjkwLIrVsKDBCFpJ5Ac'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+subfeature_v2: id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: 747
 ht-degree: 2%
 
 ---
@@ -27,7 +32,7 @@ L’iscrizione al segmento Audience Manager è fluida. Gli utenti possono inseri
 
 In Analytics, un segmento di Audience Manager è identificato come un pubblico.
 
-Per ulteriori informazioni, consulta [Dati sulle caratteristiche e sulla popolazione dei segmenti nel Generatore di segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=it) e [Segnali, caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=it).
+Per ulteriori informazioni, consulta [Dati sulle caratteristiche e sulla popolazione dei segmenti nel Generatore di segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html) e [Segnali, caratteristiche e segmenti](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html).
 
 ## Segmenti di Analytics {#analytics-segments}
 

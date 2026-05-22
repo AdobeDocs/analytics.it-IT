@@ -3,17 +3,15 @@ title: Gestire i feed dati
 description: Scopri come navigare nell’interfaccia del feed dati. Scopri come creare, modificare e visualizzare un feed di dati.
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-TQID: https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1315
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
@@ -56,9 +54,9 @@ Il pulsante **[!UICONTROL Create data feed]** consente di creare un nuovo feed. 
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
 
-1. Individua il feed di dati da modificare. Per individuare un feed di dati, puoi [filtrare e cercare nell&#39;elenco dei feed di dati](#filter-and-search-the-list-of-data-feeds).
+1. Individua il feed di dati che desideri modificare. Per individuare un feed di dati, puoi [filtrare e cercare nell’elenco dei feed di dati](#filter-and-search-the-list-of-data-feeds).
 
-1. Selezionare il feed di dati nella colonna [!UICONTROL **Nome feed**].
+1. Seleziona il feed di dati nella colonna [!UICONTROL **Nome feed**].
 
 1. Apporta le modifiche desiderate al feed dati.
 
