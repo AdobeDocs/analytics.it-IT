@@ -5,9 +5,9 @@ user-guide-title: Note tecniche di Analytics
 breadcrumb-title: Note tecniche
 user-guide-description: Sfoglia una knowledge base contenente articoli utili che non sono specifici per un particolare strumento o componente di Analytics.
 source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
-workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 84%
+workflow-type: ht
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 84%
    + [Guida di Adobe Analytics per utenti Google Analytics](ga-to-aa/home.md)
    + [Account e suite di rapporti](ga-to-aa/accounts.md)
    + [Personalizzare le visualizzazioni di reporting](ga-to-aa/customization.md)
-   + Rapporti di Google Analytics {#reports}
+   + Rapporti Google Analytics {#reports}
       + [Creare un rapporto di base in Analysis Workspace per gli utenti GA](ga-to-aa/reports/create-report.md)
       + [Metriche comuni utilizzate su altre piattaforme di analisi](ga-to-aa/reports/common-metrics.md)
       + [Tempo reale](ga-to-aa/reports/realtime-reports.md)
@@ -31,7 +31,7 @@ ht-degree: 84%
    + [Domande frequenti](ga-to-aa/faq.md)
    + [Differenze di elaborazione tra piattaforme](ga-to-aa/processing-differences.md)
    + [Confrontare i dati con prodotti di terze parti](ga-to-aa/compare-data.md)
-+ [Analizzare il traffico di IA](/help/technotes/ai-traffic.md)
++ [Analizzare il traffico IA](/help/technotes/ai-traffic.md)
 + Analizzare i dati interessati dagli eventi {#event}
    + [Panoramica dell’analisi dei dati interessati dagli eventi](event/overview.md)
    + [Risolvere i problemi relativi a picchi/cadute nei dati](event/spikes-drops.md)
