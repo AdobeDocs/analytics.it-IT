@@ -36,7 +36,7 @@ La stringa dello spazio dei nomi viene usata per identificare i campi in cui si 
 * Un campo &quot;type&quot; che per la maggior parte delle richieste di Adobe Analytics contiene il valore &quot;analytics&quot;.
 * Un campo &quot;value&quot; contenente l’ID che Analytics deve cercare nelle variabili dello spazio dei nomi associate da ciascuna suite di rapporti.
 
-Per ulteriori informazioni e un [elenco degli spazi dei nomi di identità standard](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces), consulta la [documentazione dell&#39;API per la Privacy dei dati aziendali di CX](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it). Vedi [Creare un processo di accesso/eliminazione](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) per una richiesta di esempio.
+Per ulteriori informazioni e un [elenco degli spazi dei nomi di identità standard](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix#standard-namespaces), consulta la [documentazione dell&#39;API per la Privacy dei dati aziendali di CX](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it). Vedi [Creare un processo di accesso/eliminazione](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/privacy-jobs#access-delete) per una richiesta di esempio.
 
 ## ID cookie
 
