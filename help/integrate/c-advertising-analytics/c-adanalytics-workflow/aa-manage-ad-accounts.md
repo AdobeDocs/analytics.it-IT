@@ -3,10 +3,20 @@ description: Gestisci gli account in Advertising Analytics.
 title: Gestire gli account pubblicitari
 feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-source-git-commit: b53ef727adc563e05403c50d80bbd0c48bb8a054
+autotag-review: '2026-05-19T13:32:36.907Z'
+TQID: 'https://experienceleague.adobe.com/AeGIKH9eB-OcGqN9iSpMRRtBLFiCU2eNdmQtiK7g9gU'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+subfeature_v2:
+  - id: fe0a7292-80bc-407a-b456-64170267d1cc
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 5%
+source-wordcount: 512
+ht-degree: 17%
 
 ---
 

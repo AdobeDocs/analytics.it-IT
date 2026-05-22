@@ -4,7 +4,8 @@ description: Scopri le funzioni che ti aiutano a comprendere l’esperienza del 
 role: User, Admin
 exl-id: dcc56996-625d-4179-bd58-f0dc1241ad57
 feature: Visualizations
-TQID: https://experienceleague.adobe.com/fs5WDvy7PYenHQ2wfJcyLDlSpm-lMEzZsWco9uScnZc
+autotag-review: '2026-05-22T09:20:17.228Z'
+TQID: 'https://experienceleague.adobe.com/0CYLMPem1q6Qn7EC9cemFS92tLlw10dstoBl5MrvVlQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
@@ -17,7 +18,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 179
 ht-degree: 13%

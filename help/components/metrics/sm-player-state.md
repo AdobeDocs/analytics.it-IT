@@ -3,7 +3,7 @@ title: Metriche di tracciamento dello stato del lettore di servizi multimediali 
 description: Metriche disponibili quando abiliti [!UICONTROL Player State Tracking] per una suite di rapporti.
 feature: Metrics
 exl-id: 324936cc-0c7a-4710-a618-b24cc6a2c2cf
-TQID: https://experienceleague.adobe.com/3juhc8fsLlyNTdeRNceLhE-LAEF9jLYiIF55YDeeUGU
+TQID: 'https://experienceleague.adobe.com/3juhc8fsLlyNTdeRNceLhE-LAEF9jLYiIF55YDeeUGU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
 feature_v2:
@@ -14,7 +14,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 258
 ht-degree: 0%

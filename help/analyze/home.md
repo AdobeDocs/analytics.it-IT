@@ -4,10 +4,22 @@ description: Documentazione del prodotto e supporto autonomo per Analysis Worksp
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: fcc165536d77284e002cb2ba6b7856be1fdb3e14
+TQID: 'https://experienceleague.adobe.com/dFgB2YaXB7vihIOV8bcVGpg96UnT5pkNvjJaok319nU'
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 94%
+source-wordcount: 569
+ht-degree: 92%
 
 ---
 
@@ -43,8 +55,8 @@ Per informazioni dettagliate sulle funzioni di Adobe Analytics e su come utilizz
 
 ## Risorse chiave per Analytics
 
-* [Contattare l’Assistenza clienti](https://experienceleague.adobe.com/it?support-solution=Analytics?lang=it#support)
-* [Adobe Analytics Community su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it)
+* [Contatta l’Assistenza clienti](https://experienceleague.adobe.com/it?support-solution=Analytics?lang=it#support)
+* [Community di Adobe Analytics su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it)
 * [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=it)
 * [Experience League](https://landing.adobe.com/experience-league/)
 
