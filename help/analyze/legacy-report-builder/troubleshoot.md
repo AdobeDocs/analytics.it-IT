@@ -6,21 +6,13 @@ feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 TQID: https://experienceleague.adobe.com/al9ySg7-3MCg-NZgdci4bDs4B9jNzpdBxlgBTrew2Hs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f571897740322c1f10255c54fbf745091752a507
 workflow-type: tm+mt
-source-wordcount: 1407
+source-wordcount: 1439
 ht-degree: 46%
 
 ---
@@ -102,3 +94,10 @@ Questa sezione include un elenco di esempi di messaggi di errore che possono ver
    4. Comprimere nuovamente il contenuto e ripristinare l&#39;estensione del file in `.xlsx`.
    5. Apri la cartella di lavoro in Excel e aggiorna tutte le richieste Report Builder.
 * **È possibile che le celle di Excel associate ai filtri di input o all&#39;intervallo di output siano state eliminate**: Report Builder utilizza i nomi di Excel per allegare le richieste di dati alle celle. Se si eliminano i nomi di Excel da Gestione nomi, è possibile visualizzare questo errore. Non è possibile recuperare le richieste se i nomi Excel vengono eliminati. Se la cartella di lavoro è stata pianificata, è possibile scaricarne una copia da Gestione pianificazione oppure aprire le copie consegnate in precedenza della cartella di lavoro.
+
+## Registra richieste
+
+Per registrare le richieste a scopo di risoluzione dei problemi, nel componente aggiuntivo legacy di Report Builder:
+
+1. Seleziona **[!UICONTROL Options]**
+1. Selezionare **[!UICONTROL Log report builder request to local file (for troubleshooting)]**.<br/>Le richieste sono archiviate in un file locale con data di contrassegno in una directory **[!UICONTROL ReportBuilderLogs]** all&#39;interno della cartella **[!UICONTROL Documents]**.
