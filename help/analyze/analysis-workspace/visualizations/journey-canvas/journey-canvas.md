@@ -6,7 +6,7 @@ role: User, Admin
 source-git-commit: de95ae1176aa15b4d932f7a9dff27f91aae4f1e7
 workflow-type: tm+mt
 source-wordcount: '1091'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_button"
 >title="Area di lavoro del percorso"
->abstract="Mostra il modo in cui le persone procedono attraverso o escono da una serie di punti di contatto. Da utilizzare per percorsi con più punti di ingresso e percorsi."
+>abstract="Mostra il modo in cui le persone procedono attraverso o escono da una serie di punti di contatto. Utilizzabile per percorsi con più punti di ingresso e percorsi."
 
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_panel"
@@ -27,7 +27,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="journeycanvas_button2"
 >title="Area di lavoro del percorso"
->abstract="Mostra il modo in cui le persone procedono attraverso o escono da una serie di punti di contatto. Da utilizzare per percorsi con più punti di ingresso e percorsi."
+>abstract="Mostra il modo in cui le persone procedono attraverso o escono da una serie di punti di contatto. Utilizzabile per percorsi con più punti di ingresso e percorsi."
 
 >[!CONTEXTUALHELP]
 >id="journeycanvas_panel2"

@@ -18,7 +18,7 @@ role_v2:
 source-git-commit: 8ba438d61e6834acb07c86cd0af58f95b88c1de7
 workflow-type: tm+mt
 source-wordcount: 361
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="aa_datadictionary_share_primary"
 >title="Condividi componente primario"
->abstract="Quando questa opzione è selezionata, il componente principale viene condiviso con tutti coloro che hanno accesso ai componenti duplicati (sia i proprietari che gli utenti con cui i componenti sono condivisi). Tali utenti possono quindi selezionare il componente principale dall’elenco dei componenti per i progetti futuri. Tuttavia, non possono modificare il componente, anche se erano i proprietari di un componente duplicato che era stato consolidato. <br/>Questa opzione è disponibile solo quando il componente principale è un segmento, una metrica calcolata o un intervallo di date. Le metriche e le dimensioni sono sempre disponibili per tutti gli utenti."
+>abstract="Quando questa opzione è selezionata, il componente primario viene condiviso con tutti coloro che hanno accesso ai componenti duplicati (sia i proprietari che gli utenti con cui i componenti sono stati condivisi). Tali utenti potranno quindi selezionare il componente principale dall’elenco dei componenti per i progetti futuri. Tuttavia, non potranno modificare il componente, anche se erano i proprietari di un componente duplicato che è stato consolidato. <br/>Questa opzione è disponibile solo quando il componente primario è un segmento, una metrica calcolata o un intervallo di date. Le metriche e le dimensioni sono sempre disponibili per tutti gli utenti.
 >
 >When this option is deselected, the primary component still replaces duplicates in existing projects and segments, but users who didn't previously have access to it can't access it from the component list for future projects. "
 
@@ -40,7 +40,7 @@ ht-degree: 66%
 >[!CONTEXTUALHELP]
 >id="aa_datadictionary_delete_duplicates"
 >title="Elimina duplicati sostituiti"
->abstract="Quando questa opzione è selezionata, i duplicati consolidati non sono più disponibili per l’uso. Deseleziona questa opzione se desideri che i duplicati continuino a essere disponibili."
+>abstract="Quando questa opzione è selezionata, i duplicati consolidati non saranno più disponibili per l’uso. Deseleziona questa opzione se desideri mantenere i duplicati ancora disponibili."
 
 <!-- markdownlint-enable MD034 -->
 

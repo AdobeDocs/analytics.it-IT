@@ -70,7 +70,7 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_percentage_value"
 >title="Scegli come vengono calcolate le percentuali"
->abstract="Le percentuali visualizzate su ciascun nodo si basano sulle metriche primarie e secondarie configurate. Puoi scegliere se le percentuali si riferiscono al nodo iniziale, al nodo precedente o a tutti i dati nella suite di rapporti."
+>abstract="Le percentuali visualizzate su ciascun nodo si basano sulle metriche primarie e secondarie che hai configurato. Puoi scegliere se le percentuali si riferiscono al nodo iniziale, al nodo precedente o a tutti i dati della suite di rapporti."
 
 <!-- markdownlint-enable MD034 -->
 
