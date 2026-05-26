@@ -14,7 +14,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Vedere [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) per la versione _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;di questo articolo._
+_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Vedere [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) per la versione _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_percentage_value"
 >title="Scegli come vengono calcolate le percentuali"
->abstract="Le percentuali visualizzate su ciascun nodo si basano sulle metriche primarie e secondarie configurate. Puoi scegliere se le percentuali si riferiscono al nodo iniziale, al nodo precedente o a tutti i dati nella suite di rapporti."
+>abstract="Le percentuali visualizzate su ciascun nodo si basano sulle metriche primarie e secondarie che hai configurato. Puoi scegliere se le percentuali si riferiscono al nodo iniziale, al nodo precedente o a tutti i dati della suite di rapporti."
 
 <!-- markdownlint-enable MD034 -->
 
