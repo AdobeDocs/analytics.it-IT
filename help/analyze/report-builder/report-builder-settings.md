@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 256
 ht-degree: 4%
@@ -69,3 +69,4 @@ I problemi e la risoluzione dei ticket di supporto consentono di registrare le r
 
 1. Seleziona ![Impostazione](/help/assets/icons/Setting.svg).
 1. Seleziona **[!UICONTROL Log report builder request data block(s) to web console]**. <br/>Le richieste vengono inviate alla console del browser Web. Consulta la documentazione del browser web per informazioni su come aprire il registro della console con gli strumenti di sviluppo del browser web.
+

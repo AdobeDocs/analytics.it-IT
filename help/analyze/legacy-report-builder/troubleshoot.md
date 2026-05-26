@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1439
 ht-degree: 46%
@@ -109,3 +109,4 @@ Per registrare le richieste a scopo di risoluzione dei problemi, nel componente 
 
 1. Seleziona **[!UICONTROL Options]**
 1. Selezionare **[!UICONTROL Log report builder request to local file (for troubleshooting)]**.<br/>Le richieste sono archiviate in un file locale con data di contrassegno in una directory **[!UICONTROL ReportBuilderLogs]** all&#39;interno della cartella **[!UICONTROL Documents]**.
+
