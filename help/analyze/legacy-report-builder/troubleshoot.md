@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f571897740322c1f10255c54fbf745091752a507
 workflow-type: tm+mt
-source-wordcount: 1407
+source-wordcount: 1439
 ht-degree: 46%
 
 ---
@@ -102,3 +102,10 @@ Questa sezione include un elenco di esempi di messaggi di errore che possono ver
    4. Comprimere nuovamente il contenuto e ripristinare l&#39;estensione del file in `.xlsx`.
    5. Apri la cartella di lavoro in Excel e aggiorna tutte le richieste Report Builder.
 * **È possibile che le celle di Excel associate ai filtri di input o all&#39;intervallo di output siano state eliminate**: Report Builder utilizza i nomi di Excel per allegare le richieste di dati alle celle. Se si eliminano i nomi di Excel da Gestione nomi, è possibile visualizzare questo errore. Non è possibile recuperare le richieste se i nomi Excel vengono eliminati. Se la cartella di lavoro è stata pianificata, è possibile scaricarne una copia da Gestione pianificazione oppure aprire le copie consegnate in precedenza della cartella di lavoro.
+
+## Registra richieste
+
+Per registrare le richieste a scopo di risoluzione dei problemi, nel componente aggiuntivo legacy di Report Builder:
+
+1. Seleziona **[!UICONTROL Options]**
+1. Selezionare **[!UICONTROL Log report builder request to local file (for troubleshooting)]**.<br/>Le richieste sono archiviate in un file locale con data di contrassegno in una directory **[!UICONTROL ReportBuilderLogs]** all&#39;interno della cartella **[!UICONTROL Documents]**.
