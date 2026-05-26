@@ -6,19 +6,11 @@ feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 TQID: https://experienceleague.adobe.com/al9ySg7-3MCg-NZgdci4bDs4B9jNzpdBxlgBTrew2Hs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f571897740322c1f10255c54fbf745091752a507
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 33bb8dc51fa1e0365fbf2b4ef10fd0f044f5e368
 workflow-type: tm+mt
 source-wordcount: 1439
 ht-degree: 46%
@@ -109,3 +101,4 @@ Per registrare le richieste a scopo di risoluzione dei problemi, nel componente 
 
 1. Seleziona **[!UICONTROL Options]**
 1. Selezionare **[!UICONTROL Log report builder request to local file (for troubleshooting)]**.<br/>Le richieste sono archiviate in un file locale con data di contrassegno in una directory **[!UICONTROL ReportBuilderLogs]** all&#39;interno della cartella **[!UICONTROL Documents]**.
+
