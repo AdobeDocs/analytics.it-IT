@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1349
 ht-degree: 30%
@@ -84,7 +84,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica se
 1. Seleziona **[!UICONTROL Add]** per creare un nuovo segmento.
    ![Pubblica CX Enterprise](assets/publish-ec.png)
 1. Fornisci un titolo e una descrizione per il segmento. Questi campi sono necessari prima di poter salvare il segmento.
-1. Nella sezione **[!UICONTROL CX Enterprise publishing]**, seleziona l&#39;opzione **[!UICONTROL Publish this segment to CX Enterprise (for *suite di rapporti *)]**.
+1. Nella sezione **[!UICONTROL Experience Cloud publishing]**, seleziona l&#39;opzione **[!UICONTROL Publish this segment to Experience Cloud (for *suite di rapporti *)]**.
 
    >[!IMPORTANT]
    >

@@ -18,7 +18,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: 696020b4275732211c9ee276636a4cf2161176da
 workflow-type: tm+mt
 source-wordcount: 770
 ht-degree: 60%
@@ -52,7 +52,7 @@ Per iniziare, crea un nuovo ID dichiarato nel [servizio core Persone](https://ex
 
 Ecco come si può acquisire questo ID tramite l’elemento dati. Assicurati di compilare correttamente l’ID organizzazione CX Enterprise nell’elemento dati.
 
-```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
+`return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();`
 
 Una volta configurato l’elemento dati, segui [queste istruzioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it) per passare gli ID dichiarati nello strumento ECID utilizzando i tag in Adobe Experience Platform.
 
