@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: 9f587a20e5c6f62fce6ed599f3a5dfb27d1bf0da
 workflow-type: tm+mt
-source-wordcount: 2157
+source-wordcount: 2161
 ht-degree: 81%
 
 ---
@@ -97,7 +97,7 @@ Per configurare la destinazione in cui vengono inviati i rapporti Data Warehouse
 
       +++Amazon S3 con ruolo ARN
 
-      **NOTA:** quando si utilizza Amazon S3 con Data Warehouse, è supportata solo la crittografia SSE-S3.
+      **NOTA:** quando si utilizza Amazon S3 con feed di dati, Data Warehouse e classificazioni, è supportata solo la crittografia SSE-S3.
 
       Per configurare un account Amazon S3 con ruolo ARN, specifica le seguenti informazioni:
 
