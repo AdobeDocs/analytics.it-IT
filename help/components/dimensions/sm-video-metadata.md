@@ -33,14 +33,14 @@ Per utilizzare queste dimensioni, abilita **[!UICONTROL Video Metadata]** in [[!
 Sono disponibili le seguenti dimensioni:
 
 * [!UICONTROL Ad loads]
-* [[!UICONTROL Day part]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/day-part)
-* [[!UICONTROL Episode]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/episode)
-* [[!UICONTROL Media feed type]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/media-feed-type)
-* [[!UICONTROL Genre]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/genre)
-* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/mvpd)
-* [[!UICONTROL Network]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/network)
-* [[!UICONTROL Season]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/season)
-* [[!UICONTROL Show]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show)
-* [[!UICONTROL Show type]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/show-type)
+* [[!UICONTROL Day part]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/day-part)
+* [[!UICONTROL Episode]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/episode)
+* [[!UICONTROL Media feed type]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/media-feed-type)
+* [[!UICONTROL Genre]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/genre)
+* [[!UICONTROL MVPD]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/mvpd)
+* [[!UICONTROL Network]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/network)
+* [[!UICONTROL Season]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/season)
+* [[!UICONTROL Show]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/show)
+* [[!UICONTROL Show type]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/show-type)
 
 Per le metriche corrispondenti, vedere [Metriche metadati video di Streaming Media Services](../metrics/sm-video-metadata.md).

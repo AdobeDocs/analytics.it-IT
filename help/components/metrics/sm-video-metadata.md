@@ -32,6 +32,6 @@ Per utilizzare queste metriche, abilitare **[!UICONTROL Video Metadata]** in [[!
 
 È disponibile la seguente metrica:
 
-* [[!UICONTROL Authorized]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/authorized)
+* [[!UICONTROL Authorized]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/authorized)
 
 Vedere [Dimensioni metadati video di Streaming Media Services](../dimensions/sm-video-metadata.md) per le dimensioni corrispondenti.
