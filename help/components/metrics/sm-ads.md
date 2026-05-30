@@ -32,9 +32,9 @@ Per utilizzare queste metriche, abilitare **[!UICONTROL Media Ads]** in [[!UICON
 
 Sono disponibili le seguenti metriche:
 
-* [[!UICONTROL Ad completes]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-completes)
-* [[!UICONTROL Ad starts]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-starts)
-* [[!UICONTROL Ad time spent]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/ad-time-spent)
-* [[!UICONTROL Media time spent]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/media-time-spent)
+* [[!UICONTROL Ad completes]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/ad-completes)
+* [[!UICONTROL Ad starts]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/ad-starts)
+* [[!UICONTROL Ad time spent]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/ad-time-spent)
+* [[!UICONTROL Media time spent]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/media-time-spent)
 
 Per le dimensioni corrispondenti, vedere [Dimensioni annuncio servizi multimediali in streaming](../dimensions/sm-ads.md).

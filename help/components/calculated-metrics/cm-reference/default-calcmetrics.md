@@ -36,7 +36,7 @@ Di seguito è riportato un elenco di ogni metrica calcolata fornita da Adobe, co
 >
 >Puoi:
 >
-> * Aggiungere le metriche calcolate predefinite per i servizi multimediali in streaming, come descritto in [Metriche calcolate](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/calculated-metrics)
+> * Aggiungere le metriche calcolate predefinite per i servizi multimediali in streaming, come descritto in [Metriche calcolate](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/calculated-metrics)
 > * Creare metriche calcolate personalizzate da metriche esistenti, come descritto in [Metriche calcolate e metriche calcolate avanzate](/help/components/calculated-metrics/cm-overview.md).
 >
 
