@@ -21,7 +21,7 @@ topic_v2:
 source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1349
-ht-degree: 30%
+ht-degree: 32%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="Pubblicazione aziendale CX"
->abstract="Puoi pubblicare il pubblico nella Libreria tipi di pubblico, in cui il pubblico può essere utilizzato per attività di marketing in Target e in altre soluzioni CX Enterprise."
+>title="Pubblicazione per CX Enterprise"
+>abstract="Se viene pubblicato nella Libreria pubblico, sarà possibile utilizzare il pubblico per attività di marketing in Target e altre soluzioni CX Enterprise."
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audiencelibrary"
