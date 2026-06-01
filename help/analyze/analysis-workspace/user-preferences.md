@@ -6,31 +6,15 @@ role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 autotag-review: '2026-05-22T09:22:51.975Z'
 TQID: 'https://experienceleague.adobe.com/AuXKVYYgnGJ11GtZVv5hO2CIJwiyuRrvv2tv10kFyvM'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c67272a6-888e-425e-9e97-a87304637eed
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c67272a6-888e-425e-9e97-a87304637eedid: dcae653e-62c6-4cc8-84e6-ee110b848296id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
 source-wordcount: 3441
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -41,7 +25,7 @@ Puoi gestire le impostazioni di Analysis Workspace e dei relativi componenti per
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire le preferenze](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Gestire le preferenze](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/customizing-the-ui/user-preferences){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -77,7 +61,7 @@ Puoi personalizzare le preferenze generali per tutti i nuovi progetti creati in 
 
 >[!CONTEXTUALHELP]
 >id="workspace_prefs_requireexperiencecloudauth"
->title="Richiedi autenticazione CX Enterprise"
+>title="Autenticazione CX Enterprise necessaria"
 >abstract="Se questa opzione è abilitata, gli utenti a cui viene concesso l&#39;accesso a un progetto dall&#39;opzione **[!UICONTROL Share with anyone]** in Analysis Workspace devono eseguire l&#39;autenticazione utilizzando le credenziali CX Enterprise."
 
 >[!CONTEXTUALHELP]
@@ -94,7 +78,7 @@ Puoi aggiornare le preferenze aziendali che si applicano a tutti gli utenti e ai
 |  | Nascondi scheda Modelli | Nasconde la scheda Modelli per tutti gli utenti dell’organizzazione. |
 | **Condivisione dei progetti** | | |
 | | Consenti la condivisione solo con gli utenti di Workspace | Quando questa opzione è abilitata, gli utenti dell’organizzazione non possono visualizzare l’opzione **[!UICONTROL Share with anyone]** nel menu **[!UICONTROL Share]**. Gli utenti non possono condividere i progetti con utenti che non dispongono di un account Analysis Workspace nell&#39;organizzazione come descritto in [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).<br/>Questa opzione è disabilitata per impostazione predefinita per tutte le organizzazioni, ad eccezione dei clienti con licenza Healthcare Shield. <p>Quando abiliti o disabiliti questa opzione, prendi in considerazione quanto segue:<ul><li>Quando abiliti questa opzione, gli utenti che in precedenza avevano ricevuto l’accesso a un progetto tramite l’opzione di condivisione **[!UICONTROL Share with anyone]** non possono più accedere al progetto.</li><li>Se questa opzione è abilitata (per consentire la condivisione solo con gli utenti di Workspace) e viene successivamente disabilitata (per consentire la condivisione con chiunque), le persone che in precedenza hanno ricevuto l’accesso a un progetto tramite l’opzione di condivisione **[!UICONTROL Share with anyone]** non riottengono automaticamente l’accesso al progetto. In questo caso, l&#39;utente che ha condiviso il progetto deve abilitare l&#39;opzione [!UICONTROL **Il collegamento è attivo**] disponibile quando condivide un progetto con qualcuno **([!UICONTROL Share]** > **[!UICONTROL Share with anyone]**), come descritto in [Condividere un progetto con qualcuno (non è richiesto l&#39;accesso)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>**Per chi dispone di una licenza Healthcare Shield:** questa opzione è abilitata per impostazione predefinita e non può essere disabilitata. Prima di poter disabilitare questa opzione in modo che gli utenti possano utilizzare l’opzione di condivisione **[!UICONTROL Share with anyone]**, devi aggiungere l’autorizzazione [!UICONTROL Share project links with anyone] (che si trova in [!UICONTROL Reporting Tools]) in Adobe Admin Console. Dopo aver aggiunto l’autorizzazione, puoi disabilitare questa opzione, quindi accettarne l’avviso legale. Per informazioni su come aggiungere un’autorizzazione in Admin Console, consulta [Gestione delle autorizzazioni del prodotto in Admin Console](https://helpx.adobe.com/it/enterprise/using/manage-permissions-and-roles.html).</li></ul> |
-| | Richiedi autenticazione CX Enterprise | Quando questa opzione è abilitata, gli utenti a cui viene concesso l&#39;accesso a un progetto dall&#39;opzione **[!UICONTROL Share with anyone]** in Analysis Workspace devono eseguire l&#39;autenticazione utilizzando le credenziali CX Enterprise.<p>Quando questa opzione è abilitata, ogni volta che un utente condivide un progetto utilizzando l’opzione di condivisione **[!UICONTROL Share with anyone]**, l’opzione **[!UICONTROL Require CX Enterprise authentication]** è abilitata nella finestra di dialogo di condivisione e non può essere disabilitata dall’utente che condivide il progetto. Per informazioni su come gli utenti possono condividere i progetti con altri utenti, consulta [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link). <p> <p>Quando abiliti questa opzione, prendi in considerazione quanto segue: <ul><li>Quando abiliti questa opzione, tutti i progetti precedentemente condivisi con l’opzione di condivisione **[!UICONTROL Share with anyone]** e per i quali non è abilitata l’opzione [!UICONTROL Require CX Enterprise authentication] vengono disattivati.<p>Se questa opzione è abilitata (per richiedere l&#39;autenticazione di CX Enterprise) e successivamente disabilitata (per consentire a chiunque disponga del collegamento di accedere al progetto), gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione **[!UICONTROL Share with anyone]** non recuperano automaticamente l&#39;accesso al progetto. In questo caso, l&#39;utente che ha condiviso il progetto deve abilitare l&#39;opzione [!UICONTROL Link is active] disponibile quando condivide un progetto con qualcuno **([!UICONTROL Share]** > **[!UICONTROL Share with anyone]** > **[!UICONTROL Link is active]**), come descritto in [Condividere un progetto con qualcuno (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>Questa opzione è disponibile solo se SSO è implementato nell’organizzazione. Per informazioni su come gli amministratori di sistema possono abilitare SSO per l’organizzazione, consulta [Configurare identità e Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html).</p><p>Se SSO è configurato per l’organizzazione, verifica se nella console è implementato qualsiasi tipo di creazione automatica dell’account. In genere, questa configurazione viene configurata da un amministratore di sistema, come descritto in [Abilitare la creazione automatica dell’account](https://helpx.adobe.com/it/enterprise/using/automatic-account-creation.html).</li><li>Se l’organizzazione dispone della licenza Healthcare Shield, questa opzione è abilitata per impostazione predefinita e non può essere disabilitata.</li></ul> |
+| | Autenticazione CX Enterprise necessaria | Quando questa opzione è abilitata, gli utenti a cui viene concesso l&#39;accesso a un progetto dall&#39;opzione **[!UICONTROL Share with anyone]** in Analysis Workspace devono eseguire l&#39;autenticazione utilizzando le credenziali CX Enterprise.<p>Quando questa opzione è abilitata, ogni volta che un utente condivide un progetto utilizzando l’opzione di condivisione **[!UICONTROL Share with anyone]**, l’opzione **[!UICONTROL Require CX Enterprise authentication]** è abilitata nella finestra di dialogo di condivisione e non può essere disabilitata dall’utente che condivide il progetto. Per informazioni su come gli utenti possono condividere i progetti con altri utenti, consulta [Condividere un progetto con altri utenti (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link). <p> <p>Quando abiliti questa opzione, prendi in considerazione quanto segue: <ul><li>Quando abiliti questa opzione, tutti i progetti precedentemente condivisi con l’opzione di condivisione **[!UICONTROL Share with anyone]** e per i quali non è abilitata l’opzione [!UICONTROL Require CX Enterprise authentication] vengono disattivati.<p>Se questa opzione è abilitata (per richiedere l&#39;autenticazione di CX Enterprise) e successivamente disabilitata (per consentire a chiunque disponga del collegamento di accedere al progetto), gli utenti che in precedenza hanno ricevuto l&#39;accesso a un progetto tramite l&#39;opzione di condivisione **[!UICONTROL Share with anyone]** non recuperano automaticamente l&#39;accesso al progetto. In questo caso, l&#39;utente che ha condiviso il progetto deve abilitare l&#39;opzione [!UICONTROL Link is active] disponibile quando condivide un progetto con qualcuno **([!UICONTROL Share]** > **[!UICONTROL Share with anyone]** > **[!UICONTROL Link is active]**), come descritto in [Condividere un progetto con qualcuno (accesso non richiesto)](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link).</li><li>Questa opzione è disponibile solo se SSO è implementato nell’organizzazione. Per informazioni su come gli amministratori di sistema possono abilitare SSO per l’organizzazione, consulta [Configurare identità e Single Sign-On](https://helpx.adobe.com/it/enterprise/using/set-up-identity.html).</p><p>Se SSO è configurato per l’organizzazione, verifica se nella console è implementato qualsiasi tipo di creazione automatica dell’account. In genere, questa configurazione viene configurata da un amministratore di sistema, come descritto in [Abilitare la creazione automatica dell’account](https://helpx.adobe.com/it/enterprise/using/automatic-account-creation.html).</li><li>Se l’organizzazione dispone della licenza Healthcare Shield, questa opzione è abilitata per impostazione predefinita e non può essere disabilitata.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -124,14 +108,14 @@ Fai clic sui titoli delle preferenze collegati per ulteriori informazioni e cont
 <!--
 >[!IMPORTANT]
 >
->You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/it/docs/core-services/interface/features/browser-language) for the logged in user.
+>You can no longer define the number format in the **[!UICONTROL Project & Analyses]** > **[!UICONTROL Data]** section of **[!UICONTROL User preferences]**. The number format is automatically determined by the [default language that is configured](https://experienceleague.adobe.com/en/docs/core-services/interface/features/browser-language) for the logged in user.
 >
 -->
 
 | Sezione | Preferenza | Opzioni |
 | --- | --- | --- |
 | **Visualizzazione** | | |
-|  | [Densità di visualizzazione](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Scegli il contenuto da visualizzare sullo schermo riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle coorte. <ul><li>Compatta</li><li>Comodo</li><li>Espansa (impostazione predefinita)</li></ul> |
+|  | [Densità di visualizzazione](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | Scegli il contenuto da visualizzare sullo schermo riducendo la spaziatura verticale della barra a sinistra, tabelle a forma libera e tabelle coorte. <ul><li>Compatta</li><li>Comoda</li><li>Espansa (impostazione predefinita)</li></ul> |
 | | [Tavolozza dei colori](/help/analyze/analysis-workspace/build-workspace-project/color-palettes.md) | Scegli le palette di colori di visualizzazione utilizzate in Analysis Workspace.<ul><li>**Palette per categorie**: applicata a molte visualizzazioni in Analysis Workspace. Ogni colore rappresenta un valore di categoria distinto. Scegli tra le opzioni fornite da Adobe o immetti una palette personalizzata definita da valori esadecimali delimitati da virgole.</li><li>**Palette divergente**: applicata alla tabella coorte in Analysis Workspace. Questa palette contiene un significato numerico con due estremi e una linea di base al centro.</li><li>**Palette sequenziale**: applicata all’analisi guidata delle tendenze di frequenza (barre sovrapposte). Questa palette contiene un significato numerico che va dal chiaro allo scuro.</li></ul> |
 | **Dati** | | |
 |  | [Suite di rapporti](/help/analyze/analysis-workspace/c-panels/panels.md) | Scegli da dove le tabelle e le visualizzazioni derivano i propri dati. <ul><li>Più recente (impostazione predefinita)</li><li>Suite di rapporti specifica selezionata da un elenco</li></ul> |
@@ -139,7 +123,7 @@ Fai clic sui titoli delle preferenze collegati per ulteriori informazioni e cont
 |  | [Tipo di pannello](/help/analyze/analysis-workspace/c-panels/panels.md) | <ul><li>A forma libera (impostazione predefinita)</li><li>Vuoto</li><li>Insight rapidi</li></ul> |
 |  | Formato numeri | <ul><li>1.000,00 (impostazione predefinita)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | Conta istanze ripetute | Specifica se le istanze ripetute vengono conteggiate o meno nei rapporti. Ad esempio, questa impostazione (se attivata) tratta più visualizzazioni consecutive della stessa pagina come molteplici visualizzazioni di pagina. Con questa opzione, vengono conteggiate come singole visualizzazioni di pagina. <p>**Nota:** questa impostazione ha effetto solo su determinate metriche (ad esempio Visite per pagina singola) e non sulle visualizzazioni Flusso o Fallout.</p> |
-|  | Carattere separatore CSV | <ul><li>Virgola (impostazione predefinita)</li><li>Punto e virgola</li><li>Due punti</li><li>Barra verticale</li><li>Periodo</li><li>Spazio</li><li>Scheda</li></ul> |
+|  | Carattere separatore CSV | <ul><li>Virgola (impostazione predefinita)</li><li>Punto e virgola</li><li>Due punti</li><li>Barra verticale</li><li>Punto</li><li>Spazio</li><li>Scheda</li></ul> |
 |  | Mostra annotazioni | Scegli se rendere visibili le annotazioni nei progetti. Per ulteriori informazioni sulle annotazioni, consulta la sezione [Panoramica delle annotazioni](/help/analyze/analysis-workspace/components/annotations/overview.md). |
 
 ## Preferenze delle tabelle a forma libera {#freeform-table-preferences}
@@ -232,7 +216,7 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 | | Mostra asse Y | Visualizza l’asse y sul grafico combinato. |
 | | Visualizza i manubri sulle linee | Mostra i manubri sulle linee nei grafici combinati. |
 | **[Riepilogo delle metriche chiave](/help/analyze/analysis-workspace/visualizations/key-metric.md)** | | |
-| | Tipo di visualizzazione sintetico | <ul><li>Evidenzia variazione percentuale</li><li>Enfatizza il valore numerico</li></ul> |
+| | Tipo di visualizzazione sintetico | <ul><li>Enfatizza la variazione percentuale</li><li>Enfatizza il valore numerico</li></ul> |
 | | Mostra sparkline | Mostra o nascondi i grafici a linee nella parte inferiore del grafico. Quando è nascosta, la legenda non fa più riferimento visivamente alle linee. |
 | | Mostra max e min su sparkline | Mostra i valori minimi e massimi nei grafici a linee principali e a linee di confronto. |
 | | Mostra confronto | Mostra i dati di confronto. Quando sono nascosti, non vengono visualizzati gli oggetti Grafico a linee di confronto e Variazione di riepilogo. |

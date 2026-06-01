@@ -6,26 +6,14 @@ feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
 TQID: https://experienceleague.adobe.com/-Vesl-gD6YZerr2Ls-4ik-9WCxzg2w-aCr4jTpiPB5M
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 1974
+source-wordcount: 1961
 ht-degree: 88%
 
 ---
@@ -59,7 +47,7 @@ Qualsiasi [cura](curate.md) applichi prima della condivisione, viene visualizzat
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi progetti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi progetti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/saving-sharing-and-collaborating-on-projects-in-analysis-workspace){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -100,8 +88,8 @@ Per condividere un ruolo di progetto specifico con utenti o gruppi dell’organi
 
    Oppure
 
-   Per condividere solo un singolo progetto, puoi aprire il progetto da condividere e poi selezionare **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
-In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il progetto.
+   Per condividere solo un singolo progetto, puoi aprire il progetto che desideri condividere, quindi selezionare **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
+Se sono presenti modifiche non salvate, viene richiesto di salvare prima il progetto.
 
    Viene visualizzata la finestra di dialogo Condividi progetto. Le sezioni [!UICONTROL **Condividi tramite collegamento**] e [!UICONTROL **Impostazioni**] della finestra di dialogo sono visibili solo quando si condivide un singolo progetto.
 
@@ -149,8 +137,8 @@ Per condividere il collegamento del progetto con gli utenti dell’organizzazion
 
 >[!CONTEXTUALHELP]
 >id="workspace_share_with_anyone_require_aec_authentication"
->title="Richiedi autenticazione CX Enterprise"
->abstract="Per utilizzare questo collegamento, la tua organizzazione richiede agli utenti di accedere a CX Enterprise."
+>title="Autenticazione CX Enterprise necessaria"
+>abstract="La tua organizzazione richiede che, per utilizzare questo collegamento, gli utenti eseguano l’accesso a CX Enterprise."
 
 Puoi consentire l’[accesso di sola lettura](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) ai progetti di Analysis Workspace a coloro che non hanno accesso ad Adobe Analytics. Questo può includere:
 
@@ -175,7 +163,7 @@ Puoi consentire l’[accesso di sola lettura](/help/analyze/analysis-workspace/c
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi un collegamento con qualcuno](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"} per vedere un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi un collegamento con qualcuno](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/share-with-anyone-in-analysis-workspace){target="_blank"} per vedere un video demo.
 
 >[!ENDSHADEBOX]
 
@@ -230,7 +218,7 @@ Puoi condividere i componenti incorporati che fanno parte del progetto.
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi componenti incorporati](https://video.tv.adobe.com/v/329425?captions=ita&quality=12&learn=on){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Condividi componenti incorporati](https://video.tv.adobe.com/v/24713?quality=12&learn=on){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 

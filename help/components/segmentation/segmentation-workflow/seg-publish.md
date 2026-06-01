@@ -4,24 +4,15 @@ title: Pubblicare segmenti
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 TQID: https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
 workflow-type: tm+mt
 source-wordcount: 1349
-ht-degree: 30%
+ht-degree: 32%
 
 ---
 
@@ -29,8 +20,8 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="components_segments_publishing"
->title="Pubblicazione aziendale CX"
->abstract="Puoi pubblicare il pubblico nella Libreria tipi di pubblico, in cui il pubblico può essere utilizzato per attività di marketing in Target e in altre soluzioni CX Enterprise."
+>title="Pubblicazione per CX Enterprise"
+>abstract="Se viene pubblicato nella Libreria pubblico, sarà possibile utilizzare il pubblico per attività di marketing in Target e altre soluzioni CX Enterprise."
 
 >[!CONTEXTUALHELP]
 >id="components_segments_audiencelibrary"
@@ -45,7 +36,7 @@ Puoi pubblicare i segmenti di Analytics in CX Enterprise in meno di 8 ore. Utili
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/experience-cloud/improved-experience-cloud-audience-publishing){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -142,14 +133,14 @@ Le schermate seguenti mostrano come recuperare l’UUID di Adobe Audience Manage
 
 1. Avvia gli strumenti per sviluppatori di Chrome prima di caricare una pagina
 1. Carica la pagina e seleziona Applicazioni > Cookie. L’UUID di Adobe Audience Manager deve essere impostato nel componente di terze parti
-Cookie demdex ([adobe.demdex.net](https://experienceleague.adobe.com/it/docs/audience-manager/user-guide/reference/demdex-calls) nell&#39;esempio seguente). Il campo demdex è l’UUID di Adobe Audience Manager impostato
+Cookie demdex ([adobe.demdex.net](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/reference/demdex-calls) nell&#39;esempio seguente). Il campo demdex è l’UUID di Adobe Audience Manager impostato
 nel browser (`35721780439475290181087231320657663953` nell&#39;esempio seguente).
 
    ![Strumenti per gli sviluppatori di Chrome](assets/devtools.png)
 
 ## Utilizza il [!UICONTROL Visitor Profile Viewer] di Audience Manager
 
-L&#39;UUID di Adobe Audience Manager nel browser è per impostazione predefinita quando viene caricato [!UICONTROL Visitor Profile Viewer]. Se verifichi le realizzazioni delle caratteristiche per altri utenti, inserisci un UUID nel campo UUID e fai clic su [!UICONTROL Refresh]. Per ulteriori informazioni, consulta il [Visualizzatore del profilo del visitatore](https://experienceleague.adobe.com/it/docs/audience-manager/user-guide/features/visitor-profile-viewer).
+L&#39;UUID di Adobe Audience Manager nel browser è per impostazione predefinita quando viene caricato [!UICONTROL Visitor Profile Viewer]. Se verifichi le realizzazioni delle caratteristiche per altri utenti, inserisci un UUID nel campo UUID e fai clic su [!UICONTROL Refresh]. Per ulteriori informazioni, consulta il [Visualizzatore del profilo del visitatore](https://experienceleague.adobe.com/en/docs/audience-manager/user-guide/features/visitor-profile-viewer).
 
 ## Visualizzare le caratteristiche del segmento in Audience Manager
 
