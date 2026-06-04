@@ -17,9 +17,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 1be0f3577403db7cf9bd40ef9e7c4bfcfa6c0b17
+source-git-commit: dff998aaa4a262883badaec17d2e6281dc856252
 workflow-type: tm+mt
-source-wordcount: 169
+source-wordcount: 181
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Per utilizzare queste dimensioni, abilita **[!UICONTROL Video Metadata]** in [[!
 
 Sono disponibili le seguenti dimensioni:
 
-* [!UICONTROL Ad loads]
+* [[!UICONTROL Ad loads]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/ad-load-type)
 * [[!UICONTROL Day part]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/day-part)
 * [[!UICONTROL Episode]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/episode)
 * [[!UICONTROL Media feed type]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/media-feed-type)
