@@ -3,7 +3,7 @@ description: Scopri come utilizzare la visualizzazione Area di lavoro Percorsi i
 title: Risoluzione dei problemi dell’area di lavoro del percorso
 feature: Visualizations
 role: User, Admin
-source-git-commit: 0cc9ef6fda26aca07c7cae5496b2ba53fcbbb316
+source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 82%
@@ -14,11 +14,9 @@ ht-degree: 82%
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Vedere [Panoramica dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting) per la versione _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;di questo articolo._
+_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Vedere [Panoramica dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas-troubleshooting) per la versione _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**di questo articolo._
 
 >[!ENDSHADEBOX]
-
-{{release-limited-testing}}
 
 La visualizzazione dell’area di lavoro del percorso consente di analizzare e ottenere informazioni approfondite sui percorsi forniti agli utenti e alla clientela.
 
