@@ -31,10 +31,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
 workflow-type: tm+mt
 source-wordcount: 7258
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -355,7 +355,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 27 febbraio 2020 | È stata aggiunta la documentazione per [Adobe Analytics Labs](/help/analyze/labs.md). |
 | 25 febbraio 2020 | È stata aggiunta la variabile [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md). |
 | 20 febbraio 2020 | Nuovo modello di Workspace per le organizzazioni che utilizzano Cross-Device Analytics. Questo modello mostra l’efficacia di CDA nel raggruppare le visite e fornisce informazioni sulle dimensioni e sulle metriche esclusive di CDA. È necessaria una suite di report che utilizza CDA. Per ulteriori informazioni, consulta [Impostare Cross-Device Analytics](/help/components/cda/setup.md). |
-| 20 febbraio 2020 | Nuovi tasti di scelta rapida in Workspace:<ul><li>Collapse/Expand All panels (Comprimi/espandi tutti i pannelli): `alt + m`</li><li>Collapse/Expand Active panel (Comprimi/espandi pannello attivo): `alt + ctrl + m`</li><li>Search left rail (Barra sinistra di ricerca): `ctrl + /`</li><li>Move to next panel (Passa al pannello successivo): `alt + Right Key`</li><li>Passa al pannello precedente: `alt + Left Key`</li></ul>[Ulteriori informazioni...](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) |
+| 20 febbraio 2020 | Nuovi tasti di scelta rapida in Workspace:<ul><li>Comprimi/espandi tutti i pannelli: `alt + m`</li><li>Comprimi/espandi il pannello attivo: `alt + ctrl + m`</li><li>Barra di ricerca a sinistra: `ctrl + /`</li><li>Passa al pannello successivo: `alt + Right Key`</li><li>Passa al pannello precedente: `alt + Left Key`</li></ul>[Ulteriori informazioni...](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) |
 | 20 febbraio 2020 | Miglioramenti in Workspace: <ul><li>Quando un pannello o una visualizzazione vengono rilasciati in Workspace, la barra sinistra ora passa ai componenti in modo automatico garantendo un workflow più agevole.</li><li>È ora possibile compiere delle azioni sui componenti del modello (ad esempio taggarli, aggiungerli ai preferiti, approvarli).</li><li>Le liste filtrate di metriche e segmenti offrono il pulsante + per aggiungere un nuovo componente in caso non si trovi quello desiderato.</li></ul> |
 | 20 febbraio 2020 | Il debugger di Workspace aggiunto al menu Aiuto consente di eseguire il debug delle richieste di Workspace in modo più semplice. [Ulteriori informazioni...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 18 febbraio 2020 | È stata aggiunta la variabile [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md). |
@@ -398,7 +398,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | 18 luglio 2019 | Nella barra a sinistra di Workspace, gli utenti ora possono _visualizzare gli elementi degli ultimi 18 mesi_. In precedenza, il periodo di lookback era limitato a 6 mesi. Questo semplifica il confronto con pagine o campagne dell’anno prima, fino a 18 mesi fa. |
 | 18 luglio 2019 | Nella documentazione di Analysis Workspace è stata aggiunta una sezione sul nuovo modello Workspace denominato [Magento: Marketing &amp; Commerce](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md). È progettato appositamente per i clienti e-commerce di Magento, ma può essere usato da chiunque desideri ottenere informazioni specifiche sulle proprie attività di e-commerce. |
 | 13 giugno 2019 | Alla barra di ricerca di sinistra di Workspace sono stati aggiunti alcuni nuovi filtri pronti all’uso. Oltre a quelli già disponibili (Dimensioni, Metriche, Approvato, ecc.), sono stati aggiunti nuovi filtri come Metriche calcolate, Attributi del cliente, eVar, Prop, Video e così via per facilitare la ricerca dei componenti necessari. |
-| 4 giugno 2019 | Nuova guida su come [passare da una piattaforma di analisi di terze parti ad Adobe Analytics](/help/technotes/ga-to-aa/home.md). |
+| 4 giugno 2019 | Nuova guida su come passare da una piattaforma di analisi di terze parti ad Adobe Analytics. |
 | 30 maggio 2019 | Revisione della [sezione sulla colonna Data Feed](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | 09 maggio 2019 | Una nuova impostazione è stata aggiunta alle impostazioni di visualizzazione del Flusso: Includi istanze ripetute. Consulta [Impostazioni di Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md). |
 | 11 aprile 2019 | Sono state migliorate le best practice di ottimizzazione per Workspace: Ottimizzazione delle prestazioni |

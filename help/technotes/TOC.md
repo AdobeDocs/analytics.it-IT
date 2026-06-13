@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Note tecniche di Analytics
 breadcrumb-title: Note tecniche
 user-guide-description: Sfoglia una knowledge base contenente articoli utili che non sono specifici per un particolare strumento o componente di Analytics.
-source-git-commit: 5c833515a2772253bcd85e244a90dd283ca856b3
-workflow-type: ht
-source-wordcount: '221'
+source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+workflow-type: tm+mt
+source-wordcount: '162'
 ht-degree: 100%
 
 ---
@@ -16,21 +16,6 @@ ht-degree: 100%
 
 + [Note tecniche di Analytics](home.md)
 + [Note sulla versione di Analytics](https://experienceleague.adobe.com/it/docs/analytics/release-notes/latest)
-+ Adobe Analytics per utenti Google Analytics {#ga-to-aa}
-   + [Guida di Adobe Analytics per utenti Google Analytics](ga-to-aa/home.md)
-   + [Account e suite di rapporti](ga-to-aa/accounts.md)
-   + [Personalizzare le visualizzazioni di reporting](ga-to-aa/customization.md)
-   + Rapporti Google Analytics {#reports}
-      + [Creare un rapporto di base in Analysis Workspace per gli utenti GA](ga-to-aa/reports/create-report.md)
-      + [Metriche comuni utilizzate su altre piattaforme di analisi](ga-to-aa/reports/common-metrics.md)
-      + [Tempo reale](ga-to-aa/reports/realtime-reports.md)
-      + [Pubblico](ga-to-aa/reports/audience-reports.md)
-      + [Acquisizione](ga-to-aa/reports/acquisition-reports.md)
-      + [Comportamento](ga-to-aa/reports/behavior-reports.md)
-      + [Conversioni](ga-to-aa/reports/conversions-reports.md)
-   + [Domande frequenti](ga-to-aa/faq.md)
-   + [Differenze di elaborazione tra piattaforme](ga-to-aa/processing-differences.md)
-   + [Confrontare i dati con prodotti di terze parti](ga-to-aa/compare-data.md)
 + [Analizzare il traffico IA](/help/technotes/ai-traffic.md)
 + Analizzare i dati interessati dagli eventi {#event}
    + [Panoramica dell’analisi dei dati interessati dagli eventi](event/overview.md)
