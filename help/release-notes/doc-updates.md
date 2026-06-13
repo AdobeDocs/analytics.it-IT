@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 54e6a55fda58836931db61dfff6338fc09aace54
+source-git-commit: 2259c299e1d12c9c7d77d05fad687d20686961b9
 workflow-type: tm+mt
-source-wordcount: 7258
+source-wordcount: 7307
 ht-degree: 85%
 
 ---
@@ -51,6 +51,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Giugno 2026** | |
+| La guida da GA ad AA è stata sostituita | La guida da GA a AA fa riferimento a Universal Analytics, che è stato ritirato nel 2023. È stata sostituita da una nuova guida, [Transizione da Google Analytics 4 a Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/ga-to-cja/home). |
 | **Maggio 2026** | |
 | Dimensioni e metriche di Streaming Media | Aggiornamenti significativi alla documentazione di Streaming Media. I collegamenti agli esempi includono [dimensioni principali dei servizi multimediali in streaming](/help/components/dimensions/sm-core.md) e [metriche principali dei servizi multimediali in streaming](/help/components/metrics/sm-core.md). |
 | **Marzo 2026** | |
