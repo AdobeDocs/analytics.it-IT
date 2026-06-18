@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 925
 ht-degree: 94%
@@ -65,7 +65,7 @@ Per accedere al pannello Componenti, seleziona ![Cura](/help/assets/icons/Curate
 Consulta [Creare un progetto](/help/analyze/analysis-workspace/home.md) per informazioni su come utilizzare i componenti all’interno di un progetto.
 
 
-## Gestire i componenti {#actions}
+## Gestire i componenti
 
 È possibile creare rapidamente un nuovo componente utilizzando il menu **[!UICONTROL Components]** in Analysis Workspace. Per ulteriori dettagli, consulta il [menu Analysis Workspace](/help/analyze/analysis-workspace/home.md#menu).
 
@@ -197,7 +197,7 @@ Examples of date ranges include July 2019, [!UICONTROL Last 4 weeks], and [!UICO
 ![](assets/date-ranges.png)
 
 
-## Manage components {#actions}
+## Manage components
 
 You can manage components directly in the left rail. 
 

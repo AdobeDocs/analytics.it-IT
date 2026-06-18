@@ -16,14 +16,14 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 1762
 ht-degree: 43%
 
 ---
 
-# Generare i segmenti {#build-segments}
+# Generare i segmenti
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
@@ -282,7 +282,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Save]** or **[!UICONTROL Cancel]**: Saves or cancels the segment. After clicking **[!UICONTROL Save]**, you are taken to the Segment manager where you can manage the segment.
 
 
-## Build segments {#build-segments}
+## Build segments
 
 1. Simply drag a Dimension, Segment, or Metric Event from the left pane to the [!UICONTROL Definitions] field.
 
