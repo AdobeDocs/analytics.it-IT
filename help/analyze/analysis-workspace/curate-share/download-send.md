@@ -5,21 +5,11 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
 TQID: https://experienceleague.adobe.com/J8dtgju7PdHVywseS7KVuCfboHN3lj08sClKiEB7Wvk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
 source-wordcount: 1096
 ht-degree: 26%
@@ -35,7 +25,7 @@ Puoi scaricare i progetti e i dati di Analysis Workspace sul tuo dispositivo loc
 
 Ulteriori metodi per esportare i dati di Adobe Analytics sono descritti nella [Guida all&#39;esportazione](/help/export/home.md).
 
-## Scaricare un progetto come file PDF o CSV {#download-project}
+## Scaricare un progetto come file PDF o CSV
 
 ![Menu a discesa Progetto con le opzioni Scarica CSV e Scarica PDF evidenziate.](assets/download-project.png)
 
@@ -70,7 +60,7 @@ Per scaricare un progetto come file PDF:
 
    Il nome file è composto da *nome progetto* - *nome suite di rapporti* - *data*. Ad esempio: `Example Project - Omni-Channel - Luma - Jun 30, 2025.csv`.
 
-## Copiare i dati di una visualizzazione negli Appunti {#copy-data}
+## Copiare i dati di una visualizzazione negli Appunti
 
 L&#39;opzione **[!UICONTROL Copy to clipboard]** del menu di scelta rapida consente di copiare rapidamente i dati da Analysis Workspace e incollarli in uno strumento di terze parti.
 
@@ -82,9 +72,9 @@ L&#39;opzione **[!UICONTROL Copy to clipboard]** del menu di scelta rapida conse
 >È possibile utilizzare il tasto di scelta rapida **_cmd + c_** (macOS) o **_ctrl + c_** (Windows) per copiare la selezione negli Appunti. Quindi utilizzare **_cmd + v_** (macOS) o **_ctrl + v_** (Windows) per incollare i dati.
 
 
-![Opzione Copia selezione negli Appunti. &#x200B;](assets/copy-clipboard.png){zoomable="yes"}
+![Opzione Copia selezione negli Appunti. ](assets/copy-clipboard.png){zoomable="yes"}
 
-## Scaricare i dati all’interno di una visualizzazione come file CSV {#download-data}
+## Scaricare i dati all’interno di una visualizzazione come file CSV
 
 Le opzioni Scarica come CSV del menu di scelta rapida consentono di scaricare come CSV una tabella di dati o l’origine dati di qualsiasi visualizzazione.
 
@@ -103,7 +93,7 @@ Only relevant as soon as CJA supports Map visualization
 
 ![Opzione Scarica dati come CSV.](assets/download-data-as-csv.png)
 
-## Scaricare elementi come file CSV {#download-items}
+## Scaricare elementi come file CSV
 
 Per analizzare più delle 400 righe di dati visibili in una tabella, seleziona **Scarica elementi come CSV (_Nome Dimension_)** dal menu di scelta rapida dell&#39;intestazione della tabella o di qualsiasi riga. Questa opzione consente di esportare fino a 50.000 elementi dimensionali (in base all’ordinamento della tabella) per la dimensione selezionata, con l’applicazione di opzioni di ordinamento e filtri. Se si seleziona questa opzione nella parte superiore della tabella, viene esportata la prima dimensione della tabella.
 
@@ -132,13 +122,13 @@ Al file scaricato vengono applicate le seguenti funzioni di una tabella a forma 
 
 Durante il download del file vengono visualizzate le notifiche seguenti:
 
-* È stato richiesto un **[!UICONTROL _nome tabella _blu -_Dimension _.csv._x _% completato]**&#x200B;che indica l&#39;avanzamento. Per annullare il download, selezionare **[!UICONTROL Cancel download]**. Selezionare ![CrossSize100](/help/assets/icons/CrossSize100.svg) se si desidera chiudere il messaggio senza annullare il download.
-* Una notifica di completamento verde **[!UICONTROL _Nome tabella _-_Dimension _.csv è stato scaricato]**&#x200B;una volta completato il download del file. Il file viene scaricato nella cartella dei download configurata per il browser.
+* È stato richiesto un **[!UICONTROL _nome tabella _blu -_Dimension _.csv._x _% completato]**che indica l&#39;avanzamento. Per annullare il download, selezionare **[!UICONTROL Cancel download]**. Selezionare ![CrossSize100](/help/assets/icons/CrossSize100.svg) se si desidera chiudere il messaggio senza annullare il download.
+* Una notifica di completamento verde **[!UICONTROL _Nome tabella _-_Dimension _.csv è stato scaricato]**una volta completato il download del file. Il file viene scaricato nella cartella dei download configurata per il browser.
 
 Se richiedi più di un download alla volta, ricevi una notifica che indica che ogni download aggiuntivo è in coda fino al completamento del download precedente.
 
 
-## Domande frequenti {#faq}
+## Domande frequenti
 
 | Domanda | Risposta |
 | --- | --- |
@@ -156,7 +146,7 @@ There are several ways to export data from Analysis Workspace. The method you ch
 
 Exported data can be in the form of copied data, CSV, or PDF. A PDF is typically preferred if you want visualizations included in the file. CSV and copied data is preferred if you simply want plain-text data.
 
-## Download a project as CSV or PDF {#download-project}
+## Download a project as CSV or PDF
 
 Consider the following when downloading projects:
 
@@ -185,7 +175,7 @@ To download a project as a CSV or PDF file:
 1. (Conditional) If you chose to download a PDF, a message is shown after the project is ready to be downloaded. Click [!UICONTROL **Download**].
 1. Click the **[!UICONTROL Download this file]** icon and save the file to a folder of your choice.
 
-## Copy data to clipboard (hotkey: cmd + c) {#copy-data}
+## Copy data to clipboard (hotkey: cmd + c)
 
 The right-click option **[!UICONTROL Copy to clipboard]** lets you quickly copy data from Workspace and paste it in a third-party tool. 
 
@@ -198,7 +188,7 @@ The right-click option **[!UICONTROL Copy to clipboard]** lets you quickly copy 
 
 ![](assets/copy-selection.png)
 
-## Download data as CSV {#download-data}
+## Download data as CSV
 
 The right-click option **[!UICONTROL Download data as CSV]** allows you to download a table of data or the data source of any visualization as a CSV.
 
@@ -212,7 +202,7 @@ The right-click option **[!UICONTROL Download data as CSV]** allows you to downl
 
 ![](assets/download-data-viz.png)
 
-## Download items as CSV {#download-items}
+## Download items as CSV
 
 If you want to analyze more than the visible 400 rows of data in a table, right-click the table header or any row and select **Download items as CSV (_Dimension name_)**. This option exports up to 50,000 dimension items (based on the table sort) for the selected dimension, with filters and segments applied. If you chose this option from the top of the table, the first dimension in the table will be exported. While no limits are enforced in the freeform table, it is recommended that the Download items option be used in tables with less than 20 columns to ensure optimal performance.
 
@@ -246,12 +236,12 @@ If you request more than one download at a time, you will receive a notification
 
 ![](assets/toast.png)
 
-## FAQ {#faq}
+## FAQ
 
 | Question | Answer |
 | --- | --- |
 | Why is my downloaded PDF one page? | Workspace does not paginate downloaded PDFs at this time. |
 | Can I export more than 50,000 items with the "Download items as CSV" option? | While each download can contain up to 50,000 dimension items, you can change the sort of your table to retrieve longer tail items, or apply a filter to download more specific items. |
-| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=it) |
+| What does **[!UICONTROL Copy visualization]** do? | Unlike [!UICONTROL **Copy data to clipboard**] or [!UICONTROL **Copy selection to clipboard**], the **[!UICONTROL Copy visualization]** right-click option is not an export option. It allows you to copy a visualization or panel from one place in Workspace to another. For example, from one panel to another in the same project, or from one project to another project. [Intra-linking video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
 -->
