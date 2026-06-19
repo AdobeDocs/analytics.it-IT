@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 393
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ I rilasci di Adobe Analytics funzionano secondo un modello di distribuzione cont
 
 * **Test limitati**: un rilascio graduale inizia con il test da parte di utenti Adobe interni. Viene quindi reso disponibile a un piccolo gruppo di account cliente per garantire che la funzione soddisfi le loro esigenze e aspettative.
 
-* **Inizio del rollout**: il rollout di un rilascio graduale inizia con la fase di test limitato. La versione viene quindi scalata dallo 0% al 100% di disponibilità ai clienti nel corso di un paio di mesi. Il rollout graduale avviene a livello dell&#39;organizzazione CX Enterprise, in modo che tutti gli utenti autorizzati all&#39;interno di un&#39;organizzazione ricevano la stessa esperienza.
+* **Inizio del rollout**: il rollout di un rilascio graduale inizia con la fase di test limitato. La versione viene quindi scalata dallo 0% al 100% di disponibilità ai clienti nel corso di un paio di mesi. Il rollout graduale avviene a livello di organizzazione CX Enterprise, in modo che tutti gli utenti autorizzati all’interno di un’organizzazione ricevano la stessa esperienza.
 
-* **Disponibilità generale (GA)**: la funzionalità è disponibile per il 100% delle organizzazioni CX Enterprise autorizzate e il rilascio è completo.
+* **Disponibilità generale (GA)**: la funzione è disponibile per il 100% delle organizzazioni CX Enterprise autorizzate e il rilascio è completo.
 
 Con ogni rilascio di funzioni, la timeline dall’inizio del rollout a GA può variare. L’obiettivo è mantenere i rilasci brevi, in modo che una funzione sia in GA entro 2 mesi dall’inizio del rollout.
 

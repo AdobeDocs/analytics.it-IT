@@ -25,9 +25,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1365
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -41,9 +41,9 @@ Queste note sulla versione coprono il periodo di rilascio di maggio 2026. Le ver
 
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ---- |
-| **Server MCP per Adobe Analytics** <br/>I server MCP (Model Context Protocol) di Analytics consentono di collegare un client MCP supportato ad Adobe Analytics. Una volta connesso, il client MCP può richiamare strumenti specifici per il prodotto per recuperare dati, eseguire query o eseguire operazioni supportate come parte di un flusso di lavoro LLM o agente. Per ulteriori informazioni, vedere [Server MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/).<p>Se hai utilizzato questi server MCP durante il periodo beta, tieni presente che esistono URL diversi tra gli endpoint beta e di produzione. Assicurati che tutti i flussi di lavoro agenti creati durante il periodo beta vengano aggiornati per utilizzare gli endpoint di produzione prima del 31 maggio.</p> | | 5 maggio 2026 |
-| **area di lavoro Percorsi in Adobe Analytics** <br/>area di lavoro Percorsi è una visualizzazione in Analysis Workspace che consente di ottenere informazioni approfondite su un percorso di utenti definito analizzando il modo in cui le persone procedono attraverso il percorso o ne escono. Consente di creare un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e segmenti inclusi nel percorso. I dati vengono aggiornati quando si trascinano i nodi nell’area di lavoro o si riorganizzano gli eventi e le condizioni del percorso.<p>In precedenza, l’area di lavoro percorso era disponibile solo per Customer Journey Analytics.</p><p>Per ulteriori informazioni sull&#39;area di lavoro Percorso in Adobe Analytics, vedere [Panoramica sull&#39;area di lavoro Percorso](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>Per informazioni su come creare una visualizzazione dell&#39;area di lavoro del Percorso in Adobe Analytics, consulta [Configurare l&#39;area di lavoro del Percorso](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | 18 maggio 2026 | 5 giugno 2026 |
-| **Guida alla generazione di rapporti API per i modelli di attribuzione** <br/>È disponibile una nuova Guida alla generazione di rapporti per i modelli di attribuzione API di Adobe Analytics 2.0. La guida illustra come includere i dati degli oggetti modello di attribuzione nei rapporti API di Dimension.<p>Per ulteriori informazioni, vedere [Modelli di attribuzione API Dimension](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel).</p> | | Maggio 2026 |
+| **Server MCP per Adobe Analytics** <br/>I server MCP (Model Context Protocol) di Analytics consentono di collegare un client MCP supportato a Adobe Analytics. Una volta connesso, il client MCP può richiamare strumenti specifici per il prodotto per recuperare dati, eseguire query o eseguire operazioni supportate come parte di un flusso di lavoro LLM o agentico. Per ulteriori informazioni, consulta [Server MCP di Analytics](https://developer.adobe.com/analytics-mcp/docs/).<p>Se hai utilizzato questi server MCP durante il periodo Beta, tieni presente che esistono URL diversi tra gli endpoint Beta e di produzione. Assicurati che tutti i flussi di lavoro agentici creati durante il periodo Beta vengano aggiornati per utilizzare gli endpoint di produzione prima del 31 maggio.</p> | | 5 maggio 2026 |
+| **Area di lavoro del percorso in Adobe Analytics** <br/>L’area di lavoro è una visualizzazione in Analysis Workspace che consente di approfondire insight su un percorso utente definito analizzando il modo in cui le persone proseguono o abbandonano il percorso. Consente di creare un grafico flessibile di nodi e frecce che rappresentano qualsiasi combinazione di eventi, elementi dimensionali e segmenti inclusi nel percorso. I dati vengono aggiornati in modo da trascinare i nodi nell’area di lavoro o riorganizzare gli eventi e le condizioni del percorso.<p>In precedenza, l’area di lavoro del percorso era disponibile solo per Customer Journey Analytics.</p><p>Per ulteriori informazioni sull’area di lavoro del percorso in Adobe Analytics, consulta la [Panoramica sull’area di lavoro del percorso](/help/analyze/analysis-workspace/visualizations/journey-canvas/journey-canvas.md). </p><p>Per informazioni su come creare una visualizzazione dell’area di lavoro del percorso in Adobe Analytics, consulta [Configurare l’area di di lavoro del percorso](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md).</p> | 18 maggio 2026 | 5 giugno 2026 |
+| **Guida alla generazione rapporti per i modelli di attribuzione per API** <br/>È disponibile una nuova guida alla generazione rapporti per i modelli di attribuzione per API 2.0 di Adobe Analytics. La guida illustra come includere i dati dell’oggetto del modello di attribuzione nei rapporti Dimension API.<p>Per ulteriori informazioni, consulta [Modelli di attribuzione per Dimension](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/attmodel).</p> | | Maggio 2026 |
 | **Servizi multimediali in streaming: supporto dei dati di pianificazione** <br/>Ora puoi caricare dati di pianificazione di precedenti contenuti live multimediali in streaming per monitorare l’audience con maggiore facilità e precisione.<p>Di seguito sono riportati alcuni esempi di contenuti live supportati con il caricamento dei dati di pianificazione:</p><ul><li>Piattaforme FAST (Free Ad Supported TV)</li><li>Flussi locali</li><li>Sport live</li></ul><p>Il caricamento dei dati di pianificazione ti consente di tenere traccia dei dati sul pubblico per i singoli programmi eseguiti durante il periodo di tempo indicato nel file di caricamento. Puoi anche raccogliere i dati sul pubblico per argomenti o segmenti di programma specifici.</p><p>Queste funzionalità sono disponibili indipendentemente da come hai implementato Streaming Media Collection.</p><p>In precedenza, era difficile collegare con precisione una determinata sessione a programmi specifici durante l’analisi di contenuti live, a singoli argomenti o a segmenti di programma.</p><p>Per ulteriori informazioni, consulta [Caricare i dati di pianificazione per tenere traccia del contenuto live](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-use-cases/track-schedule-data)</p> | 29 ottobre 2025 | Prima metà del 2026<p>Rilascio originariamente pianificato per il 29 ottobre 2025</p> |
 
 {style="table-layout:auto"}
@@ -52,14 +52,14 @@ Queste note sulla versione coprono il periodo di rilascio di maggio 2026. Le ver
 
 **Activity Map**:
 **Analysis Workspace**: AN-446522, AN-445779, AN-445759, AN-444676, AN-442813, AN-441943, AN-441717, AN-441538, AN-441123, AN-440976, AN-440952, AN-440919, AN-440599, AN-439797, AN-434855, AN-429777, AN-429048, AN-428892, AN-428189, AN-425215
-**Classificazioni**: AN-447743, AN-447296, AN-447130, AN-446552, AN-446324, AN-446040, AN-445841, AN-445753, AN-444992, AN-444979, AN-444428, AN-444332, AN-443507, AN-442906, AN-442232, AN-442207, AN-442133, AN-442035, AN-441901, AN-441807 441671 441333 441302 441267 441132 441085 441048 440846 440727 440716 440496 440429 432100, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-
+**Classificazioni**: AN-447743, AN-447296, AN-447130, AN-446552, AN-446324, AN-446040, AN-445841, AN-445753, AN-444992, AN-444979, AN-444428, AN-444332, AN-443507, AN-442906, AN-442232, AN-442207, AN-442133, AN-442035, AN-441901, AN-441807, AN-441671, AN-441333, AN-441302, AN-441267, AN-441132, AN-441085, AN-441048, AN-440846, AN-440727, AN-440716, AN-440496, AN-440429, AN-432100
 **Feed dati e Data Warehouse**: AN-447344, AN-446654, AN-445126, AN-444492, AN-442802, AN-442211, AN-442048, AN-441719, AN-441534, AN-441300, AN-441183, AN-441011, AN-440625
 **Migrazione**: AN-442467, AN-440380, AN-440357
-**esportazioni**:
+**Esportazioni**:
 **Report Builder**: AN-448697, AN-447128, AN-441148, AN-441136, AN-438147, AN-425150
 **Generazione rapporti**: AN-445123, AN-444869, AN-443453, AN-443275, AN-443148, AN-442464, AN-442148, AN-441811, AN-441506, AN-441149, AN-441119, AN-440545, AN-440511, AN-440300, AN-431409, AN-423359, AN-406242
 **Suite di rapporti**:
-**Report pianificati**:
+**Rapporti pianificati**:
 **Segmentazione**:
 **Altro**: AN-449159, AN-444661, AN-439429, AN-439423, AN-430988, AN-397985
 
@@ -84,5 +84,5 @@ Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, consulta le [note
 
 * [Note sulle versioni precedenti 2025](/help/release-notes/2025.md)
 * [Note sulla versione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it)
-* [Note sulla versione di Streaming Media Services](https://experienceleague.adobe.com/it/docs/media-analytics/using/release-notes/release-notes)
+* [Note sulla versione dei servizi di contenuti multimediali in streaming](https://experienceleague.adobe.com/it/docs/media-analytics/using/release-notes/release-notes)
 * Ultimi aggiornamenti sulle versioni dei [prodotti Adobe CX Enterprise](https://business.adobe.com/it/products/adobe-experience-cloud-products.html)
