@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 905
 ht-degree: 29%
@@ -136,7 +136,7 @@ In questa pagina sono elencate le [dimensioni](overview.md) supportate nelle ris
 | [Esci dal server](exit-dimensions.md) | `exitserver` |
 | [Esci da sezione sito](exit-dimensions.md) | `exitsitesections` |
 | [Profondità di hit](hit-depth.md) | `hitdepth` |
-| [Tipo di occorrenza](hit-type.md) | `hittype` |
+| [Tipo di occorrenza](hit-type.md) | `customerperspective` |
 | [Ora](hour.md) | `daterangehour` |
 | [Ora del giorno](hour-of-day.md) | `timeparthourofday` |
 | [Dettagli canale di marketing](marketing-detail.md) | `marketingchanneldetail` |

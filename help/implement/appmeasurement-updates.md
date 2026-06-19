@@ -30,9 +30,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 2881
+source-wordcount: 2877
 ht-degree: 64%
 
 ---
@@ -57,7 +57,7 @@ Data di rilascio: **martedì 12 agosto 2024**
 
 Data di rilascio: **martedì 4 marzo 2024**
 
-* AppMeasurement riconosce e utilizza automaticamente il dominio radice per i domini di livello principale del codice del paese, che in precedenza richiedeva configurazioni specifiche del dominio dei cookie. L&#39;aggiornamento può avere implicazioni a causa di questo riconoscimento automatico. Per ulteriori informazioni, vedere [`cookieDomainPeriods`](/help/implement/vars/config-vars/cookiedomainperiods.md).
+* AppMeasurement riconosce e utilizza automaticamente il dominio radice per i domini di livello principale del codice del paese, che in precedenza richiedeva configurazioni specifiche del dominio dei cookie. L&#39;aggiornamento può avere implicazioni a causa di questo riconoscimento automatico.
 * La distribuzione include Identity Service Library 5.5.0 e Data Integration Library 9.6.
 
 ## Versione 2.25.0
@@ -205,7 +205,7 @@ Data di rilascio: **24 maggio 2018**
 
 >[!NOTE]
 >
->Per i clienti che utilizzano il servizio Experience Cloud ID è richiesto l’API Visitor 3.0 o la versione successiva. Adobe consiglia di eseguire l’aggiornamento alla versione più recente dell’API Visitor ogni volta che le librerie di codice associate vengono aggiornate (`at.js`, `AppMeasurement.js` e così via).
+>Per i clienti che utilizzano il servizio Experience Cloud ID è richiesto l’API visitatore 3.0 o la versione successiva. Adobe consiglia di eseguire l’aggiornamento alla versione più recente dell’API Visitor ogni volta che le librerie di codice associate vengono aggiornate (`at.js`, `AppMeasurement.js` e così via).
 
 * AppMeasurement è stato aggiornato per utilizzare la versione aggiornata dell’interfaccia Visitor per la richiesta degli ID. (AN-151483)
 * È stato corretto un problema in cui il cookie di tracciamento dei collegamenti viene scritto anche dopo la disattivazione della funzione di tracciamento dei collegamenti. (AN-156332)
@@ -331,7 +331,7 @@ Aggiornato il **4 agosto 2016**
 
 >[!IMPORTANT]
 >
->La versione 1.6.0 del servizio Experience Cloud ID *richiede* AppMeasurement per JavaScript versione 1.6.3 o successiva. Se vuoi eseguire l’aggiornamento alla versione 1.6.0 del servizio ID di Experience Cloud, assicurati di utilizzare la versione di AppMeasurement 1.6.3 o successiva.
+>La versione 1.6.0 del servizio Experience Cloud ID *richiede* AppMeasurement for JavaScript versione 1.6.3 o successiva. Se vuoi eseguire l’aggiornamento alla versione 1.6.0 del servizio ID di Experience Cloud, assicurati di utilizzare la versione di AppMeasurement 1.6.3 o successiva.
 
 ## Versione 1.6.2
 

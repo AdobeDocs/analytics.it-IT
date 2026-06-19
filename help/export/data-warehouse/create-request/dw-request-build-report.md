@@ -11,10 +11,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 230
-ht-degree: 41%
+source-wordcount: 248
+ht-degree: 38%
 
 ---
 
@@ -38,9 +38,11 @@ Per creare un rapporto per una richiesta Data Warehouse:
 
    Non tutti i segmenti creati nel Generatore di segmenti sono compatibili con Data Warehouse. Se scegli una suite di rapporti virtuale che contiene segmenti non compatibili, viene visualizzato un errore.
 
-   Per un elenco delle funzioni supportate all&#39;interno di un segmento, vedi [Compatibilità del segmento Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md).
+   Per le strutture e le dimensioni dei segmenti supportate all&#39;interno di un segmento di Data Warehouse, vedi [Compatibilità del segmento di Data Warehouse](/help/export/data-warehouse/segment-compatibility.md).
 
 1. Trascina nel generatore segmenti, metriche e dimensioni. Il rapporto generato determina i dati inclusi nella richiesta Data Warehouse.
+
+   Per le dimensioni e le metriche disponibili in una richiesta, vedere [Supporto dei componenti in Data Warehouse](/help/export/data-warehouse/component-support.md).
 
 1. Continua a configurare la richiesta Data Warehouse nella scheda [!UICONTROL **Destinazione report**]. Per ulteriori informazioni, consulta [Configurare una destinazione di rapporto per una richiesta al Data Warehouse](/help/export/data-warehouse/create-request/dw-request-report-destinations.md).
 

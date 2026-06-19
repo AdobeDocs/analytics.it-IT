@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
-source-git-commit: 542668f462bdff5d07d5713dcab36aaa7d9b7cc5
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '774'
 ht-degree: 93%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 93%
    + [Classificazione di tutte le pagine di ricerca](dimensions/all-search-page-rank.md)
    + [ID AMO](dimensions/amo-id.md)
    + [ID AMO EF](dimensions/amo-ef-id.md)
-   + [ID clic degli annunci Meta AMO](dimensions/amo-meta-id.md)
+   + [AMO Meta Ads Click ID](dimensions/amo-meta-id.md)
    + [AM/PM](dimensions/am-pm.md)
    + [Nome bot](dimensions/bot-name.md)
    + [Altezza browser](dimensions/browser-height.md)
@@ -55,18 +55,19 @@ ht-degree: 93%
    + [Dominio](dimensions/domain.md)
    + [Collegamento di download](dimensions/download-link.md)
    + [Dimensioni di entrata](dimensions/entry-dimensions.md)
-   + [eVar &#x200B;](dimensions/evar.md)
+   + [eVar](dimensions/evar.md)
    + [eVar (merchandising)](dimensions/evar-merchandising.md)
    + [Dimensioni di uscita](dimensions/exit-dimensions.md)
    + [Collegamento di uscita](dimensions/exit-link.md)
+   + [ID visitatore di Experience Cloud](dimensions/experience-cloud-visitor-id.md)
    + [Canale di primo contatto](dimensions/first-touch-channel.md)
    + [Dettaglio del canale di primo contatto](dimensions/first-touch-detail.md)
-   + [Gerarchia](dimensions/hierarchy.md)
    + [Profondità di hit](dimensions/hit-depth.md)
    + [Tipo di hit](dimensions/hit-type.md)
    + [Ora del giorno](dimensions/hour-of-day.md)
    + [Ora](dimensions/hour.md)
    + [Stato identificato](dimensions/identified-state.md)
+   + [Indirizzo IP](dimensions/ip-address.md)
    + [Java abilitato](dimensions/java-enabled.md)
    + [Lingua](dimensions/language.md)
    + [Canale di ultimo contatto](dimensions/last-touch-channel.md)
@@ -89,6 +90,7 @@ ht-degree: 93%
    + [Supporto dei cookie persistenti](dimensions/persistent-cookie-support.md)
    + [Prodotto](dimensions/product.md)
    + [Prop](dimensions/prop.md)
+   + [ID acquisto](dimensions/purchase-id.md)
    + [Trimestre dell’anno](dimensions/quarter-of-year.md)
    + [Trimestre](dimensions/quarter.md)
    + [Tipo di referrer](dimensions/referrer-type.md)
@@ -117,6 +119,7 @@ ht-degree: 93%
    + [Dimensioni vocali](dimensions/voice-dimensions.md)
    + [Profondità della visita](dimensions/visit-depth.md)
    + [Numero di visite](dimensions/visit-number.md)
+   + [Visitor ID](dimensions/visitor-id.md)
    + [Settimana](dimensions/week.md)
    + [Giorno feriale/Fine settimana](dimensions/weekday-weekend.md)
    + [Anno](dimensions/year.md)
@@ -201,7 +204,6 @@ ht-degree: 93%
       + [Utilizzare i segmenti](segmentation/segmentation-workflow/t-seg-apply.md)
    + Riferimenti {#segment-reference}
       + [Operatori](segmentation/seg-reference/seg-operators.md)
-      + [Compatibilità del segmento Data Warehouse](segmentation/seg-reference/seg-compatibility.md)
       + [Diritti del segmento per ruolo](segmentation/seg-reference/seg-rights.md)
       + [Risoluzione dei problemi](segmentation/seg-reference/c-troubleshooting.md)
    + [Domande frequenti sui segmenti legacy](segmentation/seg-transition.md)
@@ -268,7 +270,7 @@ ht-degree: 93%
       + [Panoramica](classifications/sets/overview.md)
       + [File di dati](classifications/sets/data-files.md)
       + [Creare e modificare](/help/components/classifications/sets/create-set.md)
-      + [Gestire](/help/components/classifications/sets/manage-sets.md)
+      + [Gestire i](/help/components/classifications/sets/manage-sets.md)
       + Set di classificazione {#set}
          + [Impostazioni](classifications/sets/manage/settings.md)
          + [Schema](classifications/sets/manage/schema.md)
@@ -276,7 +278,7 @@ ht-degree: 93%
       + [Processi di classificazione](classifications/sets/job-manager.md)
       + Consolidamenti di classificazione {#consolidations}
          + [Creare e modificare](classifications/sets/consolidations/process.md)
-         + [Gestire](classifications/sets/consolidations/manage.md)
+         + [Gestire i](classifications/sets/consolidations/manage.md)
    + Classificazioni legacy {#legacy-classifications}
       + Generatore regole di classificazione {#classifications-rulebuilder}
          + [Panoramica](classifications/crb/classification-rule-builder.md)

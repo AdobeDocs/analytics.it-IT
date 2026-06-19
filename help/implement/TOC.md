@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 157cc2bde1047063014aff39319d5cfaa1de9b5c
+source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 77%
+source-wordcount: '462'
+ht-degree: 76%
 
 ---
 
@@ -22,19 +22,15 @@ ht-degree: 77%
    + Variabili di configurazione {#config-vars}
       + [Panoramica delle variabili di configurazione](vars/config-vars/configuration-variables.md)
       + [abort](vars/config-vars/abort.md)
-      + [account](vars/config-vars/account.md)
       + [ActivityMap.linkExclusions](vars/config-vars/activitymap-linkexclusions.md)
       + [ActivityMap.regionExclusions](vars/config-vars/activitymap-regionexclusions.md)
       + [ActivityMap.regionIDAttribute](vars/config-vars/activitymap-regionidattribute.md)
       + [charSet](vars/config-vars/charset.md)
       + [collectHighEntropyUserAgentHints](vars/config-vars/collecthighentropyuseragenthints.md)
-      + [cookieDomain](vars/config-vars/cookiedomain.md)
-      + [cookieDomainPeriods](vars/config-vars/cookiedomainperiods.md)
       + [cookieLifetime](vars/config-vars/cookielifetime.md)
       + [currencyCode](vars/config-vars/currencycode.md)
       + [decodeLinkParameters](vars/config-vars/decodelinkparameters.md)
       + [dynamicVariablePrefix](vars/config-vars/dynamicvariableprefix.md)
-      + [fpCookieDomainPeriods](vars/config-vars/fpcookiedomainperiods.md)
       + [linkDownloadFileTypes](vars/config-vars/linkdownloadfiletypes.md)
       + [linkExternalFilters](vars/config-vars/linkexternalfilters.md)
       + [linkInternalFilters](vars/config-vars/linkinternalfilters.md)
@@ -46,21 +42,19 @@ ht-degree: 77%
       + [offlineThrottleDelay](vars/config-vars/offlinethrottledelay.md)
       + [trackDownloadLinks](vars/config-vars/trackdownloadlinks.md)
       + [trackExternalLinks](vars/config-vars/trackexternallinks.md)
-      + [trackingServer](vars/config-vars/trackingserver.md)
       + [trackingServerSecure](vars/config-vars/trackingserversecure.md)
-      + [trackInlineStats](vars/config-vars/trackinlinestats.md)
       + [trackOffline](vars/config-vars/trackoffline.md)
       + [useBeacon](vars/config-vars/usebeacon.md)
       + [useLinkTrackSessionStorage](vars/config-vars/uselinktracksessionstorage.md)
       + [usePlugins](vars/config-vars/useplugins.md)
       + [visitorID](vars/config-vars/visitorid.md)
-      + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + Variabili di pagina {#page-vars}
       + [Panoramica delle variabili di pagina](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
+      + [customerPerspective](vars/page-vars/customerperspective.md)
       + [Variabili dinamiche](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
       + [eVar (merchandising)](vars/page-vars/evar-merchandising.md)
@@ -68,7 +62,6 @@ ht-degree: 77%
          + [Panoramica degli eventi](vars/page-vars/events/events-overview.md)
          + [Evento di acquisto](vars/page-vars/events/event-purchase.md)
          + [Serializzazione degli eventi](vars/page-vars/events/event-serialization.md)
-      + [hier](vars/page-vars/hier.md)
       + [list](vars/page-vars/list.md)
       + [pageName](vars/page-vars/pagename.md)
       + [pageType](vars/page-vars/pagetype.md)
@@ -79,7 +72,6 @@ ht-degree: 77%
       + [referrer](vars/page-vars/referrer.md)
       + [s_objectID](vars/page-vars/s-objectid.md)
       + [server](vars/page-vars/server.md)
-      + [state](vars/page-vars/state.md)
       + [timestamp](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
@@ -111,7 +103,6 @@ ht-degree: 77%
       + [getAndPersistValue](vars/plugins/getandpersistvalue.md)
       + [getGeoCoordinates](vars/plugins/getgeocoordinates.md)
       + [getNewRepeat](vars/plugins/getnewrepeat.md)
-      + [getPageLoadTime](vars/plugins/getpageloadtime.md)
       + [getPageName](vars/plugins/getpagename.md)
       + [getPercentPageViewed](vars/plugins/getpercentpageviewed.md)
       + [getPreviousValue](vars/plugins/getpreviousvalue.md)

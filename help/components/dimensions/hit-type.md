@@ -22,21 +22,21 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 164
-ht-degree: 6%
+source-wordcount: 153
+ht-degree: 7%
 
 ---
 
 # Tipo di hit
 
-La dimensione [tipo di hit](overview.md) determina se un&#39;app mobile si trovava in primo piano o in background al momento dell&#39;invio dell&#39;hit ai server di raccolta dati di Adobe. Questa dimensione è pertinente solo per le suite di rapporti che contengono dati per le applicazioni mobili. I dati del browser raccolti tramite AppMeasurement segnalano sempre l’hit come &quot;Primo piano&quot;.
+La dimensione [tipo di hit](overview.md) determina se un&#39;app mobile si trovava in primo piano o in background al momento dell&#39;invio dell&#39;hit ai server di raccolta dati di Adobe. Questa dimensione è pertinente solo per le suite di rapporti che contengono dati per le applicazioni mobili. I dati del browser raccolti tramite AppMeasurement segnalano sempre l&#39;hit come `"Foreground"`.
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione funziona come previsto per tutte le implementazioni di SDK per dispositivi mobili nella versione 4.13.6 o successiva. Se non utilizzi il SDK mobile, tutti gli hit sono elencati nell’elemento dimensione &quot;Primo piano&quot;. Se è selezionata l&#39;opzione &quot;Disabilita generazione rapporti e attribuzione legacy per hit in background&quot;, gli hit in background verranno visualizzati solo nelle [suite di rapporti virtuali](../vrs/vrs-mobile-visit-processing.md).
+Questa dimensione funziona come previsto per tutte le implementazioni di SDK per dispositivi mobili nella versione 4.13.6 o successiva. Il SDK per dispositivi mobili imposta la variabile [`customerPerspective`](/help/implement/vars/page-vars/customerperspective.md) (il parametro di query `cp`) per indicare se ogni hit si è verificato in primo piano o in background. Se non utilizzi il SDK mobile, tutti gli hit sono elencati in `"Foreground"`. Se **[!UICONTROL Prevent background hits from starting a new visit]** è selezionato durante la configurazione di una [Suite di rapporti virtuale](../vrs/vrs-mobile-visit-processing.md), gli hit in background non gonfiano [[!UICONTROL Visits]](../metrics/visits.md) e [[!UICONTROL Unique visitors]](../metrics/unique-visitors.md).
 
 ## Elementi dimensionali
 
-Gli elementi Dimension includono `"Foreground"` e `"Background"`. Qualsiasi hit non inviato in background in un&#39;app mobile appartiene all&#39;elemento dimensione `"Foreground"`. Qualsiasi hit inviato con l&#39;applicazione mobile in background appartiene all&#39;elemento dimensione `"Background"`.
+Gli elementi Dimension includono `"Foreground"` e `"Background"`. Gli hit in background si verificano solo su dispositivi mobili in cui l’applicazione tracciata è in background.

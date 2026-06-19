@@ -20,16 +20,20 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 139
-ht-degree: 12%
+source-wordcount: 158
+ht-degree: 11%
 
 ---
 
 # Dominio
 
 La [dimensione](overview.md) del &#39;dominio&#39; riporta i punti di accesso utilizzati dai visitatori per accedere a Internet.
+
+>[!NOTE]
+>
+>Data Warehouse include una dimensione ritirata &#39;[!UICONTROL Domains]&#39; (plural) che riporta informazioni simili. Adobe consiglia di utilizzare questa dimensione, &#39;[!UICONTROL Domain]&#39; (singolare), per coerenza.
 
 ## Popolare questa dimensione con i dati
 

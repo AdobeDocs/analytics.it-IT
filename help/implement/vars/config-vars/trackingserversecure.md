@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: 826
 ht-degree: 7%
 
 ---
@@ -31,7 +31,11 @@ ht-degree: 7%
 
 La variabile `trackingServerSecure` determina il dominio utilizzato da AppMeasurement per inviare dati ad Adobe tramite HTTPS. Se questa variabile non è definita correttamente, l’implementazione può causare la perdita di dati.
 
-Prima del [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/it/docs/id-service/using/home), questa variabile determinava anche dove erano impostati i cookie di terze parti. Adobe consiglia vivamente di utilizzare il servizio ID in tutte le implementazioni, laddove possibile.
+>[!NOTE]
+>
+>[`trackingServer`](configuration-variables.md#retired-configuration-variables) è una variante ritirata di questa variabile. È stato specificato il dominio per i dati inviati tramite HTTP. Con la prevalenza di HTTPS, utilizzare invece `trackingServerSecure`. Se `s.trackingServerSecure` è vuoto, AppMeasurement tornerà al valore `s.trackingServer`.
+
+Prima del [Servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/it/docs/id-service/using/home), questa variabile determinava anche dove venivano impostati i cookie di terze parti. Adobe consiglia vivamente di utilizzare il servizio ID in tutte le implementazioni, laddove possibile.
 
 ## Dominio Edge tramite l’estensione Web SDK
 
@@ -86,7 +90,7 @@ s.trackingServerSecure = "example.data.adobedc.net";
 Il valore utilizzato per `trackingServerSecure` (o `edgeDomain`) dipende da diversi fattori:
 
 * La tua partecipazione al [programma di certificazione gestito da Adobe](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/adobe-managed-cert)
-* Se il servizio [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/it/docs/id-service/using/home) è stato implementato e configurato correttamente
+* Se hai implementato e configurato correttamente il servizio [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/it/docs/id-service/using/home)
 
 **Se la tua organizzazione partecipa al programma di certificazione gestito da Adobe**, imposta il valore sul dominio di prime parti selezionato durante la configurazione del certificato. In genere questo valore è un sottodominio di proprietà dell’organizzazione. Ad esempio, `data.example.com`. I record CNAME nella tua organizzazione reindirizzano tali dati ad Adobe.
 
@@ -110,8 +114,8 @@ Adobe consiglia vivamente di mantenere queste informazioni in un [documento di p
 
 Adobe consiglia vivamente di utilizzare il servizio [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/it/docs/id-service/using/home) in tutte le implementazioni. Il servizio ID può essere implementato in diversi modi:
 
-* Le implementazioni manuali di AppMeasurement utilizzano `VisitorAPI.js` e chiamano il metodo `getInstance`. Per ulteriori informazioni, vedere [Implementazione del servizio Experience Cloud Identity per Analytics](https://experienceleague.adobe.com/it/docs/id-service/using/implementation/setup-analytics).
-* Le implementazioni che utilizzano l&#39;estensione tag Adobe Analytics utilizzano l&#39;estensione tag del servizio [Adobe Experience Cloud ID](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/id-service/overview). Una volta aggiunta, non è necessaria alcuna configurazione aggiuntiva.
+* Le implementazioni manuali di AppMeasurement utilizzano `VisitorAPI.js` e chiamano il metodo `getInstance`. Per ulteriori informazioni, consulta [Implementazione del servizio Experience Cloud Identity per Analytics](https://experienceleague.adobe.com/it/docs/id-service/using/implementation/setup-analytics).
+* Le implementazioni che utilizzano l&#39;estensione tag di Adobe Analytics utilizzano l&#39;estensione tag del servizio [Adobe Experience Cloud ID](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/id-service/overview). Una volta aggiunta, non è necessaria alcuna configurazione aggiuntiva.
 * Le implementazioni che utilizzano qualsiasi forma di Web SDK (`alloy.js` o l&#39;estensione tag Web SDK) dispongono già del servizio ID in modalità nativa. Non è richiesta alcuna configurazione oltre all&#39;impostazione del valore `edgeDomain`.
 
 **Se la tua implementazione non utilizza il servizio Identity**, considera i seguenti impatti sulla tua implementazione:

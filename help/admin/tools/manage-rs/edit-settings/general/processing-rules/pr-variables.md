@@ -18,9 +18,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 719
+source-wordcount: 721
 ht-degree: 10%
 
 ---
@@ -64,21 +64,21 @@ Dimensioni e metriche disponibili che è possibile leggere e scrivere utilizzand
 | --- | --- | --- |
 | **eVar 1-250** | Lettura e scrittura | [dimensioni eVar](/help/components/dimensions/evar.md). |
 | **Campaign** | Lettura e scrittura | La dimensione [Codice di tracciamento](/help/components/dimensions/tracking-code.md). |
-| **ID acquisto** | Lettura e scrittura | La variabile di implementazione [`purchaseID`](/help/implement/vars/page-vars/purchaseid.md). |
-| **Stato** | Lettura e scrittura | (Ritirato) La variabile di implementazione [`state`](/help/implement/vars/page-vars/state.md). |
+| **ID acquisto** | Lettura e scrittura | La dimensione [ID acquisto](/help/components/dimensions/purchase-id.md). |
+| **Stato** | Lettura e scrittura | (Ritirato) La dimensione [Stato visitatore](/help/components/dimensions/overview.md#retired-dimensions). |
 | **ZIP** | Lettura e scrittura | La dimensione [Codice postale](/help/components/dimensions/zip-code.md). |
 | **Codice valuta** | Lettura e scrittura | La variabile di implementazione [`currencyCode`](/help/implement/vars/config-vars/currencycode.md). IMPORTANTE: se imposti questa variabile su un valore non valido, l’hit viene scartato. |
 | **ID transazione** | Lettura e scrittura | La variabile di implementazione [`transactionID`](/help/import/data-sources/transactionid.md). |
 
 >[!NOTE]
->Adobe non supporta l&#39;impostazione della variabile di implementazione [`products`](/help/implement/vars/page-vars/products.md) tramite le regole di elaborazione.
+>Adobe non supporta l&#39;impostazione della dimensione [Product](/help/components/dimensions/product.md) tramite le regole di elaborazione.
 
 ## Variabili traffico
 
 | Variabile | Stato lettura/scrittura | Descrizione |
 | --- | --- | --- |
 | **Prop 1-75** | Lettura e scrittura | [Prop](/help/components/dimensions/prop.md) dimensioni. |
-| **Gerarchia 1-5** | Lettura e scrittura | (Ritirato) [Gerarchia](/help/components/dimensions/hierarchy.md) dimensioni. |
+| **Gerarchia 1-5** | Lettura e scrittura | (Ritirato) [Gerarchia](/help/components/dimensions/overview.md#retired-dimensions) dimensioni. |
 | **Server** | Lettura e scrittura | La dimensione [Server](/help/components/dimensions/server.md). |
 | **Canale** | Lettura e scrittura | La dimensione [Sezione del sito](/help/components/dimensions/site-section.md). |
 

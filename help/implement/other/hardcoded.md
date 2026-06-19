@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 687
 ht-degree: 0%
@@ -44,7 +44,7 @@ Di seguito è riportato un esempio di richiesta di immagine hardcoded tramite HT
 ```
 
 * `https://` indica il protocollo. Abbina il protocollo utilizzato nella richiesta di immagine a quello utilizzato dal resto del sito.
-* `example.data.adobedc.net` è il valore contenuto nella variabile [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md).
+* `example.data.adobedc.net` è il valore contenuto nella variabile [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * `/b/ss/` è incluso in tutte le richieste di immagini. Fa parte della struttura dei file per le immagini memorizzate sui server di raccolta dati di Adobe.
 * `examplersid` è l&#39;ID suite di rapporti a cui desideri inviare i dati. Per più suite di rapporti, separa gli ID con virgole e senza spazi (ad esempio `examplersid1,examplersid2` e così via).
 * `/1/` è l&#39;origine dell&#39;hit. Vedi `hit_source` in [Riferimento colonna dati](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md) nella guida utente di esportazione. Controlla l&#39;ordine utilizzato dai cookie e da altri metodi per identificare i visitatori.

@@ -18,9 +18,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: 293
 ht-degree: 3%
 
 ---
@@ -36,6 +36,10 @@ console.log(`Browser width: ${window.innerWidth} pixels\nScreen width: ${screen.
 ```
 
 La larghezza del browser è sempre inferiore o uguale alla larghezza dello schermo, in quanto non include barre di scorrimento o bordi.
+
+>[!NOTE]
+>
+>Data Warehouse fornisce anche una dimensione &#39;[!UICONTROL Browser width - granular]&#39; che riporta la larghezza esatta in pixel anziché raggruppare i valori in bucket predefiniti.
 
 ## Popolare questa dimensione con i dati
 
