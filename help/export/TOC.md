@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Guida all’esportazione di Analytics
 breadcrumb-title: Guida all’esportazione
 user-guide-description: Scopri come utilizzare i feed di dati e Data Warehouse per recuperare l’output di dati.
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 87%
+source-wordcount: '271'
+ht-degree: 86%
 
 ---
 
@@ -49,6 +49,7 @@ ht-degree: 87%
    + [Ordina per metrica](data-warehouse/sorting-by-metric.md)
    + [Gestire le richieste di Data Warehouse](data-warehouse/data-warehouse-requests-manage.md)
    + [Componenti supportati in Data Warehouse](data-warehouse/component-support.md)
+   + [Compatibilità del segmento Data Warehouse](data-warehouse/segment-compatibility.md)
    + [Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)](data-warehouse/data-warehouse-bp.md)
 + FTP e SFTP {#ftp-and-sftp}
    + [Utilizzare FTP e SFTP con Adobe CX Enterprise](ftp-and-sftp/ftp-overview.md)

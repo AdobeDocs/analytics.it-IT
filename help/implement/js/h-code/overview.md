@@ -5,17 +5,12 @@ feature: Implementation Basics
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
 role: Developer
 TQID: 'https://experienceleague.adobe.com/-d3QyBm0RW5arsRHNHY4ov7YJxVFZrNdvXhVIuU6Ih4'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
-source-wordcount: 388
+source-wordcount: 385
 ht-degree: 11%
 
 ---
@@ -33,8 +28,8 @@ Devi avere accesso ai server di hosting per implementare correttamente una pagin
 >Per seguire queste istruzioni, è necessario disporre di una copia esistente di `s_code.js`. Adobe non offre più l’opzione di scaricare il codice H in Code Manager.
 
 1. **Aggiorna le variabili del file JS di base**: modifica il file `s_code.js` e assicurati che le seguenti variabili siano aggiornate:
-   * `s_account` contiene l&#39;ID suite di rapporti a cui desideri inviare i dati. Consulta
-   * `s.trackingServer` contiene i cookie di posizione archiviati. Vedi [trackingServer](../../vars/config-vars/trackingserver.md).
+   * `s_account` contiene l&#39;ID suite di rapporti a cui desideri inviare i dati.
+   * `s.trackingServerSecure` contiene i cookie di posizione archiviati.
 1. **Ospita il file `s_code.js` nel sito**: questo file risiede in genere con altri script nel server Web.
 1. **Riferimento `s_code.js` su tutte le pagine**: assicurarsi che tutte le singole pagine chiamino il file JavaScript di base e che ciò avvenga all&#39;interno del tag HTML `<body>` (non il tag `<head>`).
 
