@@ -6,10 +6,31 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 TQID: 'https://experienceleague.adobe.com/RcTXvvuMyMIv63XhCXgJd8aWpzLtxQwtXBkz6X6nFM8'
-product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+  - id: b7156124-d291-4de4-ac0c-ed17d8078449
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2:
+  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
 workflow-type: tm+mt
 source-wordcount: 7323
@@ -37,7 +58,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | **Maggio 2026** | |
 | Dimensioni e metriche di Streaming Media | Aggiornamenti significativi alla documentazione di Streaming Media. I collegamenti agli esempi includono [dimensioni principali dei servizi multimediali in streaming](/help/components/dimensions/sm-core.md) e [metriche principali dei servizi multimediali in streaming](/help/components/metrics/sm-core.md). |
 | **Marzo 2026** | |
-| Suddividere un pannello | È stata ristrutturata la documentazione intorno alla zona di rilascio [ per un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità [suddividi](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
+| Suddividere un pannello | È stata ristrutturata la documentazione intorno alla zona di rilascio [&#x200B; per un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità [suddividi](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | È stata identificata l’opzione predefinita per l’offuscamento dell’IP nelle nuove suite di rapporti | Sono state aggiunte informazioni che indicano che **Rimuovi indirizzo IP** è l&#39;opzione predefinita di [offuscamento IP per le nuove suite di rapporti](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). |
 | Revisione ordine di elaborazione | Miglioramenti significativi all&#39;[Ordine di elaborazione in Adobe Analytics](/help/technotes/processing-order.md). |
 | Integrazione con Adobe Advertising | Aggiunte di dimensioni e metriche di integrazione Adobe Advertising, incluso [AMO ID](/help/components/dimensions/amo-id.md). |
