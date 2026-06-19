@@ -50,7 +50,7 @@ Le seguenti variabili sono state introdotte nell’inserimento di dati in blocco
 * **`aamlh`**: hint di posizione Adobe Audience Manager.
 * **`contextData.key`**: [Variabili di dati di contesto](/help/implement/vars/page-vars/contextdata.md).
 * **`customerID`**: variabili del servizio Experience Cloud ID. Include `id`, `authState` e `isMCSeed`.
-* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html) variabili. Include `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
+* **`hints`**: [Client hint](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=it) variabili. Include `bitness`, `brands`, `mobile`, `model`, `platform`, `platformversion` e `wow64`.
 * **`ipaddress`**: dimensione [Indirizzo IP](/help/components/dimensions/ip-address.md).
 * **`language`**: dimensione [Lingua](/help/components/dimensions/language.md).
 * **`list1`** - **`list3`**: [Variabili elenco](/help/implement/vars/page-vars/list.md).
