@@ -3,11 +3,9 @@ title: Analisi Sub-Hit
 description: Scopri come l’analisi degli hit secondari consente di filtrare i singoli prodotti all’interno di un hit in Adobe Analytics, eliminando le smarginature di attribuzione nei rapporti sui prodotti.
 feature: Segmentation
 hide: true
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: ff9f312ac1e09a6319c6682e2e94585cd15bfdcd
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 68469e0359deed0d642b1d00d55259c33c410fd4
 workflow-type: tm+mt
 source-wordcount: 749
 ht-degree: 0%
@@ -28,7 +26,7 @@ Nell’analisi sub-hit, la logica di esclusione si comporta in modo diverso risp
 
 Desideri misurare i ricavi online solo dalla categoria Uomini. Senza analisi sub-hit, l’applicazione di un segmento per Uomo include i ricavi da ogni prodotto in qualsiasi ordine (hit) che contiene almeno un prodotto con la categoria Uomini. Con l’analisi degli hit secondari, puoi estendere il filtro al livello del prodotto e restituire solo i ricavi per i prodotti della categoria Uomini.
 
-Si desidera inoltre misurare i ricavi online da tutte le altre categorie ad eccezione della categoria Uomini.
+Desideri inoltre misurare i ricavi online da tutte le altre categorie ad eccezione della categoria Uomini.
 
 >[!BEGINTABS]
 
