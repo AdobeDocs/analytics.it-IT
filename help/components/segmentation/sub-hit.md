@@ -3,8 +3,10 @@ title: Analisi Sub-Hit
 description: Scopri come l’analisi degli hit secondari consente di filtrare i singoli prodotti all’interno di un hit in Adobe Analytics, eliminando le smarginature di attribuzione nei rapporti sui prodotti.
 feature: Segmentation
 hide: true
-feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2:
+  - id: a544b409-2610-410d-a842-474ac1d0d54e
 source-git-commit: 5fd568b19e6a3381d1a9904d4a5d8e681d1fa1a6
 workflow-type: tm+mt
 source-wordcount: 749
