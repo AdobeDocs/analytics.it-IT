@@ -5,23 +5,15 @@ feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
 TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
 workflow-type: tm+mt
-source-wordcount: 1010
-ht-degree: 73%
+source-wordcount: 887
+ht-degree: 77%
 
 ---
 
@@ -39,8 +31,7 @@ I principali vantaggi dell’utilizzo delle chiamate al server includono:
 
 ## Prerequisiti {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **Autorizzazioni:** Per accedere al dashboard di utilizzo delle chiamate al server e al generatore di avvisi o alla gestione degli avvisi, è necessario essere un amministratore Adobe Analytics.
-* **Autorizzazioni:** gli amministratori possono concedere l’accesso agli utenti non amministratori: l’autorizzazione si chiama **[!UICONTROL Server call usage]**. Vedi [Autorizzazione per l&#39;utilizzo delle chiamate server](#server-call-usage-permission).
+* **Autorizzazioni:** Devi disporre dell&#39;accesso come amministratore di Adobe Analytics o dell&#39;elemento di autorizzazione [Utilizzo chiamate server](/help/admin/admin-console/permissions/analytics-tools.md) in Adobe Admin Console. Gli amministratori possono assegnare questo elemento di autorizzazione agli utenti non amministratori tramite un profilo di prodotto.
 
 ## Terminologia importante {#terminology}
 
@@ -70,7 +61,7 @@ I seguenti termini sono importanti per comprendere l’utilizzo delle chiamate a
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1, RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>Nota: i dati relativi all’utilizzo delle chiamate al server per <u>tutte</u> le suite di rapporti all’interno di una società di fatturazione sono visibili a tutti gli utenti con l’appropriata <a href="/help/admin/tools/server-call-usage/overage-overview.md">autorizzazione</a>. </p> </td> 
+    </ul> <p>Nota: i dati relativi all’utilizzo delle chiamate al server per <u>tutte</u> le suite di rapporti all’interno di una società di fatturazione sono visibili a tutti gli utenti con l’appropriata <a href="/help/admin/admin-console/permissions/analytics-tools.md">autorizzazione</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Organizzazione CX Enterprise </p> </td> 
@@ -87,40 +78,6 @@ I seguenti termini sono importanti per comprendere l’utilizzo delle chiamate a
   <tr> 
    <td colname="col1"> <p>Periodo di contratto </p> </td> 
    <td colname="col2"> <p>I periodi di contratto possono durare più anni. Supponiamo che la tua azienda abbia un impegno di chiamata al server di 6 milioni di chiamate per un contratto di 3 anni. Ai fini del monitoraggio dell’utilizzo delle chiamate al server, questo periodo di 3 anni può essere suddiviso in periodi di utilizzo più piccoli per facilitare i confronti su base annua. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Autorizzazione di utilizzo delle chiamate server {#permission}
-
-L’autorizzazione per l’utilizzo delle chiamate al server viene concessa automaticamente agli amministratori di Analytics. Consente agli utenti di visualizzare il dashboard e creare avvisi per le chiamate al server. Gli amministratori possono scegliere di concedere questa autorizzazione agli utenti non amministratori.
-
->[!NOTE]
->
->La tua azienda può scegliere quali società di accesso hanno accesso all’utilizzo delle chiamate al server.
-
-<table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Nome autorizzazione </th> 
-   <th colname="col3" class="entry"> Concedere l’autorizzazione se è stato effettuato l’accesso ad Adobe Analytics (accesso legacy) </th> 
-   <th colname="col4" class="entry"> Concedere l'autorizzazione se si è connessi ad Adobe CX Enterprise </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Utilizzo chiamate al server </p> </td> 
-   <td colname="col3"> 
-    <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
-     <li id="li_ACDA518C7D184084AC1DFA7B38C67314">Accedi ad Analytics tramite sc.omniture.com. </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">Passa a <span class="ignoretag"> <span class="uicontrol"> Amministratore </span> &gt; <span class="uicontrol"> Tutti gli amministratori </span> &gt; <span class="uicontrol"> Gestione utenti </span> &gt; <span class="uicontrol"> Gruppi </span> &gt; <span class="uicontrol"> Modifica accesso a tutti i rapporti </span> &gt; <span class="uicontrol"> Strumenti di Analytics </span> &gt; <span class="uicontrol"> Personalizza </span> &gt; <span class="uicontrol"> utilizzo chiamate al server </span> </span> </li> 
-    </ol> </td> 
-   <td colname="col4"> 
-    <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">Accedi a login.experiencecloud.adobe.com.</li> 
-     <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">Fai clic su <span class="uicontrol"> Analytics </span>. </li> 
-     <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">Passa a <span class="ignoretag"> <span class="uicontrol"> Prodotti </span> &gt; <span class="uicontrol"> Profilo prodotto </span> &gt; <span class="uicontrol"> Autorizzazioni </span> &gt; <span class="uicontrol"> Strumenti di Analytics </span> &gt; <span class="uicontrol"> Utilizzo chiamate al server </span> </span> </li> 
-    </ol> </td> 
   </tr> 
  </tbody> 
 </table>
