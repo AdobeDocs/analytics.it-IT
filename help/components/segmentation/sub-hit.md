@@ -7,7 +7,7 @@ feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
 subfeature_v2:
   - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0305abf1f43107a78881f5253fdb976a6f1da5e0
+source-git-commit: dbbf0fc296c6ef750f7027730f02ccb8b33e83c6
 workflow-type: tm+mt
 source-wordcount: 749
 ht-degree: 0%
@@ -86,3 +86,4 @@ Il Generatore di segmenti include una nuova opzione di filtro nella barra a sini
 La visualizzazione Istogramma include un nuovo menu a discesa del contenitore di hit secondari. Questo consente di impostare i valori delle metriche bucket a livello di prodotto. Ad esempio, contando le occorrenze del prodotto per ordine anziché per hit.
 
 L’istogramma è l’unica visualizzazione che richiede la selezione di un contenitore per gli hit secondari. Tutti gli altri pannelli e visualizzazioni funzionano con i dati di analisi degli hit secondari senza configurazioni aggiuntive.
+
