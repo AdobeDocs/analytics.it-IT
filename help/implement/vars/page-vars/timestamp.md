@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
-source-wordcount: 276
-ht-degree: 9%
+source-wordcount: 304
+ht-degree: 8%
 
 ---
 
@@ -43,11 +43,11 @@ Nell’estensione Adobe Analytics non è presente un campo dedicato per utilizza
 
 ## s.timestamp in AppMeasurement e nell’editor di codice personalizzato dell’estensione Analytics
 
-La variabile `s.timestamp` è una stringa contenente la data e l&#39;ora dell&#39;hit. I formati di marca temporale validi includono [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) e [Tempo Unix](https://en.wikipedia.org/wiki/Unix_time) in secondi.
+La variabile `s.timestamp` è una stringa contenente la data e l&#39;ora dell&#39;hit. I formati di marca temporale validi includono [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) e [Tempo Unix](https://en.wikipedia.org/wiki/Unix_time) in secondi.
 
 ```js
 // Timestamp using ISO 8601
-s.timestamp = "2024-01-01T00:00:00Z";
+s.timestamp = "2026-01-01T00:00:00Z";
 
 // Timestamp using Unix timestamp
 s.timestamp = "1577836800";
@@ -61,24 +61,24 @@ s.timestamp = new Date().toISOString();
 
 ## Valori ISO 8601
 
-Le date e le ore espresse in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) possono assumere diverse forme. Adobe non supporta tutte le funzioni di ISO 8601.
+Le date e le ore espresse in [ISO 8601](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6) possono assumere diverse forme. Adobe non supporta tutte le funzioni di ISO 8601.
 
 * È necessario specificare sia la data che l&#39;ora, separate da `T`.
 * Sono necessari ore e minuti; i secondi sono facoltativi ma consigliati.
 * Le date settimanali e le date ordinali non sono supportate.
-* La data può essere in formato standard o esteso. Ad esempio, `2024-01-01T00:00:00Z` e `20240101T000000Z` sono entrambi validi.
-* I minuti e i secondi frazionari sono tecnicamente validi, ma le frazioni vengono ignorate da Adobe.
+* La data può essere in formato standard o esteso. Ad esempio, `2026-01-01T00:00:00Z` e `20260101T000000Z` sono entrambi validi.
+* I minuti e i secondi frazionari sono tecnicamente validi, ma le frazioni vengono ignorate. Adobe Analytics supporta le marche temporali solo con precisione di secondo livello. Se la precisione a livello di millisecondi è una priorità per la tua organizzazione, puoi utilizzare Customer Journey Analytics.
 * I fusi orari sono supportati nei formati standard ed estesi.
 
 Di seguito sono riportati esempi validi di valori ISO 8601 nella variabile `timestamp`:
 
 ```text
-2024-01-01T00:00:00+00:00
-2024-01-01T00:00:00Z
-2024-01-01T00:00:00
-2024-01-01T00:00
-20240101T000000+0000
-20240101T000000Z
-20240101T000000
-20240101T0000
+2026-01-01T00:00:00+00:00
+2026-01-01T00:00:00Z
+2026-01-01T00:00:00
+2026-01-01T00:00
+20260101T000000+0000
+20260101T000000Z
+20260101T000000
+20260101T0000
 ```

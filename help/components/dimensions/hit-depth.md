@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1ed4ab984231b7c72580c5ae505b1a16c0330c2f
 workflow-type: tm+mt
-source-wordcount: 262
-ht-degree: 24%
+source-wordcount: 314
+ht-degree: 20%
 
 ---
 
@@ -36,6 +36,10 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 ## Elementi dimensionali
 
 Gli elementi Dimension includono la stringa `"Hit Depth"` seguita da un numero che rappresenta il numero di hit nella visita. L&#39;elemento dimensione di `"Hit Depth 1"` rappresenta il primo hit della visita, mentre l&#39;elemento dimensione `"Hit Depth 8"` rappresenta l&#39;ottavo hit della visita.
+
+>[!NOTE]
+>
+>Adobe Analytics registra i timestamp con precisione di solo secondo livello. Per gli hit che condividono la stessa marca temporale in secondo luogo, Adobe non può garantire che l’ordine riportato nei rapporti sia lo stesso dell’ordine in cui si sono verificati gli hit. Se la precisione a livello di millisecondi è una priorità per la tua organizzazione, puoi utilizzare Customer Journey Analytics.
 
 ## Confronto con profondità di visita
 
