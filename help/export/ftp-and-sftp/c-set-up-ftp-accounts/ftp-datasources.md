@@ -16,9 +16,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: e681610c8238aa4940053a28ee60ea54492cba8b
 workflow-type: tm+mt
-source-wordcount: 432
+source-wordcount: 431
 ht-degree: 1%
 
 ---
@@ -43,6 +43,6 @@ Importa file: `Classifications.tab`
 
 Fine file: `Classifications.fin`
 
-Se carichi il file Origini dati o SAINT senza un file `.fin` associato, Adobe non lo aggiunge alla coda per l&#39;elaborazione. Il file rimane sull&#39;FTP e non viene applicato ai dati dell&#39;organizzazione CX. Riceverai una notifica solo se hai inserito il tuo indirizzo e-mail come [!UICONTROL Notification Recipient] nella finestra di reporting [!UICONTROL Create FTP Account]. Se in questo campo non viene inserito alcun indirizzo e-mail, non viene inviata alcuna notifica.
+Se carichi il file Origini dati o SAINT senza un file `.fin` associato, Adobe non lo aggiunge alla coda per l&#39;elaborazione. Il file rimane sull&#39;FTP e non viene applicato ai dati in CX Enterprise. Riceverai una notifica solo se hai inserito il tuo indirizzo e-mail come [!UICONTROL Notification Recipient] nella finestra di reporting [!UICONTROL Create FTP Account]. Se in questo campo non viene inserito alcun indirizzo e-mail, non viene inviata alcuna notifica.
 
 Se si carica il file con un file `.fin` ma nel file è presente un errore, il file viene inviato per l&#39;elaborazione, ma l&#39;errore causa la cessazione dell&#39;elaborazione e l&#39;invio del file a una cartella di errori. In questo caso, viene inviata una notifica all&#39;indirizzo di posta elettronica elencato nel campo [!UICONTROL Notification Recipient] nella finestra [!UICONTROL Create FTP Account]. Se non viene inserito alcun indirizzo e-mail, non viene inviata alcuna notifica.
