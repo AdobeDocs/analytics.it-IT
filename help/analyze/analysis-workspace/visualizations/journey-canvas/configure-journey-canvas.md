@@ -3,7 +3,7 @@ description: Informazioni sulla configurazione di una visualizzazione dell’are
 title: Configurare una visualizzazione dell’area di lavoro del percorso
 feature: Visualizations
 role: User, Admin
-source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '5765'
 ht-degree: 87%
@@ -583,5 +583,4 @@ Puoi eliminare una o più frecce alla volta all’interno di un percorso. Quando
 Per eliminare le frecce tra i nodi nell’area di lavoro del percorso:
 
 1. In una visualizzazione area di lavoro del percorso, seleziona una o più frecce tra 2 nodi da eliminare, quindi fai clic con il pulsante destro del mouse su una delle frecce selezionate.
-
 1. Seleziona [!UICONTROL **Elimina**].

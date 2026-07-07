@@ -3,7 +3,7 @@ description: Scopri come utilizzare la visualizzazione Area di lavoro Percorsi i
 title: Risoluzione dei problemi dell’area di lavoro del percorso
 feature: Visualizations
 role: User, Admin
-source-git-commit: 7b27c0dfff432f6f4dbfeb0d9be6382c60ad5252
+source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 82%
@@ -151,5 +151,4 @@ The following configurations can result in nodes that show percentages that exce
 * When the **[!UICONTROL Percentage value]** field is set to **[!UICONTROL Percent of total]** or **[!UICONTROL Percent of start node]**, and a primary metric is selected that results in less data for the start node than on subsequent nodes.
 
   For example, if Revenue is selected as the primary metric, and no revenue is being realized on the primary metric, then on any node where revenue is being realized will show as exceeding 100%. 
-
 -->
