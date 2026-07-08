@@ -5,25 +5,14 @@ feature: Segmentation
 role: User
 exl-id: ce487fa0-dd81-44e4-a684-90979afaeb07
 TQID: https://experienceleague.adobe.com/hxMHHZM2tzrv7RRhK3sToyihGG12i0KVzSzN8LNnlCk
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54eid: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1117
-ht-degree: 20%
+source-wordcount: 1213
+ht-degree: 19%
 
 ---
 
@@ -36,7 +25,7 @@ I segmenti rapidi consentono di esplorare rapidamente i dati all&#39;interno di 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Segmenti rapidi in Analysis Workspace](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/quick-segments-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -91,9 +80,9 @@ L’area dell’intestazione determina il nome, il tipo e l’ambito del segment
 | Elemento | Descrizione |
 |---|---|
 | **[!UICONTROL Name]** | Il nome viene derivato automaticamente dalla definizione del segmento rapido. |
-| **[!UICONTROL People]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alert](/help/assets/icons/Alert.svg) | Visualizzazione in anteprima dei dati risultanti dal segmento rapido. Una barra e una percentuale forniscono ad insight la quantità di dati complessivi che fa parte del risultato del segmento rapido. Un ![avviso](/help/assets/icons/AlertRed.svg) segnala che il segmento rapido non restituisce dati. |
+| **[!UICONTROL _Metrica_]** <br/>![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) ![Avviso](/help/assets/icons/Alert.svg) | Visualizzazione in anteprima dei dati delle metriche risultanti dal segmento rapido. Una barra e una percentuale forniscono ad insight la quantità di dati complessivi che fa parte del risultato del segmento rapido. Un ![avviso](/help/assets/icons/AlertRed.svg) segnala che il segmento rapido non restituisce dati. |
 | **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Seleziona dall&#39;elenco a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg) se desideri includere o escludere i risultati del segmento rapido dai dati nel pannello. |
-| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg), seleziona l&#39;ambito del segmento rapido. |
+| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]**<br/>**[!UICONTROL Products]** | Dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg), seleziona l&#39;ambito del segmento rapido. Usa **[!UICONTROL Products]** per [casi di utilizzo di analisi sub-hit](/help/components/segmentation/sub-hit.md).<ul><li>Quando trascini una dimensione di prodotto o una metrica di prodotto nel pannello Segmento rapido, il sistema seleziona automaticamente il contenitore **[!UICONTROL Products]** e non utilizza il contenitore **[!UICONTROL Hit]** predefinito. Questo comportamento mantiene l’ambito del segmento per singoli prodotti anziché per l’intero hit.</li><li>Quando trascini componenti a livello di prodotto e di hit in una singola regola di segmento, il sistema utilizza il contenitore **[!UICONTROL Hit]**, che è il contenitore condiviso più alto (meno granulare). Se tutti i componenti che fanno parte di una regola di segmento sono a livello di prodotto, viene utilizzato il contenitore **[!UICONTROL Products]**.</li></ul> |
 
 ### Area condizioni
 
