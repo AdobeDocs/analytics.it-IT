@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 13d4b15d7069a52f4953a49aa0f1f5b7cb16ae77
+source-git-commit: 0d5c4866332fcbc8195e59babd01abc95444ffac
 workflow-type: tm+mt
-source-wordcount: 890
-ht-degree: 63%
+source-wordcount: 959
+ht-degree: 59%
 
 ---
 
@@ -42,6 +42,7 @@ Queste note sulla versione coprono il periodo di rilascio di luglio 2026. Le ver
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ---- |
 | **Analisi sub-hit** <br/>L&#39;analisi sub-hit consente di analizzare i dati del prodotto a un livello più granulare rispetto al livello hit. Invece di filtrare gli hit interi, puoi segmentare i singoli prodotti all’interno degli hit. <p>Ad esempio, puoi creare segmenti per una categoria di prodotti specifica senza includere tutti gli altri prodotti acquistati nello stesso ordine.</p><p>Per ulteriori informazioni, vedere [Analisi degli hit secondari](/help/components/segmentation/sub-hit.md).</p> | 8 luglio | Fine di luglio 2026 |
+| **Estensione Activity Map: supporto Web SDK e aggiornamento dell&#39;interfaccia utente** <br/>Le implementazioni Web SDK di Adobe Analytics ora possono utilizzare l&#39;estensione di sovrapposizione Activity Map per visualizzare i dati dei clic sovrapposti sui loro siti Web.<p>In precedenza, l’estensione Activity Map overlay era disponibile solo per le implementazioni di AppMeasurement.</p> <p>Oltre al supporto per Web SDK, l&#39;estensione Activity Map overlay offre anche un look and feel aggiornato.</p><p>Il collegamento alla documentazione seguirà a breve.</p> | | Fine di luglio 2026 |
 | **Guida alle funzionalità di ricerca API di AA 2.0** <br/>Utilizza le funzionalità di ricerca per [restituire un sottoinsieme di elementi dimensionali nei report](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters).<p>Per ulteriori informazioni, consulta [Funzioni di ricerca](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters) nella guida dell&#39;endpoint Reports in Adobe Developer. | | 1 luglio 2026 |
 | **Automatizzazione dei rapporti ricorrenti con API AA** <br/>Impostazione di rapporti Adobe Analytics ricorrenti e automatici per la pipeline dei dati con nuove metriche secondo una pianificazione con API dei rapporti. <p>Per ulteriori informazioni, consulta la [guida dell&#39;endpoint per l&#39;automazione dei report ricorrenti di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) su Adobe Developer.</p> | | 1 luglio 2026 |
 | **Nuovi parametri di espansione per AA** <br/>Utilizza i nuovi parametri di espansione dell&#39;API Dimension per recuperare i campi di configurazione eVar per tipi di allocazione, scadenze, tipi di dati e merchandising. <p>Per ulteriori informazioni, consulta la [guida di riferimento API](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) e la [guida dell&#39;endpoint Dimensions](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/) su Adobe Developer.</p> | | 1 luglio 2026 |
