@@ -15,10 +15,10 @@ subfeature_v2:
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 351
-ht-degree: 60%
+source-wordcount: 354
+ht-degree: 53%
 
 ---
 
@@ -65,7 +65,7 @@ Come parte della visualizzazione, sono disponibili impostazioni specifiche dell�
 | **[!UICONTROL Starting bucket]** | Determina con quale bucket inizia l’istogramma. &quot;1&quot; è il valore predefinito. È possibile impostare i numeri iniziali da 0 a infinito (nessun numero negativo). |
 | **[!UICONTROL Metric buckets]** | Consente di aumentare/diminuire il numero di intervalli di dati (bucket). Il numero massimo consentito è 50. |
 | **[!UICONTROL Metric bucket size]** | Consente di impostare la dimensione di ciascun bucket. Ad esempio, puoi modificare la dimensione del bucket dalla visualizzazione a 1 pagina a 2 visualizzazioni di pagina. |
-| **[!UICONTROL Counting method]** | Seleziona da **[!UICONTROL Person]**, **[!UICONTROL Session]**, o **[!UICONTROL Event]**. Ad esempio, visualizzazioni di pagina per sessione, per persona o per evento. |
+| **[!UICONTROL Counting method]** | Seleziona tra **[!UICONTROL Person]**, **[!UICONTROL Session]**, **[!UICONTROL Event]** o **[!UICONTROL Products]** (per [analisi sub-hit](/help/components/segmentation/sub-hit.md)). Ad esempio, visualizzazioni pagina per sessione, visualizzazioni pagina per persona, visualizzazioni pagina per evento o visualizzazione pagina per prodotto. |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -78,8 +78,5 @@ Come parte della visualizzazione, sono disponibili impostazioni specifiche dell�
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannello](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#add-visualizations-to-a-panel)
->[Impostazioni di visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#settings)
->[Menu di scelta rapida visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu)
->[Utilizzo di istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=it)
+>[Aggiungi una visualizzazione a un pannelloImpostazioni di visualizzazioneMenu di scelta rapida visualizzazioneUtilizzo di istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=it)
 

@@ -20,10 +20,10 @@ subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1117
-ht-degree: 20%
+source-wordcount: 1213
+ht-degree: 19%
 
 ---
 
@@ -91,9 +91,9 @@ L’area dell’intestazione determina il nome, il tipo e l’ambito del segment
 | Elemento | Descrizione |
 |---|---|
 | **[!UICONTROL Name]** | Il nome viene derivato automaticamente dalla definizione del segmento rapido. |
-| **[!UICONTROL People]** <br/>![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) ![Alert](/help/assets/icons/Alert.svg) | Visualizzazione in anteprima dei dati risultanti dal segmento rapido. Una barra e una percentuale forniscono ad insight la quantità di dati complessivi che fa parte del risultato del segmento rapido. Un ![avviso](/help/assets/icons/AlertRed.svg) segnala che il segmento rapido non restituisce dati. |
+| **[!UICONTROL _Metrica_]** <br/>![CerchioSegno di spunta](/help/assets/icons/CheckmarkCircle.svg) ![Avviso](/help/assets/icons/Alert.svg) | Visualizzazione in anteprima dei dati delle metriche risultanti dal segmento rapido. Una barra e una percentuale forniscono ad insight la quantità di dati complessivi che fa parte del risultato del segmento rapido. Un ![avviso](/help/assets/icons/AlertRed.svg) segnala che il segmento rapido non restituisce dati. |
 | **[!UICONTROL Include]**<br/>**[!UICONTROL Exclude]** | Seleziona dall&#39;elenco a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg) se desideri includere o escludere i risultati del segmento rapido dai dati nel pannello. |
-| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]** | Dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg), seleziona l&#39;ambito del segmento rapido. |
+| **[!UICONTROL Event]**<br/>**[!UICONTROL Session]**<br/>**[!UICONTROL Person]**<br/>**[!UICONTROL Products]** | Dal menu a discesa ![ChevronDown](/help/assets/icons/ChevronDown.svg), seleziona l&#39;ambito del segmento rapido. Usa **[!UICONTROL Products]** per [casi di utilizzo di analisi sub-hit](/help/components/segmentation/sub-hit.md).<ul><li>Quando trascini una dimensione di prodotto o una metrica di prodotto nel pannello Segmento rapido, il sistema seleziona automaticamente il contenitore **[!UICONTROL Products]** e non utilizza il contenitore **[!UICONTROL Hit]** predefinito. Questo comportamento mantiene l’ambito del segmento per singoli prodotti anziché per l’intero hit.</li><li>Quando trascini componenti a livello di prodotto e di hit in una singola regola di segmento, il sistema utilizza il contenitore **[!UICONTROL Hit]**, che è il contenitore condiviso più alto (meno granulare). Se tutti i componenti che fanno parte di una regola di segmento sono a livello di prodotto, viene utilizzato il contenitore **[!UICONTROL Products]**.</li></ul> |
 
 ### Area condizioni
 

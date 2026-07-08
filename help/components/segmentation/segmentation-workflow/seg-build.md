@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
 workflow-type: tm+mt
-source-wordcount: 1762
-ht-degree: 43%
+source-wordcount: 1882
+ht-degree: 39%
 
 ---
 
@@ -84,7 +84,7 @@ Utilizza il Generatore di definizioni per creare la definizione del segmento. In
 Puoi configurare il tipo e l’ambito della definizione:
 
 1. Per specificare il tipo di definizione, indica se desideri creare una definizione di inclusione o esclusione. Selezionare ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** e dal menu a discesa **[!UICONTROL Include]** o **[!UICONTROL Exclude]**.
-1. Per specificare l&#39;ambito della definizione, selezionare dal menu a discesa **[!UICONTROL Include]** o **[!UICONTROL Exclude]** se si desidera che l&#39;ambito della definizione sia **[!UICONTROL Hits]**, **[!UICONTROL Visits]** o **[!UICONTROL Visitors]**.
+1. Per specificare l&#39;ambito della definizione, selezionare dal menu a discesa **[!UICONTROL Include]** o **[!UICONTROL Exclude]** se si desidera che l&#39;ambito della definizione sia **[!UICONTROL Hits]**, **[!UICONTROL Visits]**, **[!UICONTROL Visitors]** o **[!UICONTROL Products]**. Si utilizza **[!UICONTROL Products]** per [casi di utilizzo di analisi sub-hit](/help/components/segmentation/sub-hit.md).
 
 È sempre possibile modificare queste impostazioni in un secondo momento.
 
@@ -96,7 +96,9 @@ Una parte fondamentale della costruzione della definizione del segmento è l’u
 
 Per aggiungere un componente:
 
-1. Trascina un componente dal pannello dei componenti su **[!UICONTROL Drag and drop Metric(s), Segment(s), and/or Dimensions here]**. Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare componenti specifici.
+1. Trascina un componente dal pannello dei componenti su **[!UICONTROL Drag and drop Metric(s), Segment(s), and/or Dimensions here]**.
+   * Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare componenti specifici.
+   * È possibile utilizzare ![Filter](/help/assets/icons/Filter.svg) nella barra dei componenti per filtrare i componenti ![Checkmark](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approved]**, ![Star](/help/assets/icons/Star.svg) **[!UICONTROL Favorites]**, ![DataDimension](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensions]**, ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Metrics]**, ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]**, ![Calendar](/help/assets/icons/Calendar.svg) **[!UICONTROL Date ranges]** e ![Layer](/help/assets/icons/Layer.svg) **[!UICONTROL Products]**. È inoltre possibile filtrare i tag ![Label](/help/assets/icons/Label.svg).
 1. Specifica i dettagli del componente. Ad esempio, seleziona un valore da **[!UICONTROL Select value]**. Oppure inserisci un valore. Cosa e come specificare uno o più valori dipende dal componente e dall’operatore.
 1. Facoltativamente, modifica l’operatore predefinito. Ad esempio, da **[!UICONTROL equals]** a **[!UICONTROL equals any of]**. Consulta [Operatori](../seg-reference/seg-operators.md) per una panoramica dettagliata degli operatori disponibili.
 
@@ -121,7 +123,7 @@ Puoi raggruppare più componenti in uno o più contenitori e definire la logica 
 * Per aggiungere un altro componente al contenitore, trascinalo dal pannello dei componenti al contenitore. Utilizza la linea di inserimento blu come guida.
 * Per aggiungere un altro componente all’esterno del contenitore, trascinalo dal pannello dei componenti all’esterno del contenitore, ma all’interno del contenitore di definizione principale. Utilizza la linea di inserimento blu come guida.
 * Per modificare la logica tra i componenti di un contenitore, tra contenitori o tra un contenitore e un componente, seleziona **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** appropriati. Quando selezioni **[!UICONTROL Then]**, converti il segmento in un segmento sequenziale. Per ulteriori informazioni, vedere [Creare un segmento sequenziale](seg-sequential-build.md).
-* Per cambiare il livello del contenitore, seleziona ![WebPage](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]** o ![Utente](/help/assets/icons/User.svg) **[!UICONTROL Visitors]**.
+* Per cambiare il livello del contenitore, selezionare ![PaginaWeb](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]**, ![Utente](/help/assets/icons/User.svg) **[!UICONTROL Visitors]** o ![MostraTuttoLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL Products]**.
 
 È possibile utilizzare ![Impostazioni](/help/assets/icons/Setting.svg) in un contenitore per le azioni seguenti:
 
@@ -133,6 +135,9 @@ Puoi raggruppare più componenti in uno o più contenitori e definire la logica 
 | **[!UICONTROL Name container]** | Rinomina il contenitore dalla relativa descrizione predefinita. Digita un nome nel campo di testo. Se non fornisci alcun input, viene utilizzata la descrizione predefinita. |
 | **[!UICONTROL Delete container]** | Elimina il contenitore dalla definizione. |
 
+Quando trascini una dimensione o una metrica di prodotto nel Generatore di segmenti, il sistema seleziona automaticamente il contenitore **[!UICONTROL Product]** e non utilizza il contenitore **[!UICONTROL Hit]** predefinito. Questo comportamento mantiene l’ambito del segmento per singoli prodotti anziché per l’intero hit.
+
+Quando trascini componenti a livello di prodotto e di hit in una singola regola di segmento, il sistema utilizza il contenitore **[!UICONTROL Hit]**, che è il contenitore condiviso più alto (meno granulare). Se tutti i componenti che fanno parte di una regola di segmento sono a livello di prodotto, viene utilizzato il contenitore **[!UICONTROL Products]**.
 
 ## Intervalli di date
 
