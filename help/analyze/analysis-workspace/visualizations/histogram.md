@@ -32,7 +32,7 @@ ht-degree: 53%
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentata la visualizzazione Istogramma in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vedere [Istogramma](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/histogram) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_In questo articolo viene documentata la visualizzazione Istogramma in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Vedere [Istogramma](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/histogram) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -78,5 +78,5 @@ Come parte della visualizzazione, sono disponibili impostazioni specifiche dellâ
 
 >[!MORELIKETHIS]
 >
->[Aggiungi una visualizzazione a un pannelloImpostazioni di visualizzazioneMenu di scelta rapida visualizzazioneUtilizzo di istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168)
+>[Aggiungi una visualizzazione a un pannelloImpostazioni di visualizzazioneMenu di scelta rapida visualizzazioneUtilizzo di istogrammi per identificare valori di dati imprevisti](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/using-histograms-to-identify-unexpected-data-values/ba-p/596168?profile.language=it)
 
