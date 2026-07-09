@@ -14,10 +14,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0e43265266d1fe8447d0f63cb17e0c7a94be7954
+source-git-commit: a183524bd5eeaa089e40772e0f7d39b13c672bc7
 workflow-type: tm+mt
-source-wordcount: 1478
-ht-degree: 8%
+source-wordcount: 1724
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ L’elenco delle classificazioni presenta le seguenti colonne:
 | Colonna | Descrizione |
 |---|---|
 | **[!UICONTROL Classification name]** | Il nome fornito per la classificazione. |
-| **[!UICONTROL Identity name]** | Il nome generato dal sistema per la classificazione. Questo nome è un valore di sola lettura e deriva dal nome della classificazione iniziale. Il nome dell’identità viene utilizzato internamente per mantenere la classificazione, fungere da ID della dimensione da segnalare e non può essere modificato. |
+| **[!UICONTROL Identity name]** | Nome generato dal sistema per la classificazione. Questo nome è un valore di sola lettura e deriva dal nome della classificazione iniziale. Il nome dell’identità viene utilizzato internamente per mantenere la classificazione, fungere da ID della dimensione da segnalare e non può essere modificato. |
 | **[!UICONTROL Classified by]** | Se utilizzato, un collegamento al set di classificazione di ricerca utilizzato per classificare questa classificazione. |
 
 
@@ -223,7 +223,23 @@ Ad esempio:
 
 >[!IMPORTANT]
 >
->Rimuovere manualmente i file dal percorso del cloud o utilizzando un criterio di rotazione dei file una volta che i file sono stati importati ed elaborati correttamente. In caso contrario, i file vengono reimportati ed elaborati al successivo processo di importazione.
+>Rimuovere manualmente i file dal percorso del cloud o utilizzando un criterio di rotazione dei file una volta che i file sono stati importati ed elaborati correttamente. In caso contrario, i file vengono reimportati e rielaborati in base all’ultima data modificata del file e utilizzando un registro di 30 giorni. Vedi l’esempio seguente.
+>
+
+### Esempio
+
+Il 5/1/2026 è stato creato e caricato un file di importazione, denominato `import.csv`, aggiornato e caricato il 6/16/2026. Quando il file non viene rimosso, su:
+
+| Data | Azione |
+|---:|---|
+| 5/1/26 | Un file con titolo `import.csv` è stato caricato nell&#39;archivio cloud. |
+| 5/1/26 | Il file viene elaborato (il file ha meno di 30 giorni e non è stato elaborato in precedenza). |
+| 5/28/26 | Il file è **non** elaborato (il file ha meno di 30 giorni, ma è stato elaborato negli ultimi 30 giorni). |
+| 6/15/26 | Il file è **non** elaborato (il file è trascorso più di 30 giorni dall&#39;ultima data di modifica/caricamento). |
+| 6/16/26 | È stato effettuato un aggiornamento allo stesso file, con titolo `import.csv`, e caricato nell&#39;archivio cloud. |
+| 6/16/26 | Il file aggiornato viene elaborato (il file aggiornato ha meno di 30 giorni e non è stato ancora elaborato). |
+| 6/30/26 | Il file aggiornato è **non** elaborato (il file aggiornato ha meno di 30 giorni, ma è stato elaborato negli ultimi 30 giorni). |
+| 7/31/26 | Il file aggiornato è **non** elaborato (il file aggiornato è stato aggiornato più di 30 giorni dalla data/data di caricamento dell&#39;ultima modifica). |
 
 
 
