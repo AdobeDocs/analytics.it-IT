@@ -14,9 +14,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a183524bd5eeaa089e40772e0f7d39b13c672bc7
+source-git-commit: c1846b5fd063846eae6da1b1dc7b17659d0a1b14
 workflow-type: tm+mt
-source-wordcount: 1724
+source-wordcount: 1726
 ht-degree: 10%
 
 ---
@@ -235,11 +235,11 @@ Il 5/1/2026 è stato creato e caricato un file di importazione, denominato `impo
 | 5/1/26 | Un file con titolo `import.csv` è stato caricato nell&#39;archivio cloud. |
 | 5/1/26 | Il file viene elaborato (il file ha meno di 30 giorni e non è stato elaborato in precedenza). |
 | 5/28/26 | Il file è **non** elaborato (il file ha meno di 30 giorni, ma è stato elaborato negli ultimi 30 giorni). |
-| 6/15/26 | Il file è **non** elaborato (il file è trascorso più di 30 giorni dall&#39;ultima data di modifica/caricamento). |
+| 6/15/26 | Il file è **non** elaborato (il file ha più di 30 giorni dalla data/data di caricamento dell&#39;ultima modifica). |
 | 6/16/26 | È stato effettuato un aggiornamento allo stesso file, con titolo `import.csv`, e caricato nell&#39;archivio cloud. |
 | 6/16/26 | Il file aggiornato viene elaborato (il file aggiornato ha meno di 30 giorni e non è stato ancora elaborato). |
 | 6/30/26 | Il file aggiornato è **non** elaborato (il file aggiornato ha meno di 30 giorni, ma è stato elaborato negli ultimi 30 giorni). |
-| 7/31/26 | Il file aggiornato è **non** elaborato (il file aggiornato è stato aggiornato più di 30 giorni dalla data/data di caricamento dell&#39;ultima modifica). |
+| 7/31/26 | Il file aggiornato è **non** elaborato (il file aggiornato ha più di 30 giorni dalla data/data di caricamento dell&#39;ultima modifica). |
 
 
 
