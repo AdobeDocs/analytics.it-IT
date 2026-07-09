@@ -4,21 +4,14 @@ description: Scopri come visualizzare i processi di classificazione correnti e c
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
 feature: Classifications
 TQID: https://experienceleague.adobe.com/KXJHotem9uyppKE-oZ4KsOn1c2BOVDY2jepu6GR3DK4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: b2c4f0ff17f52c072ecec688dc7a3dac9c8c8dcb
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 2%
+source-wordcount: 704
+ht-degree: 3%
 
 ---
 
@@ -52,7 +45,7 @@ L&#39;elenco **[!UICONTROL Classification Jobs]** ➊ visualizza i processi di c
 | **[!UICONTROL Status]** | Stato del processo di classificazione. I valori possibili sono: **[!UICONTROL Created]**, **[!UICONTROL Queued]**, **[!UICONTROL Validated]**, **[!UICONTROL Failed validation]**, **[!UICONTROL Processing]**, **[!UICONTROL Done processing]**, **[!UICONTROL Failed processing]** , **[!UICONTROL Completed]** o **[!UICONTROL Progress]**. Se visualizzato, passa il cursore del mouse sull&#39;avviso ![Avviso](/help/assets/icons/Alert.svg) per visualizzare ulteriori informazioni. |
 | **[!UICONTROL File Name]** | Identifica il nome o la funzionalità utilizzati per importare o esportare il file come parte del processo di classificazione. I valori possibili sono: <ul><li>*nessun valore*</li><li>Nome del file elaborato come parte del processo di classificazione.</li><li>**[!UICONTROL SAINT Export]**: il processo è un&#39;esportazione dall&#39;[interfaccia classificazioni legacy](/help/components/classifications/importer/c-working-with-saint.md).</li><li>**[!UICONTROL export for _set di classificazione _in_timestamp_]**: il processo è un download dall&#39;interfaccia [schema](manage/schema.md#download).</li></ul> |
 | **[!UICONTROL Job Type]** | Tipo di processo di classificazione. I valori possibili sono: **[!UICONTROL Import]** o **[!UICONTROL Export]**. |
-| **[!UICONTROL Source]** | Origine del processo di classificazione. I valori possibili sono: **[!UICONTROL Web API]**, **[!UICONTROL Direct API Upload]**, **[!UICONTROL Adobe]**, **[!UICONTROL SAINT]** o **[!UICONTROL Unknown]**. |
+| **[!UICONTROL Source]** | Origine del processo di classificazione. Per informazioni dettagliate sulle possibili origini, vedere [Pannello filtri](#filter-panel). |
 | **[!UICONTROL Modified Lines]** | Il numero di righe modificate dal processo di classificazione. |
 | **[!UICONTROL Total Lines]** | Numero di righe totali elaborate dal processo di classificazione. |
 | **[!UICONTROL Completion Time]** | L’ora di completamento del processo di classificazione. |
@@ -88,6 +81,21 @@ Seleziona ![Filtro](/help/assets/icons/Filter.svg) per visualizzare il pannello 
 * **[!UICONTROL Status]**. Seleziona uno dei valori possibili per filtrare l’elenco dei processi di classificazione in base allo stato.
 * **[!UICONTROL Job Type]**. Seleziona uno dei valori possibili per filtrare l’elenco dei processi di classificazione in base al tipo di processo.
 * **[!UICONTROL Source]**. Seleziona uno dei valori possibili per filtrare l’elenco dei processi di classificazione sull’origine.
+
+  I valori possibili per **[!UICONTROL Source]** sono:
+
+  | Origine | Spiegazione |
+  |---|---|
+  | **[!UICONTROL Adobe]** | Processi creati da Adobe come parte di un processo interno. Ad esempio, i consolidamenti. |
+  | **[!UICONTROL Backend]** | Processi creati dal processo di importazione FTP obsoleto. |
+  | **[!UICONTROL Cloud Ingestion]** | Processi risultanti dall’importazione di dati di classificazione da una posizione cloud. |
+  | **[!UICONTROL Direct API Export]** | Processi risultanti dall’utilizzo dell’API Adobe Analytics 2.0 per esportare i dati di classificazione. |
+  | **[!UICONTROL Direct API Upload]** | Processi risultanti dall’utilizzo dell’API Adobe Analytics 2.0 per caricare i dati di classificazione. |
+  | **[!UICONTROL Republish]** | Processi risultanti da una ripubblicazione. |
+  | **[!UICONTROL Rule-based Classifications]** | Processi che sono il risultato di classificazioni basate su regole. |
+  | **[!UICONTROL Saint]** | Processi che sono il risultato di classificazioni legacy basate su regole. |
+  | **[!UICONTROL Web API]** | Processi risultanti dall’utilizzo dell’API web per esportare o caricare dati di classificazione. |
+  | **[!UICONTROL Unknown]** | Processi per i quali l&#39;origine è sconosciuta. |
 
 
 Seleziona ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Hide filters]** per nascondere il pannello dei filtri.
