@@ -37,7 +37,7 @@ L’inoltro lato server funziona con [Analytics](https://www.adobe.com/it/data-a
 
 ## Servizi richiesti
 
-L’inoltro lato server richiede [Identity Service](https://experienceleague.adobe.com/en/docs/id-service/using/home). Identity Service fornisce un ID universale che identifica i visitatori del sito in tutte le soluzioni di CX Enterprise. È necessario implementare il servizio ID prima di attivare l’inoltro lato server.
+L’inoltro lato server richiede [Identity Service](https://experienceleague.adobe.com/it/docs/id-service/using/home). Identity Service fornisce un ID universale che identifica i visitatori del sito in tutte le soluzioni di CX Enterprise. È necessario implementare il servizio ID prima di attivare l’inoltro lato server.
 
 ## Versioni del codice
 

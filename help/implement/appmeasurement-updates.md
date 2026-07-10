@@ -481,7 +481,7 @@ Data di rilascio: **22 maggio 2014**
 
 Data di rilascio: **17 aprile 2014**
 
-* Supporto per il servizio [ID visitatore](https://experienceleague.adobe.com/en/docs/id-service/using/home).
+* Supporto per il servizio [ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/home).
 
 ## Versione 1.2.4
 
@@ -512,7 +512,7 @@ Data di rilascio: **15 novembre 2013**
 Data di rilascio: **14 novembre 2013**
 
 * È stato aggiunto il supporto per la misurazione video [Heartbeat](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-overview).
-* È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://experienceleague.adobe.com/en/docs/id-service/using/home).
+* È stato aggiunto `VisitorAPI.js` per il supporto del [servizio ID visitatori](https://experienceleague.adobe.com/it/docs/id-service/using/home).
 
 ## Versione 1.1.1
 

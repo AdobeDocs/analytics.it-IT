@@ -73,8 +73,8 @@ I criteri ITP sono in continua evoluzione. Per criteri più recenti, consulta la
 Tutti i cookie di prime parti impostati da Adobe e le librerie JavaScript correlate sono interessati dai criteri ITP:
 
 * [Cookie “AMCV”](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it) impostati dalla libreria del servizio ID visitatore di Adobe Experience Cloud (ECID)
-* La versione legacy del [cookie “s_vi”](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) di Analytics quando è configurato con la raccolta dati di prime parti mediante un CNAME
-* La versione legacy del [cookie “s_fid”](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) di Analytics, ovvero il cookie di fallback utilizzato quando non è possibile impostare “s_vi”
+* La versione legacy del [cookie “s_vi”](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) di Analytics quando è configurato con la raccolta dati di prime parti mediante un CNAME
+* La versione legacy del [cookie “s_fid”](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) di Analytics, ovvero il cookie di fallback utilizzato quando non è possibile impostare “s_vi”
 
 #### Qual è l’impatto del programma ITP su Safari per Analytics?
 
@@ -197,4 +197,4 @@ Se la tua azienda è interessata dalla prevenzione del tracciamento ITP, puoi pr
 
 >[!MORELIKETHIS]
 >
->[Opzioni per attenuare l&#39;effetto delle limitazioni dei cookie del browserImpatto del nuovo framework per la trasparenza del tracciamento delle app di Apple su Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833)
+>[Opzioni per attenuare l&#39;effetto delle limitazioni dei cookie del browserImpatto del nuovo framework per la trasparenza del tracciamento delle app di Apple su Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/the-impact-of-apple-s-new-app-tracking-transparency-framework-on/td-p/401833?profile.language=it)

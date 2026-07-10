@@ -27,7 +27,7 @@ ht-degree: 6%
 
 # Visitatori con Experience Cloud ID
 
-La [metrica](overview.md) &#39;[!UICONTROL Visitors with Experience Cloud ID]&#39; mostra il numero di visitatori univoci identificati da Adobe con un ECID (utilizzando il [Servizio ID visitatori](https://experienceleague.adobe.com/en/docs/id-service/using/home) o il [Servizio Experience Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home)). Questa metrica è utile da confrontare con la metrica [Visitatori univoci](unique-visitors.md) per assicurarsi che la maggior parte dei visitatori del sito utilizzi un ECID. Se un’ampia porzione di visitatori non utilizza questo identificatore, può indicare un problema all’interno dell’implementazione.
+La [metrica](overview.md) &#39;[!UICONTROL Visitors with Experience Cloud ID]&#39; mostra il numero di visitatori univoci identificati da Adobe con un ECID (utilizzando il [Servizio ID visitatori](https://experienceleague.adobe.com/it/docs/id-service/using/home) o il [Servizio Experience Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home)). Questa metrica è utile da confrontare con la metrica [Visitatori univoci](unique-visitors.md) per assicurarsi che la maggior parte dei visitatori del sito utilizzi un ECID. Se un’ampia porzione di visitatori non utilizza questo identificatore, può indicare un problema all’interno dell’implementazione.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ La [metrica](overview.md) &#39;[!UICONTROL Visitors with Experience Cloud ID]&#3
 
 ## Come è calcolata questa metrica
 
-Questa metrica si basa sulla metrica [Visitatori univoci](unique-visitors.md), tranne per il fatto che include solo gli individui identificati utilizzando la stringa di query `mid` (basata sul cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
+Questa metrica si basa sulla metrica [Visitatori univoci](unique-visitors.md), tranne per il fatto che include solo gli individui identificati utilizzando la stringa di query `mid` (basata sul cookie [`s_ecid`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics)).
 
 ## Eseguire il debug della configurazione ECID
 
