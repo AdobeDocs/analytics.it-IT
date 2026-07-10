@@ -1,6 +1,6 @@
 ---
 title: Visitatori con Experience Cloud ID
-description: Il numero di visitatori univoci che utilizzano il servizio Adobe Experience Cloud ID.
+description: Il numero di visitatori univoci che utilizzano un ECID.
 feature: Metrics
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
 TQID: https://experienceleague.adobe.com/CCk7FDZhZ3mFYXtAggcxnAjvJoJp5zMf0NNk5w0tVY8
@@ -18,39 +18,39 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 378
-ht-degree: 8%
+source-wordcount: 355
+ht-degree: 6%
 
 ---
 
 # Visitatori con Experience Cloud ID
 
-La metrica &#39;Visitatori con ID Experience Cloud&#39; [metric](overview.md) mostra il numero di visitatori univoci identificati da Adobe tramite il servizio [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Questa metrica è utile da confrontare con la metrica [Visitatori univoci](unique-visitors.md) per assicurarsi che la maggior parte dei visitatori del sito utilizzi il servizio ID. Se una grande parte dei visitatori non utilizza i cookie del servizio ID, può indicare un problema all&#39;interno dell&#39;implementazione.
+La [metrica](overview.md) &#39;[!UICONTROL Visitors with Experience Cloud ID]&#39; mostra il numero di visitatori univoci identificati da Adobe con un ECID (utilizzando il [Servizio ID visitatori](https://experienceleague.adobe.com/it/docs/id-service/using/home) o il [Servizio Experience Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home)). Questa metrica è utile da confrontare con la metrica [Visitatori univoci](unique-visitors.md) per assicurarsi che la maggior parte dei visitatori del sito utilizzi un ECID. Se un’ampia porzione di visitatori non utilizza questo identificatore, può indicare un problema all’interno dell’implementazione.
 
 >[!NOTE]
 >
->Questa metrica è particolarmente importante per il debug se si utilizzano più servizi CX Enterprise, come Adobe Target o Adobe Audience Manager. I segmenti condivisi tra i prodotti aziendali CX non includono i visitatori senza un Experience Cloud ID.
+>Questa metrica è particolarmente importante per il debug se si utilizzano più servizi CX Enterprise, come Adobe Target o Adobe Audience Manager. I segmenti condivisi tra i prodotti aziendali CX non includono i visitatori senza un ECID.
 
 ## Come è calcolata questa metrica
 
-Questa metrica si basa sulla metrica [Visitatori univoci](unique-visitors.md), tranne per il fatto che include solo gli individui identificati utilizzando la stringa di query `mid` (basata sul cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=it)).
+Questa metrica si basa sulla metrica [Visitatori univoci](unique-visitors.md), tranne per il fatto che include solo gli individui identificati utilizzando la stringa di query `mid` (basata sul cookie [`s_ecid`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics)).
 
-## Debug della configurazione dell’Experience Cloud ID
+## Eseguire il debug della configurazione ECID
 
-La metrica &quot;Visitatori con Experience Cloud ID&quot; può essere utile per risolvere problemi relativi alle integrazioni CX Enterprise o per identificare aree del sito in cui non è stato implementato il servizio ID.
+La metrica &#39;[!UICONTROL Visitors with Experience Cloud ID]&#39; può essere utile per la risoluzione dei problemi relativi alle integrazioni CX Enterprise o per l&#39;identificazione di aree del sito in cui non è implementato il servizio ID visitatori o il servizio Experience Platform Identity.
 
-Trascina &quot;Visitatori con Experience Cloud ID&quot; accanto a Visitatori univoci per confrontarli:
+Trascina &#39;[!UICONTROL Visitors with Experience Cloud ID]&#39; affiancato a Visitatori univoci per confrontarli:
 
 ![Confronto visitatore univoco](assets/metric-mcvid1.png)
 
-In questo esempio, tieni presente che ogni pagina ha lo stesso numero di &quot;Visitatori univoci&quot; di &quot;Visitatori con un Experience Cloud ID&quot;. Tuttavia, il numero totale di Visitatori univoci è maggiore del numero totale di Visitatori con Experience Cloud ID. Puoi creare una [metrica calcolata](../calculated-metrics/cm-overview.md) per individuare le pagine che non impostano il servizio ID. Puoi utilizzare la seguente definizione:
+In questo esempio, si noti che ogni pagina ha lo stesso numero di &#39;[!UICONTROL Unique Visitors]&#39; di &#39;[!UICONTROL Visitors with Experience Cloud ID]&#39;. Tuttavia, il numero totale di &#39;[!UICONTROL Unique Visitors]&#39; è maggiore del numero totale di &#39;[!UICONTROL Visitors with Experience Cloud ID]&#39;. Puoi creare una [metrica calcolata](../calculated-metrics/cm-overview.md) per individuare le pagine che non utilizzano un ECID utilizzando la seguente definizione:
 
 ![Definizione metrica calcolata](assets/metric-mcvid2.png)
 
-Aggiungendo la metrica calcolata al rapporto, puoi ordinare il rapporto Pagine in modo da visualizzare le pagine con il maggior numero di visitatori senza un MCID:
+Aggiungendo la metrica calcolata al rapporto, puoi ordinare il rapporto Pagine in modo da visualizzare le pagine con il maggior numero di visitatori senza un ECID:
 
-![Pagine senza servizio ID](assets/metric-mcvid3.png)
+![Pagine senza ECID](assets/metric-mcvid3.png)
 
-L’elemento dimensione &quot;Visualizzazioni rapide del prodotto&quot; non è implementato correttamente con il servizio Identity. Puoi lavorare con i team appropriati all’interno della tua organizzazione per aggiornare queste pagine il prima possibile. È possibile creare un report simile con qualsiasi tipo di dimensione, ad esempio [Tipo browser](../dimensions/browser-type.md), [Sezione sito](../dimensions/site-section.md) o qualsiasi [eVar](../dimensions/evar.md).
+L’elemento dimensionale &quot;Visualizzazioni rapide del prodotto&quot; non è implementato correttamente con un ECID. Puoi lavorare con i team appropriati all’interno della tua organizzazione per aggiornare queste pagine il prima possibile. È possibile creare un report simile con qualsiasi tipo di dimensione, ad esempio [Tipo browser](../dimensions/browser-type.md), [Sezione sito](../dimensions/site-section.md) o qualsiasi [eVar](../dimensions/evar.md).

@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 190
+source-wordcount: 196
 ht-degree: 2%
 
 ---
@@ -26,6 +26,6 @@ ht-degree: 2%
 
 La libreria JavaScript di Adobe Experience Platform Web SDK (`alloy.js`) offre un approccio moderno e unificato alla raccolta dei dati per tutte le applicazioni Adobe CX Enterprise, incluso Adobe Analytics. Mentre la maggior parte dei clienti implementa in genere l&#39;estensione tag [Web SDK](web-sdk-extension.md), è possibile utilizzare la libreria Web SDK JavaScript in modo autonomo o all&#39;interno di un sistema di gestione tag di terze parti. Consulta [Alloy](https://github.com/adobe/alloy) su GitHub per scaricare la versione più recente della libreria.
 
-I dati di identità possono essere estesi per supportare ID personalizzati e più spazi dei nomi utilizzando XDM `identityMap`. Adobe consiglia di utilizzare il servizio Adobe Experience Cloud ID come identificatore primario per Analytics, utilizzando altre opzioni di gestione delle identità per scenari avanzati.
+I dati di identità possono essere estesi per supportare ID personalizzati e più spazi dei nomi utilizzando XDM [`identityMap`](https://experienceleague.adobe.com/it/docs/experience-platform/collection/identity/identity-map). Adobe consiglia di utilizzare ECID come identificatore primario per Analytics, utilizzando altre opzioni di gestione delle identità per scenari avanzati.
 
-Se la tua organizzazione utilizza la libreria JavaScript di Web SDK per inviare dati ad Adobe Analytics, è necessaria una configurazione minima per l’identificazione dei visitatori. Il servizio ID visitatore viene inviato in modalità nativa alla libreria, richiedendo solo l&#39;impostazione di **[!UICONTROL Edge Domain]** nel comando `configure`. Se questo campo è impostato sul valore desiderato, l’identificazione del visitatore funziona senza alcuna configurazione aggiuntiva.
+Se la tua organizzazione utilizza la libreria JavaScript di Web SDK per inviare dati ad Adobe Analytics, è necessaria una configurazione minima per l’identificazione dei visitatori. Il servizio Experience Platform Identity viene inviato in modalità nativa alla libreria, richiedendo solo l&#39;impostazione di **[!UICONTROL Edge Domain]** nel comando `configure`. Se questo campo è impostato sul valore desiderato, l’identificazione del visitatore funziona senza alcuna configurazione aggiuntiva.

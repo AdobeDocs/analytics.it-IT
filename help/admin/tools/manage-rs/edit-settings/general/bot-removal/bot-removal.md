@@ -18,10 +18,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 696020b4275732211c9ee276636a4cf2161176da
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 770
-ht-degree: 60%
+source-wordcount: 765
+ht-degree: 55%
 
 ---
 
@@ -42,7 +42,7 @@ Per ulteriori dettagli, consulta [Comprendere e configurare le regole bot](/help
 
 ## Utilizzare una combinazione di strumenti Adobe
 
-Inoltre, dal momento che i bot si stanno evolvendo rapidamente, Adobe offre diverse altre potenti funzionalità che, se combinate correttamente e regolarmente, possono aiutare a dare impulso alla rimozione di questi nemici della qualità dei dati. Tali funzioni sono: servizio Experience Cloud ID, segmentazione, Data Warehouse, attributi cliente e suite di rapporti virtuali. Ecco una panoramica su come utilizzare questi strumenti.
+Inoltre, dal momento che i bot si stanno evolvendo rapidamente, Adobe offre diverse altre potenti funzionalità che, se combinate correttamente e regolarmente, possono aiutare a dare impulso alla rimozione di questi nemici della qualità dei dati. Tali funzioni sono: servizio ID visitatore, segmentazione, Data Warehouse, attributi cliente e suite di rapporti virtuali. Ecco una panoramica su come utilizzare questi strumenti.
 
 ### Passaggio 1: passa l&#39;ID Experience Cloud dei visitatori in un nuovo ID dichiarato
 
@@ -50,11 +50,11 @@ Per iniziare, crea un nuovo ID dichiarato nel [servizio core Persone](https://ex
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
-Ecco come si può acquisire questo ID tramite l’elemento dati. Assicurati di compilare correttamente l’ID organizzazione CX Enterprise nell’elemento dati.
+Ecco come questo ID può essere acquisito tramite l’elemento dati. Assicurati di compilare correttamente l’ID organizzazione IMS nell’elemento dati.
 
 `return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();`
 
-Una volta configurato l’elemento dati, segui [queste istruzioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it) per passare gli ID dichiarati nello strumento ECID utilizzando i tag in Adobe Experience Platform.
+Una volta configurato l&#39;elemento dati, segui [queste istruzioni](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it) per passare gli ID dichiarati nello strumento ECID utilizzando i tag in Adobe Experience Platform.
 
 ### Passaggio 2: utilizza la segmentazione per identificare i bot
 
@@ -68,7 +68,7 @@ Dopo aver identificato i bot che utilizzano i segmenti, il passaggio successivo 
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
-Ricorda di utilizzare l’ID visitatore aziendale CX come dimensione e di applicare il segmento &quot;Bots&quot;.
+Ricorda di utilizzare [!UICONTROL Experience Cloud Visitor ID] come dimensione e di applicare il segmento &quot;Bots&quot;.
 
 ### Passaggio 4: passa questo elenco ad Adobe come attributo del cliente
 

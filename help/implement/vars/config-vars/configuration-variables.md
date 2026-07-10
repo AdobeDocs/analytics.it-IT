@@ -20,9 +20,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 383
+source-wordcount: 381
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Le seguenti variabili di configurazione vengono ritirate. Sono documentati qui c
 * **`fpCookieDomainPeriods`**: l&#39;equivalente di prima parte di `cookieDomainPeriods`, utilizzato per impostare i cookie nella posizione corretta quando il suffisso di un dominio di prima parte contiene un punto aggiuntivo (ad esempio `example.co.uk`). Le versioni correnti di AppMeasurement rilevano automaticamente il dominio corretto, rendendo obsoleta questa variabile.
 * **`trackingServer`**: specificato il dominio utilizzato per inviare dati ad Adobe tramite HTTP. È stato dichiarato obsoleto a favore di una raccolta dati sicura tramite HTTPS. Usa [`trackingServerSecure`](trackingserversecure.md) invece.
 * **`trackInlineStats`**: versione precedente di [Activity Map](/help/analyze/activity-map/overview.md) abilitata o disabilitata.
-* **`visitorMigrationKey`**: ha portato una chiave utilizzata per migrare i visitatori da cookie di terze parti a cookie di prime parti. Viene ritirato perché le librerie moderne impostano un cookie di fallback di prime parti (`fid`) e si basano sul servizio Experience Cloud ID per l&#39;identità.
+* **`visitorMigrationKey`**: ha portato una chiave utilizzata per migrare i visitatori da cookie di terze parti a cookie di prime parti. È stato ritirato perché le librerie moderne impostano un cookie di fallback di prime parti (`fid`) e si basano sul servizio ID visitatore per l&#39;identità.
 * **`visitorMigrationServer`**: specificato il server utilizzato durante la migrazione di cookie di terze parti a cookie di prima parte.
 * **`visitorMigrationServerSecure`**: equivalente HTTPS di `visitorMigrationServer`.
-* **`visitorNameSpace`**: ha contribuito a determinare il dominio dei cookie di terze parti. È stato ritirato a favore dell&#39;utilizzo della variabile [`trackingServerSecure`](trackingserversecure.md) per le implementazioni che non utilizzano il servizio Experience Cloud ID.
+* **`visitorNameSpace`**: ha contribuito a determinare il dominio dei cookie di terze parti. È stato ritirato a favore dell&#39;utilizzo della variabile [`trackingServerSecure`](trackingserversecure.md) per le implementazioni che non utilizzano il servizio ID visitatore.

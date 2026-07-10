@@ -13,9 +13,9 @@ subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 543
+source-wordcount: 531
 ht-degree: 2%
 
 ---
@@ -34,12 +34,11 @@ Una volta soddisfatti tutti i prerequisiti, procedi come segue per abilitare Cro
 
 Il provisioning di CDA viene eseguito sulla suite di rapporti multi-dispositivo dai tecnici Adobe. Per avviare questo processo, contatta l’Assistenza clienti e preparati a fornire le seguenti informazioni:
 
-* ID organizzazione Adobe CX Enterprise (stringa alfanumerica che termina con @AdobeOrg)
+* ID organizzazione IMS (stringa alfanumerica che termina con @AdobeOrg)
 * ID suite di rapporti per la suite di rapporti multi-dispositivo che desideri abilitare con CDA
 * Metodo CDA da utilizzare (unione basata sui campi)
 * Se intendi utilizzare l’unione basata sui campi, la proprietà o l’eVar che contiene l’ID utente
-* Preferenza di ripetizione frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, oppure una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.
-L’impostazione predefinita è la riproduzione settimanale con intervallo di lookback di 7 giorni. In questo caso, i dati dell’ultima settimana sono soggetti a modifiche (in quanto vengono progressivamente uniti e aggiornati).
+* Preferenza di ripetizione frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, oppure una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.L’impostazione predefinita è la riproduzione settimanale con intervallo di lookback di 7 giorni. In questo caso, i dati dell’ultima settimana sono soggetti a modifiche (in quanto vengono progressivamente uniti e aggiornati).
 
 Una volta fornite all’Assistenza clienti queste informazioni, collaboreranno con il team ingegneristico di Adobe per abilitare la suite di rapporti scelta per l’elaborazione CDA.
 
@@ -65,6 +64,6 @@ Quando Analytics tra dispositivi è abilitato in una suite di rapporti virtuale,
 
 * Accanto al nome della suite di rapporti virtuali viene visualizzata una nuova icona per più dispositivi. Questa icona è esclusiva per le suite di rapporti virtuali cross-device.
 * È disponibile una nuova dimensione con etichetta [Stato identificato](../dimensions/identified-state.md).
-* Sono disponibili nuove metriche con etichetta [Persone](../metrics/people.md), [Dispositivi univoci](../metrics/unique-devices.md), [Persone identificate](../metrics/identified-people.md), [Persone non identificate](../metrics/unidentified-people.md) e [Persone con Experience Cloud ID](../metrics/people-with-exp-cloud-id.md).
+* Sono disponibili nuove metriche con etichetta [Persone](../metrics/people.md), [Dispositivi univoci](../metrics/unique-devices.md), [Persone identificate](../metrics/identified-people.md), [Persone non identificate](../metrics/unidentified-people.md) e [Persone con ID Experience Cloud](../metrics/people-with-exp-cloud-id.md).
 * La metrica [Visitatori univoci](../metrics/unique-visitors.md) non è disponibile in quanto è stata sostituita da &quot;Persone&quot; e &quot;Dispositivi univoci&quot;.
 * Durante la creazione di segmenti, il contenitore di segmenti &quot;Visitatore&quot; viene sostituito da un contenitore &quot;Persona&quot;.

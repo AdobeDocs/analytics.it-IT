@@ -15,9 +15,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 500
+source-wordcount: 497
 ht-degree: 76%
 
 ---
@@ -53,7 +53,7 @@ Descrive come calcolare le metriche comuni utilizzando i feed di dati.
 
 ## Visitatori
 
-Tutti i metodi utilizzati da Adobe per identificare visitatori univoci (ID visitatore personalizzato, servizio Experience Cloud ID, ecc.) sono tutti calcolati come valore in `post_visid_high` e `post_visid_low`. La concatenazione di queste due colonne può essere utilizzata come standard per identificare i visitatori univoci indipendentemente da come sono stati identificati come visitatori univoci. Se desideri comprendere quale metodo utilizza Adobe per identificare un visitatore univoco, utilizza la colonna `post_visid_type`.
+Tutti i metodi utilizzati da Adobe per identificare i visitatori univoci (ID visitatore personalizzato, ECID, ecc.) sono tutti calcolati come valore in `post_visid_high` e `post_visid_low`. La concatenazione di queste due colonne può essere utilizzata come standard per identificare i visitatori univoci indipendentemente da come sono stati identificati come visitatori univoci. Se desideri comprendere quale metodo utilizza Adobe per identificare un visitatore univoco, utilizza la colonna `post_visid_type`.
 
 1. Concatena `post_visid_high` e `post_visid_low`.
 2. Conteggio del numero univoco di valori.

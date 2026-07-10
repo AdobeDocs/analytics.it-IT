@@ -13,21 +13,21 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 137
-ht-degree: 23%
+source-wordcount: 151
+ht-degree: 15%
 
 ---
 
 # Persone con Experience Cloud ID
 
-&#39;Persone con Experience Cloud ID&#39; è una metrica di analisi [cross-device](../cda/overview.md) che mostra il numero di [persone](people.md) identificate da Adobe con il servizio [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it).
+&#39;Persone con Experience Cloud ID&#39; è una metrica di analisi [cross-device](../cda/overview.md) che mostra il numero di [persone](people.md) identificate da Adobe tramite il [Servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/home) o [Servizio Experience Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home).
 
 ## Come è calcolata questa metrica
 
-Considerando ogni [persona](people.md) (identificata o non identificata), questa [metrica](overview.md) aumenta se l&#39;hit contiene la stringa di query `mid` (basata sul cookie [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=it)).
+Considerando ogni [persona](people.md) (identificata o non identificata), questa [metrica](overview.md) aumenta se l&#39;hit contiene la stringa di query `mid` (basata sul cookie [`s_ecid`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics)).
 
 Puoi creare la metrica calcolata `[People with ECID] ÷ [People]` per ottenere la percentuale di visitatori del tuo sito utilizzando il servizio ID.
 
-Per ulteriori informazioni sull&#39;importanza di Experience Cloud ID e del debug della configurazione, consulta la metrica non CDA equivalente [Visitatori con Experience Cloud ID](visitors-with-ecid.md).
+Per ulteriori informazioni sull&#39;importanza di Experience Cloud ID e del debug della configurazione, consulta la metrica equivalente non CDA [Visitatori con Experience Cloud ID](visitors-with-ecid.md).

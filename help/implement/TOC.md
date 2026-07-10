@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: ccf6c5e3f25f562a3bfffe89b9ff057c28aab409
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '445'
 ht-degree: 76%
 
 ---
@@ -172,11 +172,6 @@ ht-degree: 76%
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [Risoluzione dei problemi relativi al codice H](js/h-code/troubleshooting.md)
-   + Identificazione legacy tra dispositivi {#xdevice-visid}
-      + [Panoramica sulla connessione degli utenti ai diversi dispositivi](js/xdevice-visid/xdevice-connecting.md)
-      + [Persistenza variabile](js/xdevice-visid/variable-persistence.md)
-      + [Esempio di visita](js/xdevice-visid/visit-example.md)
-      + [Domande frequenti legacy tra dispositivi](js/xdevice-visid/xdevice-faq.md)
    + [Risoluzione dei problemi relativi ad AppMeasurement](js/troubleshooting.md)
 + Implementazione di Analytics su altre piattaforme {#other}
    + [Implementazione di Analytics utilizzando richieste di immagini codificate](other/hardcoded.md)

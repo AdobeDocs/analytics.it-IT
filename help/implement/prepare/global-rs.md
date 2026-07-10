@@ -27,10 +27,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 4%
+source-wordcount: 885
+ht-degree: 3%
 
 ---
 
@@ -67,7 +67,7 @@ Utilizza le seguenti linee guida generali per comprendere il processo di impleme
    >Assicurati che qualsiasi variabile personalizzata venga utilizzata in modo simile tra i domini. Non utilizzare lo stesso eVar o evento per scopi diversi nei siti.
 1. Assicurati che ogni dominio abbia un livello di dati per semplificare la raccolta dati. I dati possono comunque essere raccolti senza un livello di dati, ma l’affidabilità e la longevità dell’implementazione diminuiscono, soprattutto in seguito a riprogettazioni del sito.
 1. Utilizza i tag in Adobe Experience Platform per implementare Analytics. Siti diversi richiederanno probabilmente elementi di dati diversi. Utilizza le regole specifiche per ciascun dominio per assicurarti che ogni elemento dati sia compilato correttamente, quindi assegna tali elementi dati alle rispettive eVar ed eventi. Consulta la [panoramica dei tag](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it).
-1. Includi il [servizio Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it) e utilizza la funzione [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=it). Questa funzione unisce i dati dei visitatori quando gli utenti fanno clic da un dominio all’altro.
+1. Includi il [servizio ID visitatore di Adobe](https://experienceleague.adobe.com/it/docs/id-service/using/home) e utilizza la funzione [`appendVisitorIDsTo`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/appendvisitorid.html?lang=it). Questa funzione unisce i dati dei visitatori quando gli utenti fanno clic da un dominio all’altro.
 
 ## Modifica di un’implementazione esistente con una suite di rapporti globale
 
@@ -80,5 +80,4 @@ Il processo di spostamento di un’implementazione esistente su più siti in un�
 
 >[!MORELIKETHIS]
 >
->[Passaggio dall&#39;assegnazione di tag a più suite a una suite di rapporti globale e a suite di rapporti virtuali](../../components/vrs/vrs-considerations.md)
->[Confronto delle aggregazioni dati e delle suite di rapporti globali](../../admin/tools/manage-rs/rollup-report-suite.md)
+>[Passaggio dall&#39;assegnazione di tag a più suite a una suite di rapporti globale e a suite di rapporti virtualiConfronto delle aggregazioni dati e delle suite di rapporti globali](../../admin/tools/manage-rs/rollup-report-suite.md)

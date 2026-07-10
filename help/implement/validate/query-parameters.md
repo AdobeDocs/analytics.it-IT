@@ -24,10 +24,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 1035
-ht-degree: 39%
+source-wordcount: 1067
+ht-degree: 42%
 
 ---
 
@@ -37,8 +37,8 @@ Nella tabella seguente sono elencati tutti i parametri delle stringhe di query u
 
 | Parametro | Variabile di implementazione di Analytics | Descrizione |
 | --- | --- | --- |
-| `aamlh` | Nessuno | Hint posizione Audience Manager Identifica il data center regionale utilizzato per la sincronizzazione degli Audience Manager ID tramite il servizio Experience Cloud ID. |
-| `aamb` | Nessuno | Blob di Audience Manager Dati del profilo Audience Manager codificati trasmessi durante la sincronizzazione ID tramite il servizio Experience Cloud ID. |
+| `aamlh` | Nessuno | Hint posizione Audience Manager Identifica il data center regionale utilizzato per la sincronizzazione Audience Manager ID tramite il servizio ID visitatore. |
+| `aamb` | Nessuno | Blob di Audience Manager Dati del profilo Audience Manager codificati trasmessi durante la sincronizzazione ID tramite il servizio ID visitatore. |
 | `aid` | Nessuno | ID visitatore Analytics legacy, memorizzato nel cookie `s_vi`. Sostituito dal parametro `mid` nelle implementazioni moderne. |
 | `AQB` | Nessuno | Indica l’inizio di una stringa di query di richiesta immagine. |
 | `AQE` | Nessuno | Indica la fine di una richiesta di immagine, ovvero che la richiesta non è stata troncata. |
@@ -71,7 +71,7 @@ Nella tabella seguente sono elencati tutti i parametri delle stringhe di query u
 | `lat` | Nessuno | **Non più in uso.** Latitudine. Impostato dalle implementazioni legacy di mobile SDK; le implementazioni mobili correnti inviano la geolocalizzazione tramite flussi di dati. |
 | `lon` | Nessuno | **Non più in uso.** Longitudine. Impostato dalle implementazioni legacy di mobile SDK; le implementazioni mobili correnti inviano la geolocalizzazione tramite flussi di dati. |
 | `lrt` | Nessuno | La “tempistica dell’ultima richiesta”, che è la durata del ciclo di andata e ritorno per l’ultima richiesta, in millisecondi. Viene inviato solo quando vengono inviate più richieste da una singola pagina, ad esempio in un’applicazione a pagina singola. |
-| `mcorgid` | Nessuno | L&#39;ID organizzazione Experience Cloud, che identifica l&#39;organizzazione nel servizio Experience Cloud ID. |
+| `mcorgid` | Nessuno | L’ID organizzazione IMS, che identifica l’organizzazione nel servizio ID visitatore. |
 | `mid` | Nessuno | Utilizzato nella dimensione [[!UICONTROL Experience Cloud Visitor ID]](/help/components/dimensions/experience-cloud-visitor-id.md). |
 | `ms_a` | Nessuno | Impostato da Media SDK su `1` quando i contenuti multimediali in streaming tracciati sono audio anziché video. |
 | `ndh` | Nessuno | Aggiunto da AppMeasurement a ogni richiesta di immagine generata. Poiché le richieste hardcoded in genere la omettono, la sua presenza indica che l’hit proviene da AppMeasurement. |

@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 7323
+source-wordcount: 7322
 ht-degree: 85%
 
 ---
@@ -58,7 +58,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | **Maggio 2026** | |
 | Dimensioni e metriche di Streaming Media | Aggiornamenti significativi alla documentazione di Streaming Media. I collegamenti agli esempi includono [dimensioni principali dei servizi multimediali in streaming](/help/components/dimensions/sm-core.md) e [metriche principali dei servizi multimediali in streaming](/help/components/metrics/sm-core.md). |
 | **Marzo 2026** | |
-| Suddividere un pannello | È stata ristrutturata la documentazione intorno alla zona di rilascio [&#x200B; per un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità [suddividi](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
+| Raggruppamento di un pannello | È stata riorganizzata la documentazione relativa alla [zona di rilascio di un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità di [raggruppamento](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | È stata identificata l’opzione predefinita per l’offuscamento dell’IP nelle nuove suite di rapporti | Sono state aggiunte informazioni che indicano che **Rimuovi indirizzo IP** è l&#39;opzione predefinita di [offuscamento IP per le nuove suite di rapporti](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). |
 | Revisione ordine di elaborazione | Miglioramenti significativi all&#39;[Ordine di elaborazione in Adobe Analytics](/help/technotes/processing-order.md). |
 | Integrazione con Adobe Advertising | Aggiunte di dimensioni e metriche di integrazione Adobe Advertising, incluso [AMO ID](/help/components/dimensions/amo-id.md). |
@@ -217,7 +217,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Calendario e intervalli di date in Workspace | Contenuto aggiornato per descrivere intervalli di date relativi, aggiornamenti del calcolo delle formule e modifiche all’interfaccia utente degli elementi calendario. Vedi [Informazioni sugli intervalli di date relativi al pannello](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | Scorecard per dispositivi mobili | Nuova sezione della documentazione per descrivere come mostrare e nascondere gli intervalli di date di confronto. Consulta [Mostrare intervalli date di confronto](/help/analyze/mobile-app/create-scorecard.md) in Customer Journey Analytics. |
 | 1.4 API | L’[API di Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/) è stata completamente riscritta e ora è pubblicata su Adobe Developer. |
-| Tracciamento tra i tipi di implementazione | È stato aggiornato il caso d’uso [Tracciamento in diversi tipi di implementazione](../implement/id/cross-type-implementation.md) per ospitare il servizio Experience Cloud ID. |
+| Tracciamento tra i tipi di implementazione | È stato aggiornato il caso d&#39;uso [Tracciare diversi tipi di implementazione](../implement/id/cross-type-implementation.md) per adattarsi al servizio ID visitatori. |
 | **Gennaio 2023** | |
 | Filtrare e ordinare tabelle | Contenuto aggiornato (incluse l’aggiunta di procedure e la spiegazione delle opzioni disponibili) nell’articolo [Filtrare e ordinare le tabelle](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). Questo articolo è stato rinominato da “Paginazione, filtri e ordinamento di tabelle in Workspace”. |
 | Cartelle | Pagine dedicate per [Gestione delle cartelle](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |

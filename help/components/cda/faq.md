@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 1724
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe tratta gli hit con marca temporale come se fossero stati ricevuti al momen
 
 +++ Come si comporta CDA con gli ID visitatore personalizzati?
 
-L’utilizzo di un ID visitatore personalizzato è un metodo legacy per [collegare gli utenti a dispositivi diversi](/help/implement/js/xdevice-visid/xdevice-connecting.md). Con un ID visitatore personalizzato, utilizzi la variabile [`visitorID`](/help/implement/vars/config-vars/visitorid.md) per impostare esplicitamente l’ID utilizzato per la logica del visitatore. La variabile `visitorID` sostituisce gli ID presenti basati su cookie.
+L’utilizzo di un ID visitatore personalizzato è un metodo legacy per collegare gli utenti a dispositivi diversi. Con un ID visitatore personalizzato, utilizzi la variabile [`visitorID`](/help/implement/vars/config-vars/visitorid.md) per impostare esplicitamente l’ID utilizzato per la logica del visitatore. La variabile `visitorID` sostituisce gli ID presenti basati su cookie.
 
 Gli ID visitatore personalizzati hanno diversi effetti collaterali indesiderati che CDA supera o riduce al minimo. Ad esempio, la metodologia dell’ID visitatore personalizzato non ha la funzionalità di [ripetizione](replay.md). Se un utente si autentica nel mezzo di una visita, la prima parte della visita viene associata a un ID visitatore diverso rispetto all’ultima parte della visita. Gli ID visitatore separati generano un’inflazione di visite e visitatori. CDA aggiorna i dati storici in modo che gli hit non autenticati appartengano alla persona corretta.
 
