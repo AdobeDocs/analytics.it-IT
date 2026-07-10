@@ -5,28 +5,15 @@ feature: Data Governance
 role: Admin
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 TQID: https://experienceleague.adobe.com/btvouuszSZn1h7xDCInebbqYE9vb1bwcU4-DMW3l3oM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: c77ba355-6681-41fe-b719-563d3f507fdb
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: c77ba355-6681-41fe-b719-563d3f507fdbid: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 2340
-ht-degree: 38%
+source-wordcount: 2341
+ht-degree: 37%
 
 ---
 
@@ -68,7 +55,7 @@ Usa questa tabella per determinare i tipi di ID che userai durante l’invio del
    <td colname="col1"> <p>ID cookie </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=it">(Legacy) Cookie di Analytics</a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it"> Cookie del servizio Identity </a> (ECID), noto in precedenza come Marketing Cloud ID (MCID) </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/en/docs/id-service/using/home"> Cookie del servizio Identity </a> (ECID), noto in precedenza come Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
    <td colname="col2"> <p>Questi cookie identificano un dispositivo o, più specificamente, un browser per l’utente di un dispositivo. Per un dispositivo condiviso in cui viene utilizzato un accesso comune, questo ID può essere applicato a uno o a tutti gli utenti del dispositivo. Adobe ha creato alcuni <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> JavaScript unificati </a> che è possibile inserire nel sito web per raccogliere questi cookie al fine di utilizzarli per le richieste di Privacy dei dati. </p> <p>Anche gli utenti dell’SDK di Adobe Analytics per dispositivi mobili hanno un Experience Cloud ID (ECID). L’SDK contiene delle chiamate API per leggere questo ID, in modo che l’app possa raccoglierlo per una richiesta di Privacy dei dati. </p> <p>Molte aziende considerano gli ID cookie del browser come ID di dispositivi condivisi. Di conseguenza, consultando il proprio team legale, è possibile che decida di non supportarne l’utilizzo come ID accettabili per le richieste di Privacy dei dati. In alternativa, possono scegliere di restituire solo una quantità molto limitata di dati quando vengono utilizzati questi ID o possono accettarli solo per le richieste di cancellazione. </p> <p>Questi cookie hanno un’etichetta ID-DEVICE che non può essere modificata (così come le etichette I2 e DEL-DEVICE). La configurazione predefinita di Adobe Analytics restituirà solo informazioni generiche sul dispositivo, come tipo di dispositivo, sistema operativo, browser e così via, oltre all’ora/date in cui il sito web è stato visitato durante l’utilizzo di questi ID. Tuttavia, se si sceglie di supportare questi ID per le richieste di Privacy dei dati, come spiegato di seguito, è possibile aggiungere o rimuovere le etichette ACC-ALL per configurare l’esatto insieme di campi che si desidera restituire per una richiesta di accesso di Privacy dei dati. </p> <p>Se la suite di rapporti corrisponde a un’app mobile che richiede l’accesso, puoi decidere che l’Experience Cloud ID per il dispositivo corrisponda a un utente specifico. In tal caso, potrebbe essere utile etichettare altri campi con ACC-ALL, tra cui i nomi delle pagine visitate, i prodotti visualizzati e così via. </p> </td> 
   </tr> 

@@ -3,25 +3,15 @@ title: Identificazione dei visitatori in Adobe Analytics
 description: Scopri come identificare i visitatori in Adobe Analytics utilizzando le best practice più recenti.
 exl-id: 8d26a556-84fe-4fb5-98d6-a16b69423e5b
 TQID: https://experienceleague.adobe.com/uwEv9cl3234uiWhZEZLqgAVo42b-9L-9YEIGD97Pw-Q
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: c8add8f2-4250-4fd9-9cde-9707036c567d
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: c8add8f2-4250-4fd9-9cde-9707036c567did: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
-source-wordcount: 617
-ht-degree: 12%
+source-wordcount: 652
+ht-degree: 8%
 
 ---
 
@@ -41,9 +31,9 @@ Quando Adobe riceve un hit, vengono eseguiti i seguenti controlli in ordine. Se 
 | Ordine utilizzato | Parametri query | Presente quando |
 |---|---|---|
 | **1<sup>st</sup>** | `vid` | La variabile [`visitorID`](/help/implement/vars/config-vars/visitorid.md) è impostata. |
-| **2<sup>nd</sup>** | `aid` | Il visitatore ha un cookie [`s_vi`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) esistente. Impostato sulle implementazioni senza o antecedenti all’implementazione del servizio ID visitatore. |
-| **3<sup>rd</sup>** | `mid` | Il visitatore ha un cookie [`s_ecid`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) esistente. Impostato sulle implementazioni tramite il servizio [Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=it). Adobe consiglia di utilizzare il servizio ID per tutte le implementazioni, ove possibile. |
-| **4<sup>th</sup>** | `fid` | Il visitatore ha un cookie [`s_fid`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) esistente. AppMeasurement genera automaticamente un ID di fallback se `aid` e `mid` non possono essere impostati per alcun motivo. |
+| **2<sup>nd</sup>** | `aid` | Il visitatore ha un cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) esistente. Impostato sulle implementazioni senza o prima dell&#39;implementazione del Servizio ID visitatore. |
+| **3<sup>rd</sup>** | `mid` | Per le implementazioni basate su AppMeasurement (inclusa l&#39;estensione tag Analytics) che utilizzano il [servizio ID visitatore](https://experienceleague.adobe.com/en/docs/id-service/using/home), il visitatore dispone di un cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) o `AMCV` esistente. Per le implementazioni basate su Web SDK, il visitatore dispone di un cookie [`kndctr_<orgId>_identity`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/web-sdk) o `AMCV` esistente. Adobe consiglia di utilizzare ECID come forma principale di identificazione dei visitatori, ove possibile, per tutte le implementazioni. |
+| **4<sup>th</sup>** | `fid` | Il visitatore ha un cookie [`s_fid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) esistente. AppMeasurement genera automaticamente un ID di fallback se `aid` e `mid` non possono essere impostati per alcun motivo. |
 | **5<sup>th</sup>** | Indirizzo IP + agente utente | Utilizzato come ultima risorsa per identificare un visitatore univoco se il browser del visitatore non accetta i cookie. Un ID visitatore con hash viene generato prima dell&#39;[offuscamento dell&#39;IP](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). Se l&#39;indirizzo IP non è disponibile, vengono utilizzati altri dettagli IP (ad esempio l&#39;IP del gateway). |
 
 L’ID visitatore selezionato viene quindi sottoposto a hashing e diventa il suo identificatore lato server. Questo identificatore lato server è disponibile come `visid_high` + `visid_low` in [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md).
