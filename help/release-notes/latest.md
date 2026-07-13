@@ -4,30 +4,15 @@ description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0d5c4866332fcbc8195e59babd01abc95444ffac
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ded4f0b735c19457c63c80f5a0c52f6b306c7b6f
 workflow-type: tm+mt
-source-wordcount: 959
-ht-degree: 59%
+source-wordcount: 922
+ht-degree: 61%
 
 ---
 
@@ -42,7 +27,7 @@ Queste note sulla versione coprono il periodo di rilascio di luglio 2026. Le ver
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ---- |
 | **Analisi sub-hit** <br/>L&#39;analisi sub-hit consente di analizzare i dati del prodotto a un livello più granulare rispetto al livello hit. Invece di filtrare gli hit interi, puoi segmentare i singoli prodotti all’interno degli hit. <p>Ad esempio, puoi creare segmenti per una categoria di prodotti specifica senza includere tutti gli altri prodotti acquistati nello stesso ordine.</p><p>Per ulteriori informazioni, vedere [Analisi degli hit secondari](/help/components/segmentation/sub-hit.md).</p> | 8 luglio | Fine di luglio 2026 |
-| **Estensione Activity Map: supporto Web SDK e aggiornamento dell&#39;interfaccia utente** <br/>Le implementazioni Web SDK di Adobe Analytics ora possono utilizzare l&#39;estensione di sovrapposizione Activity Map per visualizzare i dati dei clic sovrapposti sui loro siti Web.<p>In precedenza, l’estensione Activity Map overlay era disponibile solo per le implementazioni di AppMeasurement.</p> <p>Oltre al supporto per Web SDK, l&#39;estensione Activity Map overlay offre anche un look and feel aggiornato.</p><p>Il collegamento alla documentazione seguirà a breve.</p> | | Fine di luglio 2026 |
+| **Estensione Activity Map: aggiornamento dell&#39;interfaccia utente** <br/>L&#39;estensione di sovrapposizione Activity Map ha un aspetto aggiornato e presenta miglioramenti di base che supportano i prossimi miglioramenti.<p>Il collegamento alla documentazione seguirà a breve.</p> | | Fine di luglio 2026 |
 | **Guida alle funzionalità di ricerca API di AA 2.0** <br/>Utilizza le funzionalità di ricerca per [restituire un sottoinsieme di elementi dimensionali nei report](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters).<p>Per ulteriori informazioni, consulta [Funzioni di ricerca](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/search-filters) nella guida dell&#39;endpoint Reports in Adobe Developer. | | 1 luglio 2026 |
 | **Automatizzazione dei rapporti ricorrenti con API AA** <br/>Impostazione di rapporti Adobe Analytics ricorrenti e automatici per la pipeline dei dati con nuove metriche secondo una pianificazione con API dei rapporti. <p>Per ulteriori informazioni, consulta la [guida dell&#39;endpoint per l&#39;automazione dei report ricorrenti di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/recurring) su Adobe Developer.</p> | | 1 luglio 2026 |
 | **Nuovi parametri di espansione per AA** <br/>Utilizza i nuovi parametri di espansione dell&#39;API Dimension per recuperare i campi di configurazione eVar per tipi di allocazione, scadenze, tipi di dati e merchandising. <p>Per ulteriori informazioni, consulta la [guida di riferimento API](https://developer.adobe.com/analytics-apis/docs/2.0/apis/#operation/dimensions_getDimensions) e la [guida dell&#39;endpoint Dimensions](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/) su Adobe Developer.</p> | | 1 luglio 2026 |
@@ -84,6 +69,6 @@ Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, consulta le [note
 >
 >* [Note sulle versioni precedenti per il 2026](/help/release-notes/2026.md)
 >* [Note sulla versione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it)
->* [Note sulla versione dei servizi multimediali in streaming &#x200B;](https://experienceleague.adobe.com/it/docs/media-analytics/using/release-notes/release-notes)
->* Ultimi aggiornamenti sulle versioni dei [prodotti Adobe CX Enterprise](https://business.adobe.com/it/products/adobe-experience-cloud-products.html)
+>* [Note sulla versione dei servizi multimediali in streaming ](https://experienceleague.adobe.com/it/docs/media-analytics/using/release-notes/release-notes)
+>* Ultimi aggiornamenti sulle versioni dei [prodotti Adobe CX Enterprise](https://business.adobe.com/products/adobe-experience-cloud-products.html)
 
