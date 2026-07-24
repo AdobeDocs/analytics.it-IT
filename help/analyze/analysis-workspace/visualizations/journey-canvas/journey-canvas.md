@@ -3,10 +3,10 @@ description: Scopri come utilizzare l’area di lavoro del percorso in Analysis 
 title: Panoramica dell’area di lavoro del percorso
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 82f2811e559aa37ddda9e7d94f79889016b9782c
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 89%
+source-wordcount: '1118'
+ht-degree: 88%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 89%
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_.<br/><br/>_Vedere [Panoramica dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) per la versione_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** di questo articolo._
+_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**_.<br/><br/>_Vedere [Panoramica dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/journey-canvas) per la versione_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -49,6 +49,10 @@ Puoi [creare analisi dei percorsi degli utenti](/help/analyze/analysis-workspace
 [I nodi sono connessi](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#logic-when-connecting-nodes) come &quot;percorso finale&quot;, il che significa che i visitatori vengono conteggiati finché passano da un nodo all&#39;altro, indipendentemente dagli eventi che si verificano tra i due nodi. Il tempo assegnato agli utenti per spostarsi lungo il percorso è determinato dalle impostazioni del contenitore.
 
 ![Area di lavoro del percorso](assets/journey-canvas.png)
+
+## Requisiti di accesso
+
+L&#39;area di lavoro percorso è disponibile per i clienti Adobe Analytics [Prime](https://www.adobe.com/it/data-analytics-cloud/analytics/prime.html) e [Ultimate](https://www.adobe.com/it/data-analytics-cloud/analytics/ultimate.html).
 
 ## Funzioni chiave
 
@@ -144,4 +148,4 @@ Puoi generare analisi nell’Area di lavoro del percorso basate su qualsiasi dim
 
 >[!MORELIKETHIS]
 >
-> * [Guida alla visualizzazione delle aree di lavoro del percorso in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857?profile.language=it)
+> * [Guida alla visualizzazione delle aree di lavoro del percorso in Adobe Customer Journey Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/a-guide-to-journey-canvas-visualization-in-adobe-customer/ba-p/737857)
