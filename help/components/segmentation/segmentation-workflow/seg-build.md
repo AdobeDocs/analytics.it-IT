@@ -4,22 +4,14 @@ title: Creare segmenti
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 917804b359e040bc04282fe69e05a1a4b6e9bdc4
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
 workflow-type: tm+mt
-source-wordcount: 1882
-ht-degree: 39%
+source-wordcount: 1841
+ht-degree: 33%
 
 ---
 
@@ -28,7 +20,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Compatibilità prodotto"
->abstract="Un numero ridotto di criteri di segmento disponibili non è compatibile con tutti gli strumenti di Adobe Analytics. In questo elenco sono indicati gli strumenti compatibili con il segmento. Per rendere un segmento compatibile con tutti gli strumenti di Adobe Analytics, modifica i criteri."
+>abstract="Alcuni criteri di segmento sono incompatibili con alcuni strumenti di Adobe Analytics. In questo elenco sono indicati gli strumenti compatibili. Modifica i criteri per garantire la compatibilità."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +30,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Anteprima dati"
->abstract="Confronta i dati di questo segmento con i dati della suite di rapporti. La percentuale di anteprima è basata sul numero totale a partire dagli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, è possibile che la connessione sia ancora in retrocompilazione."
+>abstract="Confronta i dati dei segmenti con i dati della suite di rapporti. La percentuale di anteprima si basa sugli **ultimi 90 giorni**.<br><br/>Se l&#39;anteprima non viene caricata, la connessione è in esecuzione."
 
 
 La finestra di dialogo **[!UICONTROL Segment builder]** viene utilizzata per creare nuovi segmenti o modificare quelli esistenti. La finestra di dialogo si chiama **[!UICONTROL New segment]** o **[!UICONTROL Edit segment]** per i segmenti creati o gestiti dal gestore [[!UICONTROL Segment]](/help/components/segmentation/segmentation-workflow/seg-manage.md).
@@ -83,7 +75,7 @@ Utilizza il Generatore di definizioni per creare la definizione del segmento. In
 
 Puoi configurare il tipo e l’ambito della definizione:
 
-1. Per specificare il tipo di definizione, indica se desideri creare una definizione di inclusione o esclusione. Selezionare ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** e dal menu a discesa **[!UICONTROL Include]** o **[!UICONTROL Exclude]**.
+1. Per specificare il tipo di definizione, specificare se si desidera creare una definizione di inclusione o esclusione. Selezionare ![Impostazione](/help/assets/icons/Setting.svg) **[!UICONTROL Options]** e dal menu a discesa **[!UICONTROL Include]** o **[!UICONTROL Exclude]**.
 1. Per specificare l&#39;ambito della definizione, selezionare dal menu a discesa **[!UICONTROL Include]** o **[!UICONTROL Exclude]** se si desidera che l&#39;ambito della definizione sia **[!UICONTROL Hits]**, **[!UICONTROL Visits]**, **[!UICONTROL Visitors]** o **[!UICONTROL Products]**. Si utilizza **[!UICONTROL Products]** per [casi di utilizzo di analisi sub-hit](/help/components/segmentation/sub-hit.md).
 
 È sempre possibile modificare queste impostazioni in un secondo momento.
@@ -122,7 +114,7 @@ Puoi raggruppare più componenti in uno o più contenitori e definire la logica 
 * Per aggiungere un componente esistente al contenitore, trascinalo nel contenitore.
 * Per aggiungere un altro componente al contenitore, trascinalo dal pannello dei componenti al contenitore. Utilizza la linea di inserimento blu come guida.
 * Per aggiungere un altro componente all’esterno del contenitore, trascinalo dal pannello dei componenti all’esterno del contenitore, ma all’interno del contenitore di definizione principale. Utilizza la linea di inserimento blu come guida.
-* Per modificare la logica tra i componenti di un contenitore, tra contenitori o tra un contenitore e un componente, seleziona **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** appropriati. Quando selezioni **[!UICONTROL Then]**, converti il segmento in un segmento sequenziale. Per ulteriori informazioni, vedere [Creare un segmento sequenziale](seg-sequential-build.md).
+* Per modificare la logica per i componenti, i contenitori o le relative combinazioni, selezionare **[!UICONTROL And]**, **[!UICONTROL Or]**, **[!UICONTROL Then]** appropriati. Quando selezioni **[!UICONTROL Then]**, converti il segmento in un segmento sequenziale. Per ulteriori informazioni, vedere [Creare un segmento sequenziale](seg-sequential-build.md).
 * Per cambiare il livello del contenitore, selezionare ![PaginaWeb](/help/assets/icons/WebPage.svg) **[!UICONTROL Hits]**, ![Visita](/help/assets/icons/Visit.svg) **[!UICONTROL Visits]**, ![Utente](/help/assets/icons/User.svg) **[!UICONTROL Visitors]** o ![MostraTuttoLayer](/help/assets/icons/ShowAllLayer.svg) **[!UICONTROL Products]**.
 
 È possibile utilizzare ![Impostazioni](/help/assets/icons/Setting.svg) in un contenitore per le azioni seguenti:
@@ -141,14 +133,14 @@ Quando trascini componenti a livello di prodotto e di hit in una singola regola 
 
 ## Intervalli di date
 
-Puoi creare segmenti che contengono intervalli di date continui. In questo modo, potrai rispondere a domande su campagne o eventi in corso. Ad esempio, puoi creare un segmento che include *tutti coloro che hanno effettuato un acquisto online negli ultimi 60 giorni*.
+Puoi creare segmenti che contengono intervalli di date continui. In questo modo, potrai rispondere a domande su campagne o eventi in corso. Ad esempio, puoi creare un segmento che include *tutte le persone che hanno effettuato un acquisto online negli ultimi 60 giorni*.
 
 ![Segmento con intervallo di date continuo](assets/segment-rolling-date-range.png)
 
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalli di date continui nei segmenti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}.
+Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Intervalli di date continui nei segmenti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -157,11 +149,11 @@ Per un video dimostrativo, guarda ![VideoCheckedOut](/help/assets/icons/VideoChe
 
 Puoi creare un segmento utilizzando i segmenti. Quando utilizzi i segmenti in un segmento, puoi ottimizzare il segmento e ridurne la complessità.
 
-Immagina di segmentare sulla combinazione di canale di interazione (5) e stati degli Stati Uniti (50). Puoi creare 250 segmenti, ciascuno per la combinazione unica di tipo di dispositivo (telefono cellulare rispetto a tablet) e stato degli Stati Uniti. Per ottenere gli utenti del tablet in California, puoi utilizzare uno dei 250 segmenti:
+Considera uno scenario in cui desideri segmentare sulla combinazione di canale di interazione (5) e stati degli Stati Uniti (50). Puoi creare 250 segmenti, ciascuno per la combinazione unica di tipo di dispositivo (telefono cellulare rispetto a tablet) e stato degli Stati Uniti. Per ottenere gli utenti del tablet in California, utilizza uno dei 250 segmenti:
 
 ![Segmento semplice per California e tablet](assets/segment-ca-tablet-single.png)
 
-In alternativa, puoi definire 55 segmenti: 50 segmenti per gli stati degli Stati Uniti e 5 per i possibili canali di interazione. Quindi impilare i segmenti per ottenere gli stessi risultati. Per ottenere gli utenti dell’app mobile California, puoi impilare due segmenti:
+In alternativa, definisci 55 segmenti: 50 segmenti per gli stati degli Stati Uniti e 5 per i possibili canali di interazione. Per ottenere gli stessi risultati, impilate i segmenti. Per ottenere gli utenti dell’app mobile California, metti in pila due segmenti:
 
 ![Segmento in pila per CA e tablet](assets/segment-ca-tablet-stacked.png)
 
@@ -196,7 +188,7 @@ Seleziona ![Impostazione](/help/assets/icons/Setting.svg) all’interno del comp
 |---|---|
 | **[!UICONTROL Repeating model (default)]** | Includi l’istanza e i valori persistenti per la dimensione per determinare la qualificazione. |
 | **[!UICONTROL Instance]** | Includi solo i valori di istanza per la dimensione per determinare la qualificazione. |
-| **[!UICONTROL Non-repeating instance]** | Includi valori univoci di istanza (non ripetuti) per la dimensione per determinare la qualificazione. |
+| **[!UICONTROL Non-repeating instance]** | Includi valori univoci di istanza (non ripetuti) per la dimensione per determinare la qualificazione. La variante non ripetuta è il modello applicato in Flusso quando le varianti ripetute sono escluse. |
 
 
 ![Modello di attribuzione sulla dimensione durante la creazione di un segmento](assets/segment-dimension-attribution.png)
@@ -213,16 +205,11 @@ Come parte della definizione di un segmento hai specificato la seguente condizio
 La tabella seguente spiega, per ogni modello di attribuzione, quali eventi in arrivo sono qualificati ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) per tale condizione.
 
 
-| Pagina Donne - Attribuzione - <br/>*modello di attribuzione* | Evento 1:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 2:<br/>Il Nome pagina è uguale a<br/>Uomini | Evento 3:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 4:<br/>Il Nome pagina è uguale a<br/>Donne<br/>(persistente) | Evento 5:<br/>Il Nome pagina è uguale a<br/>Pagamento | Evento 6:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 7:<br/>Il Nome pagina è uguale a<br/>Pagina Home |
+| Pagina Donne - Attribuzione - <br/>*modello di attribuzione* | Evento 1:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 2:<br/>Il Nome pagina è uguale a<br/>Uomini | Evento 3:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 4:<br/>Il Nome pagina è uguale a<br/>Donne<br/>(persistente) | Evento 5:<br/>Il Nome pagina è uguale a<br/>Pagamento | Evento 6:<br/>Il Nome pagina è uguale a<br/>Donne | Evento 7:<br/>Il nome pagina è uguale a<br/>Donna (impostato in modo esplicito) |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:--:|
-| Ripetizione (per impostazione predefinita) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) |
-| Istanza | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) |
+| Ripetizione (per impostazione predefinita) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
+| Istanza | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) |
 | Istanza non ripetuta | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | ![Rimuovi](/help/assets/icons/Remove.svg) |
-
-Un esempio di rapporto sugli eventi che utilizzano i tre segmenti è simile al seguente:
-
-![Risultati modello di attribuzione segmento](assets/segment-dimension-attribution-results.png)
-
 
 
 <!--
@@ -276,7 +263,7 @@ You can add rule definitions and containers to define your segments.
 1. **[!UICONTROL Value]**: The value you entered or selected for the dimension or segment or metric.
 1. **[!UICONTROL X]**: (Delete) Lets you delete this part of the segment definition.
 1. **[!UICONTROL CX Enterprise publishing]**: Publishing an Adobe Analytics segment to CX Enterprise lets you use the segment for marketing activity in [!DNL Audience Manager] and in other activation channels. [Learn more...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it)
+1. **[!UICONTROL Audience library]**: Adobe's audience services manage the translation of visitor data into audience segmentation. As such, creating and managing audiences is similar to creating and using segments, with the added ability to share the audience segment to the Experience Cloud. [Learn more...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL Search]**: Searches the list of dimensions, segments, or metrics.
 1. **[!UICONTROL Dimensions]**: (List) Click the header to expand.
 1. **[!UICONTROL Metrics]**: Click the header to expand.
@@ -337,7 +324,7 @@ You create a Visit container and within it, add the [!UICONTROL Last 60 days] ti
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Rolling date ranges in segments](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/segmentation/rolling-date-ranges-in-segments){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
