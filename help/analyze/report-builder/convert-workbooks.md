@@ -7,31 +7,21 @@ type: Documentation
 solution: Analytics
 exl-id: ff9011b2-fc18-456f-81dc-151b9e4fccd2
 TQID: https://experienceleague.adobe.com/0nmyJL9FDtcP8FTaJXbLCdBSZ0Nnb8U7g0Ox5xH40yw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: b5f2841adb79c985720711ce2197bb1ec39e6821
 workflow-type: tm+mt
-source-wordcount: 1119
+source-wordcount: 1136
 ht-degree: 2%
 
 ---
 
 # Conversione di cartelle di lavoro legacy di Report Builder
 
-La versione precedente di Report Builder termina il ciclo di vita a giugno 2026. È necessario eseguire la migrazione delle cartelle di lavoro dal Report Builder legacy al nuovo Report Builder. Il nuovo Report Builder offre un modo pratico per migrare rapidamente le cartelle di lavoro create con il Report Builder legacy.
+La versione precedente di Report Builder termina il ciclo di vita a giugno 2026. Migrare le cartelle di lavoro dal Report Builder legacy al nuovo Report Builder. Il nuovo Report Builder offre un modo pratico per migrare rapidamente le cartelle di lavoro create con il Report Builder legacy.
 
 >[!IMPORTANT]
 >
@@ -56,23 +46,23 @@ Per aprire una cartella di lavoro legacy, è possibile:
 
 * Aprire una cartella di lavoro legacy pianificata dalla scheda **[!UICONTROL Schedule]** nell&#39;[hub Report Builder](report-builder-hub.md). Questa azione è il metodo preferito per le cartelle di lavoro legacy pianificate. È possibile utilizzare la pianificazione associata alla cartella di lavoro legacy non appena si [pianifica la cartella di lavoro legacy convertita](#schedule-a-converted-legacy-workbook).
 
-   1. Apri [!DNL Excel] e seleziona ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dalla barra multifunzione [!DNL Excel].
+  1. Apri [!DNL Excel] e seleziona ![AdobeLogoRedonWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dalla barra multifunzione [!DNL Excel].
 
-   1. Selezionare **[!UICONTROL Login]** e accedere a Report Builder.
+  1. Selezionare **[!UICONTROL Login]** e accedere a Report Builder.
 
-   1. Selezionare **[!UICONTROL Schedule]** nell&#39;[hub Report Builder](report-builder-hub.md).
-   1. Seleziona la scheda **[!UICONTROL Legacy]**. Nella scheda sono elencate le cartelle di lavoro pianificate legacy basate su Report Builder create dall&#39;utente.
+  1. Selezionare **[!UICONTROL Schedule]** nell&#39;[hub Report Builder](report-builder-hub.md).
+  1. Seleziona la scheda **[!UICONTROL Legacy]**. Nella scheda sono elencate le cartelle di lavoro pianificate legacy basate su Report Builder create dall&#39;utente.
 
-      ![Elementi precedenti](assets/upgrade-legacy-schedule.png)
+     ![Elementi precedenti](assets/upgrade-legacy-schedule.png)
 
-   1. Selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) la cartella di lavoro pianificata da convertire dall&#39;elenco e selezionare ![Scarica](/help/assets/icons/Download.svg). La cartella di lavoro viene scaricata e si apre in una nuova finestra in [!DNL Excel]. È ora possibile [convertire la cartella di lavoro legacy di Report Builder](#convert-a--workbook).
+  1. Selezionare ![SelectBox](/help/assets/icons/SelectBox.svg) la cartella di lavoro pianificata da convertire dall&#39;elenco e selezionare ![Scarica](/help/assets/icons/Download.svg). La cartella di lavoro viene scaricata e si apre in una nuova finestra [!DNL Excel]. È ora possibile [convertire la cartella di lavoro legacy di Report Builder](#convert-a--workbook).
 
 
-* Aprire una cartella di lavoro legacy direttamente dal computer locale o dalla rete. Quando si utilizza questo metodo, non viene offerto di utilizzare la pianificazione che potrebbe essere associata alla cartella di lavoro legacy. <br/>Quando la cartella di lavoro legacy è aperta in [!DNL Excel]:
+* Aprire una cartella di lavoro legacy direttamente dal computer locale o dalla rete. Quando si utilizza questo metodo, non viene offerta la pianificazione associata alla cartella di lavoro legacy. <br/>Quando la cartella di lavoro legacy è aperta in [!DNL Excel]:
 
-   1. Seleziona ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dalla barra multifunzione [!DNL Excel].
-   1. Selezionare **[!UICONTROL Login]** e accedere a Report Builder.
-   1. Quindi [convertire la cartella di lavoro legacy](#convert-a-workbook).
+  1. Seleziona ![AdobeLogoRedOnWhite](/help/assets/icons/AdobeLogoRedOnWhite.svg) **[!UICONTROL Report Builder]** dalla barra multifunzione [!DNL Excel].
+  1. Selezionare **[!UICONTROL Login]** e accedere a Report Builder.
+  1. Quindi [convertire la cartella di lavoro legacy](#convert-a-workbook).
 
 
 ## Convertire una cartella di lavoro legacy
@@ -116,17 +106,17 @@ Per convertire la cartella di lavoro legacy:
 1. Per pianificare una cartella di lavoro legacy convertita con una pianificazione precedente:
 
    * Selezionare **[!UICONTROL Send workbook]** dall&#39;hub Report Builder oppure
-   * Selezionare **[!UICONTROL Schedule workbook]** dalla scheda **[!UICONTROL Workbooks]** disponibile nella scheda **[!UICONTROL Schedules]** di Report Builder.
+   * Selezionare **[!UICONTROL Schedule workbook]** dalla scheda **[!UICONTROL Workbooks]** della scheda Report Builder **[!UICONTROL Schedules]**.
 
 1. È possibile utilizzare i dettagli della pianificazione della cartella di lavoro legacy come impostazioni di pianificazione predefinite.
 
    ![Schermata delle [!DNL Excel] opzioni delle impostazioni di pianificazione legacy di Report Builder](assets/upgrade-legacy-schedule-convert.png)
 
    * Selezionare **[!UICONTROL Use]** per utilizzare i dettagli della pianificazione legacy. I dettagli della pianificazione sono precompilati nell&#39;interfaccia [Invia cartella di lavoro](schedule-reportbuilder.md#schedule-a-workbook).
-   * Selezionare **[!UICONTROL Don't use]** per non utilizzare i dettagli della pianificazione legacy.
+   * Selezionare **[!UICONTROL Don't use]** per evitare di utilizzare i dettagli della pianificazione legacy.
    * Seleziona **[!UICONTROL Cancel]** per annullare.
 
-   Selezionare **[!UICONTROL Remove legacy metadata from future use]** per non utilizzare in futuro i dettagli della pianificazione legacy per questa cartella di lavoro.
+   Selezionare **[!UICONTROL Remove legacy metadata from future use]** per evitare di utilizzare in futuro i dettagli della pianificazione legacy per questa cartella di lavoro.
 
 
 ## Migrazione da Report Builder legacy
@@ -141,24 +131,25 @@ Alcune funzioni della versione precedente di Report Builder non sono supportate,
 
 * **Opzione Pubblica cartella di lavoro in [!DNL Power BI] per i report pianificati**. L&#39;opzione per pianificare i report per [!DNL Power BI] non è più disponibile.
 
-* **Metriche visitatori**. Le metriche seguenti vengono convertite in *visitatori univoci* nella cartella di lavoro legacy convertita, anche se il risultato del reporting potrebbe non corrispondere esattamente: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` e `visitorsyearly`. Questa conversione si applica anche a `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` e `mobilevisitorsyearly`.
+* **Metriche visitatori**. Le metriche seguenti vengono convertite in *visitatori univoci* nella cartella di lavoro legacy convertita, anche se il risultato del reporting non corrisponde esattamente: `visitorshourly`, `visitorsdaily`, `visitorsweekly`, `visitorsmonthly`, `visitorsquarterly` e `visitorsyearly`. Questa conversione si applica anche a `mobilevisitorshourly`, `mobilevisitorsdaily`, `mobilevisitorsweekly`, `mobilevisitorsmonthly`, `mobilevisitorsquarterly` e `mobilevisitorsyearly`.
 
+* **Granularità**: Report Builder non dispone di un&#39;opzione specifica per la granularità come Report Builder legacy. Per applicare un livello di granularità al rapporto, usa le dimensioni data nella richiesta.
 * **Riautenticazione automatica**. Quando si apre un nuovo file [!DNL Excel], è necessario autenticare di nuovo in modo esplicito. Questa nuova autenticazione è una funzionalità di protezione della funzionalità [!DNL Office Add-ins].
 
 * **Copiare un foglio di lavoro con un gruppo di blocchi di dati**. Per supportare la copia di un foglio di lavoro contenente più blocchi di dati:
 
-   1. Selezionare la scheda del foglio di lavoro nella cartella di lavoro [!DNL Excel] da copiare.
-   1. Dal menu di scelta rapida della scheda, selezionare **[!UICONTROL Move or Copy...]**
-   1. Nella finestra di dialogo **[!UICONTROL Move or Copy]** (Crea elemento dati):
-      1. Selezionare la posizione in cui copiare il foglio di lavoro copiato.
-      1. Assicurati di abilitare **[!UICONTROL Create a copy]**.
-      1. Seleziona **[!UICONTROL OK]**.
-   1. Dal foglio di lavoro di origine:
-      1. Seleziona l’intervallo di celle che include tutti i blocchi di dati.
-      1. Seleziona ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy data block]** dall&#39;hub [Report Builder](/help/analyze/report-builder/report-builder-hub.md).
-   1. Nel foglio di lavoro di destinazione:
-      1. Selezionare la cella in cui si desidera incollare l&#39;intervallo di celle copiato.
-      1. Seleziona ![Incolla](/help/assets/icons/Paste.svg) **[!UICONTROL Paste data block]** dall&#39;hub [Report Builder](/help/analyze/report-builder/report-builder-hub.md).
+  1. Selezionare la scheda del foglio di lavoro nella cartella di lavoro [!DNL Excel] da copiare.
+  1. Dal menu di scelta rapida della scheda, selezionare **[!UICONTROL Move or Copy...]**
+  1. Nella finestra di dialogo **[!UICONTROL Move or Copy]** (Crea elemento dati):
+     1. Selezionare la posizione in cui copiare il foglio di lavoro copiato.
+     1. Assicurati di abilitare **[!UICONTROL Create a copy]**.
+     1. Seleziona **[!UICONTROL OK]**.
+  1. Dal foglio di lavoro di origine:
+     1. Seleziona l’intervallo di celle che include tutti i blocchi di dati.
+     1. Seleziona ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy data block]** dall&#39;hub [Report Builder](/help/analyze/report-builder/report-builder-hub.md).
+  1. Nel foglio di lavoro di destinazione:
+     1. Selezionare la cella in cui si desidera incollare l&#39;intervallo di celle copiato.
+     1. Seleziona ![Incolla](/help/assets/icons/Paste.svg) **[!UICONTROL Paste data block]** dall&#39;hub [Report Builder](/help/analyze/report-builder/report-builder-hub.md).
 
 * **Intervallo date**. Report Builder non esegue la migrazione delle opzioni di formattazione dell&#39;intervallo di date **[!UICONTROL Show start and end period as]** applicate a un&#39;etichetta di riga per un intervallo di date nel Report Builder legacy.
 
