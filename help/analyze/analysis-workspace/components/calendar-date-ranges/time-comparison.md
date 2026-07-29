@@ -5,35 +5,27 @@ feature: Date Ranges
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 TQID: https://experienceleague.adobe.com/8JGo2UzVdsArtXKFa3pLZtvjOSH5qQowPoftuzNvZfs
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: f1c344895b5ad9ff2db00d04c6e5873a0de1da31
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 11%
+source-wordcount: 722
+ht-degree: 9%
 
 ---
 
 # Confronto delle date
 
-Il confronto delle date in Analysis Workspace consente di prendere una qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comune, ad esempio: anno su anno, trimestre su trimestre, mese su mese, ecc.
+Il confronto delle date in Analysis Workspace consente di prendere una qualsiasi colonna contenente un intervallo di date e di creare un confronto tra date comune, ad esempio anno su anno, trimestre su trimestre o mese su mese.
 
 ## Confronto tra periodi temporali
 
-L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo di tempo precedente. Ad esempio, la domanda *Quanto stai facendo meglio o peggio ora rispetto a questo periodo dell&#39;anno scorso?* è fondamentale per comprendere la propria attività. Il confronto delle date include automaticamente una colonna *differenza* che mostra la variazione percentuale rispetto a un periodo di tempo specificato.
+L’analisi richiede contesto e un periodo di tempo precedente spesso fornisce tale contesto. Ad esempio, la domanda *Quanto stai facendo meglio o peggio ora rispetto a questo periodo dell&#39;anno scorso?* è essenziale per comprendere il tuo business. Il confronto delle date include automaticamente una colonna *differenza* che mostra la variazione percentuale rispetto a un periodo di tempo specificato.
 
 1. Crea una [tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md), con tutte le dimensioni e le metriche che desideri confrontare in un periodo di tempo.
-1. Imposta il periodo di tempo sul pannello o sulla colonna per determinare l’intervallo di tempo del confronto e se si tratta di un confronto in tempo continuo o fisso.
+1. Per determinare l’intervallo di tempo di confronto e se si tratta di un confronto in tempo continuo o fisso, imposta il periodo di tempo sul pannello o sulla colonna.
 
    Per creare un confronto continuo dei tempi, impostare l&#39;intervallo di date del pannello o della colonna su un intervallo di date continuo, ad esempio **[!UICONTROL Last 7 days]**, **[!UICONTROL Last 30 days]** e così via.
 
@@ -66,7 +58,7 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 ## Aggiungere una colonna Periodo di tempo per il confronto
 
-È ora possibile aggiungere a ogni colonna di una tabella un periodo di tempo diverso da quello impostato nel calendario.
+Ora puoi aggiungere un periodo di tempo a ogni colonna di una tabella. Questo consente di aggiungere un periodo di tempo diverso da quello impostato per il calendario.
 
 1. Fare clic con il pulsante destro del mouse su una colonna della tabella e selezionare **[!UICONTROL Add time period column]**.
 
@@ -96,20 +88,21 @@ L’analisi richiede contesto e spesso tale contesto viene fornito da un periodo
 
 Puoi allineare le date di ogni colonna affinché inizino tutte sulla stessa riga.
 
-Ad esempio, effettui un confronto giorno dopo giorno per l’ultima settimana (che termina il 5 ottobre 2024) e la settimana precedente. Per impostazione predefinita, la colonna a sinistra inizia il 22 settembre e la colonna a destra il 29 settembre.
+Ad esempio, esegui un confronto giorno dopo giorno per l’ultima settimana (che termina il 5 ottobre 2024) e la settimana precedente. Per impostazione predefinita, la colonna sinistra inizia con il 22 settembre e la colonna destra inizia con il 29 settembre.
 
 ![Date non allineate](assets/not-align-dates.png)
 
-È possibile abilitare **[!UICONTROL Align dates from each column to all start on the same row]** in [Impostazioni](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) affinché la visualizzazione a forma libera allinei le date delle colonne affinché inizino sulla stessa riga.
+È possibile abilitare **[!UICONTROL Align dates from each column to all start on the same row]** in [Impostazioni](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md#settings-1) affinché la visualizzazione a forma libera allinei le date delle colonne affinché inizino sulla stessa riga. Per questo allineamento viene utilizzata la prima colonna.
 
 ![](assets/align-dates.png)
 
 Quando utilizzi questa opzione, tieni presente quanto segue:
 
-* Questa impostazione è attivata per impostazione predefinita per tutti i nuovi progetti.
+* Per impostazione predefinita, il sistema attiva questa impostazione per tutti i nuovi progetti.
 
 * Questa impostazione si applica all&#39;intera tabella. Ad esempio, se modifichi questa impostazione per un raggruppamento all’interno della tabella, l’impostazione viene applicata all’intera tabella.
 
+* Quando questa impostazione è abilitata, nell’angolo superiore destro di tutte le celle di colonna vengono visualizzate etichette di data di piccole dimensioni per annotare la cella con la data (e l’ora, se pertinente) appropriata.
 
 <!--
 # Date comparison
@@ -119,7 +112,7 @@ Date comparison in Analysis Workspace lets you take any column containing a date
 
 >[!BEGINSHADEBOX]
 
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
+See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Date comparison](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/using-date-ranges-and-comparisons-in-analysis-workspace){target="_blank"} for a demo video.
 
 >[!ENDSHADEBOX]
 
