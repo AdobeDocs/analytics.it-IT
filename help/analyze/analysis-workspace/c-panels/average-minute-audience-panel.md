@@ -49,7 +49,7 @@ ht-degree: 90%
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentato il pannello del pubblico medio per minuto del file multimediale in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_.<br/>_Vedere [Pannello del pubblico medio per minuto del file multimediale](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) per la versione_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** di questo articolo._
+_In questo articolo viene documentato il pannello del pubblico medio per minuto del file multimediale in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**&#x200B;_.<br/>_Vedere [Pannello del pubblico medio per minuto del file multimediale](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/panels/average-minute-audience-panel) per la versione_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
