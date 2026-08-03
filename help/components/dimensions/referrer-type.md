@@ -4,19 +4,11 @@ description: Il tipo di referente, a seconda di dove proviene il visitatore.
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
 TQID: 'https://experienceleague.adobe.com/KPTS2iWls0V8I2gI0xcH1V89w0stZyVq6jWdQyEyrLY'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b7156124-d291-4de4-ac0c-ed17d8078449
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b7156124-d291-4de4-ac0c-ed17d8078449id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 5a76fa85cdcc109ee92d6116d30510841a4c6ab1
 workflow-type: tm+mt
 source-wordcount: 502
 ht-degree: 2%
@@ -53,6 +45,7 @@ L’elenco seguente fa riferimento alla tabella di ricerca &quot;Strumenti di IA
 * `https://chat.deepseek.com`
 * `https://chat.openai.com`
 * `https://doubao.com`
+* `https://duck.ai`
 * `https://gemini.google.com`
 * `https://copilot.microsoft.com`
 * `https://m365.cloud.microsoft`
@@ -67,6 +60,7 @@ L’elenco seguente fa riferimento alla tabella di ricerca &quot;Strumenti di IA
 * `https://blackbox.ai`
 * `https://chat.mistral.ai`
 * `https://meta.ai`
+* `https://you.com`
 
 ### Social network
 
