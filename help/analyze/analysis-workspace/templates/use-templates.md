@@ -5,36 +5,11 @@ feature: Analysis Workspace
 role: User, Admin
 exl-id: 9e5d1b35-e2b3-4fa5-af12-67bb913675bc
 TQID: https://experienceleague.adobe.com/1UUQ-01VPJWZmSReen7PjTBozBcMr2LgKDHpO8LcKew
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: a9364d69-0c51-44bf-8b5f-6d99c04493b8
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-  - id: e9cb007b-c8b7-4975-bc81-11a788c535fa
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: a9364d69-0c51-44bf-8b5f-6d99c04493b8id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: c9bb7ea6-c04f-4262-b69c-fbb8d91e3559id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e7d92df1-c5ba-4e93-85df-f83171b889beid: e9cb007b-c8b7-4975-bc81-11a788c535faid: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 83dd61d47dd9bebdc9c79410969c32ea36efd4d4
 workflow-type: tm+mt
 source-wordcount: 18719
@@ -509,7 +484,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="template--exitpagerankedreport"
 >title="Visualizza le pagine principali a cui le persone accedono immediatamente prima di lasciare il sito."
->abstract="**Questo può aiutarti** a comprendere meglio quali pagine allontanano le persone dal sito. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l’esperienza che le persone hanno del sito prima di lasciarlo, oppure includere contenuti o collegamenti per incoraggiarle a rimanere sullo stesso.<br/>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni a barre e tabella a forma libera."
+>abstract="**Questo può aiutarti** a capire meglio quali pagine allontanano le persone dal sito. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l’esperienza che le persone hanno del sito prima di lasciarlo, oppure includere contenuti o collegamenti per incoraggiarle a rimanere sullo stesso.<br/>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni a barre e tabella a forma libera."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -540,7 +515,7 @@ Sono disponibili i modelli seguenti:
 | **[!UICONTROL Entries & exits]** > [!UICONTROL **Pagine di ingresso**] | Visualizza le pagine principali a cui gli utenti accedono quando visitano per la prima volta il tuo sito per una determinata sessione. <p>**Questo può aiutarti** a comprendere meglio quali pagine generano maggior traffico verso il tuo sito o quali sono le prime impressioni dei visitatori.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare l’esperienza iniziale o assicurarsi che le pagine visualizzate per prima, all’accesso, siano accoglienti e forniscano i collegamenti necessari verso altre aree del sito.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni a barre e tabella a forma libera.</p> |
 | **[!UICONTROL Entries & exits]** > [!UICONTROL **Pagine di ingresso originali**] | Visualizza le pagine principali a cui le persone accedono alla prima visita del tuo sito durante il ciclo di vita di un visitatore. <p>**Questo può aiutarti** a comprendere meglio quali pagine generano maggior traffico verso il tuo sito o quali sono le prime impressioni dei visitatori.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare l’esperienza iniziale o assicurarsi che le pagine visualizzate per prima, all’accesso, siano accoglienti e forniscano i collegamenti necessari verso altre aree del sito.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni a barre e tabella a forma libera.</p> |
 | **[!UICONTROL Entries & exits]** > [!UICONTROL **Visite a pagina singola**] | Visualizza il numero di visite in cui è stata visitata una singola pagina univoca. <p>**Questo può aiutarti** a comprendere meglio il livello di coinvolgimento dei visitatori e quanto tempo trascorrono sul sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare se, in seguito a modifiche apportate al sito, i visitatori trascorrono più tempo sul sito.</p><p>Questo modello utilizza la dimensione [Visite a pagina singola](/help/components/dimensions/single-page-visits.md).</p> |
-| **[!UICONTROL Entries & exits]** > [!UICONTROL **Pagine di uscita**] | Visualizza le pagine principali a cui le persone accedono immediatamente prima di lasciare il sito.<p>**Questo può aiutarti** a comprendere meglio quali pagine allontanano le persone dal sito. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l’esperienza che le persone hanno del sito prima di lasciarlo, oppure includere contenuti o collegamenti per incoraggiarle a rimanere sullo stesso.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni a barre e tabella a forma libera.</p> |
+| **[!UICONTROL Entries & exits]** > [!UICONTROL **Pagine di uscita**] | Visualizza le pagine principali a cui le persone accedono immediatamente prima di lasciare il sito.<p>**Questo può aiutarti** a capire meglio quali pagine allontanano le persone dal sito. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio aggiornare le pagine di uscita comuni per ottimizzare l’esperienza che le persone hanno del sito prima di lasciarlo, oppure includere contenuti o collegamenti per incoraggiarle a rimanere sullo stesso.</p><p>Questo modello utilizza la metrica Sessioni. Utilizza anche le visualizzazioni a barre e tabella a forma libera.</p> |
 | [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **Panoramica delle prestazioni del sito**] > [!UICONTROL **Prestazioni del sito AEM**] | Visualizza i dati sulle prestazioni per il sito Adobe Experience Manager.  <p>**Questo può aiutarti** a comprendere meglio la realizzazione del valore da Adobe Experience Manager.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare le impostazioni di Experience Manager.</p> |
 | [!UICONTROL **Adobe Experience Manager**] > [!UICONTROL **Panoramica delle prestazioni dei moduli**] > [!UICONTROL **Prestazioni dei moduli AEM**] | Visualizza i dati sulle prestazioni per Adobe Experience Manager Forms.  <p>**Questo può aiutarti** a comprendere meglio la realizzazione del valore da Adobe Experience Manager.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come ottimizzare le impostazioni di Experience Manager.</p> |
 | [!UICONTROL **Impatto ITP**] | Visualizza e analizza gli effetti della Prevenzione intelligente del tracciamento (ITP) sulla raccolta dei dati e sul reporting. <p>**Questo può aiutarti** a comprendere meglio la potenziale perdita di dati dovuta alle restrizioni sui cookie imposte dall’ITP.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio adattare la configurazione dell’analisi per ridurre al minimo l’impatto dell’ITP.</p> |
@@ -961,7 +936,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="template--mobile-lifecycle-metrics-app-usage-template"
 >title="Visualizza il numero di utenti, avvii e primi avvii sull’app, nonché la durata media di una sessione."
->abstract="**Questo può aiutarti** a comprendere meglio quanto viene utilizzata l’applicazione. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare le prestazioni dell’app in modo che possa essere adattata alla quantità di utilizzo."
+>abstract="**Questo può aiutarti** a comprendere meglio quanto viene utilizzata l’app. <br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare le prestazioni dell’app in modo che possa essere adattata alla quantità di utilizzo."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -1045,7 +1020,7 @@ Sono disponibili i modelli seguenti:
 | **Mobile** > **Dimensioni schermo** | Visualizza le dimensioni principali dello schermo dei dispositivi mobili che le persone utilizzano per accedere al tuo sito.<p>**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato dai visitatori.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando nuove versioni con le dimensioni più comuni dello schermo dei dispositivi mobili. In questo modo è possibile massimizzare le attività di controllo qualità.</p> |
 | **Dispositivi mobili** > **Altezza schermo** | Visualizza le dimensioni dell’altezza dello schermo dei dispositivi mobili principali che le persone utilizzano per accedere al tuo sito.<p>**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato dai visitatori.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando nuove versioni con le altezze dello schermo dei dispositivi mobili più comuni. In questo modo è possibile massimizzare le attività di controllo qualità.</p> |
 | **Dispositivi mobili** > **Larghezza schermo** | Visualizzare le dimensioni della larghezza dello schermo dei dispositivi mobili principali che le persone utilizzano per accedere al sito.<p>**Questo può aiutarti** a comprendere meglio come il contenuto viene visualizzato dai visitatori.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare la qualità del sito testando nuove versioni con le larghezze dello schermo dei dispositivi mobili più comuni. In questo modo è possibile massimizzare le attività di controllo qualità.</p> |
-| **Mobile** > **Utilizzo app mobile** | Visualizza il numero di utenti, avvii e primi avvii sull’app, nonché la durata media di una sessione.<p>**Questo può aiutarti** a comprendere meglio quanto viene utilizzata l’applicazione. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare le prestazioni dell’app in modo che possa essere adattata alla quantità di utilizzo.</p><!-- This template uses the --> |
+| **Mobile** > **Utilizzo app mobile** | Visualizza il numero di utenti, avvii e primi avvii sull’app, nonché la durata media di una sessione.<p>**Questo può aiutarti** a comprendere meglio quanto viene utilizzata l’app. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare le prestazioni dell’app in modo che possa essere adattata alla quantità di utilizzo.</p><!-- This template uses the --> |
 | **Dispositivi mobili** > **percorsi di app mobili** | Visualizza i pattern di utilizzo in primo piano per l’app mobile. <p>**Questo può aiutarti** a comprendere meglio il modo in cui le persone utilizzano la tua app. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare il modo in cui le persone passano da una schermata all’altra per i flussi di lavoro più comuni. </p><!-- This template uses the --> |
 | **Dispositivi mobili** > **Metriche app dispositivi mobili** | Visualizza alcune delle metriche più comuni per le app mobili. <p>**Questo può aiutarti** a comprendere meglio le prestazioni di base della tua app mobile.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare lo stato e le prestazioni complessive dell’app.</p><!-- This template uses the --> |
 | **Mobile** > **Messaggistica app mobile** | Visualizza i dati sulle prestazioni per la messaggistica in-app e push dell’applicazione.<p>**Questo può aiutarti** a comprendere meglio come le persone utilizzano le funzionalità di messaggistica in-app e l’efficacia delle notifiche push nell’indirizzare più traffico verso la tua app.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare l’esperienza di notifica push in-app.</p><!-- This template uses the --> |
