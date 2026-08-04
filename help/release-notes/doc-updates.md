@@ -31,10 +31,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
 workflow-type: tm+mt
-source-wordcount: 7322
-ht-degree: 85%
+source-wordcount: 7353
+ht-degree: 84%
 
 ---
 
@@ -51,6 +51,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Agosto 2026** | |
+| Sono stati aggiunti nuovi strumenti di IA per la conversazione alla dimensione del tipo di referente | La dimensione &quot;Tipo referrer&quot; ora include i seguenti [strumenti di IA per la conversazione](/help/components/dimensions/referrer-type.md#conversational-ai-tools) aggiuntivi nella tabella di ricerca utilizzata da Adobe:<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **Giugno 2026** | |
 | Aggiornamento riferimento stringa query | Revisioni significative ai [parametri di query della raccolta dati](/help/implement/validate/query-parameters.md). |
 | Segmenti in Data Warehouse | Aggiornamento di [Compatibilità del segmento Data Warehouse](/help/export/data-warehouse/segment-compatibility.md). |

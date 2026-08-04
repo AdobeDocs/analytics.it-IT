@@ -16,7 +16,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: 5a76fa85cdcc109ee92d6116d30510841a4c6ab1
 workflow-type: tm+mt
 source-wordcount: 502
 ht-degree: 2%
@@ -53,6 +53,7 @@ L’elenco seguente fa riferimento alla tabella di ricerca &quot;Strumenti di IA
 * `https://chat.deepseek.com`
 * `https://chat.openai.com`
 * `https://doubao.com`
+* `https://duck.ai`
 * `https://gemini.google.com`
 * `https://copilot.microsoft.com`
 * `https://m365.cloud.microsoft`
@@ -67,6 +68,7 @@ L’elenco seguente fa riferimento alla tabella di ricerca &quot;Strumenti di IA
 * `https://blackbox.ai`
 * `https://chat.mistral.ai`
 * `https://meta.ai`
+* `https://you.com`
 
 ### Social network
 
