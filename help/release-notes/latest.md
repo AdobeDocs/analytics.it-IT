@@ -2,7 +2,6 @@
 title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
-hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -25,16 +24,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 26759b2b3290cbfdda78aa0a5b45fc3ade43c37e
+source-git-commit: fb075dbb41d961c625a6af24e70e07b398203b39
 workflow-type: tm+mt
 source-wordcount: 1270
-ht-degree: 44%
+ht-degree: 43%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (agosto 2026)
 
-**Ultimo aggiornamento**: 4 agosto 2026
+**Ultimo aggiornamento**: 5 agosto 2026
 
 Queste note sulla versione coprono il periodo di rilascio di agosto 2026. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -44,7 +43,7 @@ Queste note sulla versione coprono il periodo di rilascio di agosto 2026. Le ver
 | ----------- | ---------- | ---- |
 | **Estensione Activity Map: aggiornamento dell&#39;interfaccia utente** <br/>L&#39;estensione di sovrapposizione Activity Map ha un aspetto aggiornato e presenta miglioramenti di base che supportano i prossimi miglioramenti.<p>Per informazioni sull&#39;estensione Activity Map overlay, vedere [Interfaccia dell&#39;estensione Activity Map](/help/analyze/activity-map/overlay/overview.md).</p> | | 5 agosto 2026<p>(Originariamente previsto per la fine di luglio)</p> |
 | **Utilizza i dati di Analytics in LLM Optimizer**<br> Connetti LLM Optimizer con i dati di Customer Journey Analytics della tua organizzazione in modo da poter misurare come l&#39;individuazione basata sull&#39;intelligenza artificiale si traduce in un reale coinvolgimento sul sito Web e nei risultati di business.<p>Il collegamento alla documentazione seguirà a breve.</p> | | 14 agosto 2026 |
-| **Miglioramenti all&#39;area di lavoro di Percorso**<br> Sono ora disponibili i seguenti miglioramenti all&#39;area di lavoro di Percorso:<ul><li>Confrontare il percorso con un intervallo di tempo precedente. Confrontare il percorso corrente con il percorso 4 settimane prima, 2 trimestri prima, 1 anno prima o con un intervallo di date personalizzato.</li><li>Per un nodo selezionato, mostra gli elementi dimensionali principali che seguono il nodo selezionato in qualsiasi punto del percorso. Utilizzalo quando il nodo selezionato è l’evento chiave nell’analisi e vuoi vedere cosa fanno le persone in qualsiasi momento successivo.<p>In precedenza, potevano essere visualizzati solo i primi nodi immediati prima o dopo il nodo selezionato. </p></li><li>Modificare la forma e lo stile delle frecce tra i nodi. Trascinare le frecce tra i nodi per modificare la forma (curvitura) della freccia e fare clic con il pulsante destro del mouse su una freccia per modificarne lo stile in uno dei seguenti modi: continua, tratteggiata, punteggiata, tratteggiata o animata.</li></ul><p></p>Per ulteriori informazioni, consulta [Configurare le visualizzazioni in un’Area di lavoro del percorso](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | 18 agosto 2026 |
+| **Miglioramenti all&#39;area di lavoro di Percorso**<br> Sono ora disponibili i seguenti miglioramenti all&#39;area di lavoro di Percorso:<ul><li>Confrontare il percorso con un intervallo di tempo precedente. Confrontare il percorso corrente con il percorso 4 settimane prima, 2 trimestri prima, 1 anno prima o con un intervallo di date personalizzato.</li><li>Per un nodo selezionato, mostra gli elementi dimensionali principali che seguono il nodo selezionato in qualsiasi punto del percorso. Utilizzalo quando il nodo selezionato è l’evento chiave nell’analisi e vuoi vedere cosa fanno le persone in qualsiasi momento successivo.<p>In precedenza, potevano essere visualizzati solo i primi nodi immediati prima o dopo il nodo selezionato. </p></li><li>Modificare la forma e lo stile delle frecce tra i nodi. Trascinare le frecce tra i nodi per modificare la forma (curvatura) della freccia e fare clic con il pulsante destro del mouse su una freccia per modificarne lo stile in uno dei seguenti modi: continua, tratteggiata, punteggiata, tratteggiata o animata.</li></ul><p></p>Per ulteriori informazioni, consulta [Configurare le visualizzazioni in un’Area di lavoro del percorso](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | 18 agosto 2026 |
 | **Pianificazione della migrazione: da Adobe Analytics a Customer Journey Analytics**<br> Il Pianificatore della migrazione fornisce una procedura guidata che automatizza alcune delle attività più complesse e dispendiose in termini di tempo associate a un aggiornamento da Adobe Analytics a Customer Journey Analytics, inclusa la creazione e la migrazione dello schema XDM da AppMeasurement o dall&#39;estensione Analytics (tag) a Experience Platform Web SDK. <p>Il collegamento alla documentazione seguirà a breve.</p> | | Fine di agosto o settembre 2026 |
 | **Riferimento per i canali di marketing API di Analytics**<br/> Utilizzare il riferimento per i canali di marketing API di Adobe Analytics 2.0 per recuperare le informazioni sui canali di marketing di Analytics. Consulta la [documentazione sui canali di marketing API di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels). | | 1 agosto 2026 |
 | **Guida dell&#39;endpoint dei canali di marketing API di Analytics**<br/> La guida dell&#39;endpoint dei canali di marketing API di Adobe Analytics 2.0 fornisce istruzioni ed esempi per l&#39;utilizzo dell&#39;endpoint. Consulta la [Guida dell&#39;endpoint dei canali di marketing API di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels). | | 1 agosto 2026 |
@@ -80,7 +79,7 @@ Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, consulta le [note
 
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | -----------|-----------|-----------|
-| **Servizi multimediali in streaming: supporto dei dati di pianificazione** <br/>Ora puoi caricare dati di pianificazione di precedenti contenuti live multimediali in streaming per monitorare l’audience con maggiore facilità e precisione.<p>Di seguito sono riportati alcuni esempi di contenuti live supportati con il caricamento dei dati di pianificazione:</p><ul><li>Piattaforme FAST (Free Ad Supported TV)</li><li>Flussi locali</li><li>Sport live</li></ul><p>Il caricamento dei dati di pianificazione ti consente di tenere traccia dei dati sul pubblico per i singoli programmi eseguiti durante il periodo di tempo indicato nel file di caricamento. Puoi anche raccogliere i dati sul pubblico per argomenti o segmenti di programma specifici.</p><p>Queste funzionalità sono disponibili indipendentemente da come hai implementato Streaming Media Collection.</p><p>In precedenza, era difficile collegare con precisione una determinata sessione a programmi specifici durante l’analisi di contenuti live, a singoli argomenti o a segmenti di programma.</p><p>Per ulteriori informazioni, consulta [Caricare i dati di pianificazione per tenere traccia del contenuto live](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-use-cases/track-schedule-data) | 29 ottobre 2025 | Da definire<p>(Originariamente previsto per il 29 ottobre 2025)</p> |
+| **Servizi multimediali in streaming: supporto dei dati di pianificazione** <br/>Ora puoi caricare dati di pianificazione di precedenti contenuti live multimediali in streaming per monitorare l’audience con maggiore facilità e precisione.<p>Di seguito sono riportati alcuni esempi di contenuti live supportati con il caricamento dei dati di pianificazione:</p><ul><li>Piattaforme FAST (Free Ad Supported TV)</li><li>Flussi locali</li><li>Sport live</li></ul><p>Il caricamento dei dati di pianificazione ti consente di tenere traccia dei dati sul pubblico per i singoli programmi eseguiti durante il periodo di tempo indicato nel file di caricamento. Puoi anche raccogliere i dati sul pubblico per argomenti o segmenti di programma specifici.</p><p>Queste funzionalità sono disponibili indipendentemente da come hai implementato Streaming Media Collection.</p><p>In precedenza, era difficile collegare con precisione una determinata sessione a programmi specifici durante l’analisi di contenuti live, a singoli argomenti o a segmenti di programma.</p><p>Per ulteriori informazioni, consulta [Caricare dati di pianificazione per tenere traccia del contenuto live](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-use-cases/track-schedule-data). | 29 ottobre 2025 | Da definire<p>(Originariamente previsto per il 29 ottobre 2025)</p> |
 
 
 >[!MORELIKETHIS]
