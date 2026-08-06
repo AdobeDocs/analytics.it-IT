@@ -3,10 +3,10 @@ description: Informazioni sulla configurazione di una visualizzazione dell’are
 title: Configurare una visualizzazione dell’area di lavoro del percorso
 feature: Visualizations
 role: User, Admin
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 9f5b9cdd90892f7efa65f09831daaf307e16c7d7
 workflow-type: tm+mt
-source-wordcount: '5765'
-ht-degree: 87%
+source-wordcount: '5908'
+ht-degree: 85%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Vedere [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) per la versione _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;di questo articolo._
+_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Vedere [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) per la versione _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -69,6 +69,33 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 >id="aa_journeycanvas_percentage_value"
 >title="Scegli come vengono calcolate le percentuali"
 >abstract="Le percentuali visualizzate su ciascun nodo si basano sulle metriche primarie e secondarie che hai configurato. Puoi scegliere se le percentuali si riferiscono al nodo iniziale, al nodo precedente o a tutti i dati della suite di rapporti."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_arrow_settings"
+>title="Impostazioni freccia"
+>abstract="Scegliere se mostrare o nascondere le etichette nell&#39;area di lavoro. Le etichette sono nomi personalizzati creati nell’area di lavoro del Percorso."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_show_fallout"
+>title="Mostra i fallout"
+>abstract="I dati di fallout mostrano la percentuale e il numero di persone o sessioni in ciascun nodo del percorso che non sono mai arrivate al nodo successivo del percorso. Potrebbero aver eseguito altre azioni sul sito, ma non hanno mai soddisfatto i criteri definiti dal nodo successivo nel percorso.<br/>I dati di fallout mostrano persone o sessioni (indipendentemente dalla metrica principale scelta) e si basano sull&#39;impostazione del contenitore Area di lavoro del Percorso."
+
+<!-- markdownlint-enable MD034 -->
+
+<!-- markdownlint-disable MD034 -->
+
+>[!CONTEXTUALHELP]
+>id="aa_journeycanvas_compare"
+>title="Confronta con"
+>abstract="L’intervallo di date utilizzato per confrontare i dati correnti del percorso con un periodo precedente. Quando selezioni un intervallo di date di confronto, ogni nodo del percorso mostra la variazione percentuale tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica principale. "
 
 <!-- markdownlint-enable MD034 -->
 
