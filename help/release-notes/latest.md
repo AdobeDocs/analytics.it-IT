@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fb075dbb41d961c625a6af24e70e07b398203b39
+source-git-commit: aa88b03fa4a562be585e3637ab3999cddf64e8dc
 workflow-type: tm+mt
-source-wordcount: 1270
-ht-degree: 43%
+source-wordcount: 1232
+ht-degree: 44%
 
 ---
 
@@ -42,7 +42,6 @@ Queste note sulla versione coprono il periodo di rilascio di agosto 2026. Le ver
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ---- |
 | **Estensione Activity Map: aggiornamento dell&#39;interfaccia utente** <br/>L&#39;estensione di sovrapposizione Activity Map ha un aspetto aggiornato e presenta miglioramenti di base che supportano i prossimi miglioramenti.<p>Per informazioni sull&#39;estensione Activity Map overlay, vedere [Interfaccia dell&#39;estensione Activity Map](/help/analyze/activity-map/overlay/overview.md).</p> | | 5 agosto 2026<p>(Originariamente previsto per la fine di luglio)</p> |
-| **Utilizza i dati di Analytics in LLM Optimizer**<br> Connetti LLM Optimizer con i dati di Customer Journey Analytics della tua organizzazione in modo da poter misurare come l&#39;individuazione basata sull&#39;intelligenza artificiale si traduce in un reale coinvolgimento sul sito Web e nei risultati di business.<p>Il collegamento alla documentazione seguirà a breve.</p> | | 14 agosto 2026 |
 | **Miglioramenti all&#39;area di lavoro di Percorso**<br> Sono ora disponibili i seguenti miglioramenti all&#39;area di lavoro di Percorso:<ul><li>Confrontare il percorso con un intervallo di tempo precedente. Confrontare il percorso corrente con il percorso 4 settimane prima, 2 trimestri prima, 1 anno prima o con un intervallo di date personalizzato.</li><li>Per un nodo selezionato, mostra gli elementi dimensionali principali che seguono il nodo selezionato in qualsiasi punto del percorso. Utilizzalo quando il nodo selezionato è l’evento chiave nell’analisi e vuoi vedere cosa fanno le persone in qualsiasi momento successivo.<p>In precedenza, potevano essere visualizzati solo i primi nodi immediati prima o dopo il nodo selezionato. </p></li><li>Modificare la forma e lo stile delle frecce tra i nodi. Trascinare le frecce tra i nodi per modificare la forma (curvatura) della freccia e fare clic con il pulsante destro del mouse su una freccia per modificarne lo stile in uno dei seguenti modi: continua, tratteggiata, punteggiata, tratteggiata o animata.</li></ul><p></p>Per ulteriori informazioni, consulta [Configurare le visualizzazioni in un’Area di lavoro del percorso](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | 18 agosto 2026 |
 | **Pianificazione della migrazione: da Adobe Analytics a Customer Journey Analytics**<br> Il Pianificatore della migrazione fornisce una procedura guidata che automatizza alcune delle attività più complesse e dispendiose in termini di tempo associate a un aggiornamento da Adobe Analytics a Customer Journey Analytics, inclusa la creazione e la migrazione dello schema XDM da AppMeasurement o dall&#39;estensione Analytics (tag) a Experience Platform Web SDK. <p>Il collegamento alla documentazione seguirà a breve.</p> | | Fine di agosto o settembre 2026 |
 | **Riferimento per i canali di marketing API di Analytics**<br/> Utilizzare il riferimento per i canali di marketing API di Adobe Analytics 2.0 per recuperare le informazioni sui canali di marketing di Analytics. Consulta la [documentazione sui canali di marketing API di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels). | | 1 agosto 2026 |
