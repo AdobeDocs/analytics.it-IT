@@ -76,9 +76,9 @@ La tabella seguente descrive gli hint client da ottobre 2022.
 
 | Hint | Descrizione | Alta o bassa entropia | Esempio |
 | --- | --- | --- | --- |
-| Sec-CH-UA | Browser e versione rilevante | Basso | `"Google Chrome 84"` |
-| Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Basso | `true` |
-| Sec-CH-UA-Platform | Sistema operativo/piattaforma | Basso | `"Android"` |
+| Sec-CH-UA | Browser e versione rilevante | Bassa | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | Dispositivo mobile (true o false) | Bassa | `true` |
+| Sec-CH-UA-Platform | Sistema operativo/piattaforma | Bassa | `"Android"` |
 | architettura | Architettura del sito | Alta | `"arm"` |
 | amarezza | Abilità dell&#39;architettura | Alto | `"64"` |
 | fullVersionList | Elenco dei marchi e versione | Alta | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |

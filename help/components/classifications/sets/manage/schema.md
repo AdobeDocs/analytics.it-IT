@@ -14,22 +14,22 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: c098ef0fa444400743623c774f4d5302cd74db66
+source-git-commit: 852737398297f5317ab781f2c7dceb8ab72e7ee8
 workflow-type: tm+mt
-source-wordcount: 1726
+source-wordcount: 1768
 ht-degree: 10%
 
 ---
 
 # Schema del set di classificazione
 
-Lo schema è l’elenco delle classificazioni che desideri applicare alle dimensioni chiave definite per il set di classificazione. Ad esempio, se hai definito prodotto come dimensione chiave e questo campo contiene uno SKU di prodotto, utilizza lo schema per aggiungere classificazioni quali nome del prodotto, colore e dimensione.
+Lo schema è l’elenco delle classificazioni che desideri applicare alle dimensioni chiave definite per il set di classificazione. Ad esempio, se prodotto è la dimensione chiave, utilizza lo schema per aggiungere classificazioni quali nome del prodotto, colore e dimensione.
 
 Per modificare lo schema per un set di classificazione:
 
 1. Seleziona **[!UICONTROL Components]** dalla barra dei menu superiore di Adobe Analytics, quindi seleziona **[!UICONTROL Classification sets]**.
 1. In **[!UICONTROL Classification Sets]**, selezionare la scheda **[!UICONTROL Classification Sets]**.
-1. Nel gestore **[!UICONTROL Classifications Sets]**, selezionare il set di classificazione per il quale si desidera modificare lo schema.
+1. Nel gestore **[!UICONTROL Classification Sets]**, selezionare il set di classificazione per il quale si desidera modificare lo schema.
 1. Nella finestra di dialogo **[!UICONTROL Classification Set: _nome set di classificazione_]**, seleziona la scheda **[!UICONTROL Schema]**. Tale scheda è costituita dai seguenti elementi dell’interfaccia:
 
    ![Set di classificazione - schema](assets/classification-sets-schema.png)
@@ -133,7 +133,7 @@ Nella finestra di dialogo **[!UICONTROL Download data for _nome set di classific
    * **[!UICONTROL Latin-1]**.
 
 
-1. Seleziona **[!UICONTROL Download]** per scaricare i dati di classificazione. Puoi trovare il file scaricato nella directory di download predefinita del browser con titolo <code><i>Set di classificazione</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se il file esiste già, un numero di sequenza <code>(<i>x</i>)</code> viene aggiunto al nome del file.<br/>Se sono state specificate opzioni che non restituiscono alcun dato, verrà visualizzata una finestra di dialogo **[!UICONTROL Notice]** in cui viene indicato di modificare le opzioni per l&#39;intervallo di date e i dati restituiti.
+1. Seleziona **[!UICONTROL Download]** per scaricare i dati di classificazione. Puoi trovare il file scaricato nella directory di download predefinita del browser con titolo <code><i>Set di classificazione</i>.<i>json</i>|<i>csv</i>|<i>tsv</i></code>. Se il file esiste, un numero di sequenza <code>(<i>x</i>)</code> viene aggiunto al nome del file.<br/>Se non vengono restituiti dati, una finestra di dialogo **[!UICONTROL Notice]** richiede di modificare l&#39;intervallo di date o le opzioni dei dati.
 
 
 ### Modello
@@ -164,19 +164,19 @@ Nella finestra di dialogo **[!UICONTROL Download template for _nome set di class
 >id="classificationsets_schema_automate_locationaccount"
 >title="Account posizione"
 >abstract="Elenco di account posizione di tipi di account che supportano l’importazione dei dati di classificazione. Selezionare **[!UICONTROL New account]** per creare un nuovo account località."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-accounts.html?lang=it" text="Configurare account di importazione ed esportazione cloud"
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics/components/locations/configure-import-accounts" text="Configurare account di importazione ed esportazione cloud"
 
 
 >[!CONTEXTUALHELP]
 >id="classificationsets_schema_automate_location"
 >title="Posizione"
 >abstract="Elenco di posizioni nell’account posizione selezionato che supportano l’importazione dei dati di classificazione. Selezionare **[!UICONTROL New location]** per creare una nuova posizione."
->additional-url="https://experienceleague.adobe.com/docs/analytics/components/locations/configure-import-locations.html?lang=it" text="Configurare posizioni di importazione ed esportazione cloud"
+>additional-url="https://experienceleague.adobe.com/it/docs/analytics/components/locations/configure-import-locations" text="Configurare posizioni di importazione ed esportazione cloud"
 
-Puoi automatizzare l’acquisizione dei dati di classificazione tramite la configurazione e l’utilizzo dell’account cloud e delle posizioni cloud.
+Puoi automatizzare l’acquisizione dei dati di classificazione configurando e utilizzando account cloud e posizioni cloud.
 
 >[!IMPORTANT]
->L’automazione dell’acquisizione delle classificazioni dagli account cloud richiede che tu (o il tuo amministratore di rete) specifichi intervalli di indirizzi IP per consentire l’acquisizione dei dati nella rete. Configura uno o più intervalli di indirizzi IP a seconda della posizione dei centri dati di Analytics che utilizzi.
+>L’automazione dell’acquisizione della classificazione dagli account cloud richiede che tu (o il tuo amministratore di rete) specifichi intervalli di indirizzi IP per consentire l’acquisizione dei dati nella rete. Configura uno o più intervalli di indirizzi IP a seconda della posizione dei centri dati di Analytics che utilizzi.
 >
 >| Posizione del centro dati di Analytics | Aggiungere questo intervallo di indirizzi IP a un inserisco nell&#39;elenco Consentiti di nella rete |
 >|---|---:|
@@ -212,7 +212,7 @@ Nella finestra di dialogo **[!UICONTROL Associate / Update Ingest Location for _
    * **[!UICONTROL UTF-8]**.
    * **[!UICONTROL Latin-1]**.
 
-1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs completes (comma separated)]**.
+1. Per avvisare gli utenti del completamento dei processi di acquisizione, inserisci gli indirizzi e-mail, separati da virgola, per **[!UICONTROL Email(s) to notify when ingest jobs complete (comma separated)]**.
 1. Seleziona **[!UICONTROL Validate]**. Convalida della connessione alla posizione cloud. Se la convalida ha esito positivo, viene visualizzato un messaggio popup con ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Location validation successful. Connection to cloud storage verified.]**<br/>Selezionare **[!UICONTROL Save]**&#x200B;se è stata creata la connessione al cloud. In caso contrario, selezionare **[!UICONTROL Update]**. In alternativa, selezionare **[!UICONTROL Cancel]**&#x200B;per annullare la configurazione del percorso cloud.
 
 Quando carichi i file nel percorso cloud, entro 15 minuti il file viene rilevato e inviato come processo di importazione. Il risultato di questo processo di importazione è riportato in [Gestione processi classificazioni](/help/components/classifications/sets/job-manager.md). Se vieni aggiunto all’elenco di utenti a cui inviare notifiche sul completamento dei processi di acquisizione, riceverai anche messaggi e-mail.
@@ -253,3 +253,30 @@ La barra delle azioni mostra le azioni disponibili per la classificazione selezi
 | ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) | **[!UICONTROL Remove Lookup]** | Rimuovi un set di classificazione come ricerca. Per eliminare definitivamente la ricerca dalla classificazione, nella **[!UICONTROL Remove _finestra di dialogo di conferma _del_set di classificazione_]** selezionare **[!UICONTROL Delete]**. |
 | ![Rinomina](/help/assets/icons/Rename.svg) | **[!UICONTROL Rename]** | Rinomina **[!UICONTROL Classification Name]** di una classificazione. Nella finestra di dialogo **[!UICONTROL Rename: _nome classificazione_]**, immettere un nuovo nome e selezionare **[!UICONTROL Rename]**. |
 | ![Elimina](/help/assets/icons/Delete.svg) | **[!UICONTROL Delete]** | Eliminare una classificazione. Viene visualizzata la finestra di dialogo **[!UICONTROL Delete _nome classificazione_]**. Selezionare **[!UICONTROL Delete]** per eliminare la classificazione. |
+
+
+## Dati non classificati
+
+Se dopo un&#39;importazione che viene visualizzata come `none` nei rapporti si riscontrano dati non classificati, è possibile rinominare la chiave di classificazione `None`.
+
+1. [Scarica](#download) le classificazioni in un file locale.
+1. Aggiungere una riga al file locale e immettere `~none~` nella colonna Chiave. Digita i nomi di classificazione più descrittivi nelle colonne appropriate.
+
+   Ad esempio:
+
+   * JSON
+
+     ```json
+     {"key": "~none~", "enc": "DEFAULT", "action": "update", "data": {"Product Name": "Unknown Product Name", "Product Category": "Unknown Product Category"}}
+     ...
+     ```
+
+   * CSV:
+
+     ```csv
+     Key, Product Name, Product Category
+     ~none~, Unknown Product Name, Unknown Product Category
+     ...
+     ```
+
+1. [Carica](#upload) di nuovo i dati in Adobe Analytics.

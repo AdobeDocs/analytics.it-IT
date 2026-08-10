@@ -62,9 +62,9 @@ Se [!UICONTROL SSL Tracking Server] è impostato correttamente, non sono necessa
 L&#39;utilizzo della variabile **[!UICONTROL Visitor ID]** consente all&#39;organizzazione di completare il controllo indipendente per identificare i visitatori. Se imposti [!UICONTROL Visitor ID] utilizzando un elemento dati, tieni presente le seguenti limitazioni:
 
 * Ogni hit deve contenere lo stesso valore [!UICONTROL Visitor ID] per essere conteggiato come un singolo visitatore.
-   * Gli hit che omettono l&#39;elemento dati [!UICONTROL Visitor ID] tentano automaticamente di utilizzare un altro metodo di identificazione visitatore, considerandoli come un visitatore separato.
-   * Tutti gli hit che contengono un valore [!UICONTROL Visitor ID] diverso da un hit precedente vengono trattati come un visitatore separato.
-   * Adobe non offre un modo per unire gli hit utilizzando ID visitatore diversi in Adobe Analytics.
+  * Gli hit che omettono l&#39;elemento dati [!UICONTROL Visitor ID] tentano automaticamente di utilizzare un altro metodo di identificazione visitatore, considerandoli come un visitatore separato.
+  * Tutti gli hit che contengono un valore [!UICONTROL Visitor ID] diverso da un hit precedente vengono trattati come un visitatore separato.
+  * Adobe non offre un modo per unire gli hit utilizzando ID visitatore diversi in Adobe Analytics.
 * I tipi di pubblico condivisi, Analytics for Target e gli attributi del cliente non sono supportati con i visitatori identificati tramite [!UICONTROL Visitor ID].
 
 Per le istruzioni di implementazione che utilizzano questa variabile, vedere [`visitorID`](/help/implement/vars/config-vars/visitorid.md).
