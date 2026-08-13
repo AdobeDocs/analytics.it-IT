@@ -6,18 +6,10 @@ feature: Activity Map
 role: User, Admin
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
 TQID: 'https://experienceleague.adobe.com/A83iKOXks62-m-PoHZpFuGIAJQEQ1HS1B-Mvqit3zVc'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 502
@@ -39,16 +31,16 @@ Modifica le impostazioni generali per l’estensione e le sovrapposizioni.
 * **[!UICONTROL Page name]**: mostra il nome della pagina corrente.
 * **[!UICONTROL Language]**: modifica la lingua per le etichette delle estensioni Activity Map. Questa impostazione non modifica il contenuto del sito web o i nomi dei collegamenti nei rapporti. Le lingue supportate includono inglese, francese, cinese (semplificato), cinese (tradizionale), tedesco, giapponese, coreano, spagnolo e portoghese.
 * **[!UICONTROL Label overlays with]**: determina la bolla o il testo sfumato. Impostazione predefinita: [!UICONTROL Rank]. Le opzioni includono:
-   * **[!UICONTROL No label]**: nessun testo all&#39;interno delle etichette, con caselle colorate
-   * **[!UICONTROL Value]**: visualizza il numero di clic sul collegamento ([Occorrenze](/help/components/metrics/occurrences.md))
-   * **[!UICONTROL Percent]**: visualizza la proporzione di clic sul collegamento rispetto al numero totale di clic sul collegamento nella pagina
-   * **[!UICONTROL Rank]**: classificazione numerica del collegamento in base al numero di clic.
+  * **[!UICONTROL No label]**: nessun testo all&#39;interno delle etichette, con caselle colorate
+  * **[!UICONTROL Value]**: visualizza il numero di clic sul collegamento ([Occorrenze](/help/components/metrics/occurrences.md))
+  * **[!UICONTROL Percent]**: visualizza la proporzione di clic sul collegamento rispetto al numero totale di clic sul collegamento nella pagina
+  * **[!UICONTROL Rank]**: classificazione numerica del collegamento in base al numero di clic.
 * **[!UICONTROL Label font size]**: determina le dimensioni del testo all&#39;interno della bolla o della sfumatura.
 * **[!UICONTROL Gradient color]**: consente di modificare il colore della sfumatura quando il tipo di visualizzazione è [!UICONTROL Gradient].
 * **[!UICONTROL Bubble color]**: consente di modificare il colore della bolla quando il tipo di visualizzazione è [!UICONTROL Bubble].
 * **[!UICONTROL Color gradient based on]**: determina la metrica su cui si basa l&#39;intensità del colore di un collegamento quando il tipo di visualizzazione è [!UICONTROL Gradient].
-   * **[!UICONTROL Top 30 rankings]**: intensità colore normalizzata per i primi 30 collegamenti.
-   * **[!UICONTROL Absolute metric value]**: l&#39;intensità del colore è una funzione del valore della metrica assoluto.
+  * **[!UICONTROL Top 30 rankings]**: intensità colore normalizzata per i primi 30 collegamenti.
+  * **[!UICONTROL Absolute metric value]**: l&#39;intensità del colore è una funzione del valore della metrica assoluto.
 * **[!UICONTROL Gradient transparency]**: determina la trasparenza delle sovrapposizioni sfumature quando il tipo di visualizzazione è [!UICONTROL Gradient]. Questo cursore consente di rendere la sovrapposizione colore completamente trasparente, completamente opaca o in qualsiasi punto intermedio.
 
 ## Impostazioni standard
@@ -56,9 +48,9 @@ Modifica le impostazioni generali per l’estensione e le sovrapposizioni.
 Regola le impostazioni per la visualizzazione standard.
 
 * **[!UICONTROL Dynamic data filtering]**: consente di modificare i collegamenti visualizzati.
-   * **[!UICONTROL Top]**: visualizza i collegamenti più popolari. Utilizza l’elenco a discesa numerico a destra per determinare il numero di collegamenti principali da visualizzare. Le opzioni includono 1, 10, 50 e 100.
-   * **[!UICONTROL Bottom]**: visualizza i collegamenti meno popolari in base all&#39;elenco a discesa dei numeri. Utilizza l’elenco a discesa numerico a destra per determinare il numero di collegamenti inferiori da visualizzare. Le opzioni includono 1, 10, 50 e 100.
-   * **[!UICONTROL All links]**: non applicare il filtro dati dinamico. L’elenco a discesa numerico non si applica quando questa opzione è selezionata.
+  * **[!UICONTROL Top]**: visualizza i collegamenti più popolari. Utilizza l’elenco a discesa numerico a destra per determinare il numero di collegamenti principali da visualizzare. Le opzioni includono 1, 10, 50 e 100.
+  * **[!UICONTROL Bottom]**: visualizza i collegamenti meno popolari in base all&#39;elenco a discesa dei numeri. Utilizza l’elenco a discesa numerico a destra per determinare il numero di collegamenti inferiori da visualizzare. Le opzioni includono 1, 10, 50 e 100.
+  * **[!UICONTROL All links]**: non applicare il filtro dati dinamico. L’elenco a discesa numerico non si applica quando questa opzione è selezionata.
 * **[!UICONTROL Hide overlays for links that received no hits]**: i collegamenti sulla pagina con zero clic sul collegamento non mostrano una sovrapposizione. Questi collegamenti sono esclusi dal filtro dei dati dinamici.
 
 ## Impostazioni Live

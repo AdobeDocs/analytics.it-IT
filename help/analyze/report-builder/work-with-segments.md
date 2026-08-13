@@ -7,14 +7,9 @@ type: Documentation
 solution: Analytics
 exl-id: 2691fde0-59c6-45a7-80a5-8e5e221adce2
 TQID: https://experienceleague.adobe.com/oY3qEglLOmMH-VdZuq0190iQxG6FHUWBRUGTAI9LvMw
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 581
@@ -38,15 +33,15 @@ Per applicare filtri che utilizzano i segmenti a singole metriche:
 
 * In alternativa:
 
-   1. Selezionare ![MoreSmall](/help/assets/icons/MoreSmall.svg) per una metrica specifica nel riquadro **[!UICONTROL Table]**, quindi selezionare **[!UICONTROL Filter metric]**.
+  1. Selezionare ![MoreSmall](/help/assets/icons/MoreSmall.svg) per una metrica specifica nel riquadro **[!UICONTROL Table]**, quindi selezionare **[!UICONTROL Filter metric]**.
 
-      Scheda ![segmenti con metriche.](./assets/filter-metric.png){zoomable="yes"}
+     Scheda ![segmenti con metriche.](./assets/filter-metric.png){zoomable="yes"}
 
-   1. Selezionare uno o più segmenti dal menu a discesa **[!UICONTROL Segments]**. I segmenti vengono aggiunti all&#39;elenco **[!UICONTROL Segments applied]**.
+  1. Selezionare uno o più segmenti dal menu a discesa **[!UICONTROL Segments]**. I segmenti vengono aggiunti all&#39;elenco **[!UICONTROL Segments applied]**.
 
-      ![Segmenti applicati](assets/segments-applied.png)
-   1. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un segmento dall&#39;elenco **[!UICONTROL Segment applied]**. In alternativa, selezionare **[!UICONTROL Clear all]** per rimuovere tutti i segmenti dall&#39;elenco **[!UICONTROL Segment applied]**.
-   1. Seleziona **[!UICONTROL Apply]**.
+     ![Segmenti applicati](assets/segments-applied.png)
+  1. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un segmento dall&#39;elenco **[!UICONTROL Segment applied]**. In alternativa, selezionare **[!UICONTROL Clear all]** per rimuovere tutti i segmenti dall&#39;elenco **[!UICONTROL Segment applied]**.
+  1. Seleziona **[!UICONTROL Apply]**.
 
 Per visualizzare i filtri applicati, passa il cursore del mouse su una metrica o selezionala nel riquadro Tabella. Le metriche con segmenti applicati visualizzano un’icona di segmento.
 

@@ -5,14 +5,10 @@ exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
 role: Admin
 TQID: https://experienceleague.adobe.com/PYOSKUF1PZ-1Bc8Jqn1AVu9zBqn8xhzg-3cwlhiR6Ck
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 531
@@ -38,7 +34,8 @@ Il provisioning di CDA viene eseguito sulla suite di rapporti multi-dispositivo 
 * ID suite di rapporti per la suite di rapporti multi-dispositivo che desideri abilitare con CDA
 * Metodo CDA da utilizzare (unione basata sui campi)
 * Se intendi utilizzare l’unione basata sui campi, la proprietà o l’eVar che contiene l’ID utente
-* Preferenza di ripetizione frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, oppure una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.L’impostazione predefinita è la riproduzione settimanale con intervallo di lookback di 7 giorni. In questo caso, i dati dell’ultima settimana sono soggetti a modifiche (in quanto vengono progressivamente uniti e aggiornati).
+* Preferenza di ripetizione frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, oppure una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.
+L’impostazione predefinita è la riproduzione settimanale con intervallo di lookback di 7 giorni. In questo caso, i dati dell’ultima settimana sono soggetti a modifiche (in quanto vengono progressivamente uniti e aggiornati).
 
 Una volta fornite all’Assistenza clienti queste informazioni, collaboreranno con il team ingegneristico di Adobe per abilitare la suite di rapporti scelta per l’elaborazione CDA.
 

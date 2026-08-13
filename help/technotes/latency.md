@@ -5,18 +5,10 @@ title: Disponibilità e latenza dei dati
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
 TQID: https://experienceleague.adobe.com/tUoPm4FFCjyp9J4w6fHMMe-guBoVzLwbpU0Tbk-lgCA
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
 workflow-type: tm+mt
 source-wordcount: 823
@@ -58,10 +50,10 @@ Esistono diverse strategie per evitare la latenza o ridurre il tempo di ripristi
 * **Notifica ad Adobe i picchi di traffico previsti:** Anche se è impossibile prevedere ogni picco di traffico sul sito, in alcuni casi potrebbe verificarsi un aumento significativo del traffico. Alcuni esempi includono un periodo di vacanza particolarmente riuscito o poco dopo un invio di una campagna di grandi dimensioni. In questi casi, Adobe consente alla tua organizzazione di informarci sugli aumenti di traffico previsti, in modo da poter allocare risorse di elaborazione aggiuntive alla suite di rapporti. Per informazioni su come segnalare ad Adobe un aumento del traffico, consulta [Pianificare un picco di traffico](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) nella guida utente dell&#39;amministratore.
 * **Durante l&#39;attivazione di nuove funzionalità, prendere in considerazione l&#39;elaborazione del carico:** Alcune funzionalità richiedono una maggiore elaborazione rispetto ad altre. Più funzioni sono abilitate in una suite di rapporti, più è difficile ripristinarle dalla latenza. Quando abiliti le funzioni in una suite di rapporti, tieni presente le seguenti funzioni che aumentano la quantità di dati da elaborare:
 
-   * Implementazione di più di 20 eventi sulla stessa pagina
-   * Regole VISTA complesse
-   * Più di 20 valori nella variabile prodotti
-   * Serializzazione degli eventi
+  * Implementazione di più di 20 eventi sulla stessa pagina
+  * Regole VISTA complesse
+  * Più di 20 valori nella variabile prodotti
+  * Serializzazione degli eventi
 
 * Abilita il filtro dei bot IAB: [Il filtro dei bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) può ridurre notevolmente la latenza se la suite di rapporti è frequentata da bot o crawler. Si consiglia di utilizzare l&#39;elenco di bot IAB, in quanto è aggiornato e gestito da [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un utente può personalizzare le proprie regole bot per integrare quelle di IAB.
 

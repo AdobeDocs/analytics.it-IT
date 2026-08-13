@@ -4,21 +4,14 @@ description: Scopri come creare un feed di dati e le informazioni sui file da fo
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 TQID: 'https://experienceleague.adobe.com/4WmYDRfcQTjKAdIbmsx2CCnLDqwDIBS-KdyN8Epun8s'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 2065
-ht-degree: 14%
+source-wordcount: 2073
+ht-degree: 16%
 
 ---
 
@@ -120,7 +113,7 @@ Prima di creare un feed di dati, è importante avere una conoscenza di base dei 
 
    | Campo | Funzione |
    |---------|----------|
-   | [!UICONTROL **Frequenza**] | Seleziona la frequenza con cui inviare il feed di dati. Le opzioni disponibili vengono compilate in modo dinamico in base alla configurazione della suite di rapporti. <p>Sono comunemente disponibili le seguenti opzioni:</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un&#39;intera giornata, dalla mezzanotte alla mezzanotte nel fuso orario della suite di rapporti. Utilizza questa opzione per la retrocompilazione o i dati storici o per continuare i feed.</li><li>**Oraria**: i feed contengono dati relativi a una sola ora. Utilizza questa opzione per continuare i feed.</li></ul><p>Una frequenza di esportazione di 15 minuti è possibile, ma non è disponibile per impostazione predefinita. Affinché questa opzione sia disponibile nel tuo ambiente, devi prima contattare l&#39;Assistenza clienti Adobe e richiedere che la suite di rapporti sia configurata per supportare le esportazioni della durata di 15 minuti.</p> |
+   | [!UICONTROL **Frequenza**] | Seleziona la frequenza con cui inviare il feed di dati. Le opzioni disponibili vengono compilate in modo dinamico in base alla configurazione della suite di rapporti. <p>Sono comunemente disponibili le seguenti opzioni:</p><ul><li>**Giornaliero**: i feed contengono dati relativi a un&#39;intera giornata, dalla mezzanotte alla mezzanotte nel fuso orario della suite di rapporti. Utilizza questa opzione per la retrocompilazione o i dati storici o per continuare i feed.</li><li>**Oraria**: i feed contengono dati relativi a una sola ora. Utilizza questa opzione per continuare i feed.</li></ul><p>Una frequenza di esportazione di 15 minuti è possibile, ma non è disponibile per impostazione predefinita. Affinché questa opzione sia disponibile nel tuo ambiente, devi prima contattare l’Assistenza clienti Adobe e richiedere che la suite di rapporti sia configurata per supportare le esportazioni della durata di 15 minuti.</p> |
    | [!UICONTROL **Ritardo elaborazione**] | Scegli se attendere un determinato periodo di tempo prima di elaborare un file di feed dati. Un ritardo può essere utile per dare alle implementazioni mobili l’opportunità ai dispositivi offline di connettersi e inviare dati. Può essere utilizzato anche per adattarsi ai processi lato server della tua organizzazione nella gestione dei file elaborati in precedenza. Nella maggior parte dei casi, non è necessario attendere. Puoi ritardare un feed fino a 8 ore (480 minuti) o anche di più se selezioni una quantità di tempo personalizzata (9.999 minuti di ritardo o circa 1 settimana). |
    | [!UICONTROL **Feed continuo**] | Se selezionata, questa opzione rimuove la data di fine, consentendo l’esecuzione di un feed per un tempo indefinito. Al termine dell’elaborazione dei dati storici, un feed attende che i dati vengano raccolti per una determinata ora o giorno. Al termine dell’ora o del giorno corrente, l’elaborazione inizia dopo il ritardo specificato. |
    | [!UICONTROL **Data di inizio**] | Specifica la data di inizio del feed di dati. Per iniziare immediatamente a elaborare i feed di dati per i dati storici, imposta questa data su una data nel passato in cui vengono raccolti i dati. La data di inizio è basata sul fuso orario della suite di rapporti. |

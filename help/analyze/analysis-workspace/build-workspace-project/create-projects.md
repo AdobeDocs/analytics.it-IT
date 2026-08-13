@@ -5,22 +5,10 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 24193013-1361-43fc-b129-c44f207d9101
 TQID: https://experienceleague.adobe.com/5VXsU74Wcu66eMdDI5kdj2iW9KxUayx1hI7RMpYgT-E
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468
-  - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e2fb09f1-7c48-4d50-a88a-5a03a06eb468id: e318d41c-1d01-4c1e-9b18-1f61d435ceeeid: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 404
@@ -51,15 +39,15 @@ Dopo aver creato un progetto Workspace vuoto, assicurati di avere familiarità c
 * Aggiungi dei [pannelli](/help/analyze/analysis-workspace/c-panels/panels.md) al progetto. Ad esempio, **[!DNL Example Panel]** ➊.
 
 * Aggiungi [visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ai pannelli. Ad esempio:
-   * **[!DNL Line]** Visualizzazione [a linee](/help/analyze/analysis-workspace/visualizations/line.md) ➋
-   * **[!DNL US States]** Visualizzazione [tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) ➌
+  * **[!DNL Line]** Visualizzazione [a linee](/help/analyze/analysis-workspace/visualizations/line.md) ➋
+  * **[!DNL US States]** Visualizzazione [tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) ➌
 * Aggiungi [componenti](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) alle visualizzazioni. Ad esempio:
-   * **[!DNL US States]** [Dimensione](/help/components/dimensions/overview.md) ➍
-   * **[!DNL Unique Visitors]** [Metrica](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
-   * **[!DNL Average Revenue Per Order]** [Metrica calcolata](/help/components/calculated-metrics/cm-overview.md) ➏
-   * **[!DNL Visits from Mobile Devices]** [Segmento](/help/components/segmentation/seg-overview.md) ➐
-   * **[!DNL Last Month]** [Intervallo di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
-   * **[!DNL Example]** [Annotazione](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
+  * **[!DNL US States]** [Dimensione](/help/components/dimensions/overview.md) ➍
+  * **[!DNL Unique Visitors]** [Metrica](/help/analyze/analysis-workspace/components/apply-create-metrics.md) ➎
+  * **[!DNL Average Revenue Per Order]** [Metrica calcolata](/help/components/calculated-metrics/cm-overview.md) ➏
+  * **[!DNL Visits from Mobile Devices]** [Segmento](/help/components/segmentation/seg-overview.md) ➐
+  * **[!DNL Last Month]** [Intervallo di date](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) ➑
+  * **[!DNL Example]** [Annotazione](/help/analyze/analysis-workspace/components/annotations/overview.md) ➒
 
 
 ## Informazioni e impostazioni progetto {#project-info-settings}

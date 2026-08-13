@@ -3,24 +3,15 @@ title: Migrare dall’estensione tag Adobe Analytics all’estensione tag Web SD
 description: Aggiorna l’implementazione di Analytics sui tag di raccolta dati di Adobe Experience Platform per utilizzare l’estensione Web SDK.
 exl-id: 691c29ca-d169-4ef8-9f91-d0375166796d
 TQID: 'https://experienceleague.adobe.com/5vssspvj8sB9PyTGe3RwcA994JJl25edeTDaOZFEd8A'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: 1621
-ht-degree: 6%
+source-wordcount: 1657
+ht-degree: 8%
 
 ---
 
@@ -141,9 +132,9 @@ I passaggi precedenti si applicano solo alle regole che impostano valori. I pass
    * [!UICONTROL Action type]: [!UICONTROL Send event]
 1. A destra, modifica le impostazioni delle azioni come segue:
    * [!UICONTROL Type]: Per `s.t()`, utilizzare **[!UICONTROL Web Webpagedetails Page Views]**. Per `s.tl()`, utilizzare **[!UICONTROL Web Webinteraction Link Clicks]**. Se utilizzi [`s.tl()`](../../vars/functions/tl-method.md), devi includere anche i seguenti campi nell&#39;oggetto dati. Questi campi sono elencati in [!UICONTROL Additional properties] durante l&#39;esecuzione della configurazione dell&#39;azione [!UICONTROL Update variable]:
-      * [Nome collegamento](../../vars/functions/tl-method.md)
-      * [Tipo di collegamento](../../vars/functions/tl-method.md)
-      * [URL collegamento](../../vars/config-vars/linkurl.md)
+     * [Nome collegamento](../../vars/functions/tl-method.md)
+     * [Tipo di collegamento](../../vars/functions/tl-method.md)
+     * [URL collegamento](../../vars/config-vars/linkurl.md)
 1. Seleziona **[!UICONTROL Keep Changes]**.
 1. Ripeti questi passaggi per ogni configurazione di azione che utilizza Adobe Analytics per inviare un beacon.
 

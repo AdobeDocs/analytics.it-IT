@@ -4,17 +4,10 @@ title: Valore Traffico ridotto in Adobe Analytics
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 TQID: https://experienceleague.adobe.com/LxgSEq4RMCwf38uY6HxfhQ7SZxw0e5nupJTAfA1gpbY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 890
@@ -63,8 +56,8 @@ I limiti di soglia possono a volte essere modificati per singole dimensioni. Con
 * L’ID della suite di rapporti
 * La dimensione per la quale desideri aumentare la soglia
 * La prima e la seconda soglia erano entrambe desiderate:
-   * La prima soglia (bucket iniziale) è impostata su **2.000.000** per impostazione predefinita.
-   * La seconda soglia (filtro più aggressivo) è impostata su **2.100.000** per impostazione predefinita.
+  * La prima soglia (bucket iniziale) è impostata su **2.000.000** per impostazione predefinita.
+  * La seconda soglia (filtro più aggressivo) è impostata su **2.100.000** per impostazione predefinita.
 
 >[!IMPORTANT]
 >
@@ -79,5 +72,5 @@ Diverse funzionalità trattano i valori [!UICONTROL Low-Traffic] in modi diversi
 * **Data Warehouse:** Nella maggior parte dei casi non esiste alcun limite al numero di valori univoci nei report di Data Warehouse. La sua architettura univoca consente il reporting di qualsiasi numero di valori univoci. Tuttavia, i valori [!UICONTROL Low-Traffic] possono ancora essere visualizzati in alcuni scenari limitati. Alcuni esempi includono variabili elenco, prop elenco, eVar di merchandising e dimensioni di dettaglio del canale di marketing.
 * **Segmentazione:** Se i criteri del segmento includono una dimensione con un numero elevato di valori univoci, i valori acquisiti in [!UICONTROL Low-Traffic] non sono inclusi.
 * **Classificazioni:** anche i rapporti di classificazione sono soggetti a limiti univoci. Se l&#39;elemento dimensione padre di una classificazione è incluso in [!UICONTROL Low-Traffic], il valore non viene classificato.
-   * I valori [!UICONTROL Low-Traffic] classificati tramite l&#39;importazione possono essere visualizzati in Data Warehouse. <!-- AN-115871 -->
-   * [!UICONTROL Low-Traffic] valori classificati tramite il generatore di regole *non possono* essere visualizzati in Data Warehouse. <!-- AN-122872 -->
+  * I valori [!UICONTROL Low-Traffic] classificati tramite l&#39;importazione possono essere visualizzati in Data Warehouse. <!-- AN-115871 -->
+  * [!UICONTROL Low-Traffic] valori classificati tramite il generatore di regole *non possono* essere visualizzati in Data Warehouse. <!-- AN-122872 -->

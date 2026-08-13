@@ -6,24 +6,15 @@ feature: Activity Map
 role: User, Admin
 exl-id: 461abda1-3238-4a32-b9d3-5a57b00cf0d3
 TQID: 'https://experienceleague.adobe.com/d62-fefaDOC5lOHBnGKgrTzD4euEMcnMlBArhi8RfMc'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: dcae653e-62c6-4cc8-84e6-ee110b848296
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 611
-ht-degree: 1%
+source-wordcount: 620
+ht-degree: 2%
 
 ---
 
@@ -48,14 +39,14 @@ Il pannello superiore contiene i controlli di base per la sovrapposizione Activi
 Offre le seguenti impostazioni:
 
 * **Visualizzazione Standard/Live**: consente di passare dalla visualizzazione Standard alla visualizzazione Live.
-   * Visualizzazione standard: mostra la sovrapposizione in base ai dati storici.
-   * Vista live: mostra la sovrapposizione basata sui dati live. Il selettore di date diventa un menu a discesa che consente di modificare la granularità dei dati live.
+  * Visualizzazione standard: mostra la sovrapposizione in base ai dati storici.
+  * Vista live: mostra la sovrapposizione basata sui dati live. Il selettore di date diventa un menu a discesa che consente di modificare la granularità dei dati live.
 * **Selettore metrica**: consente di modificare la metrica segnalata dalla sovrapposizione. Se hai selezionato Live View, sono disponibili solo [!UICONTROL Link Clicks].
 * **Selettore segmento**: consente di selezionare un [segmento](/help/components/segmentation/seg-overview.md), visualizzando un sottoinsieme di dati all&#39;interno della sovrapposizione. I segmenti non sono disponibili nella visualizzazione Live.
 * **Tipo di visualizzazione sovrapposizione**: consente di modificare il modo in cui la sovrapposizione visualizza la classificazione dei collegamenti.
-   * **[!UICONTROL Bubble]**: i collegamenti principali ricevono una bolla verde che mostra il relativo rango numerico durante il periodo di reporting. Puoi cambiare il colore della bolla in [Impostazioni](settings.md).
-   * **[!UICONTROL Gradient]**: i collegamenti superiori sono ombreggiati in rosso trasparente. I link più popolari sono quelli di colore rosso più scuro. È possibile modificare il colore della sfumatura in [Impostazioni](settings.md).
-   * **[!UICONTROL Off]**: disabilita sovrapposizioni collegamento.
+  * **[!UICONTROL Bubble]**: i collegamenti principali ricevono una bolla verde che mostra il relativo rango numerico durante il periodo di reporting. Puoi cambiare il colore della bolla in [Impostazioni](settings.md).
+  * **[!UICONTROL Gradient]**: i collegamenti superiori sono ombreggiati in rosso trasparente. I link più popolari sono quelli di colore rosso più scuro. È possibile modificare il colore della sfumatura in [Impostazioni](settings.md).
+  * **[!UICONTROL Off]**: disabilita sovrapposizioni collegamento.
 * **Selettore data**: consente di modificare il periodo di reporting.
 
 L’intestazione di questo pannello contiene le seguenti impostazioni:
@@ -63,11 +54,11 @@ L’intestazione di questo pannello contiene le seguenti impostazioni:
 * **Espandi/comprimi pannello superiore**: attiva/disattiva il pannello superiore per visualizzare le impostazioni in orizzontale o in verticale (icona a forma di freccia doppia).
 * **[!UICONTROL Toggle page details]**: mostra o nasconde il pannello inferiore (icona a forma di occhio).
 * **[!UICONTROL Show settings]**: apre un menu per le impostazioni che è possibile modificare (icona ingranaggio):
-   * **[!UICONTROL Settings]**: apre le [impostazioni](settings.md) dell&#39;estensione.
-   * **[!UICONTROL Help]**: apre la documentazione su Experience League (questa pagina).
-   * **[!UICONTROL Adobe community]**: apre la [community Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=it).
-   * **[!UICONTROL About]**: visualizza la versione dell&#39;estensione.
-   * **[!UICONTROL Logout]**: effettua la disconnessione dall&#39;estensione e richiede di effettuare di nuovo l&#39;accesso.
+  * **[!UICONTROL Settings]**: apre le [impostazioni](settings.md) dell&#39;estensione.
+  * **[!UICONTROL Help]**: apre la documentazione su Experience League (questa pagina).
+  * **[!UICONTROL Adobe community]**: apre la [community Experience League](https://experienceleaguecommunities.adobe.com/).
+  * **[!UICONTROL About]**: visualizza la versione dell&#39;estensione.
+  * **[!UICONTROL Logout]**: effettua la disconnessione dall&#39;estensione e richiede di effettuare di nuovo l&#39;accesso.
 * **[!UICONTROL Quit Activity Map]**: chiude tutte le sovrapposizioni per l&#39;estensione (icona X).
 
 ## Sovrapposizione pagina

@@ -4,19 +4,11 @@ description: Domande frequenti su canali di marketing
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
 TQID: https://experienceleague.adobe.com/CdAWwH-UWjkiWEKFw2e63LMU7LQIz6SbzXu5-52dhyQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-  - id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3id: fbaf7f9a-8341-44f6-aa57-6c8d50741804
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1486
@@ -121,19 +113,19 @@ A volte le regole di elaborazione del canale di marketing non vengono impostate 
 
 * **I dati del canale di marketing vengono raccolti in tempo reale**: i dati del canale di marketing vengono elaborati al momento della raccolta dei dati e sono permanenti al 100%. La modifica delle regole di elaborazione non influisce retroattivamente sui dati.
 * **La modifica delle regole di elaborazione non influisce immediatamente sui dati di primo contatto**. Ad esempio:
-   1. Un utente accede tramite il canale e-mail perché è stato configurato in modo errato e poi lascia il sito.
-   2. Il giorno successivo, modifichi la regola di elaborazione e-mail per correggerla.
-   3. L’utente torna dopo diversi giorni attraverso la ricerca naturale e completa un acquisto.
-   4. Il canale e-mail riceve il credito di Primo contatto e la ricerca naturale riceve il credito di Ultimo contatto.
+  1. Un utente accede tramite il canale e-mail perché è stato configurato in modo errato e poi lascia il sito.
+  2. Il giorno successivo, modifichi la regola di elaborazione e-mail per correggerla.
+  3. L’utente torna dopo diversi giorni attraverso la ricerca naturale e completa un acquisto.
+  4. Il canale e-mail riceve il credito di Primo contatto e la ricerca naturale riceve il credito di Ultimo contatto.
 
   Anche diversi giorni dopo aver modificato le regole di elaborazione, i dati possono ancora essere raccolti nel canale di primo contatto errato. I dati di primo contatto vengono raccolti continuamente nel canale errato fino alla scadenza del coinvolgimento di tutti gli utenti.
 
 Il modo migliore per ovviare a tali discrepanze consiste nell’effettuare una o entrambe le seguenti operazioni:
 
 * **Far scadere manualmente tutti i periodi di coinvolgimento dei visitatori**: questa impostazione fa scadere immediatamente tutti i canali di primo e ultimo contatto per tutti i visitatori:
-   1. Passa a Strumenti di amministrazione > Suite di rapporti.
-   2. Passa il puntatore su Impostazioni modifica immagine > Canali di marketing > Scadenza coinvolgimento visitatore
-   3. Fai clic su Tutti scaduti.
-   4. Fai clic su OK per passare alla finestra a comparsa di avviso, riconoscendo che sei in grado di capire l’operazione che verrà eseguita.
+  1. Passa a Strumenti di amministrazione > Suite di rapporti.
+  2. Passa il puntatore su Impostazioni modifica immagine > Canali di marketing > Scadenza coinvolgimento visitatore
+  3. Fai clic su Tutti scaduti.
+  4. Fai clic su OK per passare alla finestra a comparsa di avviso, riconoscendo che sei in grado di capire l’operazione che verrà eseguita.
 
 * **Visualizza le metriche di ultimo contatto solo dal momento in cui sono state corrette le regole**: le metriche di ultimo contatto seguono sempre il set di regole corrente. La visualizzazione dell’ora da cui parte la modifica delle regole di elaborazione riflette correttamente le regole di elaborazione più recenti.

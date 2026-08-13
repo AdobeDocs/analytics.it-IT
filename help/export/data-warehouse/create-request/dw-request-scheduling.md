@@ -4,16 +4,10 @@ title: Configurare una destinazione di rapporto per una richiesta di Data Wareho
 feature: Data Warehouse
 exl-id: e5f8acaa-156f-41fb-a0fc-bc5475f1f3b7
 TQID: 'https://experienceleague.adobe.com/3M2cNjsk8KP356ES66AaXpSXJ6IvxWDtFcx7gYvlKeQ'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: f47edbe0-f963-46ff-a667-71011396f5f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: f47edbe0-f963-46ff-a667-71011396f5f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 289
@@ -43,7 +37,7 @@ Per configurare le opzioni di pianificazione per una richiesta Data Warehouse:
    |---------|----------|
    | [!UICONTROL **Invia rapporto ora**] | Invia il report come report occasionale. Quando questa opzione è selezionata, tutte le opzioni di pianificazione sono nascoste. |
    | [!UICONTROL **Pianificazione per dopo**] | Fornisce opzioni per la pianificazione della consegna dei rapporti. Tutte le opzioni sono descritte di seguito. |
-   | [!UICONTROL **Frequenza report**] | La frequenza con cui vengono consegnati i rapporti. <p>Sono disponibili le seguenti opzioni:</p><ul><li>Oraria</li><p>[!UICONTROL **Oraria**] è disponibile solo quando l&#39;opzione [!UICONTROL **Intervalli di date**] nella scheda [!UICONTROL **Impostazioni generali**] è impostata su [!UICONTROL **Ultima ora**].</p><li>Ogni giorno</li><li>Settimanale</li><li>Mensile</li><li>Annuale</li></ul><p>Vengono visualizzate opzioni aggiuntive a seconda della frequenza selezionata.</p> |
+   | [!UICONTROL **Frequenza report**] | La frequenza con cui vengono consegnati i rapporti. <p>Sono disponibili le seguenti opzioni:</p><ul><li>Oraria</li><p>[!UICONTROL **Oraria**] è disponibile solo quando l&#39;opzione [!UICONTROL **Intervalli di date**] nella scheda [!UICONTROL **Impostazioni generali**] è impostata su [!UICONTROL **Ultima ora**].</p><li>Giornaliero</li><li>Settimanale</li><li>Mensile</li><li>Annuale</li></ul><p>Vengono visualizzate opzioni aggiuntive a seconda della frequenza selezionata.</p> |
    | [!UICONTROL **A partire da**] | La data in cui dovrebbe iniziare la nuova pianificazione. |
    | [!UICONTROL **Ora del giorno**] | Ora del giorno in cui il report deve essere inviato. |
    | [!UICONTROL **Opzioni di fine consegna**] | Scegli quando terminare le consegne programmate. Puoi scegliere di non terminare mai, di terminare dopo un numero specifico di occorrenze o di terminare in una data specifica. |

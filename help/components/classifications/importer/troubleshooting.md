@@ -4,17 +4,11 @@ description: Problemi di caricamento comuni quando si utilizza l’importazione 
 feature: Classifications
 exl-id: de3e9eca-9264-4711-b73a-4a1a3dd16715
 TQID: https://experienceleague.adobe.com/YDa--mPqMNfRfRT-xUYTj6jJVEFf2HXWSUtELvuBpy4
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 875
@@ -33,8 +27,8 @@ I problemi più comuni durante il caricamento dei dati di classificazione in Ado
 Le classificazioni richiedono un tipo e un formato di file specifici affinché il caricamento vada a buon fine. Se vengono salvate in modo scorretto, si genera un errore e le righe non vengono elaborate. L’errore restituito è spesso *“La prima colonna deve essere occupata dalla chiave”*, ma possono verificarsi anche errori diversi. Verifica quanto segue:
 
 * **Caricamento di un foglio di calcolo (.xlsx) invece di un file .tab o .txt**: è possibile ricevere il messaggio di errore *&quot;La prima colonna deve essere la chiave&quot;* quando si caricano file di classificazione in un formato non corretto. L’importazione di classificazioni non è in grado di gestire i file .xls o .xlsx. Imposta il tipo di file corretto nella finestra di dialogo “Salva con nome” in Excel:
-   * In Windows, utilizza il formato file `Text (Tab delimited) (*.txt)`
-   * In Mac, utilizza il formato file `Windows Formatted Text`.
+  * In Windows, utilizza il formato file `Text (Tab delimited) (*.txt)`
+  * In Mac, utilizza il formato file `Windows Formatted Text`.
 * **Modifica dell’estensione del nome file dopo averlo salvato come cartella di lavoro**: se provi a rinominare direttamente un’estensione di file, viene generata una cartella di lavoro non valida. Utilizza solo la funzione Salva con nome di Excel o modifica le classificazioni in un editor di testo come Notepad++.
 * **Utilizzo di estensioni in maiuscolo**: le estensioni in maiuscolo (come `fileupload.TXT`) non funzionano. Rinomina il file con un’estensione in minuscolo (`fileupload.txt`).
 * **Codifica caratteri non corrispondente**: accertati che la codifica del caricamento delle classificazioni salvate corrisponda alla codifica originale al momento del download del modello. Se carichi un file UTF-16 codificato originariamente in UTF-8, i caricamenti genereranno risultati imprevisti. Adobe consiglia di caricare i file utilizzando UTF-8 senza indicatori per l’ordine dei byte.
@@ -50,8 +44,8 @@ Se il file di caricamento è formattato correttamente, il caricatore tenta di im
 * **Schede supplementari nel file caricato**: talvolta, quando si modificano i file di classificazione, può capitare di inserire accidentalmente una scheda in più. Ogni riga richiede un numero identico di schede per essere elaborata correttamente. Per verificare la presenza di schede supplementari all’interno del file, evidenzia tutto il testo in un editor di testo normale e accertati che non vi siano righe con spazio aggiuntivo alla fine.
 * **Nel file sono presenti valori chiave duplicati**: ogni valore chiave può avere una sola classificazione per colonna. Se provi a classificare lo stesso valore più volte, l’importazione genera un errore.
 * **Sono presenti sottoclassificazioni non configurate correttamente**. Se sono presenti sottoclassificazioni, verifica che:
-   * Tutti i valori delle sottoclassificazioni abbiano un valore di classificazione padre
-   * Due sottoclassificazioni non facciano riferimento allo stesso valore di classificazione padre
+  * Tutti i valori delle sottoclassificazioni abbiano un valore di classificazione padre
+  * Due sottoclassificazioni non facciano riferimento allo stesso valore di classificazione padre
 * **Mancata corrispondenza colonne**: è possibile ricevere il messaggio di errore *&quot;La chiave in linea contiene troppe colonne&quot;* se in una riga è presente un numero di colonne non valido. Ad esempio, nel caricamento della classificazione sono presenti 3 colonne e la variabile ha una sola classificazione. Convalida il file di caricamento per assicurarti che il numero di colonne non sia maggiore del numero di classificazioni configurate per tale variabile.
 
 ## Risoluzione dei problemi relativi alle importazioni FTP
