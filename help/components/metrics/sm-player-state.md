@@ -30,12 +30,12 @@ Per utilizzare queste metriche, abilitare **[!UICONTROL Player State Tracking]**
 Sono disponibili le seguenti metriche:
 
 * [[!UICONTROL Streams impacted by closed captioning]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-streams-impacted)
-* [[!UICONTROL Closed captioning counts]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-count)
+* [[!UICONTROL Closed captioning counts]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/closed-captioning-count)
 * [[!UICONTROL Closed captioning total duration]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/closed-captioning-total-duration)
 * [[!UICONTROL Streams impacted by full screen]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-streams-impacted)
 * [[!UICONTROL Full screen counts]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-count)
 * [[!UICONTROL Full screen total duration]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/full-screen-total-duration)
-* [[!UICONTROL Streams impacted by in focus]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/in-focus-streams-impacted)
+* [[!UICONTROL Streams impacted by in focus]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/metrics/in-focus-streams-impacted)
 * [[!UICONTROL In focus counts]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/in-focus-count)
 * [[!UICONTROL In focus total duration]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/in-focus-total-duration)
 * [[!UICONTROL Streams impacted by mute]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/metrics/mute-streams-impacted)
