@@ -63,8 +63,8 @@ I limiti di soglia possono a volte essere modificati per singole dimensioni. Con
 * L’ID della suite di rapporti
 * La dimensione per la quale desideri aumentare la soglia
 * La prima e la seconda soglia erano entrambe desiderate:
-   * La prima soglia (bucket iniziale) è impostata su **2.000.000** per impostazione predefinita.
-   * La seconda soglia (filtro più aggressivo) è impostata su **2.100.000** per impostazione predefinita.
+  * La prima soglia (bucket iniziale) è impostata su **2.000.000** per impostazione predefinita.
+  * La seconda soglia (filtro più aggressivo) è impostata su **2.100.000** per impostazione predefinita.
 
 >[!IMPORTANT]
 >
@@ -79,5 +79,5 @@ Diverse funzionalità trattano i valori [!UICONTROL Low-Traffic] in modi diversi
 * **Data Warehouse:** Nella maggior parte dei casi non esiste alcun limite al numero di valori univoci nei report di Data Warehouse. La sua architettura univoca consente il reporting di qualsiasi numero di valori univoci. Tuttavia, i valori [!UICONTROL Low-Traffic] possono ancora essere visualizzati in alcuni scenari limitati. Alcuni esempi includono variabili elenco, prop elenco, eVar di merchandising e dimensioni di dettaglio del canale di marketing.
 * **Segmentazione:** Se i criteri del segmento includono una dimensione con un numero elevato di valori univoci, i valori acquisiti in [!UICONTROL Low-Traffic] non sono inclusi.
 * **Classificazioni:** anche i rapporti di classificazione sono soggetti a limiti univoci. Se l&#39;elemento dimensione padre di una classificazione è incluso in [!UICONTROL Low-Traffic], il valore non viene classificato.
-   * I valori [!UICONTROL Low-Traffic] classificati tramite l&#39;importazione possono essere visualizzati in Data Warehouse. <!-- AN-115871 -->
-   * [!UICONTROL Low-Traffic] valori classificati tramite il generatore di regole *non possono* essere visualizzati in Data Warehouse. <!-- AN-122872 -->
+  * I valori [!UICONTROL Low-Traffic] classificati tramite l&#39;importazione possono essere visualizzati in Data Warehouse. <!-- AN-115871 -->
+  * [!UICONTROL Low-Traffic] valori classificati tramite il generatore di regole *non possono* essere visualizzati in Data Warehouse. <!-- AN-122872 -->

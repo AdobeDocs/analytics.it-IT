@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
 workflow-type: tm+mt
 source-wordcount: 513
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -38,11 +38,11 @@ Assicurati di essere preparato con quanto segue:
 * [ID suite di rapporti](/help/admin/tools/manage-rs/new-rs/new-report-suite.md) per lo sviluppo.
 * Il dominio Edge desiderato per [`trackingServerSecure`](/help/implement/vars/config-vars/trackingserversecure.md).
 * ID organizzazione IMS:
-   1. Accedi a [Adobe CX Enterprise](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
-   1. In qualsiasi punto dell&#39;interfaccia di CX Enterprise, premere `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
-   1. Verrà visualizzato **[!UICONTROL User data debugger]**. Seleziona la scheda **[!UICONTROL Assigned orgs]**.
-   1. Espandi l’organizzazione IMS desiderata.
-   1. Individua il campo **[!UICONTROL ID]**.
+  1. Accedi a [Adobe CX Enterprise](https://experience.adobe.com) utilizzando le credenziali Adobe ID.
+  1. In qualsiasi punto dell&#39;interfaccia di CX Enterprise, premere `[Cmd]` + `[I]` (iOS) o `[Ctrl]` + `[I]` (Windows).
+  1. Verrà visualizzato **[!UICONTROL User data debugger]**. Seleziona la scheda **[!UICONTROL Assigned orgs]**.
+  1. Espandi l’organizzazione IMS desiderata.
+  1. Individua il campo **[!UICONTROL ID]**.
 
 Una volta che disponi delle risorse di cui sopra, la seguente pagina di esempio di base contiene le chiamate minime necessarie per inviare dati ad Adobe Analytics:
 
@@ -98,9 +98,9 @@ Se `trackingServerSecure` è impostato correttamente, non sono necessarie ulteri
 L&#39;utilizzo della variabile [`visitorID`](/help/implement/vars/config-vars/visitorid.md) consente all&#39;organizzazione di completare il controllo indipendente per identificare i visitatori. Se utilizzi `visitorID`, tieni presente le seguenti limitazioni:
 
 * Ogni hit deve contenere lo stesso valore `visitorID` per essere conteggiato come un singolo visitatore.
-   * Eventuali hit che omettono `visitorID` tentano automaticamente di utilizzare un altro metodo di identificazione visitatore, considerandoli come un visitatore separato.
-   * Tutti gli hit che contengono un valore `visitorID` diverso da un hit precedente vengono trattati come un visitatore separato.
-   * Adobe non offre un modo per unire gli hit utilizzando ID visitatore diversi in Adobe Analytics.
+  * Eventuali hit che omettono `visitorID` tentano automaticamente di utilizzare un altro metodo di identificazione visitatore, considerandoli come un visitatore separato.
+  * Tutti gli hit che contengono un valore `visitorID` diverso da un hit precedente vengono trattati come un visitatore separato.
+  * Adobe non offre un modo per unire gli hit utilizzando ID visitatore diversi in Adobe Analytics.
 * I tipi di pubblico condivisi, Analytics for Target e gli attributi del cliente non sono supportati con i visitatori identificati tramite `visitorID`.
 
 Per le istruzioni di implementazione che utilizzano questa variabile, vedere [`visitorID`](/help/implement/vars/config-vars/visitorid.md).

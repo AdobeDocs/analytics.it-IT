@@ -20,7 +20,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 362
+source-wordcount: 364
 ht-degree: 9%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 9%
 
 La dimensione &#39;Ora del giorno&#39; [dimensione](overview.md) riporta l&#39;ora numerica di un dato giorno come elemento dimensione. Ad esempio, se un rapporto si estende dal 1° gennaio al 7 gennaio, la prima ora di ogni giorno si raggruppa nello stesso elemento dimensionale. Questo rapporto è utile se desideri un rapporto suddiviso per ora del giorno relativa, ma non vuoi ore statiche come elementi dimensionali. È particolarmente utile come dimensione nei rapporti pianificati, in quanto questa dimensione viene aggregata all’intervallo di date selezionato.
 
-Questa dimensione si basa sul fuso orario della suite di rapporti e non su quello locale del visitatore. Ad esempio, se la suite di rapporti è in Fuso orario e un visitatore in California visita il tuo sito alle 00:00 (ora del Pacifico), gli hit vengono raggruppati sotto l’elemento di dimensione `11:00 AM`. :00Se desideri una dimensione che registri l&#39;ora del visitatore locale, Adobe consiglia di utilizzare il plug-in [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
+Questa dimensione si basa sul fuso orario della suite di rapporti e non su quello locale del visitatore. Ad esempio, se la suite di rapporti è in tempo di montagna e un visitatore in California visita il tuo sito alle 00:00 ora del Pacifico, gli hit vengono raggruppati sotto l’elemento dimensione `11:00 AM`. Se desideri una dimensione che registri l&#39;ora del visitatore locale, Adobe consiglia di utilizzare il plug-in [getTimeParting](/help/implement/vars/plugins/gettimeparting.md).
 
 ## Popolare questa dimensione con i dati
 
@@ -37,7 +37,7 @@ Questa dimensione funziona in modo predefinito per tutte le implementazioni. Se 
 
 ## Elementi dimensionali
 
-Gli elementi di Dimension includono `12:00 AM` - `11:00 PM`, che rappresenta l&#39;ora del giorno in cui si è verificato l&#39;hit (arrotondato per difetto). Ad esempio, se un hit è stato generato alle 15:00, viene raggruppato sotto l&#39;elemento dimensionale `3:00 PM`.:58
+Gli elementi di Dimension includono `12:00 AM` - `11:00 PM`, che rappresenta l&#39;ora del giorno in cui si è verificato l&#39;hit (arrotondato per difetto). Ad esempio, se un hit è stato generato alle 15:58, viene raggruppato sotto l&#39;elemento dimensionale `3:00 PM`.
 
 ## Ora legale
 

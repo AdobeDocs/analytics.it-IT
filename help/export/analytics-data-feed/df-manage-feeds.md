@@ -177,12 +177,12 @@ Per regolare le colonne visibili nella tabella:
    * **Destinazione**: percorso in cui è inserito il file.
    * **Proprietario**: account utente che ha creato il feed.
    * **Stato**: lo stato del feed.
-      * Attivo: il feed è operativo.
-      * Approvazione in sospeso: in alcune circostanze, un feed richiede l’approvazione di Adobe prima di poter iniziare a generare processi.
-      * Eliminato: il feed viene eliminato.
-      * Completato: l&#39;elaborazione del feed è stata completata. Un feed completato può essere modificato, sospeso o annullato.
-      * In sospeso: il feed viene creato ma non ancora attivo. I feed rimangono in questo stato per un breve periodo di transizione.
-      * Inattivo: equivalente allo stato &#39;sospeso&#39; o &#39;in attesa&#39;. Per informazioni su ciò che accade con i feed di backfill e i feed live quando viene riattivato un feed inattivo, consulta [Attivare un feed di dati](#activate-a-data-feed).
+     * Attivo: il feed è operativo.
+     * Approvazione in sospeso: in alcune circostanze, un feed richiede l’approvazione di Adobe prima di poter iniziare a generare processi.
+     * Eliminato: il feed viene eliminato.
+     * Completato: l&#39;elaborazione del feed è stata completata. Un feed completato può essere modificato, sospeso o annullato.
+     * In sospeso: il feed viene creato ma non ancora attivo. I feed rimangono in questo stato per un breve periodo di transizione.
+     * Inattivo: equivalente allo stato &#39;sospeso&#39; o &#39;in attesa&#39;. Per informazioni su ciò che accade con i feed di backfill e i feed live quando viene riattivato un feed inattivo, consulta [Attivare un feed di dati](#activate-a-data-feed).
    * **Ultima modifica**: data dell&#39;ultima modifica del feed. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT.
    * **Data inizio**: la data del primo processo per questo feed. La data e l’ora vengono visualizzate nel fuso orario della suite di rapporti con offset GMT.
    * **Data di fine**: la data dell&#39;ultimo processo per questo feed. I feed di dati in corso non hanno una data di fine.

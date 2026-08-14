@@ -23,8 +23,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 690
-ht-degree: 18%
+source-wordcount: 692
+ht-degree: 19%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 18%
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta la [Mappa](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/map) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
+_Questo articolo documenta la visualizzazione Mappa in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Consulta la [Mappa](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/map) per la_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** versione di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -110,9 +110,9 @@ Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoC
    * **Confronta** due o più visualizzazioni mappa nello stesso progetto posizionandole una accanto all&#39;altra.
    * **Mostra confronti periodo su periodo (ad esempio anno su anno)**:
 
-      * Mostra numeri negativi: ad esempio, per una metrica su base annua, la mappa può visualizzare -33% su New York.
-      * Con metriche di tipo *percent*, il clustering calcola la media delle percentuali insieme.
-      * Schema di colori verde/rosso: positivo/negativo
+     * Mostra numeri negativi: ad esempio, per una metrica su base annua, la mappa può visualizzare -33% su New York.
+     * Con metriche di tipo *percent*, il clustering calcola la media delle percentuali insieme.
+     * Schema di colori verde/rosso: positivo/negativo
 
    * **Ruota** la mappa in 2D o 3D tenendo premuto il tasto [!UICONTROL Ctrl] mentre sposti la mappa.
 

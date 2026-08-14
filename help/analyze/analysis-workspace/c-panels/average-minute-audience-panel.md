@@ -22,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
 workflow-type: tm+mt
-source-wordcount: 1801
+source-wordcount: 1814
 ht-degree: 90%
 
 ---
@@ -203,8 +203,8 @@ Il pannello Pubblico medio per minuto del file multimediale utilizza solo la met
 >[!MORELIKETHIS]
 >
 > [Crea un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#create-a-panel)
-> [Pannello visualizzatori simultanei di contenuti multimediali](media-concurrent-viewers.md)
-> [Pannello Tempo di riproduzione trascorso](media-playback-time-spent.md)
+> [Pannello Visualizzatori simultanei di file multimediali](media-concurrent-viewers.md)
+> [Pannello Tempo trascorso per la riproduzione di file multimediali](media-playback-time-spent.md)
 >
 
 

@@ -79,22 +79,22 @@ La funzione `manageVars` utilizza i seguenti argomenti:
 
 * **`cb`** (obbligatorio, stringa): nome di una funzione di callback utilizzata dal plug-in per manipolare le variabili di Analytics. È possibile utilizzare una funzione di Adobe come `cleanStr` o una funzione personalizzata.
 * **`l`** (facoltativo, stringa): elenco delimitato da virgole di variabili di Analytics che si desidera modificare. Se non viene impostato, viene impostato automaticamente su TUTTE le variabili di Adobe Analytics, tra cui:
-   * `pageName`
-   * `purchaseID`
-   * `channel`
-   * `server`
-   * `pageType`
-   * `campaign`
-   * `state`
-   * `zip`
-   * `events`
-   * `products`
-   * `transactionID`
-   * Tutte le proprietà
-   * Tutte le eVar
-   * Tutte le variabili della gerarchia
-   * Tutte le variabili elenco
-   * Tutte le variabili di dati di contesto
+  * `pageName`
+  * `purchaseID`
+  * `channel`
+  * `server`
+  * `pageType`
+  * `campaign`
+  * `state`
+  * `zip`
+  * `events`
+  * `products`
+  * `transactionID`
+  * Tutte le proprietà
+  * Tutte le eVar
+  * Tutte le variabili della gerarchia
+  * Tutte le variabili elenco
+  * Tutte le variabili di dati di contesto
 * **`Il`** (facoltativo, booleano): impostare su `false` se si desidera *escludere* l&#39;elenco di variabili dichiarate nell&#39;argomento `l` anziché includerle. Predefinito su `true`.
 
 La chiamata di questa funzione non restituisce alcun risultato. Cambia invece i valori delle variabili di Analytics in base alla funzione di callback desiderata.

@@ -21,7 +21,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1180
+source-wordcount: 1185
 ht-degree: 83%
 
 ---
@@ -103,7 +103,7 @@ Puoi configurare il pannello Media Playback Time Spent (Tempo di riproduzione de
 | Panel summary numbers (Numeri di riepilogo del pannello) | Per visualizzare i dettagli di data o ora per il tempo di riproduzione trascorso, è disponibile un numero di riepilogo. Il valore Maximum (Massimo) mostra i dettagli del picco di concorrenza. Il valore Minimum (Minimo) mostra i dettagli del valore più basso. Somma effettua la somma del tempo totale di riproduzione trascorso per la selezione. Per impostazione predefinita, il pannello mostra solo il valore Maximum (Massimo), ma puoi impostarlo su Minimum (Minimo), Sum (Somma) o qualsiasi combinazione dei tre.<br>Se utilizzi i raggruppamenti, per ciascuno viene visualizzato un numero di riepilogo. |
 | Raggruppamento per serie | Facoltativamente, puoi suddividere la visualizzazione per filtri, dimensioni, elementi dimensionali o intervalli di date.<p>- È possibile visualizzare fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello.</p><p>- Quando viene trascinata una dimensione, gli elementi dimensionali principali vengono selezionati automaticamente in base all’intervallo di date del pannello selezionato.</p>- Per confrontare intervalli di date, trascina 2 o più intervalli di date nel filtro di raggruppamento per serie. |
 | Formato ora | È possibile visualizzare il tempo di riproduzione trascorso in `Hours:Minutes:Seconds` (impostazione predefinita) o in `Minutes` (visualizzati in numeri interi, arrotondati a 0,5). |
-| Visualizzazione della sequenza di date | Se hai inserito almeno due filtri di intervallo di date come raggruppamenti di serie, vedrai l’opzione per selezionare tra sovrapposizione, (predefinita) o sequenziale. La sovrapposizione visualizza le linee con un inizio comune dell’asse X, in parallelo, mentre la sequenziale visualizza le linee con il proprio inizio specifico dell’asse X. Se i dati sono allineati (ad esempio, il filtro 1 termina alle 20:44 e il filtro 2 inizia alle 20:45), le righe vengono visualizzate in sequenza. |
+| Visualizzazione della sequenza di date | Se hai inserito almeno due filtri di intervallo di date come raggruppamenti di serie, vedrai l’opzione per selezionare tra sovrapposizione, (predefinita) o sequenziale. La sovrapposizione visualizza le linee con un inizio comune dell’asse X, in parallelo, mentre la sequenziale visualizza le linee con il proprio inizio specifico dell’asse X. Se i dati sono allineati (ad esempio, il filtro 1 termina alle 20:44 e il filtro 2 inizia alle 20:45), le linee vengono visualizzate in sequenza. |
 
 
 ![Visualizzazione predefinita del tempo trascorso sul playbook dei contenuti multimediali.](assets/mpts_default_view.png)

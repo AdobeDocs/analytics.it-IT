@@ -107,9 +107,9 @@ Le implementazioni che popolano molte variabili con valori lunghi a volte posson
 * **Usa regole di elaborazione**: [Le regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) possono copiare i valori da una variabile a un&#39;altra. Questo metodo evita di impostare lo stesso valore in più variabili. Ad esempio:
 
   Esegui sempre:<br>
-Sovrascrivere il valore di prop1 con eVar1<br>
-Sovrascrivere il valore di eVar2 con eVar1<br>
-Sovrascrivi il valore di prop2 con eVar1<br>
+  Sovrascrivere il valore di prop1 con eVar1<br>
+  Sovrascrivere il valore di eVar2 con eVar1<br>
+  Sovrascrivi il valore di prop2 con eVar1<br>
 
   Quindi imposta eVar1 nella tua implementazione:
 

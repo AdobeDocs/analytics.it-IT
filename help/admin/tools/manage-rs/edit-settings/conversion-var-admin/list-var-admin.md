@@ -21,8 +21,8 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 21%
+source-wordcount: 486
+ht-degree: 24%
 
 ---
 
@@ -39,15 +39,15 @@ Crea e configura variabili elenco da utilizzare nei rapporti. Imposta il delimit
 * **[!UICONTROL Value Delimiter]**: carattere utilizzato per separare i valori all&#39;interno della variabile elenco. Nella maggior parte dei casi si tratta di caratteri come virgole, due punti, pipe o altri caratteri simili. I caratteri multibyte non sono supportati come delimitatori nelle variabili elenco.
 
 * **[!UICONTROL Expire After]**: simile alla scadenza di eVar, questo campo determina il tempo che può trascorrere tra la variabile elenco e l&#39;evento di conversione per effettuare la correlazione.
-   * **A livello di visualizzazione pagina o di visita**: gli eventi di successo oltre la visualizzazione pagina o la visita non verranno collegati ai valori all&#39;interno della variabile elenco.
-   * **In base a un periodo di tempo, ad esempio giorno, settimana, mese e così via**: gli eventi di successo oltre il periodo di tempo specificato non verranno collegati a nessun valore all&#39;interno della variabile elenco. È anche possibile definire un numero personalizzato di giorni.
-   * **Eventi di conversione specifici**: qualsiasi altro evento di successo attivato dopo l&#39;evento specifico designato non verrà collegato ad alcun valore all&#39;interno della variabile elenco.
-   * **Mai**: qualsiasi quantità di tempo può passare tra la variabile elenco e l&#39;evento di successo.
+  * **A livello di visualizzazione pagina o di visita**: gli eventi di successo oltre la visualizzazione pagina o la visita non verranno collegati ai valori all&#39;interno della variabile elenco.
+  * **In base a un periodo di tempo, ad esempio giorno, settimana, mese e così via**: gli eventi di successo oltre il periodo di tempo specificato non verranno collegati a nessun valore all&#39;interno della variabile elenco. È anche possibile definire un numero personalizzato di giorni.
+  * **Eventi di conversione specifici**: qualsiasi altro evento di successo attivato dopo l&#39;evento specifico designato non verrà collegato ad alcun valore all&#39;interno della variabile elenco.
+  * **Mai**: qualsiasi quantità di tempo può passare tra la variabile elenco e l&#39;evento di successo.
 
 * **[!UICONTROL Allocation]**: questa impostazione determina il modo in cui gli eventi di successo dividono il credito tra i valori:
-   * **Completo**: tutti i valori delle variabili definiti prima della scadenza della variabile ricevono il pieno credito per gli eventi di successo.
-   * **Lineare**: tutti i valori delle variabili definiti prima della scadenza della variabile ricevono credito diviso per gli eventi di conversione.
-   * I valori delle variabili non vengono mai sovrascritti, ma vengono aggiunti ai valori che ricevono credito per gli eventi di successo.
+  * **Completo**: tutti i valori delle variabili definiti prima della scadenza della variabile ricevono il pieno credito per gli eventi di successo.
+  * **Lineare**: tutti i valori delle variabili definiti prima della scadenza della variabile ricevono credito diviso per gli eventi di conversione.
+  * I valori delle variabili non vengono mai sovrascritti, ma vengono aggiunti ai valori che ricevono credito per gli eventi di successo.
 
 * **[!UICONTROL Description]**: descrizione del modo in cui l&#39;organizzazione utilizza la variabile elenco.
 

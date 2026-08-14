@@ -21,7 +21,7 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1109
+source-wordcount: 1104
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ I passaggi spiegano come impostare un’importazione una tantum di dati pay-per-
 * Stai acquisendo i dati del codice di tracciamento.
 * Disponi di codici di tracciamento univoci per ciascun gruppo di annunci.
 
-## Configura [!UICONTROL Success Events]
+## Configurare [!UICONTROL Success Events]
 
 Il primo passaggio consiste nel preparare Adobe Analytics a ricevere le metriche. A questo scopo, devi impostare alcuni eventi di successo.
 

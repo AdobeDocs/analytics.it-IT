@@ -58,10 +58,10 @@ Esistono diverse strategie per evitare la latenza o ridurre il tempo di ripristi
 * **Notifica ad Adobe i picchi di traffico previsti:** Anche se è impossibile prevedere ogni picco di traffico sul sito, in alcuni casi potrebbe verificarsi un aumento significativo del traffico. Alcuni esempi includono un periodo di vacanza particolarmente riuscito o poco dopo un invio di una campagna di grandi dimensioni. In questi casi, Adobe consente alla tua organizzazione di informarci sugli aumenti di traffico previsti, in modo da poter allocare risorse di elaborazione aggiuntive alla suite di rapporti. Per informazioni su come segnalare ad Adobe un aumento del traffico, consulta [Pianificare un picco di traffico](/help/admin/tools/manage-rs/edit-settings/c-traffic-management/t-traffic-schedule-spike.md) nella guida utente dell&#39;amministratore.
 * **Durante l&#39;attivazione di nuove funzionalità, prendere in considerazione l&#39;elaborazione del carico:** Alcune funzionalità richiedono una maggiore elaborazione rispetto ad altre. Più funzioni sono abilitate in una suite di rapporti, più è difficile ripristinarle dalla latenza. Quando abiliti le funzioni in una suite di rapporti, tieni presente le seguenti funzioni che aumentano la quantità di dati da elaborare:
 
-   * Implementazione di più di 20 eventi sulla stessa pagina
-   * Regole VISTA complesse
-   * Più di 20 valori nella variabile prodotti
-   * Serializzazione degli eventi
+  * Implementazione di più di 20 eventi sulla stessa pagina
+  * Regole VISTA complesse
+  * Più di 20 valori nella variabile prodotti
+  * Serializzazione degli eventi
 
 * Abilita il filtro dei bot IAB: [Il filtro dei bot](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) può ridurre notevolmente la latenza se la suite di rapporti è frequentata da bot o crawler. Si consiglia di utilizzare l&#39;elenco di bot IAB, in quanto è aggiornato e gestito da [Interactive Advertising Bureau](https://www.iab.net/about_the_iab). Un utente può personalizzare le proprie regole bot per integrare quelle di IAB.
 

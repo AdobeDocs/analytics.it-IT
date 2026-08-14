@@ -48,13 +48,13 @@ L’obiettivo dell’inventario di Analytics è di aiutarti a rispondere alle se
 
 * Una volta determinata la risorsa di cui eseguire la migrazione:
 
-   * È necessario eseguire una pulizia delle risorse prima di questo aggiornamento?
+  * È necessario eseguire una pulizia delle risorse prima di questo aggiornamento?
 
-   * È necessario eseguire il consolidamento delle risorse come parte del processo?
+  * È necessario eseguire il consolidamento delle risorse come parte del processo?
 
-   * Quale dovrebbe essere la sequenza di aggiornamento per le risorse?
+  * Quale dovrebbe essere la sequenza di aggiornamento per le risorse?
 
-   * Quali suite di rapporti devi aggiornare per prime o per ultime?
+  * Quali suite di rapporti devi aggiornare per prime o per ultime?
 
 ## Autorizzazioni
 

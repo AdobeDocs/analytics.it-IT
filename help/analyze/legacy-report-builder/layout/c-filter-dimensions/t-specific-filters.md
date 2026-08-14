@@ -44,8 +44,8 @@ Puoi eseguire ricerche su elementi dimensionali specifici creando un filtro che 
 1. Abilita una delle seguenti opzioni specifiche:
 
    * **Da intervallo di celle:** consente di selezionare dati dalle celle. È possibile selezionare:
-      * **Tutte le celle nell&#39;intervallo:** Consente di mappare ogni cella dell&#39;intervallo. Il testo descrittivo spiega il numero di gruppi di celle da selezionare. Per eseguire il mapping di più gruppi di celle, premere il tasto Ctrl mentre si effettuano selezioni successive. Se l’intervallo da mappare contiene una sola cella, questa è l’unica opzione disponibile
-      * **Prima cella dell&#39;intervallo:** Selezionare solo la cella superiore sinistra dell&#39;intervallo, quindi scegliere una direzione per i dati. Inoltre, se la richiesta ha più periodi, è possibile scegliere la direzione dei periodi e scegliere se si desidera saltare un numero impostato di celle tra i periodi.
+     * **Tutte le celle nell&#39;intervallo:** Consente di mappare ogni cella dell&#39;intervallo. Il testo descrittivo spiega il numero di gruppi di celle da selezionare. Per eseguire il mapping di più gruppi di celle, premere il tasto Ctrl mentre si effettuano selezioni successive. Se l’intervallo da mappare contiene una sola cella, questa è l’unica opzione disponibile
+     * **Prima cella dell&#39;intervallo:** Selezionare solo la cella superiore sinistra dell&#39;intervallo, quindi scegliere una direzione per i dati. Inoltre, se la richiesta ha più periodi, è possibile scegliere la direzione dei periodi e scegliere se si desidera saltare un numero impostato di celle tra i periodi.
    * **Dall&#39;elenco:** consente di selezionare i dati da un elenco a cui è possibile aggiungere dati.
 1. Se abiliti **[!UICONTROL From List]**, seleziona gli elementi elencati disponibili o fai clic su **[!UICONTROL Add]**.
 

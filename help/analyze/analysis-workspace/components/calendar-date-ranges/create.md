@@ -16,8 +16,8 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 449
-ht-degree: 93%
+source-wordcount: 456
+ht-degree: 94%
 
 ---
 
@@ -76,12 +76,12 @@ In alternativa, puoi selezionare **[!UICONTROL Preset]** dal menu a discesa [!UI
 
      ![Date continue](assets/rolliing-dates.png)
 
-      1. Seleziona **[!UICONTROL Start of]**, **[!UICONTROL End of]**, or **[!UICONTROL Fixed day]**.
-      1. Dopo aver selezionato **[!UICONTROL Start of]** o **[!UICONTROL End of]**, è possibile creare un’espressione completa. Ad esempio: **[!UICONTROL End of]** **[!UICONTROL current quarter]** **[!UICONTROL minus]** `20` **[!UICONTROL days]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
-         * Seleziona un valore corrente. Ad esempio: **[!UICONTROL current quarter]**.
-         * Seleziona un valore per il calcolo aggiuntivo. Ad esempio: **[!UICONTROL minus]**.
-         * Dopo aver specificato un calcolo aggiuntivo, specifica un valore. Ad esempio: `20`.
-         * Dopo aver specificato un calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio: **[!UICONTROL days]**.
+     1. Seleziona **[!UICONTROL Start of]**, **[!UICONTROL End of]**, or **[!UICONTROL Fixed day]**.
+     1. Dopo aver selezionato **[!UICONTROL Start of]** o **[!UICONTROL End of]**, è possibile creare un’espressione completa. Ad esempio: **[!UICONTROL End of]** **[!UICONTROL current quarter]** **[!UICONTROL minus]** `20` **[!UICONTROL days]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
+        * Seleziona un valore corrente. Ad esempio: **[!UICONTROL current quarter]**.
+        * Seleziona un valore per il calcolo aggiuntivo. Ad esempio: **[!UICONTROL minus]**.
+        * Dopo aver specificato un calcolo aggiuntivo, specifica un valore. Ad esempio: `20`.
+        * Dopo aver specificato un calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio: **[!UICONTROL days]**.
 
      Seleziona **[!UICONTROL Hide details]** per nascondere i dettagli del calcolo delle date continue.
 

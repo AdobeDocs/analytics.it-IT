@@ -144,8 +144,8 @@ Utilizza la pagina Apprendimento di Adobe Analytics per scoprire le funzioni pri
 * **Filtrare i contenuti:** l’icona Filtro nella barra a sinistra consente di filtrare i contenuti di apprendimento in base al livello di esperienza (principiante, intermedio o avanzato) e al tipo di contenuto (documento, video o presentazione e tutorial).
 * **Tracciare l’avanzamento:** dopo aver selezionato una parte del contenuto, viene visualizzato un tag **[!UICONTROL Viewed]**. Questo tag consente di tenere traccia dei contenuti di apprendimento già visualizzati. È possibile selezionare il tag **[!UICONTROL Viewed]** per rimuoverlo da una parte del contenuto.
 * **Visualizza contenuto aggiuntivo:** quando visualizzi un video, seleziona il pulsante **[!UICONTROL Learn more]** per visualizzare il contenuto della documentazione correlata su Experience League. In alternativa, dalla pagina Apprendimento, seleziona una delle seguenti opzioni per visualizzare contenuto aggiuntivo:
-   * **[!UICONTROL Visit YouTube]:** visualizza la playlist di YouTube completa di Analysis Workspace.
-   * [!UICONTROL **Visita Experience League**]: consulta la suite completa della documentazione di Adobe Analytics su Experience League.
+  * **[!UICONTROL Visit YouTube]:** visualizza la playlist di YouTube completa di Analysis Workspace.
+  * [!UICONTROL **Visita Experience League**]: consulta la suite completa della documentazione di Adobe Analytics su Experience League.
 * **Nozioni di base per i nuovi utenti:** La presentazione [!UICONTROL Workspace Fundamentals] è consigliata per i nuovi utenti. Questa presentazione consente di entrare direttamente in Workspace e di scoprire le azioni più comuni. Questa presentazione può essere riavviata in qualsiasi momento direttamente in Workspace tramite la descrizione a comparsa accessibile dall’intestazione del pannello.
 
 ## Impostare la pagina di destinazione {#set-landing}

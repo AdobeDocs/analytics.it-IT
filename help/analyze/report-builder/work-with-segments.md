@@ -38,15 +38,15 @@ Per applicare filtri che utilizzano i segmenti a singole metriche:
 
 * In alternativa:
 
-   1. Selezionare ![MoreSmall](/help/assets/icons/MoreSmall.svg) per una metrica specifica nel riquadro **[!UICONTROL Table]**, quindi selezionare **[!UICONTROL Filter metric]**.
+  1. Selezionare ![MoreSmall](/help/assets/icons/MoreSmall.svg) per una metrica specifica nel riquadro **[!UICONTROL Table]**, quindi selezionare **[!UICONTROL Filter metric]**.
 
-      Scheda ![segmenti con metriche.](./assets/filter-metric.png){zoomable="yes"}
+     Scheda ![segmenti con metriche.](./assets/filter-metric.png){zoomable="yes"}
 
-   1. Selezionare uno o più segmenti dal menu a discesa **[!UICONTROL Segments]**. I segmenti vengono aggiunti all&#39;elenco **[!UICONTROL Segments applied]**.
+  1. Selezionare uno o più segmenti dal menu a discesa **[!UICONTROL Segments]**. I segmenti vengono aggiunti all&#39;elenco **[!UICONTROL Segments applied]**.
 
-      ![Segmenti applicati](assets/segments-applied.png)
-   1. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un segmento dall&#39;elenco **[!UICONTROL Segment applied]**. In alternativa, selezionare **[!UICONTROL Clear all]** per rimuovere tutti i segmenti dall&#39;elenco **[!UICONTROL Segment applied]**.
-   1. Seleziona **[!UICONTROL Apply]**.
+     ![Segmenti applicati](assets/segments-applied.png)
+  1. Selezionare ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un segmento dall&#39;elenco **[!UICONTROL Segment applied]**. In alternativa, selezionare **[!UICONTROL Clear all]** per rimuovere tutti i segmenti dall&#39;elenco **[!UICONTROL Segment applied]**.
+  1. Seleziona **[!UICONTROL Apply]**.
 
 Per visualizzare i filtri applicati, passa il cursore del mouse su una metrica o selezionala nel riquadro Tabella. Le metriche con segmenti applicati visualizzano un’icona di segmento.
 

@@ -16,7 +16,7 @@ role_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 225
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -40,7 +40,7 @@ Questo esempio mostra il rapporto Fallout pagina.
 
    ![Schermata che mostra il collegamento Definisci punti di controllo.](assets/define_checkpoints.png)
 
-1. Selezionare l&#39;opzione **[!UICONTROL Filter]**.
+1. Seleziona l’opzione **[!UICONTROL Filter]**.
 
 1. Nella finestra di dialogo **[!UICONTROL Define Site Section Fallout Checkpoints]**, definisci i punti di controllo da un intervallo di celle o da un elenco. Quindi fai clic su **[!UICONTROL OK]**.
 1. Decidi se effettuare una selezione da un intervallo di celle o da un elenco.

@@ -62,10 +62,10 @@ In qualità di amministratore, puoi
 * Utilizza qualsiasi evento personalizzato, evento del carrello acquisti o istanza.
 * Visualizza fino a 2 ore di dati cronologici in tempo reale e modifica questa impostazione:
 
-   * Ultimi 15 minuti: granularità di 1 minuto
-   * Ultimi 30 minuti: granularità di 1 minuto
-   * Ultima ora: granularità di 2 minuti
-   * Ultime 2 ore: granularità di 4 minuti
+  * Ultimi 15 minuti: granularità di 1 minuto
+  * Ultimi 30 minuti: granularità di 1 minuto
+  * Ultima ora: granularità di 2 minuti
+  * Ultime 2 ore: granularità di 4 minuti
 
 * Confronta, ad esempio, i valori della settimana scorsa con quelli dell’anno precedente (nonché con il totale di oggi).
 

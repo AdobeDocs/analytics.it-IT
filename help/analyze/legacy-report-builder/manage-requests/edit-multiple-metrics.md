@@ -16,7 +16,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 567
+source-wordcount: 563
 ht-degree: 24%
 
 ---
@@ -50,12 +50,12 @@ Per aggiungere una o più metriche
 
 Quando sostituisci le metriche, considera le seguenti linee guida:
 
-* Sono consentite solo 1:1 sostituzioni. 1:many o molti:1 non sono consentiti.
+* Sono consentite solo sostituzioni 1:1. 1:many o molti:1 non sono consentiti.
 * Se la metrica selezionata non è presente in una delle richieste selezionate, la richiesta viene lasciata invariata.
 * La nuova metrica viene posizionata nella stessa posizione della metrica sostituita.
 
-   * **In un layout pivot**, se una richiesta di layout pivot restituisce data, visita, visitatori, univoci giornalieri e *visitatori* è sostituito da *ricavi*, il layout della richiesta aggiornato sarà: data, visita, ricavi e univoci giornalieri.
-   * **In un layout personalizzato**, se la metrica *visitatori* è stata generata nella cella F11, il layout della richiesta aggiornato mostrerà *ricavi* nella stessa cella F11.
+  * **In un layout pivot**, se una richiesta di layout pivot restituisce data, visita, visitatori, univoci giornalieri e *visitatori* è sostituito da *ricavi*, il layout della richiesta aggiornato sarà: data, visita, ricavi e univoci giornalieri.
+  * **In un layout personalizzato**, se la metrica *visitatori* è stata generata nella cella F11, il layout della richiesta aggiornato mostrerà *ricavi* nella stessa cella F11.
 
 * Se alla metrica sostituita è stata applicata un’operazione (media, testo pre-scritto, testo scritto, micrografico), queste operazioni verranno applicate anche alla nuova metrica.
 

@@ -19,8 +19,8 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
 workflow-type: tm+mt
-source-wordcount: 1621
-ht-degree: 6%
+source-wordcount: 1657
+ht-degree: 8%
 
 ---
 
@@ -141,9 +141,9 @@ I passaggi precedenti si applicano solo alle regole che impostano valori. I pass
    * [!UICONTROL Action type]: [!UICONTROL Send event]
 1. A destra, modifica le impostazioni delle azioni come segue:
    * [!UICONTROL Type]: Per `s.t()`, utilizzare **[!UICONTROL Web Webpagedetails Page Views]**. Per `s.tl()`, utilizzare **[!UICONTROL Web Webinteraction Link Clicks]**. Se utilizzi [`s.tl()`](../../vars/functions/tl-method.md), devi includere anche i seguenti campi nell&#39;oggetto dati. Questi campi sono elencati in [!UICONTROL Additional properties] durante l&#39;esecuzione della configurazione dell&#39;azione [!UICONTROL Update variable]:
-      * [Nome collegamento](../../vars/functions/tl-method.md)
-      * [Tipo di collegamento](../../vars/functions/tl-method.md)
-      * [URL collegamento](../../vars/config-vars/linkurl.md)
+     * [Nome collegamento](../../vars/functions/tl-method.md)
+     * [Tipo di collegamento](../../vars/functions/tl-method.md)
+     * [URL collegamento](../../vars/config-vars/linkurl.md)
 1. Seleziona **[!UICONTROL Keep Changes]**.
 1. Ripeti questi passaggi per ogni configurazione di azione che utilizza Adobe Analytics per inviare un beacon.
 

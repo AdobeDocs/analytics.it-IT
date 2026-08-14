@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
 source-git-commit: f02b660b551f5291443b8f7c5c51179a06b22eb9
 workflow-type: tm+mt
-source-wordcount: '1541'
-ht-degree: 91%
+source-wordcount: '1535'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ Il pannello dei filtri è costituito dalle sezioni seguenti.
 
 | Suite di rapporti | Descrizione |
 |---|---|
-| ![Suite di rapporti](assets/projects-filters-reportsuites.png){width="300"} | La sezione **[!UICONTROL Report Suites]** ti consente di filtrare in base alle suite di rapporti. <ul><li>Puoi utilizzare ![Cerca](/help/assets/icons/Search.svg) *Cerca suite di rapporti* per cercare le suite di rapporti che desideri utilizzare per filtrare.</li><li>Puoi selezionare più di una suite di rapporti. Le suite di rapporti disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**3︎⃣**: numero di suite di rapporti disponibili per i progetti risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati alla suite di rapporti specifica.</li></ul></li></ul> |
+| ![Suite di rapporti](assets/projects-filters-reportsuites.png){width="300"} | La sezione **[!UICONTROL Report Suites]** ti consente di filtrare in base alle suite di rapporti. <ul><li>Puoi utilizzare ![Cerca](/help/assets/icons/Search.svg) *Cerca suite di rapporti* per cercare le suite di rapporti che desideri utilizzare per filtrare.</li><li>È possibile selezionare più di una suite di rapporti. Le suite di rapporti disponibili dipendono dalle selezioni effettuate in altre sezioni del pannello dei filtri.</li><li>I numeri indicano:<ul><li>**3︎⃣**: numero di suite di rapporti disponibili per i progetti risultanti dal filtro corrente.</li><li>4︎⃣: numero di progetti associati alla suite di rapporti specifica.</li></ul></li></ul> |
 
 
 ### Proprietari
@@ -157,6 +157,6 @@ Se lo spazio è limitato alla visualizzazione dei singoli filtri, visualizzerai 
 
 * Per rimuovere un filtro:
 
-   1. Utilizza **[!UICONTROL *x *filtri]**![ChevronDown](/help/assets/icons/ChevronDown.svg) per aprire un menu di scelta rapida in cui sono elencati i tipi di filtri e i singoli filtri.
-   1. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un filtro.
+  1. Utilizza **[!UICONTROL *x *filtri]**![ChevronDown](/help/assets/icons/ChevronDown.svg) per aprire un menu di scelta rapida in cui sono elencati i tipi di filtri e i singoli filtri.
+  1. Seleziona ![CrossSize75](/help/assets/icons/CrossSize75.svg) per rimuovere un filtro.
 

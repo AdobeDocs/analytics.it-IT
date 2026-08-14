@@ -18,7 +18,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 318
+source-wordcount: 319
 ht-degree: 72%
 
 ---
@@ -33,7 +33,7 @@ Comincia con la comprensione degli obiettivi aziendali, in modo da poter sceglie
 
 ## &#x200B;2. Poni la domanda cruciale
 
-Chiediti: se il mio amministratore delegato fosse bloccato su un’isola e gli diceste solo 5 cose sullo stato dell’azienda, quali sarebbero? Se le dicessi che il tempo medio trascorso su una pagina era 1:30, non l&#39;aiuterebbe affatto. Tuttavia, se gli hai detto che il tuo reddito medio per visita era di 2.00 $ e hai avuto 2 milioni di visite, questo gli darà una vera indicazione del successo commerciale.
+Chiediti: se il mio amministratore delegato fosse bloccato su un’isola e gli diceste solo 5 cose sullo stato dell’azienda, quali sarebbero? Se le diceste che il tempo medio trascorso su una pagina era 1:30, non l&#39;aiuterebbe affatto. Tuttavia, se gli hai detto che il tuo reddito medio per visita era di 2.00 $ e hai avuto 2 milioni di visite, questo gli darà una vera indicazione del successo commerciale.
 
 ## &#x200B;3. Ricorda cosa sono e cosa non sono i KPI
 

@@ -34,14 +34,14 @@ Per rinominare le cartelle in Workspace:
 
 * Seleziona una cartella da rinominare nell’[Elenco progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Dalle [azioni](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu, seleziona **[!UICONTROL Rename]**.
-   1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**, immetti un nuovo nome e seleziona **[!UICONTROL Save]**.
+  1. Dalle [azioni](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu, seleziona **[!UICONTROL Rename]**.
+  1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**, immetti un nuovo nome e seleziona **[!UICONTROL Save]**.
 
 * All’interno della cartella che desideri rinominare.
 
-   1. Seleziona **[!UICONTROL Rename folder]** da ![Altro](/help/assets/icons/More.svg) nell’[area Titolo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Seleziona **[!UICONTROL Rename folder]** da ![Altro](/help/assets/icons/More.svg) nell’[area Titolo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**&#x200B;immetti un nuovo nome e seleziona **[!UICONTROL Save]**.
+  1. Nella finestra di dialogo **[!UICONTROL Rename: *nome cartella *]**&#x200B;immetti un nuovo nome e seleziona **[!UICONTROL Save]**.
 
 
 ## Spostare le cartelle
@@ -52,18 +52,18 @@ Per spostare le cartelle in Workspace:
 
 * Seleziona una cartella da spostare nell’[Elenco progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Dalle [azioni](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu, seleziona **[!UICONTROL Move to]**.
-   1. Nella finestra di dialogo **[!UICONTROL Select Folder]**, seleziona una cartella dal menu a discesa **[!UICONTROL Folder]** in cui spostare la cartella.
+  1. Dalle [azioni](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu, seleziona **[!UICONTROL Move to]**.
+  1. Nella finestra di dialogo **[!UICONTROL Select Folder]**, seleziona una cartella dal menu a discesa **[!UICONTROL Folder]** in cui spostare la cartella.
 
-   1. Seleziona **[!UICONTROL Move]**.
+  1. Seleziona **[!UICONTROL Move]**.
 
 * All’interno della cartella che desideri spostare.
 
-   1. Seleziona **[!UICONTROL Move folder]** da ![Altro](/help/assets/icons/More.svg) nell’[area Titolo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Seleziona **[!UICONTROL Move folder]** da ![Altro](/help/assets/icons/More.svg) nell’[area Titolo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Nella finestra di dialogo **[!UICONTROL Select Folder]**, seleziona una cartella dal menu a discesa **[!UICONTROL Folder]** in cui spostare la cartella.
+  1. Nella finestra di dialogo **[!UICONTROL Select Folder]**, seleziona una cartella dal menu a discesa **[!UICONTROL Folder]** in cui spostare la cartella.
 
-   1. Seleziona **[!UICONTROL Move]**.
+  1. Seleziona **[!UICONTROL Move]**.
 
 
 ## Eliminare le cartelle
@@ -79,15 +79,15 @@ Per eliminare le cartelle in Workspace
 
 * Seleziona una o più cartelle da eliminare nell’[Elenco progetti](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#project-list).
 
-   1. Dalle [azioni](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu, seleziona **[!UICONTROL Delete]**.
+  1. Dalle [azioni](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#actions) disponibili nel menu di scelta rapida ![Altro](/help/assets/icons/More.svg) della cartella selezionata o nella barra delle azioni blu, seleziona **[!UICONTROL Delete]**.
 
-   1. Nella finestra di dialogo **[!UICONTROL Are you sure?]**, seleziona **[!UICONTROL OK]** per eliminare le cartelle.
+  1. Nella finestra di dialogo **[!UICONTROL Are you sure?]**, seleziona **[!UICONTROL OK]** per eliminare le cartelle.
 
 * All’interno della cartella che desideri eliminare.
 
-   1. Seleziona **[!UICONTROL Delete folder]** da ![Altro](/help/assets/icons/More.svg) nell’[area Titolo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
+  1. Seleziona **[!UICONTROL Delete folder]** da ![Altro](/help/assets/icons/More.svg) nell’[area Titolo](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md#title-area).
 
-   1. Nella cartella **[!UICONTROL Delete *name *?]**, selezionare **[!UICONTROL OK]**.
+  1. Nella cartella **[!UICONTROL Delete *name *?]**, selezionare **[!UICONTROL OK]**.
 
 
 <!-- 

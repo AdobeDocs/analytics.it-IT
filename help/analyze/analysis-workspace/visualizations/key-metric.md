@@ -18,7 +18,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: 886
 ht-degree: 90%
 
 ---
@@ -122,7 +122,7 @@ Come parte delle impostazioni di visualizzazione, sono disponibili impostazioni 
 | **[!UICONTROL Show comparison percentage and trendline]** | Mostra o nascondi i dati di confronto. Quando sono nascosti, non vengono visualizzati gli oggetti Grafico a linee di confronto e Variazione di riepilogo. |
 | **[!UICONTROL Show total number]** | Mostrare o nascondere il numero di riepilogo |
 | **[!UICONTROL Show raw difference]** | Mostra o nascondi la differenza non elaborata tra il valore totale della metrica nell’intervallo di date principale e l’intervallo di date secondario. |
-| **[!UICONTROL Abbreviate value]** | Seleziona **[!UICONTROL Abbreviate value]** per abbreviare in modo intelligente il valore numerico. Se questa opzione è selezionata, immetti un numero per definire la quantità di abbreviazione. Ad esempio:<br/><table><tr><td>**Valore originale**</td><td>**Abbreviazione**</td><td>**Risultato**</td></tr><tr><td>$12,011,141.25</td><td>Non selezionato</td><td align="right">$12,011,141.25</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su 1</td><td align="right">12 milioni $</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su 2</td><td align="right">12,0 milioni $</td></tr><tr><td>$12,011,141.25</td><td>Selezionato, impostato su 2</td><td align="right">12,011 milioni $</td></tr><tr><td>$12,011,141.25</td><td>Seleziona, imposta su 3</td><td align="right">12,011 milioni $</td></tr></table> |
+| **[!UICONTROL Abbreviate value]** | Seleziona **[!UICONTROL Abbreviate value]** per abbreviare in modo intelligente il valore numerico. Se questa opzione è selezionata, immetti un numero per definire la quantità di abbreviazione. Ad esempio:<br/><table><tr><td>**Valore originale**</td><td>**Abbreviazione**</td><td>**Risultato**</td></tr><tr><td>12.011.141,25 $</td><td>Non selezionato</td><td align="right">12.011.141,25 $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su 1</td><td align="right">12 milioni $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su 2</td><td align="right">12,0 milioni $</td></tr><tr><td>12.011.141,25 $</td><td>Selezionato, impostato su 2</td><td align="right">12,011 milioni $</td></tr><tr><td>12.011.141,25 $</td><td>Seleziona, imposta su 3</td><td align="right">12,011 milioni $</td></tr></table> |
 
 ## Visualizzazione Modifica
 

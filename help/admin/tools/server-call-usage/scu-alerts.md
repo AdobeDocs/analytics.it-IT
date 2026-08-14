@@ -59,12 +59,12 @@ Per creare avvisi aggiuntivi:
    * **Data di scadenza**: per impostazione predefinita, la data di scadenza è un anno dalla data di creazione dell’avviso.
    * **Invia un avviso quando**:
 
-      * Uno qualsiasi di questi trigger di metriche
-Aggiungi il tipo di chiamate al server come metrica e specifica la soglia di avviso selezionando il modificatore e la soglia:
-         * è superiore o uguale a
-         * è inferiore o uguale a
-      * Con
-Specifica la soglia e la condizione (è superiore o uguale a oppure inferiore o uguale a) per il periodo di utilizzo trascorso.
+     * Uno qualsiasi di questi trigger di metriche
+       Aggiungi il tipo di chiamate al server come metrica e specifica la soglia di avviso selezionando il modificatore e la soglia:
+       * è superiore o uguale a
+       * è inferiore o uguale a
+     * Con
+       Specifica la soglia e la condizione (è superiore o uguale a oppure inferiore o uguale a) per il periodo di utilizzo trascorso.
 
 1. Fai clic su **[!UICONTROL Save]**.
 

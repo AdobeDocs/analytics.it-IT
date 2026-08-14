@@ -121,19 +121,19 @@ A volte le regole di elaborazione del canale di marketing non vengono impostate 
 
 * **I dati del canale di marketing vengono raccolti in tempo reale**: i dati del canale di marketing vengono elaborati al momento della raccolta dei dati e sono permanenti al 100%. La modifica delle regole di elaborazione non influisce retroattivamente sui dati.
 * **La modifica delle regole di elaborazione non influisce immediatamente sui dati di primo contatto**. Ad esempio:
-   1. Un utente accede tramite il canale e-mail perché è stato configurato in modo errato e poi lascia il sito.
-   2. Il giorno successivo, modifichi la regola di elaborazione e-mail per correggerla.
-   3. L’utente torna dopo diversi giorni attraverso la ricerca naturale e completa un acquisto.
-   4. Il canale e-mail riceve il credito di Primo contatto e la ricerca naturale riceve il credito di Ultimo contatto.
+  1. Un utente accede tramite il canale e-mail perché è stato configurato in modo errato e poi lascia il sito.
+  2. Il giorno successivo, modifichi la regola di elaborazione e-mail per correggerla.
+  3. L’utente torna dopo diversi giorni attraverso la ricerca naturale e completa un acquisto.
+  4. Il canale e-mail riceve il credito di Primo contatto e la ricerca naturale riceve il credito di Ultimo contatto.
 
   Anche diversi giorni dopo aver modificato le regole di elaborazione, i dati possono ancora essere raccolti nel canale di primo contatto errato. I dati di primo contatto vengono raccolti continuamente nel canale errato fino alla scadenza del coinvolgimento di tutti gli utenti.
 
 Il modo migliore per ovviare a tali discrepanze consiste nell’effettuare una o entrambe le seguenti operazioni:
 
 * **Far scadere manualmente tutti i periodi di coinvolgimento dei visitatori**: questa impostazione fa scadere immediatamente tutti i canali di primo e ultimo contatto per tutti i visitatori:
-   1. Passa a Strumenti di amministrazione > Suite di rapporti.
-   2. Passa il puntatore su Impostazioni modifica immagine > Canali di marketing > Scadenza coinvolgimento visitatore
-   3. Fai clic su Tutti scaduti.
-   4. Fai clic su OK per passare alla finestra a comparsa di avviso, riconoscendo che sei in grado di capire l’operazione che verrà eseguita.
+  1. Passa a Strumenti di amministrazione > Suite di rapporti.
+  2. Passa il puntatore su Impostazioni modifica immagine > Canali di marketing > Scadenza coinvolgimento visitatore
+  3. Fai clic su Tutti scaduti.
+  4. Fai clic su OK per passare alla finestra a comparsa di avviso, riconoscendo che sei in grado di capire l’operazione che verrà eseguita.
 
 * **Visualizza le metriche di ultimo contatto solo dal momento in cui sono state corrette le regole**: le metriche di ultimo contatto seguono sempre il set di regole corrente. La visualizzazione dell’ora da cui parte la modifica delle regole di elaborazione riflette correttamente le regole di elaborazione più recenti.

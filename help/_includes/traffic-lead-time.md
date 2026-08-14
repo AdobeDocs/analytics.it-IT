@@ -58,9 +58,9 @@ Altri aspetti da considerare:
 * Se disponi di diverse suite di rapporti in fase di avvio o aumento che si sommano ai numeri elencati in precedenza, il lead time si applica come somma del traffico previsto per ciascuna di esse.
 * Per inviare una modifica del traffico, è necessario disporre delle seguenti informazioni:
 
-   * ID suite di rapporti
-   * Hit stimati al giorno
-   * Data di pubblicazione
+  * ID suite di rapporti
+  * Hit stimati al giorno
+  * Data di pubblicazione
 
 * Gli avvisi del client sono necessari anche quando il traffico diminuisce o una suite dei rapporti è obsoleta.
 

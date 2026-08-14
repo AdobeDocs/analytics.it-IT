@@ -38,7 +38,8 @@ Il provisioning di CDA viene eseguito sulla suite di rapporti multi-dispositivo 
 * ID suite di rapporti per la suite di rapporti multi-dispositivo che desideri abilitare con CDA
 * Metodo CDA da utilizzare (unione basata sui campi)
 * Se intendi utilizzare l’unione basata sui campi, la proprietà o l’eVar che contiene l’ID utente
-* Preferenza di ripetizione frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, oppure una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.L’impostazione predefinita è la riproduzione settimanale con intervallo di lookback di 7 giorni. In questo caso, i dati dell’ultima settimana sono soggetti a modifiche (in quanto vengono progressivamente uniti e aggiornati).
+* Preferenza di ripetizione frequenza e lunghezza del lookback. Le opzioni includono una ripetizione una volta alla settimana con un intervallo di lookback di 7 giorni, oppure una ripetizione ogni giorno con un intervallo di lookback di 1 giorno.
+L’impostazione predefinita è la riproduzione settimanale con intervallo di lookback di 7 giorni. In questo caso, i dati dell’ultima settimana sono soggetti a modifiche (in quanto vengono progressivamente uniti e aggiornati).
 
 Una volta fornite all’Assistenza clienti queste informazioni, collaboreranno con il team ingegneristico di Adobe per abilitare la suite di rapporti scelta per l’elaborazione CDA.
 

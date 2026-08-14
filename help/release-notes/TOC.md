@@ -6,7 +6,7 @@ breadcrumb-title: Note sulla versione
 user-guide-description: Scopri le nuove funzionalità e le correzioni di Adobe Analytics.
 nudge: true
 source-git-commit: 64e425e1cfe2062fd053596f92b4518bc7afdecd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 100%
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 + [Note sulla versione corrente di Analytics](latest.md)
 + Note sulle versioni precedenti di Analytics {#previous}
-   + [Note sulla versione 2026](2026.md)
-   + [Note sulla versione 2025](2025.md)
-   + [Note sulla versione 2024](2024.md)
-   + [Note sulla versione 2023](2023.md)
-   + [Note sulla versione 2022](2022.md)
-   + [Note sulla versione 2021](2021.md)
-   + [Note sulla versione 2020](2020.md)
-   + [Note sulla versione 2019](2019-earlier.md)
+  + [Note sulla versione 2026](2026.md)
+  + [Note sulla versione 2025](2025.md)
+  + [Note sulla versione 2024](2024.md)
+  + [Note sulla versione 2023](2023.md)
+  + [Note sulla versione 2022](2022.md)
+  + [Note sulla versione 2021](2021.md)
+  + [Note sulla versione 2020](2020.md)
+  + [Note sulla versione 2019](2019-earlier.md)
 + [Aggiornamenti alla documentazione](doc-updates.md)
 + [Rilasci di funzioni di Analytics](releases.md)
