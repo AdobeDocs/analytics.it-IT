@@ -24,10 +24,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 70623a9f205e0d80ace66691277f7fe47d4683ad
+source-git-commit: 2258ee4b539ec7ce7366c427fede2c5b8483db7f
 workflow-type: tm+mt
-source-wordcount: 1167
-ht-degree: 46%
+source-wordcount: 1246
+ht-degree: 43%
 
 ---
 
@@ -43,6 +43,7 @@ Queste note sulla versione coprono il periodo di rilascio di agosto 2026. Le ver
 | ----------- | ---------- | ---- |
 | **Estensione Activity Map: aggiornamento dell&#39;interfaccia utente** <br/>L&#39;estensione di sovrapposizione Activity Map ha un aspetto aggiornato e presenta miglioramenti di base che supportano i prossimi miglioramenti.<p>Per informazioni sull&#39;estensione Activity Map overlay, vedere [Interfaccia dell&#39;estensione Activity Map](/help/analyze/activity-map/overlay/overview.md).</p> | | 5 agosto 2026<p>(Originariamente previsto per la fine di luglio)</p> |
 | **Miglioramenti all&#39;area di lavoro di Percorso**<br> Sono ora disponibili i seguenti miglioramenti all&#39;area di lavoro di Percorso:<ul><li>Confrontare il percorso con un intervallo di tempo precedente. Confrontare il percorso corrente con il percorso 4 settimane prima, 2 trimestri prima, 1 anno prima o con un intervallo di date personalizzato.</li><li>Per un nodo selezionato, mostra gli elementi dimensionali principali che seguono il nodo selezionato in qualsiasi punto del percorso. Utilizzalo quando il nodo selezionato è l’evento chiave nell’analisi e vuoi vedere cosa fanno le persone in qualsiasi momento successivo.<p>In precedenza, potevano essere visualizzati solo i primi nodi immediati prima o dopo il nodo selezionato. </p></li><li>Modificare la forma e lo stile delle frecce tra i nodi. Trascinare le frecce tra i nodi per modificare la forma (curvatura) della freccia e fare clic con il pulsante destro del mouse su una freccia per modificarne lo stile in uno dei seguenti modi: continua, tratteggiata, punteggiata, tratteggiata o animata.</li></ul><p></p>Per ulteriori informazioni, consulta [Configurare le visualizzazioni in un’Area di lavoro del percorso](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md). | | 18 agosto 2026 |
+| **Limitare i segmenti all&#39;intervallo di date del rapporto**<br/> I dati in un rapporto di Workspace possono estendersi oltre l&#39;intervallo di date del rapporto quando un segmento include componenti per l&#39;intervallo di date.<p>È ora disponibile una nuova opzione che consente di limitare i risultati all’intervallo di date del rapporto indipendentemente da qualsiasi componente data incluso nel segmento. <p>Questa opzione è disponibile quando crei o modifichi un segmento il cui contenitore di livello superiore è Visitatore.</p><p>Per ulteriori informazioni, vedere [Generare segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 agosto 2026 | 9 settembre 2026 |
 | **Riferimento per i canali di marketing API di Analytics**<br/> Utilizzare il riferimento per i canali di marketing API di Adobe Analytics 2.0 per recuperare le informazioni sui canali di marketing di Analytics. Consulta la [documentazione sui canali di marketing API di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/apis/marketing-channels). | | 1 agosto 2026 |
 | **Guida dell&#39;endpoint dei canali di marketing API di Analytics**<br/> La guida dell&#39;endpoint dei canali di marketing API di Adobe Analytics 2.0 fornisce istruzioni ed esempi per l&#39;utilizzo dell&#39;endpoint. Consulta la [Guida dell&#39;endpoint dei canali di marketing API di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/marketing-channels). | | 1 agosto 2026 |
 | **Domande frequenti sui clienti relativi alla fine del ciclo di vita delle API di Analytics 1.4**<br/> Le domande frequenti sui clienti relative alla fine del ciclo di vita delle API di Analytics 1.4 forniscono informazioni sullo sviluppo recente delle API 2.0 per assistere i clienti che lasciano le API 1.4. | | 10 agosto 2026 |
