@@ -233,6 +233,6 @@ Il tuo Percorso Adobe Analytics inizia con l’onboarding delle configurazioni e
 Dopo aver completato l’onboarding in Adobe Analytics e nelle sue piattaforme di supporto, esplora le seguenti risorse per approfondire le tue conoscenze e migliorare le tue competenze:
 
 1. [Introduzione ad Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/intro-to-analytics/what-can-aa-do-for-me/how-adobe-analysis-workspace-can-change-your-business)
-2. [Comprendere e creare suite di rapporti](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
+2. [Comprendere e creare suite di rapporti](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/intro-to-analytics/analytics-basics/understanding-and-creating-report-suites)
 3. [Documentazione di Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics)
 4. [Esercitazioni e video su Adobe Analytics](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/overview)
