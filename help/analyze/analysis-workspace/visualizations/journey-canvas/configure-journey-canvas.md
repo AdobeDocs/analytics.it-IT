@@ -3,10 +3,10 @@ description: Informazioni sulla configurazione di una visualizzazione dell’are
 title: Configurare una visualizzazione dell’area di lavoro del percorso
 feature: Visualizations
 role: User, Admin
-source-git-commit: 9f5b9cdd90892f7efa65f09831daaf307e16c7d7
+source-git-commit: 0af08348796361b4da5361debe7f54dc24595ad8
 workflow-type: tm+mt
-source-wordcount: '5908'
-ht-degree: 85%
+source-wordcount: '6527'
+ht-degree: 76%
 
 ---
 
@@ -115,8 +115,9 @@ Configurare le impostazioni per la visualizzazione dell’area di lavoro del per
    |---------|----------|
    | [!UICONTROL **Valore percentuale**] | Il valore percentuale mostrato su ciascun nodo del percorso.<p>![valore percentuale](assets/journey-canvas-percentage.png)</p> <p>Quando configuri i valori percentuali mostrati sui nodi del percorso, considera quanto segue:</p><ul><li>Su ciascun nodo viene mostrata una percentuale per la metrica primaria. Viene mostrata anche una percentuale per la metrica secondaria, se ne è stata configurata una. Per ulteriori informazioni sulle impostazioni delle metriche primaria e secondaria, consulta [Inizia a creare una visualizzazione area di lavoro del percorso](#begin-building-a-journey-canvas-visualization).</li><li>Le percentuali includono tutte le persone o le sessioni incluse nella suite di rapporti all’interno dell’intervallo di date del pannello. L’utilizzo di _persone_ o _sessioni_ dipende dall’impostazione del contenitore. Per ulteriori informazioni sull’impostazione del contenitore, consulta [Inizia a creare una visualizzazione area di lavoro del percorso](#begin-building-a-journey-canvas-visualization).</li></ul> <p>Scegli tra le seguenti opzioni:</p> <ul><li>[!UICONTROL **Percentuale del nodo iniziale**]: calcola le percentuali mostrate in ciascun nodo in relazione al nodo iniziale. Le percentuali si basano sulla metrica primaria e secondaria selezionata. <p>Un nodo _iniziale_ è un nodo che non dispone di nodi connessi che lo precedono.</p><p>Un percorso può contenere più nodi iniziali. Tuttavia, viene utilizzata la [!UICONTROL **Percentuale del totale**] se il percorso contiene 2 o più nodi iniziali che conducono a un nodo comune. Per utilizzare la [!UICONTROL **Percentuale del nodo iniziale**], aggiorna il percorso in modo che ciascun nodo del percorso possa essere ricondotto a un singolo nodo iniziale.</p></li><li>[!UICONTROL **Percentuale del nodo precedente**]: calcola le percentuali mostrate in ciascun nodo in relazione al nodo precedente. Le percentuali si basano sulla metrica primaria e secondaria selezionata.</li><li>[!UICONTROL **Percentuale del totale**]: calcola le percentuali visualizzate in ogni nodo in relazione a tutti i dati nella suite di rapporti. Le percentuali si basano sulla metrica primaria e secondaria selezionata.</li></ul> |
    | [!UICONTROL **Impostazioni freccia**] | Le frecce visualizzate tra i nodi nell’area di lavoro del percorso possono essere configurate per mostrare etichette e valori personalizzati. <p>![impostazioni freccia](assets/journey-canvas-arrow-settings.png)</p><p>_Le etichette_ sono nomi personalizzati che è possibile aggiungere nell&#39;area di lavoro del Percorso, come descritto in [Aggiungere o aggiornare un&#39;etichetta in una freccia](#add-or-update-a-label-on-an-arrow).</li></ol><p>_I valori_ sono i numeri e le percentuali visualizzati sulle frecce e indicano le persone o le sessioni che si sono spostate da un nodo al nodo successivo nel percorso. In altre parole, coloro che non sono usciti dal percorso in un determinato momento. </p><p>Sono disponibili le seguenti opzioni:</p><ul><li>[!UICONTROL **Nessuna etichetta**]: nessuna etichetta visualizzata sulle frecce del percorso. </br> Questa opzione è disponibile solo se il percorso è stato modificato in </li><li>[!UICONTROL **Solo etichette**]: le etichette sono mostrate sulle frecce del percorso.</li></ul> |
+   | [!UICONTROL **Confronta con**] | L’intervallo di date utilizzato per confrontare i dati correnti del percorso con un periodo precedente. Puoi scegliere uno dei seguenti intervalli di date per il confronto:<ul><li>**[!UICONTROL 4 weeks prior]**</li><li>**[!UICONTROL 2 quarters prior]**</li><li>**[!UICONTROL 1 year prior]**</li><li>**[!UICONTROL Custom date range]**</li></ul><p>Quando selezioni un intervallo di date di confronto, ogni nodo del percorso mostra la variazione percentuale tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica principale. Questo consente di identificare se le prestazioni del percorso sono migliori o peggiori rispetto a un periodo di tempo precedente.</p> |
    | [!UICONTROL **Mostra i fallout**] | I dati di fallout mostrano una percentuale e un numero che non rientrano in ciascun nodo del percorso. I dati di fallout si basano sulla metrica associata alle impostazioni del contenitore del percorso; non si basano sulla metrica primaria o secondaria. <p>![fallout](assets/journey-canvas-fallout.png)</p><p>Per impostazione predefinita, il contenitore è _Persona_, quindi la metrica utilizzata per i dati di fallout è _Persone_. Se il contenitore viene modificato in _Sessione_, la metrica utilizzata per i dati di fallout sarà _Sessioni_ e così via.</p><p>Ad esempio, se l’impostazione del contenitore è _Persona_, il fallout mostra la percentuale e il numero di persone in ciascun nodo del percorso che non sono mai arrivate ai nodi immediatamente successivi. Tale persona potrebbe aver eseguito altre azioni sul sito, ma non ha soddisfatto i criteri definiti da nessuno dei nodi immediatamente successivi.</p> <p>Per ulteriori informazioni sull’impostazione del contenitore area di lavoro del percorso, consulta [Iniziare a creare una visualizzazione area di lavoro del percorso](#begin-building-a-journey-canvas-visualization). |
-   | **Controlli zoom** | Nell’angolo superiore destro dell’area di lavoro sono disponibili i seguenti controlli dello zoom:<ul><li>**Ingrandisci** ![icona Ingrandisci](assets/zoom-in-icon.png): ingrandisce aree specifiche della visualizzazione.<p>Puoi inoltre utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</li><li>**Riduci** ![icona Riduci](assets/zoom-out-icon.png): riduce la visualizzazione per avere più spazio nell’area di lavoro.<p>Puoi inoltre utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</p></li><li>**Adatta schermo** ![icona Adatta schermo](assets/fill-screen-icon.png): regola le impostazioni correnti di zoom e scorrimento per riempire lo schermo con la visualizzazione completa.</li></ul><p>Per spostarti nell’area di lavoro dopo aver ingrandito o ridotto, fai clic con il mouse e trascina nella posizione che desideri.</p> |
+   | **Controlli** | Nell’angolo superiore destro dell’area di lavoro sono disponibili i seguenti controlli:<ul><li>**Adatta schermo** ![icona Adatta schermo](assets/fill-screen-icon.png): regola le impostazioni correnti di zoom e scorrimento per riempire lo schermo con la visualizzazione completa.</li><li>**Organizza** ![organizza icona](assets/organize.svg): riorganizza i nodi per ridurre al minimo le frecce incrociate e ottimizzare la spaziatura, in base alle connessioni dei nodi. </li><li>**Ingrandisci** ![icona Ingrandisci](assets/zoom-in-icon.png): ingrandisce aree specifiche della visualizzazione.<p>Puoi inoltre utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</li><li>**Riduci** ![icona Riduci](assets/zoom-out-icon.png): riduce la visualizzazione per avere più spazio nell’area di lavoro.<p>Puoi inoltre utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</p></li></ul><p>Per spostarti nell’area di lavoro dopo aver ingrandito o ridotto, fai clic con il mouse e trascina nella posizione che desideri.</p> |
 
 1. Continua con [Aggiungere nodi](#add-nodes).
 
@@ -175,7 +176,7 @@ Puoi creare i nodi nei seguenti modi: trascinando i componenti di Workspace dall
 
 ### Mostrare i nodi principali in base ai nodi esistenti
 
-Puoi mostrare automaticamente i principali nodi immediati in base ai nodi già presenti nell’area di lavoro. Puoi aggiungere i nodi principali all’area di lavoro del percorso o visualizzarli in una tabella a forma libera.
+Puoi visualizzare automaticamente i nodi principali immediati o finali in base ai nodi già presenti nell’area di lavoro. Puoi aggiungere i nodi principali all’area di lavoro del percorso o visualizzarli in una tabella a forma libera.
 
 L’area di lavoro del percorso utilizza la metrica primaria per determinare quali nodi visualizzare.
 
@@ -187,13 +188,19 @@ Questa opzione è disponibile per i seguenti oggetti nell’area di lavoro:
 
 #### Mostrare i nodi principali dopo un nodo esistente
 
-Puoi selezionare un nodo e mostrare gli elementi dimensionali principali che vengono immediatamente dopo di esso nel percorso. Puoi aggiungere i primi 3 elementi dimensionali all’area di lavoro del percorso come nodi separati, oppure visualizzare tutti gli elementi dimensionali principali in una tabella a forma libera.
+Puoi selezionare un nodo e visualizzare i principali elementi dimensionali immediati o finali che vengono immediatamente dopo di esso nel percorso. Puoi aggiungere i primi 3 elementi dimensionali all’area di lavoro del percorso come nodi separati, oppure visualizzare tutti gli elementi dimensionali principali in una tabella a forma libera.
 
 1. Fai clic con il pulsante destro del mouse sul nodo in cui desideri mostrare gli elementi dimensionali principali che seguono nel percorso.
 
    Il nodo non può avere nodi esistenti che escono da esso nel percorso.
 
 1. Seleziona [!UICONTROL **Mostra i nodi principali dopo questo nodo**].
+
+1. Seleziona se mostrare gli elementi dimensionali che arrivano immediatamente o alla fine dopo il nodo selezionato:
+
+   * [!UICONTROL **Immediatamente dopo**]: mostra gli elementi dimensionali principali che arrivano direttamente dopo il nodo selezionato. Utilizzalo quando vuoi sapere cosa è successo immediatamente dopo un dato passaggio nel percorso. Ad esempio, puoi vedere quale pagina le persone visitano immediatamente dopo aver visitato una determinata pagina di prodotto.
+
+   * [!UICONTROL **Eventualmente dopo**]: mostra gli elementi dimensionali principali che seguono il nodo selezionato in qualsiasi punto del percorso, non necessariamente il passaggio successivo. Utilizzalo quando il nodo selezionato è l’evento chiave nell’analisi e vuoi vedere cosa fanno le persone in qualsiasi momento successivo. Ad esempio, dopo un acquisto, puoi vedere le pagine principali che le persone tendono a visitare in qualsiasi punto successivo del percorso.
 
 1. Seleziona dove mostrare gli elementi dimensionali:
 
@@ -207,13 +214,19 @@ Puoi selezionare un nodo e mostrare gli elementi dimensionali principali che ven
 
 #### Mostrare i nodi principali prima di un nodo esistente
 
-Puoi selezionare un nodo e mostrare gli elementi dimensionali principali immediatamente precedenti ad esso nel percorso. Puoi aggiungere i primi 3 elementi dimensionali all’area di lavoro del percorso come nodi separati, oppure visualizzare tutti gli elementi dimensionali principali in una tabella a forma libera.
+Puoi selezionare un nodo e visualizzare i principali elementi dimensionali immediati o finali che vengono immediatamente prima di esso nel percorso. Puoi aggiungere i primi 3 elementi dimensionali all’area di lavoro del percorso come nodi separati, oppure visualizzare tutti gli elementi dimensionali principali in una tabella a forma libera.
 
 1. Fai clic con il pulsante destro del mouse sul nodo in cui mostrare gli elementi dimensionali principali che lo precedono nel percorso.
 
    Questo nodo non può contenere nodi esistenti che entrano in esso durante il l percorso.
 
 1. Seleziona [!UICONTROL **Mostra i nodi principali prima di questo nodo**].
+
+1. Seleziona se mostrare gli elementi dimensionali che arrivano immediatamente o alla fine prima del nodo selezionato:
+
+   * [!UICONTROL **Immediatamente prima**]: mostra gli elementi dimensionali principali che precedono direttamente il nodo selezionato. Utilizzalo quando vuoi sapere cosa è successo immediatamente prima di un dato passaggio nel percorso. Ad esempio, puoi vedere quale pagina viene visitata immediatamente prima di visitare una determinata pagina di prodotto.
+
+   * [!UICONTROL **Eventualmente prima**]: mostra gli elementi dimensionali principali che precedono il nodo selezionato in qualsiasi punto del percorso, non necessariamente il passaggio precedente. Utilizzalo quando il nodo selezionato è l’evento chiave nell’analisi e vuoi vedere cosa hanno fatto le persone in qualsiasi momento prima di raggiungerlo. Ad esempio, prima di un acquisto, puoi visualizzare le pagine principali visitate dalle persone in qualsiasi punto precedente del percorso.
 
 1. Seleziona dove mostrare gli elementi dimensionali:
 
@@ -287,7 +300,9 @@ Per combinare i nodi nell’area di lavoro del percorso, puoi eseguire una delle
 
 * Dalla barra a sinistra, trascina più componenti contemporaneamente su un’area vuota dell’area di lavoro tenendo premuto il tasto Maiusc.
 
-<!-- * On the canvas, select the nodes that you want to combine, right-click one of the selected nodes, then select **Combine**. Is there a limit on how many you can combine? -->
+* Nell&#39;area di lavoro selezionare i nodi da combinare, fare clic con il pulsante destro del mouse su uno dei nodi selezionati, quindi selezionare **Combina nodi**. È previsto un limite per il numero di combinazioni consentite?
+
+  Per selezionare più nodi, tieni premuto Comando (su Mac) o Ctrl (su Windows).
 
 #### Logica durante la combinazione dei nodi
 
@@ -295,7 +310,7 @@ La logica applicata ai nodi quando vengono combinati varia a seconda dei tipi di
 
 >[!TIP]
 >
->Puoi visualizzare la logica di un nodo combinato facendo clic con il pulsante destro del mouse sul nodo e selezionando [!UICONTROL **Crea segmento dal nodo**]. La logica è mostrata nella sezione [!UICONTROL **Definizione**].
+>Puoi visualizzare la logica di un nodo combinato selezionando l’icona delle informazioni o la freccia a discesa sul nodo.
 
 
 | Tipi di componenti da combinare | Logica (operatore) utilizzata |
@@ -307,6 +322,12 @@ La logica applicata ai nodi quando vengono combinati varia a seconda dei tipi di
 | Dimensione + Metrica, Intervallo di date o Segmento | Uniti con AND |
 | Intervallo di date + Metrica, Segmento o Dimensione | Uniti con AND |
 | Segmento + Metrica, Intervallo di date o Dimensione | Uniti con AND |
+
+#### Separare i componenti dai nodi combinati
+
+Puoi suddividere i componenti inclusi in un nodo combinato in nodi separati:
+
+1. Fare clic con il pulsante destro del mouse sul nodo che si desidera dividere, quindi selezionare [!UICONTROL **Separa i componenti in nodi**].
 
 ### Connettere i nodi
 
@@ -323,6 +344,8 @@ I nodi sono connessi da una freccia. Sia la direzione della freccia che la largh
 * **Larghezza**: indica il volume percentuale da un nodo all’altro
 
   ![Direzione e larghezza della freccia](assets/journey-canvas-arrow-width.png)
+
+Quando un percorso Journey Optimizer contiene più percorsi tra gli stessi due nodi (ad esempio, condizioni diverse che conducono allo stesso passaggio successivo), ogni percorso viene visualizzato come una freccia separata.
 
 #### Logica durante la connessione dei nodi
 
@@ -602,6 +625,39 @@ Per includere nuovamente un nodo escluso nel percorso:
 1. In una visualizzazione con area di lavoro Percorso, fai clic con il pulsante destro del mouse sul nodo escluso.
 
 1. Selezionare [!UICONTROL **Rimuovi esclusione percorso**].
+
+### Modificare la forma e lo stile delle frecce tra i nodi
+
+Potete modificare la curvatura e lo stile delle frecce tra i nodi di un percorso.
+
+#### Modificare la curvatura di una freccia
+
+Per modificare la curvatura di una freccia nell&#39;area di lavoro del Percorso:
+
+1. In una visualizzazione con area di lavoro di Percorso, trascina una freccia tra due nodi.
+
+Per ripristinare la posizione predefinita di una freccia:
+
+1. Fare clic con il pulsante destro del mouse sulla freccia che si desidera reimpostare.
+
+1. Selezionare [!UICONTROL **Reimposta posizione freccia**].
+
+   Se esistono più frecce tra gli stessi due nodi, tutte le frecce tra tali nodi vengono reimpostate sulle posizioni predefinite.
+
+#### Modificare lo stile di una freccia
+
+Per modificare lo stile di una freccia nell&#39;area di lavoro del Percorso:
+
+1. In una visualizzazione area di lavoro Percorso, fai clic con il pulsante destro del mouse sulla freccia tra i due nodi di cui desideri modificare lo stile.
+
+1. Selezionare [!UICONTROL **Cambia stile freccia**], quindi selezionare uno dei seguenti stili:
+
+   * [!UICONTROL **Solido**]
+   * [!UICONTROL **Tratteggiato**]
+   * [!UICONTROL **Punteggiato**]
+   * [!UICONTROL **Trattino-punto**]
+   * [!UICONTROL **Animato**]
+
 
 ### Eliminare frecce tra nodi
 
