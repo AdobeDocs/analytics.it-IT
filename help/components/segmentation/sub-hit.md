@@ -2,13 +2,11 @@
 title: Analisi Sub-Hit
 description: Scopri come l’analisi degli hit secondari consente di filtrare i singoli prodotti all’interno di un hit in Adobe Analytics, eliminando le smarginature di attribuzione nei rapporti sui prodotti.
 feature: Segmentation
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: a544b409-2610-410d-a842-474ac1d0d54e
-source-git-commit: 0168cf33d647c5edb367094d57ad9ea3ee253844
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: a544b409-2610-410d-a842-474ac1d0d54e
+source-git-commit: 21f7902e034a998be1f5cc6a1ea19bff5f12584d
 workflow-type: tm+mt
-source-wordcount: 521
+source-wordcount: 545
 ht-degree: 0%
 
 ---
@@ -23,7 +21,9 @@ In Adobe Analytics l&#39;analisi sub-hit si applica in modo specifico alla varia
 
 In Adobe Analytics, la variabile [Products](/help/components/dimensions/product.md) può acquisire più prodotti in un singolo hit. Senza analisi sub-hit, la segmentazione su un attributo di prodotto restituisce tutti gli hit in cui qualsiasi prodotto all’interno di un hit corrisponde all’attributo di prodotto. Il risultato è un’attribuzione errata e metriche di ricavi gonfiate. L’analisi degli hit secondari prende in esame il filtro per singole righe di prodotto all’interno di un hit e risolve questi problemi.
 
-Nell’analisi sub-hit, la logica di esclusione si comporta in modo diverso rispetto all’esclusione standard a livello di hit rispetto alla variabile Products. Quando si escludono gli attributi di prodotto all&#39;interno del contenitore [!UICONTROL Products], il segmento restituisce hit che **contengono prodotti** ma non corrispondono ai criteri di esclusione. Il segmento non restituisce hit senza alcun prodotto.
+Nell’analisi sub-hit, la logica di esclusione si comporta in modo diverso rispetto all’esclusione standard a livello di hit rispetto alla variabile Products. Quando si escludono gli attributi di prodotto all&#39;interno del contenitore [!UICONTROL Products], il segmento restituisce hit che **contengono prodotti** ma non corrispondono ai criteri di esclusione.
+
+In Adobe Analytics, ogni hit ha voci di elenco dei prodotti anche se l’hit non ha un ID prodotto. Di conseguenza, l’analisi sub-hit esclude la logica e restituisce hit senza alcun prodotto.
 
 ## Esempio
 
@@ -39,7 +39,8 @@ Nel generatore di segmentazione o come parte di un **[!UICONTROL Quick segment]*
 
 ![Pannello che mostra la segmentazione a livello di hit per la categoria di prodotti Men](./assets/product-category-segmentation-hits.png)
 
-Di conseguenza, vengono considerati tutti gli ordini contenenti almeno un **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** e i ricavi da altri prodotti inclusi in tali ordini sono inclusi nella metrica **[!UICONTROL Online Revenue]**.Quando si crea un report sulle categorie, vengono segnalati tutti gli altri valori per **[!UICONTROL Retail: Fashion Product Category]** che facevano parte di un ordine che includeva un prodotto con **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**.
+Di conseguenza, vengono considerati tutti gli ordini contenenti almeno un **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** e i ricavi da altri prodotti inclusi in tali ordini sono inclusi nella metrica **[!UICONTROL Online Revenue]**.
+Quando si crea un report sulle categorie, vengono segnalati tutti gli altri valori per **[!UICONTROL Retail: Fashion Product Category]** che facevano parte di un ordine che includeva un prodotto con **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**.
 
 >[!TAB Analisi sub-hit]
 
@@ -47,7 +48,8 @@ Nel generatore di segmentazione o come parte di un **[!UICONTROL Quick segment]*
 
 ![Pannello che mostra la segmentazione a livello di hit secondario per la categoria di prodotti Men](./assets/product-category-segmentation-sub-hits.png)
 
-Di conseguenza, vengono considerati tutti gli ordini contenenti almeno un **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** e solo i ricavi dei prodotti appartenenti al **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** sono inclusi per la metrica **[!UICONTROL Online Revenue]**.Quando esegui il report sulle categorie, viene segnalato solo il **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**.
+Di conseguenza, vengono considerati tutti gli ordini contenenti almeno un **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** e solo i ricavi dei prodotti appartenenti al **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]** sono inclusi per la metrica **[!UICONTROL Online Revenue]**.
+Quando esegui il report sulle categorie, viene segnalato solo il **[!UICONTROL Men]** **[!UICONTROL Retail: Fashion Product Category]**.
 
 >[!TAB Analisi sub-hit (esclusione)]
 
