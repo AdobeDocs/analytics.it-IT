@@ -4,24 +4,15 @@ title: Formati di file del set di classificazione
 feature: Classifications
 exl-id: f3d429be-99d5-449e-952e-56043b109411
 TQID: https://experienceleague.adobe.com/-4pIa7Kqe0sEJkhwiVanaN90xkI8jg0U3-1qEWxRiwM
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: e992d880-33bc-4949-a648-aa7d410276cd
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7aid: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: e992d880-33bc-4949-a648-aa7d410276cdid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: bffce151c74eda5cf27b838e184b0ae9e81f6cd8
 workflow-type: tm+mt
-source-wordcount: 1110
-ht-degree: 1%
+source-wordcount: 1169
+ht-degree: 2%
 
 ---
 
@@ -38,7 +29,8 @@ I set di classificazione supportano i seguenti formati di file:
 
 * **JSON**: file di notazione dell&#39;oggetto JavaScript con dati strutturati
 * **CSV**: file di valori separati da virgole
-* **TSV o TAB**: file di valori separati da tabulazioni
+* **TSV**: file di valori separati da tabulazioni
+* **TAB**: file di valori separati da tabulazioni con estensione `.tab` (solo caricamento browser; non supportato dall&#39;API)
 
 ## Requisiti generali dei file
 
@@ -63,12 +55,12 @@ Ogni oggetto JSON deve contenere:
 * `key` (obbligatorio): identificatore univoco per il record di classificazione
 * `data` (obbligatorio per gli aggiornamenti): oggetto contenente i nomi delle colonne di classificazione e i relativi valori
 * `action` (facoltativo): azione da eseguire. I valori supportati includono:
-   * `update` (azione predefinita, quando non viene specificata alcuna azione)
-   * `delete-field`
-   * `delete-key`
+  * `update` (azione predefinita, quando non viene specificata alcuna azione)
+  * `delete-field`
+  * `delete-key`
 * `enc` (facoltativo): specifica di codifica dati. I valori supportati includono:
-   * `utf8` o `UTF8` (impostazione predefinita)
-   * `latin1` o `LATIN1`
+  * `utf8` o `UTF8` (impostazione predefinita)
+  * `latin1` o `LATIN1`
 
 Tutti i nomi di campo JSON (`key`, `data`, `action`, `enc`) fanno distinzione tra maiuscole e minuscole e devono essere minuscole.
 
@@ -167,6 +159,10 @@ product456,,~empty~,~empty~,79.99
 +++
 
 +++ Dettagli del formato TSV e TAB
+
+>[!NOTE]
+>
+>I file con estensione `.tab` sono supportati solo per i caricamenti del browser. L&#39;API [Classificazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) non accetta il tipo di file `.tab`, anche se il contenuto del file è separato da tabulazioni. Per i caricamenti API, utilizza invece l&#39;estensione `.tsv` (o `.json` o `.csv`).
 
 I file TSV (Valori separati da tabulazioni) e TAB utilizzano i caratteri di tabulazione per separare i campi dei dati di classificazione.
 
