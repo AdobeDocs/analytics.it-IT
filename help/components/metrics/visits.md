@@ -4,19 +4,14 @@ description: Scopri la metrica Visite in Analytics. Scopri come viene calcolato,
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 TQID: https://experienceleague.adobe.com/7dKKNNW9DKlWxXzBv-gJRKGwe1X-o3OZTtv6mGcC-MU
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-subfeature_v2:
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32
+subfeature_v2: id: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: dda36e5bfc02d3a17f6f58449e6a925a882002ec
 workflow-type: tm+mt
-source-wordcount: 713
-ht-degree: 80%
+source-wordcount: 714
+ht-degree: 77%
 
 ---
 
@@ -60,7 +55,7 @@ Puoi modificare la definizione di visita in un periodo diverso da 30 minuti.
 
 ## Visite che si estendono su un limite di date
 
-Per ogni periodo di tempo interessato, viene considerata una visita. Ad esempio, se un visitatore inizia a navigare nel tuo sito lunedì alle 23:45 e poi invia la sua ultima richiesta di immagine martedì alle 00:00, vedrai una visita attribuita sia a lunedì che a martedì. :10Tuttavia, la metrica di visita totale è deduplicata e mostra una singola visita per l’intervallo di date del progetto.
+Per ogni periodo di tempo interessato, viene considerata una visita. Ad esempio, se un visitatore inizia a navigare nel sito lunedì alle 23:45 e poi invia la sua ultima richiesta di immagine martedì alle 00:10, vedrai una visita attribuita sia a lunedì che a martedì. Tuttavia, la metrica di visita totale è deduplicata e mostra una singola visita per l’intervallo di date del progetto.
 
 ## Visite su una dimensione rispetto alle visite totali
 
@@ -68,4 +63,4 @@ Le visite nel contesto di una dimensione (ad esempio, [canale di marketing](../d
 
 ## Visite: tutti i visitatori nel Data Warehouse
 
-Nel Data Warehouse, oltre alla metrica “Visite”, è disponibile la metrica “Visite: tutti i visitatori”. La metrica “Visite: tutti i visitatori” è paragonabile alla metrica “Visite” in altri strumenti di Analytics. La metrica “Visite” nel Data Warehouse esclude i visitatori che non hanno cookie persistenti. Adobe consiglia di utilizzare “Visite: tutti i visitatori” nelle richieste del Data Warehouse, in cui le visite sono desiderate come metrica.
+La metrica &quot;Visite - Tutti i visitatori&quot; è disponibile in Data Warehouse invece della metrica &quot;Visite&quot;. La metrica “Visite: tutti i visitatori” è paragonabile alla metrica “Visite” in altri strumenti di Analytics. La metrica “Visite” nel Data Warehouse esclude i visitatori che non hanno cookie persistenti. Adobe consiglia di utilizzare “Visite: tutti i visitatori” nelle richieste del Data Warehouse, in cui le visite sono desiderate come metrica.

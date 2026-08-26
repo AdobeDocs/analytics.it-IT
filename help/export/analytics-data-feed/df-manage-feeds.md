@@ -4,15 +4,11 @@ description: Scopri come navigare nell’interfaccia del feed dati. Scopri come 
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 TQID: 'https://experienceleague.adobe.com/8wVISmeLTGDs0g818KHFcDrS2v4IGmo8f0b35QO-Czs'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: dda36e5bfc02d3a17f6f58449e6a925a882002ec
 workflow-type: tm+mt
 source-wordcount: 1315
 ht-degree: 11%
@@ -21,7 +17,7 @@ ht-degree: 11%
 
 # Gestire i feed dati {#manage-data-feeds}
 
-Data Feed Manager consente di creare, modificare ed eliminare feed di dati per l’organizzazione. Se disponi delle autorizzazioni per accedere al gestore dei feed dati, puoi gestire i feed dati per tutte le suite di rapporti visibili.
+Data Feed Manager consente di creare, modificare e annullare feed di dati per la tua organizzazione. Se disponi delle autorizzazioni per accedere al gestore dei feed dati, puoi gestire i feed dati per tutte le suite di rapporti visibili.
 
 
 >[!BEGINSHADEBOX]
@@ -140,15 +136,15 @@ Per attivare un feed di dati:
 
 1. Selezionare la casella di controllo accanto al feed dati inattivo che si desidera attivare, quindi selezionare [!UICONTROL **Attiva**].
 
-## Eliminare un feed dati
+## Annullare un feed di dati
 
-Quando si elimina un feed di dati, lo stato è impostato su [!UICONTROL Deleted]. I feed di dati devono avere lo stato [!UICONTROL Active] prima di poter essere eliminati.
+Quando si annulla un feed di dati, lo stato è impostato su [!UICONTROL Canceled]. I feed di dati devono avere lo stato [!UICONTROL Active] prima di poter essere annullati.
 
-Per eliminare un feed di dati:
+Per annullare un feed di dati:
 
 1. In Adobe Analytics, seleziona [!UICONTROL **Amministratore**] > [!UICONTROL **Feed dati**].
 
-1. Selezionare la casella di controllo accanto al feed di dati che si desidera eliminare, quindi selezionare [!UICONTROL **Elimina**].
+1. Selezionare la casella di controllo accanto al feed di dati che si desidera annullare, quindi selezionare [!UICONTROL **Annulla**].
 
 ## Ordinare e personalizzare le colonne nel Data Feed Manager
 
@@ -179,7 +175,7 @@ Per regolare le colonne visibili nella tabella:
    * **Stato**: lo stato del feed.
      * Attivo: il feed è operativo.
      * Approvazione in sospeso: in alcune circostanze, un feed richiede l’approvazione di Adobe prima di poter iniziare a generare processi.
-     * Eliminato: il feed viene eliminato.
+     * Annullato: feed annullato.
      * Completato: l&#39;elaborazione del feed è stata completata. Un feed completato può essere modificato, sospeso o annullato.
      * In sospeso: il feed viene creato ma non ancora attivo. I feed rimangono in questo stato per un breve periodo di transizione.
      * Inattivo: equivalente allo stato &#39;sospeso&#39; o &#39;in attesa&#39;. Per informazioni su ciò che accade con i feed di backfill e i feed live quando viene riattivato un feed inattivo, consulta [Attivare un feed di dati](#activate-a-data-feed).
