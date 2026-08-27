@@ -16,10 +16,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 21ffee1ed23a0cd0790efab2b873dbe2812219d6
+source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 1841
-ht-degree: 33%
+source-wordcount: 1958
+ht-degree: 32%
 
 ---
 
@@ -100,7 +100,18 @@ Per aggiungere un componente:
    * Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare componenti specifici.
    * È possibile utilizzare ![Filter](/help/assets/icons/Filter.svg) nella barra dei componenti per filtrare i componenti ![Checkmark](/help/assets/icons/Checkmark.svg) **[!UICONTROL Approved]**, ![Star](/help/assets/icons/Star.svg) **[!UICONTROL Favorites]**, ![DataDimension](/help/assets/icons2/DataDimension.svg) **[!UICONTROL Dimensions]**, ![Event](/help/assets/icons/Event.svg) **[!UICONTROL Metrics]**, ![Segmentation](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]**, ![Calendar](/help/assets/icons/Calendar.svg) **[!UICONTROL Date ranges]** e ![Layer](/help/assets/icons/Layer.svg) **[!UICONTROL Products]**. È inoltre possibile filtrare i tag ![Label](/help/assets/icons/Label.svg).
 1. Specifica i dettagli del componente. Ad esempio, seleziona un valore da **[!UICONTROL Select value]**. Oppure inserisci un valore. Cosa e come specificare uno o più valori dipende dal componente e dall’operatore.
-1. Facoltativamente, modifica l’operatore predefinito. Ad esempio, da **[!UICONTROL equals]** a **[!UICONTROL equals any of]**. Consulta [Operatori](../seg-reference/seg-operators.md) per una panoramica dettagliata degli operatori disponibili.
+
+1. (Facoltativo) Abilita l&#39;opzione per [!UICONTROL **Limitare i risultati all&#39;intervallo di date del rapporto**].
+
+   I dati in un rapporto di Workspace possono estendersi oltre l’intervallo di date del rapporto, se il segmento include componenti per l’intervallo di date.
+
+   Abilita questa opzione per limitare i risultati all’intervallo di date del rapporto indipendentemente dai componenti data inclusi nel segmento.
+
+   Questa opzione viene visualizzata solo quando [!UICONTROL **Persona**] è selezionato come ambito (contenitore) della definizione dal menu a discesa **[!UICONTROL Include]** o **[!UICONTROL Exclude]**.
+
+   **NOTA**: questa funzionalità si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell&#39;ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio di Customer Journey Analytics, consulta [Versioni delle funzionalità di Adobe Analytics](/help/release-notes/releases.md).
+
+1. (Facoltativo) Modifica l’operatore predefinito. Ad esempio, da **[!UICONTROL equals]** a **[!UICONTROL equals any of]**. Consulta [Operatori](../seg-reference/seg-operators.md) per una panoramica dettagliata degli operatori disponibili.
 
 Per modificare un componente:
 
