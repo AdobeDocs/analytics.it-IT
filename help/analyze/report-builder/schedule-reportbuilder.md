@@ -16,25 +16,26 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 69d0c283625c9146b6dd9659353f0b4ae0a0f35b
 workflow-type: tm+mt
-source-wordcount: 761
-ht-degree: 31%
+source-wordcount: 817
+ht-degree: 27%
 
 ---
 
 # Pianificare le cartelle di lavoro condividendo tramite e-mail
 
->[!NOTE]
->
->Oltre a pianificare le cartelle di lavoro per la condivisione tramite e-mail, come descritto in questa sezione, è possibile pianificare le cartelle di lavoro da esportare nelle destinazioni cloud, come descritto in [Pianificare le cartelle di lavoro per l&#39;esportazione nelle destinazioni cloud](/help/analyze/report-builder/report-builder-export.md).
-
 Dopo aver salvato la cartella di lavoro e completato l’analisi, è possibile condividere facilmente la cartella di lavoro con altri membri del team utilizzando la funzione di pianificazione. La funzione Schedule (Pianifica) consente di creare una pianificazione che aggiorna automaticamente i dati nella cartella di lavoro e invia tramite e-mail il file .xlsx della cartella di lavoro di Excel come allegato al pubblico specificato alla data e all’ora indicate. L’impostazione di una pianificazione fornisce automaticamente ai destinatari aggiornamenti regolari. Puoi anche utilizzare la funzione di pianificazione per inviare la cartella di lavoro una volta senza pianificare gli aggiornamenti automatici.
 
 Puoi creare più pianificazioni per una singola cartella di lavoro. Ad esempio, puoi inviare una cartella di lavoro al team su base giornaliera e inviare la cartella di lavoro al tuo responsabile una volta alla settimana creando due pianificazioni diverse.
 
-La funzione Schedule (Pianifica) consente inoltre di impostare la protezione tramite password per una cartella di lavoro e di modificare le cartelle di lavoro pianificate in precedenza.
+Oltre a pianificare le cartelle di lavoro per la condivisione tramite e-mail, come descritto in questa sezione, è possibile pianificare le cartelle di lavoro da esportare nelle destinazioni cloud, come descritto in [Pianificare le cartelle di lavoro per l&#39;esportazione nelle destinazioni cloud](/help/analyze/report-builder/report-builder-export.md).
 
+La funzione Pianificazione consente inoltre di impostare la protezione tramite password per una cartella di lavoro e modificare la pianificazione delle cartelle di lavoro pianificate in precedenza.
+
+>[!NOTE]
+>
+>Una pianificazione invia la versione della cartella di lavoro esistente al momento della creazione della pianificazione. Se successivamente si modifica e si salva la cartella di lavoro, la pianificazione esistente non riprende tali modifiche e continua a inviare la versione originale. Per distribuire una cartella di lavoro aggiornata, creare una nuova pianificazione dopo aver salvato le modifiche.
 
 >[!BEGINSHADEBOX]
 
