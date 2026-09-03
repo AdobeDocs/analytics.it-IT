@@ -5,25 +5,11 @@ feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
 TQID: https://experienceleague.adobe.com/-V97SlgKbo3MCJoiq-owEKW2HMjjMZjhr2L2zkS1RNY
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1257
@@ -47,13 +33,13 @@ ht-degree: 42%
 >[!CONTEXTUALHELP]
 >id="workspace_a4t_panel"
 >title="Pannello Analytics for Target"
->abstract="Analizza attività ed esperienze di Target in Analysis Workspace.<br/><br>**Parametri &#x200B;**<br/>**attività Target**: l’attività Target che viene analizzata.<br/>**Esperienza di controllo**: esperienza di controllo per l’attività Target selezionata.<br/>**Metrica di normalizzazione**: visitatori, visite o impression. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità.<br/>**Metriche di successo**: fino a 3 metriche di successo standard (non calcolate) per analizzare l’attività Target."
+>abstract="Analizza attività ed esperienze di Target in Analysis Workspace.<br/><br>**Parametri **<br/>**attività Target**: l’attività Target che viene analizzata.<br/>**Esperienza di controllo**: esperienza di controllo per l’attività Target selezionata.<br/>**Metrica di normalizzazione**: visitatori, visite o impression. Questa metrica (detta anche metodologia di conteggio) diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo del valore di affidabilità.<br/>**Metriche di successo**: fino a 3 metriche di successo standard (non calcolate) per analizzare l’attività Target."
 
 <!-- markdownlint-enable MD034 -->
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Analytics for Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**._<br/>_Per informazioni su come confrontare diverse esperienze utente, varianti di marketing o di messaggistica in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics**, consulta il [pannello Sperimentazione](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)._
+_Questo articolo documenta il pannello Analytics for Target in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**._<br/>_Per informazioni su come confrontare diverse esperienze utente, varianti di marketing o di messaggistica in_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics**, consulta il [pannello Sperimentazione](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)._
 
 >[!ENDSHADEBOX]
 
@@ -62,7 +48,7 @@ Il pannello Analytics for Target consente di analizzare le attività e le esperi
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Analytics for Target](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Analytics for Target](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/target/analytics-for-target-a4t-panel-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -105,10 +91,10 @@ Ogni tabella a forma libera mostra le seguenti colonne di metriche:
 | **[!UICONTROL Success metric]** | La metrica di successo selezionata nel pannello di input. |
 | **[!UICONTROL Conversion rate]** | La metrica di successo/metrica di normalizzazione. |
 | **[!UICONTROL Lift]** | Confronta il tasso di conversione per ogni esperienza rispetto all’esperienza di controllo. Nota: Incremento è una *metrica bloccata* per le esperienze Target; non può essere raggruppata o utilizzata con altre dimensioni. |
-| **[!UICONTROL Lift (Lower)]** | Questo valore rappresenta l’incremento peggiore che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%.<br>Per ulteriori informazioni, vedere [Calcoli statistici](https://experienceleague.adobe.com/it/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Completa calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=it) file Excel. |
-| **[!UICONTROL Lift (Mid)]** | Questo valore rappresenta l’incremento intermedio che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%. <br>Per ulteriori informazioni, vedere [Calcoli statistici](https://experienceleague.adobe.com/it/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Completa calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=it) file Excel. |
-| **[!UICONTROL Lift (Upper)]** | Questo valore rappresenta l’incremento migliore che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%.<br>Per ulteriori informazioni, vedere [Calcoli statistici](https://experienceleague.adobe.com/it/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Completa calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=it) file Excel. |
-| **[!UICONTROL Confidence]** | Il test t di Student calcola il livello di affidabilità, che indica la probabilità che i risultati vengano duplicati se il test viene eseguito di nuovo. Alla metrica è stato applicato un intervallo di formattazione condizionale fisso del 75%/85%/95%. Questa formattazione può essere personalizzata, se necessario, in Column settings. Nota: Affidabilità è una “metrica bloccata” per le esperienze Target, non può essere raggruppata o utilizzata con altre dimensioni.<br>Per ulteriori informazioni, vedere [Calcoli statistici](https://experienceleague.adobe.com/it/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Completa calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=it) file Excel. |
+| **[!UICONTROL Lift (Lower)]** | Questo valore rappresenta l’incremento peggiore che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%.<br>Per ulteriori informazioni, vedere [Calcoli statistici](https://experienceleague.adobe.com/en/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Completa calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) file Excel. |
+| **[!UICONTROL Lift (Mid)]** | Questo valore rappresenta l’incremento intermedio che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%. <br>Per ulteriori informazioni, vedere [Calcoli statistici](https://experienceleague.adobe.com/en/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Completa calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) file Excel. |
+| **[!UICONTROL Lift (Upper)]** | Questo valore rappresenta l’incremento migliore che un’esperienza diversa potrebbe avere sul controllo con un intervallo di affidabilità del 95%.<br>Per ulteriori informazioni, vedere [Calcoli statistici](https://experienceleague.adobe.com/en/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Completa calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) file Excel. |
+| **[!UICONTROL Confidence]** | Il test t di Student calcola il livello di affidabilità, che indica la probabilità che i risultati vengano duplicati se il test viene eseguito di nuovo. Alla metrica è stato applicato un intervallo di formattazione condizionale fisso del 75%/85%/95%. Questa formattazione può essere personalizzata, se necessario, in Column settings. Nota: Affidabilità è una “metrica bloccata” per le esperienze Target, non può essere raggruppata o utilizzata con altre dimensioni.<br>Per ulteriori informazioni, vedere [Calcoli statistici](https://experienceleague.adobe.com/en/docs/target/using/reports/statistical-methodology/statistical-calculations) e [Completa calcolatore di affidabilità](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx) file Excel. |
 
 Come per qualsiasi pannello in Analysis Workspace, puoi continuare la tua analisi aggiungendo ulteriori tabelle e [visualizzazioni](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) che ti aiuteranno ad analizzare le tue attività Adobe Target. È inoltre possibile applicare un segmento a livello di pannello o all’interno della tabella a forma libera. Se lo si aggiunge all’interno della tabella a forma libera, è necessario sovrapporlo all’intera tabella per mantenere i calcoli relativi all’incremento e all’attendibilità. Al momento, i segmenti a livello di colonna non sono supportati.
 
@@ -118,12 +104,12 @@ Utilizza ![Modifica](/help/assets/icons/Edit.svg) per riconfigurare e ricreare i
 
 | Domanda | Risposta |
 |---|---|
-| Quali tipi di attività sono supportati in Analytics for Target? | [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup) sui tipi di attività supportati. |
-| Le metriche calcolate sono supportate nei calcoli di incremento e affidabilità? | No. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) sui motivi per cui le metriche calcolate non sono supportate in incremento e affidabilità. Tuttavia, le metriche calcolate possono essere utilizzate nel reporting di Analytics for Target al di fuori di tali metriche. |
-| Perché i visitatori univoci dovrebbero variare tra Target e Analytics? | [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) sulle varianze di visitatori univoci tra i prodotti. |
-| Quando applico un segmento di hit per una specifica attività Target nell’analisi, perché viene restituita un’esperienza non correlata? | La dimensione di Analytics for Target è una variabile di elenco, il che significa che può contenere più attività (ed esperienze) alla volta. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
-| La metrica di affidabilità tiene conto di ordini estremi o applica una correzione Bonferroni per offerte multiple? | No. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) su come Analytics calcola l’affidabilità. |
+| Quali tipi di attività sono supportati in Analytics for Target? | [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup) sui tipi di attività supportati. |
+| Le metriche calcolate sono supportate nei calcoli di incremento e affidabilità? | No. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) sui motivi per cui le metriche calcolate non sono supportate in incremento e affidabilità. Tuttavia, le metriche calcolate possono essere utilizzate nel reporting di Analytics for Target al di fuori di tali metriche. |
+| Perché i visitatori univoci dovrebbero variare tra Target e Analytics? | [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) sulle varianze di visitatori univoci tra i prodotti. |
+| Quando applico un segmento di hit per una specifica attività Target nell’analisi, perché viene restituita un’esperienza non correlata? | La dimensione di Analytics for Target è una variabile di elenco, il che significa che può contenere più attività (ed esperienze) alla volta. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports) |
+| La metrica di affidabilità tiene conto di ordini estremi o applica una correzione Bonferroni per offerte multiple? | No. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence) su come Analytics calcola l’affidabilità. |
 | È possibile utilizzare le metriche Incremento e Affidabilità con altre dimensioni o raggruppamenti? | Incremento e Affidabilità sono “metriche bloccate” per la dimensione delle esperienze di Target perché richiedono un controllo e una variante su cui eseguire il calcolo. In quanto tali, non possono essere suddivise o utilizzate con altre dimensioni. |
 | Quando ricalcolano Incremento e Affidabilità? | Incremento e affidabilità vengono ricalcolati ogni volta che il pannello viene generato, l’intervallo di date del pannello viene modificato o un segmento viene applicato al pannello o alla tabella. Quando applichi un filtro segmento alla tabella a forma libera, il segmento deve essere applicato a tutte le colonne; in caso contrario, l’incremento e l’affidabilità non vengono aggiornati correttamente. I segmenti a livello di colonna non sono supportati. |
 
-Per ulteriori informazioni sul reporting di Analytics for Target, visita [Reporting di Analytics for Target](https://experienceleague.adobe.com/it/docs/target/using/integrate/a4t/reporting)
+Per ulteriori informazioni sul reporting di Analytics for Target, visita [Reporting di Analytics for Target](https://experienceleague.adobe.com/en/docs/target/using/integrate/a4t/reporting)

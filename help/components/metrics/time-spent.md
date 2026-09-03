@@ -4,18 +4,10 @@ description: Una pagina aggregata di dimensioni e metriche relative al tempo tra
 feature: Metrics
 exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 TQID: https://experienceleague.adobe.com/kooM00bX8ASPWbIIf7wOO-rwcFEqxGt7DefLea5BC6E
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1536
@@ -170,6 +162,6 @@ Alcune note aggiuntive a sostegno dell’esempio:
 
 * Una &quot;sequenza&quot; è un insieme consecutivo di hit in cui una data variabile contiene lo stesso valore (sia esso impostato, diffuso in avanti o persistente). Ad esempio, prop1 &quot;A&quot; ha due sequenze: hit 1 e 2 e hit 6. I valori dell’ultimo hit della visita non iniziano una nuova sequenza perché l’ultimo hit non ha tempo trascorso. Il tempo medio trascorso sul sito utilizza le sequenze nel denominatore.
 
-   * Solo ai fini del tempo trascorso, le proprietà vengono &quot;distribuite in avanti&quot; dagli hit di pagina agli hit di collegamento successivi, come mostrato in precedenza per prop1 sull’hit 2. Questo consente al valore impostato per prop1 sull’hit 1 (&quot;A&quot;) di accumulare il tempo trascorso sull’hit 2.
+  * Solo ai fini del tempo trascorso, le proprietà vengono &quot;distribuite in avanti&quot; dagli hit di pagina agli hit di collegamento successivi, come mostrato in precedenza per prop1 sull’hit 2. Questo consente al valore impostato per prop1 sull’hit 1 (&quot;A&quot;) di accumulare il tempo trascorso sull’hit 2.
 
-   * Le eVar accumulano il tempo trascorso su qualsiasi hit in cui l’eVar è impostato o persistito. La persistenza di eVar è definita dalle impostazioni di eVar in Analytics > Amministratore.
+  * Le eVar accumulano il tempo trascorso su qualsiasi hit in cui l’eVar è impostato o persistito. La persistenza di eVar è definita dalle impostazioni di eVar in Analytics > Amministratore.

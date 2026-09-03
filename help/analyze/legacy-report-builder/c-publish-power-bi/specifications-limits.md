@@ -5,14 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
 TQID: https://experienceleague.adobe.com/L3R3ufcclrTpw-fKoFLD8Y-v56rTm4tXlXqjaTdmdoQ
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 629
@@ -46,29 +41,29 @@ La modifica di una richiesta Report Builder dopo la pubblicazione in Power BI pu
 
   **Ecco un esempio di interruzione della visualizzazione:**
 
-   1. In Report Builder, crea una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
-   2. Pianifica la pubblicazione di questa richiesta in Power BI.
-   3. In Power BI, crea una visualizzazione per le visualizzazioni di pagina e pagina.
-   4. Modificare la cartella di lavoro rimuovendo le Visualizzazioni pagina dalla richiesta.
-   5. Modifica la pianificazione con la cartella di lavoro aggiornata e ripubblica la richiesta in Power BI.
-   6. Una volta inviata la nuova cartella di lavoro a Power BI
+  1. In Report Builder, crea una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
+  2. Pianifica la pubblicazione di questa richiesta in Power BI.
+  3. In Power BI, crea una visualizzazione per le visualizzazioni di pagina e pagina.
+  4. Modificare la cartella di lavoro rimuovendo le Visualizzazioni pagina dalla richiesta.
+  5. Modifica la pianificazione con la cartella di lavoro aggiornata e ripubblica la richiesta in Power BI.
+  6. Una volta inviata la nuova cartella di lavoro a Power BI
 
-      1. Verifica che abbia sovrascritto il set di dati esistente creato al momento della prima pubblicazione.
-      2. Verifica che la tabella page_1 sia aggiornata correttamente con le colonne Pagina e Visite.
-      3. Verifica che la visualizzazione sia interrotta, poiché fa riferimento alla colonna Visualizzazioni pagina che non è più presente nella tabella page_1.
+     1. Verifica che abbia sovrascritto il set di dati esistente creato al momento della prima pubblicazione.
+     2. Verifica che la tabella page_1 sia aggiornata correttamente con le colonne Pagina e Visite.
+     3. Verifica che la visualizzazione sia interrotta, poiché fa riferimento alla colonna Visualizzazioni pagina che non è più presente nella tabella page_1.
 
   **Ecco un esempio di come la visualizzazione NON si interrompe:**
 
-   1. In Report Builder, crea una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
-   2. Pianifica la pubblicazione di questa richiesta in Power BI.
-   3. In Power BI, crea una visualizzazione per le visualizzazioni di pagina e pagina.
-   4. Ora modifica la cartella di lavoro in Report Builder, aggiungendo la metrica Visita mantenendo le visualizzazioni di pagina e pagina.
-   5. Modifica la pianificazione con la cartella di lavoro aggiornata e ripubblica la richiesta in Power BI.
-   6. Una volta inviata la nuova cartella di lavoro a Power BI
+  1. In Report Builder, crea una cartella di lavoro con una richiesta, utilizzando la dimensione Pagina e la metrica Visualizzazioni pagina.
+  2. Pianifica la pubblicazione di questa richiesta in Power BI.
+  3. In Power BI, crea una visualizzazione per le visualizzazioni di pagina e pagina.
+  4. Ora modifica la cartella di lavoro in Report Builder, aggiungendo la metrica Visita mantenendo le visualizzazioni di pagina e pagina.
+  5. Modifica la pianificazione con la cartella di lavoro aggiornata e ripubblica la richiesta in Power BI.
+  6. Una volta inviata la nuova cartella di lavoro a Power BI
 
-      1. Verifica che abbia sovrascritto il set di dati esistente creato al momento della prima pubblicazione.
-      2. Verifica che la tabella page_1 sia aggiornata correttamente con le colonne Pagina, Visualizzazioni pagina e Visite.
-      3. Verifica che la visualizzazione continui a funzionare correttamente, poiché fa riferimento a due colonne ancora presenti nella tabella page_1.
+     1. Verifica che abbia sovrascritto il set di dati esistente creato al momento della prima pubblicazione.
+     2. Verifica che la tabella page_1 sia aggiornata correttamente con le colonne Pagina, Visualizzazioni pagina e Visite.
+     3. Verifica che la visualizzazione continui a funzionare correttamente, poiché fa riferimento a due colonne ancora presenti nella tabella page_1.
 
 * **Caso 2**: è possibile fissare una sezione della cartella di lavoro a un dashboard in Power BI e in seguito rimuovere tale sezione bloccata, ad esempio un grafico o una tabella, dalla cartella di lavoro. La visualizzazione verrà interrotta.
 

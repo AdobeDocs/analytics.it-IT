@@ -6,27 +6,11 @@ solution: Analytics
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 TQID: https://experienceleague.adobe.com/8KQR--atWQyHnqEpiphe7-hGz-WNgOeOsbCLcTKPn-o
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-subfeature_v2:
-  - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
-  - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
-  - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
-  - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
-  - id: f836f655-eebe-4b76-82bc-697955ec1ce3
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2: id: ac8a38fa-dec3-4581-8f64-178fde9f64e8id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705cid: ef60b66e-5984-4336-ba72-6d978b1b6f87id: f1f1a2d4-0976-4881-b091-c2bb8de7ffacid: f836f655-eebe-4b76-82bc-697955ec1ce3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 1312
@@ -65,7 +49,7 @@ Le seguenti opzioni di configurazione sono attualmente disponibili per le suite 
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Avvio di una nuova visita con evento](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} per un video dimostrativo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Avvio di una nuova visita con evento](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/components/virtual-report-suites/start-a-new-visit-on-any-event-in-virtual-report-suites){target="_blank"} per un video dimostrativo.
 
 >[!ENDSHADEBOX]
 
@@ -100,12 +84,12 @@ Le dimensioni e le metriche seguenti non sono supportate con l’elaborazione de
 Di seguito è riportato un elenco di dimensioni e metriche interessate a seconda delle impostazioni di Elaborazione dell’ora rapporto selezionate:
 
 * Se è abilitato &quot;Impedisci agli hit in background di avviare una nuova visita&quot;, si verificano le seguenti modifiche. Per ulteriori informazioni, vedere [Sessione in base al contesto](vrs-mobile-visit-processing.md).
-   * [**Mancati recapiti**](/help/components/metrics/bounces.md) / [**Percentuale non recapitati:**](/help/components/metrics/bounce-rate.md) Gli hit in background non seguiti da un hit in primo piano non sono considerati un mancato recapito e non contribuiscono alla percentuale di mancato recapito.
-   * [**Tempo trascorso in secondi per visita:**](/help/components/metrics/time-spent-per-visit.md) solo le visite che includono hit in primo piano contribuiscono a questa metrica.
-   * **Tempo trascorso per visita:** solo le visite che includono hit in primo piano contribuiscono a questa metrica.
-   * [**Metrica di ingresso**](/help/components/metrics/entries.md) / [**Metrica di uscita:**](/help/components/metrics/exits.md) In questa dimensione vengono visualizzate solo le entrate e le uscite dalle visite con hit in primo piano.
-   * [**Dimensione di ingresso**](/help/components/dimensions/entry-dimensions.md) / [**Dimensioni di uscita:**](/help/components/dimensions/exit-dimensions.md) In questa dimensione vengono visualizzate solo le entrate e le uscite dalle visite con hit di primo piano.
-   * [**Metrica Visitatori univoci:**](/help/components/metrics/unique-visitors.md) Visitatori univoci non include i visitatori che hanno avuto solo hit di background nell&#39;intervallo di date del rapporto.
+  * [**Mancati recapiti**](/help/components/metrics/bounces.md) / [**Percentuale non recapitati:**](/help/components/metrics/bounce-rate.md) Gli hit in background non seguiti da un hit in primo piano non sono considerati un mancato recapito e non contribuiscono alla percentuale di mancato recapito.
+  * [**Tempo trascorso in secondi per visita:**](/help/components/metrics/time-spent-per-visit.md) solo le visite che includono hit in primo piano contribuiscono a questa metrica.
+  * **Tempo trascorso per visita:** solo le visite che includono hit in primo piano contribuiscono a questa metrica.
+  * [**Metrica di ingresso**](/help/components/metrics/entries.md) / [**Metrica di uscita:**](/help/components/metrics/exits.md) In questa dimensione vengono visualizzate solo le entrate e le uscite dalle visite con hit in primo piano.
+  * [**Dimensione di ingresso**](/help/components/dimensions/entry-dimensions.md) / [**Dimensioni di uscita:**](/help/components/dimensions/exit-dimensions.md) In questa dimensione vengono visualizzate solo le entrate e le uscite dalle visite con hit di primo piano.
+  * [**Metrica Visitatori univoci:**](/help/components/metrics/unique-visitors.md) Visitatori univoci non include i visitatori che hanno avuto solo hit di background nell&#39;intervallo di date del rapporto.
 * [**Visite:**](/help/components/metrics/visits.md) le visite riflettono le impostazioni configurate dalla suite di rapporti virtuali, che possono essere diverse dalla suite di rapporti di base.
 * **Eventi serializzati con ID evento:** Gli eventi che utilizzano la serializzazione degli eventi con un ID evento vengono deduplicati solo per gli eventi che si verificano nell&#39;intervallo di date del report per un visitatore. Questi eventi non vengono deduplicati in tutte le date o i visitatori a livello globale a causa della finestra di dialogo della data di elaborazione dell’ora rapporto.
 * **Acquisti** / [**Ricavi**](/help/components/metrics/revenue.md) / [**Ordini**](/help/components/metrics/orders.md) / [**Unità:**](/help/components/metrics/units.md) Quando viene utilizzato l&#39;ID acquisto, queste metriche vengono deduplicate solo per gli ID acquisto duplicati che si verificano nell&#39;intervallo di date del rapporto per un visitatore anziché in tutte le date o i visitatori a livello globale a causa della finestra di visualizzazione della data di elaborazione dell&#39;ora rapporto.

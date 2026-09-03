@@ -5,19 +5,13 @@ title: Domande frequenti sui feed dati
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 TQID: 'https://experienceleague.adobe.com/bTksilYRAeqiQ-QbO6-NZLWUndN76VzXnOobkAji1zo'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-subfeature_v2:
-  - id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+subfeature_v2: id: ede9f3ba-4ee4-4497-9d8e-e9da5848bda0
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 1496
-ht-degree: 73%
+source-wordcount: 1508
+ht-degree: 72%
 
 ---
 
@@ -87,11 +81,11 @@ Per i backfill con più di 10 giorni, Adobe consiglia vivamente di utilizzare la
 
 ## Qual è l’impatto dell’ora legale sui feed di dati orari? {#dst}
 
-In alcuni fusi orari, l’ora cambia due volte all&#39;anno a causa dell’introduzione dell’ora legale. I feed di dati rispettano il fuso orario per il quale è configurata la suite di rapporti. Se il fuso orario della suite di rapporti non utilizza l’ora legale, la consegna dei file continua normalmente come qualsiasi altro giorno. Se il fuso orario della suite di rapporti è quello che utilizza l’ora legale, la consegna dei file viene modificata per l’ora in cui si verifica il cambiamento (in genere alle 2:00).
+In alcuni fusi orari, l’ora cambia due volte all&#39;anno a causa dell’introduzione dell’ora legale. I feed di dati rispettano il fuso orario per il quale è configurata la suite di rapporti. Se il fuso orario della suite di rapporti non utilizza l’ora legale, la consegna dei file continua normalmente come qualsiasi altro giorno. Se il fuso orario della suite di rapporti è quello che utilizza l’ora legale, la consegna dei file viene modificata per l’ora in cui si verifica il cambiamento di orario (in genere alle 2:00).
 
-Quando si passa dall’ora solare all’ora legale (primavera in avanti), si ricevono 23 file. L’ora saltata nel passaggio all’ora legale viene omessa. Ad esempio, se la transizione si verifica alle 2 del mattino, si ottiene un file per l&#39;ora 1:00 e un file per l&#39;ora 3:00. Nessun file 2:00 perché in 2:00 DST diventa 3:00 DST.
+Quando si passa dall’ora solare all’ora legale (primavera in avanti), si ricevono 23 file. L’ora saltata nel passaggio all’ora legale viene omessa. Ad esempio, se la transizione si verifica alle 2 del mattino, si ottiene un file per l’ora 01:00 e un file per l’ora 03:00. Non c&#39;è nessun file delle 2:00 perché, alle 2:00 ora solare, diventa le 3:00 ora legale.
 
-Quando si effettuano transizioni DST -> STD (fallback), si ricevono 24 file. Tuttavia, l’ora in cui avviene il passaggio all’ora solare include in realtà due ore di dati. Ad esempio, se la transizione si verifica alle 2:00 del mattino, il file per 1:00 viene ritardato di un&#39;ora, ma contiene dati per due ore. Contiene dati da 1:00 DST a 2:00 STD (che sarebbe stato 3:00 DST). Il file successivo inizia da 2:00 STD.
+Quando si effettuano transizioni DST -> STD (fallback), si ricevono 24 file. Tuttavia, l’ora in cui avviene il passaggio all’ora solare include in realtà due ore di dati. Ad esempio, se la transizione si verifica alle 02:00, il file dell’ora 01:00 viene ritardato di un’ora, ma contiene i dati per due ore. Contiene dati da 01:00 ora legale a 02:00 ora solare (che corrisponde alle 03:00 ora legale). Il file successivo inizia alle 02:00 ora solare.
 
 ## In che modo Analytics gestisce gli errori di trasferimento FTP? {#ftp-failure}
 

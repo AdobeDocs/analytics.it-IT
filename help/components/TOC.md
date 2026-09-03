@@ -24,7 +24,7 @@ ht-degree: 93%
   + [Pagina di Activity Map](dimensions/activity-map-page.md)
   + [Area geografica di Activity Map](dimensions/activity-map-region.md)
   + [Consenso per la piattaforma di annunci](dimensions/ad-consent.md)
-  + [Classificazione di tutte le pagine di ricerca](dimensions/all-search-page-rank.md)
+  + [Ranking di tutte le pagine di ricerca](dimensions/all-search-page-rank.md)
   + [ID AMO](dimensions/amo-id.md)
   + [ID AMO EF](dimensions/amo-ef-id.md)
   + [AMO Meta Ads Click ID](dimensions/amo-meta-id.md)

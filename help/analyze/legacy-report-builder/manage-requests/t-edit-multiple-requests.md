@@ -6,15 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
 TQID: https://experienceleague.adobe.com/Qwd6RD0nq7mnMte5UFJVDuLqzqnKGHoOHlm-kYqtsog
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 294
@@ -46,7 +40,7 @@ Puoi modificare diverse richieste contemporaneamente, in base alla suite di rapp
    * **Per suite di rapporti:** raggruppa la visualizzazione delle richieste in base alla suite di rapporti.
    * **Per segmento**: raggruppa le richieste in base al nome del segmento.
 
-      * **Scegli segmento**: mostra se non esistono segmenti per le richieste. Per aggiungere segmenti, fare clic su **[!UICONTROL Edit Group]** e selezionare un segmento dal pannello [!UICONTROL Edit Group].
+     * **Scegli segmento**: mostra se non esistono segmenti per le richieste. Per aggiungere segmenti, fare clic su **[!UICONTROL Edit Group]** e selezionare un segmento dal pannello [!UICONTROL Edit Group].
 
    * **Per Metrica:** Vedi [Modificare Le Metriche In Più Richieste](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md).
 
@@ -59,4 +53,4 @@ Puoi modificare diverse richieste contemporaneamente, in base alla suite di rapp
 
 Ecco un video che mostra il processo:
 
-https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder
+https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/exporting/report-builder/add-segments-to-multiple-requests-at-once-in-report-builder

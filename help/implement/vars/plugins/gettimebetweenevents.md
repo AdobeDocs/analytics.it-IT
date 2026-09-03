@@ -5,19 +5,11 @@ feature: Appmeasurement Implementation
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 role: Admin, Developer
 TQID: 'https://experienceleague.adobe.com/czmpdg5-e3fQre5aPKg9uWGpHW-JzIPuOv0kCyETGeo'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
-subfeature_v2:
-  - id: e7d92df1-c5ba-4e93-85df-f83171b889be
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+subfeature_v2: id: e7d92df1-c5ba-4e93-85df-f83171b889be
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 807
@@ -87,15 +79,15 @@ La funzione `getTimeBetweenEvents` utilizza i seguenti argomenti:
 * **`cn`** (facoltativo, stringa): nome del cookie in cui è memorizzata l&#39;ora del primo evento. Predefinito su `"s_tbe"`.
 * **`etd`** (facoltativo, numero intero): tempo di scadenza del cookie in giorni. Impostare su `0` per scadere alla fine della sessione del browser. Se non è impostato, il valore predefinito è 1 giorno.
 * **`fmt`** (facoltativo, stringa): formato del tempo in cui viene restituito il numero di secondi (impostazione predefinita: niente)
-   * `"s"` per secondi
-   * `"m"` per minuti
-   * `"h"` per ore
-   * `"d"` per giorni
-   * Se non viene impostato, il formato del valore restituito si basa sulle regole seguenti:
-      * Qualsiasi valore inferiore a un minuto viene arrotondato al valore di riferimento di 5 secondi più vicino. Ad esempio, 10 secondi, 15 secondi
-      * Qualsiasi valore compreso tra un minuto e un&#39;ora viene arrotondato al valore di riferimento di 1/2 minuto più vicino. Ad esempio, 30,5 minuti, 31 minuti
-      * Qualsiasi valore compreso tra un’ora e un giorno viene arrotondato al valore di riferimento di un quarto d’ora più vicino. Ad esempio, 2,25 ore, 3,5 ore
-      * Qualsiasi valore superiore a un giorno viene arrotondato al valore di riferimento del giorno più vicino. Ad esempio, 1 giorno, 3 giorni, 9 giorni
+  * `"s"` per secondi
+  * `"m"` per minuti
+  * `"h"` per ore
+  * `"d"` per giorni
+  * Se non viene impostato, il formato del valore restituito si basa sulle regole seguenti:
+    * Qualsiasi valore inferiore a un minuto viene arrotondato al valore di riferimento di 5 secondi più vicino. Ad esempio, 10 secondi, 15 secondi
+    * Qualsiasi valore compreso tra un minuto e un&#39;ora viene arrotondato al valore di riferimento di 1/2 minuto più vicino. Ad esempio, 30,5 minuti, 31 minuti
+    * Qualsiasi valore compreso tra un’ora e un giorno viene arrotondato al valore di riferimento di un quarto d’ora più vicino. Ad esempio, 2,25 ore, 3,5 ore
+    * Qualsiasi valore superiore a un giorno viene arrotondato al valore di riferimento del giorno più vicino. Ad esempio, 1 giorno, 3 giorni, 9 giorni
 * **`bml`** (facoltativo, numero): lunghezza del benchmark di arrotondamento in base al formato dell&#39;argomento `fmt`. Ad esempio, se l&#39;argomento `fmt` è `"s"` e questo argomento è `2`, il valore restituito viene arrotondato al valore di riferimento di 2 secondi più vicino. Se l&#39;argomento `fmt` è `"m"` e l&#39;argomento è `0.5`, il valore restituito viene arrotondato al valore di riferimento di mezzo minuto più vicino.
 * **`rte`** (facoltativo, stringa): stringa delimitata da virgole di eventi di Analytics che rimuovono o eliminano il timer. Impostazione predefinita: niente.
 

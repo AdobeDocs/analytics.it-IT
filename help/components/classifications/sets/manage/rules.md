@@ -4,18 +4,14 @@ description: Scopri come utilizzare le regole dei set di classificazione per def
 feature: Classifications
 exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
-subfeature_v2:
-  - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+subfeature_v2: id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
 source-wordcount: 1592
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -25,7 +21,7 @@ Utilizza le regole per supportare le classificazioni automatiche in scenari in c
 
 La dimensione deve contenere valori che ti consentono di applicare una o più regole in modo da poter derivare i dati di classificazione dai valori della dimensione.
 
-Puoi definire le regole nel contesto di un set di classificazione. Questo contesto implica che le regole vengano applicate (se attivate) a tutte le combinazioni di suite di rapporti e dimensioni chiave sottoscritte al set di classificazione. Questa implementazione è diversa da come funziona il generatore di regole di classificazione legacy. Nel generatore di regole di classificazione, puoi definire separatamente una o più regole come parte di un set di regole, quindi associare il set di regole a una o più suite di rapporti. Nella nuova interfaccia, le regole all’interno del set di classificazione sono anche denominate set di regole. Tuttavia, i set di regole sono definiti all’interno della stessa interfaccia in cui puoi configurare altri attributi del set di classificazione.
+Definisci le regole nel contesto di un set di classificazione. Questo contesto implica che le regole vengano applicate (se attivate) a tutte le combinazioni di suite di rapporti e dimensioni chiave sottoscritte al set di classificazione. Questa implementazione è diversa da come funziona il generatore di regole di classificazione legacy. Nel generatore di regole di classificazione, puoi definire separatamente una o più regole come parte di un set di regole, quindi associare il set di regole a una o più suite di rapporti. Nella nuova interfaccia, le regole all’interno del set di classificazione sono anche denominate set di regole. Tuttavia, i set di regole sono definiti all’interno della stessa interfaccia in cui puoi configurare altri attributi del set di classificazione.
 
 
 Per definire un set di regole per un set di classificazione:
@@ -37,21 +33,21 @@ Per definire un set di regole per un set di classificazione:
 
    * Se accedi all&#39;interfaccia **[!UICONTROL Rules]** per la prima volta per un set di classificazione o decidi di continuare a utilizzare l&#39;interfaccia del generatore di regole legacy, viene visualizzata una finestra di dialogo che consente di selezionare come iniziare. Le opzioni sono:
 
-      * **Esegui migrazione regole esistenti**. Importa le regole di classificazione correnti e continua a lavorare con queste regole nella nuova interfaccia. Le regole esistenti vengono mantenute e convertite nel nuovo formato.
-         * Seleziona **[!UICONTROL Migrate rules]** (Avanti) per continuare.
-         * Nella finestra di dialogo **[!UICONTROL Confirm migration]**, leggi le implicazioni della migrazione.
-            * Selezionare **[!UICONTROL Migrate rules]** per confermare la migrazione. Al termine della migrazione, utilizzare l&#39;[interfaccia set di regole](#rule-set-interface) per creare nuove regole e modificare le regole di cui è stata eseguita la migrazione.
-            * Seleziona **[!UICONTROL Cancel]** per annullare la migrazione
+     * **Esegui migrazione regole esistenti**. Importa le regole di classificazione correnti e continua a lavorare con queste regole nella nuova interfaccia. Le regole esistenti vengono mantenute e convertite nel nuovo formato.
+       * Seleziona **[!UICONTROL Migrate rules]** (Avanti) per continuare.
+       * Nella finestra di dialogo **[!UICONTROL Confirm migration]**, leggi le implicazioni della migrazione.
+         * Selezionare **[!UICONTROL Migrate rules]** per confermare la migrazione. Al termine della migrazione, utilizzare l&#39;[interfaccia set di regole](#rule-set-interface) per creare nuove regole e modificare le regole di cui è stata eseguita la migrazione.
+         * Seleziona **[!UICONTROL Cancel]** per annullare la migrazione
 
-      * **Ricomincia**. Crea nuove regole di classificazione da zero utilizzando il nuovo generatore di regole. Seleziona questa opzione se desideri riprogettare la logica di classificazione o iniziare da capo con nuove regole di classificazione.
-         * Seleziona **[!UICONTROL Create new rules]** (Avanti) per continuare.
-         * Nella finestra di dialogo **[!UICONTROL Confirm start fresh]**, leggi le implicazioni di un nuovo inizio.
-            * Selezionare **[!UICONTROL Start fresh]** per confermare un nuovo avvio ed eliminare eventuali regole esistenti. Utilizza l&#39;interfaccia [set di regole](#rule-set-interface) per creare nuove regole.
-            * Seleziona **[!UICONTROL Cancel]** per annullare.
+     * **Ricomincia**. Crea nuove regole di classificazione da zero utilizzando il nuovo generatore di regole. Seleziona questa opzione se desideri riprogettare la logica di classificazione o iniziare da capo con nuove regole di classificazione.
+       * Seleziona **[!UICONTROL Create new rules]** (Avanti) per continuare.
+       * Nella finestra di dialogo **[!UICONTROL Confirm start fresh]**, leggi le implicazioni di un nuovo inizio.
+         * Selezionare **[!UICONTROL Start fresh]** per confermare un nuovo avvio ed eliminare eventuali regole esistenti. Utilizza l&#39;interfaccia [set di regole](#rule-set-interface) per creare nuove regole.
+         * Seleziona **[!UICONTROL Cancel]** per annullare.
 
 
-      * **Usa interfaccia legacy**. Continua a utilizzare la precedente interfaccia del generatore di regole. Puoi migrare alla nuova esperienza in qualsiasi momento quando sei pronto.
-         * Seleziona **[!UICONTROL Go to legacy interface]** per continuare. Si è indirizzati all&#39;interfaccia legacy **[!UICONTROL Classification Rule Builder]**.
+     * **Usa interfaccia legacy**. Continua a utilizzare la precedente interfaccia del generatore di regole. Puoi migrare alla nuova esperienza in qualsiasi momento quando sei pronto.
+       * Seleziona **[!UICONTROL Go to legacy interface]** per continuare. Si è indirizzati all&#39;interfaccia legacy **[!UICONTROL Classification Rule Builder]**.
 
    * Se hai già eseguito la migrazione delle regole o ne hai create di nuove per un set di classificazione, finisci direttamente nell’interfaccia del set di regole.
 
