@@ -46,7 +46,7 @@ Puoi modificare diverse richieste contemporaneamente, in base alla suite di rapp
    * **Per suite di rapporti:** raggruppa la visualizzazione delle richieste in base alla suite di rapporti.
    * **Per segmento**: raggruppa le richieste in base al nome del segmento.
 
-      * **Scegli segmento**: mostra se non esistono segmenti per le richieste. Per aggiungere segmenti, fare clic su **[!UICONTROL Edit Group]** e selezionare un segmento dal pannello [!UICONTROL Edit Group].
+     * **Scegli segmento**: mostra se non esistono segmenti per le richieste. Per aggiungere segmenti, fare clic su **[!UICONTROL Edit Group]** e selezionare un segmento dal pannello [!UICONTROL Edit Group].
 
    * **Per Metrica:** Vedi [Modificare Le Metriche In Più Richieste](/help/analyze/legacy-report-builder/manage-requests/edit-multiple-metrics.md).
 

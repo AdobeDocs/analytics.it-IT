@@ -66,12 +66,12 @@ Nella scheda “Response” (Risposta), verifica che la risposta contenga dati d
 * **&quot;status&quot;:&quot;SUCCESS&quot;**: hai implementato il modulo Gestione del pubblico, ma l’inoltro lato server non è stato configurato correttamente. Procedi al passaggio 3.
 * Un’**immagine 2 x 2**: l’inoltro lato server o il modulo Gestione del pubblico non è stato implementato. Per risolvere il problema:
 
-   * **Clienti Adobe Audience Manager con DIL**: coordina le seguenti due operazioni in stretta congiunzione:
+  * **Clienti Adobe Audience Manager con DIL**: coordina le seguenti due operazioni in stretta congiunzione:
 
-      1. Rimuovi il codice DIL e installa il codice della pagina del [modulo Gestione del pubblico](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it).
-      1. Abilita l’inoltro lato server nell’interfaccia utente di amministrazione di Analytics, come indicato al passaggio 3. Se abiliti l’impostazione prima di rimuovere il codice DIL, i dati verranno duplicati e verranno create chiamate server fatturate aggiuntive per Audience Manager.
+    1. Rimuovi il codice DIL e installa il codice della pagina del [modulo Gestione del pubblico](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it).
+    1. Abilita l’inoltro lato server nell’interfaccia utente di amministrazione di Analytics, come indicato al passaggio 3. Se abiliti l’impostazione prima di rimuovere il codice DIL, i dati verranno duplicati e verranno create chiamate server fatturate aggiuntive per Audience Manager.
 
-   * **Nuovi clienti Adobe Audience Manager**: installa il codice della pagina del [modulo Audience Management](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it) e procedi al passaggio 3. I dati verranno inviati ad Audience Manager solo dopo l’attivazione dell’inoltro lato server al passaggio 3.
+  * **Nuovi clienti Adobe Audience Manager**: installa il codice della pagina del [modulo Audience Management](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it) e procedi al passaggio 3. I dati verranno inviati ad Audience Manager solo dopo l’attivazione dell’inoltro lato server al passaggio 3.
 
 ## ![immagine step3_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step3_icon.png) Verificare l’implementazione lato server della suite di rapporti
 

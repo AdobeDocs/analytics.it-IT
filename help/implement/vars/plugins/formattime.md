@@ -79,10 +79,10 @@ La funzione `formatTime` utilizza i seguenti argomenti:
 
 * **`ns`** (obbligatorio, numero intero): numero di secondi per la conversione o il formato
 * **`tf`** (facoltativo, stringa): tipo di formato in cui restituire i secondi; impostazione predefinita: secondi
-   * Imposta su `"d"` se vuoi il tempo in giorni (arrotondato al benchmark di 1/4 giorno più vicino per impostazione predefinita)
-   * Imposta su `"h"` se desideri il tempo in ore (arrotondato al benchmark di 1/4 ore più vicino per impostazione predefinita)
-   * Imposta su `"m"` se vuoi il tempo in minuti (arrotondato al benchmark di 1/2 minuti più vicino per impostazione predefinita)
-   * Imposta su `"s"` se desideri il tempo in secondi (arrotondato al benchmark di 5 secondi più vicino per impostazione predefinita)
+  * Imposta su `"d"` se vuoi il tempo in giorni (arrotondato al benchmark di 1/4 giorno più vicino per impostazione predefinita)
+  * Imposta su `"h"` se desideri il tempo in ore (arrotondato al benchmark di 1/4 ore più vicino per impostazione predefinita)
+  * Imposta su `"m"` se vuoi il tempo in minuti (arrotondato al benchmark di 1/2 minuti più vicino per impostazione predefinita)
+  * Imposta su `"s"` se desideri il tempo in secondi (arrotondato al benchmark di 5 secondi più vicino per impostazione predefinita)
 * **`bml`** (facoltativo, numero): lunghezza dei parametri di riferimento di arrotondamento. Impostazione predefinita dei benchmark elencati nell&#39;argomento `tf`
 
 La funzione restituisce il numero di secondi formattati utilizzando l&#39;unità specificata nell&#39;argomento `tf`. Se l&#39;argomento `tf` non è impostato:

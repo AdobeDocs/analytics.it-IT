@@ -170,6 +170,6 @@ Alcune note aggiuntive a sostegno dell’esempio:
 
 * Una &quot;sequenza&quot; è un insieme consecutivo di hit in cui una data variabile contiene lo stesso valore (sia esso impostato, diffuso in avanti o persistente). Ad esempio, prop1 &quot;A&quot; ha due sequenze: hit 1 e 2 e hit 6. I valori dell’ultimo hit della visita non iniziano una nuova sequenza perché l’ultimo hit non ha tempo trascorso. Il tempo medio trascorso sul sito utilizza le sequenze nel denominatore.
 
-   * Solo ai fini del tempo trascorso, le proprietà vengono &quot;distribuite in avanti&quot; dagli hit di pagina agli hit di collegamento successivi, come mostrato in precedenza per prop1 sull’hit 2. Questo consente al valore impostato per prop1 sull’hit 1 (&quot;A&quot;) di accumulare il tempo trascorso sull’hit 2.
+  * Solo ai fini del tempo trascorso, le proprietà vengono &quot;distribuite in avanti&quot; dagli hit di pagina agli hit di collegamento successivi, come mostrato in precedenza per prop1 sull’hit 2. Questo consente al valore impostato per prop1 sull’hit 1 (&quot;A&quot;) di accumulare il tempo trascorso sull’hit 2.
 
-   * Le eVar accumulano il tempo trascorso su qualsiasi hit in cui l’eVar è impostato o persistito. La persistenza di eVar è definita dalle impostazioni di eVar in Analytics > Amministratore.
+  * Le eVar accumulano il tempo trascorso su qualsiasi hit in cui l’eVar è impostato o persistito. La persistenza di eVar è definita dalle impostazioni di eVar in Analytics > Amministratore.

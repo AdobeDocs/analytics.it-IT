@@ -50,9 +50,9 @@ Ogni regola di elaborazione contiene le sezioni seguenti:
 * **Titolo regola**: etichetta della regola. Non influisce sulla logica della regola di elaborazione, ma è utile per tenere traccia di ciò che fa la regola.
 * **Condizione**: visualizzato come testo, &quot;[!UICONTROL If any/all of the following are true]&quot;. Se non includi una condizione, la regola viene sempre eseguita su ogni hit.
 * **Azione**: se non esiste alcuna condizione, il testo verrà visualizzato come &quot;[!UICONTROL Always execute]&quot;. Se esiste una condizione, il testo viene visualizzato come &quot;[!UICONTROL Then do the following]&quot;. Se la condizione precedente restituisce `true`, ogni azione elencata in questa sezione viene potenzialmente eseguita. Oltre alla condizione di una regola, puoi _anche_ allegare condizioni alle singole azioni. Sono disponibili le seguenti azioni:
-   * **[!UICONTROL Overwrite value of]**: sovrascrive la variabile desiderata con un&#39;altra variabile, un valore statico o un valore concatenato.
-   * **[!UICONTROL Delete value of]**: elimina il valore di variabile desiderato per l&#39;hit.
-   * **[!UICONTROL Set event]**: attiva l&#39;evento desiderato. In genere si impostano gli eventi su un valore personalizzato di `1`; è possibile impostare gli eventi su valori diversi da `1` o anche impostarli su valori impostati nelle variabili di dati di contesto.
+  * **[!UICONTROL Overwrite value of]**: sovrascrive la variabile desiderata con un&#39;altra variabile, un valore statico o un valore concatenato.
+  * **[!UICONTROL Delete value of]**: elimina il valore di variabile desiderato per l&#39;hit.
+  * **[!UICONTROL Set event]**: attiva l&#39;evento desiderato. In genere si impostano gli eventi su un valore personalizzato di `1`; è possibile impostare gli eventi su valori diversi da `1` o anche impostarli su valori impostati nelle variabili di dati di contesto.
 * **Altrimenti azione**: se esiste una condizione, questa sezione verrà visualizzata come &quot;[!UICONTROL Otherwise do the following]&quot;. Se la condizione precedente restituisce `false`, ogni azione elencata in questa sezione viene potenzialmente eseguita. Questa sezione segue le stesse azioni delle regole precedenti, inclusa la possibilità di sovrascrivere valori, eliminare valori e impostare eventi.
 * **Motivo**: record che ha richiesto la regola e da cosa dipende. Non influisce sulla logica della regola di elaborazione, ma è utile per tenere traccia del motivo per cui esiste la regola.
 

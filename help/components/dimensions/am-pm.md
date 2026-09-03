@@ -15,8 +15,8 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 121
-ht-degree: 9%
+source-wordcount: 125
+ht-degree: 8%
 
 ---
 
@@ -30,4 +30,4 @@ Questa dimensione funziona in modo predefinito. Nessuna impostazione da modifica
 
 ## Elementi dimensionali
 
-Questa dimensione contiene sempre esattamente due elementi dimensionali: `"AM"` e `"PM"`. L&#39;elemento dimensione `"AM"` si applica a tutti gli hit dalle ore 12:00 alle ore 11:59, mentre l&#39;elemento dimensione `"PM"` si applica a tutti gli hit dalle ore 12:00 alle ore 11:59.
+Questa dimensione contiene sempre esattamente due elementi dimensionali: `"AM"` e `"PM"`. L&#39;elemento dimensione `"AM"` si applica a tutti gli hit dalle 00:00 alle 01:59, mentre l&#39;elemento dimensione `"PM"` si applica a tutti gli hit dalle 12:00 alle 23:59.

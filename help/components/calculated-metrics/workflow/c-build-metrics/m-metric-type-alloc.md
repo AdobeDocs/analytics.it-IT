@@ -42,16 +42,16 @@ Puoi configurare il tipo di metrica e il [modello di attribuzione](#attribution-
 
    * Specifica **[!UICONTROL Attribution]**.
 
-      1. Puoi:
+     1. Puoi:
 
-         * Disabilitare **[!UICONTROL Use non-default attribution model]** per utilizzare il modello di attribuzione colonna predefinito, ovvero Ultimo contatto, con un intervallo di lookback di 30 giorni.
-         * Abilitare **[!UICONTROL Use non-default attribution model]**. Nella finestra di dialogo **[!UICONTROL Column attribution model]**
+        * Disabilitare **[!UICONTROL Use non-default attribution model]** per utilizzare il modello di attribuzione colonna predefinito, ovvero Ultimo contatto, con un intervallo di lookback di 30 giorni.
+        * Abilitare **[!UICONTROL Use non-default attribution model]**. Nella finestra di dialogo **[!UICONTROL Column attribution model]**
 
-            * Seleziona **[!UICONTROL Model]** dai [modelli di attribuzione](#attribution-models).
-            * Seleziona **[!UICONTROL Container]** dalle opzioni [container](#container).
-            * Seleziona **[!UICONTROL Lookback window]** dalle opzioni dell&#39;[intervallo di lookback](#lookback-window). Se si seleziona **[!UICONTROL Custom Time]**, è possibile definire il periodo di tempo in **[!UICONTROL Minute(s)]** fino a **[!UICONTROL Quarter(s)]**.
+          * Seleziona **[!UICONTROL Model]** dai [modelli di attribuzione](#attribution-models).
+          * Seleziona **[!UICONTROL Container]** dalle opzioni [container](#container).
+          * Seleziona **[!UICONTROL Lookback window]** dalle opzioni dell&#39;[intervallo di lookback](#lookback-window). Se si seleziona **[!UICONTROL Custom Time]**, è possibile definire il periodo di tempo in **[!UICONTROL Minute(s)]** fino a **[!UICONTROL Quarter(s)]**.
 
-      1. Seleziona **[!UICONTROL Apply]** per applicare il modello di attribuzione non predefinito. Seleziona Annulla per annullare.
+     1. Seleziona **[!UICONTROL Apply]** per applicare il modello di attribuzione non predefinito. Seleziona Annulla per annullare.
 
      Se hai già definito un modello di attribuzione non predefinito, seleziona **[!UICONTROL Edit]** per modificare la selezione.
 

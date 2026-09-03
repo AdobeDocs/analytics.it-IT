@@ -27,8 +27,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 2679
-ht-degree: 34%
+source-wordcount: 2700
+ht-degree: 35%
 
 ---
 
@@ -158,12 +158,12 @@ In alternativa, puoi selezionare **[!UICONTROL Preset]** dal menu a discesa [!UI
 
      È possibile selezionare il testo tra parentesi (ad esempio **[!UICONTROL fixed start - rolling daily]**) per estendere il pannello e specificare i dettagli per **[!UICONTROL Start]** e **[!UICONTROL End]**.
 
-      1. Seleziona **[!UICONTROL Start of]**, **[!UICONTROL End of]**, or **[!UICONTROL Fixed day]**.
-      1. Dopo aver selezionato **[!UICONTROL Start of]** o **[!UICONTROL End of]**, è possibile creare un’espressione completa. Ad esempio: **[!UICONTROL End of]** **[!UICONTROL current year]** **[!UICONTROL plus]** `1` **[!UICONTROL day]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
-         * Seleziona un valore corrente. Ad esempio: **[!UICONTROL current year]**.
-         * Seleziona un valore per il calcolo aggiuntivo. Ad esempio: **[!UICONTROL plus]**.
-         * Dopo aver specificato un calcolo aggiuntivo, specifica un valore. Ad esempio: `1`.
-         * Dopo aver specificato un calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio **[!UICONTROL day]**.
+     1. Seleziona **[!UICONTROL Start of]**, **[!UICONTROL End of]**, or **[!UICONTROL Fixed day]**.
+     1. Dopo aver selezionato **[!UICONTROL Start of]** o **[!UICONTROL End of]**, è possibile creare un’espressione completa. Ad esempio: **[!UICONTROL End of]** **[!UICONTROL current year]** **[!UICONTROL plus]** `1` **[!UICONTROL day]**. Seleziona il valore appropriato per ogni singola parte dell’espressione.
+        * Seleziona un valore corrente. Ad esempio: **[!UICONTROL current year]**.
+        * Seleziona un valore per il calcolo aggiuntivo. Ad esempio: **[!UICONTROL plus]**.
+        * Dopo aver specificato un calcolo aggiuntivo, specifica un valore. Ad esempio: `1`.
+        * Dopo aver specificato un calcolo aggiuntivo, seleziona il periodo di tempo da utilizzare per il calcolo. Ad esempio **[!UICONTROL day]**.
 
      Seleziona **[!UICONTROL Hide details]** per nascondere i dettagli del calcolo delle date continue.
 
@@ -195,14 +195,14 @@ Per aggiungere o sostituire segmenti o raggruppamenti (rapidi):
    ![Aggiungi o sostituisci nella zona di rilascio](assets/add-or-replace-to-drop-zone.png)
 
    * Rilascia la selezione per creare i seguenti componenti:
-      * [Segmento](#segment) per qualsiasi componente del segmento di cui si rilascia ❷.
-      * [Segmento rapido](#quick-segment) per qualsiasi componente non relativo al segmento (intervalli di date, metriche, dimensioni, elementi dimensionali) eliminato ❸.
+     * [Segmento](#segment) per qualsiasi componente del segmento di cui si rilascia ❷.
+     * [Segmento rapido](#quick-segment) per qualsiasi componente non relativo al segmento (intervalli di date, metriche, dimensioni, elementi dimensionali) eliminato ❸.
    * Rilascia la selezione **mentre tieni premuto** ⇧ (MAIUSC) per creare i seguenti componenti:
-      * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per i segmenti selezionati da eliminare ❹.
-      * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per gli intervalli di date selezionati per i quali si rilascia ❺.
-      * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per le metriche selezionate su cui si rilascia ❻.
-      * Menu a discesa [statico](#drop-down-menu) o menu a discesa [con raggruppamenti](#drop-down-menu) con elementi su cui filtrare o raggruppare la dimensione selezionata *elementi* per la quale si eliminano ❼.
-      * Menu a discesa [segmento dinamico](#drop-down-menu) o menu a discesa [raggruppamento](#drop-down-menu) con elementi su cui filtrare o raggruppare le dimensioni selezionate su cui rilasciare ❽.
+     * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per i segmenti selezionati da eliminare ❹.
+     * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per gli intervalli di date selezionati per i quali si rilascia ❺.
+     * Menu a discesa del segmento statico [&#128279;](#drop-down-menu) con elementi da filtrare per le metriche selezionate su cui si rilascia ❻.
+     * Menu a discesa [statico](#drop-down-menu) o menu a discesa [con raggruppamenti](#drop-down-menu) con elementi su cui filtrare o raggruppare la dimensione selezionata *elementi* per la quale si eliminano ❼.
+     * Menu a discesa [segmento dinamico](#drop-down-menu) o menu a discesa [raggruppamento](#drop-down-menu) con elementi su cui filtrare o raggruppare le dimensioni selezionate su cui rilasciare ❽.
 
 
 ### Segmento
@@ -252,7 +252,7 @@ Per qualsiasi componente *dimension* a cui viene rilasciato **mentre si tiene** 
 * Seleziona ![Raggruppamento](/help/assets/icons/Breakdown.svg) e seleziona ![Filtro](/help/assets/icons/Filter.svg) **[!UICONTROL Segment]** | **[!UICONTROL Filters the data in the panel]** dal menu di scelta rapida per il componente ❾.
 
 
-#### Suddividere un pannello
+#### Raggruppamento di un pannello
 
 Per qualsiasi componente *dimension* a cui viene rilasciato **mentre si tiene** ⇧, viene creato un menu a discesa dei segmenti. Puoi configurare il menu a discesa per suddividere il pannello in base agli elementi disponibili per gli elementi dimensionali eliminati (menu a discesa con raggruppamento [statico](#static)) o per il componente dimensione (menu a discesa con raggruppamento [dinamico](#dynamic)). Per configurare esplicitamente il menu a discesa in modo da suddividere un pannello utilizzando le suddivisioni:
 

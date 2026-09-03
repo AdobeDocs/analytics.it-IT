@@ -166,11 +166,11 @@ Quando visualizzi la tabella, prendi in considerazione quanto segue:
 
 * Puoi cercare o filtrare l’elenco delle connessioni:
 
-   * Utilizza il campo di ricerca per cercare un rapporto specifico. Inizia a digitare il nome o l’ID della connessione e l’elenco delle connessioni si aggiorna durante la digitazione.
+  * Utilizza il campo di ricerca per cercare un rapporto specifico. Inizia a digitare il nome o l’ID della connessione e l’elenco delle connessioni si aggiorna durante la digitazione.
 
-   * Seleziona l’icona [!UICONTROL **Filtro**] ![Icona Filtro](assets/filter-icon.png) per espandere l’elenco delle opzioni filtro. Puoi filtrare per [!UICONTROL **Stato**], [!UICONTROL **Complessità**], [!UICONTROL **Applicazione**], [!UICONTROL **Utente**] o [!UICONTROL **Progetto**].
+  * Seleziona l’icona [!UICONTROL **Filtro**] ![Icona Filtro](assets/filter-icon.png) per espandere l’elenco delle opzioni filtro. Puoi filtrare per [!UICONTROL **Stato**], [!UICONTROL **Complessità**], [!UICONTROL **Applicazione**], [!UICONTROL **Utente**] o [!UICONTROL **Progetto**].
 
-   * Puoi selezionare [!UICONTROL **Nascondi grafici**] per visualizzare solo la tabella.
+  * Puoi selezionare [!UICONTROL **Nascondi grafici**] per visualizzare solo la tabella.
 
 ![schede tabella](assets/report-activity-tabs.png)
 

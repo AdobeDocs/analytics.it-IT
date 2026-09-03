@@ -17,7 +17,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1340
+source-wordcount: 1347
 ht-degree: 87%
 
 ---
@@ -135,22 +135,22 @@ Utilizza il concetto di un contenitore di segmenti per creare una [metrica segme
 
 * Per aggiungere un contenitore di segmenti da una dimensione:
 
-   1. Trascina un componente ![Dimensions](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensions]** dal pannello dei componenti in **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare componenti specifici.
-   1. Nel popup **[!UICONTROL Create Segment from Dimension]**, definisci la condizione per il segmento. Seleziona dall’elenco degli operatori un valore oppure immetti un valore. Ad esempio, **[!UICONTROL Month]** **[!UICONTROL equals]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
-   1. Seleziona **[!UICONTROL Done]**. Un contenitore di segmenti viene aggiunto a **[!UICONTROL Definition]**.
+  1. Trascina un componente ![Dimensions](/help/assets/icons/Dimensions.svg) **[!UICONTROL Dimensions]** dal pannello dei componenti in **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare componenti specifici.
+  1. Nel popup **[!UICONTROL Create Segment from Dimension]**, definisci la condizione per il segmento. Seleziona dall’elenco degli operatori un valore oppure immetti un valore. Ad esempio, **[!UICONTROL Month]** **[!UICONTROL equals]** ![ChevronDown](/help/assets/icons/ChevronDown.svg) `Sep 2024`.
+  1. Seleziona **[!UICONTROL Done]**. Un contenitore di segmenti viene aggiunto a **[!UICONTROL Definition]**.
 
 
 * Per aggiungere un contenitore di segmenti da un segmento, puoi:
 
-   * Trascinare un componente ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** dal pannello dei componenti in **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare segmenti specifici.
-Un contenitore di segmenti viene aggiunto automaticamente a **[!UICONTROL Definition]**, utilizzando il nome del segmento.
+  * Trascinare un componente ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segments]** dal pannello dei componenti in **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. Puoi utilizzare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare segmenti specifici.
+    Un contenitore di segmenti viene aggiunto automaticamente a **[!UICONTROL Definition]**, utilizzando il nome del segmento.
 
-   * Trascinare un componente ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** dal pannello dei componenti in un contenitore generico. Il contenitore viene modificato in un contenitore di segmenti.
+  * Trascinare un componente ![Segmentazione](/help/assets/icons/Segmentation.svg) **[!UICONTROL Segment]** dal pannello dei componenti in un contenitore generico. Il contenitore viene modificato in un contenitore di segmenti.
 
-   * Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** dall’interno di un contenitore:
+  * Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** dall’interno di un contenitore:
 
-      1. Seleziona **[!UICONTROL Segment]**. Un contenitore di segmenti viene aggiunto a **[!UICONTROL Definition]**.
-      1. Nel nuovo contenitore di segmenti, seleziona un segmento dal menu a discesa [!UICONTROL *Seleziona...*].
+    1. Seleziona **[!UICONTROL Segment]**. Un contenitore di segmenti viene aggiunto a **[!UICONTROL Definition]**.
+    1. Nel nuovo contenitore di segmenti, seleziona un segmento dal menu a discesa [!UICONTROL *Seleziona...*].
 
   >[!TIP]
   >
@@ -170,13 +170,13 @@ Per aggiungere un contenitore funzione, puoi utilizzare:
 
 * Trascina:
 
-   1. Trascina un componente ![Function](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** dal pannello dei componenti in **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare funzioni specifiche.
-   1. Automaticamente un contenitore funzione viene aggiunto alla **[!UICONTROL Definition]** utilizzando il nome della funzione.
+  1. Trascina un componente ![Function](/help/assets/icons/Effect.svg) **[!UICONTROL Functions]** dal pannello dei componenti in **[!UICONTROL Drag and drop metrics, dimensions, dimension items, segments, and/or functions here]**. Puoi usare ![Ricerca](/help/assets/icons/Search.svg) nella barra dei componenti per cercare funzioni specifiche.
+  1. Automaticamente un contenitore funzione viene aggiunto alla **[!UICONTROL Definition]** utilizzando il nome della funzione.
 
 * Seleziona ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]** dall’interno di un contenitore:
 
-   1. Seleziona **[!UICONTROL Function]**.
-   1. Nel contenitore, selezionare una funzione dal menu a discesa [!UICONTROL *Seleziona...*].
+  1. Seleziona **[!UICONTROL Function]**.
+  1. Nel contenitore, selezionare una funzione dal menu a discesa [!UICONTROL *Seleziona...*].
 
 Il contenitore funzione prende il nome dal componente funzione. Ad esempio: ![Function](/help/assets/icons/Effect.svg) **[!UICONTROL SQUARE ROOT (metric)]**. Seleziona ![InfoOutline](/help/assets/icons/InfoOutline.svg) per visualizzare un popup con ulteriori dettagli sulla funzione. Seleziona **[!UICONTROL Learn more]** per ulteriori informazioni sulla funzione.
 

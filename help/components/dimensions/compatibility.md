@@ -306,7 +306,7 @@ Adobe Social è ritirato.
 
 ### Integrazione Nielsen
 
-Per ulteriori informazioni su come implementare questa integrazione, consulta l&#39;estensione [Nielsen](https://exchange.adobe.com/apps/ec/101361) su Adobe Exchange.
+Per ulteriori informazioni su come implementare questa integrazione, consulta l&#39;[estensione Nielsen](https://exchange.adobe.com/apps/ec/101361) in Adobe Exchange.
 
 | Nome Dimension (visibile nell’interfaccia utente di Analytics) | Dimension ID (utilizzato nelle richieste API) |
 |--- |--- |
@@ -315,16 +315,16 @@ Per ulteriori informazioni su come implementare questa integrazione, consulta l&
 | Nielsen - Segmento B | `nielsensegmentb` |
 | Nielsen - Segmento A | `nielsensegmenta` |
 | ID contenuto Nielsen | `nielsencontentid` |
-| Risorsa/Programma Nielsen | `nielsenasset` |
+| Risorsa/programma Nielsen | `nielsenasset` |
 | Nielsen - VCID | `nielsenvcid` |
 | Rinuncia Nielsen | `nielsenoptout` |
 | ID client Nielsen + VCID | `nielsenclientidvcid` |
 | ID cliente Nielsen | `nielsenclientid` |
-| Voce Nielsen - Rinuncia | `entrynielsenoptout` |
+| Rinuncia al Nielsen entry-level | `entrynielsenoptout` |
 | Esci da Nielsen Opt Out | `exitnielsenoptout` |
-| ID client Nielsen entry + VCID | `entrynielsenclientidvcid` |
+| ID client Nielsen entry-level + VCID | `entrynielsenclientidvcid` |
 | Esci da Nielsen Client ID + VCID | `exitnielsenclientidvcid` |
-| ID client Nielsen voce | `entrynielsenclientid` |
+| ID client Nielsen entry-level | `entrynielsenclientid` |
 | Esci da Nielsen Client ID | `exitnielsenclientid` |
 
 ### Adobe Experience Manager (AEM)

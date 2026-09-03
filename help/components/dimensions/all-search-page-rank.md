@@ -1,5 +1,5 @@
 ---
-title: Classificazione di tutte le pagine di ricerca
+title: Ranking di tutte le pagine di ricerca
 description: Determina quale pagina di un motore di ricerca un visitatore ha fatto clic sul tuo sito.
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
@@ -23,7 +23,7 @@ ht-degree: 10%
 
 ---
 
-# Classificazione di tutte le pagine di ricerca
+# Ranking di tutte le pagine di ricerca
 
 La [dimensione](overview.md) di &quot;Classificazione di tutte le pagine di ricerca&quot; fornisce ad insight la pagina dei risultati della ricerca su cui un visitatore ha fatto clic nel sito. Ad esempio, se il sito viene visualizzato nella seconda pagina dei risultati di ricerca di un motore di ricerca, l’elemento dimensionale per questa variabile è &quot;Pagina di ricerca 2&quot;.
 

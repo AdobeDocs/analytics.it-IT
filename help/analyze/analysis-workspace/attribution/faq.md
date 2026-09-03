@@ -17,7 +17,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
 workflow-type: tm+mt
-source-wordcount: 1201
+source-wordcount: 1205
 ht-degree: 71%
 
 ---
@@ -37,8 +37,8 @@ Di seguito sono riportate le risposte alle domande più frequenti sull’attribu
 
 Alcune metriche basate sulle visite, come [Voci](/help/components/metrics/entries.md) o [Percentuale non recapitate](/help/components/metrics/bounce-rate.md), possono attribuire i dati a un periodo prima dell’intervallo di date di inizio della finestra di generazione rapporti. Questa situazione è dovuta ai modelli di attribuzione che utilizzano una finestra di lookback, che determina il periodo di tempo precedente da considerare per l’attribuzione del credito alle metriche. Lo scenario più comune è quando le visite attraversano la mezzanotte. Ad esempio:
 
-1. Un utente visita la pagina principale alle 23:00 del 7 settembre.:55
-1. Visita diverse pagine, l’ultima delle quali alle 00:00 dell’8 settembre.:05
+1. Un utente visita la pagina principale alle 23:55 del 7 settembre.
+1. Poi visita diverse pagine, l’ultima delle quali alle 00:05 dell’8 settembre.
 1. Una settimana dopo, esegui un rapporto del trend giornaliero, con intervallo di date 8 settembre - 14 settembre.
 
 Le metriche basate sugli hit, come [Visualizzazioni pagina](/help/components/metrics/page-views.md), produrrebbero l’output previsto; dati con tendenze giornaliere dall’8 settembre al 14 settembre. Tuttavia, le metriche basate sulle visite mostreranno anche la visita di cui sopra, del 7 settembre. L’entrata attribuita alla visita è avvenuta il 7 settembre e la finestra di lookback per impostazione predefinita è 1 settembre - 31 settembre.
@@ -47,8 +47,8 @@ In questo esempio, la Percentuale non recapitate è sempre 0% per il 7 settembre
 
 Considera un altro esempio simile. L’unica differenza tra l’esempio seguente e quello precedente sono le date:
 
-1. Un utente visita la pagina principale alle 23:00 del 31 agosto.:55
-1. Visitano diverse pagine, l’ultima delle quali alle 00:00 del 1° settembre.:05
+1. Un utente visita la pagina principale alle 23:55 del 31 agosto.
+1. Visitano diverse pagine, l’ultima delle quali alle 00:05 del 1° settembre.
 1. Una settimana dopo, esegui un rapporto delle tendenze giornaliere compreso tra il 1° settembre e il 7 settembre.
 
 In questo esempio, Voci e Percentuale non recapitate non presenterebbero alcun dato del 31 agosto. La finestra di lookback e la finestra di reporting iniziano il 1° settembre, quindi i dati non possono essere attribuiti a partire dal 31 agosto.

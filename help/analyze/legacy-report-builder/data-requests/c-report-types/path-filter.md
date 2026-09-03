@@ -16,7 +16,7 @@ role_v2:
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
 source-wordcount: 373
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -42,7 +42,7 @@ In questo esempio vengono utilizzati i percorsi delle sezioni del sito.
 
    ![Schermata che mostra il modello di percorso predefinito.](assets/site_section_path_2.png)
 
-1. Selezionare l&#39;opzione **[!UICONTROL Filter]**.
+1. Seleziona l’opzione **[!UICONTROL Filter]**.
 
    ![Schermata che evidenzia l&#39;opzione Filtro.](assets/filter_option.png)
 

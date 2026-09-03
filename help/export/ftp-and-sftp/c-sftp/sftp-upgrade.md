@@ -58,24 +58,24 @@ supportati:
 
 * Algoritmi mac del protocollo SFTP:
 
-   * Non supporteremo più: hmac-md5, hmac-md5-96, hmac-ripemd160, hmacripemd160@openssh.com, hmac-sha1, hmac-sha1-96, hmac-sha1-etm@openssh.com, umac-64-etm@openssh.com, umac-64@openssh.com
+  * Non supporteremo più: hmac-md5, hmac-md5-96, hmac-ripemd160, hmacripemd160@openssh.com, hmac-sha1, hmac-sha1-96, hmac-sha1-etm@openssh.com, umac-64-etm@openssh.com, umac-64@openssh.com
 
-   * Supporteremo solo: hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512, hmacsha2-256, umac-128@openssh.com
+  * Supporteremo solo: hmac-sha2-512-etm@openssh.com, hmac-sha2-256-etm@openssh.com, umac-128-etm@openssh.com, hmac-sha2-512, hmacsha2-256, umac-128@openssh.com
 
 * Algoritmo di crittografia del protocollo SFTP:
 
-   * Non supporteremo più: 3des-cbc, aes128-cbc, aes128-gcm@openssh.com, aes192-cbc, aes256-cbc, aes256-gcm@openssh.com, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc, rijndael-cbc@lysator.liu.se
+  * Non supporteremo più: 3des-cbc, aes128-cbc, aes128-gcm@openssh.com, aes192-cbc, aes256-cbc, aes256-gcm@openssh.com, arcfour, arcfour128, arcfour256, blowfish-cbc, cast128-cbc, rijndael-cbc@lysator.liu.se
 
-   * Supporteremo solo: aes128-ctr, aes192-ctr, aes256-ctr
+  * Supporteremo solo: aes128-ctr, aes192-ctr, aes256-ctr
 
 * Connessioni supportate dal protocollo SFTP:
 
-   * Non supporteremo più l&#39;utilizzo di comandi o connessioni scp e rsync tramite il protocollo sftp
+  * Non supporteremo più l&#39;utilizzo di comandi o connessioni scp e rsync tramite il protocollo sftp
 
-   * Supporteremo solo connessioni con protocollo SFTP puro
+  * Supporteremo solo connessioni con protocollo SFTP puro
 
 * Client/protocolli FTP/SFTP supportati:
 
-   * FTP: vsftpd versione 3.0.2-25 o successiva
+  * FTP: vsftpd versione 3.0.2-25 o successiva
 
-   * SFTP: openssh versione 7.4p1-21 o successiva
+  * SFTP: openssh versione 7.4p1-21 o successiva

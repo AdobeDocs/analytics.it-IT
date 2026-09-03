@@ -70,8 +70,8 @@ Le **[origini dati](/help/import/data-sources/overview.md)** sono utili nei se
 
 * In presenza di dati offline che devono essere scritti in modo permanente in Adobe Analytics
 * Opzioni:
-   * Riepilogo: caricamenti di dati semplici, per giorno o di dimensioni limitate
-   * ID transazione: caricamenti di dati che collegano un endpoint online a dati offline e associano completamente i dati importati a uno snapshot visitatore acquisito online (ad esempio, ordini completati online e restituiti offline)
+  * Riepilogo: caricamenti di dati semplici, per giorno o di dimensioni limitate
+  * ID transazione: caricamenti di dati che collegano un endpoint online a dati offline e associano completamente i dati importati a uno snapshot visitatore acquisito online (ad esempio, ordini completati online e restituiti offline)
 
 **[Le integrazioni Adobe Exchange](https://www.adobeexchange.com/experiencecloud.html)** devono essere utilizzate:
 

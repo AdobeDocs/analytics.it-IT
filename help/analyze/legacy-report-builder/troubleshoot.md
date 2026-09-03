@@ -50,8 +50,8 @@ Si verificherà questo effetto collaterale all’apertura di una cartella di lav
 Report Builder richiede l’autenticazione per creare richieste di dati dalle suite di rapporti. A volte si verificano problemi durante l&#39;accesso a Report Builder a seconda delle impostazioni in [!DNL Analytics] o della rete.
 
 * **Società di accesso non valida**: questo errore si verifica in genere quando la società di accesso viene immessa in modo errato o in caso di problemi di attività di rete. Effettua le seguenti operazioni:
-   * Per verificare che non sia presente un errore ortografico o uno spazio errato, controlla l’ortografia della società di accesso.
-   * Accedi ad Analytics con la stessa società di accesso per assicurarti che sia corretta. Se non riesci ad accedere con tali credenziali, contatta uno degli amministratori dell’organizzazione per ottenere la società di accesso corretta.
+  * Per verificare che non sia presente un errore ortografico o uno spazio errato, controlla l’ortografia della società di accesso.
+  * Accedi ad Analytics con la stessa società di accesso per assicurarti che sia corretta. Se non riesci ad accedere con tali credenziali, contatta uno degli amministratori dell’organizzazione per ottenere la società di accesso corretta.
 * **Firewall**: Report Builder utilizza le porte 80 e 443. Assicurati che queste porte siano consentite dal firewall dell’organizzazione. Per ulteriori esclusioni del firewall, consulta inoltre gli indirizzi IP interni di Adobe.
 
 ## Raccomandazioni per l’ottimizzazione delle richieste {#section_33EF919255BF46CD97105D8ACB43573F}
@@ -70,7 +70,7 @@ I seguenti fattori possono aumentare la complessità delle richieste e rallentar
   |  | Esempio: in caso di raggruppamento da A a Z, il numero di elementi per A deve sempre essere minore del numero di elementi per Z, in caso contrario il tempo di richiesta può aumentare notevolmente. |  |
   | Intervallo date | Intervallo piccolo | Intervallo ampio |
   | Filtro | Filtro specifico | Filtri più popolari |
-  | Granularity (Granularità) | Aggregata | Oraria<ul><li>Ogni giorno</li><li>Settimanale</li><li>Mensile</li><li>Trimestrale</li><li>Annuale</li></ul> |
+  | Granularity (Granularità) | Aggregata | Oraria<ul><li>Giornaliero</li><li>Settimanale</li><li>Mensile</li><li>Trimestrale</li><li>Annuale</li></ul> |
   | Numero di voci | Set di dati piccolo | Set di dati grande |
 
 * **Ora di pianificazione**: pianificazione scaglionata su un periodo di 24 ore (vedere la tabella seguente). I segnalibri, le dashboard e le cartelle di lavoro di Report Builder esistenti pianificati insieme potrebbero causare ritardi. Pianifica le richieste più grandi e complesse la mattina presto per consentire l’esecuzione di richiami manuali e aggiornamenti durante la giornata lavorativa.
@@ -96,11 +96,11 @@ Questa sezione include un elenco di esempi di messaggi di errore che possono ver
 * **Esci dalla cella Excel con lo stato attivo prima di utilizzare questa funzionalità.**: se sei in *modalità di modifica* in una cella Excel e fai clic su una delle icone di Report Builder, viene visualizzato questo messaggio di errore. La modalità di modifica in una cella Excel indica che la cella è selezionata e il cursore viene visualizzato al suo interno. In una cella di Excel è inoltre attiva la modalità di modifica quando si digita direttamente nella barra [!UICONTROL Formula] o nella [!UICONTROL Name Box] nella parte superiore di Excel.
 * **L’intervallo selezionato interseca l’intervallo di un’altra richiesta. Modificare la selezione.**: se è già stato mappato un set di celle al foglio di calcolo, verrà visualizzato questo errore.
 * **Ripristino della cartella di lavoro (record rimossi: formula dalla parte /xl/calcChain.xml)**: a volte le formule di una cartella di lavoro vengono danneggiate durante il salvataggio o il trasferimento. Quando il file viene aperto, Excel tenta di eseguire queste formule e ha esito negativo. È possibile risolvere il problema rimuovendo `calcChain.xml` dal foglio di calcolo, obbligando Excel ad aggiornare i calcoli della formula.
-   1. Rinominare l&#39;estensione di file della cartella di lavoro da `.xlsx` a `.zip`.
-   2. Decomprimere il contenuto e aprire la cartella `/xl/`.
-   3. Elimina `calcChain.xml`.
-   4. Comprimere nuovamente il contenuto e ripristinare l&#39;estensione del file in `.xlsx`.
-   5. Apri la cartella di lavoro in Excel e aggiorna tutte le richieste Report Builder.
+  1. Rinominare l&#39;estensione di file della cartella di lavoro da `.xlsx` a `.zip`.
+  2. Decomprimere il contenuto e aprire la cartella `/xl/`.
+  3. Elimina `calcChain.xml`.
+  4. Comprimere nuovamente il contenuto e ripristinare l&#39;estensione del file in `.xlsx`.
+  5. Apri la cartella di lavoro in Excel e aggiorna tutte le richieste Report Builder.
 * **È possibile che le celle di Excel associate ai filtri di input o all&#39;intervallo di output siano state eliminate**: Report Builder utilizza i nomi di Excel per allegare le richieste di dati alle celle. Se si eliminano i nomi di Excel da Gestione nomi, è possibile visualizzare questo errore. Non è possibile recuperare le richieste se i nomi Excel vengono eliminati. Se la cartella di lavoro è stata pianificata, è possibile scaricarne una copia da Gestione pianificazione oppure aprire le copie consegnate in precedenza della cartella di lavoro.
 
 ## Registra richieste

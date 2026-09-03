@@ -32,7 +32,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 2510
+source-wordcount: 2518
 ht-degree: 41%
 
 ---
@@ -84,7 +84,7 @@ I fattori del progetto includono:
 
 | Fattore | Definizione | Ottimizzazione |
 | --- | --- | --- |
-| Numero di richieste | Numero totale di richieste effettuate ad Adobe per recuperare i dati visualizzati nel progetto. Le query includono richieste con classificazione per tabelle, rilevamento di anomalie, grafici sparkline, componenti visualizzati nella barra a sinistra e altri ancora. Questo valore esclude i pannelli e le visualizzazioni compressi. La soglia consigliata è 100. | Semplifica il progetto laddove possibile, suddividendo i dati in diversi progetti in base a uno scopo specifico o a un gruppo di soggetti interessati. Utilizza i tag per organizzare i progetti in temi e utilizza [collegamenti diretti](/help/analyze/analysis-workspace/curate-share/shareable-links.md) per creare un sommario interno che consenta agli interessati di trovare facilmente ciò di cui hanno bisogno. |
+| Numero di richieste | Numero totale di richieste effettuate ad Adobe per recuperare i dati visualizzati nel progetto. Le query includono richieste con ranking per tabelle, rilevamento di anomalie, grafici sparkline, componenti visualizzati nella barra a sinistra e altri ancora. Questo valore esclude i pannelli e le visualizzazioni compressi. La soglia consigliata è 100. | Semplifica il progetto laddove possibile, suddividendo i dati in diversi progetti in base a uno scopo specifico o a un gruppo di soggetti interessati. Utilizza i tag per organizzare i progetti in temi e utilizza [collegamenti diretti](/help/analyze/analysis-workspace/curate-share/shareable-links.md) per creare un sommario interno che consenta agli interessati di trovare facilmente ciò di cui hanno bisogno. |
 | Pannelli espansi (sul totale dei pannelli) | Numero di pannelli espansi rispetto al numero totale di pannelli nel progetto. La soglia consigliata è 5. | Dopo aver semplificato il progetto, comprimi i pannelli che non è necessario visualizzare al momento del caricamento. Quando il progetto viene aperto, vengono elaborati solo i pannelli espansi. I pannelli compressi vengono elaborati solo quando l’utente li espande. |
 | Visualizzazioni espanse (sul totale delle visualizzazioni) | Numero di tabelle e visualizzazioni espanse rispetto al totale nel progetto, incluse le origini dati nascoste. La soglia consigliata è 15. | Dopo aver semplificato il progetto, comprimi le visualizzazioni che non è necessario visualizzare al momento del caricamento. Dai priorità agli elementi visivi più importanti per chi userà il rapporto e, se necessario, suddividi gli elementi visivi di supporto in un pannello o un progetto separato e più dettagliato. |
 | Numero di celle a forma libera | Numero totale di celle di tabella a forma libera nel progetto, calcolato come righe * colonne per tutte le tabelle. Questo valore esclude le origini dati nascoste. La soglia consigliata è 4000. | Riduci il numero di colonne nella tabella, includendo solo i punti dati più rilevanti. Riduci il numero di righe nella tabella, regolando il numero di righe visualizzate, applicando un filtro tabella o applicando un segmento. |

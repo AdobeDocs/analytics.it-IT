@@ -25,8 +25,8 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
 workflow-type: tm+mt
-source-wordcount: 1961
-ht-degree: 88%
+source-wordcount: 1979
+ht-degree: 89%
 
 ---
 
@@ -100,8 +100,8 @@ Per condividere un ruolo di progetto specifico con utenti o gruppi dell’organi
 
    Oppure
 
-   Per condividere solo un singolo progetto, puoi aprire il progetto che desideri condividere, quindi selezionare **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
-Se sono presenti modifiche non salvate, viene richiesto di salvare prima il progetto.
+   Per condividere solo un singolo progetto, puoi aprire il progetto da condividere e poi selezionare **[!UICONTROL Share]** > **[!UICONTROL Share with Workspace users]**.
+   In presenza di modifiche non salvate, ti verrà richiesto di salvare prima il progetto.
 
    Viene visualizzata la finestra di dialogo Condividi progetto. Le sezioni [!UICONTROL **Condividi tramite collegamento**] e [!UICONTROL **Impostazioni**] della finestra di dialogo sono visibili solo quando si condivide un singolo progetto.
 
@@ -204,9 +204,9 @@ Per condividere un progetto Analysis Workspace con persone che non hanno accesso
 
      Gli amministratori di Analytics possono configurare questa preferenza per l’azienda, come descritto in [Preferenze](/help/analyze/analysis-workspace/user-preferences.md). A seconda della configurazione di questa opzione da parte dell’amministratore, potrebbero verificarsi gli scenari seguenti:
 
-      * Se questa opzione non è visibile, l’amministratore di Analytics non ha abilitato questa funzione.
+     * Se questa opzione non è visibile, l’amministratore di Analytics non ha abilitato questa funzione.
 
-      * Se questa opzione è abilitata e disabilitata, l’amministratore di Analytics richiede l’autenticazione CX Enterprise per tutti coloro che accedono ai progetti Analysis Workspace.
+     * Se questa opzione è abilitata e disabilitata, l’amministratore di Analytics richiede l’autenticazione CX Enterprise per tutti coloro che accedono ai progetti Analysis Workspace.
 
 1. Accanto al campo **[!UICONTROL Share with anyone (no login required)]**, fai clic sull’icona **Copia collegamento** ![Icona Copia collegamento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Link_18_N.svg) per copiare il collegamento negli Appunti di sistema.
 

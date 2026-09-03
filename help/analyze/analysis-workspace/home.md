@@ -96,7 +96,7 @@ Per una panoramica dei menu disponibili, consulta le seguenti tabelle.
 | **[!UICONTROL Refresh project]** | **[!UICONTROL *Opzione+r *]** | **[!UICONTROL *Alt+r *]** | Aggiorna il progetto. |
 | **[!UICONTROL Download CSV]** | **[!UICONTROL *Maiusc+Comando+v *]** | **[!UICONTROL *Maiusc+Ctrl+v *]** | Esporta il proggetto come file CSV. |
 | **[!UICONTROL Download PDF]** | **[!UICONTROL *Maiusc+Comando+b *]** | **[!UICONTROL *Maiusc+Ctrl+b *]** | Scarica il progetto come documento PDF. |
-| **[!UICONTROL Project info & settings]** | | | Definisci le impostazioni per i progetti, ad esempio nome, tag, palette colori e altro ancora. |
+| **[!UICONTROL Project info & settings]** | | | Definisci le impostazioni per i progetti, ad esempio nome, tag, palette di colori e altro ancora. |
 | **[!UICONTROL User settings]** | | | [Configura le preferenze per l’utilizzo di Analysis Workspace](/help/analyze/analysis-workspace/user-preferences.md). |
 
 

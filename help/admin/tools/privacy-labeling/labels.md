@@ -25,7 +25,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 3812
+source-wordcount: 3816
 ht-degree: 44%
 
 ---
@@ -243,7 +243,7 @@ La tabella seguente descrive come vengono “eliminate” molte variabili. Quest
 | ID acquisto | Il valore esistente è sostituito da un nuovo valore del modulo “G-7588FCD8642718EC50”, in cui il valore esadecimale a 18 cifre dopo il prefisso “G-” è un numero di 18 cifre pseudo-casuale e crittograficamente sicuro di 128 bit. Tutti i commenti che si applicano all&#39;eliminazione delle variabili di traffico e di commercio si applicano anche qui.<p>L’ID acquisto è un ID transazione il cui scopo principale è garantire che un acquisto non venga accreditato due volte, ad esempio quando qualcuno aggiorna la pagina di conferma dell’acquisto. L’ID stesso può spostare l’acquisto in una riga nel proprio DB in cui viene registrato l’acquisto. Nella maggior parte dei casi non è necessario cancellare questo ID, quindi non viene cancellato per impostazione predefinita.<p>Se si riesce ancora a ricollegare l’acquisto ad un utente dopo la richiesta di cancellazione Privacy dei dati dei propri dati, allora potrebbe essere necessario cancellare questo campo, in modo che i dati di Analytics per questo visitatore non possano essere legati all’acquirente. |
 | Visitor ID | Il valore è un numero intero a 128 bit e viene sostituito con un valore pseudo-casuale e crittograficamente sicuro di 128 bit. |
 | <ul><li>MCID</li><li>ID visitatore personalizzato</li><li>Indirizzo IP</li><li>Indirizzo IP 2 | Il valore viene cancellato (impostato sulla stringa vuota o 0 a seconda del tipo della variabile). |
-| <ul><li>Azione ClickMap (legacy)</li><li>Contesto ClickMap (legacy)</li><li>Pagina</li><li>URL della pagina</li><li>URL originale della pagina iniziale</li><li>Pagina di provenienza</li><li>URL di visita alla pagina iniziale</li></ul> | I parametri URL vengono cancellati/rimossi. Se il valore non è simile a un URL, viene cancellato (impostato sulla stringa vuota). |
+| <ul><li>Azione ClickMap (legacy)</li><li>Contesto ClickMap (legacy)</li><li>Pagina</li><li>URL della pagina</li><li>URL originale della pagina iniziale</li><li>Destinatario che inoltra</li><li>URL di visita alla pagina iniziale</li></ul> | I parametri URL vengono cancellati/rimossi. Se il valore non è simile a un URL, viene cancellato (impostato sulla stringa vuota). |
 | <ul><li>Latitudine</li><li>Longitudine</li></ul> | La precisione viene ridotta a non più di 1 km. |
 
 {style="table-layout:auto"}

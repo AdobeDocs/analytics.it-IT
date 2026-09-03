@@ -67,9 +67,9 @@ Gli elementi Dimension includono gli identificatori di clic degli annunci genera
 * **`amovid`**: l&#39;ID visitatore di Adobe Advertising, noto anche come ID surfista.
 * **`ts`**: la marca temporale generata da Adobe Advertising.
 * **`channel`**: tipo di canale responsabile del clic o dell&#39;esposizione:
-   * **`d`**: clic su un annuncio di visualizzazione DSP (click-through di visualizzazione).
-   * **`i`**: impression in un annuncio di visualizzazione DSP (view-through di visualizzazione).
-   * **`s`**: clic su un annuncio di ricerca (click-through di ricerca).
+  * **`d`**: clic su un annuncio di visualizzazione DSP (click-through di visualizzazione).
+  * **`i`**: impression in un annuncio di visualizzazione DSP (view-through di visualizzazione).
+  * **`s`**: clic su un annuncio di ricerca (click-through di ricerca).
 
 ### Esempi
 

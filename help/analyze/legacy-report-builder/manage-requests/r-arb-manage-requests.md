@@ -83,7 +83,7 @@ Visualizzare i dettagli dello stato di una richiesta e utilizzare le descrizioni
    <td colname="col2"> <p> (O Modifica più volte) Modifica una richiesta selezionata. Verrà visualizzata la finestra di dialogo <span class="wintitle"> Richiesta guidata</span>. Vedi <a href="/help/analyze/legacy-report-builder/manage-requests/t-edit-multiple-requests.md"   > Modifica più richieste</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Elimina </p> </td> 
+   <td colname="col1"> <p>Eliminazione </p> </td> 
    <td colname="col2"> <p>Elimina le richieste. Puoi eliminare più richieste selezionate. Per eliminare una richiesta dall’elenco, selezionala e premi Elimina dalla tastiera. </p> </td> 
   </tr> 
   <tr> 

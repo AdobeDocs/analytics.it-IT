@@ -32,9 +32,9 @@ Se un feed di dati funziona correttamente su base oraria o giornaliera ma di rec
 * Assicurati che ci sia abbastanza spazio disponibile sul sito FTP. Se lo spazio su disco del sito FTP è insufficiente, eliminare alcuni file dal server per liberare spazio per i nuovi file.
 * Se non sono presenti problemi noti e il sito FTP dispone di spazio su disco sufficiente, puoi inviare nuovamente il feed di dati.
 
-   1. Accedi ad Adobe Analytics e passa a **[!UICONTROL Admin]** > **[!UICONTROL Data feeds]**.
-   2. Individua i feed di dati desiderati, quindi fai clic sulla casella di controllo accanto a ciascuno di essi che desideri rieseguire.
-   3. Fai clic su **[!UICONTROL Rerun]**.
+  1. Accedi ad Adobe Analytics e passa a **[!UICONTROL Admin]** > **[!UICONTROL Data feeds]**.
+  2. Individua i feed di dati desiderati, quindi fai clic sulla casella di controllo accanto a ciascuno di essi che desideri rieseguire.
+  3. Fai clic su **[!UICONTROL Rerun]**.
 
   ![Riesecuzione](assets/rerun.png)
 

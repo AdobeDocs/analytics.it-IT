@@ -17,8 +17,8 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 4%
+source-wordcount: 438
+ht-degree: 5%
 
 ---
 
@@ -44,17 +44,17 @@ Per creare un set di classificazione:
       * **[!UICONTROL Lookup]**. Una tabella di ricerca è una classificazione di una classificazione primaria, comunemente definita come figlio o sottoclassificazioni. Una ricerca è costituita da metadati relativi a un valore di classificazione, anziché alla dimensione originale. Ad esempio, una dimensione *Prodotto* potrebbe avere una classificazione primaria *Codice colore*. Una tabella di ricerca di *Nome colore* può quindi essere allegata al *Codice colore* per spiegare ogni codice colore.
 1. Nella sezione **[!UICONTROL Job notifications]**, seleziona gli utenti a cui inviare la notifica in caso di errore o completamento dei processi del set di classificazione.
    * Per inviare una notifica agli utenti in caso di errore:
-      1. Abilita **[!UICONTROL Notify on failure]**.
-      1. Specificare uno o più indirizzi e-mail separati da virgole in **[!UICONTROL Failure email recipients]**.
+     1. Abilita **[!UICONTROL Notify on failure]**.
+     1. Specificare uno o più indirizzi e-mail separati da virgole in **[!UICONTROL Failure email recipients]**.
    * Per inviare una notifica agli utenti in caso di esito positivo:
-      1. Abilita **[!UICONTROL Notify on success]**.
-      1. Specificare uno o più indirizzi e-mail separati da virgole in **[!UICONTROL Success email recipients]**.
+     1. Abilita **[!UICONTROL Notify on success]**.
+     1. Specificare uno o più indirizzi e-mail separati da virgole in **[!UICONTROL Success email recipients]**.
 1. Nella sezione **[!UICONTROL Subscriptions]**, se hai selezionato **[!UICONTROL Primary]**, immetti uno o più **[!UICONTROL Subscriptions]**.  È possibile definire più combinazioni di **[!UICONTROL Report Suite]** e **[!UICONTROL Dimension]** in un set di classificazione.
 
    * Selezionare ![CrossSize400](/help/assets/icons/CrossSize400.svg) per eliminare una combinazione di **[!UICONTROL Report Suite]** e **[!UICONTROL Key Dimension]**.
 
    Se aggiungi una combinazione di **[!UICONTROL Report Suite]** e **[!UICONTROL Key Dimension]** già esistente in un altro set di classificazione, viene visualizzato un messaggio di colore rosso.
-Puoi:
+   Puoi:
    * Selezionare **[!UICONTROL Add to existing]** per aprire l&#39;altro set di classificazione e [aggiungere classificazioni allo schema](manage/schema.md) per l&#39;altro set di classificazione.
    * Cambia **[!UICONTROL Report Suite]** e **[!UICONTROL Key Dimension]** in una combinazione che non è già abbonata a un altro set di classificazione.
 1. Selezionare **[!UICONTROL Save]** per salvare il set di classificazione. Selezionare **[!UICONTROL Cancel]** per annullare la definizione.

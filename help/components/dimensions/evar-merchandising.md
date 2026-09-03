@@ -64,9 +64,9 @@ La metrica [Istanze](../metrics/instances.md) non è consigliata per l&#39;utili
 
 * Per le variabili di merchandising con sintassi di prodotto, le istanze non vengono affatto incrementate.
 * Per le variabili di merchandising con sintassi per variabili di conversione, le istanze vengono conteggiate ogni volta che si imposta eVar. Tuttavia, attribuisce all&#39;elemento dimensione `"None"` a meno che tutte le seguenti condizioni non si verifichino sullo stesso hit:
-   * L’eVar di merchandising è impostata con un valore.
-   * La variabile `products` è definita con un valore.
-   * È impostato un evento di binding.
+  * L’eVar di merchandising è impostata con un valore.
+  * La variabile `products` è definita con un valore.
+  * È impostato un evento di binding.
 
 ```js
 // This merchandising eVar uses conversion variable syntax, and counts an instance.

@@ -28,9 +28,9 @@ Questo capitolo spiega i concetti necessari per comprendere i profili di prodott
 
 * Autorizzazioni
 
-   * [Profili di prodotto per Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
-   * [Autorizzazioni del profilo di prodotto per gli strumenti Report Suite](/help/admin/admin-console/permissions/report-suite-tools.md)
-   * [Autorizzazioni del profilo di prodotto per gli strumenti Analytics](/help/admin/admin-console/permissions/analytics-tools.md)
+  * [Profili di prodotto per Adobe Analytics](/help/admin/admin-console/permissions/product-profile.md)
+  * [Autorizzazioni del profilo di prodotto per gli strumenti Report Suite](/help/admin/admin-console/permissions/report-suite-tools.md)
+  * [Autorizzazioni del profilo di prodotto per gli strumenti Analytics](/help/admin/admin-console/permissions/analytics-tools.md)
 
 ## Aggiungere un amministratore in Adobe Analytics
 

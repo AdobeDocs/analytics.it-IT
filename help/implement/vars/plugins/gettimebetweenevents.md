@@ -87,15 +87,15 @@ La funzione `getTimeBetweenEvents` utilizza i seguenti argomenti:
 * **`cn`** (facoltativo, stringa): nome del cookie in cui è memorizzata l&#39;ora del primo evento. Predefinito su `"s_tbe"`.
 * **`etd`** (facoltativo, numero intero): tempo di scadenza del cookie in giorni. Impostare su `0` per scadere alla fine della sessione del browser. Se non è impostato, il valore predefinito è 1 giorno.
 * **`fmt`** (facoltativo, stringa): formato del tempo in cui viene restituito il numero di secondi (impostazione predefinita: niente)
-   * `"s"` per secondi
-   * `"m"` per minuti
-   * `"h"` per ore
-   * `"d"` per giorni
-   * Se non viene impostato, il formato del valore restituito si basa sulle regole seguenti:
-      * Qualsiasi valore inferiore a un minuto viene arrotondato al valore di riferimento di 5 secondi più vicino. Ad esempio, 10 secondi, 15 secondi
-      * Qualsiasi valore compreso tra un minuto e un&#39;ora viene arrotondato al valore di riferimento di 1/2 minuto più vicino. Ad esempio, 30,5 minuti, 31 minuti
-      * Qualsiasi valore compreso tra un’ora e un giorno viene arrotondato al valore di riferimento di un quarto d’ora più vicino. Ad esempio, 2,25 ore, 3,5 ore
-      * Qualsiasi valore superiore a un giorno viene arrotondato al valore di riferimento del giorno più vicino. Ad esempio, 1 giorno, 3 giorni, 9 giorni
+  * `"s"` per secondi
+  * `"m"` per minuti
+  * `"h"` per ore
+  * `"d"` per giorni
+  * Se non viene impostato, il formato del valore restituito si basa sulle regole seguenti:
+    * Qualsiasi valore inferiore a un minuto viene arrotondato al valore di riferimento di 5 secondi più vicino. Ad esempio, 10 secondi, 15 secondi
+    * Qualsiasi valore compreso tra un minuto e un&#39;ora viene arrotondato al valore di riferimento di 1/2 minuto più vicino. Ad esempio, 30,5 minuti, 31 minuti
+    * Qualsiasi valore compreso tra un’ora e un giorno viene arrotondato al valore di riferimento di un quarto d’ora più vicino. Ad esempio, 2,25 ore, 3,5 ore
+    * Qualsiasi valore superiore a un giorno viene arrotondato al valore di riferimento del giorno più vicino. Ad esempio, 1 giorno, 3 giorni, 9 giorni
 * **`bml`** (facoltativo, numero): lunghezza del benchmark di arrotondamento in base al formato dell&#39;argomento `fmt`. Ad esempio, se l&#39;argomento `fmt` è `"s"` e questo argomento è `2`, il valore restituito viene arrotondato al valore di riferimento di 2 secondi più vicino. Se l&#39;argomento `fmt` è `"m"` e l&#39;argomento è `0.5`, il valore restituito viene arrotondato al valore di riferimento di mezzo minuto più vicino.
 * **`rte`** (facoltativo, stringa): stringa delimitata da virgole di eventi di Analytics che rimuovono o eliminano il timer. Impostazione predefinita: niente.
 

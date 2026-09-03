@@ -17,7 +17,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 544
+source-wordcount: 540
 ht-degree: 2%
 
 ---
@@ -58,11 +58,11 @@ Il termine di ricerca non viene cancellato:
 * Quando fai clic sulla scheda Dimension, torna alla scheda Metrica.
 * Quando si richiamano altri sottomoduli (modali o non modali) che all&#39;uscita torneranno al Passaggio 2 della Creazione guidata richieste. Esempi di questi moduli sono
 
-   * Dimension Filter Forms
-   * Formattazione intervallo di date Forms
-   * Modulo opzioni formato
-   * Modulo testo pre-pend-postpend
-   * Modulo posizione intervallo di output
+  * Dimension Filter Forms
+  * Formattazione intervallo di date Forms
+  * Modulo opzioni formato
+  * Modulo testo pre-pend-postpend
+  * Modulo posizione intervallo di output
 
 ## Ordinare una richiesta per metrica
 

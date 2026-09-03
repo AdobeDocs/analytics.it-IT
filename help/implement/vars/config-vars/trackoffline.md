@@ -40,8 +40,8 @@ Quando è abilitata, AppMeasurement utilizza il seguente processo per inviare da
 * Durante la compilazione di una richiesta di immagine, è incluso un parametro della stringa di query con marca temporale.
 * Se il dispositivo non è in grado di raggiungere i server di raccolta dati di Adobe, l’hit viene memorizzato localmente sul dispositivo.
 * Durante ogni hit successivo, AppMeasurement tenta di inviare una richiesta di immagine ad Adobe.
-   * Se non riesce a raggiungere i server di raccolta dati di Adobe, l’hit viene aggiunto alla coda sul dispositivo.
-   * Se è in grado di raggiungere i server di raccolta dati di Adobe, l’hit e la coda di hit mentre il dispositivo era offline vengono inviati.
+  * Se non riesce a raggiungere i server di raccolta dati di Adobe, l’hit viene aggiunto alla coda sul dispositivo.
+  * Se è in grado di raggiungere i server di raccolta dati di Adobe, l’hit e la coda di hit mentre il dispositivo era offline vengono inviati.
 
 ## Tracciamento offline tramite Web SDK
 

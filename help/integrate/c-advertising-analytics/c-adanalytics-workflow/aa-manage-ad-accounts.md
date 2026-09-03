@@ -45,8 +45,8 @@ La tabella è costituita dalle colonne riportate di seguito.
 - Per cercare il tuo account pubblicitario utilizzando il campo di ricerca ![Cerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
 - Per selezionare gli account attivi nella tabella, selezionare **[!UICONTROL Active accounts]**.
 - Per definire le colonne da visualizzare per la tabella, selezionare ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>Nella finestra di dialogo **[!UICONTROL Customize table]**:
-   - Seleziona le colonne da mostrare.
-   - Seleziona **[!UICONTROL Apply]**.
+  - Seleziona le colonne da mostrare.
+  - Seleziona **[!UICONTROL Apply]**.
 
 Quando selezioni uno o più account pubblicitari, una barra blu delle azioni, basata sullo stato degli account selezionati, ti consente di ![Modificare](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Rename]**, ![Rinfrescarti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Map Report Suites]**, ![Riprodurre](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Activate]** o ![Sospendere](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pause]** gli account pubblicitari.
 
