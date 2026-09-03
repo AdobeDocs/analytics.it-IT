@@ -26,7 +26,7 @@ ht-degree: 20%
 
 ## Come è calcolata questa metrica
 
-Considerando ogni [persona](people.md) (identificata o non identificata), questa [metrica](overview.md) aumenta se l&#39;hit contiene la stringa di query `mid` (basata sul cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
+Considerando ogni [persona](people.md) (identificata o non identificata), questa [metrica](overview.md) aumenta se l&#39;hit contiene la stringa di query `mid` (basata sul cookie [`s_ecid`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics)).
 
 Puoi creare la metrica calcolata `[People with ECID] ÷ [People]` per ottenere la percentuale di visitatori del tuo sito utilizzando il servizio ID.
 

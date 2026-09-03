@@ -40,10 +40,10 @@ Alcune configurazioni del firewall bloccano i domini su cui Adobe Analytics si b
 
 ## Domini Adobe CX Enterprise
 
-Oltre ai domini di cui sopra, Adobe CX Enterprise si basa su diversi domini per la raccolta dei dati e l&#39;esportazione dei rapporti. Per l&#39;elenco dei domini, vedere [Domini utilizzati da CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains).
+Oltre ai domini di cui sopra, Adobe CX Enterprise si basa su diversi domini per la raccolta dei dati e l&#39;esportazione dei rapporti. Per l&#39;elenco dei domini, vedere [Domini utilizzati da CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/domains).
 
 >[!MORELIKETHIS]
 >
 >[Indirizzi IP utilizzati da Adobe Analytics](ip-addresses.md)
 >
->[Domini utilizzati da CX Enterprise](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/domains)
+>[Domini utilizzati da CX Enterprise](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/domains)
