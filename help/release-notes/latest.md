@@ -5,30 +5,15 @@ feature: Release Notes
 hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
-  - id: b3f03848-ae12-48b2-8aab-cad18567eb32
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
-  - id: a421fb65-2c82-457a-921c-28c46b697a39
-subfeature_v2:
-  - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: b3f03848-ae12-48b2-8aab-cad18567eb32id: c153fd90-23e1-4614-81d3-3cc7571227f7id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7id: fd307ce7-56f5-4ee3-af68-a7833ff6e85eid: a421fb65-2c82-457a-921c-28c46b697a39
+subfeature_v2: id: d89ba969-e026-48bf-927e-e9df2f1e34f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6dd4e1e089cf72c03c8d2fd43ac87e919efa0602
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 47%
+source-wordcount: 1061
+ht-degree: 49%
 
 ---
 
@@ -44,7 +29,6 @@ Queste note sulla versione coprono il periodo di rilascio di settembre 2026. Le 
 | ----------- | ---------- | ---- |
 | **Limitare i segmenti all&#39;intervallo di date del rapporto**<br/> I dati in un rapporto di Workspace possono estendersi oltre l&#39;intervallo di date del rapporto quando un segmento include componenti per l&#39;intervallo di date.<p>È ora disponibile una nuova opzione che consente di limitare i risultati all’intervallo di date del rapporto indipendentemente da qualsiasi componente data incluso nel segmento.</p><p>Questa opzione è disponibile quando crei o modifichi un segmento il cui contenitore di livello superiore è Visitatore.</p><p>Per ulteriori informazioni, vedere [Generare segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 agosto 2026 | 9 settembre 2026 |
 | **Aggiornamenti del rilevamento bot**<br/> Quando si utilizza la raccolta dati di Edge con il Web SDK, sono disponibili i seguenti aggiornamenti del rilevamento bot:<ul><li>Ora puoi creare regole di rilevamento bot per identificare le eccezioni nel traffico che altrimenti verrebbero trattate come generate da bot. Le regole esistenti e future continueranno a utilizzare l’impostazione predefinita contrassegnare il traffico corrispondente come generato da bot.</li><li>Le regole bot personalizzate ora vengono eseguite prima delle regole di rilevamento dei bot IAB. Questa modifica non influisce sui punteggi dei bot, ma i nomi delle regole bot associati a un evento possono cambiare.</li></ul><p>Nota: questo aggiornamento si applica solo alle implementazioni di raccolta dati di Edge che utilizzano il Web SDK. Non si applica alle librerie precedenti come AppMeasurement.</p><p>Il collegamento alla documentazione seguirà a breve.</p> | | Inizio settembre 2026 |
-| **Integrazione di Adobe Brand Visibility**<br/> Connetti Adobe Brand Visibility con i dati Adobe Analytics della tua organizzazione in modo da poter misurare in che modo l&#39;individuazione basata sull&#39;intelligenza artificiale si traduce in un coinvolgimento reale del sito Web e in risultati di business.<p>Il collegamento alla documentazione seguirà a breve.</p> | | Settembre 2026 |
 | **Aggiornamenti API per i set di classificazione**<br/> La documentazione API per i set di classificazione ora include informazioni aggiornate sull&#39;endpoint e sui parametri per la configurazione delle richieste API per i set di classificazione.<p>Per ulteriori informazioni, consulta la [Guida dell&#39;endpoint Classificazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | 5 settembre 2026 | 30 settembre 2026 |
 | **Indicazioni sulla codifica di itemId data nelle guide al report API 2.0**<br/> Le guide al report con tendenze data API di Adobe Analytics 2.0 ora includono nuove sezioni che spiegano come vengono codificati i parametri e i valori data `itemId`. Questo consente di configurare e migrare ai servizi API 2.0 dalle API 1.4, ora obsolete.<p>Per ulteriori informazioni, vedere la [Guida ai report KPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) e la [Guida ai report avanzati](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced).</p> | 5 settembre 2026 | 30 settembre 2026 |
 
@@ -85,6 +69,6 @@ Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, consulta le [note
 >
 >* [Note sulle versioni precedenti per il 2026](/help/release-notes/2026.md)
 >* [Note sulla versione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it)
->* [Note sulla versione dei servizi multimediali in streaming &#x200B;](https://experienceleague.adobe.com/it/docs/media-analytics/using/release-notes/release-notes)
->* Ultimi aggiornamenti sulle versioni dei [prodotti Adobe CX Enterprise](https://business.adobe.com/it/products/adobe-experience-cloud-products.html)
+>* [Note sulla versione dei servizi multimediali in streaming ](https://experienceleague.adobe.com/it/docs/media-analytics/using/release-notes/release-notes)
+>* Ultimi aggiornamenti sulle versioni dei [prodotti Adobe CX Enterprise](https://business.adobe.com/products/adobe-experience-cloud-products.html)
 
