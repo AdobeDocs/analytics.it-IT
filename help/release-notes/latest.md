@@ -2,7 +2,6 @@
 title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
-hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -25,16 +24,16 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 51114adeba5f93fb4dce32e9e5f949f7afb4ba7b
+source-git-commit: 01c0296a102b323ea067b2459f79969d507dc744
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 47%
+source-wordcount: 1117
+ht-degree: 46%
 
 ---
 
 # Note sulla versione corrente di Adobe Analytics (settembre 2026)
 
-**Ultimo aggiornamento**: 8 settembre 2026
+**Ultimo aggiornamento**: 9 settembre 2026
 
 Queste note sulla versione coprono il periodo di rilascio di settembre 2026. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -44,24 +43,23 @@ Queste note sulla versione coprono il periodo di rilascio di settembre 2026. Le 
 | ----------- | ---------- | ---- |
 | **Limitare i segmenti all&#39;intervallo di date del rapporto**<br/> I dati in un rapporto di Workspace possono estendersi oltre l&#39;intervallo di date del rapporto quando un segmento include componenti per l&#39;intervallo di date.<p>È ora disponibile una nuova opzione che consente di limitare i risultati all’intervallo di date del rapporto indipendentemente da qualsiasi componente data incluso nel segmento.</p><p>Questa opzione è disponibile quando crei o modifichi un segmento il cui contenitore di livello superiore è Visitatore.</p><p>Per ulteriori informazioni, vedere [Generare segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 agosto 2026 | 9 settembre 2026 |
 | **Aggiornamenti del rilevamento bot**<br/> Quando si utilizza la raccolta dati di Edge con il Web SDK, sono disponibili i seguenti aggiornamenti del rilevamento bot:<ul><li>Ora puoi creare regole di rilevamento bot per identificare le eccezioni nel traffico che altrimenti verrebbero trattate come generate da bot. Le regole esistenti e future continueranno a utilizzare l’impostazione predefinita contrassegnare il traffico corrispondente come generato da bot.</li><li>Le regole bot personalizzate ora vengono eseguite prima delle regole di rilevamento dei bot IAB. Questa modifica non influisce sui punteggi dei bot, ma i nomi delle regole bot associati a un evento possono cambiare.</li></ul><p>Nota: questo aggiornamento si applica solo alle implementazioni di raccolta dati di Edge che utilizzano il Web SDK. Non si applica alle librerie precedenti come AppMeasurement.</p><p>Il collegamento alla documentazione seguirà a breve.</p> | | Inizio settembre 2026 |
-| **Integrazione di Adobe Brand Visibility**<br/> Connetti Adobe Brand Visibility con i dati Adobe Analytics della tua organizzazione in modo da poter misurare in che modo l&#39;individuazione basata sull&#39;intelligenza artificiale si traduce in un coinvolgimento reale del sito Web e in risultati di business.<p>Il collegamento alla documentazione seguirà a breve.</p> | | Settembre 2026 |
 | **Aggiornamenti API per i set di classificazione**<br/> La documentazione API per i set di classificazione ora include informazioni aggiornate sull&#39;endpoint e sui parametri per la configurazione delle richieste API per i set di classificazione.<p>Per ulteriori informazioni, consulta la [Guida dell&#39;endpoint Classificazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | 5 settembre 2026 | 30 settembre 2026 |
 | **Indicazioni sulla codifica di itemId data nelle guide al report API 2.0**<br/> Le guide al report con tendenze data API di Adobe Analytics 2.0 ora includono nuove sezioni che spiegano come vengono codificati i parametri e i valori data `itemId`. Questo consente di configurare e migrare ai servizi API 2.0 dalle API 1.4, ora obsolete.<p>Per ulteriori informazioni, vedere la [Guida ai report KPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) e la [Guida ai report avanzati](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced).</p> | 5 settembre 2026 | 30 settembre 2026 |
 
 ### Correzioni in Adobe Analytics
 
-**Activity Map**: AN-488579, AN-487247
-**Analysis Workspace**: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373
-**Classificazioni**: AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468592, AN-468326, AN-467115, AN-466995, AN-465636, AN-465616, AN-465380, AN-464911 464338 463677 462729 462577 461040 459316, AN-, AN-, AN-, AN-, AN-, AN-, AN-
-**Feed dati e Data Warehouse**: AN-487624, AN-487287, AN-479923, AN-479166, AN-479109, AN-468483
+**Activity Map**: AN-488579, AN-487247, AN-491828
+**Analysis Workspace**: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373, AN-492801 488821, AN-488452, AN-486517, AN-478930, AN-468325
+**Classificazioni**: AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468592, AN-468326, AN-467115, AN-466995, AN-465636, AN-465616, AN-465380, AN-464911 464338 463677 462729 462577 461040 459316 490072 487100, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-
+**Feed dati e Data Warehouse**: AN-487624, AN-487287, AN-479923, AN-479166, AN-479109, AN-468483, AN-493406, AN-492167, AN-333098
 **Migrazione**:
-**Esportazioni**: AN-467131
-**Report Builder**: AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695
+**Esportazioni**: AN-467131, AN-469034, AN-447252
+**Report Builder**: AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695, AN-492330, AN-490564, AN-468293, AN-460921
 **Generazione rapporti**: AN-468621, AN-465383, AN-463924
-**Suite di rapporti**: AN-468484, AN-468460, AN-465385
-**Rapporti pianificati**:
-**Segmentazione**: AN-486561
-**Altro**: AN-488549, AN-467426, AN-465265, AN-464645, AN-459714, AN-459323, AN-454514
+**Suite di rapporti**: AN-468484, AN-468460, AN-465385, AN-463216
+**Rapporti pianificati**: AN-479157
+**Segmentazione**: AN-486561, AN-278260
+**Altro**: AN-488549, AN-467426, AN-465265, AN-464645, AN-459714, AN-459323, AN-454514, AN-487288, AN-470023, AN-469601, AN-320799, AN-316708, AN-309317, AN-266652
 
 ### Avvisi sulla fine del ciclo di vita (EOL) {#eol}
 
