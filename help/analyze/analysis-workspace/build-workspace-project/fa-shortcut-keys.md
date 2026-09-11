@@ -6,26 +6,15 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 TQID: https://experienceleague.adobe.com/3JPl-XhV9gv2qzMAhpCr3-Aq8WUHR0BBZJilP3WlMvI
-product_v2:
-  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
-feature_v2:
-  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
-  - id: f73667dc-d296-4875-8975-ac3fdc3adc42
-subfeature_v2:
-  - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
-  - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
-  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
-  - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
-  - id: eb853e43-1634-4181-adf2-a44d64395ec3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+product_v2: id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+feature_v2: id: c153fd90-23e1-4614-81d3-3cc7571227f7id: f73667dc-d296-4875-8975-ac3fdc3adc42
+subfeature_v2: id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4id: dcae653e-62c6-4cc8-84e6-ee110b848296id: e38cbddc-1633-4cd5-bed5-9f289f2a6029id: eb853e43-1634-4181-adf2-a44d64395ec3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 89%
+source-wordcount: 488
+ht-degree: 78%
 
 ---
 
@@ -35,11 +24,11 @@ I tasti di scelta rapida sono disponibili in Analysis Workspace per favorire la 
 
 Sulla tastiera possono essere utilizzati i seguenti simboli:
 
-- **⇧** per **[!UICONTROL **&#x200B; Maiusc &#x200B;**]**.
-- **⌘** per **[!UICONTROL **&#x200B; Comando &#x200B;**]** (comando).
-- **⌃** per **[!UICONTROL **&#x200B; Ctrl &#x200B;**]** (controllo).
-- **⌥** per **[!UICONTROL **&#x200B; Opzione &#x200B;**]** (opzione).
-- **⎇** per **[!UICONTROL **&#x200B; Alt &#x200B;**]** (alternativo).
+- **⇧** per **[!UICONTROL ** Maiusc **]**.
+- **⌘** per **[!UICONTROL ** Comando **]** (comando).
+- **⌃** per **[!UICONTROL ** Ctrl **]** (controllo).
+- **⌥** per **[!UICONTROL ** Opzione **]** (opzione).
+- **⎇** per **[!UICONTROL ** Alt **]** (alternativo).
 
 ## Azioni di navigazione
 
@@ -91,6 +80,17 @@ Sulla tastiera possono essere utilizzati i seguenti simboli:
 | --- | --- | --- |
 | Sposta pannello in alto | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *Alt + Ctrl + Su *]** |
 | Sposta pannello in basso | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *Alt + Ctrl + Giù&#x200B;*]** |
+
+## Ridimensionare le azioni del pannello o della visualizzazione
+
+| Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
+| --- | --- | --- |
+| Ridimensiona in senso lato | **[!UICONTROL *cmd + opt + shift + right *]** | **[!UICONTROL *Ctrl + Alt + Maiusc + Destra *]** |
+| Ridimensiona in modo più stretto | **[!UICONTROL *cmd + opt + shift + left *]** | **[!UICONTROL *Ctrl + Alt + Maiusc + Sinistra *]** |
+| Ridimensiona più alto | **[!UICONTROL *cmd + opt + shift + down *]** | **[!UICONTROL *Ctrl + Alt + Maiusc + Giù&#x200B;*]** |
+| Ridimensiona più breve | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *Ctrl + Alt + Maiusc + Su *]** |
+
+La larghezza viene ridimensionata con incrementi di una colonna della griglia e l&#39;altezza con incrementi di una cella della griglia (circa 25 pixel).
 
 ## Azioni di democratizzazione
 
