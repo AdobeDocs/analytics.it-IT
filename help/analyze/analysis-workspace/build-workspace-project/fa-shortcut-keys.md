@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 89%
+source-wordcount: 488
+ht-degree: 78%
 
 ---
 
@@ -91,6 +91,17 @@ Sulla tastiera possono essere utilizzati i seguenti simboli:
 | --- | --- | --- |
 | Sposta pannello in alto | **[!UICONTROL *cmd + opt + up *]** | **[!UICONTROL *Alt + Ctrl + Su *]** |
 | Sposta pannello in basso | **[!UICONTROL *cmd + opt + down *]** | **[!UICONTROL *Alt + Ctrl + Giù&#x200B;*]** |
+
+## Ridimensionare le azioni del pannello o della visualizzazione
+
+| Azione | Scelta rapida da tastiera per Mac | Scelta rapida da tastiera per Windows |
+| --- | --- | --- |
+| Ridimensiona in senso lato | **[!UICONTROL *cmd + opt + shift + right *]** | **[!UICONTROL *Ctrl + Alt + Maiusc + Destra *]** |
+| Ridimensiona in modo più stretto | **[!UICONTROL *cmd + opt + shift + left *]** | **[!UICONTROL *Ctrl + Alt + Maiusc + Sinistra *]** |
+| Ridimensiona più alto | **[!UICONTROL *cmd + opt + shift + down *]** | **[!UICONTROL *Ctrl + Alt + Maiusc + Giù&#x200B;*]** |
+| Ridimensiona più breve | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *Ctrl + Alt + Maiusc + Su *]** |
+
+La larghezza viene ridimensionata con incrementi di una colonna della griglia e l&#39;altezza con incrementi di una cella della griglia (circa 25 pixel).
 
 ## Azioni di democratizzazione
 

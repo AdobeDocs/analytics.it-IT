@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e053cc06b7471bc627ee64e1a272022362704b2f
+source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
 workflow-type: tm+mt
-source-wordcount: 7353
+source-wordcount: 7379
 ht-degree: 84%
 
 ---
@@ -51,6 +51,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Settembre 2026** | |
+| Nuove azioni di collegamento di ridimensionamento | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [ridimensionare un pannello o una visualizzazione](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) in modo più ampio, ridotto, più alto o più breve. |
 | **Agosto 2026** | |
 | Sono stati aggiunti nuovi strumenti di IA per la conversazione alla dimensione del tipo di referente | La dimensione &quot;Tipo referrer&quot; ora include i seguenti [strumenti di IA per la conversazione](/help/components/dimensions/referrer-type.md#conversational-ai-tools) aggiuntivi nella tabella di ricerca utilizzata da Adobe:<ul><li>`https://duck.ai`</li><li>`https://you.com`</li></ul> |
 | **Giugno 2026** | |
