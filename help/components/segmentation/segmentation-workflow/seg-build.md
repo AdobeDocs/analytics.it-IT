@@ -6,29 +6,35 @@ exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 TQID: https://experienceleague.adobe.com/zHZesRdxNO9Qiu-PojLQNshLs8qU-dW-w9WfqidsXyY
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 source-git-commit: 417206bafecda31e7fe95d44a0db0590e1b1020c
 workflow-type: tm+mt
-source-wordcount: 1958
-ht-degree: 32%
-
+source-wordcount: '1958'
+ht-degree: 34%
 ---
-
 # Generare i segmenti
 
 >[!CONTEXTUALHELP]
 >id="components_segments_productcompatibility"
 >title="Compatibilità prodotto"
->abstract="Alcuni criteri di segmento sono incompatibili con alcuni strumenti di Adobe Analytics. In questo elenco sono indicati gli strumenti compatibili. Modifica i criteri per garantire la compatibilità."
+>abstract="Alcuni criteri di segmento sono incompatibili con determinati strumenti di Adobe Analytics. In questo elenco sono indicati gli strumenti compatibili. Modifica i criteri per garantire la compatibilità."
 
 >[!CONTEXTUALHELP]
 >id="components_filters_createaudience"
@@ -38,7 +44,7 @@ ht-degree: 32%
 >[!CONTEXTUALHELP]
 >id="components_filters_datapreview"
 >title="Anteprima dati"
->abstract="Confronta i dati dei segmenti con i dati della suite di rapporti. La percentuale di anteprima si basa sugli **ultimi 90 giorni**.<br><br/>Se l&#39;anteprima non viene caricata, la connessione è in esecuzione."
+>abstract="Confronta i dati dei segmenti con i dati della suite di rapporti. La percentuale di anteprima è basata sugli **ultimi 90 giorni**.<br><br/>Se l’anteprima non viene caricata, la connessione è in retrocompilazione."
 
 
 La finestra di dialogo **[!UICONTROL Segment builder]** viene utilizzata per creare nuovi segmenti o modificare quelli esistenti. La finestra di dialogo si chiama **[!UICONTROL New segment]** o **[!UICONTROL Edit segment]** per i segmenti creati o gestiti dal gestore [[!UICONTROL Segment]](/help/components/segmentation/segmentation-workflow/seg-manage.md).
