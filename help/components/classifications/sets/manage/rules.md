@@ -6,26 +6,33 @@ exl-id: 604dbd2e-decd-4b18-b170-94337e6cc71a
 TQID: 'https://experienceleague.adobe.com/GWzXfm7S6KD4k6CG-yElJesnQzhfCAcCwNZII0zQ1HM'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c89b8d67-4154-4bfd-87fa-95e9c48afc6a
+    internal-label: Data classifications
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: f502a9ffc4d68ed8fc6011366a16c73ac12d0ebc
 workflow-type: tm+mt
-source-wordcount: 1592
-ht-degree: 14%
-
+source-wordcount: '1594'
+ht-degree: 13%
 ---
-
 # Regole dei set di classificazione
 
-Utilizza le regole per supportare le classificazioni automatiche in scenari in cui la dimensione chiave cambia costantemente. L&#39;aggiornamento delle classificazioni tramite [upload](/help/components/classifications/sets/manage/schema.md#upload) o [automazione](/help/components/classifications/sets/manage/schema.md#automate) diventa un processo complicato o ritarda la classificazione corretta per i nuovi valori di dimensione. Ad esempio, campagne interne, codici di tracciamento o SKU di prodotto.
+Utilizza le regole per supportare le classificazioni automatiche in scenari in cui la dimensione chiave cambia costantemente. L&#39;aggiornamento delle classificazioni tramite [upload](/help/components/classifications/sets/manage/schema.md#upload) o [automazione](/help/components/classifications/sets/manage/schema.md#automate) diventa un processo complicato o non dispone di una classificazione corretta per i nuovi valori di dimensione. Ad esempio, campagne interne, codici di tracciamento o SKU di prodotto.
 
 La dimensione deve contenere valori che ti consentono di applicare una o più regole in modo da poter derivare i dati di classificazione dai valori della dimensione.
 
 Definisci le regole nel contesto di un set di classificazione. Questo contesto implica che le regole vengano applicate (se attivate) a tutte le combinazioni di suite di rapporti e dimensioni chiave sottoscritte al set di classificazione. Questa implementazione è diversa da come funziona il generatore di regole di classificazione legacy. Nel generatore di regole di classificazione, puoi definire separatamente una o più regole come parte di un set di regole, quindi associare il set di regole a una o più suite di rapporti. Nella nuova interfaccia, le regole all’interno del set di classificazione sono anche denominate set di regole. Tuttavia, i set di regole sono definiti all’interno della stessa interfaccia in cui puoi configurare altri attributi del set di classificazione.
+
+>[!IMPORTANT]
+>
+>Il diverso contesto utilizzato dal nuovo generatore di regole implica che le sottoclassificazioni vengano valutate in base al valore della colonna di classificazione principale immediata e non in base al valore della dimensione principale originale.
+
 
 
 Per definire un set di regole per un set di classificazione:
@@ -35,7 +42,7 @@ Per definire un set di regole per un set di classificazione:
 1. Nel gestore **[!UICONTROL Classifications Sets]**, selezionare il set di classificazione per il quale si desidera definire le regole.
 1. Nella finestra di dialogo **[!UICONTROL Classification Set: _nome set di classificazione_]**, seleziona la scheda **[!UICONTROL Rules]**.
 
-   * Se accedi all&#39;interfaccia **[!UICONTROL Rules]** per la prima volta per un set di classificazione o decidi di continuare a utilizzare l&#39;interfaccia del generatore di regole legacy, viene visualizzata una finestra di dialogo che consente di selezionare come iniziare. Le opzioni sono:
+   * Se si accede all&#39;interfaccia **[!UICONTROL Rules]** per la prima volta o si utilizza il generatore legacy, viene visualizzata una finestra di dialogo che facilita l&#39;avvio. Le opzioni sono:
 
      * **Esegui migrazione regole esistenti**. Importa le regole di classificazione correnti e continua a lavorare con queste regole nella nuova interfaccia. Le regole esistenti vengono mantenute e convertite nel nuovo formato.
        * Seleziona **[!UICONTROL Migrate rules]** (Avanti) per continuare.
@@ -228,7 +235,7 @@ Immettere un valore per **[!UICONTROL Regular Expression]**. Ad esempio: `^(.+)\
 
 #### Caso d’uso
 
-Definire una regola per assegnare valori alle classificazioni **[!UICONTROL Channel]**, **[!UICONTROL Type]** e **[!UICONTROL Year]** applicando l&#39;espressione regolare `^(.+)\:(.+)\:FY(.+)$` e utilizzando i gruppi di corrispondenza (`$1`, `$2` e `$3`) ai valori per la dimensione chiave Internal Campaign.
+Definisci una regola per assegnare valori alle classificazioni **[!UICONTROL Channel]**, **[!UICONTROL Type]** e **[!UICONTROL Year]** applicando l&#39;espressione regolare `^(.+)\:(.+)\:FY(.+)$` e utilizzando i gruppi di corrispondenza (`$1`, `$2` e `$3`) alla dimensione chiave di Internal Campaign.
 
 >[!BEGINTABS]
 
@@ -315,7 +322,7 @@ L’ultima regola determina il valore per la classificazione se:
 * Un valore di dimensione chiave corrisponde a più regole.
 * Il set di regole contiene regole con la stessa operazione **[!UICONTROL Set Classification]**.
 
-È quindi consigliabile classificare l&#39;operazione **[!UICONTROL Set Classification]** più importante come parte dell&#39;ultima regola del set di regole.
+Classifica l&#39;operazione **[!UICONTROL Set Classification]** più importante come parte dell&#39;ultima regola nel set di regole.
 
 Se si creano più regole che non condividono la stessa operazione **[!UICONTROL Set Classification]**, l&#39;ordine di elaborazione non ha importanza.
 
