@@ -168,26 +168,26 @@ Quando si abilita l&#39;integrazione di [Analytics per Advertising](https://expe
 
 | Classificazione | Descrizione | DSP | Cerca,<br>Social, &amp;<br>Commerce |
 | --- | --- | :---: | :---: |
-| **[!UICONTROL Account]** | Il nome dell’account. | &amp;verifica; | &amp;verifica; |
-| **[!UICONTROL Ad Display URL]** | L’URL visualizzato nell’annuncio. | | &amp;verifica; |
-| **[!UICONTROL Ad Description]** | La descrizione dell’annuncio (DSP) o il corpo dell’annuncio (Search, Social e Commerce). | &amp;verifica; | &amp;verifica; |
-| **[!UICONTROL Ad Destination URL]** | L’URL di destinazione dell’annuncio. | | &amp;verifica; |
-| **[!UICONTROL Ad Group]** | Il nome del gruppo di annunci. | | &amp;verifica; |
-| **[!UICONTROL Ad Platform]** | Il nome del DSP pubblicitario o del motore di ricerca. | &amp;verifica; | &amp;verifica; |
-| **[!UICONTROL Ad Title]** | Il tipo di annuncio (DSP) o il titolo dell’annuncio (Search, Social e Commerce). | &amp;verifica; | &amp;verifica; |
-| **[!UICONTROL Ad Type]** | Il tipo di annuncio, ad esempio `text`, `video`, `display` o `native`. | &amp;verifica; | &amp;verifica; |
+| **[!UICONTROL Account]** | Il nome dell’account. | &verifica; | &verifica; |
+| **[!UICONTROL Ad Display URL]** | L’URL visualizzato nell’annuncio. | | &verifica; |
+| **[!UICONTROL Ad Description]** | La descrizione dell’annuncio (DSP) o il corpo dell’annuncio (Search, Social e Commerce). | &verifica; | &verifica; |
+| **[!UICONTROL Ad Destination URL]** | L’URL di destinazione dell’annuncio. | | &verifica; |
+| **[!UICONTROL Ad Group]** | Il nome del gruppo di annunci. | | &verifica; |
+| **[!UICONTROL Ad Platform]** | Il nome del DSP pubblicitario o del motore di ricerca. | &verifica; | &verifica; |
+| **[!UICONTROL Ad Title]** | Il tipo di annuncio (DSP) o il titolo dell’annuncio (Search, Social e Commerce). | &verifica; | &verifica; |
+| **[!UICONTROL Ad Type]** | Il tipo di annuncio, ad esempio `text`, `video`, `display` o `native`. | &verifica; | &verifica; |
 | **[!UICONTROL AdCloud Attribute 1]** -<br>**[!UICONTROL AdCloud Attribute 5]** | Le classificazioni dei segnaposto sono riservate per gli attributi personalizzati futuri. Non attualmente in uso. | | |
-| **[!UICONTROL Campaign]** | Il nome della campagna. | &amp;verifica; | &amp;verifica; |
-| **[!UICONTROL Creative Experience Name]** | Nome dell’esperienza creativa associata all’interazione dell’annuncio, che rappresenta un gruppo di varianti creative utilizzate nei test o nella personalizzazione. | &amp;verifica; | |
-| **[!UICONTROL Creative Branch Name]** | Nome del ramo all’interno di un’esperienza creativa che rappresenta una variante o un percorso specifico nell’esperimento creativo. | &amp;verifica; | |
-| **[!UICONTROL Creative Branch ID]** | Identificatore univoco assegnato a un ramo creativo in un’esperienza creativa. | &amp;verifica; | |
-| **[!UICONTROL Creative Name]** | Nome della risorsa pubblicitaria specifica fornita all’utente. | &amp;verifica; | |
-| **[!UICONTROL Creative Variant Name]** | Nome della variante specifica di un contenuto creativo utilizzato all’interno di un’esperienza o di un ramo creativo. | &amp;verifica; | |
-| **[!UICONTROL Keyword]** | La parola chiave. | | &amp;verifica; |
-| **[!UICONTROL Keyword Match Type]** | Parola chiave e tipo di corrispondenza. | | &amp;verifica; |
-| **[!UICONTROL Landing Type]** | Se la voce della pagina di destinazione era un view-through o un click-through. | &amp;verifica; | &amp;verifica; |
-| **[!UICONTROL Match Type]** | Tipo di corrispondenza della ricerca. | | &amp;verifica; |
-| **[!UICONTROL Network]** | RTB (DSP) o il nome della rete di annunci (Search, Social e Commerce). | &amp;verifica; | &amp;verifica; |
-| **[!UICONTROL Optimization]** | Il nome del pacchetto (DSP) o del portfolio (Search, Social e Commerce). | &amp;verifica; | &amp;verifica; |
-| **[!UICONTROL Placement]** | Il nome del posizionamento. | &amp;verifica; | |
-| **[!UICONTROL Product Target]** | Il target di prodotto per un annuncio di elenco prodotti. | | &amp;verifica; |
+| **[!UICONTROL Campaign]** | Il nome della campagna. | &verifica; | &verifica; |
+| **[!UICONTROL Creative Experience Name]** | Nome dell’esperienza creativa associata all’interazione dell’annuncio, che rappresenta un gruppo di varianti creative utilizzate nei test o nella personalizzazione. | &verifica; | |
+| **[!UICONTROL Creative Branch Name]** | Nome del ramo all’interno di un’esperienza creativa che rappresenta una variante o un percorso specifico nell’esperimento creativo. | &verifica; | |
+| **[!UICONTROL Creative Branch ID]** | Identificatore univoco assegnato a un ramo creativo in un’esperienza creativa. | &verifica; | |
+| **[!UICONTROL Creative Name]** | Nome della risorsa pubblicitaria specifica fornita all’utente. | &verifica; | |
+| **[!UICONTROL Creative Variant Name]** | Nome della variante specifica di un contenuto creativo utilizzato all’interno di un’esperienza o di un ramo creativo. | &verifica; | |
+| **[!UICONTROL Keyword]** | La parola chiave. | | &verifica; |
+| **[!UICONTROL Keyword Match Type]** | Parola chiave e tipo di corrispondenza. | | &verifica; |
+| **[!UICONTROL Landing Type]** | Se la voce della pagina di destinazione era un view-through o un click-through. | &verifica; | &verifica; |
+| **[!UICONTROL Match Type]** | Tipo di corrispondenza della ricerca. | | &verifica; |
+| **[!UICONTROL Network]** | RTB (DSP) o il nome della rete di annunci (Search, Social e Commerce). | &verifica; | &verifica; |
+| **[!UICONTROL Optimization]** | Il nome del pacchetto (DSP) o del portfolio (Search, Social e Commerce). | &verifica; | &verifica; |
+| **[!UICONTROL Placement]** | Il nome del posizionamento. | &verifica; | |
+| **[!UICONTROL Product Target]** | Il target di prodotto per un annuncio di elenco prodotti. | | &verifica; |
