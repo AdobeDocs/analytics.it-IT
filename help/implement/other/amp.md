@@ -7,28 +7,38 @@ role: Developer
 TQID: https://experienceleague.adobe.com/lEnXPmYFhMOlvL-au9C-MtGiKY5b84ojYska3urtH1M
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: e6c28e30-8689-4bf4-8fa8-561343d308a9
+    internal-label: CX Enterprise integration
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 937
+source-wordcount: '947'
 ht-degree: 1%
-
 ---
-
 # Implementazione con AMP
 
 [AMP](https://amp.dev) è un framework HTML open-source che fornisce un modo semplice per creare pagine Web veloci e dal caricamento senza problemi.
@@ -101,7 +111,7 @@ Il tag `<amp-analytics>` supporta le sostituzioni di variabili in modo che AMP p
 
 >[!NOTE]
 >
->Le richieste di immagini inviate ad Adobe utilizzando questo metodo non includono i dati per molti rapporti predefiniti (ad esempio, browser, dimensioni dello schermo o referrer). Se desideri includere queste informazioni negli hit, accertati che siano inclusi nella stringa di query della richiesta di immagine. Per un elenco completo dei parametri di query delle richieste di immagini e delle relative variabili associate, vedere [Parametri query raccolta dati](../validate/query-parameters.md).
+>Le richieste di immagini inviate ad Adobe utilizzando questo metodo non includono i dati per molti rapporti predefiniti (ad esempio, browser, dimensioni dello schermo o referrer). Se desideri includere queste informazioni negli hit, accertati che siano inclusi nella stringa di query della richiesta di immagine. Per un elenco completo dei parametri di query delle richieste di immagini e delle relative variabili associate, vedere [Parametri query raccolta dati](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference).
 
 Adobe identifica i visitatori utilizzando una funzione AMP incorporata e imposta il cookie `adobe_amp_id`. Questo ID visitatore è univoco rispetto a qualsiasi altro ID impostato da Adobe Analytics. Un visitatore univoco diverso viene conteggiato per ogni CDN da cui un visitatore recupera il contenuto, il che può gonfiare il conteggio dei visitatori univoci. L’utilizzo di una suite di rapporti separata per le pagine AMP è vivamente consigliato a causa del modo in cui AMP identifica i visitatori univoci. Il servizio ID visitatore di Adobe non è supportato.
 

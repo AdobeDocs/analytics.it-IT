@@ -6,25 +6,39 @@ exl-id: 129b0235-9b00-4d75-8b02-0443dfdef091
 TQID: 'https://experienceleague.adobe.com/gye9CwGtFwPppmrTbpB5CErZjIdKeAtSPr6VPUtPod4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 296
-ht-degree: 4%
-
+source-wordcount: '358'
+ht-degree: 6%
 ---
-
 # ID AMO EF
 
-**[!UICONTROL AMO EF ID]** è un identificatore di ad click utilizzato nelle integrazioni Adobe Advertising. È un token univoco che Adobe Advertising utilizza per associare l’attività a un clic online o a un’esposizione pubblicitaria a livello di visitatore. La dimensione viene creata automaticamente quando si abilita l&#39;integrazione di [Analytics for Advertising](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/overview).
+**[!UICONTROL AMO EF ID]** è un identificatore di ad click utilizzato nelle integrazioni Adobe Advertising. È un token univoco che Adobe Advertising utilizza per associare l’attività a un clic online o a un’esposizione pubblicitaria a livello di visitatore. La dimensione viene creata automaticamente quando si abilita l&#39;integrazione di [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
 
 ## Popolare questa dimensione con i dati
+
+Questa dimensione viene compilata automaticamente dall&#39;integrazione [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview). Nessuna variabile da impostare.
+
+| Proprietà | Valore |
+| --- | --- |
+| **Variabile AppMeasurement** | Nessuno (popolato dall’integrazione di Adobe Advertising) |
+| **Campo Web SDK / XDM** | Nessuno (popolato dall’integrazione di Adobe Advertising) |
+| **Parametro query** | N/D |
+| **Tag XML** | N/D |
+| **Limite di byte** | N/D |
+| **Persistenza** | N/D |
 
 Questa dimensione raccoglie i valori in diversi modi:
 

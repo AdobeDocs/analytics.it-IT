@@ -6,26 +6,35 @@ feature: Data Configuration and Collection
 TQID: https://experienceleague.adobe.com/ypuneLG7mM63J7ag12IqSmizbCENs-akL-QfF-P9nVM
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7d733a6375f6c6009563bc53f5a3ff090dbc48ed
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 37%
-
+source-wordcount: '1103'
+ht-degree: 36%
 ---
-
 # Ordine di elaborazione per dati in Adobe Analytics
 
 Adobe offre diversi modi per modificare o intervenire sui dati prima che vengano visualizzati nel reporting. Questa pagina mostra l’ordine in cui diverse funzioni di Adobe Analytics elaborano i dati. È possibile utilizzare questo elenco per risolvere eventuali incongruenze nei dati o per determinare la funzione migliore da utilizzare quando sono necessarie modifiche dei dati.
@@ -39,9 +48,9 @@ Prima dell’invio dei dati ad Adobe, in genere avviene una compilazione lato cl
 * **AppMeasurement**: un file JavaScript ospitato sul tuo sito e a cui si fa riferimento in ogni pagina. I dati vengono inviati direttamente ad Adobe Analytics.
 * **Adobe Experience Platform Web SDK**: un file JavaScript ospitato sul tuo sito e a cui si fa riferimento in ogni pagina. I dati vengono inviati a Adobe Experience Platform Edge Network.
 * **Tag nella raccolta dati di Adobe Experience Platform**: un file JavaScript a cui si fa riferimento in ogni pagina, contenente regole create all&#39;interno dell&#39;interfaccia utente di raccolta dati. L’estensione Adobe Analytics offre un modo più semplice per implementare AppMeasurement. L’estensione Web SDK offre un modo più semplice per implementare Web SDK.
-* **API**: sia AppMeasurement che Edge Network offrono metodi programmatici per inviare dati ad Adobe. AppMeasurement offre l&#39;[API di inserimento dati](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) e l&#39;[API di inserimento dati in blocco](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/); Edge Network offre l&#39;[API di raccolta dati](https://developer.adobe.com/data-collection-apis/docs/).
+* **API**: sia AppMeasurement che Edge Network offrono metodi programmatici per inviare dati ad Adobe. AppMeasurement offre l&#39;[API di inserimento dati](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) e l&#39;[API di inserimento dati in blocco](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/); Edge Network offre l&#39;[API di raccolta dati](https://developer.adobe.com/data-collection-apis/docs/).
 
-Se invii dati ad Edge Network, puoi configurarlo per l’inoltro dei dati ad Adobe Analytics (nonché a molte altre soluzioni Adobe CX Enterprise). Indipendentemente dal metodo di implementazione, i dati hit raccolti arrivano ai server di elaborazione Adobe Analytics in un formato che può essere analizzato.
+Se invii dati ad Edge Network, puoi configurarlo per l’inoltro di dati ad Adobe Analytics (nonché a molte altre soluzioni Adobe CX Enterprise). Indipendentemente dal metodo di implementazione, i dati hit raccolti arrivano ai server di elaborazione Adobe Analytics in un formato che può essere analizzato.
 
 ## Pre-elaborazione nella raccolta Adobe Analytics
 
