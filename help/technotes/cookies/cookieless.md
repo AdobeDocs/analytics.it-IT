@@ -7,25 +7,32 @@ role: Admin
 TQID: https://experienceleague.adobe.com/f6gcSRLmsupsIVKYH-bF1T7vuVhoj9Ef8zVh3t6vU2Q
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 590
-ht-degree: 98%
-
+source-wordcount: '587'
+ht-degree: 97%
 ---
-
 # Opzioni per mitigare l’effetto delle limitazioni dei cookie del browser
 
 Questo documento illustra le opzioni per preservare l’identificazione persistente dei visitatori tra proprietà e soluzioni poiché i principali browser implementano misure di prevenzione del tracciamento per i cookie.
@@ -46,7 +53,7 @@ Queste limitazioni del browser riflettono un più ampio allontanamento dal tracc
 
 La raccolta lato server offre la flessibilità di fornire il proprio identificatore anziché fare affidamento sui meccanismi del browser per l’impostazione dei cookie.
 
-Puoi inviare dati al lato server di Analytics utilizzando l’[API di inserimento dati](https://developer.adobe.com/analytics-apis/docs/1.4/guides/data-insertion/) o l’[API di inserimento dati in blocco](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/). L’API di inserimento dati in blocco è consigliata per le nuove implementazioni lato server. Per un confronto tra le due API, consulta “[Quale strumento di Adobe Analytics dovrei utilizzare](/help/analyze/get-started/which-analytics-tool.md).”
+Puoi inviare dati al lato server di Analytics utilizzando l’[API di inserimento dati](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/) o l’[API di inserimento dati in blocco](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/). L’API di inserimento dati in blocco è consigliata per le nuove implementazioni lato server. Per un confronto tra le due API, consulta “[Quale strumento di Adobe Analytics dovrei utilizzare](/help/analyze/get-started/which-analytics-tool.md).”
 
 ## ID dispositivo di prime parti (FPID) con Web SDK
 

@@ -4,13 +4,11 @@ audience: all
 user-guide-title: Guida all’implementazione di Analytics
 breadcrumb-title: Guida all'implementazione
 user-guide-description: Scopri come implementare Adobe Analytics. Personalizza quali dati vengono raccolti per ottenere il massimo dai dati di Analytics.
-source-git-commit: 7e4350148d6418ea5697e40fc0a6e39776725168
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 76%
-
+source-wordcount: '444'
+ht-degree: 74%
 ---
-
 
 # Guida all’implementazione di Adobe Analytics {#implementation}
 
@@ -128,6 +126,7 @@ ht-degree: 76%
   + [Utilizzo di Web SDK (Alloy)](id/alloy.md)
   + [Utilizzo dell’estensione Analytics](id/analytics-extension.md)
   + [Utilizzo di AppMeasurement](id/appmeasurement.md)
+  + [Utilizzo dell’API di inserimento dati](id/data-insertion.md)
   + [Migrazione al servizio ID visitatori](id/migration.md)
   + [Tracciare diversi tipi di implementazione](id/cross-type-implementation.md)
 + Preparare l’implementazione di Adobe Analytics {#prepare}
@@ -176,7 +175,6 @@ ht-degree: 76%
     + [Risoluzione dei problemi relativi al codice H](js/h-code/troubleshooting.md)
   + [Risoluzione dei problemi relativi ad AppMeasurement](js/troubleshooting.md)
 + Implementazione di Analytics su altre piattaforme {#other}
-  + [Implementazione di Analytics utilizzando richieste di immagini codificate](other/hardcoded.md)
   + [Implementazione di Analytics su Ajax](other/ajax.md)
   + [Implementazione di Analytics su AMP](other/amp.md)
   + [Implementazione di Analytics per gli assistenti digitali](other/digital-assistants.md)
@@ -187,7 +185,6 @@ ht-degree: 76%
   + [Flusso di lavoro di tracciamento delle campagne](use-cases/campaign-tracking.md)
 + Convalida l’implementazione {#validate}
   + [Debugger legacy](validate/debugger.md)
-  + [Parametri query della raccolta dati](validate/query-parameters.md)
   + [Monitor per pacchetti](validate/packet-monitor.md)
   + [Collisioni hash](validate/hash-collisions.md)
 + [Domande frequenti](faq.md)

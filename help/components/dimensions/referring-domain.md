@@ -6,28 +6,38 @@ exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
 TQID: https://experienceleague.adobe.com/iLpQGPuxOFmhb-WCU0EEfhmGgHgeQaPgBmOETdCczGQ
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 494
-ht-degree: 2%
-
+source-wordcount: '458'
+ht-degree: 4%
 ---
-
 # Dominio di riferimento
 
 La [dimensione](overview.md) del &#39;dominio di riferimento&#39; segnala i domini su cui i visitatori fanno clic per raggiungere il sito. Questa dimensione è utile per capire quali siti di terze parti generano più traffico verso la tua. Affinché l’elemento dimensione venga visualizzato, deve esistere un collegamento sul sito esterno e un visitatore deve fare clic su di esso.
@@ -40,10 +50,16 @@ Lo stesso rapporto può mostrare risultati diversi tra Analysis Workspace e Data
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione richiede la configurazione nell’interfaccia di Analytics e i dati nelle richieste di immagini.
+Adobe deriva questa dimensione dal [referrer](referrer.md) di ogni hit, utilizzando la porzione di dominio dell&#39;URL del referente. Nessuna variabile da impostare. Devi configurare i [filtri URL interni](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) della suite di rapporti; in caso contrario, potrai includere domini interni o impedire la visualizzazione di domini esterni.
 
-* All&#39;interno dell&#39;implementazione, questa dimensione recupera i dati dalla stringa di query [`r`](/help/implement/validate/query-parameters.md) nelle richieste di immagini. AppMeasurement raccoglie questi dati utilizzando la variabile JavaScript `document.referrer` nel browser. Se utilizzi una libreria AppMeasurement (ad esempio tramite i tag in Adobe Experience Platform), questa dimensione funziona in modo predefinito. Se utilizzi un metodo di raccolta dati esterno ad AppMeasurement (ad esempio tramite l&#39;API), accertati di includere il parametro della stringa di query `r` nelle richieste di immagini.
-* Nell&#39;interfaccia di Analytics devi configurare i [filtri URL interni](/help/admin/tools/manage-rs/edit-settings/general/internal-url-filter-admin.md) della suite di rapporti. La mancata configurazione dei filtri URL interni può includere domini interni o impedire la visualizzazione di domini esterni.
+| Proprietà | Valore |
+| --- | --- |
+| **Variabile AppMeasurement** | Nessuno (derivato dal referrer) |
+| **Campo Web SDK / XDM** | Nessuno (derivato dal referrer) |
+| **Parametro query** | N/D |
+| **Tag XML** | N/D |
+| **Limite di byte** | N/D |
+| **Persistenza** | Visita |
 
 Adobe persiste nel dominio di riferimento per una visita. Se un visitatore abbandona e fa clic su un collegamento su un dominio diverso all’interno di una singola visita, il nuovo valore viene aggiornato e persiste per il resto della visita. Se desideri visualizzare solo il valore originale, consulta [Dominio di riferimento originale](original-referring-domain.md).
 

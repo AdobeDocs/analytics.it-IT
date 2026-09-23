@@ -6,25 +6,32 @@ exl-id: 078014a2-1f09-4177-9575-b44c5da25816
 TQID: https://experienceleague.adobe.com/vok8Znalf6GBA1N0Z9GE1d31QpaUmD-d0bOsHB2Wehc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 9b4525e014170b72688044a6ead344b1bde8c39b
+    internal-label: Measurement
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 4%
-
+source-wordcount: '268'
+ht-degree: 5%
 ---
-
 # Collegamento di download
 
 La [dimensione](overview.md) del collegamento di download riporta i nomi dei collegamenti di download implementati nel sito. Questa dimensione è utile quando desideri ulteriori informazioni sul comportamento dei visitatori in merito ai collegamenti di download, ad esempio:
@@ -35,19 +42,20 @@ La [dimensione](overview.md) del collegamento di download riporta i nomi dei col
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione raccoglie dati dalla stringa di query [`pev2`](/help/implement/validate/query-parameters.md) nelle richieste di immagini, a seconda del valore nella stringa di query `pe`. La stringa di query `pe` determina la dimensione di collegamento che riceve il valore `pev2`:
-
-* **[Collegamento personalizzato](custom-link.md)**: `lnk_o`
-* **Collegamento di download** (questa pagina): `lnk_d`
-* **[Collegamento di uscita](exit-link.md)**: `lnk_e`
-
-Se `pev2` non viene fornito, verrà utilizzato come valore della dimensione l&#39;URL del collegamento (`pev1`). Quando il nome di un collegamento viene specificato in modo esplicito, la lunghezza massima è di 100 byte. I valori derivati dall’URL del collegamento non sono soggetti a questo limite.
-
-Per popolare questa dimensione utilizzando AppMeasurement, invia una richiesta di immagine [`tl()`](/help/implement/vars/functions/tl-method.md) con un argomento tipo collegamento di `"d"`. Impostare l&#39;argomento del nome del collegamento sul valore desiderato:
+Questa dimensione è compilata da [chiamate di tracciamento dei collegamenti (`tl()`)](/help/implement/vars/functions/tl-method.md). Nessuna variabile dedicata da impostare. Inviare invece una richiesta di immagine `tl()` con un argomento del tipo di collegamento di `"d"` e impostare l&#39;argomento del nome del collegamento sul valore desiderato. La stringa di query `pe` indirizza il nome del collegamento alla dimensione di collegamento corretta (`lnk_o` per [collegamenti personalizzati](custom-link.md), `lnk_d` per [collegamenti di download](download-link.md) e `lnk_e` per [collegamenti di uscita](exit-link.md)). Se non viene fornito il nome di un collegamento, viene utilizzato l’URL di collegamento come valore della dimensione e i valori derivati dall’URL non sono soggetti al limite di byte.
 
 ```js
 s.tl(true,"d","Example download link");
 ```
+
+| Proprietà | Valore |
+| --- | --- |
+| **Variabile AppMeasurement** | [`tl()`](/help/implement/vars/functions/tl-method.md) |
+| **Campo Web SDK / XDM** | Nessuno |
+| **Parametro query** | [`pev2`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Tag XML** | [`<linkName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
+| **Limite di byte** | 100 byte |
+| **Persistenza** | Hit |
 
 ## Elementi dimensionali
 

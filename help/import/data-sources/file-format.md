@@ -7,22 +7,26 @@ role: Admin
 TQID: https://experienceleague.adobe.com/aOyIlKV8OwvmigJ7RFcNQsrsBiHbrC0a-IPN4xR0OZc
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Implementation
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 554
-ht-degree: 8%
-
+source-wordcount: '552'
+ht-degree: 6%
 ---
-
 # Formato del file di origine dati
 
 I file di origine dati hanno le seguenti proprietà:
@@ -80,7 +84,7 @@ Dimensioni e metriche vanno nella stessa riga di intestazione.
 
 {style="table-layout:auto"}
 
-Adobe non supporta origini dati per altre dimensioni o metriche. Se sono necessarie variabili oltre a quelle elencate nelle tabelle precedenti, provare a utilizzare l&#39;[API di inserimento dati in blocco](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/).
+Adobe non supporta origini dati per altre dimensioni o metriche. Se sono necessarie variabili oltre a quelle elencate nelle tabelle precedenti, provare a utilizzare l&#39;[API di inserimento dati in blocco](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/).
 
 ## Data
 

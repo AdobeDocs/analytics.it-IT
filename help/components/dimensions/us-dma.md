@@ -6,34 +6,52 @@ exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
 TQID: https://experienceleague.adobe.com/ijUlnHJ7gP4Jq1g0SzaUVHWbiMki1rgEMd1Pz4sttmU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: d2311670-43bd-4c2e-bc98-1da2aaba9cef
+    internal-label: Appmeasurement implementation
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 319
-ht-degree: 5%
-
+source-wordcount: '359'
+ht-degree: 8%
 ---
-
 # DMA Stati Uniti
 
-La [dimensione](overview.md) di &#39;DMA USA&#39; segnala l&#39;area di mercato designata (DMA) del visitatore. Si basa sui mercati dei contenuti multimediali compilati da [Nielsen](https://www.nielsen.com/dma-regions/).
+La [dimensione](overview.md) di &#39;DMA USA&#39; segnala l&#39;area di mercato designata (DMA) del visitatore. Si basa sui mercati multimediali compilati da [Nielsen](https://www.nielsen.com/dma-regions/).
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione fa riferimento a regole di ricerca interne di Adobe. Il valore di ricerca si basa sull’indirizzo IP inviato con l’hit. Adobe collabora con Nielsen per mantenere le ricerche tra l’indirizzo IP e DMA.
+Adobe deriva questa dimensione lato server dall’indirizzo IP del visitatore, confrontandolo con una tabella di ricerca interna. Adobe collabora con Nielsen per mantenere le ricerche tra l’indirizzo IP e DMA. Nessuna variabile da impostare.
+
+| Proprietà | Valore |
+| --- | --- |
+| **Variabile AppMeasurement** | Nessuno (derivato dall’indirizzo IP del visitatore) |
+| **Campo Web SDK / XDM** | Nessuno (derivato dall’indirizzo IP del visitatore) |
+| **Parametro query** | N/D |
+| **Tag XML** | N/D |
+| **Limite di byte** | N/D |
+| **Persistenza** | N/D |
 
 * Per le implementazioni di AppMeasurement, questa dimensione funziona in modo predefinito.
 * Per le implementazioni di Web SDK, abilita [!UICONTROL Geo Lookup] quando [si configura uno stream di dati](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=it).

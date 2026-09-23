@@ -6,25 +6,39 @@ exl-id: c1def73a-51b9-46bf-9dc7-0fbd46fd6e17
 TQID: 'https://experienceleague.adobe.com/3J-pLiOz4QwUewRSmEFsJCg0v-PbEmksUzGKOI0hHoA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+    internal-label: Reporting
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 4%
-
+source-wordcount: '233'
+ht-degree: 7%
 ---
-
 # AMO Meta Ads Click ID
 
 **[!UICONTROL AMO Meta Ads Click ID]** è un identificatore di ad click utilizzato nelle integrazioni Adobe Advertising. La dimensione viene creata automaticamente quando si abilita l&#39;integrazione di [Analytics for Advertising](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/overview). È utile principalmente come identificatore di tracciamento non elaborato, anziché come dimensione di reporting leggibile dagli utenti.
 
 ## Popolare questa dimensione con i dati
+
+Questa dimensione viene compilata automaticamente dall&#39;integrazione [Analytics for Advertising](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/overview). Nessuna variabile da impostare.
+
+| Proprietà | Valore |
+| --- | --- |
+| **Variabile AppMeasurement** | Nessuno (popolato dall’integrazione di Adobe Advertising) |
+| **Campo Web SDK / XDM** | Nessuno (popolato dall’integrazione di Adobe Advertising) |
+| **Parametro query** | N/D |
+| **Tag XML** | N/D |
+| **Limite di byte** | N/D |
+| **Persistenza** | N/D |
 
 Questa dimensione raccoglie i valori in diversi modi:
 

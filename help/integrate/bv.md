@@ -1,9 +1,8 @@
 ---
 title: Integrazione Brand Visibility
 description: Integrare Brand Visibility con CAdobe Analytics
-feature:
 role: User
-source-git-commit: 841b09d487fb965fb2a5fce4a39a7480a5b01012
+source-git-commit: 8a2a4637f21bbbe02ea88292d2ca503f4c667ebc
 workflow-type: tm+mt
 source-wordcount: '2629'
 ht-degree: 1%
@@ -106,10 +105,10 @@ L’integrazione in entrata di CJA è basata su un set di dati più ampio di Rie
 
 #### Limitazioni importanti
 
-&#x200B;- Non sono inclusi ID visitatore, ECID, visite o dati utente univoci. Si tratta di dati di riepilogo aggregati, non legati ai visitatori.
-&#x200B;- Le variabili riservate non supportano le impostazioni del tipo di allocazione o del tipo di scadenza, in quanto non sono collegate a un visitatore.
-&#x200B;- I dati non possono essere uniti con altri set di dati o dimensioni di Analytics nello stesso modo in cui lo si può fare in Customer Journey Analytics.
-&#x200B;- Utilizza la metrica **Richieste** per misurare il volume di traffico da bot e agenti. Non utilizzarla in modo intercambiabile con metriche basate su visite o hit in altre aree della suite di rapporti.
+- Non sono inclusi ID visitatore, ECID, visite o dati utente univoci. Si tratta di dati di riepilogo aggregati, non legati ai visitatori.
+- Le variabili riservate non supportano le impostazioni del tipo di allocazione o del tipo di scadenza, in quanto non sono collegate a un visitatore.
+- I dati non possono essere uniti con altri set di dati o dimensioni di Analytics nello stesso modo in cui lo si può fare in Customer Journey Analytics.
+- Utilizza la metrica **Richieste** per misurare il volume di traffico da bot e agenti. Non utilizzarla in modo intercambiabile con metriche basate su visite o hit in altre aree della suite di rapporti.
 
 L’esatto set di campi disponibili deve essere confermato in base alla configurazione della variabile della suite di rapporti dopo l’abilitazione del connettore.
 
@@ -135,10 +134,10 @@ L&#39;installazione e la configurazione del connettore in entrata comportano res
 
 Prima di abilitare il connettore, conferma quanto segue:
 
-&#x200B;- Hai completato l’onboarding di Adobe Brand Visibility per il sito da connettere.
-&#x200B;- L&#39;inoltro del registro BYOCDN è configurato e confermato per tale sito (vedi [prequisiti](#inbound-integration)).
-&#x200B;- I dati vengono visualizzati nel dashboard Traffico agente di Adobe Brand Visibility per quel sito.
-&#x200B;- Sai a quale suite di rapporti desideri connettere il sito.
+- Hai completato l’onboarding di Adobe Brand Visibility per il sito da connettere.
+- L&#39;inoltro del registro BYOCDN è configurato e confermato per tale sito (vedi [prequisiti](#inbound-integration)).
+- I dati vengono visualizzati nel dashboard Traffico agente di Adobe Brand Visibility per quel sito.
+- Sai a quale suite di rapporti desideri connettere il sito.
 
 Ogni sito Adobe Brand Visibility si connette esattamente a una suite di rapporti. Se desideri inserire dati per più di un sito di Visibilità dei brand, connetti ciascun sito a una suite di rapporti separata.
 
@@ -226,7 +225,7 @@ Consulta i seguenti problemi e come risolverli.
 
 | Problema | Risoluzione dei problemi |
 |---|---|
-| Il connettore non verrà abilitato oppure l&#39;elenco dei siti è vuoto. | Verifica se:<ul><li>Onboarding di Adobe Brand Visibility completato per il sito.</li><li>L’inoltro del registro BYOCDN è configurato e confermato per il sito.</li><li>Stai lavorando nella suite di rapporti corretta.</li><ul> |
+| Il connettore non verrà abilitato oppure l&#39;elenco dei siti è vuoto. | Verifica se:<ul><li>Onboarding di Adobe Brand Visibility completato per il sito.</li><li>L’inoltro del registro BYOCDN è configurato e confermato per il sito.</li><li>Stai lavorando nella suite di rapporti corretta.</li></ul> |
 | Il connettore è attivato ma non vengono visualizzati dati. | Verifica se: <ul><li>I dati sono visibili nel dashboard Traffico agente per il sito connesso (in caso contrario, il problema è a monte di Analytics).</li><li>È trascorso abbastanza tempo per il backfill iniziale di 90 giorni e almeno una sincronizzazione oraria.</li><li>- L’intervallo di date selezionato nel rapporto include un periodo dopo l’attivazione del connettore.</li></ul> |
 | I dati appaiono incompleti o imprevisti. | Verifica se: <ul><li>Non è previsto che la suite di rapporti riceva anche dati per un sito di Visibilità dei brand diverso (ogni suite di rapporti si connette esattamente a un sito).</li><li>Stai leggendo la metrica **Richieste** invece di contare righe o hit in altre parti della suite di rapporti.</li><li>Le dimensioni che stai visualizzando corrispondono all’elenco nella Sezione 4; evar o eventi non correlati nella stessa suite di rapporti non fanno parte di questa integrazione.</li></ul> |
 
@@ -235,20 +234,18 @@ Consulta i seguenti problemi e come risolverli.
 >[Visibilità dei brand riferimento all&#39;integrazione /LLMO](https://experienceleague.adobe.com/it/docs/analytics-platform/using/integrations/bv)
 >[Riferimento inoltro registro BYOCDN](https://experienceleague.adobe.com/it/docs/brand-visibility/using/log-forwarding/log-forwarding-overview)
 
-&#x200B;---
-
 ## Note di bozza per la documentazione (non per la pubblicazione)
 
 Questa sezione è per revisione interna e deve essere rimossa prima della pubblicazione.
 
-&#x200B;- **Source di verità utilizzato:** i nomi dei campi, l&#39;elenco delle variabili riservate e il flusso di lavoro di Report Suite Manager provengono da [AN-468884](https://jira.corp.adobe.com/browse/AN-468884) (David Wardell, stato Nuovo al 28 agosto 2026), più attuale e più specifico della richiesta di documentazione originale [AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der Maur, stato Nuovo). La copia della pagina per le schermate di provisioning/deprovisioning incorpora i miglioramenti redazionali della revisione interna del 28 agosto 2026 (`2026-08-28-an468884-abv-report-suite-ui-review.md`), che ha sostituito l&#39;abbreviazione &quot;ABV&quot; del ticket non elaborato con &quot;Adobe Brand Visibility&quot; nel testo rivolto al cliente.
-&#x200B;- **Discrepanza del set di campi da riconciliare prima della pubblicazione:** L&#39;elenco delle dimensioni originale di AN-449989 era Host, URL/percorso pagina, provider CDN, agente utente e tipo di bot LLM, con una singola metrica Conteggio richieste agente. L’elenco effettivo delle variabili riservate di AN-468884 è URL, Tipo di bot, Agente utente, Stato e Referente, con un singolo evento Richieste. Host e provider CDN non sono presenti come variabili riservate separate in AN-468884; lo stato è nuovo. Questa bozza segue l&#39;AN-468884 come autorevole per il ticket eng, ma i due devono essere riconciliati con Aaron Kern / David Wardell prima che questo venga finalizzato, dal momento che i nomi dei campi visualizzati dai clienti potrebbero non corrispondere a quelli descritti dai team dell&#39;account utilizzando il vecchio linguaggio AN-449989.
-&#x200B;- **Non ancora confermato, non indicare come fatto nella versione pubblicata:**
-  &#x200B;- Data esatta GA. AN-431416 porta FixVersion H2 2026 (finestra di rilascio 2026-11-30) ed è in stato di esecuzione al 2026-09-01; AN-468884 (implementazione con variabile riservata) e AN-449989 (questo documento) sono entrambi ancora nuovi. Non pubblicare fino alla spedizione di eng.
-  &#x200B;- Indica se il tipo di allocazione o il tipo di scadenza sono completamente soppressi nelle eVar riservate in produzione. La revisione 2026-08-28 ha segnalato che una suite di rapporti di test mostra attualmente queste eVar con Allocazione impostata su &quot;Most Recent (Last)&quot; (Più recente, ultimo), che potrebbe essere un comportamento predefinito da cancellare, anziché confermare il comportamento finale.
-  &#x200B;- L’endpoint API LLMO per l’inserimento di siti ABV da parte dell’organizzazione IMS (popola il menu a discesa Site Selection ) e l’API di deprovisioning/disabilitazione erano ancora in sospeso da Joe Bass a partire dal commento del ticket 2026-08-26.
-  &#x200B;- Confronto esatto del conteggio dei campi di CJA. Il ticket originale di AN-449989 afferma che CJA ha &quot;9 dimensioni aggiuntive&quot; e &quot;5 metriche aggiuntive&quot;, ma diverse di queste (LLM Session Bucket, LLM Unique Session Count, LLM Request Duplication Count) non sono state confermate per esistere nel gruppo di campi `cdn-requests-summary` consegnato a partire dalla revisione 2026-06-18. Questa bozza evita intenzionalmente di citare conteggi specifici nel confronto CJA per tale motivo.
-  &#x200B;- La cadenza di sincronizzazione per questo percorso AA è indicata qui come oraria, corrispondente alla lingua del ticket di AN-468884 (&quot;esegui sincronizzazioni orarie&quot; / &quot;processo di sincronizzazione oraria&quot;). Questo non è stato convalidato in modo indipendente rispetto al comportamento di produzione di Origini dati AA come era la cadenza di CJA.
+- **Source di verità utilizzato:** i nomi dei campi, l&#39;elenco delle variabili riservate e il flusso di lavoro di Report Suite Manager provengono da [AN-468884](https://jira.corp.adobe.com/browse/AN-468884) (David Wardell, stato Nuovo al 28 agosto 2026), più attuale e più specifico della richiesta di documentazione originale [AN-449989](https://jira.corp.adobe.com/browse/AN-449989) (Rob In der Maur, stato Nuovo). La copia della pagina per le schermate di provisioning/deprovisioning incorpora i miglioramenti redazionali della revisione interna del 28 agosto 2026 (`2026-08-28-an468884-abv-report-suite-ui-review.md`), che ha sostituito l&#39;abbreviazione &quot;ABV&quot; del ticket non elaborato con &quot;Adobe Brand Visibility&quot; nel testo rivolto al cliente.
+- **Discrepanza del set di campi da riconciliare prima della pubblicazione:** L&#39;elenco delle dimensioni originale di AN-449989 era Host, URL/percorso pagina, provider CDN, agente utente e tipo di bot LLM, con una singola metrica Conteggio richieste agente. L’elenco effettivo delle variabili riservate di AN-468884 è URL, Tipo di bot, Agente utente, Stato e Referente, con un singolo evento Richieste. Host e provider CDN non sono presenti come variabili riservate separate in AN-468884; lo stato è nuovo. Questa bozza segue l&#39;AN-468884 come autorevole per il ticket eng, ma i due devono essere riconciliati con Aaron Kern / David Wardell prima che questo venga finalizzato, dal momento che i nomi dei campi visualizzati dai clienti potrebbero non corrispondere a quelli descritti dai team dell&#39;account utilizzando il vecchio linguaggio AN-449989.
+- **Non ancora confermato, non indicare come fatto nella versione pubblicata:**
+  - Data esatta GA. AN-431416 porta FixVersion H2 2026 (finestra di rilascio 2026-11-30) ed è in stato di esecuzione al 2026-09-01; AN-468884 (implementazione con variabile riservata) e AN-449989 (questo documento) sono entrambi ancora nuovi. Non pubblicare fino alla spedizione di eng.
+  - Indica se il tipo di allocazione o il tipo di scadenza sono completamente soppressi nelle eVar riservate in produzione. La revisione 2026-08-28 ha segnalato che una suite di rapporti di test mostra attualmente queste eVar con Allocazione impostata su &quot;Most Recent (Last)&quot; (Più recente, ultimo), che potrebbe essere un comportamento predefinito da cancellare, anziché confermare il comportamento finale.
+  - L’endpoint API LLMO per l’inserimento di siti ABV da parte dell’organizzazione IMS (popola il menu a discesa Site Selection ) e l’API di deprovisioning/disabilitazione erano ancora in sospeso da Joe Bass a partire dal commento del ticket 2026-08-26.
+  - Confronto esatto del conteggio dei campi di CJA. Il ticket originale di AN-449989 afferma che CJA ha &quot;9 dimensioni aggiuntive&quot; e &quot;5 metriche aggiuntive&quot;, ma diverse di queste (LLM Session Bucket, LLM Unique Session Count, LLM Request Duplication Count) non sono state confermate per esistere nel gruppo di campi `cdn-requests-summary` consegnato a partire dalla revisione 2026-06-18. Questa bozza evita intenzionalmente di citare conteggi specifici nel confronto CJA per tale motivo.
+  - La cadenza di sincronizzazione per questo percorso AA è indicata qui come oraria, corrispondente alla lingua del ticket di AN-468884 (&quot;esegui sincronizzazioni orarie&quot; / &quot;processo di sincronizzazione oraria&quot;). Questo non è stato convalidato in modo indipendente rispetto al comportamento di produzione di Origini dati AA come era la cadenza di CJA.
 
 
 ## Integrazione in uscita

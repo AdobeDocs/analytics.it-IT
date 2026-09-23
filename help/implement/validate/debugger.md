@@ -7,29 +7,36 @@ role: Admin, Developer, Leader, User
 TQID: 'https://experienceleague.adobe.com/UzZipOHP99eBzygkSajbyuPsWsRM-MvfVf5Myv2CSmA'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
+    internal-label: Validation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Data collection
+source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
 workflow-type: tm+mt
-source-wordcount: 669
+source-wordcount: '679'
 ht-degree: 2%
-
 ---
-
 # Debugger legacy
 
 >[!IMPORTANT]
 >
->Questo strumento di debug non viene più mantenuto. Adobe consiglia invece di utilizzare [Adobe CX Enterprise Debugger Chrome Extension](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it).
+>Questo strumento di debug non viene più mantenuto. Adobe consiglia invece di utilizzare l&#39;estensione [Adobe CX Enterprise Debugger Chrome](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it).
 
 [!UICONTROL Legacy Debugger] esamina i tag per la maggior parte dei servizi Adobe CX Enterprise. L’utilizzo del debugger consente di visualizzare quali dati vengono inviati ad Adobe in una determinata pagina del sito. Puoi utilizzare queste informazioni per risolvere eventuali problemi o convalidare l’implementazione dell’organizzazione.
 
@@ -97,6 +104,6 @@ Il debugger dispone di diverse opzioni disponibili, tutte che personalizzano la 
 * **[!UICONTROL Displayed Experience Cloud products]**: mostra o nasconde le richieste di immagini per ciascun prodotto CX Enterprise.
 * **[!UICONTROL URL Decode]**: l&#39;URL decodifica la richiesta di immagine in modo che corrisponda a quanto visualizzato nel reporting. Adobe consiglia di lasciare selezionata questa casella.
 * **[!UICONTROL Auto Refresh]**: aggiorna automaticamente il popup ogni pochi secondi per verificare la presenza di altre richieste di immagini nella pagina. Se devi copiare/incollare il contenuto nel debugger, disattiva l’aggiornamento automatico in modo che la selezione rimanga invariata.
-* **[!UICONTROL Friendly Format]**: attiva o disattiva il formato di visualizzazione tra le etichette utili e le stringhe di query non elaborate in una richiesta di immagine. Per ulteriori informazioni, vedere [Parametri query raccolta dati](query-parameters.md).
+* **[!UICONTROL Friendly Format]**: attiva o disattiva il formato di visualizzazione tra le etichette utili e le stringhe di query non elaborate in una richiesta di immagine. Per ulteriori informazioni, vedere [Parametri query raccolta dati](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference).
 
 Per salvare le opzioni di visualizzazione predefinite per il debugger, fai clic con il pulsante destro del mouse sul collegamento &quot;Adobe Debugger&quot; nell’angolo in alto a destra, quindi copia l’indirizzo del collegamento. Modifica il bookmarklet di debugger corrente e incolla lo snippet di codice aggiornato nel campo URL.
