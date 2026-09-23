@@ -47,7 +47,7 @@ Imposta la variabile [`pageName`](/help/implement/vars/page-vars/pagename.md) ne
 | Proprietà | Valore |
 | --- | --- |
 | **Variabile AppMeasurement** | [`pageName`](/help/implement/vars/page-vars/pagename.md) |
-| **Campo Web SDK / XDM** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Campo Web SDK / XDM** | [`web.webPageDetails.name`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Parametro query** | [`pageName`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Tag XML** | [`<pageName>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite di byte** | 100 byte |

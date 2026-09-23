@@ -55,7 +55,7 @@ AppMeasurement raccoglie automaticamente il referente dal valore `document.refer
 | Proprietà | Valore |
 | --- | --- |
 | **Variabile AppMeasurement** | [`referrer`](/help/implement/vars/page-vars/referrer.md) |
-| **Campo Web SDK / XDM** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/web-information) |
+| **Campo Web SDK / XDM** | [`web.webReferrer.URL`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/data-types/web-information) |
 | **Parametro query** | [`r`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Tag XML** | [`<referrer>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite di byte** | 255 byte |

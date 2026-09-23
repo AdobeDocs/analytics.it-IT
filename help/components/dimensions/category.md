@@ -43,7 +43,7 @@ Questa dimensione fa riferimento alla categoria di prodotto nella variabile [`pr
 | Proprietà | Valore |
 | --- | --- |
 | **Variabile AppMeasurement** | [`products`](/help/implement/vars/page-vars/products.md) |
-| **Campo Web SDK / XDM** | [`productListItems[].productCategories[].categoryID`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/commerce-details) |
+| **Campo Web SDK / XDM** | [`productListItems[].productCategories[].categoryID`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/commerce-details) |
 | **Parametro query** | [`products`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Tag XML** | [`<products>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite di byte** | 100 byte |

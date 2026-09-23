@@ -71,7 +71,7 @@ Imposta esplicitamente le eVar nell’implementazione. I valori persistono e si 
 | Proprietà | Valore |
 | --- | --- |
 | **Variabile AppMeasurement** | [`eVar1` - `eVar250`](/help/implement/vars/page-vars/evar.md) |
-| **Campo Web SDK / XDM** | [`xdm._experience.analytics.customDimensions.eVars.eVar1` - `eVar250`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
+| **Campo Web SDK / XDM** | [`xdm._experience.analytics.customDimensions.eVars.eVar1` - `eVar250`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
 | **Parametro query** | [`v1` - `v250`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Tag XML** | [`<eVar1>` - `<eVar250>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite di byte** | 255 byte |

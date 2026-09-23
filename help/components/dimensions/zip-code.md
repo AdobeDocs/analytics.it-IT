@@ -50,7 +50,7 @@ Questa dimensione è univoca in quanto contiene più modi per compilarla con i d
 | Proprietà | Valore |
 | --- | --- |
 | **Variabile AppMeasurement** | [`zip`](/help/implement/vars/page-vars/zip.md) |
-| **Campo Web SDK / XDM** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/geo) |
+| **Campo Web SDK / XDM** | [`placeContext.geo.postalCode`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/data-types/geo) |
 | **Parametro query** | [`zip`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Tag XML** | [`<zip>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite di byte** | 50 byte |

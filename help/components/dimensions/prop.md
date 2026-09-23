@@ -61,7 +61,7 @@ Ogni prop raccoglie dati utilizzando la variabile [`prop1` - `prop75`](/help/imp
 | Proprietà | Valore |
 | --- | --- |
 | **Variabile AppMeasurement** | [`prop1` - `prop75`](/help/implement/vars/page-vars/prop.md) |
-| **Campo Web SDK / XDM** | [`_experience.analytics.customDimensions.props.prop1` - `prop75`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
+| **Campo Web SDK / XDM** | [`_experience.analytics.customDimensions.props.prop1` - `prop75`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/analytics-full-extension) |
 | **Parametro query** | [`c1` - `c75`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Tag XML** | [`<prop1>` - `<prop75>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite di byte** | 100 byte |

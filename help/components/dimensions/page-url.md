@@ -43,7 +43,7 @@ AppMeasurement raccoglie automaticamente l&#39;URL della pagina in ogni [chiamat
 | Proprietà | Valore |
 | --- | --- |
 | **Variabile AppMeasurement** | [`pageURL`](/help/implement/vars/page-vars/pageurl.md) |
-| **Campo Web SDK / XDM** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/data-types/webpage-details) |
+| **Campo Web SDK / XDM** | [`web.webPageDetails.URL`](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/data-types/webpage-details) |
 | **Parametro query** | [`g`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Tag XML** | [`<pageUrl>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite di byte** | 255 byte (nessun limite fisso con overflow) |

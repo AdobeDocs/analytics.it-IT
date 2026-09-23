@@ -47,20 +47,20 @@ Adobe identifica un visitatore utilizzando l&#39;[ordine di operazioni standard]
 
 L&#39;ECID (inviato come `mid`) è l&#39;identificatore del visitatore moderno e multisoluzione, condiviso tra Adobe Analytics, Adobe Target e Adobe Audience Manager. Adobe consiglia di utilizzarlo laddove possibile.
 
-Ottieni l&#39;ECID con [Servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/home) (`VisitorAPI.js`). In un browser, inizializza il servizio con il tuo ID organizzazione IMS utilizzando [`getInstance`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getinstance), quindi leggi l&#39;ECID con [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid):
+Ottieni l&#39;ECID con [Servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/home) (`VisitorAPI.js`). In un browser, inizializza il servizio con il tuo ID organizzazione IMS utilizzando [`getInstance`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/getinstance), quindi leggi l&#39;ECID con [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/getmcvid):
 
 ```js
 var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-Invia tale valore su ogni hit come parametro di query `mid` o tag XML `<marketingCloudVisitorId>`. Se i dati vengono inoltrati ad Audience Manager, invia anche l&#39;area geografica da [`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint) come parametro `aamlh` (o tag `<imsRegion>`). Per associare i propri identificatori cliente al visitatore, utilizzare [`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids).
+Invia tale valore su ogni hit come parametro di query `mid` o tag XML `<marketingCloudVisitorId>`. Se i dati vengono inoltrati ad Audience Manager, invia anche l&#39;area geografica da [`getLocationHint`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/getlocationhint) come parametro `aamlh` (o tag `<imsRegion>`). Per associare i propri identificatori cliente al visitatore, utilizzare [`setCustomerIDs`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/setcustomerids).
 
-Per la raccolta lato server, ottieni l’ECID sul client e invialo al server per l’invio a ogni hit. Per generare un ECID interamente lato server, senza client, utilizza l&#39;[integrazione diretta](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration) del servizio ID.
+Per la raccolta lato server, ottieni l’ECID sul client e invialo al server per l’invio a ogni hit. Per generare un ECID interamente lato server, senza client, utilizza l&#39;[integrazione diretta](https://experienceleague.adobe.com/it/docs/id-service/using/implementation/direct-integration) del servizio ID.
 
 ## Utilizzo dell’ID visitatore di Analytics
 
-L&#39;ID visitatore di Analytics (`aid`) è memorizzato nel cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Quando un hit arriva senza un identificatore, il server di raccolta assegna un `aid` e lo restituisce nel corpo della risposta. Alcuni [tipi di risposta](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) includono anche questo identificatore nel corpo della risposta. Chi memorizza tale ID e lo invia nuovamente è la differenza tra i due stili di implementazione.
+L&#39;ID visitatore di Analytics (`aid`) è memorizzato nel cookie [`s_vi`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics). Quando un hit arriva senza un identificatore, il server di raccolta assegna un `aid` e lo restituisce nel corpo della risposta. Alcuni [tipi di risposta](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) includono anche questo identificatore nel corpo della risposta. Chi memorizza tale ID e lo invia nuovamente è la differenza tra i due stili di implementazione.
 
 * **Lato client (richieste di immagini dirette).** Il browser memorizza il cookie `s_vi` restituito dal server e lo invia a ogni richiesta successiva allo stesso dominio di raccolta, in modo che il visitatore venga riconosciuto automaticamente. Affinché ciò funzioni, il dominio di raccolta deve essere in grado di impostare e leggere il cookie, utilizzando un server di tracciamento CNAME di prime parti. Poiché questo modello dipende dai cookie, degrada dove i browser li limitano (blocco dei cookie di terze parti, Intelligent Tracking Prevention); preferisce l’ECID per l’identità durevole.
 

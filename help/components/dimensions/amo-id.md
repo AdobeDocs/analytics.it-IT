@@ -31,11 +31,11 @@ ht-degree: 4%
 ---
 # ID AMO
 
-**[!UICONTROL AMO ID]** è una raccolta di identificatori concatenati utilizzati nelle integrazioni Adobe Advertising. I valori memorizzati in questa dimensione vengono automaticamente organizzati in dimensioni di classificazione separate e più leggibili dall’uomo da utilizzare nei rapporti di Analytics. La dimensione viene creata automaticamente quando si abilita l&#39;integrazione di [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
+**[!UICONTROL AMO ID]** è una raccolta di identificatori concatenati utilizzati nelle integrazioni Adobe Advertising. I valori memorizzati in questa dimensione vengono automaticamente organizzati in dimensioni di classificazione separate e più leggibili dall’uomo da utilizzare nei rapporti di Analytics. La dimensione viene creata automaticamente quando si abilita l&#39;integrazione di [Analytics for Advertising](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/overview).
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione viene compilata automaticamente dall&#39;integrazione [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview). Nessuna variabile da impostare.
+Questa dimensione viene compilata automaticamente dall&#39;integrazione [Analytics for Advertising](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/overview). Nessuna variabile da impostare.
 
 | Proprietà | Valore |
 | --- | --- |
@@ -164,7 +164,7 @@ AL!{user}!90!{ad id}!{source type}!!!{phrase id}
 
 ## Classificazioni
 
-Quando si abilita l&#39;integrazione di [Analytics per Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview), vengono create automaticamente le seguenti classificazioni. I valori di classificazione vengono gestiti automaticamente dall’integrazione.
+Quando si abilita l&#39;integrazione di [Analytics per Advertising](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/overview), vengono create automaticamente le seguenti classificazioni. I valori di classificazione vengono gestiti automaticamente dall’integrazione.
 
 | Classificazione | Descrizione | DSP | Cerca,<br>Social, &amp;<br>Commerce |
 | --- | --- | :---: | :---: |
