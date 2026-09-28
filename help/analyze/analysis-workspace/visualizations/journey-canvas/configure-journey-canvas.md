@@ -3,16 +3,30 @@ description: Informazioni sulla configurazione di una visualizzazione dell’are
 title: Configurare una visualizzazione dell’area di lavoro del percorso
 feature: Visualizations
 role: User, Admin
-source-git-commit: 0af08348796361b4da5361debe7f54dc24595ad8
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+subfeature_v2:
+  - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
 workflow-type: tm+mt
-source-wordcount: '6527'
-ht-degree: 79%
+source-wordcount: '6533'
+ht-degree: 78%
 ---
 # Configurare una visualizzazione dell’area di lavoro del percorso {#configure-journey-canvas}
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Vedere [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) per la versione _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;di questo articolo._
+_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Vedere [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) per la versione _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -93,7 +107,7 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_compare"
 >title="Confronta con"
->abstract="L’intervallo di date utilizzato per confrontare i dati del percorso correnti con un periodo precedente. Quando selezioni un intervallo di date di confronto, ogni nodo del percorso mostra la variazione percentuale tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica primaria. "
+>abstract="L’intervallo di date utilizzato per confrontare i dati del percorso correnti con un periodo precedente. Quando selezioni un intervallo di date di confronto, ogni nodo, freccia e fallout nel percorso mostra la variazione percentuale tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica principale. "
 
 <!-- markdownlint-enable MD034 -->
 
@@ -113,7 +127,7 @@ Configurare le impostazioni per la visualizzazione dell’area di lavoro del per
    |---------|----------|
    | [!UICONTROL **Valore percentuale**] | Il valore percentuale mostrato su ciascun nodo del percorso.<p>![valore percentuale](assets/journey-canvas-percentage.png)</p> <p>Quando configuri i valori percentuali mostrati sui nodi del percorso, considera quanto segue:</p><ul><li>Su ciascun nodo viene mostrata una percentuale per la metrica primaria. Viene mostrata anche una percentuale per la metrica secondaria, se ne è stata configurata una. Per ulteriori informazioni sulle impostazioni delle metriche primaria e secondaria, consulta [Inizia a creare una visualizzazione area di lavoro del percorso](#begin-building-a-journey-canvas-visualization).</li><li>Le percentuali includono tutte le persone o le sessioni incluse nella suite di rapporti all’interno dell’intervallo di date del pannello. L’utilizzo di _persone_ o _sessioni_ dipende dall’impostazione del contenitore. Per ulteriori informazioni sull’impostazione del contenitore, consulta [Inizia a creare una visualizzazione area di lavoro del percorso](#begin-building-a-journey-canvas-visualization).</li></ul> <p>Scegli tra le seguenti opzioni:</p> <ul><li>[!UICONTROL **Percentuale del nodo iniziale**]: calcola le percentuali mostrate in ciascun nodo in relazione al nodo iniziale. Le percentuali si basano sulla metrica primaria e secondaria selezionata. <p>Un nodo _iniziale_ è un nodo che non dispone di nodi connessi che lo precedono.</p><p>Un percorso può contenere più nodi iniziali. Tuttavia, viene utilizzata la [!UICONTROL **Percentuale del totale**] se il percorso contiene 2 o più nodi iniziali che conducono a un nodo comune. Per utilizzare la [!UICONTROL **Percentuale del nodo iniziale**], aggiorna il percorso in modo che ciascun nodo del percorso possa essere ricondotto a un singolo nodo iniziale.</p></li><li>[!UICONTROL **Percentuale del nodo precedente**]: calcola le percentuali mostrate in ciascun nodo in relazione al nodo precedente. Le percentuali si basano sulla metrica primaria e secondaria selezionata.</li><li>[!UICONTROL **Percentuale del totale**]: calcola le percentuali visualizzate in ogni nodo in relazione a tutti i dati nella suite di rapporti. Le percentuali si basano sulla metrica primaria e secondaria selezionata.</li></ul> |
    | [!UICONTROL **Impostazioni freccia**] | Le frecce visualizzate tra i nodi nell’area di lavoro del percorso possono essere configurate per mostrare etichette e valori personalizzati. <p>![impostazioni freccia](assets/journey-canvas-arrow-settings.png)</p><p>_Le etichette_ sono nomi personalizzati che è possibile aggiungere nell&#39;area di lavoro del Percorso, come descritto in [Aggiungere o aggiornare un&#39;etichetta in una freccia](#add-or-update-a-label-on-an-arrow).</li></ol><p>_I valori_ sono i numeri e le percentuali visualizzati sulle frecce e indicano le persone o le sessioni che si sono spostate da un nodo al nodo successivo nel percorso. In altre parole, coloro che non sono usciti dal percorso in un determinato momento. </p><p>Sono disponibili le seguenti opzioni:</p><ul><li>[!UICONTROL **Nessuna etichetta**]: nessuna etichetta visualizzata sulle frecce del percorso. </br> Questa opzione è disponibile solo se il percorso è stato modificato in </li><li>[!UICONTROL **Solo etichette**]: le etichette sono mostrate sulle frecce del percorso.</li></ul> |
-   | [!UICONTROL **Confronta con**] | L’intervallo di date utilizzato per confrontare i dati del percorso correnti con un periodo precedente. Puoi scegliere uno dei seguenti intervalli di date per il confronto:<ul><li>**[!UICONTROL 4 weeks prior]**</li><li>**[!UICONTROL 2 quarters prior]**</li><li>**[!UICONTROL 1 year prior]**</li><li>**[!UICONTROL Custom date range]**</li></ul><p>Quando selezioni un intervallo di date di confronto, ogni nodo del percorso mostra la variazione percentuale tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica primaria. Questo consente di identificare se le prestazioni del percorso sono migliori o peggiori rispetto a un periodo di tempo precedente.</p> |
+   | [!UICONTROL **Confronta con**] | L’intervallo di date utilizzato per confrontare i dati del percorso correnti con un periodo precedente. Puoi scegliere uno dei seguenti intervalli di date per il confronto:<ul><li>**[!UICONTROL 4 weeks prior]**</li><li>**[!UICONTROL 2 quarters prior]**</li><li>**[!UICONTROL 1 year prior]**</li><li>**[!UICONTROL Custom date range]**</li></ul><p>Quando selezioni un intervallo di date di confronto, ogni nodo, freccia e fallout nel percorso mostra la variazione percentuale tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica principale. Questo consente di identificare se le prestazioni del percorso sono migliori o peggiori rispetto a un periodo di tempo precedente.</p> |
    | [!UICONTROL **Mostra i fallout**] | I dati di fallout mostrano una percentuale e un numero che non rientrano in ciascun nodo del percorso. I dati di fallout si basano sulla metrica associata alle impostazioni del contenitore del percorso; non si basano sulla metrica primaria o secondaria. <p>![fallout](assets/journey-canvas-fallout.png)</p><p>Per impostazione predefinita, il contenitore è _Persona_, quindi la metrica utilizzata per i dati di fallout è _Persone_. Se il contenitore viene modificato in _Sessione_, la metrica utilizzata per i dati di fallout sarà _Sessioni_ e così via.</p><p>Ad esempio, se l’impostazione del contenitore è _Persona_, il fallout mostra la percentuale e il numero di persone in ciascun nodo del percorso che non sono mai arrivate ai nodi immediatamente successivi. Tale persona potrebbe aver eseguito altre azioni sul sito, ma non ha soddisfatto i criteri definiti da nessuno dei nodi immediatamente successivi.</p> <p>Per ulteriori informazioni sull’impostazione del contenitore area di lavoro del percorso, consulta [Iniziare a creare una visualizzazione area di lavoro del percorso](#begin-building-a-journey-canvas-visualization). |
    | **Controlli** | Nell’angolo superiore destro dell’area di lavoro sono disponibili i seguenti controlli:<ul><li>**Adatta schermo** ![icona Adatta schermo](assets/fill-screen-icon.png): regola le impostazioni correnti di zoom e scorrimento per riempire lo schermo con la visualizzazione completa.</li><li>**Organizza** ![organizza icona](assets/organize.svg): riorganizza i nodi per ridurre al minimo le frecce incrociate e ottimizzare la spaziatura, in base alle connessioni dei nodi. </li><li>**Ingrandisci** ![icona Ingrandisci](assets/zoom-in-icon.png): ingrandisce aree specifiche della visualizzazione.<p>Puoi inoltre utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</li><li>**Riduci** ![icona Riduci](assets/zoom-out-icon.png): riduce la visualizzazione per avere più spazio nell’area di lavoro.<p>Puoi inoltre utilizzare i controlli del mouse, ad esempio il pizzicamento su un trackpad.</p></li></ul><p>Per spostarti nell’area di lavoro dopo aver ingrandito o ridotto, fai clic con il mouse e trascina nella posizione che desideri.</p> |
 
