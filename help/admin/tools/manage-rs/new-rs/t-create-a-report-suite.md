@@ -67,4 +67,4 @@ Ciò significa che al tuo account non sono state concesse le autorizzazioni corr
 
 ## Passaggi successivi
 
-[Crea una proprietà tag Adobe Analytics ](/help/implement/launch/create-analytics-property.md): consente di creare un’area per gestire l’implementazione di Analytics.
+[Crea una proprietà tag Adobe Analytics &#x200B;](/help/implement/launch/create-analytics-property.md): consente di creare un’area per gestire l’implementazione di Analytics.
