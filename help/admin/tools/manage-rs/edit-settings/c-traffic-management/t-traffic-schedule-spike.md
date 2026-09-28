@@ -4,25 +4,31 @@ description: Collabora con Adobe per assicurarti che gli eventi a traffico eleva
 feature: Report Suite Settings
 role: Admin
 exl-id: a6bbd975-6d31-40f5-8f80-491ec3a5c5f5
-TQID: https://experienceleague.adobe.com/sRBWnaCF2I3WCOMrgWQvF9DP-jZ8eKwSfPbnbWpUcEI
+TQID: 'https://experienceleague.adobe.com/sRBWnaCF2I3WCOMrgWQvF9DP-jZ8eKwSfPbnbWpUcEI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: f52db89b-2666-4cad-9c50-9da4d3ffcfd0
+    internal-label: Traffic Management
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 715
+source-wordcount: '715'
 ht-degree: 68%
-
 ---
-
 # Pianificare un picco di traffico
 
 Adobe tenta di collaborare con i client per garantire il successo di un evento con traffico elevato. La pianificazione dei picchi di traffico è il punto di partenza del processo di collaborazione. La sezione di pianificazione di un picco consente di avvisare Adobe di picchi di traffico temporanei, in modo da allocare le risorse appropriate per gestirli. Puoi stimare chiamate server passate per avere un’idea migliore delle dimensioni del picco di traffico da pianificare.

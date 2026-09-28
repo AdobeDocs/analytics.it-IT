@@ -3,7 +3,7 @@ title: Mese dell’anno
 description: Il mese numerico dell’anno, indipendentemente dall’anno.
 feature: Dimensions
 exl-id: ed2887f2-46e7-48a4-b337-f59177c7558c
-TQID: https://experienceleague.adobe.com/W62Cro1mGRZnEY-v1ilx9Dw1Xu0qR4t-KSVkOpG8RGY
+TQID: 'https://experienceleague.adobe.com/W62Cro1mGRZnEY-v1ilx9Dw1Xu0qR4t-KSVkOpG8RGY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -14,9 +14,13 @@ feature_v2:
     internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
     internal-label: Implementations
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
     internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,14 +29,14 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 13%
 ---
 # Mese dell’anno
 
-La dimensione &#39;Mese dell&#39;anno&#39; [1&rbrace; riporta il mese di un dato anno come elemento dimensione. &#x200B;](overview.md)Questo rapporto è utile se desideri un rapporto suddiviso per il mese dell’anno, ma non vuoi una data statica come elementi dimensionali. È possibile aggregare i rapporti su base annua per mese, in modo che i dati di gennaio di quest’anno vengano aggregati con i dati di gennaio dell’anno precedente nello stesso elemento dimensionale.
+La dimensione &#39;Mese dell&#39;anno&#39; [1} riporta il mese di un dato anno come elemento dimensione. ](overview.md)Questo rapporto è utile se desideri un rapporto suddiviso per il mese dell’anno, ma non vuoi una data statica come elementi dimensionali. È possibile aggregare i rapporti su base annua per mese, in modo che i dati di gennaio di quest’anno vengano aggregati con i dati di gennaio dell’anno precedente nello stesso elemento dimensionale.
 
 ## Popolare questa dimensione con i dati
 

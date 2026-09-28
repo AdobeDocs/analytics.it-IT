@@ -3,23 +3,30 @@ description: Scopri un flusso di lavoro consigliato per creare segmenti con il G
 title: Panoramica sulla segmentazione del flusso di lavoro
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
-TQID: https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY
+TQID: 'https://experienceleague.adobe.com/C6MW4N7ntk19xCCHHBTUyJR-FZKzL--sVwx2SyGRbwY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 265
+source-wordcount: '265'
 ht-degree: 40%
-
 ---
-
 # Panoramica sulla segmentazione del flusso di lavoro
 
 Questo articolo descrive un flusso di lavoro consigliato per creare segmenti con il Generatore di segmenti e gestirli tramite il Gestore segmenti.
@@ -33,7 +40,7 @@ Questo articolo descrive un flusso di lavoro consigliato per creare segmenti con
 | 4 | [Segmenti di tag](/help/components/segmentation/segmentation-workflow/seg-tag.md) | Assegna tag ai segmenti per semplificarne l’organizzazione e la condivisione. Scopri come pianificare e assegnare tag per ricerche e organizzazioni semplici e avanzate. |
 | 5 | [Approvare segmenti](/help/components/segmentation/segmentation-workflow/seg-approve.md) | Approva i segmenti per renderli canonici. |
 | 6 | [Usa segmenti](/help/components/segmentation/segmentation-workflow/t-seg-apply.md) | Puoi applicare segmenti dai componenti dei segmenti direttamente a un rapporto. |
-| 7 | [Condividere segmenti](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Condividi i segmenti con il pubblico previsto in altri strumenti di Analytics e in Adobe Target e Adobe CX Enterprise. |
+| 7 | [Condividere segmenti](/help/components/segmentation/segmentation-workflow/t-seg-share.md) | Condividi i segmenti con il pubblico previsto in altri strumenti Analytics e in Adobe Target e Adobe CX Enterprise. |
 | 8 | [Filtrare segmenti](/help/components/segmentation/segmentation-workflow/t-seg-filter.md) | È possibile filtrare per tag, proprietari e altri filtri (Mostra tutto, Personali, Condivisi con me, Preferiti e Approvati). |
 | 9 | [Segmento contrassegnato come preferito](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md) | Contrassegnare i segmenti come preferiti è un altro modo per organizzarli in modo semplice e intuitivo. |
 

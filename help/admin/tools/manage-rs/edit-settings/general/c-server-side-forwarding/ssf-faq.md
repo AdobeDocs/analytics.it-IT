@@ -7,24 +7,34 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/av541DJd5Ga5QaK2856YBHWW1M-JjkbzRs8JXxYma6c'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 707
+source-wordcount: '707'
 ht-degree: 67%
-
 ---
-
 # Domande frequenti sull’inoltro lato server
 
 Domande frequenti sulle caratteristiche, sulle funzionalità e sui problemi correlati all’inoltro lato server.
@@ -41,11 +51,11 @@ Domande frequenti sulle caratteristiche, sulle funzionalità e sui problemi corr
 | Domanda | Risposta |
 |--- |--- |
 | D: cosa succede se dispongo di tag per più suite sul sito? L’inoltro lato server raddoppierà le chiamate server ad Audience Manager? | No, un hit inoltrato da Analytics all’Audience Manager verrà inoltrato una sola volta, indipendentemente dal numero di suite di rapporti nell’hit. Se disponi di origini di dati corrispondenti nell’Audience Manager per ciascuna suite di rapporti nell’hit, ciascuna di esse verrà compilata in modo appropriato dall’hit singolo.  Tieni presente tuttavia che se al momento utilizzi la raccolta dati lato client (DIL) e abiliti l’inoltro lato server senza installare il modulo Gestione dell’audience, le chiamate server all’Audience Manager verranno raddoppiate indipendentemente dal numero di suite di rapporti disponibili nell’hit di Analytics. |
-| D: cosa succede se dispongo di suite di rapporti con tag con più suite mappate su organizzazioni aziendali CX separate? | Non devi mai inviare dati da un singolo hit di Analytics a due suite di rapporti che appartengono a organizzazioni CX Enterprise separate, ma se ciò si verifica, l’hit verrà inoltrato solo all’organizzazione CX Enterprise che corrisponde alla configurazione del servizio Identity nella pagina. |
-| D: cosa succede se dispongo di tag per più suite e una sola suite di rapporti è mappata sulla mia organizzazione CX Enterprise e l’altra no? | Inoltreremo l’hit al server di raccolta dati corrispondente per l’organizzazione CX Enterprise nella suite di rapporti mappata. Tuttavia, poiché la suite di rapporti non mappata non avrà un’origine dati associata in Audience Manager, non verranno registrati dati per la suite di rapporti non mappata in Audience Manager. |
-| D: cosa succede se dispongo di una suite di rapporti mappata su più organizzazioni aziendali CX? | Analytics considererà questa suite di rapporti come non mappata e non consentirà l’inoltro lato server di essere abilitato per questa suite di rapporti. Contattata il servizio clienti per risolvere il problema di mappatura. |
+| D: cosa succede se dispongo di suite di rapporti con tag con più suite mappate su organizzazioni CX Enterprise separate? | Non devi mai inviare dati da un singolo hit di Analytics a due suite di rapporti che appartengono a organizzazioni di CX Enterprise separate, ma se ciò si verifica, l’hit verrà inoltrato solo all’organizzazione di CX Enterprise che corrisponde alla configurazione del servizio Identity nella pagina. |
+| D: cosa succede se dispongo di tag per più suite e una sola suite di rapporti è mappata sulla mia organizzazione CX Enterprise e l’altra no? | Inoltreremo l’hit al server di raccolta dati corrispondente per l’organizzazione CX Enterprise nella tua suite di rapporti mappata. Tuttavia, poiché la suite di rapporti non mappata non avrà un’origine dati associata in Audience Manager, non verranno registrati dati per la suite di rapporti non mappata in Audience Manager. |
+| D: cosa succede se dispongo di una suite di rapporti mappata su più organizzazioni di CX Enterprise? | Analytics considererà questa suite di rapporti come non mappata e non consentirà l’inoltro lato server di essere abilitato per questa suite di rapporti. Contattata il servizio clienti per risolvere il problema di mappatura. |
 | D: il metodo di inoltro lato server basato su suite di rapporti sarà più lento rispetto all’inoltro lato server basato sul server di tracciamento? | No, il tempo di risposta sarà lo stesso. |
-| D: cosa succede se disponiamo di due organizzazioni CX Enterprise (o istanze Adobe Audience Manager) e vogliamo condividere i dati tra entrambe le organizzazioni CX Enterprise? È possibile inoltrare un singolo hit Analytics lato server a più organizzazioni CX Enterprise? | No. Se devi condividere i dati raccolti in un’organizzazione CX Enterprise con un’altra organizzazione CX Enterprise, ti consigliamo di inviare qualsiasi pubblico applicabile da un’istanza di Audience Manager a un’altra utilizzando audience marketplace. |
+| D: cosa succede se disponiamo di due organizzazioni CX Enterprise (o istanze Adobe Audience Manager) e vogliamo condividere i dati tra entrambe le organizzazioni CX Enterprise? Posso inoltrare un singolo hit Analytics lato server a più organizzazioni CX Enterprise? | No. Se devi condividere i dati raccolti in un’organizzazione CX Enterprise con un’altra organizzazione CX Enterprise, ti consigliamo di inviare un pubblico appropriato da un’istanza Audience Manager a un’altra utilizzando audience marketplace. |
 | D: l’inoltro lato server comporterà una fatturazione aggiuntiva in Audience Manager o Analytics? | In Analytics non si verificherà alcuna fatturazione aggiuntiva. In Audience Manager, gli hit inoltrati vengono trattati come qualsiasi altro hit e vengono fatturati.  Per questo motivo è importante non abilitare contemporaneamente l’inoltro lato server e DIL, il che potrebbe causare la doppia fatturazione e la duplicazione dei dati. |
 
 >[!MORELIKETHIS]

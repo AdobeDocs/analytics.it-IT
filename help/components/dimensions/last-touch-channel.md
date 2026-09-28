@@ -3,7 +3,7 @@ title: Canale di ultimo contatto
 description: Il canale di marketing più recente entro la scadenza del coinvolgimento del visitatore.
 feature: Dimensions
 exl-id: 62a47de5-ee1a-4394-aa63-75cdda92ba6a
-TQID: https://experienceleague.adobe.com/wUNsv-0snBfk6EE6yeCEuT8-hGvBu9U8tjKDfxhVRA0
+TQID: 'https://experienceleague.adobe.com/wUNsv-0snBfk6EE6yeCEuT8-hGvBu9U8tjKDfxhVRA0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
@@ -12,6 +12,8 @@ feature_v2:
     internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c80b99d6-98b9-4aeb-b5c4-933ef2ef705c
     internal-label: Marketing Channels
@@ -19,6 +21,8 @@ subfeature_v2:
     internal-label: Calculated Metrics
   - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
     internal-label: Report Suite settings
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -29,7 +33,7 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 6%
@@ -61,7 +65,7 @@ Per impostare questa dimensione su un valore specifico, sono necessari i seguent
 
 >[!TIP]
 >
->L&#39;utilizzo di questa dimensione con metriche che utilizzano l&#39;attribuzione di partecipazione [&#128279;](/help/analyze/analysis-workspace/attribution/models.md) può attribuire il credito a `None` quando altri modelli di attribuzione non lo fanno. Le metriche di partecipazione richiedono un canale di marketing [istanza](../metrics/instances.md) nell&#39;intervallo di reporting per ricevere credito. Se il canale di marketing è stato inizialmente impostato al di fuori dell&#39;intervallo di reporting ed esiste solo il valore persistente nell&#39;intervallo di reporting, le metriche di partecipazione attribuiscono il credito a `None`. Altri modelli di attribuzione attribuiscono il merito al valore persistente. Se in questo scenario si desidera evitare l&#39;attribuzione a `None`, è consigliabile utilizzare un modello di attribuzione di non partecipazione.
+>L&#39;utilizzo di questa dimensione con metriche che utilizzano l&#39;attribuzione di partecipazione [](/help/analyze/analysis-workspace/attribution/models.md) può attribuire il credito a `None` quando altri modelli di attribuzione non lo fanno. Le metriche di partecipazione richiedono un canale di marketing [istanza](../metrics/instances.md) nell&#39;intervallo di reporting per ricevere credito. Se il canale di marketing è stato inizialmente impostato al di fuori dell&#39;intervallo di reporting ed esiste solo il valore persistente nell&#39;intervallo di reporting, le metriche di partecipazione attribuiscono il credito a `None`. Altri modelli di attribuzione attribuiscono il merito al valore persistente. Se in questo scenario si desidera evitare l&#39;attribuzione a `None`, è consigliabile utilizzare un modello di attribuzione di non partecipazione.
 
 ## Elementi dimensionali
 

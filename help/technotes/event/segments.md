@@ -3,25 +3,37 @@ title: Esclusione di date specifiche nell’analisi
 description: Suggerimenti per escludere date o intervalli di date se non si desidera includerli nei rapporti.
 exl-id: 744666c0-17f3-443b-9760-9c8568bec600
 feature: Curate and Share, Segmentation
-TQID: https://experienceleague.adobe.com/bqSpdTA1BeNtN2UfqRXAwc0iP6bXKFAy9ZSCGlVAZys
+TQID: 'https://experienceleague.adobe.com/bqSpdTA1BeNtN2UfqRXAwc0iP6bXKFAy9ZSCGlVAZys'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
+  - id: c510df06-c813-424c-abc1-c7ae8b03e9b3
+    internal-label: Curate and Share
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '568'
 ht-degree: 2%
-
 ---
-
 # Esclusione di date specifiche nell’analisi
 
 Se si dispone di dati [interessati da un evento](overview.md), è possibile utilizzare un segmento per escludere qualsiasi intervallo di date che non si desidera includere nei report. La segmentazione delle date interessate dagli eventi può aiutare a evitare che l’organizzazione prenda decisioni su dati parziali.

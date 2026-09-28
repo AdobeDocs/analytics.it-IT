@@ -4,34 +4,49 @@ keywords: Suite di rapporti virtuale
 title: Considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-TQID: https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI
+TQID: 'https://experienceleague.adobe.com/TQF7QQ1DbIlAK5nY2kEQ0YbjTmswa7NQNVYZIENbZEI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
+    internal-label: Integrations
 subfeature_v2:
   - id: e4f5f438-eabb-4c54-9133-b817e3d125f5
+    internal-label: Use cases
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+    internal-label: Personalization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1655
+source-wordcount: '1655'
 ht-degree: 0%
-
 ---
-
 # Considerazioni sulle suite di rapporti virtuali e sull’assegnazione di tag a più suite
 
 Le suite di rapporti virtuali ti consentono di visualizzare i dati di una suite di rapporti che raccoglie dati dalle proprietà digitali, ma con un segmento applicato in modo permanente.
@@ -48,9 +63,9 @@ Per determinare se utilizzare l’assegnazione di tag multisuite o le suite di r
 
 ### Pubblicazione di segmenti in Adobe CX Enterprise
 
-La condivisione di segmenti con Adobe CX Enterprise non è supportata per le suite di rapporti virtuali. Gli utenti che desiderano condividere un segmento con CX Enterprise devono avere accesso alla suite di rapporti di origine.
+La condivisione di segmenti su Adobe CX Enterprise non è supportata per le suite di rapporti virtuali. Gli utenti che desiderano condividere un segmento con CX Enterprise devono avere accesso alla suite di rapporti di origine.
 
-I segmenti non possono ancora essere pubblicati in Adobe CX Enterprise da una suite di rapporti virtuale per la personalizzazione e il targeting. A questo scopo, tutti gli utenti che pubblicano segmenti devono accedere alla suite di rapporti di origine. Ad esempio, si desidera che gli utenti abbiano accesso solo ai dati delle proprie aree geografiche, ma che possano creare e condividere segmenti da Adobe Analytics ad Adobe CX Enterprise per il targeting in Adobe Target. In questo caso, Adobe consiglia di utilizzare l’assegnazione tag per più suite. Se non ti dispiace se gli utenti hanno accesso alla suite di rapporti globale o se non devi pubblicare segmenti da utilizzare in altre soluzioni, puoi utilizzare le suite di rapporti virtuali.
+Non è ancora possibile pubblicare segmenti in Adobe CX Enterprise da una suite di rapporti virtuale per la personalizzazione e il targeting. A questo scopo, tutti gli utenti che pubblicano segmenti devono accedere alla suite di rapporti di origine. Ad esempio, se desideri che gli utenti abbiano accesso solo ai dati per le loro aree geografiche, vuoi che possano creare e condividere segmenti da Adobe Analytics a Adobe CX Enterprise per il targeting in Adobe Target. In questo caso, Adobe consiglia di utilizzare l’assegnazione tag per più suite. Se non ti dispiace se gli utenti hanno accesso alla suite di rapporti globale o se non devi pubblicare segmenti da utilizzare in altre soluzioni, puoi utilizzare le suite di rapporti virtuali.
 
 ### Limiti univoci (traffico ridotto)
 

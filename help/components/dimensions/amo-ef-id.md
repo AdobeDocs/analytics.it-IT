@@ -15,21 +15,26 @@ feature_v2:
 subfeature_v2:
   - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
     internal-label: Dimensions
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 6%
 ---
 # ID AMO EF
 
-**[!UICONTROL AMO EF ID]** è un identificatore di ad click utilizzato nelle integrazioni Adobe Advertising. È un token univoco che Adobe Advertising utilizza per associare l’attività a un clic online o a un’esposizione pubblicitaria a livello di visitatore. La dimensione viene creata automaticamente quando si abilita l&#39;integrazione di [Analytics for Advertising](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/overview).
+**[!UICONTROL AMO EF ID]** è un identificatore di ad click utilizzato nelle integrazioni Adobe Advertising. È un token univoco che Adobe Advertising utilizza per associare l’attività a un clic online o a un’esposizione pubblicitaria a livello di visitatore. La dimensione viene creata automaticamente quando si abilita l&#39;integrazione di [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview).
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione viene compilata automaticamente dall&#39;integrazione [Analytics for Advertising](https://experienceleague.adobe.com/it/docs/advertising/integrations/analytics/overview). Nessuna variabile da impostare.
+Questa dimensione viene compilata automaticamente dall&#39;integrazione [Analytics for Advertising](https://experienceleague.adobe.com/en/docs/advertising/integrations/analytics/overview). Nessuna variabile da impostare.
 
 | Proprietà | Valore |
 | --- | --- |

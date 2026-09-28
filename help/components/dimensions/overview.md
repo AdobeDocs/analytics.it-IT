@@ -3,25 +3,34 @@ title: Panoramica sulle dimensioni
 description: Scopri che cosa sono le dimensioni e come vengono utilizzate in Adobe Analytics.
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-TQID: https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ
+TQID: 'https://experienceleague.adobe.com/WypIneraYlrSyIpXv3UQWIFn42A-Dxi0SxeJ2VbeubQ'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: b22bc0f7-b089-4966-95a1-31e7b3b69b79
+    internal-label: Dimensions
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 29%
-
 ---
-
 # Panoramica delle dimensioni
 
 Le dimensioni sono delle variabili in Adobe Analytics che in genere contengono valori stringa. Le dimensioni comuni includono [Pagina](page.md), [Dominio di riferimento](referring-domain.md) o una [eVar](evar.md). Al contrario, le [metriche](../metrics/overview.md) contengono valori numerici che si legano a una dimensione. Un rapporto di base mostra righe di valori stringa (dimensioni) rispetto a una colonna di valori numerici (metriche).
@@ -52,7 +61,7 @@ Le seguenti dimensioni vengono ritirate. La maggior parte erano rapporti Reports
 * **Versione JavaScript**: segnalata la versione JavaScript supportata dal browser del visitatore. Una dimensione legacy che non viene più raccolta.
 * **Pagina successiva**: dimensione di percorso che mostra la pagina successiva visualizzata da un visitatore. Utilizza la [Visualizzazione flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) in Analysis Workspace per le dimensioni del percorso corrente.
 * **Pagina precedente**: dimensione di percorso che mostra la pagina precedente visualizzata da un visitatore. Utilizza la [Visualizzazione flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) in Analysis Workspace per le dimensioni del percorso corrente.
-* **Fuso orario**: il fuso orario del visitatore, derivato dallo scostamento della marca temporale nelle richieste di immagini AppMeasurement. Web SDK raccoglie il fuso orario utilizzando [`placeContext`](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/configure/context).
+* **Fuso orario**: il fuso orario del visitatore, derivato dallo scostamento della marca temporale nelle richieste di immagini AppMeasurement. Web SDK raccoglie il fuso orario utilizzando [`placeContext`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/context).
 * **Dominio di primo livello**: dominio di primo livello del punto di accesso del visitatore. Un report legacy di Reports &amp; Analytics; utilizza invece la dimensione [Dominio](domain.md).
 * **Numero pagina visita**: numero di pagina all&#39;interno di una visita. Un report legacy di Reports &amp; Analytics; utilizza invece la dimensione [Profondità di hit](hit-depth.md).
 * **Stato visitatore**: segnalato lo stato USA dalla variabile `s.state`. È stato ritirato a favore della dimensione [Stati USA](us-states.md), che utilizza la geosegmentazione.

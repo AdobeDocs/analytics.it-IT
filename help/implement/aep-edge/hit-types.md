@@ -4,30 +4,40 @@ description: Come Adobe Analytics interpreta gli eventi ricevuti da Edge Network
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 31085025-9c38-4375-8dfb-4fded6542ca7
-TQID: https://experienceleague.adobe.com/Bf-OnlQu7TFYb1V4uKCVVoQkaPP4MuhyVWSdgjlZ6e8
+TQID: 'https://experienceleague.adobe.com/Bf-OnlQu7TFYb1V4uKCVVoQkaPP4MuhyVWSdgjlZ6e8'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Personalization
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '478'
 ht-degree: 18%
-
 ---
-
 # Tipi di eventi di Edge Network in Adobe Analytics
 
-Adobe Analytics tratta gli hit in modo diverso a seconda delle funzioni chiamate in AppMeasurement. Ad esempio, [`s.t`](/help/implement/vars/functions/t-method.md) e [`s.tl`](/help/implement/vars/functions/tl-method.md) includono o omettono determinate dimensioni e incrementano [visualizzazioni di pagina](/help/components/metrics/page-views.md) in modo diverso. Adobe Experience Platform contiene solo il comando [`sendEvent`](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/sendevent/overview). Le proprietà specifiche all&#39;interno del payload [`xdm`](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/sendevent/xdm) o [`data`](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/sendevent/data) determinano il modo in cui tali dati vengono interpretati in Adobe Analytics.
+Adobe Analytics tratta gli hit in modo diverso a seconda delle funzioni chiamate in AppMeasurement. Ad esempio, [`s.t`](/help/implement/vars/functions/t-method.md) e [`s.tl`](/help/implement/vars/functions/tl-method.md) includono o omettono determinate dimensioni e incrementano [visualizzazioni di pagina](/help/components/metrics/page-views.md) in modo diverso. Adobe Experience Platform contiene solo il comando [`sendEvent`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/overview). Le proprietà specifiche all&#39;interno del payload [`xdm`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/xdm) o [`data`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/data) determinano il modo in cui tali dati vengono interpretati in Adobe Analytics.
 
 Edge Network utilizza la seguente logica per determinare le [visualizzazioni di pagina](/help/components/metrics/page-views.md) e i [eventi di collegamento](/help/components/metrics/page-events.md) di Adobe Analytics:
 
@@ -43,7 +53,7 @@ Edge Network utilizza la seguente logica per determinare le [visualizzazioni di 
 
 >[!TIP]
 >
->I nomi dei campi XDM nel payload fanno distinzione tra maiuscole e minuscole, ad esempio `webPageDetails.URL`. Il campo `xdm.eventType` è un valore stringa con il proprio set di valori accettati e le maiuscole in essi contenute potrebbero non corrispondere ai nomi dei campi XDM. Per i valori accettati, vedere il campo `eventType` nella classe [XDM ExperienceEvent](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/classes/experienceevent#eventType).
+>I nomi dei campi XDM nel payload fanno distinzione tra maiuscole e minuscole, ad esempio `webPageDetails.URL`. Il campo `xdm.eventType` è un valore stringa con il proprio set di valori accettati e le maiuscole in essi contenute potrebbero non corrispondere ai nomi dei campi XDM. Per i valori accettati, vedere il campo `eventType` nella classe [XDM ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/experienceevent#eventType).
 
 +++Visualizzazione pagina minima utilizzando `xdm` campi
 
@@ -207,4 +217,4 @@ Oltre a differenziare le visualizzazioni di pagina e gli eventi di collegamento,
 
 +++
 
-Per ulteriori informazioni, consulta [Gruppo di campi schema di estensione completo di Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/event/analytics-full-extension).
+Per ulteriori informazioni, consulta [Gruppo di campi schema di estensione completo di Adobe Analytics ExperienceEvent](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/event/analytics-full-extension).

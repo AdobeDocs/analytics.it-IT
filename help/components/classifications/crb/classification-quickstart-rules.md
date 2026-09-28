@@ -3,27 +3,35 @@ description: Le regole di classificazione cercano regolarmente termini non class
 title: Regole di classificazione
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-TQID: https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY
+TQID: 'https://experienceleague.adobe.com/Ce4YyFx-x0dgxxSRKGKmO7jKP4J5dzpz0H2RAtreQFY'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1932
+source-wordcount: '1932'
 ht-degree: 83%
-
 ---
-
 # Regole di classificazione (legacy)
 
 {{classification-rulebuilder-deprecation}}
@@ -147,7 +155,7 @@ Nel [!UICONTROL Rule Builder], configura la regola come segue:
 
 | Seleziona tipo di regola | Inserisci criteri di corrispondenza | Imposta classificazione | Su |
 |---|---|---|---|
-| Espressione regolare | &Cappello;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
+| Espressione regolare | &amp;Cappello;(.+)\:(.+)\:(.+)$ | Data della campagna | $ 3 |
 
 **Sintassi**
 
@@ -269,7 +277,7 @@ Una buona risorsa per testare la validità delle espressioni regolari è [https:
 
 ## Informazioni sulla priorità delle regole
 
-Se una chiave viene associata a più regole e imposta la stessa colonna di classificazione mostrata nella colonna [!UICONTROL Set Classification], l’ultima regola ha la priorità. Di conseguenza, potrebbe essere utile classificare come ultima la regola più importante del set di regole.
+Se una chiave viene associata a più regole e imposta la stessa colonna di classificazione mostrata nella colonna [!UICONTROL Set Classification], l’ultima regola ha la priorità. Di conseguenza, potrebbe essere utile inserire la regola più importante come ultima nell’ordine per ranking del set di regole.
 
 <!-- 
 

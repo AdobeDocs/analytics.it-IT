@@ -4,32 +4,47 @@ title: Etichette Privacy dei dati per le variabili di Analytics
 feature: Data Governance
 role: Admin
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-TQID: https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0
+TQID: 'https://experienceleague.adobe.com/M3mMUOHeCOs4u70TPwzisCwSZpX7GvzG-E8Lat74wV0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
+    internal-label: Variables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3816
+source-wordcount: '3816'
 ht-degree: 44%
-
 ---
-
 # Etichette Privacy dei dati per le variabili di Analytics
 
 I clienti di Adobe, in qualità di titolari del trattamento dei dati, sono responsabili del rispetto delle leggi sulla privacy dei dati applicabili, come il Regolamento generale sulla protezione dei dati (RGPD) e il California Consumer Privacy Act (CCPA). I clienti devono consultare il proprio team legale per determinare come devono essere gestiti i propri dati in conformità con le leggi sulla Privacy dei dati. Adobe è consapevole del fatto che ciascuno dei suoi clienti ha esigenze specifiche in materia di privacy, ed è per questo che Adobe consente ai clienti di personalizzare le impostazioni desiderate per l’elaborazione dei dati in questo ambito. Questo consente a ogni singolo cliente di elaborare le richieste di Privacy dei dati nella maniera più adatta al proprio marchio e al proprio specifico set di dati.
@@ -75,7 +90,7 @@ Le etichette per la governance dei dati consentono agli utenti di classificare i
 | Etichetta | Definizione | Altri requisiti |
 | --- | --- | --- |
 | None | Seleziona questa opzione se questa variabile non contiene i dati da includere nei dati restituiti all’interessato come parte di una richiesta di accesso alla Privacy dei dati. | |
-| ACC-ALL | I valori in questo campo devono essere inclusi in tutte le richieste di accesso alla Privacy dei dati. Se questo risultato deriva da un dispositivo condiviso tra più individui, applicando questa etichetta, l’utente, in qualità di controllore dei dati, indica che è accettabile la condivisione dei dati in questo campo con qualsiasi individuo che abbia accesso al dispositivo condiviso. | I campi con questa etichetta devono essere restituiti per tutte le richieste di Privacy dei dati. |
+| ACC-ALL | I valori in questo campo devono essere inclusi in tutte le richieste di accesso alla Privacy dei dati. Se questo hit deriva da un dispositivo condiviso tra più persone, applicando questa etichetta, in qualità di titolare del trattamento, indichi che è i dati in questo campo possono essere condivisi con qualsiasi persona abbia accesso al dispositivo condiviso. | I campi con questa etichetta devono essere restituiti per tutte le richieste di Privacy dei dati. |
 | ACC-PERSON | I valori in questo campo devono essere inclusi solo per le richieste di accesso Privacy dei dati quando si è ragionevolmente certi che l’hit provenga dall’interessato, come determinato da un ID di richiesta Privacy dei dati che corrisponde al valore di un campo ID-PERSON. | Inoltre, è necessario disporre di un’etichetta ID-PERSON impostata su alcune variabili in questa suite di rapporti e inviare richieste con tale ID, altrimenti l’etichetta non verrà mai applicata. |
 
 {style="table-layout:auto"}
@@ -90,8 +105,8 @@ L’etichetta Elimina è necessaria solo per i campi che contengono un valore ch
 
 | Etichetta | Definizione | Altri requisiti |
 | --- | --- | --- |
-| DEL-DEVICE | Per le richieste di cancellazione Privacy dei dati, i valori in questo campo devono essere resi anonimi solo per le richieste in cui è presente un ID-DEVICE specifico nel risultato.  Se lo stesso valore si verifica su altri hit che non vengono eliminati, queste altre istanze non verranno modificate. In questo modo i conteggi per i rapporti che calcolano conteggi univoci in questo campo cambieranno. Sui dispositivi condivisi, questo può rimuovere gli identificatori per altri individui, oltre alla sola persona interessata.  I conteggi non cambiano se il campo ha anche un’etichetta ID-DEVICE e il suo valore in questo campo è stato usato come un ID per la richiesta di Privacy dei dati. | <ul><li>Richiede anche l&#39;etichetta I1, I2 o S1</li><li>Non può essere impostato sugli eventi</li><li>Impossibile impostare su eVar di merchandising</li></li><li>Impossibile impostare sulle classificazioni</li><li>È necessario inviare le richieste utilizzando un ID-DEVICE o impostare expandIDs su true, altrimenti questa etichetta non verrà mai applicata.</li></ul> |
-| DEL-PERSON | Per le richieste di cancellazione Privacy dei dati, i valori in questo campo devono essere resi anonimi solo per le richieste in cui è presente un ID-PERSON specifico nel risultato.  Se lo stesso valore si verifica su altri risultati che non vengono eliminati, questi altri valori non verranno modificati. Ciò comporterà la modifica dei conteggi per i rapporti che calcolano conteggi univoci in questo campo. I conteggi non cambiano se il campo ha anche un’etichetta ID-PERSON e il suo valore in questo campo è stato usato come un ID per la richiesta Privacy dei dati. | <ul><li>Richiede anche l&#39;etichetta I1, I2 o S1</li><li>Non può essere impostato sugli eventi</li><li>Impossibile impostare su eVar di merchandising</li></li><li>Impossibile impostare sulle classificazioni</li><li>È necessario inviare richieste utilizzando un’etichetta ID-PERSON impostata su alcune variabili in questa suite di rapporti e inviarle con tale ID, altrimenti l’etichetta non verrà mai applicata.</li></ul> |
+| DEL-DEVICE | Per le richieste di cancellazione Privacy dei dati, i valori in questo campo devono essere resi anonimi solo per le richieste in cui nell’hit è presente un ID-DEVICE specifico.  Se lo stesso valore si verifica su altri hit che non vengono eliminati, queste altre istanze non verranno modificate. In questo modo i conteggi per i rapporti che calcolano conteggi univoci in questo campo cambieranno. Sui dispositivi condivisi, questo può rimuovere gli identificatori per altri individui, oltre alla sola persona interessata.  I conteggi non cambiano se il campo ha anche un’etichetta ID-DEVICE e il suo valore in questo campo è stato usato come un ID per la richiesta di Privacy dei dati. | <ul><li>Richiede anche l&#39;etichetta I1, I2 o S1</li><li>Non può essere impostato sugli eventi</li><li>Impossibile impostare su eVar di merchandising</li></li><li>Impossibile impostare sulle classificazioni</li><li>È necessario inviare le richieste utilizzando un ID-DEVICE o impostare expandIDs su true, altrimenti questa etichetta non verrà mai applicata.</li></ul> |
+| DEL-PERSON | Per le richieste di cancellazione Privacy dei dati, i valori in questo campo devono essere resi anonimi solo per le richieste in cui nell’hit è presente un ID-PERSON specifico.  Se lo stesso valore si verifica su altri risultati che non vengono eliminati, questi altri valori non verranno modificati. Ciò comporterà la modifica dei conteggi per i rapporti che calcolano conteggi univoci in questo campo. I conteggi non cambiano se il campo ha anche un’etichetta ID-PERSON e il suo valore in questo campo è stato usato come un ID per la richiesta Privacy dei dati. | <ul><li>Richiede anche l&#39;etichetta I1, I2 o S1</li><li>Non può essere impostato sugli eventi</li><li>Impossibile impostare su eVar di merchandising</li></li><li>Impossibile impostare sulle classificazioni</li><li>È necessario inviare richieste utilizzando un’etichetta ID-PERSON impostata su alcune variabili in questa suite di rapporti e inviarle con tale ID, altrimenti l’etichetta non verrà mai applicata.</li></ul> |
 
 {style="table-layout:auto"}
 
@@ -239,7 +254,7 @@ La tabella seguente descrive come vengono “eliminate” molte variabili. Quest
 
 | Variabili | Metodo di eliminazione |
 | --- | --- |
-| <ul><li>Variabili di traffico (prop)</li><li>Variabili commerciali (eVars)</li></ul> | Il valore esistente è sostituito da un nuovo valore del modulo “Privacy dei dati-356396D55C4F9C7AB3FBB2F2FA223482”, in cui il valore esadecimale a 32 cifre dopo il prefisso “Privacy dei dati-” è un numero pseudo-casuale e crittograficamente sicuro di 128 bit.<p>Poiché è essenzialmente sostituito da una stringa casuale, non esiste modo di determinare il valore originale a partire da questo nuovo valore né di ricavare il nuovo valore conoscendo il valore originale.  Per una determinata variabile, se il valore identico viene sostituito all’interno di altri punti che vengono anch’essi eliminati come parte della stessa richiesta Privacy dei dati, tutte le istanze di tale valore verranno sostituite con lo stesso nuovo valore.<p>Se alcune istanze di un valore vengono sostituite con una richiesta di eliminazione e una richiesta successiva elimina altre (nuove) istanze del valore originale, il nuovo valore di sostituzione sarà diverso dal valore di sostituzione originale. |
+| <ul><li>Variabili di traffico (prop)</li><li>Variabili commerciali (eVars)</li></ul> | Il valore esistente è sostituito da un nuovo valore del modulo “Privacy dei dati-356396D55C4F9C7AB3FBB2F2FA223482”, in cui il valore esadecimale a 32 cifre dopo il prefisso “Privacy dei dati-” è un numero pseudo-casuale e crittograficamente sicuro di 128 bit.<p>Poiché è essenzialmente sostituito da una stringa casuale, non esiste modo di determinare il valore originale a partire da questo nuovo valore né di ricavare il nuovo valore conoscendo il valore originale.  Per una determinata variabile, se il valore identico viene sostituito all’interno di altri hit che vengono anch’essi eliminati come parte della stessa richiesta Privacy dei dati, tutte le istanze di tale valore verranno sostituite con lo stesso nuovo valore.<p>Se alcune istanze di un valore vengono sostituite con una richiesta di eliminazione e una richiesta successiva elimina altre (nuove) istanze del valore originale, il nuovo valore di sostituzione sarà diverso dal valore di sostituzione originale. |
 | ID acquisto | Il valore esistente è sostituito da un nuovo valore del modulo “G-7588FCD8642718EC50”, in cui il valore esadecimale a 18 cifre dopo il prefisso “G-” è un numero di 18 cifre pseudo-casuale e crittograficamente sicuro di 128 bit. Tutti i commenti che si applicano all&#39;eliminazione delle variabili di traffico e di commercio si applicano anche qui.<p>L’ID acquisto è un ID transazione il cui scopo principale è garantire che un acquisto non venga accreditato due volte, ad esempio quando qualcuno aggiorna la pagina di conferma dell’acquisto. L’ID stesso può spostare l’acquisto in una riga nel proprio DB in cui viene registrato l’acquisto. Nella maggior parte dei casi non è necessario cancellare questo ID, quindi non viene cancellato per impostazione predefinita.<p>Se si riesce ancora a ricollegare l’acquisto ad un utente dopo la richiesta di cancellazione Privacy dei dati dei propri dati, allora potrebbe essere necessario cancellare questo campo, in modo che i dati di Analytics per questo visitatore non possano essere legati all’acquirente. |
 | Visitor ID | Il valore è un numero intero a 128 bit e viene sostituito con un valore pseudo-casuale e crittograficamente sicuro di 128 bit. |
 | <ul><li>MCID</li><li>ID visitatore personalizzato</li><li>Indirizzo IP</li><li>Indirizzo IP 2 | Il valore viene cancellato (impostato sulla stringa vuota o 0 a seconda del tipo della variabile). |

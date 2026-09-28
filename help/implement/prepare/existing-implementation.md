@@ -7,19 +7,28 @@ role: Admin, Developer, Leader
 TQID: 'https://experienceleague.adobe.com/ljT8qsJ--cy-PEZ6FtzBsyTzxrIctzf8lHkvMGeqePo'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
+subfeature_v2:
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 50f9ff18816ad88f231762b8b37c1ab9e1787b6f
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 172
+source-wordcount: '172'
 ht-degree: 13%
-
 ---
-
 # Prendere in consegna un’implementazione Adobe Analytics esistente
 
 Stai rilevando un’implementazione di Adobe Analytics dal proprietario tecnico precedente? Il nostro Playbook di implementazione ereditata ti aiuterà a prendere in carico come nuovo Proprietario tecnico di un’implementazione esistente. Nel foglio di calcolo scaricabile, ti guideremo attraverso le attività di individuazione, controllo e documentazione da svolgere nelle prime 10 settimane di lavoro, man mano che sostituisci un’implementazione esistente.
@@ -33,7 +42,7 @@ Consulta questi suggerimenti dal tuo collega Proprietario tecnico, Sarah Owen. S
 
 >[!BEGINSHADEBOX]
 
-Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza il playbook di implementazione ereditato](https://video.tv.adobe.com/v/3438767?captions=ita&quality=12&learn=on){target="_blank"} per un video demo.
+Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Utilizza il playbook di implementazione ereditato](https://video.tv.adobe.com/v/327314?quality=12&learn=on){target="_blank"} per un video demo.
 
 >[!ENDSHADEBOX]
 

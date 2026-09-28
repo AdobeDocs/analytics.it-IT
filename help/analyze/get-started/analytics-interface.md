@@ -6,32 +6,52 @@ exl-id: 61ae6aa6-96e4-4794-8ce3-0d6e0ec47e0a
 TQID: 'https://experienceleague.adobe.com/sE4DUBdWdybdWVwBegoy9j9PRZL1TVIjt4dsEqiVBO0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
+    internal-label: Workspace basics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1989
+source-wordcount: '1989'
 ht-degree: 96%
-
 ---
-
 # Informazioni sull’interfaccia di Analytics
 
 L’interfaccia di Adobe Analytics è costituita dalle seguenti aree chiave, incluse le schede per la gestione dei progetti in Analysis Workspace e dei componenti, gli strumenti e le funzioni di amministratore.
@@ -67,7 +87,7 @@ La scheda [!UICONTROL Components] include funzioni che consentono di ottimizzare
 
    | Funzionalità del prodotto | Funzione | Ulteriori informazioni |
    |---------|----------|----------|
-   | Segmenti | Adobe Analytics consente di creare, gestire, condividere e applicare segmenti di pubblico potenti e mirati ai tuoi rapporti utilizzando le funzionalità di Analytics, Adobe CX Enterprise, Adobe Target e altri prodotti Adobe integrati. | [Segmentazione di Analytics](/help/components/segmentation/seg-home.md) |
+   | Segmenti | Adobe Analytics ti consente di creare, gestire, condividere e applicare segmenti di pubblico potenti e mirati ai tuoi rapporti utilizzando le funzionalità di Analytics, Adobe CX Enterprise, Adobe Target e altri prodotti Adobe integrati. | [Segmentazione di Analytics](/help/components/segmentation/seg-home.md) |
    | Metriche calcolate | Le metriche calcolate e avanzate calcolate (o derivate) sono metriche personalizzate che puoi creare da metriche esistenti.  Consentono ai marketer, product manager e analisti di porre domande sui dati senza dover cambiare l’implementazione di Analytics. | [Metriche calcolate e metriche calcolate avanzate](/help/components/calculated-metrics/cm-overview.md) |
    | Intervalli di date | Analysis Workspace include un elenco di intervalli di date predefiniti che gli utenti possono utilizzare durante la creazione di analisi. Inoltre, è possibile creare intervalli di date personalizzati e renderli disponibili agli utenti in Analysis Workspace. | [Creare intervalli di date personalizzati](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
    | Suite di rapporti virtuali | Le suite di rapporti virtuali segmentano i dati di Adobe Analytics, in modo da poter controllare l’accesso a ciascun segmento. | [Panoramica delle suite di rapporti virtuali](/help/components/vrs/vrs-about.md) |

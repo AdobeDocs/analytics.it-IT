@@ -7,24 +7,32 @@ exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 TQID: 'https://experienceleague.adobe.com/G-3emGJR0FMicoTI8WUlWdM3SSoWjGb7sr6lxqceBdg'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 478
+source-wordcount: '478'
 ht-degree: 52%
-
 ---
-
 # Adobe Analytics e GDPR
 
 Questo documento descrive le operazioni da eseguire in Adobe Analytics per supportare i diritti di accesso ed eliminazione dei dati degli interessati ai sensi del RGPD.
@@ -37,15 +45,15 @@ Il 25 maggio 2018 è entrato in vigore il GDPR (General Data Protection Regulati
 
 Quando Adobe fornisce software e servizi a un’impresa, agisce in qualità di responsabile del trattamento di tutti i dati personali che riceve e conserva per conto dei clienti, in quanto previsto dalla fornitura dei servizi. In qualità di responsabile del trattamento dei dati, Adobe elabora i dati personali secondo le autorizzazioni e le istruzioni fornite dalla tua azienda (ad esempio, quelli definiti nell’accordo con Adobe).
 
-In qualità di Titolare del trattamento dei dati, l’utente determina i dati personali che Adobe tratta e memorizza per suo conto. Se si utilizzano le soluzioni Adobe CX Enterprise, Adobe potrebbe conservare i dati personali in base alle soluzioni utilizzate e alle informazioni che si sceglie di inviare all&#39;account Adobe CX Enterprise. Per un elenco di esempi, vedere [Privacy di Adobe CX Enterprise.](https://www.adobe.com/it/privacy/experience-cloud.html#collect)
+In qualità di Titolare del trattamento dei dati, l’utente determina i dati personali che Adobe tratta e memorizza per suo conto. Se utilizzi le soluzioni Adobe CX Enterprise, Adobe potrebbe conservare per tuo conto i dati personali in base alle soluzioni che utilizzi e alle informazioni che scegli di inviare al tuo account Adobe CX Enterprise. Per un elenco di esempi, vedere [Privacy di Adobe CX Enterprise.](https://www.adobe.com/it/privacy/experience-cloud.html#collect)
 
 ![](assets/privacy_ready.png)
 
 ## In che modo Adobe gestisce i dati in base al GDPR
 
-Adobe CX Enterprise fornisce una soluzione integrata che collega l&#39;infrastruttura di governance dei dati del tuo marchio con gli strumenti Adobe utilizzati per creare e gestire le esperienze dei clienti. Le funzioni di governance dei dati di Adobe CX Enterprise consentono un collegamento diretto tra i criteri di governance dei dati e l’utilizzo dei dati.
+Adobe CX Enterprise fornisce una soluzione integrata che collega l’infrastruttura di governance dei dati del tuo marchio con gli strumenti Adobe utilizzati per creare e gestire le esperienze dei clienti. Le funzioni di governance dei dati di Adobe CX Enterprise consentono un collegamento diretto tra i criteri di governance dei dati e l’utilizzo dei dati.
 
-Acquisisci familiarità con [il modo in cui Adobe Analytics gestisce il RGPD](https://www.adobe.com/it/data-analytics-cloud/analytics/general-data-protection-regulation.html): l&#39;articolo illustra la procedura per prepararsi al RGPD e le modalità di integrazione con l&#39;API del RGPD aziendale di Adobe CX.
+Acquisisci familiarità con [il modo in cui Adobe Analytics gestisce il RGPD](https://www.adobe.com/it/data-analytics-cloud/analytics/general-data-protection-regulation.html): l&#39;articolo illustra la procedura per prepararsi al RGPD e le modalità di integrazione con l&#39;API del RGPD di Adobe CX Enterprise.
 
 ## Prepararsi per il GDPR e gestire i dati di Adobe Analytics
 

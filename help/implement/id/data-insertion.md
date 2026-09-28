@@ -11,16 +11,22 @@ feature_v2:
     internal-label: Implementations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c069c44e-5426-4c1a-accc-8028662f2fde
     internal-label: Functions
   - id: e7d92df1-c5ba-4e93-85df-f83171b889be
     internal-label: Variables
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -28,7 +34,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7fcd738b7eb13c13d5f9f23d625287988c803220
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 0%
@@ -47,20 +53,20 @@ Adobe identifica un visitatore utilizzando l&#39;[ordine di operazioni standard]
 
 L&#39;ECID (inviato come `mid`) è l&#39;identificatore del visitatore moderno e multisoluzione, condiviso tra Adobe Analytics, Adobe Target e Adobe Audience Manager. Adobe consiglia di utilizzarlo laddove possibile.
 
-Ottieni l&#39;ECID con [Servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/home) (`VisitorAPI.js`). In un browser, inizializza il servizio con il tuo ID organizzazione IMS utilizzando [`getInstance`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/getinstance), quindi leggi l&#39;ECID con [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/getmcvid):
+Ottieni l&#39;ECID con [Servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/home) (`VisitorAPI.js`). In un browser, inizializza il servizio con il tuo ID organizzazione IMS utilizzando [`getInstance`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getinstance), quindi leggi l&#39;ECID con [`getMarketingCloudVisitorID`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getmcvid):
 
 ```js
 var visitor = Visitor.getInstance("YOUR_ORG_ID@AdobeOrg");
 var ecid = visitor.getMarketingCloudVisitorID();
 ```
 
-Invia tale valore su ogni hit come parametro di query `mid`, insieme all&#39;ID organizzazione IMS come parametro `mcorgid` in modo che l&#39;ECID venga risolto correttamente. Se i dati vengono inoltrati ad Audience Manager, invia anche l&#39;area geografica da [`getLocationHint`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/getlocationhint) come parametro `aamlh`. Per associare i propri identificatori cliente al visitatore, utilizzare [`setCustomerIDs`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/setcustomerids).
+Invia tale valore su ogni hit come parametro di query `mid`, insieme all&#39;ID organizzazione IMS come parametro `mcorgid` in modo che l&#39;ECID venga risolto correttamente. Se i dati vengono inoltrati ad Audience Manager, invia anche l&#39;area geografica da [`getLocationHint`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/getlocationhint) come parametro `aamlh`. Per associare i propri identificatori cliente al visitatore, utilizzare [`setCustomerIDs`](https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/methods/setcustomerids).
 
-Per la raccolta lato server, ottieni l’ECID sul client e invialo al server per l’invio a ogni hit. Per generare un ECID interamente lato server, senza client, utilizza l&#39;[integrazione diretta](https://experienceleague.adobe.com/it/docs/id-service/using/implementation/direct-integration) del servizio ID.
+Per la raccolta lato server, ottieni l’ECID sul client e invialo al server per l’invio a ogni hit. Per generare un ECID interamente lato server, senza client, utilizza l&#39;[integrazione diretta](https://experienceleague.adobe.com/en/docs/id-service/using/implementation/direct-integration) del servizio ID.
 
 ## Utilizzo dell’ID visitatore di Analytics
 
-L&#39;ID visitatore di Analytics (`aid`) è memorizzato nel cookie [`s_vi`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics). Quando un hit arriva senza un identificatore, il server di raccolta assegna un `aid` e tenta di impostare un cookie contenente tale identificatore. Alcuni [tipi di risposta](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) includono anche questo identificatore nel corpo della risposta.
+L&#39;ID visitatore di Analytics (`aid`) è memorizzato nel cookie [`s_vi`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics). Quando un hit arriva senza un identificatore, il server di raccolta assegna un `aid` e tenta di impostare un cookie contenente tale identificatore. Alcuni [tipi di risposta](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/response-types) includono anche questo identificatore nel corpo della risposta.
 
 * **Lato client (richieste di immagini dirette).** Il browser memorizza il cookie `s_vi` restituito dal server e lo invia ogni volta che viene presentata una richiesta allo stesso dominio di raccolta. Il visitatore viene quindi riconosciuto automaticamente, senza `aid` impostarsi. Poiché questo modello dipende dai cookie, presenta gli stessi limiti di durata di qualsiasi identità basata su cookie. Vedi [Identificazione del visitatore tramite AppMeasurement](appmeasurement.md) per il comportamento dei cookie di prime parti rispetto a quelli di terze parti e [ordine delle operazioni](overview.md) per la scelta dell&#39;identificatore da utilizzare da parte di Adobe. Adobe consiglia di utilizzare un ECID per l’identità durevole.
 

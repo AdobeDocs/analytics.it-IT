@@ -3,28 +3,37 @@ description: Creare un contenitore di base per la raccolta di dati in Adobe Anal
 title: Creare una suite di rapporti
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-TQID: https://experienceleague.adobe.com/ZmPcYHvXOhaXXnqsSVUh1bpvignxomS3d4S76iMCAa4
+TQID: 'https://experienceleague.adobe.com/ZmPcYHvXOhaXXnqsSVUh1bpvignxomS3d4S76iMCAa4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c2ae876122715b4fa6367326dc23479dd9648021
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 302
+source-wordcount: '302'
 ht-degree: 88%
-
 ---
-
 # Creare una suite di rapporti
 
 Una suite di rapporti è un silos di dati utilizzati da Adobe Analytics per estrarre i rapporti. Un’organizzazione può avere molte suite di rapporti, ciascuna contenente set di dati diversi. Anche se in passato le suite di rapporti separate erano importanti, avere una singola suite di rapporti è diventato più vantaggioso. L’introduzione di [suite di rapporti virtuali](/help/components/vrs/vrs-about.md#virtual-report-suites) e i tempi di elaborazione del rapporto consentono agli amministratori di creare sottoinsiemi di dati personalizzati, consentendo la flessibilità di ottenere dati globali e specifici per il sito.
@@ -33,7 +42,7 @@ Questo articolo è pensato per gli amministratori a livello di sistema o per gli
 
 ## Prerequisiti
 
-[Guida per il primo amministratore di Adobe Analytics](/help/admin/admin-console/first-admin-guide.md): verificare che un amministratore a livello di sistema ti abbia concesso l&#39;accesso ad Adobe Analytics tramite CX Enterprise Admin Console.
+[Guida per il primo amministratore di Adobe Analytics](/help/admin/admin-console/first-admin-guide.md): assicurati che un amministratore a livello di sistema ti abbia concesso l&#39;accesso ad Adobe Analytics tramite CX Enterprise Admin Console.
 
 ## Creare una suite di rapporti {#create-report-suite}
 
@@ -58,4 +67,4 @@ Ciò significa che al tuo account non sono state concesse le autorizzazioni corr
 
 ## Passaggi successivi
 
-[Crea una proprietà tag Adobe Analytics &#x200B;](/help/implement/launch/create-analytics-property.md): consente di creare un’area per gestire l’implementazione di Analytics.
+[Crea una proprietà tag Adobe Analytics ](/help/implement/launch/create-analytics-property.md): consente di creare un’area per gestire l’implementazione di Analytics.

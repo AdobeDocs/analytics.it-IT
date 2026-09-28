@@ -4,16 +4,20 @@ description: Visualizza i campi dell’oggetto dati mappati automaticamente da E
 feature: Implementation Basics
 role: Admin, Developer
 exl-id: 45b2fbbc-73ca-40b3-9484-b406ae99fdad
-TQID: https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko
+TQID: 'https://experienceleague.adobe.com/FQRTVL9KrCQktNMhpqXo0f2VSrEm2mcCNL6IAmvtrko'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
     internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
     internal-label: Metrics
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
     internal-label: Events
+  - id: c24fe15a-643a-47bd-8278-5e027df49785
+    internal-label: Implementation basics
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -24,7 +28,7 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 8%
@@ -33,7 +37,7 @@ ht-degree: 8%
 
 La tabella seguente mostra il campo dell’oggetto dati mappato automaticamente da Adobe Experience Platform Edge Network in Adobe Analytics. Se utilizzi questi percorsi dei campi dell’oggetto dati, non è necessaria alcuna configurazione aggiuntiva per inviare dati ad Adobe Analytics.
 
-L’utilizzo di questi campi è consigliato se intendi utilizzare Customer Journey Analytics in futuro. Questo metodo di implementazione consente all’organizzazione di inviare dati ad Adobe utilizzando il Web SDK senza essere conforme a uno schema XDM. Quando la tua organizzazione è pronta per inviare dati a Adobe Experience Platform, puoi utilizzare la [mappatura dello stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/data-prep#mapping) per puntare i campi dell&#39;oggetto dati ai rispettivi campi XDM.
+L’utilizzo di questi campi è consigliato se intendi utilizzare Customer Journey Analytics in futuro. Questo metodo di implementazione consente all’organizzazione di inviare dati ad Adobe utilizzando il Web SDK senza essere conforme a uno schema XDM. Quando la tua organizzazione è pronta per inviare dati a Adobe Experience Platform, puoi utilizzare la [mappatura dello stream di dati](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/data-prep#mapping) per puntare i campi dell&#39;oggetto dati ai rispettivi campi XDM.
 
 ## Priorità di valore
 
@@ -43,7 +47,7 @@ Alcuni campi dell&#39;oggetto dati supportano anche i rispettivi valori del para
 
 ## Mappatura campo oggetto dati
 
-Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei commit su GitHub](https://github.com/AdobeDocs/analytics.it-IT/commits/main/help/implement/aep-edge/data-var-mapping.md) di questa pagina. Analogamente alle variabili di AppMeasurement, tutti i campi degli oggetti dati fanno distinzione tra maiuscole e minuscole.
+Gli aggiornamenti precedenti a questa tabella si trovano nella [cronologia dei commit su GitHub](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/data-var-mapping.md) di questa pagina. Analogamente alle variabili di AppMeasurement, tutti i campi degli oggetti dati fanno distinzione tra maiuscole e minuscole.
 
 | Percorso campo oggetto dati | Variabile e descrizione di Analytics |
 | --- | --- |

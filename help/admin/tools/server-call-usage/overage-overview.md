@@ -4,27 +4,37 @@ title: Panoramica sull’utilizzo delle chiamate al server
 feature: Server Call Usage
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 role: Admin
-TQID: https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4
+TQID: 'https://experienceleague.adobe.com/-IIz9r-K-flZq85Dz3lhYuo9-Ko0zt0KoJJ7DtI5Mz4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
+  - id: c9d85838-8d05-4bc7-9f18-30ec779251bc
+    internal-label: Server call usage
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 93678f75cac9b513282a1e4d61276d7617fc933e
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 77%
-
 ---
-
 # Utilizzo chiamate al server
 
 L’utilizzo delle chiamate al server Adobe Analytics soddisfa le richieste di trasparenza nei dati di utilizzo delle chiamate sia al browser che al server mobile. Consente di accedere a:
@@ -59,7 +69,7 @@ I seguenti termini sono importanti per comprendere l’utilizzo delle chiamate a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Società di fatturazione (ID fatturazione) </p> </td> 
-   <td colname="col2"> <p>Persona giuridica a cui vengono addebitate le chiamate al server. Ad esempio, adobe.com. Ciascuna società di fatturazione dispone di un ID fatturazione utilizzato per identificare in modo univoco il cliente di fatturazione. Un ID fatturazione può essere associato a più organizzazioni CX Enterprise; non esiste sempre una relazione 1:1 tra un'organizzazione e un ID fatturazione. </p> </td> 
+   <td colname="col2"> <p>Persona giuridica a cui vengono addebitate le chiamate al server. Ad esempio, adobe.com. Ciascuna società di fatturazione dispone di un ID fatturazione utilizzato per identificare in modo univoco il cliente di fatturazione. Un ID fatturazione può essere associato a più organizzazioni CX Enterprise; non esiste sempre una relazione 1:1 tra un’organizzazione e un ID fatturazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Società di accesso </p> </td> 
@@ -73,7 +83,7 @@ I seguenti termini sono importanti per comprendere l’utilizzo delle chiamate a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Organizzazione CX Enterprise </p> </td> 
-   <td colname="col2"> <p>Un'organizzazione è l'entità che consente all'amministratore di configurare gruppi e utenti e di controllare il single sign-on in CX Enterprise. L'organizzazione funziona come una società di accesso che abbraccia tutti i prodotti e le soluzioni CX Enterprise. </p> <p>Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni. </p> </td> 
+   <td colname="col2"> <p>Un'organizzazione è l'entità che consente all'amministratore di configurare gruppi e utenti e di controllare il single sign-on in CX Enterprise. L'organizzazione funziona come una società di accesso per tutti i prodotti e le soluzioni CX Enterprise. </p> <p>Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Impegno di chiamata al server </p> </td> 

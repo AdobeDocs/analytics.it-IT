@@ -3,23 +3,28 @@ title: Esportazione dei dati di classificazione tramite FTP
 description: L’esportazione FTP offre maggiore flessibilità con i download dei set di dati, tra cui il download di dati da più suite di rapporti e il download di file di set di dati di dimensioni superiori a 50.000 righe di dati
 feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-TQID: https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU
+TQID: 'https://experienceleague.adobe.com/KKnG0DlET8t0Lp5kecZ7C-d9zyUx71nQ6FI8NleDirU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: 00071d55-23eb-5795-a8d9-9d9b784f2791
+    internal-label: Classifications
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 592
+source-wordcount: '592'
 ht-degree: 1%
-
 ---
-
 # Esportazione FTP (legacy)
 
 {{classification-importer-deprecation}}
@@ -30,10 +35,10 @@ Quando applichi i filtri dati, considera i seguenti problemi:
 
 * È possibile utilizzare caratteri jolly durante la definizione del filtro dati. Utilizzare un asterisco `*` per far corrispondere zero o più caratteri e un punto interrogativo `?` per far corrispondere esattamente un carattere. Utilizza `?*` per trovare uno o più caratteri.
 * In genere, quando si applicano entrambi i tipi di filtri dati a un download, vengono scaricate solo le righe che corrispondono a entrambe le regole. Tuttavia, si applicano le seguenti eccezioni:
-   * Se Rows with empty column = All Columns (Righe con colonna vuota) = All Columns (Tutte le colonne), vengono controllate tutte le colonne ad eccezione di quella specificata nella prima regola per verificare che non siano vuote. Questa eccezione assicura che lo strumento scarichi qualsiasi riga con una colonna corrispondente alla prima regola che ha anche tutte le altre colonne vuote.
-   * Quando si scaricano righe di dati basate su colonne vuote, vengono controllate la presenza di vuoti in tutte le colonne, ad eccezione di quelle specificate nella prima regola.
-   * Se viene specificata la stessa colonna per entrambe le regole di filtro (è quasi impossibile soddisfare entrambi i criteri) vengono scaricate solo le righe che corrispondono alla prima regola.
-   * Le esportazioni FTP hanno un limite di 30 colonne.
+  * Se Rows with empty column = All Columns (Righe con colonna vuota) = All Columns (Tutte le colonne), vengono controllate tutte le colonne ad eccezione di quella specificata nella prima regola per verificare che non siano vuote. Questa eccezione assicura che lo strumento scarichi qualsiasi riga con una colonna corrispondente alla prima regola che ha anche tutte le altre colonne vuote.
+  * Quando si scaricano righe di dati basate su colonne vuote, vengono controllate la presenza di vuoti in tutte le colonne, ad eccezione di quelle specificate nella prima regola.
+  * Se viene specificata la stessa colonna per entrambe le regole di filtro (è quasi impossibile soddisfare entrambi i criteri) vengono scaricate solo le righe che corrispondono alla prima regola.
+  * Le esportazioni FTP hanno un limite di 30 colonne.
 
 ## Esportare le classificazioni tramite FTP
 
