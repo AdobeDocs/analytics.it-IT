@@ -4,34 +4,51 @@ description: Domande frequenti per Analytics tra dispositivi
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 feature: CDA
 role: Admin
-TQID: https://experienceleague.adobe.com/tdOmNG-s2F-KOq9fCMILkovykm3gknjnS-8JdxiGnm4
+TQID: 'https://experienceleague.adobe.com/tdOmNG-s2F-KOq9fCMILkovykm3gknjnS-8JdxiGnm4'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c4cb071e-4667-4fb1-b1f1-d8994549cfb2
+    internal-label: VRS
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: f99536a1-75c7-4151-a2c8-073630632526
+    internal-label: CDA
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Implementation
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1724
+source-wordcount: '1724'
 ht-degree: 98%
-
 ---
-
 # Domande frequenti
 
 {{available-existing-customers}}
@@ -59,7 +76,7 @@ L’unione tra dispositivi di CDA si verifica in due processi simultanei.
 
 * Il primo processo è denominato “live stitching” e avviene durante il flusso dei dati in Adobe Analytics. Durante il live stitching, CDA fa del suo meglio per aggiornare i dati a livello di persona. Ma se la persona è sconosciuta al momento del live stitching, CDA la rappresenta mediante l’ID visitatore.
 
-* Il secondo processo è denominato “ripetizione”. Durante la ripetizione, CDA torna indietro nel tempo e aggiorna i dati storici, ove possibile, all’interno di una finestra temporale specificata. Questo finestra temporale può essere di 1 giorno o 7 giorni, a seconda della configurazione di CDA. Durante la ripetizione, CDA tenta di aggiornare i risultati in cui la persona era precedentemente sconosciuta.
+* Il secondo processo è denominato “ripetizione”. Durante la ripetizione, CDA torna indietro nel tempo e aggiorna i dati storici, ove possibile, all’interno di una finestra temporale specificata. Questo finestra temporale può essere di 1 giorno o 7 giorni, a seconda della configurazione di CDA. Durante la ripetizione, CDA tenta di aggiornare gli hit in cui la persona era precedentemente sconosciuta.
 
 
 +++

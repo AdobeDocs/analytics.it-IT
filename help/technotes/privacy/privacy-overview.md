@@ -7,33 +7,47 @@ exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 TQID: 'https://experienceleague.adobe.com/pIwRuvYPl6dcv-FEgSdeUZQlfqI1J8GJhbHeef1JdOI'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: b99602d0-836e-4dbb-979f-c0dec53f883c
+    internal-label: Privacy
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1004
+source-wordcount: '1004'
 ht-degree: 88%
-
 ---
-
 # Panoramica sulla privacy
 
-Adobe desidera abilitare l’organizzazione in modo che possa conformarsi alle leggi e alle normative applicabili. Per ulteriori informazioni, vedere [Privacy di Adobe CX Enterprise](https://www.adobe.com/it/privacy/experience-cloud.html){target=_blank}. Tra Adobe Analytics e l’organizzazione, Adobe agisce come “responsabile del trattamento dei dati” e l’organizzazione è il “titolare del trattamento” (o equivalente in base alle leggi sulla privacy e la protezione dei dati applicabili). È compito dell’organizzazione divulgare in che modo utilizza i prodotti e i servizi Adobe, in quanto l’organizzazione controlla esclusivamente l’implementazione delle soluzioni di Adobe. Durante l’utilizzo di Adobe Analytics, l’organizzazione è responsabile del rispetto della propria informativa sulla privacy, del contratto sui servizi con Adobe e di tutte le leggi applicabili.
+Adobe desidera abilitare l’organizzazione in modo che possa conformarsi alle leggi e alle normative applicabili. Per ulteriori informazioni, consulta [Privacy di Adobe CX Enterprise](https://www.adobe.com/it/privacy/experience-cloud.html){target=_blank}. Tra Adobe Analytics e l’organizzazione, Adobe agisce come “responsabile del trattamento dei dati” e l’organizzazione è il “titolare del trattamento” (o equivalente in base alle leggi sulla privacy e la protezione dei dati applicabili). È compito dell’organizzazione divulgare in che modo utilizza i prodotti e i servizi Adobe, in quanto l’organizzazione controlla esclusivamente l’implementazione delle soluzioni di Adobe. Durante l’utilizzo di Adobe Analytics, l’organizzazione è responsabile del rispetto della propria informativa sulla privacy, del contratto sui servizi con Adobe e di tutte le leggi applicabili.
 
 Adobe consiglia vivamente di attenersi ai seguenti concetti generali:
 

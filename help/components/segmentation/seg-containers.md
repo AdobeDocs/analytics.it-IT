@@ -4,27 +4,37 @@ keywords: segmentazione;segmenti
 title: Contenitori di segmenti
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-TQID: https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk
+TQID: 'https://experienceleague.adobe.com/9T5ZgEmeBFpE73rlE-MZU0oIKRkbn5yE7Yl8Q5kpSpk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Reporting
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 3530
+source-wordcount: '3530'
 ht-degree: 96%
-
 ---
-
 # Contenitori di segmenti
 
 Un segmento imposta le condizioni per filtrare un visitatore in base agli attributi o alle interazioni del visitatore con il sito. Per impostare le condizioni in un segmento, imposta le regole per filtrare i visitatori in base alle loro caratteristiche e/o quelle di navigazione. Per suddividere ulteriormente i dati dei visitatori, puoi filtrare in base a visite e/o hit di visualizzazione pagina specifiche per ciascun visitatore. Il Generatore di segmenti fornisce un’architettura semplice per generare questi sottoinsiemi e applicare le regole come contenitori Visitatore, Visita o Hit nidificati e gerarchici.
@@ -516,7 +526,7 @@ Poiché tutte le pagine hanno lo stesso valore del dominio di riferimento in bas
 
 Dal contenitore Visitatore, il rapporto di pagina elenca tutte le pagine visualizzate da qualsiasi visitatore per cui `Referring Domain equals 'aol.com'` è true. Di conseguenza, se un visitatore aveva *“aol.com”* come dominio di riferimento in qualsiasi momento della cronologia (entro il periodo di tempo definito), verranno elencate tutte le pagine del contenitore Visitatore (comprese le visualizzazioni pagina in altre visite). Nel rapporto verranno elencate anche le pagine che non corrispondono alla condizione primaria, in quanto sono incluse nel contenitore Visitatore. Nel rapporto vengono elencate tutte le pagine presenti nel contenitore Visitatore, anche se sono precedenti e non corrispondono specificamente alle condizioni.
 
-In un rapporto del dominio di riferimento, `Referring Domain equals 'aol.com'` è true in quattro visualizzazioni pagina, ma `Referring Domain equals "weather.com"` è true nelle altre pagine aperte dal visitatore. Dal contenitore Visitatore, ottieni un elenco di Visitatori per cui “aol.com” è true. Ma sono presenti anche pagine in cui il dominio di riferimento è “weather.com” e non il valore che corrisponde alla richiesta iniziale nel segmento.
+In un rapporto del dominio di riferimento, `Referring Domain equals 'aol.com'` è vero in quattro visualizzazioni pagina, ma `Referring Domain equals "weather.com"` è vero nelle altre pagine aperte dal visitatore. Dal contenitore Visitatore, ottieni un elenco di Visitatori per cui “aol.com” è true. Ma sono presenti anche pagine in cui il dominio di riferimento è “weather.com” e non il valore che corrisponde alla richiesta iniziale nel segmento.
 
 | Visita 1<br/>Il dominio di riferimento è uguale a “aol.com” | <br/>Visualizzazioni pagina |
 |----|---:|

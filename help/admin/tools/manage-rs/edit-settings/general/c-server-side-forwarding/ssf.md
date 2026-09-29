@@ -1,5 +1,5 @@
 ---
-description: L'inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale dati da Analytics ad altre soluzioni CX Enterprise. Quando è abilitato, l'inoltro lato server consente ad Analytics di inviare dati ad altre soluzioni CX Enterprise e a queste di inviarli ad Analytics durante il processo di raccolta dei dati.
+description: L’inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale dati da Analytics ad altre soluzioni CX Enterprise. Quando è abilitato, l’inoltro lato server consente ad Analytics di inviare dati ad altre soluzioni CX Enterprise e a queste di inviarli ad Analytics durante il processo di raccolta dei dati.
 solution: Analytics
 title: Panoramica sull’inoltro lato server
 feature: Report Suite Settings
@@ -8,29 +8,41 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/3Jing56TCBeoAFOXowaXAXoTDkXgQB0-j5jFmVOTsrw'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 887
+source-wordcount: '887'
 ht-degree: 84%
-
 ---
-
 # Panoramica sull’inoltro lato server
 
-L&#39;inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale dati da Analytics ad altre soluzioni CX Enterprise. Quando è abilitato, l&#39;inoltro lato server consente ad Analytics di inviare dati ad altre soluzioni CX Enterprise e a queste di inviarli ad Analytics durante il processo di raccolta dei dati.
+L’inoltro lato server è progettato per i clienti che desiderano condividere in tempo reale dati da Analytics ad altre soluzioni CX Enterprise. Quando è abilitato, l’inoltro lato server consente ad Analytics di inviare dati ad altre soluzioni CX Enterprise e a queste di inviarli ad Analytics durante il processo di raccolta dei dati.
 
 L’inoltro lato server migliora la raccolta dati perché:
 
@@ -87,4 +99,4 @@ Vai a **Analytics** > **Admin** > **Report Suites** > (seleziona una **suite di 
 
 >[!NOTE]
 >
->I dati non verranno visualizzati in altre soluzioni CX Enterprise, ad esempio [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=it) o [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) fino al completamento di tutti e 3 i passaggi. Una volta abilitata, l’applicazione delle impostazioni richiederà alcune ore.
+>I dati non verranno visualizzati in altre soluzioni CX Enterprise, ad esempio [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=it) o [Tipi di pubblico](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) fino al completamento di tutti e 3 i passaggi. Una volta abilitata, l’applicazione delle impostazioni richiederà alcune ore.

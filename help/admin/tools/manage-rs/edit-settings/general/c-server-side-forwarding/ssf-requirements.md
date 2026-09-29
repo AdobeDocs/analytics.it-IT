@@ -1,5 +1,5 @@
 ---
-description: Per implementare l'inoltro lato server, è necessario soddisfare i seguenti requisiti relativi a soluzioni, servizi e codice di CX Enterprise. Troverai anche istruzioni su come verificare le versioni del codice e dove ottenere le librerie di codice più recenti.
+description: Per implementare l’inoltro lato server, è necessario soddisfare i seguenti requisiti relativi a soluzioni, servizi e codice di CX Enterprise. Troverai anche istruzioni su come verificare le versioni del codice e dove ottenere le librerie di codice più recenti.
 solution: Analytics
 title: Requisiti per l’inoltro lato server
 feature: Report Suite Settings
@@ -8,28 +8,39 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/1GCflxlY4IpT-pPTr93FuOmxkJLC4baJe3Z2SGjj1So'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+    internal-label: Administration
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 326
+source-wordcount: '326'
 ht-degree: 84%
-
 ---
-
 # Requisiti per l’inoltro lato server
 
-Per implementare l&#39;inoltro lato server, è necessario soddisfare i seguenti requisiti relativi a soluzioni, servizi e codice di CX Enterprise. Troverai anche istruzioni su come verificare le versioni del codice e dove ottenere le librerie di codice più recenti.
+Per implementare l’inoltro lato server, è necessario soddisfare i seguenti requisiti relativi a soluzioni, servizi e codice di CX Enterprise. Troverai anche istruzioni su come verificare le versioni del codice e dove ottenere le librerie di codice più recenti.
 
 ## Soluzioni richieste
 
@@ -37,7 +48,7 @@ L’inoltro lato server funziona con [Analytics](https://www.adobe.com/it/data-a
 
 ## Servizi richiesti
 
-L’inoltro lato server richiede [Identity Service](https://experienceleague.adobe.com/it/docs/id-service/using/home). Identity Service fornisce un ID universale che identifica i visitatori del sito in tutte le soluzioni di CX Enterprise. È necessario implementare il servizio ID prima di attivare l’inoltro lato server.
+L’inoltro lato server richiede [Identity Service](https://experienceleague.adobe.com/it/docs/id-service/using/home). Identity Service fornisce un ID universale che identifica i visitatori in tutte le soluzioni di CX Enterprise. È necessario implementare il servizio ID prima di attivare l’inoltro lato server.
 
 ## Versioni del codice
 

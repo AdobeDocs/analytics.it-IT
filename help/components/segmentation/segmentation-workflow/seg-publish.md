@@ -3,28 +3,39 @@ description: Scopri come pubblicare segmenti per le attività di marketing in Li
 title: Pubblicare segmenti
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-TQID: https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU
+TQID: 'https://experienceleague.adobe.com/JP5OI6SzaJ1xQpFY8iIgT-DNTVxofdSu93XmWI1vtsU'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
+  - id: c47a19a5-f47b-4e53-afe0-e230da195ebe
+    internal-label: Segmentation
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d2fb5ded5ce49c6e7143897de2ee9d3b6b494bf9
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1349
+source-wordcount: '1349'
 ht-degree: 32%
-
 ---
-
 # Pubblicare segmenti {#publish-segments}
 
 >[!CONTEXTUALHELP]
@@ -38,7 +49,7 @@ ht-degree: 32%
 >abstract="I segmenti creati nella Libreria pubblico sono disponibili immediatamente e non dipendono dagli aggiornamenti di Analytics."
 
 
-È possibile pubblicare un segmento di Adobe Analytics in CX Enterprise. Pertanto, puoi utilizzare il segmento per l’attività di marketing in Audience Manager e in altri canali di attivazione, inclusi Advertising, Target e Campaign.
+Puoi pubblicare un segmento di Adobe Analytics in CX Enterprise. Pertanto, puoi utilizzare il segmento per l’attività di marketing in Audience Manager e in altri canali di attivazione, inclusi Advertising, Target e Campaign.
 
 Puoi pubblicare i segmenti di Analytics in CX Enterprise in meno di 8 ore. Utilizza questi segmenti per attivare il pubblico in Audience Manager per tutte le destinazioni a valle.
 
@@ -56,7 +67,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica se
 
 ## Prerequisiti
 
-* Verificare che la suite di rapporti in cui si sta salvando il segmento sia [abilitata per CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). In caso contrario, non è possibile pubblicarlo su CX Enterprise.
+* Assicurati che la suite di rapporti in cui stai salvando il segmento sia [abilitata per CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). In caso contrario, non è possibile pubblicarlo in CX Enterprise.
 * Assicurati che la tua organizzazione utilizzi gli ID di Experience Cloud.
 * Prima che possa pubblicare i segmenti, l’amministratore deve assegnare l’autorizzazione [!UICONTROL Segment Publishing] a un profilo di prodotto nin [Admin Console](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/admin-tool-experience-cloud) e aggiungerti al profilo di prodotto.
 
@@ -71,7 +82,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica se
 
 | Dati disponibili | Quando sono disponibili | Dove sono disponibili |
 |---|---|---|
-| Metadati (titolo e definizione del segmento) | Immediatamente dopo la pubblicazione | Audience Manager, libreria di tipi di pubblico aziendali CX, Target |
+| Metadati (titolo e definizione del segmento) | Immediatamente dopo la pubblicazione | Audience Manager, Libreria Pubblico CX Enterprise, Target |
 | Segmento utilizzabile con appartenenza | ~8 ore dopo la pubblicazione | Visualizzatore del profilo del visitatore in Audience Manager |
 | Popolazione per caratteristiche e appartenenza | Entro 24-48 ore | Audience Manager |
 
@@ -93,9 +104,9 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica se
 
 | Elemento | Descrizione |
 |---|---|
-| **[!UICONTROL Publish this segment to the Experience Cloud (for *suite di rapporti *)]** | Quando questa opzione è abilitata, il titolo e la definizione del segmento vengono condivisi istantaneamente con CX Enterprise, mentre l&#39;appartenenza al segmento viene valutata e condivisa ogni 4 ore. <br> Quando quel pubblico viene associato a un&#39;attività in Target, ad esempio, [!DNL Analytics] inizia a inviare ID per i visitatori idonei per quel pubblico CX Enterprise e Target. A questo punto, il nome del pubblico e i dati corrispondenti iniziano a essere visualizzati sulla pagina [!DNL Audience Library] di CX Enterprise. </br> |
+| **[!UICONTROL Publish this segment to the Experience Cloud (for *suite di rapporti *)]** | Quando questa opzione è abilitata, il titolo e la definizione del segmento vengono condivisi istantaneamente con CX Enterprise, mentre l’appartenenza al segmento viene valutata e condivisa ogni 4 ore. <br> Quando quel pubblico viene associato a un&#39;attività in Target, ad esempio, [!DNL Analytics] inizia a inviare ID per i visitatori idonei per quel pubblico di CX Enterprise e Target. A questo punto, il nome del pubblico e i dati corrispondenti iniziano a essere visualizzati sulla pagina [!DNL Audience Library] in CX Enterprise. </br> |
 | **[!UICONTROL Audience Creation Window]** | L’intervallo di tempo selezionato viene utilizzato per creare il pubblico su base di calendario continuo. Ad esempio, **[!UICONTROL Last 30 days]** (impostazione predefinita) include i visitatori idonei per il pubblico negli ultimi 30 giorni dalla data odierna (NON dalla data originale di creazione del segmento). |
-| **[!UICONTROL Create in Audience Library]** | I segmenti creati e pubblicati possono essere resi disponibili senza latenza nella pagina [!DNL Audience Library] di CX Enterprise. Non dipendono dagli aggiornamenti di Analytics. Questi segmenti non vengono conteggiati rispetto al limite di 75 segmenti pubblicati. |
+| **[!UICONTROL Create in Audience Library]** | I segmenti creati e pubblicati possono essere resi disponibili senza latenza nella pagina [!DNL Audience Library] in CX Enterprise. Non dipendono dagli aggiornamenti di Analytics. Questi segmenti non vengono conteggiati rispetto al limite di 75 segmenti pubblicati. |
 | **[!UICONTROL x of 75 Published]** | Il numero di segmenti pubblicati in CX Enterprise. Fai clic sul collegamento per visualizzare un elenco dei segmenti pubblicati e della suite di rapporti e del relativo proprietario associati. |
 | **[!UICONTROL Save]** | Salva questo segmento. |
 
@@ -103,7 +114,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica se
 
 >[!CAUTION]
 >
->Per eliminare un segmento pubblicato in CX Enterprise, è necessario prima annullare la pubblicazione del segmento. Per annullare la pubblicazione di un segmento, deseleziona **[!UICONTROL Publish this segment to the Experience Cloud (for *suite di rapporti *)]**.
+>Per eliminare un segmento pubblicato in CX Enterprise, devi prima annullare la pubblicazione del segmento. Per annullare la pubblicazione di un segmento, deseleziona **[!UICONTROL Publish this segment to the Experience Cloud (for *suite di rapporti *)]**.
 
 
 >[!NOTE]
@@ -153,7 +164,7 @@ L&#39;UUID di Adobe Audience Manager nel browser è per impostazione predefinita
 
 ## Visualizzare le caratteristiche del segmento in Audience Manager
 
-In Adobe Audience Manager, viene valutato l’elenco dei visitatori con ECID per un dato segmento, mentre Analytics condivide i segmenti con CX Enterprise.
+In Adobe Audience Manager, l’elenco dei visitatori con ECID per un dato segmento viene valutato mentre Analytics condivide segmenti con CX Enterprise.
 
 1. In Audience Manager, vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** > **[!UICONTROL Analytics Traits]**. Viene visualizzata una cartella per ogni suite di rapporti di Analytics mappata alla tua organizzazione CX Enterprise. Queste cartelle (per Caratteristiche, Segmenti e Origini dati) sono create quando viene avviato o eseguito il provisioning del servizio principale Profili e Tipi di pubblico/Persone.
 1. Seleziona la cartella per la suite di rapporti in cui hai creato in precedenza il segmento da condividere con Audience Manager. Puoi vedere il segmento/pubblico creato. Quando condividi un segmento, si verificano 2 cose in Audience Manager:
@@ -171,6 +182,6 @@ In Adobe Audience Manager, viene valutato l’elenco dei visitatori con ECID per
 In Adobe Target:
 
 1. Seleziona **[!UICONTROL Audiences]**.
-1. Nella pagina **[!UICONTROL Audiences]**, individuare il pubblico ottenuto da CX Enterprise. Questi tipi di pubblico sono disponibili per l’utilizzo nelle attività di Target.
+1. Nella pagina **[!UICONTROL Audiences]**, individua il pubblico ottenuto da CX Enterprise. Questi tipi di pubblico sono disponibili per l’utilizzo nelle attività di Target.
 
    ![Pubblico di destinazione](assets/target-audiences.png)

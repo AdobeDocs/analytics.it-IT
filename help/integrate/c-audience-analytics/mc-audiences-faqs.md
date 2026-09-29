@@ -7,19 +7,30 @@ exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 TQID: 'https://experienceleague.adobe.com/5dYdPb8Erenemm1Q5Cn79fH-MChshnxJtdD7O33MaHk'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+feature_v2:
+  - id: 57d3d944-b7a8-5380-92a1-556c210375c3
+    internal-label: Audience Analytics
 subfeature_v2:
   - id: a97e0d8c-238a-47ee-8d81-16bd45309bed
+    internal-label: Audience Manager integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 1108
+source-wordcount: '1108'
 ht-degree: 1%
-
 ---
-
 # Domande frequenti
 
 Risposte alle domande che potresti avere durante l’implementazione di Audience Analytics.
@@ -36,7 +47,7 @@ Se hai e-mail, indirizzi e così via in una prop o eVar, puoi usare l’hashing 
 
 Queste non si applicano all’invio di dati di Adobe Analytics a Adobe Audience Manager. Chiediti:
 
-* Condividerai un segmento condiviso con Analytics con una dimensione MCA di nuovo a CX Enterprise?
+* Condividerai un segmento condiviso con Analytics con una dimensione MCA nuovamente in CX Enterprise?
 
 * Stai esportando (ad esempio tramite feed di dati) in un sistema Business Intelligence (BI) utilizzato per questi scopi?
 
@@ -142,7 +153,7 @@ Sì. Nella configurazione della destinazione Adobe Audience Manager, verranno vi
 
 +++ Perché non posso attivare alcune suite di rapporti per SSF in Analytics Admin?
 
-È possibile abilitare solo le suite mappate all&#39;organizzazione CX Enterprise.
+È possibile abilitare solo le suite mappate all’organizzazione CX Enterprise.
 
 Per ulteriori domande frequenti su questo argomento, vedi [Domande frequenti sull&#39;inoltro lato server](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 
@@ -164,7 +175,7 @@ Consulta [Informazioni sui segmenti in Analytics e Audience Manager](/help/integ
 
 +++ Qual è la differenza tra attributi del cliente e dati del cliente integrati da Adobe Audience Manager?
 
-Gli attributi del cliente non sono basati sul tempo, ma vengono applicati retroattivamente e proseguono. I dati integrati di Adobe Audience Manager sono basati solo sul tempo e possono essere utilizzati solo successivamente. Inoltre, gli attributi del cliente sono una tabella di ricerca per gli ID visitatore CX Enterprise, mentre l&#39;integrazione Adobe Audience Manager è costituita dai dati uniti in ogni hit di un visitatore.
+Gli attributi del cliente non sono basati sul tempo, ma vengono applicati retroattivamente e proseguono. I dati integrati di Adobe Audience Manager sono basati solo sul tempo e possono essere utilizzati solo successivamente. Inoltre, attributi del cliente è una tabella di ricerca per gli ID visitatore di CX Enterprise, mentre l’integrazione di Adobe Audience Manager è costituita dai dati uniti in ogni hit di un visitatore.
 
 +++
 

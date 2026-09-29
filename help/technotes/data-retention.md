@@ -3,29 +3,41 @@ title: Criteri di conservazione dei dati
 description: Un criterio di conservazione dei dati determina per quanto tempo Adobe archivia i dati.
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
 feature: Data Governance
-TQID: https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio
+TQID: 'https://experienceleague.adobe.com/ymM-0bethfijutq5sprEuEfOFgw3Xn4gTsLNNgKTEio'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
 subfeature_v2:
   - id: ef60b66e-5984-4336-ba72-6d978b1b6f87
+    internal-label: Report suites
+  - id: f7fb4c71-5c39-4655-ba2d-b3b189287ab7
+    internal-label: Data governance
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f570a4d2e66c2af8ad85ab097078dd95c574fc83
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 616
+source-wordcount: '616'
 ht-degree: 92%
-
 ---
-
 # Criteri di conservazione dei dati
 
 I dati raccolti da Adobe Analytics vengono conservati per un periodo di tempo specifico. Il periodo di tempo in cui Adobe conserva i dati varia da contratto a contratto ed è descritto nei criteri di conservazione dei dati di un’organizzazione. Questo criterio si applica ai dati stessi, influendo su tutte le funzionalità di reporting di Analytics (Analysis Workspace, API di reporting, ecc.).
@@ -51,7 +63,7 @@ Una volta superati i criteri di conservazione dei dati, Adobe si riserva il diri
 
 ## Visualizzare/gestire i criteri di conservazione dei dati correnti
 
-La finestra di dialogo Governance dei dati in Strumenti di [!UICONTROL Admin] fornisce una panoramica delle suite di rapporti configurate per la governance dei dati. Indica inoltre se sono stati mappati a un&#39;organizzazione CX Enterprise e se per questa suite di rapporti sono stati impostati i criteri di conservazione dei dati.
+La finestra di dialogo Governance dei dati in Strumenti di [!UICONTROL Admin] fornisce una panoramica delle suite di rapporti configurate per la governance dei dati. Indica inoltre se sono stati mappati a un’organizzazione CX Enterprise e se per questa suite di rapporti sono impostati i criteri di conservazione dei dati.
 
 ## Domande frequenti
 

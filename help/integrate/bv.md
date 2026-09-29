@@ -2,7 +2,13 @@
 title: Integrazione Brand Visibility
 description: Integrare Brand Visibility con CAdobe Analytics
 role: User
-source-git-commit: 8a2a4637f21bbbe02ea88292d2ca503f4c667ebc
+product_v2:
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
 source-wordcount: '2629'
 ht-degree: 1%

@@ -7,32 +7,45 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/MH--f5MxzLFOkDV8B-JzqMULLbY1ota6efoJ8T1ne58'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b8734a57-d5fb-44a8-8ee1-65225cecaeae
+    internal-label: Data configuration and collection
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
 subfeature_v2:
   - id: c354699e-6555-4397-8706-1a9a89984069
+    internal-label: Server side forwarding
+  - id: fab61dd8-112a-4e5e-ad5f-fb0240b7a60b
+    internal-label: Report Suite settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Privacy
+source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 52%
-
 ---
-
 # Conformità a GDPR/ePrivacy e inoltro lato server
 
 Questa sezione specifica i miglioramenti relativi all’inoltro lato server introdotti in base al [regolamento UE sulla conformità dei cookie](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies), entrato in vigore il 30 settembre 2017.
 
-L&#39;inoltro lato server viene utilizzato per condividere in tempo reale i dati da Adobe Analytics ad altre soluzioni CX Enterprise, come Audience Manager. Quando è abilitato, l&#39;inoltro lato server consente ad Analytics di inviare dati ad altre soluzioni CX Enterprise e a queste di inviarli ad Analytics durante il processo di raccolta dei dati.
+L’inoltro lato server viene utilizzato per condividere in tempo reale dati da Adobe Analytics ad altre soluzioni CX Enterprise, come Audience Manager. Quando è abilitato, l’inoltro lato server consente ad Analytics di inviare dati ad altre soluzioni CX Enterprise e a queste di inviarli ad Analytics durante il processo di raccolta dei dati.
 
 In precedenza, l’inoltro lato server non disponeva di un metodo che permettesse di distinguere eventi/hit di consenso e pre-consenso. A partire dal 1° novembre 2018, in qualità di titolare del trattamento dei dati (cliente Adobe Analytics) puoi limitare i dati divulgati prima del consenso ad Adobe Analytics e impedirne l’inoltro a Adobe Audience Manager. Una nuova variabile di contesto dell’implementazione consente di contrassegnare ogni hit per cui non è stato ricevuto il consenso. La variabile, se impostata, impedisce che tali hit vengano inviati ad Adobe Audience Manager finché non sia stato ricevuto il consenso.
 

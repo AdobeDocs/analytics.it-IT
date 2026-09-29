@@ -31,6 +31,11 @@ feature_v2:
 subfeature_v2:
   - id: d89ba969-e026-48bf-927e-e9df2f1e34f3
     internal-label: Release notes
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -52,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 2a0575f2e631d1b8722974f60c8541814c3c2cd3
 workflow-type: tm+mt
-source-wordcount: '7416'
+source-wordcount: '7452'
 ht-degree: 83%
 ---
 # Aggiornamenti alla documentazione tecnica per Adobe Analytics
@@ -71,6 +76,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Settembre 2026** | |
+| Confronto tra aree di lavoro percorsi su frecce e abbandono | È stata aggiornata l&#39;impostazione &#39;[!UICONTROL Compare to]&#39; in [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) per mostrare che la variazione percentuale tra gli intervalli di date ora viene visualizzata su ogni nodo, freccia e abbandono nel percorso. |
 | Nuove azioni di collegamento di ridimensionamento | Le nuove scelte rapide da tastiera disponibili in Analysis Workspace ora consentono di [ridimensionare un pannello o una visualizzazione](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#resize-panel-or-visualization-actions) in modo più ampio, ridotto, più alto o più breve. |
 | [API per la raccolta dati di Adobe Analytics](https://developer.adobe.com/analytics-collection-apis/) | Nuovo archivio per sviluppatori che aggrega e modernizza le strategie di raccolta dati per Adobe Analytics senza l’utilizzo di AppMeasurement o tag. |
 | **Agosto 2026** | |
