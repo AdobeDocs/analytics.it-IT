@@ -7,21 +7,24 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/nJxjJ3au-JRVBAmW4AmCKZtJi7SYS2EWE3roDWFg-L0'
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: d124af73-4061-4b84-9063-ae2b60f2c1f3
+    internal-label: User management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+    internal-label: Administration
+source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
 workflow-type: tm+mt
-source-wordcount: 707
+source-wordcount: '707'
 ht-degree: 51%
-
 ---
-
 # Eseguire la migrazione degli account utente di Analytics per Enterprise ID e Federated ID
 
 Come eseguire la migrazione degli account utente di Analytics come Enterprise ID o Federated ID in Adobe Admin Console.
@@ -92,7 +95,7 @@ Se devi eseguire la migrazione degli account utente Adobe ID esistenti a un Ente
 
       >[!IMPORTANT]
       >
-      >Se trovi dei duplicati, eliminali dal file [!DNL User Logins List.csv] di Analytics. Questo passaggio consente di evitare la sovrascrittura delle autorizzazioni utente esistenti di CX Enterprise in Adobe Admin Console e fornisce un elenco di account da migrare.
+      >Se trovi dei duplicati, eliminali dal file [!DNL User Logins List.csv] di Analytics. Questo passaggio aiuta a evitare la sovrascrittura delle autorizzazioni utente esistenti di CX Enterprise in Adobe Admin Console e ti fornisce un elenco di account da migrare.
 
 1. Scarica il modello CSV da Adobe Admin Console:
    1. Nella scheda Utenti, fai clic su **[!UICONTROL Add users by CSV]**, quindi **[!UICONTROL Download CSV Template]**.
@@ -113,46 +116,46 @@ Se devi eseguire la migrazione degli account utente Adobe ID esistenti a un Ente
 
 1. Nel modello ([!DNL sample.csv]), completa i seguenti campi obbligatori:
 
-<table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Campo </th> 
-   <th colname="col2" class="entry"> Descrizione </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>E-mail </p> </td> 
-   <td colname="col2"> <p>Copiato da <span class="filepath"> User Logins List.tab</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nome </p> </td> 
-   <td colname="col2"> <p>Copiato da <span class="filepath"> User Logins List.tab</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Cognome </p> </td> 
-   <td colname="col2"> <p>Copiato da <span class="filepath"> User Logins List.tab</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Tipo di identità </p> </td> 
-   <td colname="col2"> <p><span class="term"> Federated ID</span> o <span class="term"> Enterprise ID</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Dominio </p> </td> 
-   <td colname="col2"> <p>Verificare che i domini nella colonna <span class="term"> Dominio</span> e <span class="term"> E-mail</span> corrispondano ai domini stabiliti nei prerequisiti</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Codice paese </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table id="table_1B5EEFDB5BD8436EB760BE5FFAB1CF02"> 
+   <thead> 
+   <tr> 
+      <th colname="col1" class="entry"> Campo </th> 
+      <th colname="col2" class="entry"> Descrizione </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+      <td colname="col1"> <p>E-mail </p> </td> 
+      <td colname="col2"> <p>Copiato da <span class="filepath"> User Logins List.tab</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Nome </p> </td> 
+      <td colname="col2"> <p>Copiato da <span class="filepath"> User Logins List.tab</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Cognome </p> </td> 
+      <td colname="col2"> <p>Copiato da <span class="filepath"> User Logins List.tab</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Tipo di identità </p> </td> 
+      <td colname="col2"> <p><span class="term"> Federated ID</span> o <span class="term"> Enterprise ID</span>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Dominio </p> </td> 
+      <td colname="col2"> <p>Verificare che i domini nella colonna <span class="term"> Dominio</span> e <span class="term"> E-mail</span> corrispondano ai domini stabiliti nei prerequisiti</a>. </p> </td> 
+   </tr> 
+   <tr> 
+      <td colname="col1"> <p>Codice paese </p> </td> 
+      <td colname="col2"> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
-Per ulteriori informazioni sui campi nel file [!DNL .csv], consulta [Formato del file CSV](https://helpx.adobe.com/it/enterprise/using/users.html).
+   Per ulteriori informazioni sui campi nel file [!DNL .csv], consulta [Formato del file CSV](https://helpx.adobe.com/it/enterprise/using/users.html).
 
->[!NOTE]
->
->Altre colonne, ad esempio [!UICONTROL Product Configurations] e [!UICONTROL Admin Roles], possono restare vuote.
+   >[!NOTE]
+   >
+   >Altre colonne, ad esempio [!UICONTROL Product Configurations] e [!UICONTROL Admin Roles], possono restare vuote.
 
 1. Nella scheda Utenti di Adobe Admin Console, caricare il file modello facendo clic su **[!UICONTROL Add users by CSV]** (come indicato nel passaggio 3).
 1. In Analytics, eseguire lo strumento di migrazione (come descritto in [Eseguire la migrazione degli account utente di Analytics](/help/admin/tools/user-management/user-migration/t-migrate-users.md).
