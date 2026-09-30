@@ -5,13 +5,11 @@ user-guide-title: Guida agli strumenti di Analytics
 breadcrumb-title: Guida all’analisi
 user-guide-description: Scopri come utilizzare gli strumenti di Analytics, tra cui Analysis Workspace, le dashboard di Analytics, Report Builder, Report Builder legacy e Activity Map.
 index: true
-source-git-commit: 08b12c3af41bd5c418123d0a63894c9f3602fd25
+source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 95%
-
+source-wordcount: '892'
+ht-degree: 94%
 ---
-
 # Guida agli strumenti di Adobe Analytics {#analyze}
 
 + [Guida agli strumenti di Analytics](home.md)
@@ -34,6 +32,7 @@ ht-degree: 95%
     + [Creare progetti](analysis-workspace/build-workspace-project/create-projects.md)
     + [Aprire i progetti](analysis-workspace/build-workspace-project/open-projects.md)
     + [Salvare i progetti](analysis-workspace/build-workspace-project/save-projects.md)
+    + {hide-from-toc}[Usa risultati memorizzati nella cache](analysis-workspace/build-workspace-project/cached-results.md)
     + [Sommario](/help/analyze/analysis-workspace/build-workspace-project/project-table-of-contents.md)
     + Cartelle in Workspace {#workspace-folders}
       + [Panoramica](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
