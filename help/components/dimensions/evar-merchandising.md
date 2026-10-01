@@ -51,7 +51,7 @@ Le eVar di merchandising funzionano solo con la variabile [`products`](/help/imp
 
 >[!TIP]
 >
->Per associare valori persistenti a una dimensione diversa dai prodotti, provare a utilizzare [[!UICONTROL Binding dimensions]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension) in Customer Journey Analytics.
+>Per associare valori persistenti a una dimensione diversa dai prodotti, provare a utilizzare [[!UICONTROL Binding dimensions]](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-dataviews/component-settings/persistence#binding-dimension) in Customer Journey Analytics.
 
 ## Perché utilizzare le eVar di merchandising
 
