@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 17%
+source-wordcount: '403'
+ht-degree: 2%
 ---
 # Gestire gli account pubblicitari
 
@@ -44,28 +44,28 @@ La tabella è costituita dalle colonne riportate di seguito.
 | Nome o elemento | Descrizione |
 |---|---|
 | **[!UICONTROL Name]** | *Nome account*. È possibile selezionare il nome per modificare le impostazioni del motore di ricerca. |
-| ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) | Seleziona questa opzione per rinominare l’account advertising o modificare le impostazioni del motore di ricerca. |
-| ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) | Seleziona per aprire un menu di scelta rapida che ti consenta di [mappare le suite di rapporti](#map-reporting-suites), [attivare o mettere in pausa gli account pubblicitari](#activate-or-pause-advertising-accounts). |
+| ![Modifica](/help/assets/icons/Edit.svg) | Seleziona questa opzione per rinominare l’account advertising o modificare le impostazioni del motore di ricerca. |
+| ![Altro](/help/assets/icons/More.svg) | Seleziona per aprire un menu di scelta rapida che ti consenta di [mappare le suite di rapporti](#map-reporting-suites), [attivare o mettere in pausa gli account pubblicitari](#activate-or-pause-advertising-accounts). |
 | **[!UICONTROL Report suites]** | Elenca le suite di rapporti a cui è mappato l’account advertising. |
 | **[!UICONTROL Type]** | Mostra il tipo di account pubblicitario. Per impostazione predefinita il tipo è [!UICONTROL Search] |
 | **[!UICONTROL Account]** | Mostra il tipo di account, [!UICONTROL Bing Ads] o [!UICONTROL Google Adwords]. |
 | **[!UICONTROL Status]** | Lo stato dell&#39;account pubblicitario: *In pausa* o Attivo. |
 
 
-- Per filtrare l&#39;elenco per suite di rapporti, tipo e stato, selezionare ![Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
-- Per cercare il tuo account pubblicitario utilizzando il campo di ricerca ![Cerca](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Search_18_N.svg).
+- Per filtrare l&#39;elenco per suite di rapporti, tipo e stato, selezionare ![Filtro](/help/assets/icons/Filter.svg)
+- Per cercare il tuo account pubblicitario utilizzando il campo di ricerca ![Cerca](/help/assets/icons/Search.svg).
 - Per selezionare gli account attivi nella tabella, selezionare **[!UICONTROL Active accounts]**.
-- Per definire le colonne da visualizzare per la tabella, selezionare ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_ColumnSettings_18_N.svg). <br/>Nella finestra di dialogo **[!UICONTROL Customize table]**:
+- Per definire le colonne da visualizzare per la tabella, selezionare ![Impostazioni colonna](/help/assets/icons/ColumnSetting.svg). <br/>Nella finestra di dialogo **[!UICONTROL Customize table]**:
   - Seleziona le colonne da mostrare.
   - Seleziona **[!UICONTROL Apply]**.
 
-Quando selezioni uno o più account pubblicitari, una barra blu delle azioni, basata sullo stato degli account selezionati, ti consente di ![Modificare](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) **[!UICONTROL Rename]**, ![Rinfrescarti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Map Report Suites]**, ![Riprodurre](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Activate]** o ![Sospendere](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pause]** gli account pubblicitari.
+Quando selezioni uno o più account pubblicitari, una barra blu delle azioni, basata sullo stato degli account selezionati, ti consente di ![Modificare](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]**, ![Rinfrescarti](/help/assets/icons/Refresh.svg) **[!UICONTROL Map Report Suites]**, ![Riprodurre](/help/assets/icons/Play.svg) **[!UICONTROL Activate]** o ![Sospendere](/help/assets/icons/Pause.svg) **[!UICONTROL Pause]** gli account pubblicitari.
 
 ## Creare un account pubblicitario
 
 Per creare un nuovo account pubblicitario:
 
-1. Selezionare ![Aggiungi](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg) **[!UICONTROL Add]**.
+1. Selezionare ![Aggiungi](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add]**.
 1. Viene visualizzata la finestra di dialogo [!UICONTROL Advertising Accounts] > **[!UICONTROL New account]** che consente di definire un nuovo account pubblicitario. Per ulteriori informazioni, vedere [Configurare un account Advertising](aa-create-ad-account.md).
 
 
@@ -74,16 +74,16 @@ Per creare un nuovo account pubblicitario:
 Per modificare le impostazioni del motore di ricerca per un account pubblicitario:
 
 - Seleziona il nome dell’account per annunci pubblicitari.
-- Seleziona ![Modifica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Edit_18_N.svg) accanto al nome dell&#39;account pubblicitario.
+- Seleziona ![Modifica](/help/assets/icons/Edit.svg) accanto al nome dell&#39;account pubblicitario.
 
 ## Mappatura delle suite di rapporti
 
 Per mappare uno o più account pubblicitari su suite di rapporti:
 
 1. (facoltativo) Seleziona più di un account pubblicitario.
-1. Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) per un account pubblicitario specifico.
-1. Selezionare ![Aggiorna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) **[!UICONTROL Map Report suites]** dal menu di scelta rapida.
-1. Nella finestra di dialogo Mappa suite di rapporti, seleziona una o più suite di rapporti dal menu a discesa. Puoi eliminare le suite di rapporti dalla mappatura utilizzando ![Cross](https://spectrum.adobe.com/static/icons/ui_18/CrossSize400.svg).
+1. Seleziona ![Altro](/help/assets/icons/More.svg) per un account pubblicitario specifico.
+1. Selezionare ![Aggiorna](/help/assets/icons/Refresh.svg) **[!UICONTROL Map Report suites]** dal menu di scelta rapida.
+1. Nella finestra di dialogo Mappa suite di rapporti, seleziona una o più suite di rapporti dal menu a discesa. Puoi eliminare le suite di rapporti dalla mappatura utilizzando ![Cross](/help/assets/icons/CrossSize400.svg).
 1. Selezionare **[!UICONTROL Save]** per salvare la mappatura.
 
 
@@ -92,12 +92,12 @@ Per mappare uno o più account pubblicitari su suite di rapporti:
 Per attivare uno o più account pubblicitari:
 
 1. (facoltativo) Seleziona più di un account pubblicitario.
-1. Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) per un account pubblicitario specifico.
-1. Selezionare ![Riproduci](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **[!UICONTROL Activate]** dal menu di scelta rapida.
+1. Seleziona ![Altro](/help/assets/icons/More.svg) per un account pubblicitario specifico.
+1. Selezionare ![Riproduci](/help/assets/icons/Play.svg) **[!UICONTROL Activate]** dal menu di scelta rapida.
 
 Per sospendere uno o più account pubblicitari:
 
 1. (facoltativo) Seleziona più di un account pubblicitario.
-1. Seleziona ![Altro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_More_18_N.svg) per un account pubblicitario specifico.
-1. Selezionare ![Pausa](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Pause_18_N.svg) **[!UICONTROL Pause]** dal menu di scelta rapida.
+1. Seleziona ![Altro](/help/assets/icons/More.svg) per un account pubblicitario specifico.
+1. Selezionare ![Pausa](/help/assets/icons/Pause.svg) **[!UICONTROL Pause]** dal menu di scelta rapida.
 

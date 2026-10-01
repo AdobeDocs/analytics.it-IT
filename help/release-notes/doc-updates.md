@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '7483'
-ht-degree: 83%
+source-wordcount: '7481'
+ht-degree: 82%
 ---
 # Aggiornamenti alla documentazione tecnica per Adobe Analytics
 
@@ -223,7 +223,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | **Maggio 2023** | |
 | Documentazione di Deep Linking (app mobile) | Consente agli utenti di inviare collegamenti alle scorecard che li porteranno direttamente al progetto della scorecard nell’app. [Ulteriori informazioni](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Documentazione della schermata Home aggiornata per l’app delle dashboard di Analytics (app mobile) | La nuova schermata Home aggiornata consente di visualizzare tutte le scorecard in un unico elenco consolidato. [Ulteriori informazioni](/help/analyze/mobile-app/executive.md#use-dashboards) |
-| Icone Spectrum | Sono state sostituite, dove necessario, le schermate delle icone dell’interfaccia utente nella documentazione con riferimenti alle icone equivalenti in [Sistema di progettazione Spectrum di Adobe](https://spectrum.adobe.com/page/icons/). |
+| Icone Spectrum | Sono state sostituite, se necessario, le schermate delle icone dell&#39;interfaccia utente nella documentazione con riferimenti alle icone effettive in [Adobe Spectrum Design System](https://spectrum.adobe.com). |
 | Reporting Activity Manager | È stata aggiornata questa documentazione Beta, in particolare la sezione su [Visualizzazione dell’attività di reporting per le singole suite di rapporti](/help/admin/tools/reporting-activity-manager/reporting-activity-overview.md). |
 | Panoramica di Analysis Workspace | È stata aggiornata la [panoramica di Analysis Workspace](/help/analyze/analysis-workspace/home.md), che ora include informazioni generali di panoramica e collegamenti ai contenuti pertinenti. |
 | Creare progetti | È stato pubblicato un nuovo articolo che spiega in dettaglio come [Creare progetti](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) in Analysis Workspace. |

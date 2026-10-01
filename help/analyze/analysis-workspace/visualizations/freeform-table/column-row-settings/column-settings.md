@@ -8,29 +8,40 @@ exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 TQID: https://experienceleague.adobe.com/5yrcNh-n0rOA-PZr5hmZD4ykJCKBE-EId9eVY5rOj54
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e318d41c-1d01-4c1e-9b18-1f61d435ceee
+    internal-label: Freeform tables
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Customer engagement
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 843
+source-wordcount: '837'
 ht-degree: 22%
-
 ---
-
 # Impostazioni colonna
 
 Le [!UICONTROL Column settings] consentono di configurare la formattazione delle colonne, che può essere parzialmente condizionale.
@@ -43,7 +54,7 @@ Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.sv
 >[!ENDSHADEBOX]
 
 
-Per accedere a [!UICONTROL Column settings], selezionare ![Impostazioni colonna](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Settings_18_N.svg) nell&#39;intestazione di colonna.
+Per accedere a [!UICONTROL Column settings], selezionare ![Impostazioni colonna](/help/assets/icons/Setting.svg) nell&#39;intestazione di colonna.
 
 ![Impostazioni colonna](assets/column-settings.png)
 

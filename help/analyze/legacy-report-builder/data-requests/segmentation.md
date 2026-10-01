@@ -7,22 +7,27 @@ exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
 TQID: https://experienceleague.adobe.com/0n3erBFX--uMJmm9OW80ZKK82rQdYYSk5n53k44ItDo
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: ac8a38fa-dec3-4581-8f64-178fde9f64e8
+    internal-label: Report Builder
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 965
-ht-degree: 5%
-
+source-wordcount: '941'
+ht-degree: 3%
 ---
-
 # Gestire i segmenti
 
 {{legacy-arb}}
@@ -66,7 +71,7 @@ Puoi avere combinazioni specifiche di dimensioni di rapporto che desideri trasfo
 
 ## Cercare e applicare segmenti
 
-Tutti i segmenti creati in Reports &amp; Analytics (ora al termine del ciclo di vita), Report Builder o Data Warehouse vengono visualizzati in questo elenco di segmenti. Per aggiornare l&#39;elenco, fare clic sull&#39;icona Aggiorna ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
+Tutti i segmenti creati in Reports &amp; Analytics (ora al termine del ciclo di vita), Report Builder o Data Warehouse vengono visualizzati in questo elenco di segmenti. Per aggiornare l&#39;elenco, fare clic sull&#39;icona Aggiorna ![](/help/assets/icons/Refresh.svg).
 
 Puoi applicare uno o più segmenti a una determinata richiesta. Sono inclusi i segmenti sequenziali.
 
@@ -82,7 +87,7 @@ Puoi applicare uno o più segmenti a una determinata richiesta. Sono inclusi i s
 
 ## Filtrare segmenti {#filter}
 
-**Filtra** segmenti facendo clic sull&#39;icona Filtro: ![Icona Filtro](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
+**Filtra** segmenti facendo clic sull&#39;icona Filtro: ![Icona Filtro](/help/assets/icons/Filter.svg)
 
 I filtri disponibili includono:
 
@@ -100,7 +105,7 @@ I filtri disponibili includono:
 
 L&#39;aggiunta di un controllo segmento consente di cambiare i segmenti all&#39;interno di una cartella di lavoro anziché passare alla Richiesta guidata.
 
-1. Fare clic sull&#39;icona Controllo ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) accanto al menu a discesa del segmento.
+1. Fare clic sull&#39;icona Controllo ![](/help/assets/icons/Filter.svg) accanto al menu a discesa del segmento.
 
 1. Controllare tutti i segmenti che si desidera visualizzare nel controllo segmento oppure selezionare **[!UICONTROL Select All]**.
 
@@ -119,7 +124,7 @@ L&#39;aggiunta di un controllo segmento consente di cambiare i segmenti all&#39;
 
 ## Aggiorna l’elenco dei segmenti {#refresh}
 
-Ogni volta che aggiungi un nuovo segmento o ne modifichi uno esistente, fai clic sull&#39;icona Aggiorna ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) per aggiornare l&#39;elenco dei segmenti memorizzati nella cache.
+Ogni volta che aggiungi un nuovo segmento o ne modifichi uno esistente, fai clic sull&#39;icona Aggiorna ![](/help/assets/icons/Refresh.svg) per aggiornare l&#39;elenco dei segmenti memorizzati nella cache.
 
 ## Gestire i segmenti in più richieste {#manage}
 

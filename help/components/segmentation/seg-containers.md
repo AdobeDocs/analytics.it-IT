@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
 source-wordcount: '3530'
 ht-degree: 96%
@@ -50,18 +50,18 @@ Ogni contenitore consente di generare rapporti sulla cronologia di un visitatore
 <table style="table-layout: fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitatori</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Visitatori</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visite</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Visite</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Hit</td>
 </tr>
 </table>
 
@@ -160,18 +160,18 @@ La segmentazione sequenziale utilizza gli stessi contenitori di base, inclusi [!
 <table style="table-layout:fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitatori</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Visitatori</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visite</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="h../../assets/icons/Visit.svg"/> Visite</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Hit</td>
 </tr>
 </table>
 
@@ -185,18 +185,18 @@ La segmentazione sequenziale utilizza gli stessi contenitori di base, inclusi [!
 
 <tr>
 
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitatori</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Visitatori</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visite</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Visite</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Hit</td>
 </tr>
 
 <tr>
@@ -205,13 +205,13 @@ La segmentazione sequenziale utilizza gli stessi contenitori di base, inclusi [!
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visite</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Visite</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Hit</td>
 </tr>
 </table>
 
@@ -222,18 +222,18 @@ L’unica eccezione a questa gerarchia di contenitori si verifica quando si util
 <table style="table-layout:fixed; border: none;">
 
 <tr>
-<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> Visitatori</td>
+<td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="../../assets/icons/User.svg"/> Visitatori</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visite</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Visit.svg"/> Visite</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Hit</td>
 </tr>
 
 <tr>
@@ -242,19 +242,19 @@ L’unica eccezione a questa gerarchia di contenitori si verifica quando si util
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
-<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Group_18_N.svg"/> Gruppo</td>
+<td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="../../assets/icons/Group.svg"/> Gruppo</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"/> Hit</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/WebPage.svg"/> Hit</td>
 </tr>
 
 <tr>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
-<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> Visite</td>
+<td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="../../assets/icons/Visit.svg"/> Visite</td>
 </tr>
 
 </table>
@@ -285,12 +285,12 @@ In base al contenitore selezionato, il rapporto mostra risultati diversi per le 
 <tr>
 <tr>
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
+<img src="../../assets/icons/User.svg"/>
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Pagina Home</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Abbigliamento invernale</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Cappotto invernale</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Acquisto 100 $</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Pagina Home</td>!
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Abbigliamento invernale</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Cappotto invernale</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>Acquisto 100 $</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -303,12 +303,12 @@ In base al contenitore selezionato, il rapporto mostra risultati diversi per le 
 <tr style="border: 0;">
 
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
+<img src="../../assets/icons/User.svg"/>
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Abbigliamento invernale</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Stivali invernali</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Abbigliamento invernale</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Cappelli invernali</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons//ArrowRight.svg"/><br/>Abbigliamento invernale</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons//ArrowRight.svg"/><br/>Stivali invernali</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Abbigliamento invernale</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>Cappelli invernali</td>
 
 </table>
 
@@ -327,7 +327,7 @@ Quando questa condizione si trova all’interno di un contenitore Hit, il rappor
 
 Il reporting dal contenitore Hit mostra come la generazione di rapporti da contenitori diversi influisca sui valori complessivi del reporting. Dal rapporto del segmento emerge che le visualizzazioni di pagina equivalgono approssimativamente alle visite (circa 2.000 visitatori hanno visto pagine duplicate nel corso di una visita, il che si somma al numero totale di visualizzazioni di pagina). Così i visitatori univoci corrispondono approssimativamente al numero di visite (circa 2.000 visitatori univoci hanno effettuato una visita più di una volta).
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrica | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrica | # | % |
 |---|---|--:|--:|
 | | Visualizzazioni pagina:<br/>Visite:<br/>Visitatori univoci: | **69.252** di 351.292 <br/>**67.554** di 165.175 <br/>**63.541** di 113.169 | **19%**<br/>**40%**<br/>**56%** |
 
@@ -353,7 +353,7 @@ Se la stessa condizione si trova all’interno di un contenitore Visita, il rapp
 
 Visualizzando i valori del segmento dal contenitore Visita, noterai che il numero di visualizzazioni di pagina è aumentato notevolmente. Questo accade poiché il reporting dal contenitore Visita identifica tutte le pagine che soddisfano le condizioni, più tutte le altre pagine visualizzate durante la visita (con tutte le visualizzazioni di pagina acquisite in ciascun contenitore Visita).
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrica | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrica | # | % |
 |---|---|--:|--:|
 | | Visualizzazioni pagina:<br/>Visite:<br/>Visitatori univoci: | **226.193** di 351,292 <br/>**67.554** di 165,175 <br/>**63.541** di 113,169 | **64%**<br/>**40%**<br/>**56%** |
 
@@ -389,7 +389,7 @@ Se la stessa condizione si trova all’interno di un contenitore Visitatore, il 
 
 Visualizzando i segmenti dal contenitore Visitatore, noterai un aumento delle visualizzazioni di pagina e delle visite. Questo aumento si verifica perché dal livello Visitatore, se quest’ultimo ha visitato la pagina Cappotti invernali una sola volta (rendendo la condizione true), verranno acquisite tutte le altre visualizzazioni di pagina e le ulteriori visite di quel visitatore.
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrica | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrica | # | % |
 |---|---|--:|--:|
 | | Visualizzazioni pagina:<br/>Visite:<br/>Visitatori univoci: | **240.094** di 351.292 <br/>**83.823** di 165.175 <br/>**63.541** di 113.169 | **68%**<br/>**50%**<br/>**56%** |
 
@@ -449,12 +449,12 @@ Il segmento `Referring Domain equals aol.com` seguente viene applicato al **Rapp
 <tr>
 <tr>
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>aol.com
+<img src="../../assets/icons/User.svg"/><br/>aol.com
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Pagina Home</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Abbigliamento invernale</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Cappotto invernale</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Acquisto 100 $</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Pagina Home</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Abbigliamento invernale</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Cappotto invernale</td>
+<td style="background-color: #FFFFFF;"><img src="h../../assets/icons/WebPage.svg"><br/>Acquisto 100 $</td>
 </tr>
 <tr>
 <td colspan="5">
@@ -467,12 +467,12 @@ Il segmento `Referring Domain equals aol.com` seguente viene applicato al **Rapp
 <tr style="border: 0;">
 
 <td style="background-color: #E5E4E2;">
-<img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>weather.com
+<img src="../../assets/icons/User.svg"/><br/>weather.com
 </td>
-<td style="background-color: #FFFFFF; "><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Abbigliamento invernale</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Stivali invernali</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Abbigliamento invernale</td>
-<td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>Cappelli invernali</td>
+<td style="background-color: #FFFFFF; "><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Abbigliamento invernale</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Stivali invernali</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><img align="right" src="../../assets/icons/ArrowRight.svg"/><br/>Abbigliamento invernale</td>
+<td style="background-color: #FFFFFF;"><img src="../../assets/icons/WebPage.svg"><br/>Cappelli invernali</td>
 
 </table>
 
@@ -495,7 +495,7 @@ Poiché a tutte le visualizzazioni pagina all’interno della stessa visita vien
 
 Dai dati del contenitore Hit emerge che poco più di 92.000 visualizzazioni di pagina sono state visualizzate in oltre 33.000 visite da poco più di 32.000 visitatori. In media, in ogni visita erano presenti tre visualizzazioni di pagina e quasi tutte le visite sono state effettuate da visitatori univoci.
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrica | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrica | # | % |
 |---|---|--:|--:|
 | | Visualizzazioni pagina:<br/>Visite:<br/>Visitatori univoci: | **98.234** di 351.165 <br/>**33.203** di 165.173 <br/>**32.269** di 113.110 | **27%**<br/>**20%**<br/>**28%** |
 
@@ -516,7 +516,7 @@ Se la stessa condizione viene filtrata nel contenitore Visita per un rapporto pa
 
 Poiché tutte le pagine hanno lo stesso valore del dominio di riferimento in base alla visita, il rapporto a livello del contenitore Visita è (pressoché) uguale al rapporto generato dal contenitore Visualizzazione pagina. C&#39;è una lieve differenza (98.234 contro 98.248) a causa di anomalie nei dati.
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrica | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrica | # | % |
 |---|---|--:|--:|
 | | Visualizzazioni pagina:<br/>Visite:<br/>Visitatori univoci: | **98.248** di 351.165 <br/>**33.203** di 165.173 <br/>**32.269** di 113.110 | **27%**<br/>**20%**<br/>**28%** |
 
@@ -556,7 +556,7 @@ In un rapporto del dominio di riferimento, `Referring Domain equals 'aol.com'` �
 
 Quando visualizzi i dati dal contenitore Visitatore, noterai che le visualizzazioni pagina sono aumentate in modo significativo (da 98.248 a 112.925). Questo aumento si verifica perché sono state elencate tutte le visualizzazioni pagina da parte del visitatore (comprese le pagine con altri valori del dominio di riferimento salvati a livello del contenitore Visitatore). Allo stesso modo le visite aggiuntive da parte di quel visitatore, che incrementano le visite da 33.203 a 43.448.
 
-| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | Metrica | # | % |
+| <img src="../../assets/icons/GraphDonut.svg"/> | Metrica | # | % |
 |---|---|--:|--:|
 | | Visualizzazioni pagina:<br/>Visite:<br/>Visitatori univoci: | **112.925** di 351.165 <br/>**43.448** di 165.173 <br/>**32.269** di 113.110 | **32%**<br/>**26%**<br/>**28%** |
 
