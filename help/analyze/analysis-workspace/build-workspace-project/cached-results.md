@@ -150,15 +150,15 @@ Nel progetto Workspace in cui desideri abilitare i risultati memorizzati nella c
 
 Quando vengono visualizzati i risultati memorizzati nella cache, nella parte superiore del progetto viene visualizzata una marca temporale. La marca temporale specifica se tutti i risultati sono memorizzati in cache o solo alcuni risultati:
 
-* **[!UICONTROL Showing results from]&#x200B;[_data e ora_]**: tutti i pannelli del progetto mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
+* **[!UICONTROL Showing results from][_data e ora_]**: tutti i pannelli del progetto mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
 
-* **[!UICONTROL Showing some results from]&#x200B;[_data e ora_]**: alcuni pannelli mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate, mentre altri sono stati aggiornati più di recente.
+* **[!UICONTROL Showing some results from][_data e ora_]**: alcuni pannelli mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate, mentre altri sono stati aggiornati più di recente.
 
 ![Timestamp sul progetto memorizzato nella cache](assets/project-cache-timestamp.png)
 
 I pannelli visualizzano anche una marca temporale che indica quando i risultati sono stati memorizzati in cache:
 
-* **[!UICONTROL Showing results from]&#x200B;[_data e ora_]**: il pannello mostra i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
+* **[!UICONTROL Showing results from][_data e ora_]**: il pannello mostra i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
 
   >[!NOTE]
   >
