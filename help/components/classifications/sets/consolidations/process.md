@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 12%
+source-wordcount: '913'
+ht-degree: 11%
 ---
 # Creare e modificare i consolidamenti delle classificazioni
 
@@ -37,7 +37,7 @@ Un consolidamento dei set di classificazione consente di prendere classificazion
 >[!CONTEXTUALHELP]
 >id="classificationsets_consolidation_setpriority"
 >title="Priorità del set di classificazione"
->abstract="Il *set di classificazione* ![Chiavi](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Key_18_N.svg) è il set di classificazione di base che definisce lo schema generale e ha la precedenza in tutti i conflitti di unione. Gli altri set di classificazione vengono applicati in ordine dall’alto verso il basso."
+>abstract="Il *set di classificazione* ![Chiavi](/help/assets/icons/Key.svg) è il set di classificazione di base che definisce lo schema generale e ha la precedenza in tutti i conflitti di unione. Gli altri set di classificazione vengono applicati in ordine dall’alto verso il basso."
 
 
 Per creare un consolidamento delle classificazioni, nell’interfaccia principale di Adobe Analytics:

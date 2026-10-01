@@ -23,9 +23,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '663'
 ht-degree: 96%
 ---
 # Creare e gestire i modelli
@@ -114,7 +114,7 @@ Gli amministratori possono rinominare, assegnare tag e approvare i modelli azien
 
    Viene visualizzato un elenco dei modelli aziendali. Tutti i progetti regolari non vengono visualizzati, a meno che non siano fissati.
 
-   I modelli aziendali possono essere identificati dall’![icona modelli](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg) che precede il nome del modello.
+   I modelli aziendali possono essere identificati dall’![icona modelli](/help/assets/icons/FileTemplate.svg) che precede il nome del modello.
 
    ![Visualizzare i filtri dei modelli aziendali](assets/company-templates-filter.png)
 

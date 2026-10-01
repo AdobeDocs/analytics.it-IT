@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 54%
+source-wordcount: '409'
+ht-degree: 55%
 ---
 # Condividere i segmenti
 
@@ -57,7 +57,7 @@ Quando è necessario condividere i segmenti con l’intera azienda anziché con 
 
 
 
-   Accanto al segmento viene visualizzata l&#39;icona Condiviso: ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+   Accanto al segmento viene visualizzata l&#39;icona Condiviso: ![](/help/assets/icons/Share.svg)
 
 1. Puoi filtrare i segmenti condivisi con te scegliendo **[!UICONTROL Filters]** > **[!UICONTROL Other Filters]** > **[!UICONTROL Shared with Me]**.
 

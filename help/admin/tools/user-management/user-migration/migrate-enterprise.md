@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
+source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '698'
 ht-degree: 51%
 ---
 # Eseguire la migrazione degli account utente di Analytics per Enterprise ID e Federated ID
@@ -151,11 +151,11 @@ Se devi eseguire la migrazione degli account utente Adobe ID esistenti a un Ente
    </tbody> 
    </table>
 
-   Per ulteriori informazioni sui campi nel file [!DNL .csv], consulta [Formato del file CSV](https://helpx.adobe.com/it/enterprise/using/users.html).
+Per ulteriori informazioni sui campi nel file [!DNL .csv], consulta [Formato del file CSV](https://helpx.adobe.com/it/enterprise/using/users.html).
 
-   >[!NOTE]
-   >
-   >Altre colonne, ad esempio [!UICONTROL Product Configurations] e [!UICONTROL Admin Roles], possono restare vuote.
+>[!NOTE]
+>
+>Altre colonne, ad esempio [!UICONTROL Product Configurations] e [!UICONTROL Admin Roles], possono restare vuote.
 
 1. Nella scheda Utenti di Adobe Admin Console, caricare il file modello facendo clic su **[!UICONTROL Add users by CSV]** (come indicato nel passaggio 3).
 1. In Analytics, eseguire lo strumento di migrazione (come descritto in [Eseguire la migrazione degli account utente di Analytics](/help/admin/tools/user-management/user-migration/t-migrate-users.md).

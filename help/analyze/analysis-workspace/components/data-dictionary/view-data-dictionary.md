@@ -7,24 +7,31 @@ exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
 TQID: https://experienceleague.adobe.com/N4hzk5uKr5Mh3FA6V1x8KqyCod6ZIK8TO7l2TZvzR4A
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Admin
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 1137
+source-wordcount: '1095'
 ht-degree: 98%
-
 ---
-
 # Visualizzare le informazioni sui componenti nel dizionario dati
 
 Il dizionario dei dati consente di visualizzare informazioni su un componente, tra cui la sua descrizione, componenti simili, altri componenti con cui viene utilizzato di frequente e altro ancora.
@@ -45,9 +52,9 @@ Per visualizzare informazioni su un componente nel dizionario dei dati:
 
 1. (Facoltativo) Nel campo di ricerca, inizia a digitare il nome del componente che desideri visualizzare.
 
-   Il tipo di componente può essere identificato sia dal colore che dall’icona. **Dimensioni** ![icona Dimensione](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sono arancioni, **Segmenti** ![icona Segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sono blu, **Intervalli di date** ![icona Intervallo di date](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sono viola, e **Metriche** ![icona Metrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sono verdi. L’icona Adobe indica un modello di metrica calcolata o un modello di segmento, e l’icona della calcolatrice ![icona Calcolatrice](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una metrica calcolata creata da un amministratore Analytics della tua organizzazione.
+   Il tipo di componente può essere identificato sia dal colore che dall’icona. **Dimensioni** ![icona Dimensione](/help/assets/icons/Data.svg) sono arancioni, **Segmenti** ![icona Segmento](/help/assets/icons/Segmentation.svg) sono blu, **Intervalli di date** ![icona Intervallo di date](/help/assets/icons/Calendar.svg) sono viola, e **Metriche** ![icona Metrica](/help/assets/icons/Event.svg) sono verdi. L’icona Adobe indica un modello di metrica calcolata o un modello di segmento, e l’icona della calcolatrice ![icona Calcolatrice](/help/assets/icons/Calculator.svg) indica una metrica calcolata creata da un amministratore Analytics della tua organizzazione.
 
-1. (Facoltativo) Seleziona l’icona **Filtro** ![icona Filtro dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
+1. (Facoltativo) Seleziona l’icona **Filtro** ![icona Filtro dizionario dati](/help/assets/icons/Filter.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
 
    | Opzione | Funzione |
    |---------|----------|
@@ -66,7 +73,7 @@ Per visualizzare informazioni su un componente nel dizionario dei dati:
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Seleziona l’icona **Ordina** ![icona Ordina componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
+1. (Facoltativo) Seleziona l’icona **Ordina** ![icona Ordina componenti](/help/assets/icons/SortOrderDown.svg) e quindi una delle seguenti opzioni per filtrare l’elenco dei componenti:
 
    {{components-sort-options}}
 

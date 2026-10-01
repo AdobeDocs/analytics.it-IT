@@ -7,31 +7,44 @@ exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 TQID: https://experienceleague.adobe.com/JSXJRs6kWPgiKkG2Gp0ElMAb9fnEFxAQ9jyigwUZssQ
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+    internal-label: Reports
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: c45e2849-b5ab-4ac6-8df1-bbe34c2dd79e
+    internal-label: Data Dictionary
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: e93b8c4c-c5f7-45f8-9abe-9b710f53f502
+    internal-label: Alerts
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 24842ee0a9fd32e3f55424b184680f417c7fbfd7
+    internal-label: Insights
+source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
 workflow-type: tm+mt
-source-wordcount: 925
-ht-degree: 94%
-
+source-wordcount: '865'
+ht-degree: 93%
 ---
-
 # Panoramica sui componenti
 
 I componenti sono funzioni di Adobe Analytics che possono essere utilizzate nelle visualizzazioni (come le tabelle a forma libera) o che integrano le funzioni di reporting.
@@ -100,19 +113,19 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nel pannello a sinis
 
 ### Ricerca
 
-1. Seleziona **Componenti** ![icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nel pannello a sinistra.
+1. Seleziona **Componenti** ![icona Componenti](/help/assets/icons/Curate.svg) nel pannello a sinistra.
 
 2. Nel campo di ricerca, inizia a digitare il nome del componente da visualizzare nel progetto.
 
-   Un colore e un’icona identificano il tipo di componente. **Dimensioni** ![icona Dimensione](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) sono arancioni, **Segmenti** ![icona Segmento](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) sono blu, **Intervalli di date** ![icona Intervallo di date](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) sono viola, e **Metriche** ![icona Metrica](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) sono verdi.<br/>L’icona Adobe ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg) indica un modello di metrica calcolata o un modello di segmento. L’icona della calcolatrice ![icona calcolatrice](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) indica una metrica calcolata creata da un amministratore dell’organizzazione.
+   Un colore e un’icona identificano il tipo di componente. **Dimensioni** ![icona Dimensione](/help/assets/icons/Data.svg) sono arancioni, **Segmenti** ![icona Segmento](/help/assets/icons/Segmentation.svg) sono blu, **Intervalli di date** ![icona Intervallo di date](/help/assets/icons/Calendar.svg) sono viola, e **Metriche** ![icona Metrica](/help/assets/icons/Event.svg) sono verdi.<br/>L’icona Adobe ![AdobeLogo](/help/assets/icons/AdobeLogoSmall.svg) indica un modello di metrica calcolata o un modello di segmento. L’icona della calcolatrice ![icona calcolatrice](/help/assets/icons/Calculator.svg) indica una metrica calcolata creata da un amministratore dell’organizzazione.
 
 3. Seleziona il componente dal menu a discesa.
 
 ### Filtro
 
-1. Seleziona l’icona **Componenti** ![icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nel pannello a sinistra.
+1. Seleziona l’icona **Componenti** ![icona Componenti](/help/assets/icons/Curate.svg) nel pannello a sinistra.
 
-2. Seleziona **Filtro** ![Icona Filtro dizionario dati](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) oppure immetti `#` nel campo di ricerca.
+2. Seleziona **Filtro** ![Icona Filtro dizionario dati](/help/assets/icons/Filter.svg) oppure immetti `#` nel campo di ricerca.
 
 3. Per filtrare l’elenco dei componenti, seleziona una delle seguenti opzioni filtro:
 
@@ -134,9 +147,9 @@ Puoi cercare, filtrare e ordinare l’elenco dei componenti nel pannello a sinis
 
 1. (Facoltativo) Applica i filtri all’elenco dei componenti, come descritto in [Filtrare l’elenco dei componenti](#filter-the-component-list).
 
-2. Seleziona **Componenti** ![icona Componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) nel pannello a sinistra.
+2. Seleziona **Componenti** ![icona Componenti](/help/assets/icons/Curate.svg) nel pannello a sinistra.
 
-3. Seleziona **Ordina** ![icona Ordina componenti](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), quindi seleziona una delle seguenti opzioni filtro per ordinare l’elenco dei componenti.
+3. Seleziona **Ordina** ![icona Ordina componenti](/help/assets/icons/SortOrderDown.svg), quindi seleziona una delle seguenti opzioni filtro per ordinare l’elenco dei componenti.
 
 Sono disponibili le seguenti opzioni di ordinamento:
 
@@ -230,19 +243,19 @@ You can search, filter, and sort the component list in the left rail of Analysis
 
 ### Search the component list
 
-1. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
+1. Select the **Components** icon ![Components icon](/help/assets/icons/Curate.svg) in the left rail.
 
 2. In the search field, begin typing the name of the component you want to use in your project.
 
-   The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) are orange, **Segments** ![Segment icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) are blue, **Date ranges** ![Date range icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) are purple, and **Metrics** ![Metric icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) are green. The Adobe icon indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](assets/calculated-metric-icon-created.png) indicated a calculated metric that was created by an Analytics administrator in your organization. 
+    The type of component can be identified by both color and icon. **Dimensions** ![Dimension icon](/help/assets/icons/Data.svg) are orange, **Segments** ![Segment icon](/help/assets/icons/Segmentation.svg) are blue, **Date ranges** ![Date range icon](/help/assets/icons/Calendar.svg) are purple, and **Metrics** ![Metric icon](/help/assets/icons/Event.svg) are green. The Adobe icon indicates either a calculated metric template or a segment template, and the calculator icon ![Calculator icon](assets/calculated-metric-icon-created.png) indicated a calculated metric that was created by an Analytics administrator in your organization. 
 
 3. Select the component when it appears in the drop-down list.
 
 ### Filter the component list
 
-1. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
+1. Select the **Components** icon ![Components icon](/help/assets/icons/Curate.svg) in the left rail.
 
-2. Select the **Filter** icon ![Data Dictionary Filter icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg).
+2. Select the **Filter** icon ![Data Dictionary Filter icon](/help/assets/icons/Filter.svg).
 
    Or
 
@@ -267,9 +280,9 @@ You can search, filter, and sort the component list in the left rail of Analysis
 
 1. (Optional) Apply any filters to the component list, as described in [Filter the component list](#filter-the-component-list).
 
-2. Select the **Components** icon ![Components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Curate_18_N.svg) in the left rail.
+2. Select the **Components** icon ![Components icon](/help/assets/icons/Curate.svg) in the left rail.
 
-3. Select the **Sort** icon ![Sort components icon](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg), then select any of the following filter options to sort the list of components:
+3. Select the **Sort** icon ![Sort components icon](/help/assets/icons/SortOrderDown.svg), then select any of the following filter options to sort the list of components:
 
    {{components-sort-options}}
 
