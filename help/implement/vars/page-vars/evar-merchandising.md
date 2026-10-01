@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: ca917b867cd84b09b899ce7b72586f0b15003106
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 90%
+source-wordcount: '762'
+ht-degree: 30%
 ---
 # eVar (merchandising)
 
@@ -42,7 +42,12 @@ ht-degree: 90%
 
 >[!ENDSHADEBOX]
 
-Per una discussione dettagliata sul funzionamento delle eVar di merchandising, consulta [eVar di merchandising e metodi di ricerca dei prodotti](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/merchandising-evars.md).
+Le eVar di merchandising associano un valore ai singoli prodotti, in modo che gli eventi di successo che riguardano ciascun prodotto vengano attribuiti al valore associato a tale prodotto. È possibile impostare il valore in uno dei due modi seguenti:
+
+* **[!UICONTROL Product Syntax]**: impostare il valore su ciascun prodotto nella variabile [`products`](products.md).
+* **[!UICONTROL Conversion Variable Syntax]**: impostare il valore nell&#39;eVar stesso. Il valore si associa ai prodotti in un hit che contiene un evento di binding.
+
+Per informazioni sul funzionamento di binding, allocazione e scadenza, vedere [eVar (dimensione merchandising)](/help/components/dimensions/evar-merchandising.md).
 
 ## Impostare le eVar nelle impostazioni della suite di rapporti
 
@@ -52,9 +57,21 @@ Prima di utilizzare le eVar nell’implementazione, accertati di configurarle ne
 >
 >Se le eVar di merchandising non sono configurate correttamente, si ottengono valori imprevisti o perdite di dati per la variabile. Assicurati che siano configurate correttamente per la tua implementazione.
 
+## Scegli una sintassi
+
+Utilizza [!UICONTROL Product Syntax] quando il valore merchandising è disponibile al momento dell&#39;impostazione della variabile `products` o quando i prodotti nello stesso hit richiedono valori diversi. Utilizzare [!UICONTROL Conversion Variable Syntax] quando il valore è noto prima del prodotto, ad esempio il termine di ricerca o la campagna interna che ha portato il visitatore al prodotto. Vedi [Funzionamento del binding e dell&#39;allocazione](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work) per un confronto completo.
+
 ## Implementazione utilizzando la sintassi di prodotto
 
-Quando è abilitata la “Sintassi del prodotto”, la categoria merchandising viene popolata direttamente all’interno della variabile `products`, pertanto non è necessario selezionare e impostare un evento di binding. Questo è il metodo consigliato e deve essere utilizzato a meno che il valore non sia disponibile per essere impostato in `products` quando si verifica l’evento di successo.
+Quando [!UICONTROL Product Syntax] è abilitato, il valore di merchandising viene impostato direttamente all&#39;interno della variabile `products`, pertanto gli eventi di binding non vengono utilizzati. Le eVar di merchandising si trovano nell’ultimo segmento di ciascun prodotto:
+
+```js
+s.products = "[category];[name];[quantity];[revenue];[events];[eVars]";
+```
+
+Delimitare più eVar di merchandising sullo stesso prodotto con una barra verticale (`|`). I segnaposto vuoti per quantità, ricavi ed eventi sono necessari anche se non vengono utilizzati. Senza di essi, il valore eVar viene ignorato.
+
+Il valore è associato al prodotto in tale hit. Se un valore successivo sostituisce un&#39;associazione esistente dipende dall&#39;impostazione [!UICONTROL Allocation]. Vedi [Funzionamento del binding e dell&#39;allocazione](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work).
 
 ```js
 // The bare minimum to set a merchandising eVar with product syntax
@@ -63,11 +80,9 @@ s.products = ";Example product;;;;eVar1=Example merchandising value";
 // An example single product with product syntax
 s.products = "Example category;Example product;1;5.99;event1=1;eVar1=Turtles";
 
-// Tie a merchandising eVar to a different values on two different products
+// Tie a merchandising eVar to different values on two different products
 s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2;550;;eVar1=love birds";
 ```
-
-Il valore della `eVar1` viene assegnato al prodotto. Tutti gli eventi di successo successivi che riguardano questo prodotto vengono attribuiti al valore eVar.
 
 ### Sintassi di prodotto utilizzando il Web SDK
 
@@ -113,13 +128,27 @@ L’esempio seguente mostra un singolo [prodotto](products.md) che utilizza più
 
 L’oggetto dell’esempio precedente viene inviato ad Adobe Analytics come `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
 
-Se utilizzi l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), eVar merchandising utilizza `data.__adobe.analytics.eVar1` - `data.__adobe.analytics.eVar250` seguendo la sintassi AppMeasurement.
+Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), le eVar di merchandising della sintassi prodotto sono impostate in `data.__adobe.analytics.products`, utilizzando la stessa sintassi della variabile AppMeasurement `products`. L’equivalente dell’oggetto dati dell’esempio XDM precedente:
+
+```json
+"data": {
+  "__adobe": {
+    "analytics": {
+      "products": ";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"
+    }
+  }
+}
+```
 
 ## Implementazione utilizzando la sintassi per le variabili di conversione
 
-La sintassi per le variabili di conversione viene utilizzata quando il valore eVar non è disponibile per essere impostato nella variabile `products`. Generalmente, questo scenario indica che la pagina non contiene nessun contesto del canale di merchandising o del metodo di ricerca. In questi casi, è possibile impostare la variabile merchandising prima di arrivare alla pagina del prodotto e il valore persiste finché non si verifica l’evento di binding.
+Utilizzare [!UICONTROL Conversion Variable Syntax] quando il valore eVar non è disponibile per essere impostato nella variabile `products`. In genere, questo scenario significa che la pagina di prodotto non presenta alcun contesto del canale di merchandising o del metodo di ricerca. In questi casi, imposta l’eVar di merchandising sulla pagina in cui si verifica l’evento di binding o prima di essa. Il valore persiste fino alla scadenza o viene sovrascritto con un nuovo valore.
 
-Quando si verifica l’evento di binding selezionato durante la configurazione, il valore persistente dell’eVar è associato al prodotto. Ad esempio, se `prodView` è specificato come evento di binding, la categoria di merchandising viene associata all’elenco di prodotti corrente solo al momento in cui si verifica l’evento. Solo gli eventi di binding successivi possono aggiornare un’eVar di merchandising già assegnata a un prodotto.
+Quando un hit contiene sia la variabile `products` che un [!UICONTROL Merchandising Binding Event] selezionato, il valore corrente di eVar si associa a ogni prodotto in tale hit. L’impostazione di eVar insieme a un prodotto senza un evento di binding non associa il valore. Se un&#39;associazione successiva sostituisce un&#39;associazione esistente dipende dall&#39;impostazione [!UICONTROL Allocation]. Vedi [Funzionamento del binding e dell&#39;allocazione](/help/components/dimensions/evar-merchandising.md#how-binding-and-allocation-work).
+
+Per un esempio che imposta più eVar di metodo di ricerca dei prodotti contemporaneamente, vedere [Best practice: metodi di ricerca dei prodotti](/help/components/dimensions/evar-merchandising.md#best-practice-product-finding-methods).
+
+L’esempio seguente imposta un’eVar di merchandising prima dell’evento di binding:
 
 ```js
 // Place on the same or previous page before the binding event:
@@ -130,14 +159,16 @@ s.events = "prodView";
 s.products = ";Canary";
 ```
 
-Il valore `"Aviary"` della `eVar1` viene assegnato al prodotto `"Canary"`. Tutti gli eventi di successo successivi che riguardano questo prodotto vengono attribuiti a `"Canary"`. Inoltre, il valore corrente della variabile merchandising è associato a tutti i prodotti successivi fino a quando non viene soddisfatta una delle seguenti condizioni:
+Se [!UICONTROL Product View Event] è un evento di binding, il valore `"Aviary"` per `eVar1` è associato al prodotto `"Canary"`. Gli eventi di successo successivi che riguardano questo prodotto vengono attribuiti a `"Aviary"`. Il valore `"Aviary"` si associa anche ai prodotti negli hit successivi che contengono un evento di binding, fino a quando non viene soddisfatta una delle seguenti condizioni:
 
-* L’eVar scade (in base all’impostazione “Scade dopo”)
+* EVar scade (in base all&#39;impostazione [!UICONTROL Expire After]).
 * L’eVar di merchandising viene sovrascritta con un nuovo valore.
 
 ### Sintassi per la variabile di conversione utilizzando il Web SDK
 
-Se utilizzi l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), la sintassi funziona in modo simile all&#39;implementazione di altri [eVar](evar.md) e [eventi](events/events-overview.md). L’XDM che rispecchia l’esempio precedente è simile al seguente:
+Se utilizzi l&#39;[**oggetto XDM**](/help/implement/aep-edge/xdm-var-mapping.md), la sintassi funziona in modo simile all&#39;implementazione di altri [eVar](evar.md) e [eventi](events/events-overview.md). Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), la sintassi segue AppMeasurement.
+
+L’XDM che rispecchia l’esempio di AppMeasurement precedente è simile al seguente.
 
 Imposta l’eVar sulla stessa chiamata di evento oppure su quella precedente:
 
@@ -168,7 +199,7 @@ Imposta l’evento di binding e i valori per la stringa di prodotti:
 ]
 ```
 
-Se si utilizza l&#39;[**oggetto dati**](/help/implement/aep-edge/data-var-mapping.md), gli oggetti dati che rispecchiano l&#39;esempio precedente avranno un aspetto simile al seguente:
+Gli oggetti dati che rispecchiano l’esempio di AppMeasurement precedente hanno l’aspetto seguente.
 
 Imposta l’eVar sulla stessa chiamata di evento oppure su quella precedente:
 
@@ -194,3 +225,4 @@ Imposta l’evento di binding e i valori per la stringa di prodotti:
   }
 }
 ```
+
