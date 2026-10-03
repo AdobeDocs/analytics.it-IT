@@ -51,7 +51,7 @@ Oltre alla dimensione precedente, Adobe crea automaticamente le seguenti dimensi
 | [[!UICONTROL Originator]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/originator) | [[!UICONTROL Content]](sm-core.md) |
 | [[!UICONTROL Chapter length]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/chapter-length) | [!UICONTROL Chapter] |
 | [[!UICONTROL Chapter name]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/chapter-name) | [!UICONTROL Chapter] |
-| [[!UICONTROL Chapter offset]](https://experienceleague.adobe.com/en/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL Chapter] |
+| [[!UICONTROL Chapter offset]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/chapter-offset) | [!UICONTROL Chapter] |
 | [[!UICONTROL Chapter position]](https://experienceleague.adobe.com/it/docs/media-analytics/using/reporting/dimensions/chapter-position) | [!UICONTROL Chapter] |
 
 Per le metriche corrispondenti, vedere il capitolo [Metriche dei servizi multimediali in streaming](../metrics/sm-chapters.md).
