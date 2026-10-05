@@ -2,6 +2,7 @@
 title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
+hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -39,10 +40,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e799ccd83844b80268377a1b7094baee6a1cbc0e
+source-git-commit: 2a63351b022c63d7c2cd5d89b9ca4598c63952d0
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 44%
+source-wordcount: '957'
+ht-degree: 54%
 ---
 # Note sulla versione corrente di Adobe Analytics (settembre 2026)
 
@@ -54,11 +55,9 @@ Queste note sulla versione coprono il periodo di rilascio di settembre 2026. Le 
 
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ---- |
-| **Limitare i segmenti all&#39;intervallo di date del rapporto**<br/> I dati in un rapporto di Workspace possono estendersi oltre l&#39;intervallo di date del rapporto quando un segmento include componenti per l&#39;intervallo di date.<p>È ora disponibile una nuova opzione che consente di limitare i risultati all’intervallo di date del rapporto indipendentemente da qualsiasi componente data incluso nel segmento.</p><p>Questa opzione è disponibile quando crei o modifichi un segmento il cui contenitore di livello superiore è Visitatore.</p><p>Per ulteriori informazioni, vedere [Generare segmenti](/help/components/segmentation/segmentation-workflow/seg-build.md#components).</p> | 26 agosto 2026 | 9 settembre 2026 |
-| **Aggiornamenti del rilevamento bot**<br/> Quando si utilizza la raccolta dati di Edge con il Web SDK, sono disponibili i seguenti aggiornamenti del rilevamento bot:<ul><li>Ora puoi creare regole di rilevamento bot per identificare le eccezioni nel traffico che altrimenti verrebbero trattate come generate da bot. Le regole esistenti e future continueranno a utilizzare l’impostazione predefinita contrassegnare il traffico corrispondente come generato da bot.</li><li>Le regole bot personalizzate ora vengono eseguite prima delle regole di rilevamento dei bot IAB. Questa modifica non influisce sui punteggi dei bot, ma i nomi delle regole bot associati a un evento possono cambiare.</li></ul><p>Nota: questo aggiornamento si applica solo alle implementazioni di raccolta dati di Edge che utilizzano il Web SDK. Non si applica alle librerie precedenti come AppMeasurement.</p><p>Per ulteriori informazioni, vedere [Configurare il rilevamento di bot per gli stream di dati](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/bot-detection).</p> | | Inizio settembre 2026 |
+| **Genera automaticamente le descrizioni dei componenti** <br/>Ora puoi generare automaticamente le descrizioni per dimensioni, metriche, metriche calcolate, segmenti e intervalli di date. Questo consente agli utenti di Workspace di capire quali componenti utilizzare, soprattutto nelle organizzazioni con librerie di componenti di grandi dimensioni. <p>È possibile generare una descrizione per un singolo componente o per più componenti contemporaneamente.</p> <p>Il link alla documentazione seguirà a breve.<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 28 ottobre 2026 |
+| **Integrazione di Adobe Brand Visibility**<br/> Connetti Adobe Brand Visibility con i dati Adobe Analytics della tua organizzazione in modo da poter misurare in che modo l&#39;individuazione basata sull&#39;intelligenza artificiale si traduce in un coinvolgimento reale del sito Web e in risultati di business.<p>Il collegamento alla documentazione seguirà a breve.</p> | | Ottobre 2026</p> |
 | **CX Enterprise Coworker: Analizza i dati di Adobe Analytics in Chat con Coworker** <br/>Adobe CX Enterprise Coworker Chat ora può eseguire un&#39;analisi avanzata dei dati che in precedenza era possibile solo in Analysis Workspace. Chat con collaboratori accede ai dati dalle suite di rapporti di Adobe Analytics, consentendoti di esplorarli e ottenere risposte ai prompt in linguaggio naturale.<p>Il collegamento alla documentazione seguirà a breve.</p> | 2 ottobre 2026 | Da definire<p>(Originariamente pianificato per il 25 settembre 2026)</p> |
-| **Aggiornamenti API per i set di classificazione**<br/> La documentazione API per i set di classificazione ora include informazioni aggiornate sull&#39;endpoint e sui parametri per la configurazione delle richieste API per i set di classificazione.<p>Per ulteriori informazioni, consulta la [Guida dell&#39;endpoint Classificazioni](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/).</p> | 5 settembre 2026 | 30 settembre 2026 |
-| **Indicazioni sulla codifica di itemId data nelle guide al report API 2.0**<br/> Le guide al report con tendenze data API di Adobe Analytics 2.0 ora includono nuove sezioni che spiegano come vengono codificati i parametri e i valori data `itemId`. Questo consente di configurare e migrare ai servizi API 2.0 dalle API 1.4, ora obsolete.<p>Per ulteriori informazioni, vedere la [Guida ai report KPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/kpi) e la [Guida ai report avanzati](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/reports/advanced).</p> | 5 settembre 2026 | 30 settembre 2026 |
 
 ### Correzioni in Adobe Analytics
 
@@ -97,6 +96,6 @@ Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, consulta le [note
 >
 >* [Note sulle versioni precedenti per il 2026](/help/release-notes/2026.md)
 >* [Note sulla versione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it)
->* [Note sulla versione dei servizi multimediali in streaming &#x200B;](https://experienceleague.adobe.com/it/docs/media-analytics/using/release-notes/release-notes)
->* Ultimi aggiornamenti sulle versioni dei [prodotti Adobe CX Enterprise](https://business.adobe.com/it/products/adobe-experience-cloud-products.html)
+>* [Note sulla versione dei servizi multimediali in streaming ](https://experienceleague.adobe.com/it/docs/media-analytics/using/release-notes/release-notes)
+>* Ultimi aggiornamenti sulle versioni dei [prodotti Adobe CX Enterprise](https://business.adobe.com/products/adobe-experience-cloud-products.html)
 
