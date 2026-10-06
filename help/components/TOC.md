@@ -5,13 +5,11 @@ user-guide-title: Guida ai componenti di Analytics
 breadcrumb-title: Guida ai componenti
 user-guide-description: Gestisci i dati utilizzando componenti quali Segmenti, Metriche calcolate, Suite di rapporti virtuali, Canali di marketing e Classificazioni. Scopri le funzioni di Cross-Device Analytics.
 nudge: red
-source-git-commit: 4cdd860f83b81128d289c68201500d14f27bda8b
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '780'
 ht-degree: 93%
-
 ---
-
 # [!DNL Adobe Analytics] Guida ai componenti {#components}
 
 + [Guida ai componenti di Analytics](home.md)
@@ -133,6 +131,7 @@ ht-degree: 93%
   + [Tempo medio sul sito](metrics/average-time-on-site.md)
   + [Occorrenze bot](metrics/bot-occurrences.md)
   + [Visualizzazioni pagina bot](metrics/bot-page-views.md)
+  + [Occorrenze prodotto bot](metrics/bot-product-occurrences.md)
   + [Percentuale non recapitate](metrics/bounce-rate.md)
   + [Rimbalzi](metrics/bounces.md)
   + [Aggiunte al carrello](metrics/cart-additions.md)

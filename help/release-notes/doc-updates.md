@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3a4fa8a1fff59252b8821037aee1b78cb1796ae8
+source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
 workflow-type: tm+mt
-source-wordcount: '7481'
+source-wordcount: '7521'
 ht-degree: 82%
 ---
 # Aggiornamenti alla documentazione tecnica per Adobe Analytics
@@ -75,6 +75,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Ottobre 2026** | |
+| Metrica delle occorrenze dei prodotti bot | È stata aggiunta la metrica [Occorrenze prodotto bot](/help/components/metrics/bot-product-occurrences.md), che mostra il numero di hit secondari della stringa di prodotto che corrispondono alle regole bot. <p>Sono state inoltre aggiornate la dimensione [Nome bot](/help/components/dimensions/bot-name.md) e le [Occorrenze bot](/help/components/metrics/bot-occurrences.md) per fare riferimento alla nuova metrica.</p> |
 | **Settembre 2026** | |
 | Confronto tra aree di lavoro percorsi su frecce e abbandono | È stata aggiornata l&#39;impostazione &#39;[!UICONTROL Compare to]&#39; in [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) per mostrare che la variazione percentuale tra gli intervalli di date ora viene visualizzata su ogni nodo, freccia e abbandono nel percorso. |
 | eVar di merchandising | Documentazione rinnovata e consolidata sulle variabili di merchandising per i componenti rilevanti:<ul><li>Dimensione [eVar (Merchandising)](/help/components/dimensions/evar-merchandising.md) nella guida dei componenti</li><li>Variabile [eVar (Merchandising)](/help/implement/vars/page-vars/evar-merchandising.md) nella guida all&#39;implementazione</li><li>[Variabili di conversione](/help/admin/tools/manage-rs/edit-settings/conversion-var-admin/conversion-var-admin.md) nella guida per l&#39;amministratore</li></ul> |
