@@ -2,7 +2,6 @@
 title: Note sulla versione corrente di Adobe Analytics
 description: Consulta le note sulla versione corrente di Adobe Analytics
 feature: Release Notes
-hold: true
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 TQID: 'https://experienceleague.adobe.com/yw30Yij2NBaeuWFqxD4-VH1Hysf8dxOpxHUwsFCYEw8'
 product_v2:
@@ -40,45 +39,46 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2a63351b022c63d7c2cd5d89b9ca4598c63952d0
+source-git-commit: b72328485bde3759519f77c1c3e9509ade6ce2d4
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 54%
+source-wordcount: '958'
+ht-degree: 53%
 ---
-# Note sulla versione corrente di Adobe Analytics (settembre 2026)
+# Note sulla versione corrente di Adobe Analytics (ottobre 2026)
 
-**Ultimo aggiornamento**: 2 ottobre 2026
+**Ultimo aggiornamento**: 7 ottobre 2026
 
-Queste note sulla versione coprono il periodo di rilascio di settembre 2026. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
+Queste note sulla versione coprono il periodo di rilascio di ottobre 2026. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
 ## Nuove funzioni o miglioramenti {#features}
 
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ---- |
-| **Genera automaticamente le descrizioni dei componenti** <br/>Ora puoi generare automaticamente le descrizioni per dimensioni, metriche, metriche calcolate, segmenti e intervalli di date. Questo consente agli utenti di Workspace di capire quali componenti utilizzare, soprattutto nelle organizzazioni con librerie di componenti di grandi dimensioni. <p>È possibile generare una descrizione per un singolo componente o per più componenti contemporaneamente.</p> <p>Il link alla documentazione seguirà a breve.<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 28 ottobre 2026 |
-| **Integrazione di Adobe Brand Visibility**<br/> Connetti Adobe Brand Visibility con i dati Adobe Analytics della tua organizzazione in modo da poter misurare in che modo l&#39;individuazione basata sull&#39;intelligenza artificiale si traduce in un coinvolgimento reale del sito Web e in risultati di business.<p>Il collegamento alla documentazione seguirà a breve.</p> | | Ottobre 2026</p> |
+| **Autorizzazione di sola lettura per il server Adobe Analytics MCP**<br/> Gli amministratori ora possono concedere agli utenti l&#39;accesso in sola lettura al server Adobe Analytics MCP. Il nuovo elemento di autorizzazione [!UICONTROL MCP Read Only] consente agli utenti di accedere a tutti gli strumenti di sola lettura, senza consentire loro di creare progetti, segmenti o metriche calcolate.<p>L&#39;elemento di autorizzazione [!UICONTROL MCP Access] esistente è stato rinominato in [!UICONTROL MCP Full Access]. Gli utenti con questa autorizzazione possono accedere a tutti gli strumenti, compresi quelli che creano, modificano o eliminano componenti.</p><p>Per ulteriori informazioni, vedere [Server Adobe Analytics MCP](https://developer.adobe.com/analytics-mcp/docs/aa/).</p> | | 6 ottobre 2026 |
+| **Genera automaticamente le descrizioni dei componenti** <br/>Ora puoi generare automaticamente le descrizioni per dimensioni, metriche, metriche calcolate, segmenti e intervalli di date. Questo aiuta gli utenti di Workspace a capire quali componenti utilizzare, soprattutto nelle organizzazioni con librerie di componenti di grandi dimensioni. <p>È possibile generare una descrizione per un singolo componente o per più componenti contemporaneamente.</p> <p>Il link alla documentazione seguirà a breve.<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 28 ottobre 2026 |
+| **Integrazione di Adobe Brand Visibility**<br/> Connetti Adobe Brand Visibility con i dati Adobe Analytics della tua organizzazione in modo da poter misurare in che modo l&#39;individuazione basata sull&#39;intelligenza artificiale si traduce in un coinvolgimento reale del sito Web e in risultati di business.<p>Il collegamento alla documentazione seguirà a breve.</p> | | Ottobre 2026 |
 | **CX Enterprise Coworker: Analizza i dati di Adobe Analytics in Chat con Coworker** <br/>Adobe CX Enterprise Coworker Chat ora può eseguire un&#39;analisi avanzata dei dati che in precedenza era possibile solo in Analysis Workspace. Chat con collaboratori accede ai dati dalle suite di rapporti di Adobe Analytics, consentendoti di esplorarli e ottenere risposte ai prompt in linguaggio naturale.<p>Il collegamento alla documentazione seguirà a breve.</p> | 2 ottobre 2026 | Da definire<p>(Originariamente pianificato per il 25 settembre 2026)</p> |
 
 ### Correzioni in Adobe Analytics
 
-**Activity Map**: AN-488579, AN-487247, AN-491828
-**Analysis Workspace**: AN-487374, AN-487119, AN-468907, AN-468810, AN-468363, AN-468096, AN-467414, AN-466986, AN-466982, AN-465073, AN-463571, AN-462373, AN-492801 488821, AN-488452, AN-486517, AN-478930, AN-468325
-**Classificazioni**: AN-490825, AN-490802, AN-490549, AN-490472, AN-487782, AN-487286, AN-486531, AN-478859, AN-469929, AN-469033, AN-468944, AN-468827, AN-468592, AN-468326, AN-467115, AN-466995, AN-465636, AN-465616, AN-465380, AN-464911 464338 463677 462729 462577 461040 459316 490072 487100, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-, AN-
-**Feed dati e Data Warehouse**: AN-487624, AN-487287, AN-479923, AN-479166, AN-479109, AN-468483, AN-493406, AN-492167, AN-333098
-**Migrazione**:
-**Esportazioni**: AN-467131, AN-469034, AN-447252
-**Report Builder**: AN-487486, AN-478944, AN-470036, AN-468589, AN-468436, AN-456747, AN-456700, AN-442695, AN-492330, AN-490564, AN-468293, AN-460921
-**Generazione rapporti**: AN-468621, AN-465383, AN-463924
-**Suite di rapporti**: AN-468484, AN-468460, AN-465385, AN-463216
-**Rapporti pianificati**: AN-479157
-**Segmentazione**: AN-486561, AN-278260
-**Altro**: AN-488549, AN-467426, AN-465265, AN-464645, AN-459714, AN-459323, AN-454514, AN-487288, AN-470023, AN-469601, AN-320799, AN-316708, AN-309317, AN-266652
+**Activity Map**: AN-494609, AN-493182
+**Analysis Workspace**: AN-495340, AN-494789, AN-493307, AN-468900
+**Classificazioni**: AN-498043, AN-496619, AN-496468, AN-496217, AN-496133, AN-495567, AN-494651, AN-494345, AN-494312, AN-494261, AN-493645, AN-493507, AN-493336, AN-492869, AN-492812, AN-492751, AN-492750, AN-492741, AN-491032, AN-490802 490796 467849, AN-, AN-, AN-
+**Feed dati e Data Warehouse**: AN-494937, AN-493065, AN-489796, AN-479109
+**Migrazione**: AN-489850, AN-468014
+**Esportazioni**: AN-494337, AN-486563
+**Report Builder**: AN-496602, AN-494224, AN-493737, AN-493508, AN-493505, AN-492806, AN-468981, AN-454376
+**Generazione rapporti**: AN-493637, AN-461260
+**Suite di rapporti**: AN-496773, AN-495227, AN-494981, AN-494372, AN-494370, AN-493629
+**Rapporti pianificati**: AN-491103
+**Segmentazione**:
+**Altro**: AN-496398, AN-494453, AN-492494
 
 ### Avvisi sulla fine del ciclo di vita (EOL) {#eol}
 
 | Fine del ciclo di vita del prodotto o della funzione | Data di aggiunta o aggiornamento | Descrizione |
 | --- | --- | --- |
-| **Report Builder legacy** | 18 giugno 2025 | Il componente aggiuntivo precedente di Report Builder sarà ritirato a giugno 2026. Tutti gli utenti devono iniziare a eseguire l’aggiornamento delle cartelle di lavoro precedenti al [nuovo Report Builder](/help/analyze/report-builder/rb-overview.md). Il nuovo Report Builder è disponibile sia per i clienti di Adobe Analytics che di Customer Journey Analytics. Offre [quasi le stesse funzioni](/help/analyze/report-builder/convert-workbooks.md#unsupported), oltre a numerose nuove funzioni utili e miglioramenti dell’interfaccia utente. Per agevolare il processo di aggiornamento, il nuovo Report Builder include una facile funzione di conversione della cartella di lavoro. Il nuovo Report Builder è disponibile solo come componente aggiuntivo tramite Microsoft Store. Molte organizzazioni richiedono un processo di approvazione interno prima di rendere il componente aggiuntivo disponibile per gli utenti. Attendi il tempo necessario per questo processo e inizia a cooperare subito con la tua organizzazione per assicurarti di disporre del tempo sufficiente per eseguire l’aggiornamento delle cartelle di lavoro prima della data di fine del ciclo di vita. |
+| **Report Builder legacy** | 18 giugno 2025 | Il componente aggiuntivo legacy di Report Builder è stato ritirato a giugno 2026. Tutti gli utenti devono iniziare a eseguire l’aggiornamento delle cartelle di lavoro precedenti al [nuovo Report Builder](/help/analyze/report-builder/rb-overview.md). Il nuovo Report Builder è disponibile sia per i clienti di Adobe Analytics che di Customer Journey Analytics. Offre [quasi le stesse funzioni](/help/analyze/report-builder/convert-workbooks.md#unsupported), oltre a numerose nuove funzioni utili e miglioramenti dell’interfaccia utente. Per agevolare il processo di aggiornamento, il nuovo Report Builder include una facile funzione di conversione della cartella di lavoro. Il nuovo Report Builder è disponibile solo come componente aggiuntivo tramite Microsoft Store. Molte organizzazioni richiedono un processo di approvazione interno prima di rendere il componente aggiuntivo disponibile per gli utenti. Attendi il tempo necessario per questo processo e inizia a cooperare subito con la tua organizzazione per assicurarti di disporre del tempo sufficiente per eseguire l’aggiornamento delle cartelle di lavoro prima della data di fine del ciclo di vita. |
 | **API di Adobe Analytics (versione 1.4)** | 17 luglio 2024 | Il **31 agosto 2026**, i seguenti servizi API legacy di Analytics hanno raggiunto la fine del ciclo di vita e sono stati chiusi e le integrazioni create utilizzando questi servizi non funzioneranno più:<ul><li>API Adobe Analytics (versione 1.4)</li><li>Autenticazione WSSE di Adobe Analytics</li></ul><p>Le integrazioni che utilizzano l’API di Adobe Analytics (versione 1.4) devono migrare all’API di [Adobe Analytics 2.0](https://developer.adobe.com/analytics-apis/docs/2.0/), mentre le integrazioni WSSE devono migrare a un protocollo di autenticazione basato su OAuth in [Adobe Developer Console](https://developer.adobe.com/console).</p><p>Per risposte alle domande comuni e ulteriori indicazioni, consulta le [Domande frequenti sulla fine del ciclo di vita dell’API Adobe Analytics 1.4](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol/).</p> |
 
 ## AppMeasurement
@@ -89,7 +89,7 @@ Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, consulta le [note
 
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | -----------|-----------|-----------|
-| **Servizi multimediali in streaming: supporto dei dati di pianificazione** <br/>Ora puoi caricare dati di pianificazione di precedenti contenuti live multimediali in streaming per monitorare l’audience con maggiore facilità e precisione.<p>Di seguito sono riportati alcuni esempi di contenuti live supportati con il caricamento dei dati di pianificazione:</p><ul><li>Piattaforme FAST (Free Ad Supported TV)</li><li>Flussi locali</li><li>Sport live</li></ul><p>Il caricamento dei dati di pianificazione ti consente di tenere traccia dei dati sul pubblico per i singoli programmi eseguiti durante il periodo di tempo indicato nel file di caricamento. Puoi anche raccogliere i dati sul pubblico per argomenti o segmenti di programma specifici.</p><p>Queste funzionalità sono disponibili indipendentemente da come hai implementato Streaming Media Collection.</p><p>In precedenza, era difficile collegare con precisione una determinata sessione a programmi specifici durante l’analisi di contenuti live, a singoli argomenti o a segmenti di programma.</p><p>Per ulteriori informazioni, consulta [Caricare dati di pianificazione per tenere traccia del contenuto live](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-use-cases/track-schedule-data). | 29 ottobre 2025 | Da definire<p>(Originariamente previsto per il 29 ottobre 2025)</p> |
+| **Servizi multimediali in streaming: supporto dei dati di pianificazione** <br/>Ora puoi caricare dati di pianificazione di precedenti contenuti live multimediali in streaming per monitorare l’audience con maggiore facilità e precisione.<p>Di seguito sono riportati alcuni esempi di contenuti live supportati con il caricamento dei dati di pianificazione:</p><ul><li>Piattaforme FAST (Free Ad Supported TV)</li><li>Flussi locali</li><li>Sport live</li></ul><p>Il caricamento dei dati di pianificazione ti consente di tenere traccia dei dati sul pubblico per i singoli programmi eseguiti durante il periodo di tempo indicato nel file di caricamento. Puoi anche raccogliere i dati sul pubblico per argomenti o segmenti di programma specifici.</p><p>Queste funzionalità sono disponibili indipendentemente da come hai implementato Streaming Media Collection.</p><p>In precedenza, era difficile collegare con precisione una determinata sessione a programmi specifici durante l’analisi di contenuti live, a singoli argomenti o a segmenti di programma.</p><p>Per ulteriori informazioni, consulta [Caricare dati di pianificazione per tenere traccia del contenuto live](https://experienceleague.adobe.com/it/docs/media-analytics/using/media-use-cases/track-schedule-data).</p> | 29 ottobre 2025 | Da definire<p>(Originariamente previsto per il 29 ottobre 2025)</p> |
 
 
 >[!MORELIKETHIS]
