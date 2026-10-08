@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 68%
+source-wordcount: '599'
+ht-degree: 65%
 ---
 # Domande frequenti
 
@@ -104,7 +104,7 @@ Se crei correttamente un report Workspace, ma non sono presenti dati, puoi contr
 * Controlla la suite di rapporti e assicurati che includa dati.
 * Se hai applicato un segmento nel report, i criteri del segmento potrebbero non corrispondere ad alcun dato. Prova a rimuovere il segmento o a regolare la definizione del segmento.
 * Controlla l’intervallo di date in alto a destra e accertati che sia impostato sul valore desiderato.
-* Vai al tuo sito web e utilizza il [Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=it) per convalidare i dati raccolti.
+* Accedi al tuo sito Web e utilizza [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/it/docs/experience-platform/debugger/home) per convalidare i dati raccolti.
 
 
 +++

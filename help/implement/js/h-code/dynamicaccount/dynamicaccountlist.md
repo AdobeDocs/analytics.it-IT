@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '267'
 ht-degree: 1%
 ---
 # s.dynamicAccountList
@@ -81,4 +81,4 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 * Se nessuna regola corrisponde, viene utilizzata la suite di rapporti predefinita in `s_account`.
 * Se la pagina viene salvata sul disco rigido di un utente o tradotta tramite un motore di traduzione basato su Web (ad esempio le pagine tradotte di Google), la selezione dinamica dell’account probabilmente non funzionerà.
 * Le regole `dynamicAccountSelection` si applicano solo alla sezione dell&#39;URL specificato in `dynamicAccountMatch`.
-* Utilizza Adobe CX Enterprise Debugger per testare la suite di rapporti di destinazione.
+* Utilizza Adobe Experience Platform Debugger per testare la suite di rapporti di destinazione.
