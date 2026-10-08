@@ -84,7 +84,7 @@ I criteri ITP sono in continua evoluzione. Per criteri più recenti, consulta la
 
 Tutti i cookie di prime parti impostati da Adobe e le librerie JavaScript correlate sono interessati dai criteri ITP:
 
-* [ cookie &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it) impostati dalla libreria del servizio ID visitatore di Adobe (ECID)
+* [&#x200B; cookie &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it) impostati dalla libreria del servizio ID visitatore di Adobe (ECID)
 * La versione legacy del [cookie “s_vi”](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) di Analytics quando è configurato con la raccolta dati di prime parti mediante un CNAME
 * La versione legacy del [cookie “s_fid”](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics) di Analytics, ovvero il cookie di fallback utilizzato quando non è possibile impostare “s_vi”
 
