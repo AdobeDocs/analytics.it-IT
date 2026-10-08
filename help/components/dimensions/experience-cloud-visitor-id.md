@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '161'
 ht-degree: 13%
 ---
 # ID visitatore di Experience Cloud
@@ -44,8 +44,8 @@ Questa dimensione richiede un’implementazione che utilizza il servizio ID visi
 
 | Proprietà | Valore |
 | --- | --- |
-| **Variabile AppMeasurement** | Nessuno (impostato dal servizio ID visitatore di Experience Cloud) |
-| **Campo Web SDK / XDM** | Nessuno (impostato dal servizio Experience Cloud Identity) |
+| **Variabile AppMeasurement** | Nessuno (impostato dal servizio ID visitatore di Adobe) |
+| **Campo Web SDK / XDM** | Nessuno (impostato dal servizio Experience Platform Identity) |
 | **Parametro query** | [`mid`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Tag XML** | [`<marketingCloudVisitorId>`](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/variable-reference#variables) |
 | **Limite di byte** | N/D |
@@ -53,4 +53,4 @@ Questa dimensione richiede un’implementazione che utilizza il servizio ID visi
 
 ## Elementi dimensionali
 
-Gli elementi Dimension includono l&#39;Experience Cloud ID di ciascun visitatore.
+Gli elementi Dimension includono l’ECID di ciascun visitatore.

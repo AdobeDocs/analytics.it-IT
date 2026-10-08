@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 11%
+source-wordcount: '393'
+ht-degree: 12%
 ---
 # Panoramica sull’implementazione di H Code JavaScript
 
@@ -51,7 +51,7 @@ Devi avere accesso ai server di hosting per implementare correttamente una pagin
    >
    >Il codice H richiede che lo script `s_code.js` sia chiamato all&#39;interno del tag `<body>`. Questo metodo è diverso da altri metodi di implementazione, la maggior parte dei quali richiede che i riferimenti agli script siano nel tag `<head>`.
 1. **Definisci le variabili specifiche della pagina in ogni pagina**: ogni pagina deve avere singole variabili definite, ad esempio il nome della pagina o le eVar. Le singole variabili vengono in genere definite con un tag `<script>` inline su ogni pagina.
-1. **Utilizza il debugger per verificare la raccolta dati**: scarica e installa [CX Enterprise debugger](../../validate/debugger.md) per assicurarti che i dati vengano inviati ad Adobe e che le variabili di pagina siano definite correttamente.
+1. **Utilizza il debugger per verificare la raccolta dati**: scarica e installa [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/it/docs/experience-platform/debugger/home) per assicurarti che i dati siano inviati ad Adobe e che le variabili di pagina siano definite correttamente.
 
 ## Memorizzazione in cache
 

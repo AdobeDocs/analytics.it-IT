@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 6%
+ht-degree: 7%
 ---
 # Implementazione dei collegamenti di opt-out
 
@@ -71,9 +71,9 @@ La pagina di rinuncia per l&#39;organizzazione dipende dal valore della variabil
   1. Sul server web, apri il file AppMeasurement.js utilizzato sul sito in un editor di codice o di testo.
   1. Nota il valore della variabile `trackingServer`.
 
-* Utilizzo di [Adobe CX Enterprise Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html?lang=it):
+* Utilizzo di [Adobe Experience Platform Debugger](https://experienceleague.adobe.com/it/docs/experience-platform/debugger/home):
   1. Passa al sito utilizzando il browser Chrome.
-  1. Apri CX Enterprise Debugger, quindi passa a [!UICONTROL Network tab].
+  1. Apri Adobe Experience Platform Debugger, quindi vai a [!UICONTROL Network tab].
   1. Nota il valore [!UICONTROL Request URL - Hostname].
 
 Dopo aver trovato il dominio `trackingServer` dell&#39;implementazione, aggiungere il percorso `/optout.html` alla fine. Ad esempio:
