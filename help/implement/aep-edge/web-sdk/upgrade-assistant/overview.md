@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '521'
 ht-degree: 1%
 ---
 # Assistente all’aggiornamento di Web SDK
@@ -54,7 +54,7 @@ L&#39;Assistente all&#39;aggiornamento ti guida attraverso i passaggi seguenti e
 
 1. **[Selezione di componenti](component-selection.md)**: scegliere le regole, gli elementi dati e le estensioni da includere nella migrazione.
 1. **[Risultati dell&#39;audit](audit-findings.md)**: rivedi i consigli di pulizia facoltativi per i componenti selezionati.
-1. **[Verifica suite di rapporti](rs-verification.md)**: rivedi le variabili di Analytics nelle suite di rapporti e scegli quelle da portare avanti.
+1. **[Preparazione mapper](mapper-prep.md)**: rivedi le variabili di Analytics nelle suite di rapporti e scegli quelle da portare avanti.
 1. **[Mappatura XDM](xdm-mapping.md)**: mappa le variabili Analytics sui campi in uno schema XDM.
 1. **[Implementazione di Web SDK](web-sdk-implementation.md)**: controlla le azioni di Web SDK aggiunte dall&#39;assistente all&#39;aggiornamento alle regole.
 1. **[Revisione finale](final-review.md)**: seleziona una sandbox di Experience Platform, controlla cosa crea la migrazione e finalizza la migrazione.

@@ -1,5 +1,5 @@
 ---
-title: Verifica della suite di rapporti nell’Assistente all’aggiornamento di Web SDK
+title: Preparazione del mapper nell’assistente all’aggiornamento di Web SDK
 description: Esamina le variabili di Analytics nelle suite di rapporti e scegli quali portare avanti nella mappatura XDM.
 feature: Implementation Basics
 role: Admin, Developer, Leader
@@ -35,18 +35,18 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '493'
 ht-degree: 0%
 ---
-# Verifica suite di rapporti
+# Preparazione mapper
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification"
->title="Verifica suite di rapporti"
+>id="aa_upgradeassistant_mapperprep"
+>title="Preparazione mapper"
 >abstract="Esamina le variabili di Analytics che la proprietà tags invia a ogni suite di rapporti. Le variabili selezionate vengono riportate nella mappatura XDM. Utilizza le schede per verificare la presenza di dati recenti, trovare variabili duplicate e confrontare le impostazioni tra suite di rapporti."
 
 <!-- markdownlint-enable MD034 -->
@@ -80,7 +80,7 @@ Se la proprietà tags invia dati a più di una suite di rapporti, la scheda **[!
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
->id="aa_upgradeassistant_rsverification_refresh"
+>id="aa_upgradeassistant_mapperprep_refresh"
 >title="Aggiornare i dati della suite di rapporti"
 >abstract="Controlla nuovamente le suite di rapporti collegate a questa proprietà di tag, incluse le impostazioni delle variabili e i dati recenti, quindi esegue nuovamente l’analisi della variabile. Se l’assistente per l’aggiornamento non ha ancora trovato suite di rapporti, cerca prima queste nella proprietà tags. Le selezioni e le decisioni vengono mantenute."
 

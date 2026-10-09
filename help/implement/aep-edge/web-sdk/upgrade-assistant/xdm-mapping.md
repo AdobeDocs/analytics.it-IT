@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '411'
 ht-degree: 3%
 ---
 # Mappatura XDM
@@ -51,7 +51,7 @@ ht-degree: 3%
 
 <!-- markdownlint-enable MD034 -->
 
-Il Web SDK invia i dati utilizzando i campi [Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home), pertanto ogni variabile di Analytics portata avanti dalla [verifica della suite di rapporti](rs-verification.md) richiede un campo corrispondente in uno schema XDM. In questo passaggio, scegli uno schema e mappi le variabili ai relativi campi.
+Il Web SDK invia i dati utilizzando i campi [Experience Data Model (XDM)](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/home), pertanto ogni variabile di Analytics riportata da [Mapper preparation](mapper-prep.md) necessita di un campo corrispondente in uno schema XDM. In questo passaggio, scegli uno schema e mappi le variabili ai relativi campi.
 
 ## Scegliere uno schema {#schema}
 
