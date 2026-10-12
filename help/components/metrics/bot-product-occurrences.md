@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '135'
 ht-degree: 5%
 ---
 # Occorrenze prodotto bot
@@ -33,7 +33,6 @@ La &#39;Occorrenze prodotto bot&#39; [metrica](overview.md) mostra il numero di 
 Poiché il reporting dei bot è separato dal resto dei dati della suite di rapporti, questa metrica funziona solo con le dimensioni seguenti:
 
 * [Nome bot](../dimensions/bot-name.md)
-* [Prodotto](../dimensions/product.md)
 * Dimensioni basate sul tempo (ad esempio, [Giorno](../dimensions/day.md), [Settimana](../dimensions/week.md) o [Mese](../dimensions/month.md))
 
 L’utilizzo di qualsiasi altra dimensione con questa metrica non restituisce dati.

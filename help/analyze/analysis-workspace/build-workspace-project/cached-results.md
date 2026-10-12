@@ -10,13 +10,15 @@ product_v2:
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
     internal-label: Analysis Workspace
+  - id: a421fb65-2c82-457a-921c-28c46b697a39
+    internal-label: Analytics basics
 subfeature_v2:
   - id: c457b289-f974-4a67-a5b6-dec3ffa77675
     internal-label: Workspace basics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3d882467f98ee1e9a4e7b023ab7593031f530513
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '1296'
 ht-degree: 6%
@@ -150,15 +152,15 @@ Nel progetto Workspace in cui desideri abilitare i risultati memorizzati nella c
 
 Quando vengono visualizzati i risultati memorizzati nella cache, nella parte superiore del progetto viene visualizzata una marca temporale. La marca temporale specifica se tutti i risultati sono memorizzati in cache o solo alcuni risultati:
 
-* **[!UICONTROL Showing results from]&#x200B;[_data e ora_]**: tutti i pannelli del progetto mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
+* **[!UICONTROL Showing results from][_data e ora_]**: tutti i pannelli del progetto mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
 
-* **[!UICONTROL Showing some results from]&#x200B;[_data e ora_]**: alcuni pannelli mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate, mentre altri sono stati aggiornati più di recente.
+* **[!UICONTROL Showing some results from][_data e ora_]**: alcuni pannelli mostrano i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate, mentre altri sono stati aggiornati più di recente.
 
 ![Timestamp sul progetto memorizzato nella cache](assets/project-cache-timestamp.png)
 
 I pannelli visualizzano anche una marca temporale che indica quando i risultati sono stati memorizzati in cache:
 
-* **[!UICONTROL Showing results from]&#x200B;[_data e ora_]**: il pannello mostra i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
+* **[!UICONTROL Showing results from][_data e ora_]**: il pannello mostra i risultati memorizzati nella cache dalla data e dall&#39;ora visualizzate.
 
   >[!NOTE]
   >

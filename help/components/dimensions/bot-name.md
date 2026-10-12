@@ -31,9 +31,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 7a99ecd99a9b1a639c8a2d48dc35d57fdfeb1a12
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '255'
 ht-degree: 10%
 ---
 # Nome bot
@@ -45,7 +45,6 @@ Gli hit che corrispondono a [!UICONTROL Bot rules] vengono filtrati automaticame
 Poiché il reporting dei bot è separato dal resto dei dati della suite di rapporti, questa dimensione supporta solo le dimensioni e le metriche seguenti:
 
 * [Pagina](page.md)
-* [Prodotto](product.md) (solo con [occorrenze prodotto bot](../metrics/bot-product-occurrences.md))
 * Dimensioni basate sul tempo (ad esempio, [Giorno](day.md), [Settimana](week.md) o [Mese](month.md))
 * [Occorrenze bot](../metrics/bot-occurrences.md)
 * [Visualizzazioni pagina bot](../metrics/bot-page-views.md)

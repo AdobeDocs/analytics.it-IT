@@ -14,6 +14,8 @@ feature_v2:
     internal-label: Reports
   - id: a421fb65-2c82-457a-921c-28c46b697a39
     internal-label: Analytics basics
+  - id: e9dbdbc5-3e52-40f0-a7bc-e18542967b7a
+    internal-label: Implementations
 subfeature_v2:
   - id: e992d880-33bc-4949-a648-aa7d410276cd
     internal-label: Validation
@@ -35,7 +37,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 3%
@@ -113,4 +115,4 @@ Quando una pagina si sposta, il browser può annullare le richieste ancora in co
 
 Una richiesta annullata non significa necessariamente che i dati siano andati persi. Il browser potrebbe aver inviato la richiesta completa e interrotto l’attesa solo della risposta. Gli strumenti per sviluppatori di browser in genere non possono mostrare la differenza, ma un proxy di debug HTTP può.
 
-Le richieste inviate con `navigator.sendBeacon()` non vengono annullate durante la navigazione. AppMeasurement utilizza `sendBeacon` per i collegamenti di uscita e ogni volta che [`useBeacon`](/help/implement/vars/config-vars/usebeacon.md) è abilitato. Il Web SDK lo utilizza per gli eventi inviati con [`documentUnloading`](https://experienceleague.adobe.com/it/docs/experience-platform/collection/js/commands/sendevent/documentunloading). Se le richieste di tracciamento dei collegamenti vengono spesso annullate, utilizza queste opzioni.
+Le richieste inviate con `navigator.sendBeacon()` non vengono annullate durante la navigazione. AppMeasurement utilizza `sendBeacon` per i collegamenti di uscita e ogni volta che [`useBeacon`](/help/implement/vars/config-vars/usebeacon.md) è abilitato. Il Web SDK lo utilizza per gli eventi inviati con [`documentUnloading`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendevent/documentunloading). Se le richieste di tracciamento dei collegamenti vengono spesso annullate, utilizza queste opzioni.
