@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 3%
+ht-degree: 22%
 ---
 # Mappatura XDM
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping"
 >title="Mappatura XDM"
->abstract="Mappa le variabili di Analytics selezionate sui campi di uno schema XDM. L’assistente per l’aggiornamento può creare un nuovo schema con mappature suggerite dall’intelligenza artificiale, oppure è possibile mappare le variabili a uno schema già esistente. Rivedi tutte le mappature prima di continuare."
+>abstract="Mappa le variabili di Analytics selezionate sui campi di uno schema XDM. L’assistente per l’aggiornamento può creare un nuovo schema con mappature suggerite dall’IA, oppure è possibile mappare le variabili a uno schema già esistente. Rivedi tutte le mappature prima di continuare."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -64,12 +64,12 @@ Puoi creare la mappatura in uno dei due modi seguenti:
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_xdmmapping_fieldgroups"
->title="Preferenze per il gruppo di campi"
->abstract="Scegli il tipo di gruppo di campi preferito dall’assistente per l’aggiornamento quando crea lo schema. I gruppi di campi standard sono definiti da Adobe. I gruppi di campi personalizzati sono definiti dall’organizzazione."
+>title="Preferenza per il gruppo di campi"
+>abstract="Scegli il tipo di gruppo di campi dall’assistente per l’aggiornamento deve privilegiare durante la creazione dello schema. I gruppi di campi standard sono definiti da Adobe. I gruppi di campi personalizzati sono definiti dall’organizzazione."
 
 <!-- markdownlint-enable MD034 -->
 
-Quando crei un nuovo schema, scegli anche se l’assistente per l’aggiornamento preferisce gruppi di campi standard o personalizzati. I gruppi di campi standard sono definiti da Adobe, mentre i gruppi di campi personalizzati sono definiti dalla tua organizzazione. Vedi [Gruppo di campi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#field-group) nella documentazione XDM.
+Quando crei un nuovo schema, scegli anche se l’assistente per l’aggiornamento preferisce gruppi di campi standard o personalizzati. I gruppi di campi standard sono definiti da Adobe, mentre i gruppi di campi personalizzati sono definiti dalla tua organizzazione. Vedi [Gruppo di campi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group) nella documentazione XDM.
 
 ## Rivedi la mappatura {#review}
 

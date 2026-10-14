@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 2%
+ht-degree: 17%
 ---
 # Risultati dell’audit
 
@@ -47,7 +47,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_auditfindings"
 >title="Risultati dell’audit"
->abstract="I risultati indicano le regole e gli elementi di dati che potresti voler pulire prima della migrazione, ad esempio elementi di dati che non fanno riferimento a nulla. Accetta un risultato per includere la modifica consigliata nella migrazione oppure rifiuta di lasciare il componente così com’è. Questo passaggio è facoltativo."
+>abstract="I risultati indicano le regole e gli elementi di dati che potresti voler pulire prima della migrazione, ad esempio elementi di dati che non fanno riferimento a nulla. Accetta un risultato per includere la modifica consigliata nella migrazione oppure rifiutalo per lasciare il componente così com’è. Questo passaggio è facoltativo."
 
 <!-- markdownlint-enable MD034 -->
 
