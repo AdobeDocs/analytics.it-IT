@@ -69,7 +69,7 @@ Puoi creare la mappatura in uno dei due modi seguenti:
 
 <!-- markdownlint-enable MD034 -->
 
-Quando crei un nuovo schema, scegli anche se l’assistente per l’aggiornamento preferisce gruppi di campi standard o personalizzati. I gruppi di campi standard sono definiti da Adobe, mentre i gruppi di campi personalizzati sono definiti dalla tua organizzazione. Vedi [Gruppo di campi](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#field-group) nella documentazione XDM.
+Quando crei un nuovo schema, scegli anche se l’assistente per l’aggiornamento preferisce gruppi di campi standard o personalizzati. I gruppi di campi standard sono definiti da Adobe, mentre i gruppi di campi personalizzati sono definiti dalla tua organizzazione. Vedi [Gruppo di campi](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/schema/composition#field-group) nella documentazione XDM.
 
 ## Rivedi la mappatura {#review}
 
