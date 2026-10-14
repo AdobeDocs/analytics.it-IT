@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: adb1abb0c0eab08dff8debe57bb52ec098df2a56
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 13%
@@ -336,10 +336,10 @@ Se si creano più regole che non condividono la stessa operazione **[!UICONTROL 
 
 ### Esempio
 
-Si desidera classificare con la classificazione **[!UICONTROL Type]** il modo in cui gli utenti cercano un atleta utilizzando la stringa di ricerca come dimensione chiave. Ad esempio, utilizzando questo set di regole:
+Si desidera classificare con la classificazione **[!UICONTROL Type]** il tipo di ricerca eseguita dagli utenti utilizzando la stringa di ricerca come dimensione chiave. Ad esempio, utilizzando questo set di regole:
 
 ![Priorità regole](assets/rule-priority.png)
 
-* Quando un utente cerca `Cowboys Fantasy Tony Romo`, `Romo` è classificato come **[!UICONTROL Type]**.
-* Quando un utente cerca `Cowboys Fantasy Tony Romeo`, `Fantasy` è classificato come **[!UICONTROL Type]**.
+* Quando un utente cerca `Cowboys with Tony Romo`, `Team` è classificato come **[!UICONTROL Type]**.
+* Quando un utente cerca `Cowboys vs. Broncos with Tony Romeo`, `Player` è classificato come **[!UICONTROL Type]**.
 * Quando un utente cerca `Cowboys vs. Broncos`, `Team` è classificato come **[!UICONTROL Type]**.
