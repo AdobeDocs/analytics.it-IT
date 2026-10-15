@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 0%
+ht-degree: 19%
 ---
 # Preparazione mapper
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep"
 >title="Preparazione mapper"
->abstract="Esamina le variabili di Analytics che la proprietà tags invia a ogni suite di rapporti. Le variabili selezionate vengono riportate nella mappatura XDM. Utilizza le schede per verificare la presenza di dati recenti, trovare variabili duplicate e confrontare le impostazioni tra suite di rapporti."
+>abstract="Rivedi le variabili di Analytics che la proprietà tag invia a ciascuna suite di rapporti. Le variabili selezionate qui vengono riportate nella mappatura XDM. Utilizza le schede per verificare la presenza di dati recenti, trovare variabili duplicate e confrontare le impostazioni nelle suite di rapporti."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -82,7 +82,7 @@ Se la proprietà tags invia dati a più di una suite di rapporti, la scheda **[!
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep_refresh"
 >title="Aggiornare i dati della suite di rapporti"
->abstract="Controlla nuovamente le suite di rapporti collegate a questa proprietà di tag, incluse le impostazioni delle variabili e i dati recenti, quindi esegue nuovamente l’analisi della variabile. Se l’assistente per l’aggiornamento non ha ancora trovato suite di rapporti, cerca prima queste nella proprietà tags. Le selezioni e le decisioni vengono mantenute."
+>abstract="Controlla nuovamente le suite di rapporti collegate a questa proprietà di tag, incluse le impostazioni delle variabili e i dati recenti, quindi esegue nuovamente l’analisi della variabile. Se l’assistente per l’aggiornamento non ha ancora trovato alcuna suite di rapporti, la ricerca verrà effettuata prima nella proprietà tag. Le selezioni e le decisioni vengono mantenute."
 
 <!-- markdownlint-enable MD034 -->
 

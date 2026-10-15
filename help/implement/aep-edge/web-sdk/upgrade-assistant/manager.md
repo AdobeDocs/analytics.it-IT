@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 0%
+ht-degree: 23%
 ---
 # Gestire le migrazioni
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_migrations"
 >title="Migrazioni"
->abstract="Ogni migrazione aggiorna l’implementazione di Adobe Analytics in una proprietà tag al Web SDK. Apri una migrazione per continuare dal punto in cui hai interrotto la sessione, oppure seleziona &quot;Nuovo&quot; per avviarne una."
+>abstract="Ciascuna migrazione aggiorna l’implementazione di Adobe Analytics in una proprietà tag al Web SDK. Apri una migrazione per continuare dal punto in cui hai l’avevi interrotta, oppure seleziona “Nuova” per avviarne una."
 
 La pagina **[!UICONTROL Migrations]** è il punto di partenza dell&#39;Assistente all&#39;aggiornamento di Web SDK. Elenca le migrazioni all’interno dell’organizzazione, con l’indicazione dell’avanzamento, dello stato e di chi le ha create. Utilizzare questa pagina per creare una migrazione o per aprirne una esistente.
 
@@ -56,7 +56,7 @@ La pagina **[!UICONTROL Migrations]** è il punto di partenza dell&#39;Assistent
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_newmigration"
 >title="Nuova migrazione"
->abstract="Seleziona la proprietà dei tag di cui vuoi eseguire la migrazione e una libreria in tale proprietà. L’assistente per l’aggiornamento crea un’istantanea della libreria quando crei la migrazione. Le modifiche apportate alla libreria dopo uno snapshot di migrazione non sono incluse. La proprietà dei tag non viene modificata fino a quando non completi la migrazione."
+>abstract="Seleziona la proprietà dei tag di cui desideri eseguire la migrazione e una libreria in tale proprietà. L’assistente per l’aggiornamento creerà un’istantanea della libreria quando creerai la migrazione. Le modifiche apportate alla libreria dopo un’istantanea di migrazione non vengono incluse. La proprietà dei tag non verrà modificata finché non avrai completato la migrazione."
 
 <!-- markdownlint-enable MD034 -->
 

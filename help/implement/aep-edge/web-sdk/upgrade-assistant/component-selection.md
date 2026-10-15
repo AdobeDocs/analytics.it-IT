@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 0%
+ht-degree: 22%
 ---
 # Selezione di componenti
 
@@ -59,12 +59,12 @@ La colonna **[!UICONTROL Published]** mostra se ogni componente fa parte della l
 
 I componenti selezionati determinano i passaggi successivi da utilizzare. Ad esempio, puoi includere elementi dati che non fanno riferimento a nulla in modo che [risultati del controllo](audit-findings.md) possa contrassegnarli per la pulizia.
 
-## Visualizza dettagli componente {#details}
+## Visualizzare i dettagli dei componenti {#details}
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_tagsusage"
 >title="Utilizzo dei tag"
->abstract="Le regole, gli elementi dati e le estensioni che utilizzano questo componente. L’utilizzo dell’estensione copre solo le impostazioni di configurazione dell’estensione. L’utilizzo all’interno di una regola viene visualizzato in Utilizzo regola."
+>abstract="Le regole, gli elementi dati e le estensioni che utilizzano questo componente. L’utilizzo dell’estensione riguarda solo le relative impostazioni di configurazione. L’utilizzo all’interno di una regola viene visualizzato in Utilizzo regola."
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_componentselection_analyticsusage"
