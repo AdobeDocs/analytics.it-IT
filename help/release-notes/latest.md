@@ -39,14 +39,14 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: cf020d4d2b873668a17c978ed69a311db37e7cd0
+source-git-commit: 5ac7e6fc8df5c0b0345ff5ad0a19bbde30ec4eb7
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 52%
+source-wordcount: '1109'
+ht-degree: 45%
 ---
 # Note sulla versione corrente di Adobe Analytics (ottobre 2026)
 
-**Ultimo aggiornamento**: 7 ottobre 2026
+**Ultimo aggiornamento**: 14 ottobre 2026
 
 Queste note sulla versione coprono il periodo di rilascio di ottobre 2026. Le versioni di Adobe Analytics funzionano su un [modello di distribuzione continua](releases.md) che consente un approccio più scalabile e graduale all’implementazione delle funzioni. Di conseguenza, queste note sulla versione vengono aggiornate diverse volte al mese. Consultale regolarmente.
 
@@ -55,6 +55,7 @@ Queste note sulla versione coprono il periodo di rilascio di ottobre 2026. Le ve
 | Funzione e descrizione | [Avvio del rollout](releases.md) | [Disponibilità generale](releases.md) |
 | ----------- | ---------- | ---- |
 | **Autorizzazione di sola lettura per il server Adobe Analytics MCP**<br/> Gli amministratori ora possono concedere agli utenti l&#39;accesso in sola lettura al server Adobe Analytics MCP. Il nuovo elemento di autorizzazione [!UICONTROL MCP Read-only Access] consente agli utenti di accedere a tutti gli strumenti di sola lettura, senza consentire loro di creare progetti, segmenti o metriche calcolate.<p>L&#39;elemento di autorizzazione [!UICONTROL MCP Access] esistente è stato rinominato in [!UICONTROL MCP Full Access]. Gli utenti con questa autorizzazione possono accedere a tutti gli strumenti, compresi quelli che creano, modificano o eliminano componenti.</p><p>Per ulteriori informazioni, consulta [Impostare le autorizzazioni](https://developer.adobe.com/analytics-mcp/docs/guides/permissions) nella documentazione del server Adobe Analytics MCP.</p> | | 6 ottobre 2026 |
+| **Miglioramenti ai dati di classificazione nei report di Data Warehouse**<br/> I dati di classificazione sono ora più precisi nei report di Data Warehouse. Con questi miglioramenti, potresti notare le seguenti differenze nei rapporti di Data Warehouse:<ul><li>**Valori vuoti in cui sono stati precedentemente visualizzati i valori di classificazione**: quando un valore di classificazione viene eliminato da un set di classificazione, in Data Warehouse viene visualizzato correttamente un valore vuoto. In precedenza, un valore di classificazione eliminato poteva continuare a essere visualizzato nei rapporti successivi.</li><li>**Altri valori di classificazione completi**: in alcuni casi, Data Warehouse mostrava in precedenza solo uno dei diversi valori di classificazione. Data Warehouse ora mostra ogni valore.</li><li>**I valori di classificazione possono essere rappresentati in modo diverso in Analysis Workspace (non comune)**: Data Warehouse può visualizzare tutti i valori di classificazione associati, mentre Analysis Workspace presenta un singolo valore. Di conseguenza, i valori di classificazione possono occasionalmente differire tra Data Warehouse e Analysis Workspace.</li></ul><p>Per ulteriori informazioni, vedere [Dimensioni di classificazione in Data Warehouse](/help/export/data-warehouse/component-support.md#classifications).</p> | 14 ottobre 2026 | Gennaio 2027 |
 | **Genera automaticamente le descrizioni dei componenti** <br/>Ora puoi generare automaticamente le descrizioni per dimensioni, metriche, metriche calcolate, segmenti e intervalli di date. Questo aiuta gli utenti di Workspace a capire quali componenti utilizzare, soprattutto nelle organizzazioni con librerie di componenti di grandi dimensioni. <p>È possibile generare una descrizione per un singolo componente o per più componenti contemporaneamente.</p> <p>Il link alla documentazione seguirà a breve.<!--For more information, see [Automatically generate descriptions](/help/components/add-component-descriptions.md#automatically-generate-descriptions).--></p> | | 28 ottobre 2026 |
 | **Integrazione di Adobe Brand Visibility**<br/> Connetti Adobe Brand Visibility con i dati Adobe Analytics della tua organizzazione in modo da poter misurare in che modo l&#39;individuazione basata sull&#39;intelligenza artificiale si traduce in un coinvolgimento reale del sito Web e in risultati di business.<p>Il collegamento alla documentazione seguirà a breve.</p> | | Ottobre 2026 |
 | **CX Enterprise Coworker: Analizza i dati di Adobe Analytics in Chat con Coworker** <br/>Adobe CX Enterprise Coworker Chat ora può eseguire un&#39;analisi avanzata dei dati che in precedenza era possibile solo in Analysis Workspace. Chat con collaboratori accede ai dati dalle suite di rapporti di Adobe Analytics, consentendoti di esplorarli e ottenere risposte ai prompt in linguaggio naturale.<p>Il collegamento alla documentazione seguirà a breve.</p> | 2 ottobre 2026 | Da definire<p>(Originariamente pianificato per il 25 settembre 2026)</p> |
@@ -96,6 +97,6 @@ Per gli ultimi aggiornamenti sulle versioni di AppMeasurement, consulta le [note
 >
 >* [Note sulle versioni precedenti per il 2026](/help/release-notes/2026.md)
 >* [Note sulla versione di Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=it)
->* [Note sulla versione dei servizi multimediali in streaming &#x200B;](https://experienceleague.adobe.com/it/docs/media-analytics/using/release-notes/release-notes)
->* Ultimi aggiornamenti sulle versioni dei [prodotti Adobe CX Enterprise](https://business.adobe.com/it/products/adobe-experience-cloud-products.html)
+>* [Note sulla versione dei servizi multimediali in streaming ](https://experienceleague.adobe.com/it/docs/media-analytics/using/release-notes/release-notes)
+>* Ultimi aggiornamenti sulle versioni dei [prodotti Adobe CX Enterprise](https://business.adobe.com/products/adobe-experience-cloud-products.html)
 
