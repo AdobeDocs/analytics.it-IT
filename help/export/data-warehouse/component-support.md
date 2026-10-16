@@ -29,9 +29,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 5ac7e6fc8df5c0b0345ff5ad0a19bbde30ec4eb7
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '398'
 ht-degree: 0%
 ---
 # Supporto dei componenti in Data Warehouse
@@ -88,6 +88,15 @@ I valori di data vengono generati nel formato `1YYMMDDHHMM`:
 * **Mese**: basato su zero. Gennaio = `00`, Febbraio = `01`, ..., Dicembre = `11`.
 
 Ad esempio, se il campo Settimana intervallo di date mostra `1260901`, l&#39;anno è 1900 + 126 = **2026** e il mese è 09 = **Ottobre**.
+
+## Dimensioni di classificazione in Data Warehouse {#classifications}
+
+{{release-limited-testing-section}}
+
+I report di Data Warehouse ottengono i dati di classificazione direttamente da [set di classificazione](/help/components/classifications/sets/overview.md). Di conseguenza, le dimensioni di classificazione nei rapporti di Data Warehouse possono differire dalle stesse dimensioni in Analysis Workspace:
+
+* **I valori di classificazione eliminati appaiono vuoti**: quando si eliminano i dati di classificazione da un set di classificazione, nei rapporti di Data Warehouse viene visualizzato un valore vuoto per tale classificazione. Per informazioni su come eliminare i dati di classificazione, vedere [Formati di file del set di classificazione](/help/components/classifications/sets/data-files.md).
+* **È possibile che vengano visualizzati più valori di classificazione in cui Analysis Workspace ne mostra uno (non comune)**: in casi non comuni, Analysis Workspace presenta più valori di classificazione diversi come un singolo valore. Data Warehouse mostra ciascuno di questi valori. Di conseguenza, i valori di classificazione possono occasionalmente differire tra Data Warehouse e Analysis Workspace.
 
 ## Metriche definite in modo diverso in Data Warehouse
 

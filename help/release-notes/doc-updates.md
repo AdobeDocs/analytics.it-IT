@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3ba8d2cce29a1965c85789c3fd0543c23533e3a8
+source-git-commit: 832a3752ab758d573e5b15b2dc38dad120fe8300
 workflow-type: tm+mt
-source-wordcount: '7521'
+source-wordcount: '7551'
 ht-degree: 82%
 ---
 # Aggiornamenti alla documentazione tecnica per Adobe Analytics
@@ -76,6 +76,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Ottobre 2026** | |
+| Raccolta dati tramite una rete CDN | Aggiunta di [Instrada raccolta dati tramite una rete CDN](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn) alla guida per l&#39;amministrazione e l&#39;interfaccia di CX Enterprise. |
 | Metrica delle occorrenze dei prodotti bot | È stata aggiunta la metrica [Occorrenze prodotto bot](/help/components/metrics/bot-product-occurrences.md), che mostra il numero di hit secondari della stringa di prodotto che corrispondono alle regole bot. <p>Sono state inoltre aggiornate la dimensione [Nome bot](/help/components/dimensions/bot-name.md) e le [Occorrenze bot](/help/components/metrics/bot-occurrences.md) per fare riferimento alla nuova metrica.</p> |
 | **Settembre 2026** | |
 | Confronto tra aree di lavoro percorsi su frecce e abbandono | È stata aggiornata l&#39;impostazione &#39;[!UICONTROL Compare to]&#39; in [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](/help/analyze/analysis-workspace/visualizations/journey-canvas/configure-journey-canvas.md#configure-visualization-settings) per mostrare che la variazione percentuale tra gli intervalli di date ora viene visualizzata su ogni nodo, freccia e abbandono nel percorso. |
