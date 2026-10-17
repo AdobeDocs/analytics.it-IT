@@ -95,10 +95,10 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 Il valore utilizzato per `trackingServerSecure` (o `edgeDomain`) dipende dal modo in cui l&#39;organizzazione invia i dati ad Adobe:
 
-* **Se l&#39;organizzazione utilizza un dominio di prime parti**, ad esempio tramite il [programma di certificazione gestito da Adobe](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/adobe-managed-cert), un [certificato gestito dal cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) o una [rete di distribuzione di contenuti (CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn), impostare il valore su tale dominio. Ad esempio, `data.example.com`.
+* **Se l&#39;organizzazione utilizza un dominio di prime parti**, ad esempio tramite il [programma di certificazione gestito da Adobe](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/adobe-managed-cert), un [certificato gestito dal cliente](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/customer-managed-cert) o una [rete di distribuzione di contenuti (CDN)](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cdn), impostare il valore su tale dominio. Ad esempio, `data.example.com`.
 * **Se l&#39;organizzazione utilizza un dominio di terze parti**, impostare il valore sul sottodominio dell&#39;ID tenant di `data.adobedc.net`. Ad esempio, `example.data.adobedc.net`.
 
-Per informazioni dettagliate su ciascuna opzione, inclusa la modalità di ricerca dell&#39;ID tenant, vedere [Scegliere un dominio di raccolta dati](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain) nella Guida all&#39;amministrazione e all&#39;interfaccia di CX Enterprise.
+Per informazioni dettagliate su ciascuna opzione, inclusa la modalità di ricerca dell&#39;ID tenant, vedere [Scegliere un dominio di raccolta dati](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/collection-domain) nella Guida all&#39;amministrazione e all&#39;interfaccia di CX Enterprise.
 
 Adobe consiglia vivamente di mantenere queste informazioni in un [documento di progettazione della soluzione](../../prepare/solution-design.md) per coerenza a livello di organizzazione.
 
