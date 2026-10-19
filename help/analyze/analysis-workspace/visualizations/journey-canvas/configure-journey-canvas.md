@@ -20,13 +20,13 @@ role_v2:
 source-git-commit: 1cf62be3a39448159cbcdb502b7b58ea1d37e231
 workflow-type: tm+mt
 source-wordcount: '6580'
-ht-degree: 78%
+ht-degree: 79%
 ---
 # Configurare una visualizzazione dell’area di lavoro del percorso {#configure-journey-canvas}
 
 >[!BEGINSHADEBOX]
 
-_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics**.<br/><br/>_ Vedere [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) per la versione _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_&#x200B;**Customer Journey Analytics**&#x200B;di questo articolo._
+_In questo articolo viene documentata la visualizzazione dell&#39;area di lavoro del Percorso in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics**.<br/><br/>_ Vedere [Configurare una visualizzazione dell&#39;area di lavoro del Percorso](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-workspace/visualizations/journey-canvas/configure-journey-canvas) per la versione _![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)_**Customer Journey Analytics**di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -116,7 +116,7 @@ Per ulteriori informazioni sull’area di lavoro del percorso, consulta [Panoram
 >[!CONTEXTUALHELP]
 >id="aa_journeycanvas_compare_percentages"
 >title="Confronta percentuali"
->abstract="Confronta la modifica percentuale su ciascun nodo, freccia e fallout nel percorso tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica principale. Quando questa opzione è disattivata, viene visualizzata la percentuale del valore non elaborato anziché la variazione percentuale."
+>abstract="Confronta la variazione percentuale di ciascun nodo, freccia e fallout nel percorso tra l’intervallo di date corrente e l’intervallo di date di confronto selezionato, in base alla metrica primaria. Quando questa opzione è disabilitata, viene visualizzata la percentuale del valore non elaborato anziché la variazione percentuale."
 
 <!-- markdownlint-enable MD034 -->
 

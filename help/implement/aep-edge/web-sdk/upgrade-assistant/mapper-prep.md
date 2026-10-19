@@ -38,15 +38,15 @@ topic_v2:
 source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 19%
+ht-degree: 20%
 ---
-# Preparazione mapper
+# Preparazione del servizio mappatura
 
 <!-- markdownlint-disable MD034 -->
 
 >[!CONTEXTUALHELP]
 >id="aa_upgradeassistant_mapperprep"
->title="Preparazione mapper"
+>title="Preparazione del servizio mappatura"
 >abstract="Rivedi le variabili di Analytics che la proprietà tag invia a ciascuna suite di rapporti. Le variabili selezionate qui vengono riportate nella mappatura XDM. Utilizza le schede per verificare la presenza di dati recenti, trovare variabili duplicate e confrontare le impostazioni nelle suite di rapporti."
 
 <!-- markdownlint-enable MD034 -->
