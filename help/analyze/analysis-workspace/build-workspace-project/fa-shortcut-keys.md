@@ -8,38 +8,47 @@ exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 TQID: https://experienceleague.adobe.com/3JPl-XhV9gv2qzMAhpCr3-Aq8WUHR0BBZJilP3WlMvI
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: c153fd90-23e1-4614-81d3-3cc7571227f7
+    internal-label: Analysis Workspace
   - id: f73667dc-d296-4875-8975-ac3fdc3adc42
+    internal-label: Dashboards
 subfeature_v2:
   - id: b0a1f9d5-5795-42a3-a6d0-bd0e2748fd06
+    internal-label: Components
   - id: b3a8b8a0-1cc2-48a8-ac82-ffd9c66ccab4
+    internal-label: Attribution
   - id: dcae653e-62c6-4cc8-84e6-ee110b848296
+    internal-label: Visualizations
   - id: e38cbddc-1633-4cd5-bed5-9f289f2a6029
+    internal-label: Panels
   - id: eb853e43-1634-4181-adf2-a44d64395ec3
+    internal-label: Hotkeys
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8391256b33336dec7456b7b75565d54911e1c63f
+    internal-label: Insights
+source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 78%
-
+source-wordcount: '526'
+ht-degree: 72%
 ---
-
 # Tasti di scelta rapida
 
 I tasti di scelta rapida sono disponibili in Analysis Workspace per favorire la fluidità della navigazione, dell’analisi e della democratizzazione.
 
 Sulla tastiera possono essere utilizzati i seguenti simboli:
 
-- **⇧** per **[!UICONTROL **&#x200B; Maiusc &#x200B;**]**.
-- **⌘** per **[!UICONTROL **&#x200B; Comando &#x200B;**]** (comando).
-- **⌃** per **[!UICONTROL **&#x200B; Ctrl &#x200B;**]** (controllo).
-- **⌥** per **[!UICONTROL **&#x200B; Opzione &#x200B;**]** (opzione).
-- **⎇** per **[!UICONTROL **&#x200B; Alt &#x200B;**]** (alternativo).
+- **⇧** per **[!UICONTROL ** Maiusc **]**.
+- **⌘** per **[!UICONTROL ** Comando **]** (comando).
+- **⌃** per **[!UICONTROL ** Ctrl **]** (controllo).
+- **⌥** per **[!UICONTROL ** Opzione **]** (opzione).
+- **⎇** per **[!UICONTROL ** Alt **]** (alternativo).
 
 ## Azioni di navigazione
 
@@ -102,6 +111,10 @@ Sulla tastiera possono essere utilizzati i seguenti simboli:
 | Ridimensiona più breve | **[!UICONTROL *cmd + opt + shift + up *]** | **[!UICONTROL *Ctrl + Alt + Maiusc + Su *]** |
 
 La larghezza viene ridimensionata con incrementi di una colonna della griglia e l&#39;altezza con incrementi di una cella della griglia (circa 25 pixel).
+
+## Azioni colonna tabella
+
+È possibile ridimensionare e ridisporre le colonne della tabella utilizzando la tastiera. Queste azioni non sono tasti di scelta rapida globali. Sono disponibili quando un separatore di ridimensionamento colonne o il pulsante **[!UICONTROL Rearrange]** dell&#39;intestazione di colonna è attivo. Vedere [Navigazione tramite tastiera per le colonne della tabella](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#table-columns).
 
 ## Azioni di democratizzazione
 
