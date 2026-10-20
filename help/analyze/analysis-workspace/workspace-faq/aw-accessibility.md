@@ -34,10 +34,10 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '840'
+ht-degree: 62%
 ---
 # Accessibilità di Analysis Workspace
 
@@ -79,6 +79,47 @@ La navigazione in [!UICONTROL Analysis Workspace] avviene dall’alto verso il b
 1. Premi **[!UICONTROL Enter]** per selezionare.
 1. Utilizza i tasti freccia per passare all’area in cui desideri rilasciare il componente.
 1. Premi **[!UICONTROL Enter]** per posizionare il componente.
+
+### Navigazione tramite tastiera per le colonne della tabella {#table-columns}
+
+È possibile ridimensionare e ridisporre le colonne della tabella utilizzando la tastiera. Le stesse chiavi funzionano in macOS e Windows.
+
+#### Ridimensiona colonne {#resize-columns}
+
+È possibile ridimensionare le colonne nelle tabelle a forma libera e nelle tabelle a coorte utilizzando il separatore di ridimensionamento colonne, che rappresenta il confine tra due intestazioni di colonna.
+
+1. Premere **[!UICONTROL Tab]** fino a quando un separatore di ridimensionamento colonne non diventa attivo.
+
+   Istruzioni per il ridimensionamento della visualizzazione mentre il separatore è attivo. Gli assistenti vocali annunciano queste istruzioni e la larghezza corrente della colonna come percentuale.
+
+1. Utilizza i tasti seguenti per ridimensionare la colonna. Impossibile ridimensionare una colonna oltre la larghezza minima o massima.
+
+   | Chiave | Azione |
+   | --- | --- |
+   | **[!UICONTROL Left Arrow]** | Restringi di 10 pixel la colonna a sinistra del separatore. |
+   | **[!UICONTROL Right Arrow]** | Allargare di 10 pixel la colonna a sinistra del separatore. |
+   | **[!UICONTROL Enter]** | Reimposta la larghezza delle colonne. |
+
+#### Ridisponi colonne {#rearrange-columns}
+
+In una tabella a forma libera modificabile è possibile spostare una colonna a sinistra o a destra utilizzando il menu **[!UICONTROL Rearrange]** nell&#39;intestazione della colonna.
+
+1. Premere **[!UICONTROL Tab]** finché il pulsante **[!UICONTROL Rearrange]** nell&#39;intestazione della colonna non diventa attivo.
+1. Premere **[!UICONTROL Enter]**, **[!UICONTROL Space]** o **[!UICONTROL Down Arrow]** per aprire il menu.
+1. Seleziona **[!UICONTROL Move column left]** (Mostra origine dati) o **[!UICONTROL Move column right]** (Blocca selezione).
+
+   Per chiudere il menu senza spostare la colonna, premere **[!UICONTROL Esc]**. Lo stato attivo ritorna al pulsante **[!UICONTROL Rearrange]**.
+
+   Dopo aver spostato una colonna, gli assistenti vocali ne annunciano il nome e la nuova posizione all&#39;interno del gruppo.
+
+Quando ridisponete le colonne con la tastiera, tenete presente quanto segue:
+
+* Una colonna si sposta solo all’interno del relativo gruppo di colonne di pari livello, ovvero le colonne allo stesso livello sotto la stessa intestazione padre. Non è possibile utilizzare la tastiera per spostare una colonna in un gruppo diverso o per copiarne una.
+* Quando si sposta un&#39;intestazione padre, le colonne e i filtri nidificati vengono spostati insieme a essa.
+* **[!UICONTROL Move column left]** è disabilitato per la prima colonna di un gruppo. **[!UICONTROL Move column right]** è disabilitato per l&#39;ultima colonna di un gruppo.
+* Il pulsante **[!UICONTROL Rearrange]** è disponibile solo per le colonne che è possibile ridisporre anche trascinando. Non è disponibile per:
+  * Tabelle o tabelle di sola lettura con interazioni disattivate.
+  * Colonne data nelle tabelle coorte.
 
 ### Scelte rapide da tastiera
 
