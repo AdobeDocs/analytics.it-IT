@@ -101,4 +101,4 @@ Se utilizzi Mobile Services per le funzionalità a pagamento, non disponi di un 
 
 * Per i collegamenti di acquisizione, possiamo indirizzarti ai partner Adobe per soddisfare le tue esigenze.
 * I messaggi push e i messaggi in-app sono disponibili in Adobe Campaign Standard e Adobe Campaign Classic (solo push). Tuttavia, il set di dati sottostante utilizzato per il targeting è diverso. Consigliamo di collaborare con il team del tuo account Adobe per determinare le opzioni di migrazione per i dati di messaggistica.
-* Per la funzionalità Posizione, ti invitiamo ad adottare il nuovo [servizio Posizione Adobe Experience Platform](https://www.adobe.com/experience-platform/location-service.html), gratuito per tutti i clienti Adobe Experience Platform.
+* Per la funzionalità Posizione, ti invitiamo ad adottare il nuovo [servizio Posizione Adobe Experience Platform](https://www.adobe.com/it/experience-platform/location-service.html), gratuito per tutti i clienti Adobe Experience Platform.
