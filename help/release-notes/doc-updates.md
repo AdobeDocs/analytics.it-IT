@@ -57,9 +57,9 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 22a8c3af39b032e543b29ca9d7bfcf24594d9cae
+source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
 workflow-type: tm+mt
-source-wordcount: '7583'
+source-wordcount: '7631'
 ht-degree: 81%
 ---
 # Aggiornamenti alla documentazione tecnica per Adobe Analytics
@@ -76,6 +76,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | Funzione | Descrizione |
 | --- | --- |
 | **Ottobre 2026** | |
+| Blocca selezione per visualizzazioni | [Gestione delle origini dati](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) ristrutturata per separare la configurazione delle impostazioni dell&#39;origine dati dal blocco della selezione. È stato inoltre chiarito il funzionamento di [blocca selezione](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection) quando una visualizzazione è bloccata sulle righe di una tabella a forma libera, incluso ciò che accade quando le righe di raggruppamento bloccate non sono più nella tabella. |
 | Navigazione tramite tastiera per le colonne della tabella | È stato documentato come [ridimensionare](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) e [ridisporre](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) le colonne della tabella in Analysis Workspace utilizzando la tastiera, incluso il feedback dell&#39;assistente vocale. Ai tasti di scelta rapida è stata aggiunta anche una sezione [Azioni colonna tabella](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions). |
 | Raccolta dati tramite una rete CDN | Aggiunta di [Instrada raccolta dati tramite una rete CDN](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cdn) alla guida per l&#39;amministrazione e l&#39;interfaccia di CX Enterprise. |
 | Metrica delle occorrenze dei prodotti bot | È stata aggiunta la metrica [Occorrenze prodotto bot](/help/components/metrics/bot-product-occurrences.md), che mostra il numero di hit secondari della stringa di prodotto che corrispondono alle regole bot. <p>Sono state inoltre aggiornate la dimensione [Nome bot](/help/components/dimensions/bot-name.md) e le [Occorrenze bot](/help/components/metrics/bot-occurrences.md) per fare riferimento alla nuova metrica.</p> |
