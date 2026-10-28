@@ -6,29 +6,37 @@ exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
 TQID: https://experienceleague.adobe.com/MneXzLSy9umkfoSWXFBrUn3zc-exo2OUTbiQZ1N3ZbA
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 subfeature_v2:
   - id: c67272a6-888e-425e-9e97-a87304637eed
+    internal-label: Anomaly Detection
   - id: f1f1a2d4-0976-4881-b091-c2bb8de7ffac
+    internal-label: Events
   - id: f836f655-eebe-4b76-82bc-697955ec1ce3
+    internal-label: Calculated Metrics
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: 3a948346a9613a7317ac42b532592350cd3494fa
 workflow-type: tm+mt
-source-wordcount: 1005
+source-wordcount: '1052'
 ht-degree: 8%
-
 ---
-
 # Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics
 
-Prima che chiunque nell&#39;organizzazione inizi la migrazione dei progetti come descritto in [Eseguire la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md), completare le sezioni seguenti.
+Prima che chiunque nell&#39;organizzazione inizi la migrazione dei progetti, come descritto in [Eseguire la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](/help/admin/tools/component-migration/component-migration.md) o con [Adobe CX Enterprise Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/migrate-projects-aa-cja), completa le sezioni seguenti.
 
 ## Prerequisiti
 
@@ -43,21 +51,21 @@ Prima che i tuoi progetti e i relativi componenti associati siano pronti per la 
 
    * Per utilizzare il connettore di origine di Adobe Analytics, è necessario:
 
-     1. [Configurare le suite di rapporti per l’acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=it#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Configurare le suite di rapporti per l’acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
      1. [Inserire e utilizzare i dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=it)
 
    * Per utilizzare Web SDK, è necessario:
 
-     1. [Configurare le suite di rapporti per l’acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html?lang=it#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
+     1. [Configurare le suite di rapporti per l’acquisizione in Adobe Experience Platform e Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/compare-aa-cja/cja-aa-comparison/aa-data-in-cja.html#set-up-report-suites-for-ingestion-into-the-adobe-experience-platform-and-customer-journey-analytics)
 
-     1. [Acquisire dati tramite Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html?lang=it)
+     1. [Acquisire dati tramite Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/edge-network/aepwebsdk.html)
 
-1. Crea una [connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html?lang=it) e una [visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it) con i dati acquisiti.
+1. Crea una [connessione](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/overview.html) e una [visualizzazione dati](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=it) con i dati acquisiti.
 
 1. Assicurati che gli utenti di Customer Journey Analytics dispongano delle visualizzazioni dati in cui vengono mappati i dati.
 
-   Per ulteriori informazioni, vedere [Autorizzazioni Customer Journey Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=it#customer-journey-analytics-permissions-in-admin-console) in [Controllo dell&#39;accesso Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=it).
+   Per ulteriori informazioni, vedere [Autorizzazioni Customer Journey Analytics in Admin Console](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html#customer-journey-analytics-permissions-in-admin-console) in [Controllo dell&#39;accesso Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
    La scheda Autorizzazioni fa parte di ciascun profilo di prodotto in Admin Console. Puoi aggiungere utenti a profili di prodotto specifici. Puoi quindi assegnare i diritti a visualizzazioni dati specifiche e specificare quali autorizzazioni hanno gli utenti in un profilo di prodotto.
 
@@ -128,6 +136,12 @@ Rimuovi questi elementi dal progetto Adobe Analytics prima di eseguire la migraz
 * [Riepilogo pagina](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
 * [Analisi contributi](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis)
+
+### Suite di rapporti non supportate
+
+<!-- FLAG: Sourced from Coworker's response in the Coworker UI (October 2026), not from engineering. Confirm that panels that use a virtual report suite can't be migrated, in both Coworker and the Adobe Analytics user interface. -->
+
+Impossibile eseguire la migrazione dei pannelli che utilizzano una [suite di rapporti virtuale](/help/components/vrs/vrs-about.md). Assicurati che ogni pannello del progetto utilizzi una suite di rapporti di base.
 
 ## Decidere come organizzazione la mappatura dei componenti
 
