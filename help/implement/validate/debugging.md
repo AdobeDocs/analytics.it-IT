@@ -44,7 +44,7 @@ Per i passaggi e gli strumenti applicabili a tutte le raccolte dati di Adobe, ad
 | --- | --- | --- |
 | AppMeasurement o l’estensione tag Analytics | Richieste dal browser direttamente ai server di raccolta dati di Analytics | [AppMeasurement](#appmeasurement) |
 | Web SDK | Edge Trace, dopo che Edge Network converte l’evento in un hit di Analytics | [Web SDK](#web-sdk) |
-| Mobile SDK | La visualizzazione Eventi di Analytics in Assurance. Se utilizzi l&#39;estensione Edge Network o Edge Bridge, attiva **[!UICONTROL Analytics Edge View]**. | [Visualizzazione eventi Adobe Analytics in Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/view/adobe-analytics) |
+| Mobile SDK | La visualizzazione Eventi di Analytics in Assurance. Se utilizzi l&#39;estensione Edge Network o Edge Bridge, attiva **[!UICONTROL Analytics Edge View]**. | [Visualizzazione eventi Adobe Analytics in Assurance](https://experienceleague.adobe.com/it/docs/experience-platform/assurance/view/adobe-analytics) |
 | API di inserimento dati | Richieste in uscita del server e relative risposte | [Risoluzione dei problemi relativi alle richieste API di inserimento dati](https://developer.adobe.com/analytics-collection-apis/methods/data-insertion/troubleshooting) |
 
 ## AppMeasurement e l’estensione Analytics {#appmeasurement}
@@ -81,7 +81,7 @@ AppMeasurement invia richieste di collegamento di uscita e tutte le richieste qu
 
 Con Web SDK, il browser invia gli eventi ad Edge Network invece di inviarli direttamente ad Analytics, in modo che non venga visualizzata una richiesta `/b/ss/`. [Controlla la richiesta di Edge Network](https://experienceleague.adobe.com/en/docs/experience-platform/collection/debugging/inspect-requests#edge-network-requests) e conferma quanto segue:
 
-* Il parametro `configId` corrisponde a un flusso di dati in cui il servizio [Adobe Analytics](https://experienceleague.adobe.com/en/docs/experience-platform/datastreams/configure#analytics) è abilitato con le suite di rapporti previste.
+* Il parametro `configId` corrisponde a un flusso di dati in cui il servizio [Adobe Analytics](https://experienceleague.adobe.com/it/docs/experience-platform/datastreams/configure#analytics) è abilitato con le suite di rapporti previste.
 * Il payload si qualifica come visualizzazione di pagina o evento di collegamento. Analytics ignora i payload che non contengono né dettagli di pagina né un tipo di interazione web. Vedi [Tipi di evento Edge Network in Adobe Analytics](../aep-edge/hit-types.md).
 
 ### Controlla cosa ha ricevuto Analytics {#web-sdk-contents}
