@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 4%
+source-wordcount: '497'
+ht-degree: 5%
 ---
 # Convalidare un’implementazione di sviluppo e pubblicare in produzione
 
@@ -80,14 +80,7 @@ Verifica di visualizzare i dati sulla versione live del sito e avvia la raccolta
 
 ## Risoluzione dei problemi
 
-**Nessun dato visualizzato nel debugger.**
-
-Sul sito, apri la console per sviluppatori del browser (in genere F12). Osserva il codice sorgente della pagina e accertati che siano soddisfatte le seguenti condizioni:
-
-* Nessun errore JavaScript nella console. Rivolgiti ai proprietari del sito web della tua organizzazione per assicurarti che tutti gli errori JS siano stati risolti.
-* Il codice intestazione è implementato correttamente: verificare che il codice intestazione sia incluso nel tag `<head>` e che il file esista.
-* Esiste già una libreria AppMeasurement: passa direttamente all’origine JS per assicurarti che il file JS contenga codice. In caso contrario, assicurati che ogni ambiente sia stato creato e che la libreria sia stata pubblicata nel rispettivo ambiente.
-* Estensioni di interferenza: alcune estensioni, come ad blocker, possono impedire l’attivazione delle richieste di immagini. Disattiva le estensioni che potrebbero impedire l’invio dei dati ad Adobe.
+Se nel debugger non vengono visualizzati dati di Analytics o se i dati non corrispondono alle aspettative, vedere [Raccolta dati di Debug Analytics](../validate/debugging.md#appmeasurement).
 
 ## Passaggi successivi
 

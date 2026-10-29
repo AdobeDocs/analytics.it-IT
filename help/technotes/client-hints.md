@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Measurement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 61%
@@ -62,7 +62,7 @@ Questo [articolo di blog di Google](https://web.dev/user-agent-client-hints/) è
 
 +++**Come si abilita la raccolta di hint client?**
 
-Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consulta le istruzioni per [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=it#enabling-high-entropy-client-hints) e [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
+Gli hint a bassa entropia vengono forniti automaticamente dal browser e inclusi per derivare le informazioni sul dispositivo e sul browser. Le versioni più recenti di Web SDK (a partire dalla versione 2.12.0) e AppMeasurement (a partire dalla versione 2.23.0) possono essere configurate per raccogliere hint ad alta entropia tramite le rispettive estensioni di tag oppure direttamente tramite un’opzione di configurazione. Consulta le istruzioni per [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) e [AppMeasurement](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md).
 
 Per entrambe le librerie, la raccolta di hint ad alta entropia è **disattivata per impostazione predefinita**.
 
@@ -160,7 +160,7 @@ No. Gli hint client possono essere raccolti solo tramite una connessione HTTP pr
 
 +++**Come si includono i dati degli hint client quando si utilizza l’invio tramite API?**
 
-Consulta la documentazione per includerli tramite l’[API di inserimento dati in blocco](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format/).
+Consulta la documentazione per includerli tramite l’[API di inserimento dati in blocco](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/file-format).
 
 +++
 
