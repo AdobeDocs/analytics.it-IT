@@ -6,23 +6,29 @@ exl-id: 49c7e47a-464b-4465-9b30-d77f886ca6dc
 TQID: https://experienceleague.adobe.com/vTGy--9PQ9T5HTYm3ISws71ItH2DBBJFrk-XdaguBjU
 product_v2:
   - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+    internal-label: Analytics
 feature_v2:
   - id: b0ca67c6-0a35-482c-ad91-baac1bcb26d6
+    internal-label: Workspace projects
   - id: b3f03848-ae12-48b2-8aab-cad18567eb32
+    internal-label: Metrics
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+    internal-label: API
   - id: ff9b434a-2221-4df7-81d1-5bcbf5f80bce
+    internal-label: Admin Tools
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+    internal-label: Administration
+source-git-commit: db58d6fc510998d56794678c94d8a97f0563beb4
 workflow-type: tm+mt
-source-wordcount: 1660
+source-wordcount: '1687'
 ht-degree: 5%
-
 ---
-
 # Migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics
 
 Gli amministratori di Adobe Analytics possono eseguire la migrazione dei progetti Adobe Analytics e dei relativi componenti a Customer Journey Analytics.
@@ -41,22 +47,26 @@ Il processo di migrazione include:
 >
 >Le informazioni contenute in questa pagina descrivono come eseguire la migrazione dei progetti e dei relativi componenti associati all’interfaccia utente di.
 >
->In alternativa, puoi eseguire la migrazione utilizzando le API. Per ulteriori informazioni, vedere [API Adobe Analytics](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). Tutte le definizioni API sono disponibili nel menu a discesa **[!UICONTROL Select a definition]**.
+>In alternativa, è possibile eseguire la migrazione utilizzando uno dei metodi seguenti. Gli utenti con l&#39;autorizzazione [!UICONTROL Component migration] possono utilizzare questi metodi anche se non sono amministratori.<!-- FLAG: Non-admin access with the Component migration permission, for both the APIs and Coworker, is from SME Scott Tomko (October 2026). The intro says only administrators can migrate in the user interface, but analytics-tools.md says the Component migration permission grants access to Admin > All admin > Component migration. Confirm which is correct. -->
+>
+>* Le API di Adobe Analytics. Per ulteriori informazioni, vedere [API Adobe Analytics](https://adobedocs.github.io/analytics-2.0-apis/?urls.primaryName=Analytics%202.0%20APIs). Tutte le definizioni API sono disponibili nel menu a discesa **[!UICONTROL Select a definition]**.
+>
+>* Adobe CX Enterprise Coworker. Per ulteriori informazioni, consulta [Migrare i progetti Adobe Analytics a Customer Journey Analytics con Coworker](https://experienceleague.adobe.com/en/docs/coworker/content/chat/use-cases/data-insights/intelligent-implementation-and-administration/migrate-projects-aa-cja) nella documentazione di Adobe CX Enterprise Coworker.
 
 
 ## Prepararsi per una migrazione
 
-Prima di eseguire la migrazione di qualsiasi progetto in Customer Journey Analytics, scopri di più sulla migrazione dei progetti in [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md).
+Prima di eseguire la migrazione di qualsiasi progetto a Customer Journey Analytics:
 
-Eseguire inoltre un [inventario Adobe Analytics](/help/admin/tools/analytics-inventory.md) utilizzando lo strumento disponibile per gli amministratori di Analytics.
+* Ulteriori informazioni sulla migrazione di progetti in [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md).
+
+* Eseguire un [inventario di Adobe Analytics](/help/admin/tools/analytics-inventory.md) utilizzando lo strumento disponibile per gli amministratori di Analytics.
 
 ## Migrare progetti Adobe Analytics a Customer Journey Analytics
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Prima di eseguire la migrazione di progetti a Customer Journey Analytics come descritto in questa sezione, ulteriori informazioni sulla migrazione di progetti sono disponibili in [Preparare la migrazione di componenti e progetti da Adobe Analytics a Customer Journey Analytics](/help/admin/tools/component-migration/prepare-component-migration.md).
->
->**Qualsiasi dimensione o metrica mappata viene applicata a questo progetto e a tutti i progetti futuri nell&#39;intera organizzazione IMS, indipendentemente dall&#39;utente che sta eseguendo la migrazione. Questi mapping possono essere aggiornati durante la migrazione di progetti futuri.**
+>Tutte le dimensioni o metriche mappate si applicano a questo progetto e a tutti i progetti futuri nell’intera organizzazione IMS, indipendentemente dall’utente che sta eseguendo la migrazione. Queste mappature possono essere aggiornate durante la migrazione di progetti futuri.
 
 1. In Adobe Analytics, seleziona la scheda [!UICONTROL **Amministrazione**], quindi seleziona [!UICONTROL **Tutte le attività di amministrazione**].
 
