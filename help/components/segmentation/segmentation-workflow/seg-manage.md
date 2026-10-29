@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 8badbfc74bdc95a8ab673d4f00fe13e0829e64bb
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 17%
+source-wordcount: '591'
+ht-degree: 16%
 ---
 # Gestire i segmenti
 
@@ -60,7 +60,7 @@ Nell&#39;elenco dei segmenti ➊ vengono visualizzati tutti i segmenti di tua pr
 | **[!UICONTROL Owner]** | Il proprietario del segmento. In qualità di utente, puoi visualizzare solo i segmenti di tua proprietà o le annotazioni condivise con te. |
 | **[!UICONTROL Tags]** | I tag per questo segmento. |
 | **[!UICONTROL Shared with]** | Quanti singoli utenti o gruppi hai condiviso il segmento con. Seleziona per aprire la finestra di dialogo **[!UICONTROL Share Component]**. Consulta [Condividi segmenti](t-seg-share.md) per ulteriori informazioni. |
-| **[!UICONTROL Published]** | Indica se il segmento [&#x200B; è pubblicato](seg-publish.md) in CX Enterprise. |
+| **[!UICONTROL Published]** | Indica se il segmento [ è pubblicato](seg-publish.md) in CX Enterprise. |
 | **[!UICONTROL Date modified]** | La data e l’ora dell’ultima modifica apportata al segmento. |
 
 Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare quali colonne vuoi visualizzare.
@@ -79,6 +79,7 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 | ![Modifica](/help/assets/icons/Edit.svg) **[!UICONTROL Rename]** | Rinomina un singolo segmento selezionato. Se questa opzione è selezionata, è possibile rinominare il segmento in linea. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) **[!UICONTROL Approve]** | Approva i segmenti selezionati. Per ulteriori informazioni, consulta [Approvare segmenti](seg-approve.md). |
 | ![Copia](/help/assets/icons/Copy.svg) **[!UICONTROL Copy]** | Copia il segmento selezionato. I nuovi segmenti vengono creati con lo stesso nome e suffisso `(Copy)`. |
+| ![IA](/help/assets/icons/AI.svg) **[!UICONTROL Generate descriptions]** | <p>Genera descrizioni per i segmenti selezionati, sostituendo eventuali descrizioni esistenti.</p><p>Per evitare di sovrascrivere le descrizioni esistenti, [filtrare](#filter-panel) l&#39;elenco per visualizzare solo i segmenti senza descrizione (nel filtro, in [!UICONTROL **Altri filtri**], selezionare [!UICONTROL **Descrizione mancante**]).</p><p>Viene richiesta una conferma. Le richieste di grandi dimensioni vengono eseguite in background e al termine ricevi una notifica.</p><p>Per ulteriori informazioni, vedere [Generazione automatica delle descrizioni](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Export to CSV]** | Esporta i segmenti in un file `Segments List.csv`. |
 
 ### Barra dei filtri attivi
@@ -156,6 +157,6 @@ To configure the visible columns in the Segment manager:
 
 ## How-To Video {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html?lang=it) gives a short overview of how to use the Segment manager.
+This [Adobe Analytics video](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html) gives a short overview of how to use the Segment manager.
 
 -->
