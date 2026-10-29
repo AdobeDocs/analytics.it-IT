@@ -1,9 +1,8 @@
 ---
-source-git-commit: 8522c9129a88366fdc953d825c8935e4251487a0
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: '3166'
-ht-degree: 92%
-
+source-wordcount: '3214'
+ht-degree: 93%
 ---
 # Snippet
 
@@ -18,8 +17,8 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Una nuova versione semplificata di [Report Builder](/help/analyze/report-builder/rb-overview.md) è disponibile dal 16 ottobre 2024. Questo Report Builder è supportato su macOS, Windows e browser web e può essere utilizzato con Adobe Analytics e Customer Journey Analytics.
->Questa versione legacy del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro legacy](/help/analyze/report-builder/convert-workbooks.md) nella nuova Report Builder.
+>Dal 16 ottobre 2024 è disponibile un nuovo [Report Builder](/help/analyze/report-builder/rb-overview.md) semplificato. Questo Report Builder è supportato in macOS, Windows e nei browser web e può essere utilizzato con Adobe Analytics e Customer Journey Analytics.
+>Questa versione precedente del componente aggiuntivo Report Builder funziona ancora. È possibile [convertire le cartelle di lavoro precedenti](/help/analyze/report-builder/convert-workbooks.md) nel nuovo Report Builder.
 
 ## Annuncio sulla fine del ciclo di vita di Reports & Analytics {#ra-eol}
 
@@ -190,7 +189,7 @@ Le seguenti informazioni ti aiuteranno a scegliere la visualizzazione più adatt
 
 | Altri filtri | Descrizione |
 |---|---|
-| ![Altri filtri](/help/assets/filter-other.png){width="300"} | La sezione **[!UICONTROL Other filters]** ti consente di filtrare in base ad un altro filtro predefinito.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Show all]**</li><li>**[!UICONTROL Shared with me]**</li><li>**[!UICONTROL Mine]**</li><li>**[!UICONTROL Approved]**</li><li>**[!UICONTROL Favorites]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di altri filtri selezionati (se sono selezionati uno o più altri filtri).</li><li>**5︎⃣**: numero di altri filtri disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: Il numero di elementi associati all’altro filtro specifico.</li></ul></li></ul> |
+| ![Altri filtri](/help/assets/filter-other.png){width="300"} | La sezione **[!UICONTROL Other filters]** ti consente di filtrare in base ad un altro filtro predefinito.<ul><li>È possibile scegliere una o più delle opzioni seguenti:<ul><li> **[!UICONTROL Show all]**</li><li>**[!UICONTROL Shared with me]**</li><li>**[!UICONTROL Mine]**</li><li>**[!UICONTROL Approved]**</li><li>**[!UICONTROL Favorites]**</li><li>**[!UICONTROL Missing description]**</li></ul> Ciò che puoi selezionare dipende dal tuo ruolo e dalle autorizzazioni.</li><li>Puoi selezionare più di un altro filtro. Gli altri filtri disponibili dipendono dalle selezioni effettuate in altre sezioni nel pannello dei filtri.</li><li>I numeri indicano:<ul><li>**(1)**: numero di altri filtri selezionati (se sono selezionati uno o più altri filtri).</li><li>**5︎⃣**: numero di altri filtri disponibili per gli elementi risultanti dal filtro corrente.</li><li>4︎⃣: Il numero di elementi associati all’altro filtro specifico.</li></ul></li></ul> |
 
 ## Sezione filtro Intervallo di date  {#daterangefiltersection}
 

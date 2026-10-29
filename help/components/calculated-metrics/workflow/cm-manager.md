@@ -22,13 +22,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 33%
-
+source-wordcount: '921'
+ht-degree: 32%
 ---
-
 # Gestire le metriche calcolate
 
 È possibile condividere, filtrare, assegnare tag, approvare, rinominare, copiare, eliminare, esportare le metriche calcolate e contrassegnarle come preferite da un&#39;interfaccia di gestione centrale di [!UICONTROL Calculated metrics]. Per gestire le metriche calcolate:
@@ -80,6 +78,7 @@ Utilizza ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) per specificare 
 | ![Modifica](/help/assets/icons/Edit.svg) | **[!UICONTROL Rename]** | Rinomina una singola metrica calcolata selezionata. Se selezionata, puoi rinominare la metrica calcolata in linea. |
 | ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg) | **[!UICONTROL Approve]** | Approva le metriche calcolate selezionate. Vedi [Approvare le metriche calcolate](cm-approving.md). |
 | ![Copia](/help/assets/icons/Copy.svg) | **[!UICONTROL Copy]** | Copia le metriche calcolate selezionate. Le nuove metriche calcolate vengono create con lo stesso nome e suffisso `(Copy)` |
+| ![IA](/help/assets/icons/AI.svg) | **[!UICONTROL Generate descriptions]** | <p>Genera descrizioni per le metriche calcolate selezionate, sostituendo eventuali descrizioni esistenti.</p><p>Per evitare di sovrascrivere le descrizioni esistenti, [filtrare](#filter-panel) l&#39;elenco per visualizzare solo le metriche calcolate senza descrizione (nel filtro, in [!UICONTROL **Altri filtri**], selezionare [!UICONTROL **Descrizione mancante**]).</p><p>Viene richiesta una conferma. Le richieste di grandi dimensioni vengono eseguite in background e al termine ricevi una notifica.</p><p>Per ulteriori informazioni, vedere [Generazione automatica delle descrizioni](/help/analyze/analysis-workspace/components/add-component-descriptions.md#automatically-generate-descriptions).</p> |
 | ![FileCSV](/help/assets/icons/FileCSV.svg) | **[!UICONTROL Export to CSV]** | Esporta le metriche calcolate in un file `Calculated  metric List.csv`. |
 
 ### Barra dei filtri attivi
