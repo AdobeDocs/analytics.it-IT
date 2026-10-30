@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Optimization
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '857'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Le riduzioni di traffico sono suddivise in due sezioni: dati parziali e dati nul
 
 ### Possibili cause di dati parzialmente mancanti o traffico ridotto
 
-* **Modifiche all&#39;implementazione**: utilizzare uno [strumento di debug](/help/implement/validate/debugging-tools.md) per verificare il funzionamento delle dimensioni desiderate.
+* **Modifiche all&#39;implementazione**: utilizzare uno [strumento di debug](/help/implement/validate/debugging.md) per verificare il funzionamento delle dimensioni desiderate.
 * **Traffico di riferimento ridotto**: la rimozione di un banner pubblicitario o di un collegamento ipertestuale popolare in un altro sito può causare una notevole riduzione del traffico. Esegui la tendenza della dimensione [Domini di riferimento](/help/components/dimensions/referring-domain.md) da prima e dopo il rilascio per ulteriori ricerche.
 * **Problemi relativi alle prestazioni del sito**: una distribuzione non corretta del traffico attraverso i load balancer o i problemi del server che ospitano il sito può contribuire a una riduzione del reporting di Analytics. Collabora con il team della tua organizzazione che gestisce l’integrità e lo stato del sito per indagare su eventuali problemi di prestazioni.
 * **Modifiche nella classificazione di ricerca naturale**: il traffico può potenzialmente diminuire se un altro sito esclude la classificazione di ricerca naturale per alcune parole chiave. Questa riduzione può essere particolarmente evidente se il sito non si trova più nella prima pagina dei risultati di ricerca. Tendenza della dimensione [Motori di ricerca](/help/components/dimensions/search-engine.md) per ulteriori ricerche.

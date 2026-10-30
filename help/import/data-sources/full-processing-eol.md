@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Il 25 marzo 2021 Adobe ha impedito la creazione di nuove connessioni di origini 
 * L’inserimento di dati in blocco dispone di funzionalità di convalida dei dati e gestione degli errori, che consentono di rimuovere parte del lavoro amministrativo necessario per l’invio dei dati hit.
 * L’inserimento di dati in blocco supporta più metodi di identificazione degli ID visitatore.
 * L&#39;inserimento di dati in blocco include alcuni campi obbligatori aggiuntivi: una colonna di identificazione del visitatore, un `pageName` (o equivalente al collegamento), `reportSuiteID`, `timestamp` e `userAgent`.
-* Per garantire la continuità e l’attribuzione del visitatore, l’inserimento di dati in blocco richiede che le righe all’interno dei file siano ordinate in ordine cronologico. Consulta [Gruppi di visitatori](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups/) per informazioni sull&#39;ordinamento dell&#39;attività dei visitatori in più file.
+* Per garantire la continuità e l’attribuzione del visitatore, l’inserimento di dati in blocco richiede che le righe all’interno dei file siano ordinate in ordine cronologico. Consulta [Gruppi di visitatori](https://developer.adobe.com/analytics-collection-apis/methods/bulk-data-insertion/visitor-groups) per informazioni sull&#39;ordinamento dell&#39;attività dei visitatori in più file.
 * L&#39;inserimento di dati in blocco richiede che i file siano compressi con estensione csv in formato .gzip.
 * BDIA utilizza `timestamp` invece di `date`.
 
