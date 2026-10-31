@@ -41,7 +41,7 @@ ht-degree: 20%
 
 In genere si utilizza l’API di Experience Platform Edge Network per raccogliere i dati lato server anziché lato client e durante la raccolta di dati da dispositivi quali dispositivi IoT, set-top box e applicazioni desktop. Poi invii i dati alla rete Edge e a servizi come Adobe Analytics.
 
-Considera anche l’API di Edge Network quando hai bisogno che i dati sensibili vengano raccolti in modo sicuro e autenticati in tutta la rete. Per ulteriori informazioni, vedere [Autenticazione](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html).
+Considera anche l’API di Edge Network quando hai bisogno che i dati sensibili vengano raccolti in modo sicuro e autenticati in tutta la rete. Per ulteriori informazioni, vedere [Autenticazione](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/authentication.html?lang=it).
 
 Panoramica ad alto livello dei compiti di implementazione:
 
