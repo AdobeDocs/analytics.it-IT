@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '681'
 ht-degree: 0%
-
 ---
-
 # Analizzare il traffico dagli strumenti di intelligenza artificiale per conversazioni
 
 Adobe Analytics fornisce strumenti per l’analisi del traffico AI sul sito web.
@@ -72,9 +70,11 @@ Puoi utilizzare la dimensione Tipo referrer in Analysis Workspace per analizzare
 
 * Flussi di lavoro agenti
 
-La dimensione Tipo referrer include l&#39;elemento dimensione [Strumenti di IA per la conversazione](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Questo elemento dimensione include un elenco predefinito di chatbot di IA.
+La dimensione Tipo referrer include l&#39;elemento dimensione [Strumenti di IA per la conversazione](/help/components/dimensions/referrer-type.md#conversational-ai-tools). Questo elemento dimensionale include solo le visite che hanno un referente da un elenco predefinito di chatbot di intelligenza artificiale.
 
-Per ulteriori informazioni, vedere [Tipo referrer](/help/components/dimensions/referrer-type.md).
+>[!IMPORTANT]
+>
+>Alcuni strumenti di intelligenza artificiale conversazionali, come ChatGPT, non inviano un referente quando aprono i collegamenti, pertanto le loro visite non sono incluse in questo elemento dimensione. Per ulteriori informazioni, vedi [Includi traffico di IA senza referrer](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer).
 
 ### Analizzare il traffico AI tramite il rilevamento di bot
 
