@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 19e31fec475abe3805e2637949dc86171123c210
+source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
 workflow-type: tm+mt
-source-wordcount: '7631'
-ht-degree: 81%
+source-wordcount: '7720'
+ht-degree: 80%
 ---
 # Aggiornamenti alla documentazione tecnica per Adobe Analytics
 
@@ -75,6 +75,8 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 
 | Funzione | Descrizione |
 | --- | --- |
+| **Novembre 2026** | |
+| Includi traffico AI senza referrer | Alcuni strumenti di intelligenza artificiale, tra cui ChatGPT, aprono i collegamenti senza inviare un referente, pertanto il tipo di referente &quot;Strumenti di intelligenza artificiale conversazionali&quot; non conta tali visite. La documentazione ora spiega questo e mostra come creare rapporti su questo traffico:<ul><li>È stata aggiunta una sezione su [utilizzo dei parametri UTM](/help/components/dimensions/referrer-type.md#include-ai-traffic-that-has-no-referrer) per acquisire il traffico di IA senza referrer.</li><li>È stata aggiunta una nota su questo comportamento alla sezione [Strumenti di IA per la conversazione](/help/components/dimensions/referrer-type.md#conversational-ai-tools) della dimensione &quot;Tipo referrer&quot;.</li><li>È stata aggiunta una nota su questo comportamento in [Analisi del traffico dagli strumenti di IA per la conversazione](/help/technotes/ai-traffic.md).</li></ul> |
 | **Ottobre 2026** | |
 | Blocca selezione per visualizzazioni | [Gestione delle origini dati](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) ristrutturata per separare la configurazione delle impostazioni dell&#39;origine dati dal blocco della selezione. È stato inoltre chiarito il funzionamento di [blocca selezione](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md#lock-selection) quando una visualizzazione è bloccata sulle righe di una tabella a forma libera, incluso ciò che accade quando le righe di raggruppamento bloccate non sono più nella tabella. |
 | Navigazione tramite tastiera per le colonne della tabella | È stato documentato come [ridimensionare](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#resize-columns) e [ridisporre](/help/analyze/analysis-workspace/workspace-faq/aw-accessibility.md#rearrange-columns) le colonne della tabella in Analysis Workspace utilizzando la tastiera, incluso il feedback dell&#39;assistente vocale. Ai tasti di scelta rapida è stata aggiunta anche una sezione [Azioni colonna tabella](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#table-column-actions). |
@@ -94,7 +96,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | **Maggio 2026** | |
 | Dimensioni e metriche di Streaming Media | Aggiornamenti significativi alla documentazione di Streaming Media. I collegamenti agli esempi includono [dimensioni principali dei servizi multimediali in streaming](/help/components/dimensions/sm-core.md) e [metriche principali dei servizi multimediali in streaming](/help/components/metrics/sm-core.md). |
 | **Marzo 2026** | |
-| Raggruppamento di un pannello | È stata riorganizzata la documentazione relativa alla [zona di rilascio di un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità di [raggruppamento](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
+| Raggruppamento dei dati di un pannello | È stata riorganizzata la documentazione relativa alla [zona di rilascio di un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#drop-zone) per supportare la nuova funzionalità di [raggruppamento](/help/analyze/analysis-workspace/c-panels/panels.md#break-down-a-panel). |
 | È stata identificata l’opzione predefinita per l’offuscamento dell’IP nelle nuove suite di rapporti | Sono state aggiunte informazioni che indicano che **Rimuovi indirizzo IP** è l&#39;opzione predefinita di [offuscamento IP per le nuove suite di rapporti](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md). |
 | Revisione ordine di elaborazione | Miglioramenti significativi all&#39;[Ordine di elaborazione in Adobe Analytics](/help/technotes/processing-order.md). |
 | Integrazione con Adobe Advertising | Aggiunte di dimensioni e metriche di integrazione Adobe Advertising, incluso [AMO ID](/help/components/dimensions/amo-id.md). |
