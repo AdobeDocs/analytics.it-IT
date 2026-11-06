@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 74%
+source-wordcount: '336'
+ht-degree: 64%
 ---
 # Requisiti per l’inoltro lato server
 
@@ -48,7 +48,7 @@ L’inoltro lato server funziona con [Analytics](https://www.adobe.com/it/data-a
 
 ## Servizi richiesti
 
-L’inoltro lato server richiede [Identity Service](https://experienceleague.adobe.com/it/docs/id-service/using/home). Identity Service fornisce un ID universale che identifica i visitatori in tutte le soluzioni di CX Enterprise. È necessario implementare il servizio ID prima di attivare l’inoltro lato server.
+L&#39;inoltro lato server richiede il [servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/home). Il Servizio ID visitatore fornisce un ID universale che identifica i visitatori del sito in tutte le soluzioni di CX Enterprise. È necessario implementare il Servizio ID visitatore prima di poter eseguire l&#39;inoltro lato server.
 
 ## Versioni del codice
 
@@ -63,4 +63,4 @@ L’inoltro lato server richiede la versione 1.5 (o successiva) delle librerie d
 Gli strumenti che monitorano le richieste HTTP effettuate da un browser consentono di trovare il numero di versione del codice di AppMeasurement e di Visitor API. Il file `AppMeasurement_Module_AudienceManagement.js` non contiene o restituisce un ID versione. Gli esempi seguenti mostrano l’aspetto degli ID versione per il codice di `AppMeasurement.js` e `VisitorAPI.js`.
 
 * `AppMeasurement.js`: la versione viene visualizzata nell&#39;URL della richiesta dopo il tipo di risposta, ad esempio `/b/ss/examplersid/1/JS-X.X.X/s234234238479`. [Strumenti di debug](/help/implement/validate/debugging.md) per le richieste di decodifica possono utilizzare un&#39;etichetta diversa, ma il valore segue sempre il pattern `JS-X.X.X`, dove `X` è un numero di versione.
-* `VisitorAPI.js`: cerca il parametro `d_visid_ver`. Ti mostrerà il servizio Visitor ID in questo modo: `d_visid_ver: 1.5.5`. Il codice di Visitor API precedente alla versione 1.5.2 non includeva un numero di versione. Se i risultati del monitoraggio non restituiscono alcun numero di versione, probabilmente stai utilizzando una libreria precedente (che devi quindi aggiornare).
+* `VisitorAPI.js`: cerca il parametro `d_visid_ver`. Ti mostrerà il servizio ID visitatori in questo modo: `d_visid_ver: 1.5.5`. Il codice di Visitor API precedente alla versione 1.5.2 non includeva un numero di versione. Se i risultati del monitoraggio non restituiscono alcun numero di versione, probabilmente stai utilizzando una libreria precedente (che devi quindi aggiornare).

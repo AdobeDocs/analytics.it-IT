@@ -22,17 +22,15 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 196
+source-wordcount: '194'
 ht-degree: 2%
-
 ---
-
 # Identificazione dei visitatori tramite la libreria JavaScript di Web SDK
 
-La libreria JavaScript di Adobe Experience Platform Web SDK (`alloy.js`) offre un approccio moderno e unificato alla raccolta dei dati per tutte le applicazioni Adobe CX Enterprise, incluso Adobe Analytics. Mentre la maggior parte dei clienti implementa in genere l&#39;estensione tag [Web SDK](web-sdk-extension.md), è possibile utilizzare la libreria Web SDK JavaScript in modo autonomo o all&#39;interno di un sistema di gestione tag di terze parti. Consulta [Alloy](https://github.com/adobe/alloy) su GitHub per scaricare la versione più recente della libreria.
+La libreria JavaScript di Adobe Experience Platform Web SDK (`alloy.js`) offre un approccio unificato e moderno alla raccolta dei dati per tutte le applicazioni Adobe CX Enterprise, incluso Adobe Analytics. Mentre la maggior parte dei clienti implementa in genere l&#39;estensione tag [Web SDK](web-sdk-extension.md), è possibile utilizzare la libreria Web SDK JavaScript in modo autonomo o all&#39;interno di un sistema di gestione tag di terze parti. Consulta [Alloy](https://github.com/adobe/alloy) su GitHub per scaricare la versione più recente della libreria.
 
-I dati di identità possono essere estesi per supportare ID personalizzati e più spazi dei nomi utilizzando XDM [`identityMap`](https://experienceleague.adobe.com/it/docs/experience-platform/collection/identity/identity-map). Adobe consiglia di utilizzare ECID come identificatore primario per Analytics, utilizzando altre opzioni di gestione delle identità per scenari avanzati.
+I dati di identità possono essere estesi per supportare ID personalizzati e più spazi dei nomi utilizzando XDM [`identityMap`](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/identity-map). Adobe consiglia di utilizzare ECID come identificatore primario per Analytics, utilizzando altre opzioni di gestione delle identità per scenari avanzati.
 
-Se la tua organizzazione utilizza la libreria JavaScript di Web SDK per inviare dati ad Adobe Analytics, è necessaria una configurazione minima per l’identificazione dei visitatori. Il servizio Experience Platform Identity viene inviato in modalità nativa alla libreria, richiedendo solo l&#39;impostazione di **[!UICONTROL Edge Domain]** nel comando `configure`. Se questo campo è impostato sul valore desiderato, l’identificazione del visitatore funziona senza alcuna configurazione aggiuntiva.
+Se la tua organizzazione utilizza la libreria JavaScript di Web SDK per inviare dati ad Adobe Analytics, è necessaria una configurazione minima per l’identificazione dei visitatori. L&#39;identità Edge Network viene inserita in modo nativo nella libreria, richiedendo solo l&#39;impostazione di **[!UICONTROL Edge Domain]** nel comando `configure`. Se questo campo è impostato sul valore desiderato, l’identificazione del visitatore funziona senza alcuna configurazione aggiuntiva.

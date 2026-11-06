@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 4516f6de27be12a2ae2fafe4e06d724f4a89fb83
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 86%
+source-wordcount: '1165'
+ht-degree: 84%
 ---
 # Quale strumento Adobe Analytics usare?
 
@@ -59,7 +59,7 @@ Per ulteriori informazioni sul confronto tra i prodotti Adobe Analytics, consult
 
 >[!BEGINSHADEBOX]
 
-Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto degli strumenti](https://video.tv.adobe.com/v/329303?captions=ita&quality=12&learn=on){target="_blank"}.
+Per un video demo, vedi ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Confronto degli strumenti](https://video.tv.adobe.com/v/27220?quality=12&learn=on){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -123,7 +123,7 @@ Gli **[Attributi cliente](https://experienceleague.adobe.com/docs/core-services/
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** è indicato nei seguenti casi:
 
-* Per accedere alle variabili altrimenti nascoste nell’interfaccia utente (indirizzo IP, Experience Cloud ID, ID visitatore di Analytics, URL pagina)
+* Per accedere alle variabili altrimenti nascoste nell’interfaccia utente (indirizzo IP, ECID, ID visitatore di Analytics, URL pagina)
 * Per accedere a dati più granulari rispetto a quelli accessibili dall’interfaccia (visualizzazione tabellare denormalizzata)
 * Per scaricare i dati in un formato adatto per l’input in una tabella pivot
 * Se il cliente desidera inserire dati Adobe in uno strumento di visualizzazione dati di terze parti (leggermente riepilogati e non a livello di hit)

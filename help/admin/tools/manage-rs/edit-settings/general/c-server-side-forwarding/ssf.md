@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 84%
+source-wordcount: '888'
+ht-degree: 77%
 ---
 # Panoramica sull’inoltro lato server
 
@@ -59,14 +59,14 @@ L’inoltro lato server migliora la raccolta dati perché:
 
 Per individuare la posizione della tua organizzazione in termini di implementazione dell’inoltro lato server, segui questi passaggi di convalida:
 
-## ![immagine step1_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Verificare l’implementazione del servizio ECID
+## ![immagine step1_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step1_icon.png) Verificare l&#39;implementazione del servizio ID visitatore
 
-Verifica se il servizio Experience Cloud ID (ECID) è implementato, esaminando la [richiesta di tracciamento di Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=it).
+Verifica se il servizio ID visitatore è implementato, esaminando la [richiesta di tracciamento di Analytics](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html?lang=it).
 
-Nella scheda Request (Richiesta), verifica che sia impostato un valore ECID. Ciò indica che il servizio Identity, prerequisito per l’inoltro lato server, è implementato correttamente.
+Nella scheda Request (Richiesta), verifica che sia impostato un valore ECID. Questo comunica che il Servizio ID visitatore è implementato correttamente, il che è un prerequisito per l’inoltro lato server.
 
 * Se trovi un valore ECID, procedi al passaggio 2.
-* Se non trovi un valore ECID, [implementa il servizio Identity](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=it) prima di procedere al passaggio 2.
+* Se non trovi un valore ECID, [implementa il servizio ID visitatore](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html?lang=it) prima di procedere al passaggio 2.
 
 ## ![immagine step2_icon.png](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/assets/step2_icon.png) Verificare la versione di implementazione di Inoltro lato server
 

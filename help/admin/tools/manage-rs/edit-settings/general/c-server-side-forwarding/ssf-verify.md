@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 70%
 ---
 # Verificare l’implementazione dell’inoltro lato server
@@ -50,7 +50,7 @@ Per controllare lo stato dell’inoltro lato server:
 
 >[!CAUTION]
 >
->Se la risposta contiene la coppia chiave-valore `"status":"SUCCESS"` o un’immagine 2 x 2, l’inoltro lato server *non* è configurato correttamente. Assicurati che il servizio Identity sia correttamente implementato, che il modulo App Measurement sia stato implementato, che la suite di rapporti applicabile sia stata mappata sull’ID organizzazione corretto e che l’inoltro lato server sia stato abilitato negli Strumenti di amministrazione di Analytics.
+>Se la risposta contiene la coppia chiave-valore `"status":"SUCCESS"` o un’immagine 2 x 2, l’inoltro lato server *non* è configurato correttamente. Assicurati che il servizio ID visitatore sia correttamente implementato, che il modulo App Measurement sia stato implementato, che la suite di rapporti applicabile sia stata mappata sull’ID organizzazione corretto e che l’inoltro lato server sia stato abilitato negli Strumenti di amministrazione di Analytics.
 
 >[!MORELIKETHIS]
 >

@@ -33,26 +33,26 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 13%
 ---
 # Tracking del motivo di rinuncia
 
 >[!BEGINSHADEBOX]
 
-*Questa pagina fa riferimento alla [dimensione](overview.md) che consente di visualizzare il potenziale impatto dei dati derivante dall&#39;abilitazione di alcune impostazioni della suite di rapporti. Non è correlato al servizio Opt-in [Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it).*
+*Questa pagina fa riferimento alla [dimensione](overview.md) che consente di visualizzare il potenziale impatto dei dati derivante dall&#39;abilitazione di alcune impostazioni della suite di rapporti. Non è correlato al servizio ID visitatori [Servizio Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it).*
 
 >[!ENDSHADEBOX]
 
-La dimensione &quot;Motivo rinuncia al tracciamento&quot; funge da anteprima dei dati che verrebbero esclusi se avessi abilitato le Impostazioni privacy. Questa dimensione viene utilizzata principalmente per determinare se l&#39;implementazione potrebbe essere influenzata negativamente se hai abilitato [Impostazioni privacy](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=it) in Impostazioni suite di rapporti.
+La dimensione &quot;Motivo rinuncia al tracciamento&quot; funge da anteprima dei dati che verrebbero esclusi se avessi abilitato le Impostazioni privacy. Questa dimensione viene utilizzata principalmente per determinare se l&#39;implementazione potrebbe essere influenzata negativamente se hai abilitato [Impostazioni privacy](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html) in Impostazioni suite di rapporti.
 
 Se le impostazioni di privacy non sono ancora state abilitate, le implementazioni tipiche visualizzano l’1% o meno del traffico complessivo della suite di rapporti in questa dimensione. Percentuali superiori all’1% di tutto il traffico suggeriscono un potenziale problema di implementazione che impedisce ad AppMeasurement di impostare cookie di prime parti.
 
 ## Popolare questa dimensione con i dati
 
-Questa dimensione funziona in modo predefinito per tutte le implementazioni che non hanno ancora abilitato [Impostazioni privacy](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html?lang=it). Se l&#39;organizzazione ha già abilitato l&#39;impostazione **[!UICONTROL Remove users who have blocked all cookies]** sia per i browser desktop che per quelli mobili, questa dimensione non contiene dati.
+Questa dimensione funziona in modo predefinito per tutte le implementazioni che non hanno ancora abilitato [Impostazioni privacy](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/browser-cookie-settings.html). Se l&#39;organizzazione ha già abilitato l&#39;impostazione **[!UICONTROL Remove users who have blocked all cookies]** sia per i browser desktop che per quelli mobili, questa dimensione non contiene dati.
 
 | Proprietà | Valore |
 | --- | --- |

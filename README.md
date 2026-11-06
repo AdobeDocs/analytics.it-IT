@@ -1,9 +1,8 @@
 ---
-source-git-commit: 205d86b13046bd17e321734904bf57435ef6e106
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 93%
-
+source-wordcount: '451'
+ht-degree: 78%
 ---
 # Contribuire agli articoli
 
@@ -12,7 +11,7 @@ Apprezziamo i contributi dalla community e da dipendenti Adobe esterni ai team d
 ## Codice di condotta open source di Adobe
 
 
-Questo progetto ha adottato il [Codice di condotta di Adobe Open Source](code-of-conduct.md) o il [Codice di condotta di .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Per ulteriori informazioni, consulta l’articolo [Contribuzione](contributing.md).
+Questo progetto ha adottato il [Codice di condotta open source di Adobe](code-of-conduct.md) o il [Codice di condotta di .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Per ulteriori informazioni, consulta l’articolo [Come contribuire](contributing.md).
 
 ## Informazioni sui contributi ai contenuti Adobe
 
@@ -22,13 +21,13 @@ Il modo in cui contribuisci dipende da chi sei e dal tipo di modifiche con le qu
 
 ### Modifiche minori
 
-Se contribuisci con piccoli aggiornamenti, consulta l’articolo e fai clic sul collegamento **Modifica** nell’articolo, per passare alla sorgente dell’articolo su GitHub. Quindi, utilizza l’interfaccia utente GitHub per effettuare gli aggiornamenti. Per ulteriori informazioni, consulta la [Guida per i collaboratori per la documentazione di Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
+Se desideri contribuire con piccoli aggiornamenti su base volontaria, consulta l’articolo e fai clic sul collegamento **Modifica**, che rimanda all’origine GitHub dell’articolo. Quindi, utilizza l’interfaccia utente di GitHub per apportare gli aggiornamenti. Per ulteriori informazioni, consulta la [Guida per i collaboratori per la documentazione di Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
 
 Le correzioni o i chiarimenti minori inviati per la documentazione e gli esempi di codice in questo archivio sono coperti dalle condizioni d’uso di Adobe.
 
 ### Modifiche principali o nuovi articoli dai membri della community
 
-Se fai parte della community di Adobe e desideri creare un nuovo articolo o inviare modifiche importanti, utilizza la scheda Issues (Segnalazioni) nell’archivio Git per inviare una segnalazione e avviare una conversazione con il team addetto alla documentazione. Dopo aver concordato un piano di attività, dovrai collaborare con un dipendente per contribuire alla creazione dei nuovi contenuti proposti tramite una combinazione di lavoro negli archivi pubblico e privato.
+Se fai parte della community Adobe e desideri creare un nuovo articolo o inviare modifiche importanti, utilizza la scheda Problemi nell’archivio Git per inviare una segnalazione e avviare una conversazione con il team addetto alla documentazione. Dopo aver concordato un piano, dovrai collaborare con un dipendente per introdurre i nuovi contenuti attraverso una combinazione di interventi negli archivi pubblici e privati.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -36,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Modifiche principali da dipendenti Adobe
 
-Se sei un autore tecnico, un responsabile di programma o uno sviluppatore del team addetto ai prodotti di una soluzione Adobe Experience Cloud ed è tuo compito creare o contribuire ad articoli tecnici, devi utilizzare l’archivio [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs) privato. <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
+Se sei un autore tecnico, un responsabile di programma o uno sviluppatore del team di prodotto per una soluzione Adobe CX Enterprise ed è tuo compito creare o contribuire ad articoli tecnici, devi utilizzare l&#39;archivio privato [https://git.corp.adobe.com/AdobeDocs](https://git.corp.adobe.com/AdobeDocs). <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
 ## Strumenti e configurazione
 

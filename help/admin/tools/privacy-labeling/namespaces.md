@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 56%
+source-wordcount: '939'
+ht-degree: 53%
 ---
 # Spazi dei nomi
 
@@ -45,7 +45,7 @@ La stringa dello spazio dei nomi viene usata per identificare i campi in cui si 
 * Un campo &quot;type&quot; che per la maggior parte delle richieste di Adobe Analytics contiene il valore &quot;analytics&quot;.
 * Un campo &quot;value&quot; contenente l’ID che Analytics deve cercare nelle variabili dello spazio dei nomi associate da ciascuna suite di rapporti.
 
-Per ulteriori informazioni e per un [elenco degli spazi dei nomi di identità standard](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/appendix#standard-namespaces), consulta la [documentazione dell&#39;API Privacy dei dati di CX Enterprise](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it). Vedi [Creare un processo di accesso/eliminazione](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/privacy-jobs#access-delete) per una richiesta di esempio.
+Per ulteriori informazioni e per un [elenco degli spazi dei nomi di identità standard](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/appendix#standard-namespaces), consulta la [documentazione dell&#39;API Privacy dei dati di CX Enterprise](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=it). Vedi [Creare un processo di accesso/eliminazione](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/api/privacy-jobs#access-delete) per una richiesta di esempio.
 
 ## ID cookie
 
@@ -91,7 +91,7 @@ Il valore deve essere specificato come numero decimale a 38 cifre. Se stai estra
 
 >[!NOTE]
 >
->Experience Cloud ID (ECID) era noto in precedenza come Marketing Cloud ID (MCID) e viene indicato ancora con quel nome in alcune documentazioni esistenti.
+>L’ECID era noto in precedenza come Marketing Cloud ID (MCID) e viene indicato ancora con quel nome in alcune documentazioni esistenti.
 >
 >Questi ID sono gli unici ID supportati da Analytics che utilizzano un valore di “type” diverso da “analytics”.
 

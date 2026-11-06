@@ -1,6 +1,6 @@
 ---
 title: Persone con Experience Cloud ID
-description: Il numero di persone in Analytics tra dispositivi che hanno un Experience Cloud ID.
+description: Il numero di persone in Analytics tra dispositivi con un ECID.
 feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
 TQID: https://experienceleague.adobe.com/w85poHKHnDYQ0iTItr2r26q1aRpN50AsdYzg6v82Jpk
@@ -18,21 +18,19 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 20%
-
+source-wordcount: '146'
+ht-degree: 15%
 ---
-
 # Persone con Experience Cloud ID
 
-&#39;Persone con Experience Cloud ID&#39; è una metrica di analisi [cross-device](../cda/overview.md) che mostra il numero di [persone](people.md) identificate da Adobe tramite il [Servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/home) o [Servizio Experience Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home).
+&#39;Persone con Experience Cloud ID&#39; è una metrica di analisi [cross-device](../cda/overview.md) che mostra il numero di [persone](people.md) identificate da Adobe tramite il [Servizio ID visitatore](https://experienceleague.adobe.com/it/docs/id-service/using/home) o [Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/identity/overview).
 
 ## Come è calcolata questa metrica
 
-Considerando ogni [persona](people.md) (identificata o non identificata), questa [metrica](overview.md) aumenta se l&#39;hit contiene la stringa di query `mid` (basata sul cookie [`s_ecid`](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics)).
+Considerando ogni [persona](people.md) (identificata o non identificata), questa [metrica](overview.md) aumenta se l&#39;hit contiene la stringa di query `mid` (basata sul cookie [`s_ecid`](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics)).
 
 Puoi creare la metrica calcolata `[People with ECID] ÷ [People]` per ottenere la percentuale di visitatori del tuo sito utilizzando il servizio ID.
 
-Per ulteriori informazioni sull&#39;importanza di Experience Cloud ID e del debug della configurazione, consulta la metrica equivalente non CDA [Visitatori con Experience Cloud ID](visitors-with-ecid.md).
+Per ulteriori informazioni sull&#39;importanza di ECID e del debug della configurazione, consulta la metrica equivalente non CDA [Visitatori con ID Experience Cloud](visitors-with-ecid.md).

@@ -31,7 +31,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 2%
@@ -41,10 +41,10 @@ ht-degree: 2%
 Il flusso di lavoro per la configurazione di Advertising Analytics consiste nei seguenti passaggi:
 
 <!--
->[!VIDEO](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/configuring-advertising-analytics)
 -->
 
-1. [Abilita la generazione di rapporti di Advertising Analytics per suite di rapporti](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Abilita il reporting di [!UICONTROL Advertising Analytics] per le suite di rapporti abilitate per Experience Cloud.
+1. [Abilita la generazione di rapporti di Advertising Analytics per suite di rapporti](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md). Abilita il reporting [!UICONTROL Advertising Analytics] per le suite di rapporti abilitate per CX-Enterprise.
 2. [Configura un account Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md). Configura in Strumenti di amministrazione di Analytics.
 3. [Rapporto sui dati di Advertising in Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md). I dati di ricerca vengono estratti dai motori di ricerca intorno alle 6 del mattino (06:00) nel fuso orario del centro dati di Adobe Analytics. I dati di Adobe Advertising vengono raccolti e inseriti nella suite di rapporti. E quindi convertito nel fuso orario della suite di rapporti come parte dell’inserimento dei dati in Analytics. Il reporting è disponibile in Analysis Workspace (modello di prestazioni di ricerca a pagamento), Report Builder e nell’API di reporting di Analytics.
 4. [Gestione account Advertising](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md). Puoi controllare lo stato dell’account e modificare/mettere in pausa gli account.

@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 58%
+source-wordcount: '768'
+ht-degree: 57%
 ---
 # Esenzione dal consenso CNIL
 
@@ -50,7 +50,7 @@ Il 1° ottobre 2020 l’Autorità francese per la protezione dei dati (il &quot;
 Le Linee guida prevedono un’esenzione limitata dall’obbligo di consenso (&quot;Esenzione dal consenso&quot;). L’Esenzione dal consenso si applica ai cookie di analisi il cui scopo è limitato alla misurazione del pubblico del sito o dell’app solo per conto dell’editore Web. Le Linee guida prevedono che, ai fini dell’applicazione dell’Esenzione dal consenso, si adottino le seguenti condizioni:
 
 * Periodo massimo di conservazione dei dati di 25 mesi.  È possibile rivedere le impostazioni di conservazione dei dati correnti in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Data Governance].  [Conservazione dati](/help/technotes/data-retention.md)
-* Disattiva i cookie di terze parti in ECID. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=it#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=it#id-service-api) e [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=it#id-service-api)
+* Disattiva i cookie di terze parti nel servizio ID visitatore. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=it#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=it#id-service-api) e [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=it#id-service-api)
 * Limite di 13 mesi per i cookie.  Puoi modificare la scadenza dei cookie di analisi utilizzando la variabile `cookieLifetime`. I cookie di CX Enterprise, tra cui Analytics ed ECID, estendono la data di scadenza dei cookie a ogni visita.  Per impostare una scadenza dei cookie statica e non continua, puoi: (1) scrivere un codice personalizzato per impostare una data in cui eliminare il cookie, oppure (2) utilizzare la tua CMP per controllare la data di reimpostazione del cookie.   [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) e [cookie CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=it#ec-cookies)
 * Ambito limitato. L’ambito del cookie deve essere limitato a un solo sito o applicazione. [Cookie del browser](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * Anonimizzazione. Anonimizza l’ultimo ottetto dell’indirizzo IP. [Impostazioni account generali](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)
@@ -67,7 +67,7 @@ Si applicano le seguenti considerazioni aggiuntive:
 * Adobe Analytics gestisce centri di elaborazione dati negli Stati Uniti, nel Regno Unito e a Singapore al fine di fornire flessibilità a tutti i clienti per raccogliere, elaborare e archiviare i propri dati a livello regionale. Durante la configurazione della configurazione iniziale di Adobe Analytics, i clienti possono selezionare la posizione desiderata del centro di elaborazione dati. I dati dei clienti vengono infine memorizzati nell’area selezionata per il prodotto Analytics di base.
 * Prendi in considerazione la raccolta dello stato di consenso (opt-in) in una variabile Analytics al fine di separare i dati con e senza consenso per la segmentazione, per le suite di rapporti virtuali o per l’indirizzamento a end-point diversi.
 * Nessuna misurazione all’esterno del sito o dell’app senza previo consenso, ad esempio nessuna campagna off-site, campagne e-mail o iFrame.
-* La raccolta di informazioni personali in variabili non è consentita senza consenso. [Controlla le attività di CX Enterprise in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=it#implementing-opt-in-on-the-page)
+* La raccolta di informazioni personali in variabili non è consentita senza consenso. [Controlla le attività di CX Enterprise in base al consenso degli utenti](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html#implementing-opt-in-on-the-page)
 * I dati devono essere utilizzati solo per produrre dati statistici anonimi, senza essere combinati con altri dati.
 * I dati non vengono utilizzati per azioni di riferimento incrociato.
 * I dati di geolocalizzazione GPS non vengono raccolti.

@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '782'
 ht-degree: 24%
 ---
 # Visualizzazione/gestione delle etichette sulla privacy per la governance dei dati
@@ -79,7 +79,7 @@ Se desideri applicare le stesse impostazioni di Privacy dei dati a più di una s
 
    >[!IMPORTANT]
    >
-   >Ricorda che tutte le suite di rapporti selezionate devono essere mappate nell’organizzazione CX Enterprise.
+   >Tieni presente che tutte le suite di rapporti selezionate devono essere mappate nell’organizzazione Adobe.
 
    Quando copi le etichette per una variabile o per un set di variabili in una suite di rapporti diversa, la copia passa alla variabile nella posizione corrispondente nella suite di rapporti di destinazione. Per i componenti standard, le variabili elenco e gli eventi di successo, le etichette verranno copiate nella variabile con **lo stesso nome** nella suite di rapporti di destinazione.
 

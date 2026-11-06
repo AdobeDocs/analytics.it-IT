@@ -20,18 +20,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 174
+source-wordcount: '174'
 ht-degree: 49%
-
 ---
-
 # Disattivazione degli accessi legacy
 
 Scopri come disabilitare gli accessi legacy per gli utenti di Analytics.
 
-Dopo che gli utenti hanno eseguito la migrazione dal sistema legacy di gestione utenti di Analytics al Adobe Admin Console, puoi disabilitare i loro accessi legacy. La disattivazione degli accessi legacy reindirizza gli utenti all&#39;accesso a CX Enterprise se tentano di utilizzare l&#39;accesso legacy.
+Dopo che gli utenti hanno eseguito la migrazione dal sistema legacy di gestione utenti di Analytics al Adobe Admin Console, puoi disabilitare i loro accessi legacy. La disattivazione degli accessi legacy reindirizza gli utenti all’accesso a CX Enterprise se tentano di utilizzare l’accesso legacy.
 
 1. Apri lo strumento di migrazione in **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL User ID Migration]**.
 1. Nella sezione [!DNL User Information], individua il dominio contenente gli utenti con cui vuoi collaborare, quindi fai clic su **[!UICONTROL Select Users]**.
@@ -44,4 +42,4 @@ Dopo che gli utenti hanno eseguito la migrazione dal sistema legacy di gestione 
 
    Disattiva accesso legacy indica quali dei tuoi utenti possono continuare a utilizzare i propri nome utente e password legacy per [!DNL my.omniture.com].
 
-   Non è possibile disattivare gli accessi legacy per un utente non ancora migrato. Una volta disabilitato, l’utente deve utilizzare il proprio Experience Cloud ID per accedere ad Analytics.
+   Non è possibile disattivare gli accessi legacy per un utente non ancora migrato. Una volta disabilitato, l’utente deve utilizzare le credenziali CX Enterprise per accedere ad Analytics.

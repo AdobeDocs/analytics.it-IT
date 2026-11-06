@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 55%
+source-wordcount: '759'
+ht-degree: 47%
 ---
 # Rimozione dei bot in Adobe Analytics
 
@@ -54,9 +54,9 @@ Per ulteriori dettagli, consulta [Comprendere e configurare le regole bot](/help
 
 Inoltre, dal momento che i bot si stanno evolvendo rapidamente, Adobe offre diverse altre potenti funzionalità che, se combinate correttamente e regolarmente, possono aiutare a dare impulso alla rimozione di questi nemici della qualità dei dati. Tali funzioni sono: servizio ID visitatore, segmentazione, Data Warehouse, attributi cliente e suite di rapporti virtuali. Ecco una panoramica su come utilizzare questi strumenti.
 
-### Passaggio 1: passa l&#39;ID Experience Cloud dei visitatori in un nuovo ID dichiarato
+### Passaggio 1: passa l’ECID dei visitatori in un nuovo ID dichiarato {#step-1-pass-your-visitors-experience-cloud-id-into-a-new-declared-id}
 
-Per iniziare, crea un nuovo ID dichiarato nel [servizio core Persone](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it). Passa l’ID Experience Cloud del visitatore in questo nuovo ID dichiarato, operazione che può essere eseguita in modo rapido e semplice con i [tag in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it). Per l’ID dichiarato utilizzeremo il nome “ECID”.
+Per iniziare, crea un nuovo ID dichiarato nel [servizio core Persone](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it). Passa l&#39;ECID del visitatore in questo nuovo ID dichiarato, operazione che può essere eseguita in modo rapido e semplice con [tag in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=it). Per l’ID dichiarato utilizzeremo il nome “ECID”.
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-cust-attr-setup.png)
 
@@ -72,9 +72,9 @@ Ora che l’ECID del visitatore è passato in un ID dichiarato, puoi utilizzare 
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-filter-seg1.png)
 
-### Passaggio 3: esporta tutti gli [!DNL Experience Cloud IDs] dal segmento tramite Data Warehouse
+### Passaggio 3: esporta tutti gli [!DNL ECIDs] dal segmento tramite Data Warehouse {#step-3-export-all-experience-cloud-ids-from-the-segment-via-data-warehouse}
 
-Dopo aver identificato i bot che utilizzano i segmenti, il passaggio successivo è utilizzare Data Warehouse per estrarre tutti gli ID Experience Cloud associati al segmento specifico. Questa schermata mostra come impostare la richiesta di [Data Warehouse](/help/export/data-warehouse/data-warehouse.md):
+Ora che hai identificato i bot che utilizzano i segmenti, il passaggio successivo è utilizzare Data Warehouse per estrarre tutti gli ECID associati a questo segmento. Questa schermata mostra come impostare la richiesta di [Data Warehouse](/help/export/data-warehouse/data-warehouse.md):
 
 ![](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/assets/bot-dwh-3.png)
 
@@ -111,7 +111,7 @@ Imposta almeno un promemoria mensile per identificare e filtrare i nuovi bot, pr
 
 >[!MORELIKETHIS]
 >
->* [Blocco Bot Migliore (Parte 1): Nozioni Di Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839?profile.language=it)
->* [Migliore blocco dei bot (parte 2): identificazione dei bot e utilizzo di CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132?profile.language=it)
->* [Blocco Bot Migliore (Parte 3): Hit Governor](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051?profile.language=it)
+>* [Blocco Bot Migliore (Parte 1): Nozioni Di Base](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-1-the-basics/ba-p/715839)
+>* [Migliore blocco dei bot (parte 2): identificazione dei bot e utilizzo di CIDR](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-2-identifying-bots-and-leveraging-cidr/ba-p/722132)
+>* [Blocco Bot Migliore (Parte 3): Hit Governor](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-blogs/better-bot-blocking-part-3-the-hit-governor/ba-p/727051)
 
