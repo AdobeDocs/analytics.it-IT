@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '875'
 ht-degree: 0%
 ---
 # Identificazione dei visitatori tramite l’API di inserimento dati
@@ -62,7 +62,7 @@ var ecid = visitor.getMarketingCloudVisitorID();
 
 Invia tale valore su ogni hit come parametro di query `mid`, insieme all&#39;ID organizzazione IMS come parametro `mcorgid` in modo che l&#39;ECID venga risolto correttamente. Se i dati vengono inoltrati ad Audience Manager, invia anche l&#39;area geografica da [`getLocationHint`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/getlocationhint) come parametro `aamlh`. Per associare i propri identificatori cliente al visitatore, utilizzare [`setCustomerIDs`](https://experienceleague.adobe.com/it/docs/id-service/using/id-service-api/methods/setcustomerids).
 
-Per la raccolta lato server, ottieni l’ECID sul client e invialo al server per l’invio a ogni hit. Per generare un ECID interamente lato server, senza client, utilizza l&#39;[integrazione diretta](https://experienceleague.adobe.com/it/docs/id-service/using/implementation/direct-integration) del servizio ID.
+Per la raccolta lato server, ottieni l’ECID sul client e invialo al server per l’invio a ogni hit. Per generare un ECID interamente lato server, senza client, utilizza l&#39;[integrazione diretta](https://experienceleague.adobe.com/it/docs/id-service/using/implementation/direct-integration) del servizio ID visitatore.
 
 ## Utilizzo dell’ID visitatore di Analytics
 

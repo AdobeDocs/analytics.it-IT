@@ -33,16 +33,16 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '287'
 ht-degree: 13%
 ---
 # Tracking del motivo di rinuncia
 
 >[!BEGINSHADEBOX]
 
-*Questa pagina fa riferimento alla [dimensione](overview.md) che consente di visualizzare il potenziale impatto dei dati derivante dall&#39;abilitazione di alcune impostazioni della suite di rapporti. Non è correlato al servizio Opt-in [Adobe Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it).*
+*Questa pagina fa riferimento alla [dimensione](overview.md) che consente di visualizzare il potenziale impatto dei dati derivante dall&#39;abilitazione di alcune impostazioni della suite di rapporti. Non è correlato al servizio ID visitatori [Servizio Opt-in](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=it).*
 
 >[!ENDSHADEBOX]
 

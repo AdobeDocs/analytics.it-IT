@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2101'
 ht-degree: 93%
 ---
 # Cookie di Adobe Analytics e del browser
@@ -84,8 +84,8 @@ I criteri ITP sono in continua evoluzione. Per criteri più recenti, consulta la
 
 Tutti i cookie di prime parti impostati da Adobe e le librerie JavaScript correlate sono interessati dai criteri ITP:
 
-* [&#x200B; cookie &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it) impostati dalla libreria del servizio ID visitatore di Adobe (ECID)
-* La versione legacy del [cookie “s_vi”](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) di Analytics quando è configurato con la raccolta dati di prime parti mediante un CNAME
+* [&#x200B; cookie &quot;AMCV&quot;](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=it) impostati dalla libreria del servizio ID visitatore di Adobe
+* Il precedente [cookie “s_vi”](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) di Analytics, quando è configurato con la raccolta dati di prima parte mediante un CNAME
 * La versione legacy del [cookie “s_fid”](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cookies/analytics) di Analytics, ovvero il cookie di fallback utilizzato quando non è possibile impostare “s_vi”
 
 #### Qual è l’impatto del programma ITP su Safari per Analytics?

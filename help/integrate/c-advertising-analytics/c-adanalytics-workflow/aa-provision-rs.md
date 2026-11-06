@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 16%
 ---
 # Abilitare suite di rapporti per Advertising Analytics
@@ -36,7 +36,7 @@ Per visualizzare i dati di ricerca di Advertising Analytics in Analytics, devi c
 
 1. Passa a **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
 
-1. Seleziona la suite di rapporti mappata alla tua organizzazione CX Enterprise.
+1. Seleziona la suite di rapporti mappata sulla tua organizzazione Adobe.
 1. Fai clic su **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**.
 
    ![Generazione rapporti](assets/aa-reporting.png)

@@ -46,13 +46,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d4db20e3498d54162806b3fdef0b34f45c93a6ff
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 530
+source-wordcount: '527'
 ht-degree: 67%
-
 ---
-
 # Confronto dei prodotti Analytics e requisiti
 
 Questa pagina contiene un confronto tra vari prodotti di Adobe Analytics: Analysis Workspace, Report Builder, Data Warehouse, Data Workbench, feed di dati e API 2.0 di Analytics.
@@ -63,7 +61,7 @@ Per informazioni sul prodotto Adobe Analytics da utilizzare, consulta [Quale str
 |---|---|---|---|---|---|
 | **Metodo di accesso** | [Browser](/help/analyze/get-started/sys-reqs.md) | [MS Excel per Windows](/help/analyze/legacy-report-builder/setup/system-requirements.md) | Configurazione tramite il browser. [Ulteriori informazioni](/help/analyze/get-started/sys-reqs.md) | Configurazione tramite il browser. [Ulteriori informazioni](/help/export/analytics-data-feed/data-feed-overview.md) | Strumenti API RESTful. Accedi con le credenziali Adobe Developer. [Ulteriori informazioni](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **Granularità dei dati** | Aggregata | Aggregata | Aggregata | Hit | Aggregata |
-| **Experience Cloud ID (ECID) disponibile** | No | No | Sì | Sì | No |
+| **ECID disponibile** | No | No | Sì | Sì | No |
 | **Timestamp disponibile** | No | No | No | Sì | No |
 | **Livello di elaborazione** | Elaborazione completa | Elaborazione completa con [rapporto in tempo reale](/help/admin/tools/manage-rs/edit-settings/realtime/realtime.md) distinto | Elaborazione completa | Elaborazione completa | Elaborazione completa |
 | **Dati da filtri bot per amministrazione inclusi** <br> [Ulteriori informazioni](/help/admin/tools/manage-rs/edit-settings/general/bot-removal/bot-removal.md) | No | Sì - Rapporto bot distinto | No | No | No |

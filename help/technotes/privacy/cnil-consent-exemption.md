@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 58%
+source-wordcount: '768'
+ht-degree: 57%
 ---
 # Esenzione dal consenso CNIL
 
@@ -50,7 +50,7 @@ Il 1° ottobre 2020 l’Autorità francese per la protezione dei dati (il &quot;
 Le Linee guida prevedono un’esenzione limitata dall’obbligo di consenso (&quot;Esenzione dal consenso&quot;). L’Esenzione dal consenso si applica ai cookie di analisi il cui scopo è limitato alla misurazione del pubblico del sito o dell’app solo per conto dell’editore Web. Le Linee guida prevedono che, ai fini dell’applicazione dell’Esenzione dal consenso, si adottino le seguenti condizioni:
 
 * Periodo massimo di conservazione dei dati di 25 mesi.  È possibile rivedere le impostazioni di conservazione dei dati correnti in [!UICONTROL Analytics] > [!UICONTROL Admin] > [!UICONTROL Data Governance].  [Conservazione dati](/help/technotes/data-retention.md)
-* Disattiva i cookie di terze parti in ECID. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=it#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=it#id-service-api) e [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=it#id-service-api)
+* Disattiva i cookie di terze parti nel servizio ID visitatore. [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=it#id-service-api), [disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=it#id-service-api) e [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=it#id-service-api)
 * Limite di 13 mesi per i cookie.  Puoi modificare la scadenza dei cookie di analisi utilizzando la variabile `cookieLifetime`. I cookie di CX Enterprise, tra cui Analytics ed ECID, estendono la data di scadenza dei cookie a ogni visita.  Per impostare una scadenza dei cookie statica e non continua, puoi: (1) scrivere un codice personalizzato per impostare una data in cui eliminare il cookie, oppure (2) utilizzare la tua CMP per controllare la data di reimpostazione del cookie.   [cookieLifetime](/help/implement/vars/config-vars/cookielifetime.md) e [cookie CX Enterprise](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=it#ec-cookies)
 * Ambito limitato. L’ambito del cookie deve essere limitato a un solo sito o applicazione. [Cookie del browser](/help/technotes/cookies/cookies.md#third-party-cookie-limitations)
 * Anonimizzazione. Anonimizza l’ultimo ottetto dell’indirizzo IP. [Impostazioni account generali](/help/admin/tools/manage-rs/edit-settings/general/general-acct-settings-admin.md)

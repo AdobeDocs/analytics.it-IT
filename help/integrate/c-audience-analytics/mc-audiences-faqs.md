@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1107'
 ht-degree: 1%
 ---
 # Domande frequenti
@@ -155,7 +155,7 @@ Sì. Nella configurazione della destinazione Adobe Audience Manager, verranno vi
 
 +++ Perché non posso attivare alcune suite di rapporti per SSF in Analytics Admin?
 
-È possibile abilitare solo le suite mappate all’organizzazione CX Enterprise.
+È possibile abilitare solo le suite mappate nell’organizzazione Adobe.
 
 Per ulteriori domande frequenti su questo argomento, vedi [Domande frequenti sull&#39;inoltro lato server](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf-faq.md).
 

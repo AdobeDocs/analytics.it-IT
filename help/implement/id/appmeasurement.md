@@ -30,13 +30,11 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 513
+source-wordcount: '513'
 ht-degree: 2%
-
 ---
-
 # Identificazione dei visitatori tramite AppMeasurement
 
 AppMeasurement è la libreria JavaScript legacy di Adobe Analytics per la raccolta dei dati. Anche se AppMeasurement offre da sola una modalità nativa per identificare i visitatori, molti browser moderni rifiutano i cookie di terze parti che tenta di impostare. Adobe consiglia vivamente di utilizzare il [servizio ID visitatore di Adobe](https://experienceleague.adobe.com/it/docs/id-service/using/home) in tutte le implementazioni per conformarsi ai moderni standard sulla privacy del browser. Tutte le versioni di AppMeasurement sono fornite in bundle con `VisitorAPI.js`, la libreria JavaScript utilizzata per implementare il servizio ID visitatori.

@@ -36,9 +36,9 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '2101'
+source-wordcount: '2094'
 ht-degree: 33%
 ---
 # Domande frequenti sulla privacy di Adobe Analytics
@@ -87,11 +87,11 @@ Per ulteriori informazioni sulle etichette per la governance dei dati, vedi [Eti
 
 In genere, i clienti di Analytics configurano alcune suite di rapporti di prova per verificare la funzionalità prima che venga rilasciata al pubblico. I siti web o le app di pre-produzione inviano i dati a queste suite di rapporti test/dev/QA per valutare come funzioneranno le cose quando il codice viene rilasciato prima che il traffico reale venga inviato alle suite di rapporti di produzione.
 
-Tuttavia, con una configurazione normale, l’elaborazione delle richieste RGPD non può essere testata prima su queste suite di rapporti di prova, prima di applicare le richieste alle suite di rapporti di produzione. Questo perché una richiesta di Privacy dei dati viene applicata automaticamente a tutte le suite di rapporti nell’organizzazione CX Enterprise, che spesso sono tutte le suite di rapporti per la tua azienda.
+Tuttavia, con una configurazione normale, l’elaborazione delle richieste RGPD non può essere testata prima su queste suite di rapporti di prova, prima di applicare le richieste alle suite di rapporti di produzione. Questo perché una richiesta di Privacy dei dati viene applicata automaticamente a tutte le suite di rapporti nell’organizzazione Adobe, che spesso sono tutte le suite di rapporti per la tua azienda.
 
 Tuttavia, esistono alcuni modi per verificare l’elaborazione Privacy dei dati prima di applicarla a tutte le suite di rapporti:
 
-* Un’opzione consiste nell’impostare un’organizzazione CX Enterprise separata che contenga solo suite di rapporti di prova. Quindi utilizza questa organizzazione CX Enterprise per il test Privacy dei dati e la normale organizzazione CX Enterprise per l’elaborazione effettiva Privacy dei dati.
+* Un’opzione consiste nell’impostare un’organizzazione separata che contiene solo suite di rapporti di prova. Quindi utilizza questa organizzazione per il test Privacy dei dati e la normale organizzazione per l’elaborazione effettiva Privacy dei dati.
 
 * Un’altra opzione consiste nell’assegnare namespace diversi agli ID nelle suite di rapporti di prova rispetto a quelle presenti nelle suite di rapporti di produzione. Ad esempio, puoi usare il prefisso “qa-” per ogni spazio dei nomi nelle suite di rapporti di prova. Le richieste di Privacy dei dati contenenti solo spazi dei nomi con il prefisso “qa” verranno eseguite solo per le suite di rapporti di prova. Successivamente, quando si inviano le richieste senza il prefisso qa, vengono applicate alle suite di rapporti di produzione. **Questo è l&#39;approccio consigliato, a meno che non si utilizzino gli spazi dei nomi `visitorId`, AAID, ECID o `customVisitorId`. Questi spazi dei nomi sono codificati e non è possibile specificarne nomi alternativi nelle suite di rapporti di prova.**
 

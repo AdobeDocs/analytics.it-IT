@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '306'
 ht-degree: 4%
 ---
 # Differenze tra i conteggi dei visitatori
@@ -46,11 +46,11 @@ Le metriche del visitatore sono:
  <tbody> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=it"  > Adobe Audience Manager: popolazione totale del segmento</a> </p> </td> 
-   <td colname="col3"> <p>Numero di dispositivi (Experience Cloud ID) che erano membri del segmento durante il periodo di lookback. </p> </td> 
+   <td colname="col3"> <p>Numero di dispositivi (ECID) che erano membri del segmento durante il periodo di lookback. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=it"  > Adobe Audience Manager: Popolazione segmento in tempo reale</a> </p> </td> 
-   <td colname="col3"> <p>Numero di dispositivi (Experience Cloud ID) che erano membri del segmento e hanno raggiunto le proprietà durante il periodo di lookback. </p> </td> 
+   <td colname="col3"> <p>Numero di dispositivi (ECID) che erano membri del segmento e hanno raggiunto le proprietà durante il periodo di lookback. </p> </td>
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: visitatori univoci </p> </td> 
@@ -58,7 +58,7 @@ Le metriche del visitatore sono:
   </tr> 
   <tr> 
    <td colname="col2"> <p>Analytics: visitatori con Experience Cloud ID </p> </td> 
-   <td colname="col3"> <p>Mostra il numero di visitatori univoci con un Experience Cloud ID che hanno raggiunto le proprietà durante la finestra di reporting. </p> </td> 
+   <td colname="col3"> <p>Mostra il numero di visitatori univoci con un ECID che ha raggiunto le tue proprietà durante l’intervallo di reporting. </p> </td>
   </tr> 
  </tbody> 
 </table>

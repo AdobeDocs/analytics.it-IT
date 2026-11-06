@@ -38,7 +38,7 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 4%
@@ -85,8 +85,8 @@ Verifica che siano presenti i seguenti prerequisiti:
 
 * Sei un cliente sia di Audience Manager che di Adobe Analytics.
 * Sei un amministratore di Audience Manager.
-* Stai utilizzando il servizio Identity v1.5 o versione successiva.
-* Le suite di rapporti di Adobe Audience Manager e Adobe Analytics sono mappate sulla stessa organizzazione CX Enterprise.
+* Stai utilizzando il servizio ID visitatori v1.5 o versione successiva.
+* Le suite di rapporti di Adobe Audience Manager e Adobe Analytics sono mappate sulla stessa organizzazione Adobe.
 * Hai utilizzato [inoltro lato server](/help/admin/tools/manage-rs/edit-settings/general/c-server-side-forwarding/ssf.md) e hai implementato il [modulo Gestione dell&#39;audience](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=it) (nessun codice DIL) - AppMeasurement 1.5 o versione successiva.
 
 Questi prerequisiti sono descritti nel [flusso di lavoro Audience Analytics](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md).

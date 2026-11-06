@@ -24,20 +24,18 @@ topic_v2:
     internal-label: Implementation
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: a947d2d7f45d4155a61cbfe0f8110851cca32e60
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 678
-ht-degree: 2%
-
+source-wordcount: '677'
+ht-degree: 0%
 ---
-
 # Considerazioni sulla migrazione al servizio ID visitatori per Adobe Analytics
 
 Se la tua organizzazione prevede di passare al servizio ID visitatori con un’implementazione di Analytics esistente, ci sono alcuni argomenti importanti da considerare. Queste considerazioni consentono di mantenere l’integrità nell’identificazione dei visitatori e di comprendere come funziona il Servizio ID visitatore in presenza di un’implementazione di Analytics esistente.
 
 >[!TIP]
 >
->Questa pagina si applica solo alle implementazioni di estensioni AppMeasurement o Analytics esistenti e consiste nell’aggiunta del servizio ID visitatore o nell’aggiornamento a un’implementazione Web SDK. In altre parole, l&#39;implementazione utilizza un ID Analytics legacy (`aid`) e sta per utilizzare un ECID (`mid`). Tutte le implementazioni di Web SDK utilizzano il [servizio Experience Platform Identity](https://experienceleague.adobe.com/it/docs/experience-platform/identity/home), che utilizza un ECID (`mid`) per impostazione predefinita.
+>Questa pagina si applica solo alle implementazioni di estensioni AppMeasurement o Analytics esistenti e consiste nell’aggiunta del servizio ID visitatore o nell’aggiornamento a un’implementazione Web SDK. In altre parole, l&#39;implementazione utilizza un ID Analytics legacy (`aid`) e sta per utilizzare un ECID (`mid`). Tutte le implementazioni di Web SDK utilizzano [Edge Network identity](https://experienceleague.adobe.com/it/docs/experience-platform/collection/identity/overview), che utilizza un ECID (`mid`) per impostazione predefinita.
 
 ## Interfaccia del servizio ID visitatore con i cookie visitatore legacy di Analytics
 

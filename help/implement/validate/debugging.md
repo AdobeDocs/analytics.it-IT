@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 049b9b7447c7f91d67eb58fc781898b685bd9d91
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1042'
 ht-degree: 2%
 ---
 # Raccolta dati di Debug Analytics
@@ -94,7 +94,7 @@ Avvia un [Edge Trace](https://experienceleague.adobe.com/it/docs/experience-plat
 
 ### Verifica elaborazione {#web-sdk-processing}
 
-Nella sessione di Assurance aperta da Edge Trace, cerca gli eventi per `hitdebugger`. Questi eventi utilizzano il fornitore `com.adobe.analytics.hitdebugger` e i relativi payload mostrano valori dopo l&#39;elaborazione di Analytics, ad esempio Experience Cloud ID (`mcvisId`) e `pageName`.
+Nella sessione di Assurance aperta da Edge Trace, cerca gli eventi per `hitdebugger`. Questi eventi utilizzano il fornitore `com.adobe.analytics.hitdebugger` e i relativi payload mostrano valori dopo l&#39;elaborazione di Analytics, ad esempio ECID (`mcvisId`) e `pageName`.
 
 Per informazioni dettagliate, vedere [Configurare Adobe Analytics con Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/it/docs/platform-learn/implement-web-sdk/applications-setup/setup-analytics).
 

@@ -22,13 +22,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 423
-ht-degree: 82%
-
+source-wordcount: '431'
+ht-degree: 83%
 ---
-
 # Visualizzazione dell’utilizzo della suite di rapporti
 
 La scheda Utilizzo suite di rapporti fornisce i dati di utilizzo del server per ogni suite di rapporti in tutte le società associate alla tua società di fatturazione che vi accedono, per il periodo di utilizzo corrente.
@@ -37,11 +35,11 @@ La scheda Utilizzo suite di rapporti fornisce i dati di utilizzo del server per 
 
 >[!IMPORTANT]
 >
->Se una suite di rapporti non è collegata a un&#39;organizzazione CX Enterprise, i relativi dati di utilizzo non vengono riportati in questa dashboard. Inoltre, un ID fatturazione può essere associato a più organizzazioni CX Enterprise; non esiste sempre una relazione 1:1 tra un&#39;organizzazione e un ID fatturazione.
+>Se una suite di rapporti non è collegata a un’organizzazione Adobe, i relativi dati di utilizzo non vengono riflessi in questa dashboard. Inoltre, un ID fatturazione può essere associato a più organizzazioni; non esiste sempre una relazione 1:1 tra un’organizzazione e un ID fatturazione.
 
 Dashboard di utilizzo della suite di rapporti
 
-* Mostra l’utilizzo della chiamata al server nel periodo di utilizzo corrente (Tutte le chiamate, Primaria, Secondaria, Primaria da dispositivo mobile, Secondaria da dispositivo mobile) per ogni suite di rapporti nell’organizzazione CX Enterprise.
+* Mostra l’utilizzo della chiamata al server nel periodo di utilizzo corrente (Tutte le chiamate, Primaria, Secondaria, Primaria da dispositivo mobile, Secondaria da dispositivo mobile) per ogni suite di rapporti nell’organizzazione.
 * Mostra la percentuale di utilizzo complessivo per categoria di chiamate al server.
 * Viene aggiornato ogni giorno.
 * È scaricabile.

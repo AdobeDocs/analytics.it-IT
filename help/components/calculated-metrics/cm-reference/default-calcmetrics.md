@@ -25,13 +25,11 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: 779
-ht-degree: 51%
-
+source-wordcount: '777'
+ht-degree: 50%
 ---
-
 # Metriche calcolate predefinite
 
 Adobe Analytics fornisce varie metriche calcolate per coprire i casi d’uso più comuni. Queste metriche calcolate sono disponibili per impostazione predefinita in Analysis Workspace.
@@ -68,7 +66,7 @@ Di seguito è riportato un elenco di ogni metrica calcolata fornita da Adobe, co
 | Tasso di conversione | Percentuale di visitatori che hanno eseguito un’azione desiderata, ad esempio un acquisto. | `[Orders] / [Visits]` |
 | Tasso di ingresso | Percentuale di visitatori che sono entrati nel sito da una determinata pagina, rispetto al numero totale di sessioni sul sito. | `[Entries] / [Visits]` |
 | Visitatori univoci stimati (ITP 2.1) | Per i visitatori ITP (utenti nei browser Safari), dividi Visitatori univoci per 2 o meno. Questa metrica calcolata presuppone che tu sia impostato su cookie utilizzando JavaScript lato client (non utilizzando un’implementazione CNAME). Le implementazioni che impostavano i cookie utilizzando JavaScript lato client erano interessate a partire da ITP 2.1. Per ulteriori informazioni, consulta [Intelligent tracking prevent](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/). | `[Unique Visitors (metric) with ITP Visitors (ITP 2.1, Non-CNAME implementations) segment] / [Unique Visitors metric + Non-ITP Visitors (ITP 2.1, Non-CNAME implementations) segment]` |
-| Copertura ID Experience Cloud | Percentuale di visitatori che hanno un ID Experience Cloud. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
+| Copertura ID Experience Cloud | La percentuale di visitatori con un ECID. | `[Visitors with Experience Cloud ID] / [Unique Visitors]` |
 | Tasso di uscita | Percentuale di visitatori che abbandonano il sito dopo aver visualizzato una determinata pagina. | `[Exits] / [Visits]` |
 | Visitatori univoci ITP 2.1 / Visitatori univoci | La percentuale di visitatori univoci che utilizzano un browser soggetta alle limitazioni dei cookie ITP 2.1. | `[Unique Visitors metric with ITP Visitors segment] / [Unique Visitors]` |
 | Assistenza ordini | Numero di volte in cui un canale o un’origine ha contribuito al percorso di acquisto di un cliente, senza però portare all’acquisto finale. | `[Orders (Visit Participation)] - [Orders]` |

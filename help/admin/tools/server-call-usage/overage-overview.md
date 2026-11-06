@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '885'
 ht-degree: 77%
 ---
 # Utilizzo chiamate al server
@@ -69,7 +69,7 @@ I seguenti termini sono importanti per comprendere l’utilizzo delle chiamate a
   </tr> 
   <tr> 
    <td colname="col1"> <p>Società di fatturazione (ID fatturazione) </p> </td> 
-   <td colname="col2"> <p>Persona giuridica a cui vengono addebitate le chiamate al server. Ad esempio, adobe.com. Ciascuna società di fatturazione dispone di un ID fatturazione utilizzato per identificare in modo univoco il cliente di fatturazione. Un ID fatturazione può essere associato a più organizzazioni CX Enterprise; non esiste sempre una relazione 1:1 tra un’organizzazione e un ID fatturazione. </p> </td> 
+   <td colname="col2"> <p>Persona giuridica a cui vengono addebitate le chiamate al server. Ad esempio, adobe.com. Ciascuna società di fatturazione dispone di un ID fatturazione utilizzato per identificare in modo univoco il cliente di fatturazione. Un ID fatturazione può essere associato a più organizzazioni Adobe; non esiste sempre una relazione 1:1 tra un’organizzazione e un ID fatturazione. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Società di accesso </p> </td> 
@@ -82,7 +82,7 @@ I seguenti termini sono importanti per comprendere l’utilizzo delle chiamate a
     </ul> <p>Nota: i dati relativi all’utilizzo delle chiamate al server per <u>tutte</u> le suite di rapporti all’interno di una società di fatturazione sono visibili a tutti gli utenti con l’appropriata <a href="/help/admin/admin-console/permissions/analytics-tools.md">autorizzazione</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Organizzazione CX Enterprise </p> </td> 
+   <td colname="col1"> <p>Organizzazione Adobe </p> </td> 
    <td colname="col2"> <p>Un'organizzazione è l'entità che consente all'amministratore di configurare gruppi e utenti e di controllare il single sign-on in CX Enterprise. L'organizzazione funziona come una società di accesso per tutti i prodotti e le soluzioni CX Enterprise. </p> <p>Nella maggior parte dei casi, un’organizzazione è il nome dell’azienda. Tuttavia, un’azienda può avere più organizzazioni. </p> </td> 
   </tr> 
   <tr> 

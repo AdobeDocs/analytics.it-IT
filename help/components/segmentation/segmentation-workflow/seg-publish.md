@@ -31,9 +31,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 319f78bb5f8c2449a7263e3f1c378c49656889a7
+source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1355'
 ht-degree: 32%
 ---
 # Pubblicare segmenti {#publish-segments}
@@ -68,7 +68,7 @@ Consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pubblica se
 ## Prerequisiti
 
 * Assicurati che la suite di rapporti in cui stai salvando il segmento sia [abilitata per CX Enterprise](/help/components/segmentation/segmentation-workflow/seg-publish.md). In caso contrario, non è possibile pubblicarlo in CX Enterprise.
-* Assicurati che la tua organizzazione utilizzi gli ID di Experience Cloud.
+* Assicurati che la tua organizzazione utilizzi gli ECID.
 * Prima che possa pubblicare i segmenti, l’amministratore deve assegnare l’autorizzazione [!UICONTROL Segment Publishing] a un profilo di prodotto nin [Admin Console](https://experienceleague.adobe.com/it/docs/core-services/interface/administration/admin-tool-experience-cloud) e aggiungerti al profilo di prodotto.
 
 ## Considerazioni
@@ -166,7 +166,7 @@ L&#39;UUID di Adobe Audience Manager nel browser è per impostazione predefinita
 
 In Adobe Audience Manager, l’elenco dei visitatori con ECID per un dato segmento viene valutato mentre Analytics condivide segmenti con CX Enterprise.
 
-1. In Audience Manager, vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** > **[!UICONTROL Analytics Traits]**. Viene visualizzata una cartella per ogni suite di rapporti di Analytics mappata alla tua organizzazione CX Enterprise. Queste cartelle (per Caratteristiche, Segmenti e Origini dati) sono create quando viene avviato o eseguito il provisioning del servizio principale Profili e Tipi di pubblico/Persone.
+1. In Audience Manager, vai a **[!UICONTROL Audience Data]** > **[!UICONTROL Traits]** > **[!UICONTROL Analytics Traits]**. Viene visualizzata una cartella per ogni suite di rapporti di Analytics mappata alla tua organizzazione Adobe. Queste cartelle (per Caratteristiche, Segmenti e Origini dati) sono create quando viene avviato o eseguito il provisioning del servizio principale Profili e Tipi di pubblico/Persone.
 1. Seleziona la cartella per la suite di rapporti in cui hai creato in precedenza il segmento da condividere con Audience Manager. Puoi vedere il segmento/pubblico creato. Quando condividi un segmento, si verificano 2 cose in Audience Manager:
    * viene creata una caratteristica, all’inizio senza dati. Circa 8 ore dopo la pubblicazione del segmento in [!DNL Analytics], l&#39;elenco degli ECID viene acquisito e condiviso con Audience Manager e altre soluzioni CX Enterprise.
 
