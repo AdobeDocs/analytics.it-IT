@@ -24,10 +24,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: 7932703bb459e84628099858c62d3be0392a7cf8
 workflow-type: tm+mt
-source-wordcount: '1997'
-ht-degree: 34%
+source-wordcount: '1989'
+ht-degree: 33%
 ---
 # Generare i segmenti
 
@@ -94,6 +94,10 @@ Puoi configurare il tipo e l’ambito della definizione:
 
 È sempre possibile modificare queste impostazioni in un secondo momento.
 
+>[!NOTE]
+>
+>L&#39;interfaccia del Generatore di segmenti non supporta tutte le definizioni di segmenti create tramite l&#39;[API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/segments/#create-a-segment). La pagina potrebbe essere caricata senza successo o generare errori per tali segmenti.
+
 ### Componenti
 
 Una parte fondamentale della costruzione della definizione del segmento è l’utilizzo di dimensioni, metriche, segmenti esistenti e intervalli di date. Tutti questi componenti sono disponibili dal pannello dei componenti nel Generatore di segmenti.
@@ -115,7 +119,6 @@ Per aggiungere un componente:
 
    Questa opzione viene visualizzata solo quando [!UICONTROL **Persona**] è selezionato come ambito (contenitore) della definizione dal menu a discesa **[!UICONTROL Include]** o **[!UICONTROL Exclude]**.
 
-   **NOTA**: questa funzionalità si trova nella fase di test limitato del rilascio e potrebbe non essere ancora disponibile nell&#39;ambiente. Questa nota verrà rimossa non appena la funzionalità sarà disponibile a livello generale. Per informazioni sulla procedura di rilascio di Customer Journey Analytics, consulta [Versioni delle funzionalità di Adobe Analytics](/help/release-notes/releases.md).
 
 1. (Facoltativo) Modifica l’operatore predefinito. Ad esempio, da **[!UICONTROL equals]** a **[!UICONTROL equals any of]**. Consulta [Operatori](../seg-reference/seg-operators.md) per una panoramica dettagliata degli operatori disponibili.
 

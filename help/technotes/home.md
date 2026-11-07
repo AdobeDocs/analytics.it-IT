@@ -74,5 +74,5 @@ In sintesi, Adobe Analytics è una potente soluzione di analisi web che fornisce
 
 * [Contatta l’Assistenza clienti](https://experienceleague.adobe.com/it?support-solution=Analytics?lang=it#support)
 * [Community di Adobe Analytics su Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics/ct-p/adobe-analytics-community?profile.language=it)
-* [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666)
+* [Risorse di Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-resources/m-p/276666?profile.language=it)
 * [Experience League](https://landing.adobe.com/experience-league/)
