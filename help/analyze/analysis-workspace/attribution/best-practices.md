@@ -20,17 +20,17 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 12464bdfe5e8bf2b7b0d253a27b5ad248716731f
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 63%
+source-wordcount: '445'
+ht-degree: 57%
 ---
 # Best practice di attribuzione
 
 La scelta del modello di attribuzione corretto per l’organizzazione dipende da una serie di considerazioni. Questo articolo esplora una metodologia e alcune best practice generali:
 
 * [Analisi esplorativa](#exploratory-analysis)
-* [Attribuzioni basate su regole](#rule-base-attribution)
+* [Attribuzione basata su regole](#rule-based-attribution)
 * [Utilizzare l’attribuzione algoritmica](#use-algorithmic-attribution)
 
 ## Analisi esplorativa
@@ -44,11 +44,11 @@ Questa fase consiste inizialmente nel comprendere il comportamento del cliente e
 * La proporzione/distribuzione di questi comportamenti
 
 Ad esempio, se il 50% dei clienti tocca 3 canali prima della conversione, esiste un’interazione tra questi 3 canali?
-Per comprendere meglio la situazione, puoi quindi eseguire un’analisi upper funnel o lower funnel.
+Per approfondire le tue conoscenze, esegui analisi upper e lower funnel.
 
 ### Analisi upper funnel
 
-I canali di analisi upper funnel sono utilizzati per creare awareness del brand o del prodotto. Ad esempio, la maggior parte degli annunci TV hanno come obiettivo la brand awareness. È possibile utilizzare il [modello di attribuzione Decadimento nel tempo](/help/analyze/analysis-workspace/attribution/models.md), poiché nel tempo le persone si dimenticheranno del tuo annuncio TV.
+I canali di analisi upper funnel sono utilizzati per creare awareness del brand o del prodotto. Ad esempio, la maggior parte degli annunci TV hanno come obiettivo la brand awareness. Utilizza il [modello di attribuzione Decadimento nel tempo](/help/analyze/analysis-workspace/attribution/models.md), poiché nel tempo le persone si dimenticheranno del tuo annuncio TV.
 
 ### Analisi lower funnel
 
@@ -62,15 +62,19 @@ Lo scopo di questo passaggio è quello di convalidare le tue ipotesi.
 
 Supponiamo che l&#39;ipotesi sia: &quot;*Il mio canale di primo contatto ha un impatto maggiore sulla conversione rispetto al mio canale di ultimo contatto.*&quot;
 
-In questo caso, per testare questa ipotesi si utilizza il [modello di attribuzione a forma di J inversa](/help/analyze/analysis-workspace/attribution/models.md). Questo modello attribuisce il 60% del credito al primo punto di contatto.
+In questo caso, utilizza il [modello di attribuzione a forma di J inversa](/help/analyze/analysis-workspace/attribution/models.md) per testare questa ipotesi. Questo modello attribuisce il 60% del credito al primo punto di contatto.
 
 **Esempio 2**
 
-Supponiamo che l&#39;ipotesi sia: *&quot;In un settore specifico (ad esempio, il settore dei viaggi), la finestra di attribuzione è di 60 o 90 giorni, non di 30 giorni, perché i clienti effettuano molte ricerche prima di acquistare un prodotto.*&quot;
+Supponiamo che l&#39;ipotesi sia: *&quot;Nel settore dei viaggi, la finestra di attribuzione è di 60 o 90 giorni, non di 30, perché i clienti effettuano molte ricerche prima di acquistare.&quot;*
 
-In questo caso, è necessario cambiare l’[intervallo di lookback](/help/analyze/analysis-workspace/attribution/models.md) impostandolo su 90 giorni.
+In questo caso, modifica l&#39;[intervallo di lookback](/help/analyze/analysis-workspace/attribution/models.md) in 90 giorni.
 
 ## Utilizzare l’attribuzione algoritmica
+
+>[!NOTE]
+>
+>È necessario disporre del pacchetto **Ultimate** per utilizzare l&#39;attribuzione algoritmica. Se non sai quale pacchetto Adobe Analytics hai, contatta l’amministratore.
 
 Se non disponi ancora di un modello di attribuzione che fornisca risposte soddisfacenti a tutte le domande, puoi utilizzare l’[attribuzione algoritmica](/help/analyze/analysis-workspace/attribution/algorithmic.md). Poiché è molto difficile convalidare un numero elevato di ipotesi e combinazioni possibili, l’attribuzione algoritmica utilizza algoritmi incorporati per allocare credito tra gli elementi dimensionali.
 
@@ -78,4 +82,4 @@ Se non disponi ancora di un modello di attribuzione che fornisca risposte soddis
 
 * Potrebbe essere necessario avvalersi anche di un data scientist, invece di affidarsi solo ad Analysis Workspace.
 * Puoi fare affidamento sui dati non elaborati, come nei feed di dati di Adobe.
-* È consigliabile utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), ad esempio, se si desidera considerare i dati relativi alle impression.
+* È consigliabile utilizzare [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/cja-overview), ad esempio, se si desidera considerare i dati relativi alle impression.
