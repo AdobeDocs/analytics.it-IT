@@ -32,7 +32,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: f5c62a921b700585a98069b42e5feefad4144373
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 43%
@@ -47,7 +47,7 @@ Puoi suddividere i dati in Analysis Workspace in modo illimitato in base alle tu
 
 1. Dal sottomenu selezionare **[!UICONTROL Dimensions]**, **[!UICONTROL Metrics]**, **[!UICONTROL Segments]** o **[!UICONTROL Date ranges]** e quindi selezionare un elemento. Oppure cerca semplicemente un componente nel campo **[!UICONTROL *Cerca *]**.
 
-Puoi analizzare metriche per elementi dimensionali o segmenti di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
+Puoi raggruppare le metriche per elementi dimensionali o segmenti di pubblico in diversi periodi di tempo selezionati. Puoi anche effettuare analisi molto più dettagliate.
 
 >[!NOTE]
 >

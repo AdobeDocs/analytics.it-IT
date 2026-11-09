@@ -47,7 +47,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '3441'
 ht-degree: 76%
@@ -198,7 +198,7 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 | | Mostra totali complessivi | Questo totale rappresenta tutti gli hit che sono stati raccolti, talvolta denominati *totale suite di rapporti*. Quando un segmento viene applicato a livello di pannello o all’interno della tabella a forma libera, questo totale si regola per riflettere tutti gli hit che corrispondono ai criteri del segmento. Il totale complessivo non è supportato per tabelle o raggruppamenti con [righe statiche](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
 | | Mostra sparkline | Mostra o nascondi i grafici a linee nella parte inferiore del grafico. Quando è nascosta, la legenda non fa più riferimento visivamente alle linee. |
 | | Numero | Determina se mostrare/nascondere il valore numerico di una metrica nella cella. Ad esempio, se la metrica è visualizzazioni di pagina, il valore numerico è il numero di visualizzazioni di pagina per l’elemento riga. |
-| | Percentuale | Determina se mostrare o nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni pagina, il valore percentuale corrisponde al numero di visualizzazioni pagina per l’elemento della riga, diviso per il totale di visualizzazioni pagina per la colonna.  Nota: per essere più precisi, a volte vengono visualizzate percentuali superiori al 100%. Il limite superiore viene spostato a 1.000% per garantire che le colonne possano crescere anche in larghezza. |
+| | Percentuale | Determina se mostrare o nascondere il valore percentuale di una metrica nella cella. Ad esempio, se la metrica è Visualizzazioni pagina, il valore percentuale corrisponde al numero di visualizzazioni pagina per l’elemento della riga, diviso per il totale di visualizzazioni pagina per la colonna.  Nota: per maggiore precisione, a volte vengono visualizzate percentuali superiori al 100%. Il limite superiore viene spostato a 1.000% per garantire che le colonne possano crescere anche in larghezza. |
 | | Mostra anomalie | Determina se eseguire il rilevamento delle anomalie sui valori di questa colonna. |
 | | Interpret zero as no value (Interpreta zero come nessun valore) | Per le celle con valore 0, determina se visualizzare 0 oppure la cella vuota. Questa funzione è particolarmente utile se si esaminano i dati quotidianamente e il mese in corso non è ancora terminato.  Invece di visualizzare valori 0 per le date future, è possibile sostituirli con delle celle vuote. I grafici rispettano anche questa impostazione, ovvero non visualizzano una linea o una barra con valori 0 quando questa impostazione è selezionata. |
 | | Informazioni di base | Determina se mostrare o nascondere tutta la formattazione della cella, inclusi il grafico a barre e la formattazione condizionale <ul><li>Grafico a barre</li> Un grafico a barre orizzontale che rappresenta il valore della cella rispetto al totale della colonna. <li>Formattazione condizionale</li>Per ulteriori informazioni sulla formattazione condizionale, consulta la sezione “Formattazione condizionale” in [Impostazioni colonna](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)</ul> |
@@ -267,7 +267,7 @@ Fai clic sui titoli della sezione collegata per ulteriori informazioni e contest
 | **Grafici sovrapposti** | | |
 | | Sovrapposizione 100% | Applicata alle visualizzazioni Superfici sovrapposte, Barre sovrapposte o Barre orizzontali sovrapposte, questa impostazione converte il grafico in una visualizzazione con sovrapposizione 100%. <p>Per ulteriori informazioni, consulta [Barre e barre sovrapposte](/help/analyze/analysis-workspace/visualizations/bar.md).</p> |
 | **[Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md)** | | |
-| | Numero di bucket | Scegli il numero di intervalli di dati (bucket) nella visualizzazione. Il numero massimo consentito è 50. <p>Per ulteriori informazioni, consulta la sezione [Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md).</p> |
+| | Numero di bucket | Scegli il numero di intervalli di dati (bucket) nella visualizzazione. È consentito un massimo di 50 bucket. <p>Per ulteriori informazioni, consulta la sezione [Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md).</p> |
 | | Metodo di conteggio | Scegli tra le seguenti opzioni: <ul><li>Hit</li><li>Visita</li><li>Visitatore</li></ul> <p>Ad esempio, se utilizzato con le visualizzazioni di pagina, puoi scegliere le visualizzazioni di pagina per visitatore, le visualizzazioni di pagina per visita o le visualizzazioni di pagina per hit. Per Hit, “Occorrenze” viene usato come metrica dell’asse y in una tabella a forma libera.</p> |
 | **[Mappa](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** | | |
 | | Dimensione plotting | <ul><li>Latitudine/longitudine mobile</li><li>Dimensione geografica</li></ul> |

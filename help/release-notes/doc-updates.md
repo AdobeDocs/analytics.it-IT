@@ -57,10 +57,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 464a88e60a47759383c89b312ce4db5f4aad311d
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '7720'
-ht-degree: 80%
+source-wordcount: '7719'
+ht-degree: 79%
 ---
 # Aggiornamenti alla documentazione tecnica per Adobe Analytics
 
@@ -206,7 +206,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | **Settembre 2023** | |
 | Struttura di articoli aggiornata per il pannello Tempo trascorso su contenuti multimediali | È stata rimossa la cartella Tempo trascorso su contenuti multimediali, che è stata combinata in un unico articolo: [Pannello Tempo trascorso su contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>Questa modifica è più in linea con la documentazione relativa ad altri pannelli.</p> |
 | Miglioramenti del contenuto introduttivo | Sono state aggiunte informazioni che descrivono le principali attività e risorse introduttive per amministratori, analisti, utenti finali e sviluppatori. Sono disponibili i seguenti nuovi articoli: <ul><li>[Introduzione (per ruolo)](/help/analyze/get-started/get-started-by-role.md)</li><li>[Informazioni sull’interfaccia di Analytics](/help/analyze/get-started/analytics-interface.md)<li>[Casi di utilizzo](/help/analyze/get-started/use-cases.md)</li></ul> |
-| Miglioramenti alla documentazione del reporting per Streaming Media Collection | È stata riorganizzata una parte dei contenuti nella sezione di reporting della guida su Streaming Media Collection, incluso il consolidamento della documentazione API in una propria sezione e la modifica dell’ordine di alcuni articoli. |
+| Miglioramenti alla documentazione del reporting per Streaming Media Collection | È stato riorganizzato parte del contenuto della sezione Reporting della guida alla raccolta di contenuti multimediali in streaming, incluso il consolidamento della documentazione API nella propria sezione e la regolazione dell’ordine di alcuni articoli. |
 | **Agosto 2023** | |
 | Chiarimento sui feed di dati | La [definizione di date di inizio e di fine](/help/export/analytics-data-feed/create-feed.md) è stata aggiornata per chiarire che, durante l’elaborazione dei feed di dati per i dati storici, è possibile impostare la data di inizio su qualsiasi data nel passato in cui i dati vengono raccolti. |
 | Gestione dei dati della rete Edge di Adobe Experience Platform | Sono stati aggiunti dei contenuti su come Adobe Analytics [gestisce i dati dalla rete Edge](../implement/aep-edge/overview.md). |
@@ -240,7 +240,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | **Aprile 2023** | |
 | Trasferimento delle risorse utente e impostazione delle scadenze dell’account | Sono state aggiunte informazioni su come [trasferire le risorse utente e impostare le scadenze dell’account](/help/admin/tools/user-management/users-assets.md). |
 | 2 nuove guide sugli endpoint per l’API Adobe Analytics 2.0 | <ul><li>[API delle dimensioni di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[API delle metriche di Analytics](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
-| Segmenti di progetto (segmenti ad hoc e rapidi) | Documentazione semplificata sui segmenti di progetto e rimozione delle informazioni duplicate. I passaggi per la creazione di segmenti ad hoc sono ora combinati con quelli per la [creazione di segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
+| Segmenti di progetto (segmenti ad hoc e rapidi) | Documentazione semplificata sui segmenti di progetto e rimozione di informazioni duplicate. I passaggi per la creazione di segmenti ad hoc sono ora combinati con quelli per la [creazione di segmenti rapidi](/help/analyze/analysis-workspace/components/segments/quick-segments.md). |
 | Ricerche dinamiche | Informazioni aggiuntive su [Ricerche dinamiche](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) è stato aggiunto. Precedentemente, le informazioni esistevano solo per gli attributi mobili, uno dei diversi tipi di ricerche dinamiche. |
 | **Marzo 2023** | |
 | Supporto Web SDK per Activity Map | [Implementazione di Adobe Analytics](/help/implement/home.md) aggiornata. |
@@ -361,7 +361,7 @@ Aggiornamenti ai contenuti della documentazione di Adobe Analytics a partire da 
 | **Ottobre 2020** | |
 | 23 ottobre 2020 | Visualizzazione a linee di Workspace, [opzione Media mobile della linea di tendenza](/help/analyze/analysis-workspace/visualizations/line.md): questa impostazione è stata aggiunta alle impostazioni della linea di tendenza per la visualizzazione [!UICONTROL Line]. Anche nota come media continua, la media mobile utilizza un numero specifico di punti di dati (determinati da una selezione di **[!UICONTROL Periods]**), ne calcola la media e utilizza tale media come punto sulla linea. |
 | 23 ottobre 2020 | La [pagina della guida sulle prestazioni di Workspace](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md) presenta i diversi fattori che influiscono sulle prestazioni del progetto e fornisce collegamenti verso suggerimenti su come ottimizzarle. |
-| 23 ottobre 2020 | Sono stati aggiunti dei miglioramenti alla documentazione dei dashboard di Adobe Analytics. Lo stile della scheda di valutazione mobile di Workspace ora corrisponde a quello dell’app. |
+| 23 ottobre 2020 | Sono stati aggiunti miglioramenti alla documentazione delle dashboard di Adobe Analytics. Lo stile della scheda di valutazione mobile di Workspace ora corrisponde a quello dell’app. |
 | **Settembre 2020** | |
 | 17 settembre 2020 | [Download di 50.000 elementi per una singola dimensione](/help/analyze/analysis-workspace/curate-share/download-send.md#download-items): ora puoi scaricare 50.000 elementi per una singola dimensione in una tabella a forma libera, con segmenti e filtri applicati. Potrai quindi accedere a più di 400 righe di dati all’esterno di Analysis Workspace. |
 | 17 settembre 2020 | [Miglioramenti alla visualizzazione Linee](/help/analyze/analysis-workspace/visualizations/line.md): <ul><li>Puoi mostrare o nascondere l’asse X e l’asse Y di qualsiasi visualizzazione [!UICONTROL Line]. Questa funzione può rivelarsi particolarmente utile quando le visualizzazioni [!UICONTROL Line] sono più compatte.</li><li>Puoi sovrapporre un’etichetta di valore minimo e massimo su qualsiasi visualizzazione delle linee per evidenziare rapidamente picchi e valli in una metrica.</li><li>Puoi sovrapporre linee di tendenza di regressione diverse su qualsiasi visualizzazione delle linee per vedere più facilmente la tendenza nei dati. Le opzioni includono [!UICONTROL Linear], [!UICONTROL Logarithmic], [!UICONTROL Exponential], [!UICONTROL Power] e [!UICONTROL Quadratic].</li></ul> |

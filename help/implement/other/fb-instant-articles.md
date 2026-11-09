@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Measurement
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Il flusso di lavoro generale per l’implementazione di Adobe Analytics è il se
 1. Crea una pagina `stats.html`. Crea un codice per questa pagina per richiamare i parametri della stringa di query dall’URL e assegnare ciascun parametro a una variabile di Analytics
 1. Ospita la pagina `stats.html` nel server Web
 1. Implementare Analytics sull&#39;articolo istantaneo di Facebook facendo riferimento al file `stats.html` in un iframe
-1. Includi parametri di stringa di query nell’attributo iframe `src`
+1. Includi parametri della stringa di query nell’attributo iframe `src`
 
 ### Passaggio 1: creare una pagina `stats.html`
 

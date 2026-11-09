@@ -37,7 +37,7 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: b3c18ecbee8c2fc80c6743d015ad418f16a6feb4
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1871'
 ht-degree: 77%
@@ -63,7 +63,7 @@ In Analysis Workspace sono disponibili i seguenti tipi di visualizzazione:
 | ![Funnel di conversione](/help/assets/icons/ConversionFunnel.svg) | [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | La visualizzazione Abbandono mostra dove l’utenza ha lasciato (abbandonato) e continuato (proseguito) attraverso una sequenza di pagine predefinite. |
 | ![GraphPathing](/help/assets/icons/GraphPathing.svg) | [Flusso](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | Una visualizzazione del flusso mostra i percorsi seguiti dal cliente nei tuoi siti Web e nelle tue app. |
 | ![ViewTable](/help/assets/icons/ViewTable.svg)</p> | [Tabella a forma libera](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | Una visualizzazione tabella a forma libera è una visualizzazione interattiva. La visualizzazione tabella a forma libera è la base per l’analisi dei dati in Workspace. |
-| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Una visualizzazione a istogramma classifica l’utenza, le visite o gli hit in blocchi in base a un volume di metrica. |
+| ![GraphHistogram](/help/assets/icons/Histogram.svg) | [Istogramma](/help/analyze/analysis-workspace/visualizations/histogram.md) | Una visualizzazione a istogramma classifica l’utenza, le visite o gli hit in bucket in base a un volume di metrica. |
 | ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) | [Barre orizzontali](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Una visualizzazione a barre orizzontali mostra barre orizzontali che rappresentano diversi valori per una o più metriche. |
 | ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg) | [Barra orizzontale sovrapposta](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | Una visualizzazione a barre orizzontali sovrapposte mostra barre orizzontali che rappresentano diversi valori per una o più metriche. |
 | ![KeyMetrics](/help/assets/icons/KeyMetrics.svg) | [Riepilogo delle metriche chiave](/help/analyze/analysis-workspace/visualizations/key-metric.md) | Una visualizzazione di riepilogo delle metriche chiave combina le visualizzazioni di linee, modifiche di riepilogo e numeri di riepilogo. |

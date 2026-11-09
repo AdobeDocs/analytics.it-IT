@@ -67,13 +67,11 @@ topic_v2:
     internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 9e2c89f4188c723b4623a6e7859b74ede15e155b
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 1699
+source-wordcount: '1699'
 ht-degree: 98%
-
 ---
-
 # Introduzione per amministratori, analisti, utenti finali e sviluppatori
 
 In un’organizzazione tipica sono disponibili 4 tipi di utenti Adobe Analytics:
@@ -138,7 +136,7 @@ Prima di rendere Adobe Analytics disponibile agli utenti dell’organizzazione, 
 | Configurare le suite di rapporti e definire le impostazioni per la propria azienda | Una suite di rapporti è un silos di dati utilizzati da Adobe Analytics per generare i rapporti.<p>Gli amministratori possono anche configurare [suite di rapporti virtuali](/help/components/vrs/vrs-about.md) per segmentare ulteriormente i dati.</p> | <ul><li>[Creare una suite di rapporti](/help/admin/tools/manage-rs/new-rs/t-create-a-report-suite.md)</li><li>[Panoramica delle impostazioni aziendali](/help/admin/tools/company/c-company-settings.md)</li></ul> |
 | Importare dati | Le origini dati Adobe Analytics ti consentono di importare manualmente altri dati online e offline per il reporting. | [Panoramica sulle origini dati](/help/import/data-sources/overview.md) |
 | Classificare i dati con le classificazioni | Le classificazioni consentono di classificare i dati per un migliore utilizzo delle variabili, permettendo di includere più contenuto in una singola variabile. | [Panoramica delle classificazioni](/help/components/classifications/classifications-overview.md) |
-| Gestire i componenti | Utilizza il dizionario dati e le aree di gestione per ciascun tipo di componente per definire quali di essi sono disponibili nell’implementazione di Analytics e quali sono approvati per la tua organizzazione.<p>Questa dovrebbe essere un’attività continua per garantire che i componenti vengano utilizzati in modo efficace all’interno della tua organizzazione. </p> | <ul><li>[Panoramica del dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[Gestione metriche calcolate](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[Gestire i segmenti](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[Creare di intervalli di date personalizzati](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
+| Gestire i componenti | Utilizza il dizionario dati e le aree di gestione per ciascun tipo di componente per definire quali di essi sono disponibili nell’implementazione di Analytics e quali sono approvati per la tua organizzazione.<p>Questa dovrebbe essere un’attività continua per garantire che i componenti vengano utilizzati in modo efficace all’interno della tua organizzazione. </p> | <ul><li>[Panoramica del dizionario dati](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)</li><li>[Gestione metriche calcolate](/help/components/calculated-metrics/workflow/cm-manager.md)</li><li>[Gestisci segmenti](/help/components/segmentation/segmentation-workflow/seg-manage.md)</li><li>[Creare di intervalli di date personalizzati](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)</li></ul> |
 | Rilevamento delle anomalie | Il rilevamento anomalie fornisce un metodo statistico per determinare come una particolare metrica è cambiata in relazione ai dati precedenti. | [Panoramica del rilevamento anomalie](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md) |
 | Analisi dei contributi | L’analisi dei contributi riconosce pattern nascosti nei dati per spiegare le anomalie statistiche e identificare le correlazioni alla base di azioni inaspettate da parte della clientela, valori fuori dalla norma e improvvisi picchi o ribassi di metriche selezionate su segmenti di pubblico convergenti. | [Panoramica dell’analisi dei contributi](/help/analyze/analysis-workspace/c-anomaly-detection/anomaly-detection.md#contribution-analysis) |
 | Segmentazione di Analytics | Consente di creare, gestire, condividere e applicare segmenti di pubblico potenti e mirati ai tuoi rapporti utilizzando le funzionalità di Analytics, Adobe CX Enterprise, Adobe Target e altri prodotti Adobe integrati. | [Segmentazione di Analytics](/help/components/segmentation/seg-home.md) |

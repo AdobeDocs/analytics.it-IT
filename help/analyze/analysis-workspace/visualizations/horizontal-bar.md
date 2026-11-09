@@ -24,13 +24,11 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 64%
-
+source-wordcount: '205'
+ht-degree: 58%
 ---
-
 # Barre orizzontali (sovrapposte)
 
 >[!BEGINSHADEBOX]
@@ -52,7 +50,7 @@ La visualizzazione a barre orizzontali ha un’opzione standard e sovrapposta.
 
 <!-- markdownlint-enable MD034 -->
 
-Questa visualizzazione a **[!UICONTROL Horizontal bar]** ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) mostra barre orizzontali che rappresentano diversi valori per una o più metriche.
+La visualizzazione ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg) **[!UICONTROL Horizontal bar]** mostra barre orizzontali che rappresentano diversi valori in una o più metriche.
 
 ![Barre orizzontali che mostrano le metriche tra cui visualizzazioni di pagina, velocità di pagina, visite, entrate e uscite.](assets/horizontal-bar.png)
 

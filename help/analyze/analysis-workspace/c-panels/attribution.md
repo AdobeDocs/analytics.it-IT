@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 84%
+ht-degree: 83%
 ---
 # Pannello Attribuzione {#attribution-panel}
 
@@ -108,7 +108,7 @@ Il pannello **[!UICONTROL Attribution]** restituisce un set completo di dati e v
 
 ### Visualizzazioni di Attribution
 
-La visualizzazione seguente fa parte dell’output del pannello.
+Le seguenti visualizzazioni fanno parte dell’output del pannello.
 
 * **Metrica totale**: numero totale di conversioni che si sono verificate nell&#39;intervallo di tempo di reporting e sono attribuite alla dimensione selezionata.
 * **Barra di confronto attribuzione**: confronta visivamente le conversioni attribuite per ciascun elemento dimensionale dalla dimensione selezionata. Ogni colore della barra rappresenta un modello di attribuzione distinto.

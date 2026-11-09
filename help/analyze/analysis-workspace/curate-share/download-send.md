@@ -33,10 +33,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 26%
+source-wordcount: '1095'
+ht-degree: 24%
 ---
 # Scaricare progetti e dati
 
@@ -154,7 +154,7 @@ Se richiedi più di un download alla volta, ricevi una notifica che indica che o
 
 | Domanda | Risposta |
 | --- | --- |
-| Perché il mio PDF scaricato è costituito da una sola pagina? | La funzionalità [Scarica PDF](#download-as-csv-or-pdf) non impagina i PDF scaricati. |
+| Perché il PDF scaricato è costituito da una sola pagina? | La funzionalità [Scarica PDF](#download-as-csv-or-pdf) non impagina i PDF scaricati. |
 | È possibile esportare più di 50.000 elementi con l&#39;opzione **[!UICONTROL Download items as CSV]**? | Anche se ogni download può contenere un masimo di 50.000 elementi dimensionali, puoi cambiare l’ordine nella tabella in modo da recuperare gli elementi che erano in fondo alla tabella secondo il precedente ordine, o applicare un filtro per scaricare specifici elementi. |
 | Che funzione svolge **[!UICONTROL Copy visualization]**? | A differenza di [!UICONTROL **Copia dati negli Appunti**] o [!UICONTROL **Copia selezione negli Appunti**], l&#39;opzione del menu di scelta rapida **[!UICONTROL Copy visualization]** non è un&#39;opzione di esportazione. Questa opzione ti consente di [copiare una visualizzazione](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#context-menu) o [copiare un pannello](/help/analyze/analysis-workspace/c-panels/panels.md#context-menu) da una posizione in Workspace a un&#39;altra. Ad esempio, da un pannello all’altro nello stesso progetto o da un progetto a un altro. |
 

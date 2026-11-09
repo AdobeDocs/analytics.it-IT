@@ -8,7 +8,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '2629'
 ht-degree: 1%
@@ -141,7 +141,7 @@ L&#39;installazione e la configurazione del connettore in entrata comportano res
 Prima di abilitare il connettore, conferma quanto segue:
 
 - Hai completato l’onboarding di Adobe Brand Visibility per il sito da connettere.
-- L&#39;inoltro del registro BYOCDN è configurato e confermato per tale sito (vedi [prequisiti](#inbound-integration)).
+- L&#39;inoltro del registro BYOCDN è configurato e confermato per tale sito (vedi [prerequisiti](#inbound-integration)).
 - I dati vengono visualizzati nel dashboard Traffico agente di Adobe Brand Visibility per quel sito.
 - Sai a quale suite di rapporti desideri connettere il sito.
 
@@ -256,4 +256,4 @@ Questa sezione è per revisione interna e deve essere rimossa prima della pubbli
 
 ## Integrazione in uscita
 
-Questa guida descrive solo l’integrazione Brand Visibility in entrata, che aggiunge dati sul traffico da bot e agenti automatizzati a una suite di rapporti Analytics. La documentazione sull’integrazione pubblicata descrive anche una direzione in uscita, in cui i dati sulle prestazioni di Analytics vengono resi disponibili per Brand Visibility all’interno del prodotto Brand Visibility. Tale direzione esula dall&#39;ambito della presente guida. Per ulteriori informazioni sull&#39;integrazione in uscita, vedere la [documentazione Brand Visibility](https://experienceleague.adobe.com/it/docs/brand-visibility/using/resources/adobe-analytics-integration).
+Questa guida descrive solo l’integrazione Brand Visibility in entrata, che aggiunge dati sul traffico da bot e agenti automatizzati a una suite di rapporti Analytics. La documentazione sull’integrazione pubblicata descrive anche una direzione in uscita, in cui i dati sulle prestazioni di Analytics vengono resi disponibili per Brand Visibility all’interno del prodotto Brand Visibility. Tale direzione esula dall&#39;ambito della presente guida. Per ulteriori informazioni sull&#39;integrazione in uscita, vedere la [documentazione di Brand Visibility](https://experienceleague.adobe.com/it/docs/brand-visibility/using/resources/adobe-analytics-integration).
