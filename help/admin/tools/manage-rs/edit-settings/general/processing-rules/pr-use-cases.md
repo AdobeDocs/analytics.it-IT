@@ -25,13 +25,11 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '771'
 ht-degree: 26%
-
 ---
-
 # Casi di utilizzo delle regole di elaborazione
 
 Le modalità di utilizzo delle regole di elaborazione all’interno dell’organizzazione sono molto estese. Le sezioni seguenti illustrano alcuni modi comuni per utilizzarli a proprio vantaggio.
@@ -157,6 +155,6 @@ Puoi rimuovere o eliminare un evento specifico da un hit utilizzando le regole d
 | Condizione | Nessuno (eseguire sempre) |
 | Azione | [!UICONTROL Set event] Evento1 a [!UICONTROL Custom value] `0` |
 
-![Schermata dell&#39;interfaccia delle regole di elaborazione visualizzata in per rimuovere un evento](assets/remove_event.png)
+![Schermata dell&#39;interfaccia delle regole di elaborazione che mostra come rimuovere un evento](assets/remove_event.png)
 
 +++

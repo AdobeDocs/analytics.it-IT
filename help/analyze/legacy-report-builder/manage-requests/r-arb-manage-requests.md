@@ -24,18 +24,16 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 554
+source-wordcount: '554'
 ht-degree: 3%
-
 ---
-
 # Gestire le richieste: definizioni
 
 {{legacy-arb}}
 
-Visualizzare i dettagli dello stato di una richiesta e utilizzare le descrizioni dei campi per gestire le richieste in Report Builder.
+Visualizza i dettagli dello stato di una richiesta e utilizza le descrizioni dei campi per gestire le richieste in Report Builder.
 
 ## Panoramica {#section_75C288C945FA4781A4EDF806711A5660}
 

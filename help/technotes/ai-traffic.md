@@ -24,7 +24,7 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b4c7365f660ff093731d55c7aba9cae5ade76789
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Un hit viene generato su una pagina web quando JavaScript viene eseguito sulla p
 
 | Tipo di traffico AI | Genera hit | Considerazioni |
 |---------|----------|---------|
-| **Formazione preliminare** | Sì | Gli hit vengono generati durante la pre-formazione quando il contenuto del sito web viene acquisito nell’intelligenza artificiale. Tuttavia, la pre-formazione si verifica raramente e il contenuto incluso nella pre-formazione di un’intelligenza artificiale può essere riutilizzato ripetutamente nelle risposte future senza generare ulteriori hit sul sito web. <p>In altre parole, un singolo hit che si verifica durante la pre-formazione di un’intelligenza artificiale può essere riutilizzato più volte per più risposte on-demand senza generare hit aggiuntivi sul sito web.</p><p>Per informazioni su come analizzare questo tipo di traffico AI in Analysis Workspace, consulta [Analizzare il traffico AI utilizzando il rilevamento di bot](#analyze-ai-traffic-using-bot-detection).</p> |
+| **Formazione preliminare** | Sì | Gli hit vengono generati durante la pre-formazione quando il contenuto del sito web viene acquisito nell’intelligenza artificiale. Tuttavia, la pre-formazione si verifica raramente e il contenuto incluso nella pre-formazione di un’intelligenza artificiale può essere riutilizzato ancora e ancora nelle risposte future senza generare ulteriori hit sul sito web. <p>In altre parole, un singolo hit che si verifica durante la pre-formazione di un’intelligenza artificiale può essere riutilizzato più volte per più risposte on-demand senza generare hit aggiuntivi sul sito web.</p><p>Per informazioni su come analizzare questo tipo di traffico AI in Analysis Workspace, consulta [Analizzare il traffico AI utilizzando il rilevamento di bot](#analyze-ai-traffic-using-bot-detection).</p> |
 | **Richieste su richiesta** | No | La risposta di IA non genera hit perché utilizza una combinazione di:<ul><li>I dati preaddestrati <br/>Le informazioni sono già incluse nelle conoscenze preaddestrate dell&#39;intelligenza artificiale, pertanto l&#39;intelligenza artificiale non esegue JavaScript sulle pagine.</li><li>Ricerca Web su richiesta <br/>Recupera solo il HTML non elaborato della pagina Web durante la ricerca Web, pertanto l&#39;IA non esegue JavaScript sulle pagine.</li></ul> |
 | **Collegamenti materiali Source nelle risposte AI** | Sì | Gli hit vengono generati quando un utente fa clic sul collegamento al materiale sorgente incluso nella risposta di IA. Un hit non viene generato se un collegamento è incluso nella risposta e l’utente non fa clic sul collegamento. <p>Alcune risposte chatbot basate sull’intelligenza artificiale includono collegamenti al materiale sorgente, altre no. </p><p>Per informazioni su come analizzare questo tipo di traffico AI in Analysis Workspace, vedi [Analizzare il traffico AI per tipo di referrer](#analyze-ai-traffic-by-referrer-type).</p> |
 | **Flussi di lavoro agenti** | Sì | Gli hit vengono generati su ogni pagina quando l’agente di IA fa clic nel flusso di lavoro per conto dell’utente. <p>Per informazioni su come analizzare questo tipo di traffico AI in Analysis Workspace, vedi [Analizzare il traffico AI per tipo di referrer](#analyze-ai-traffic-by-referrer-type).</p> |

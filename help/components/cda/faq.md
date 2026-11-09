@@ -44,10 +44,10 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
 source-wordcount: '1724'
-ht-degree: 98%
+ht-degree: 97%
 ---
 # Domande frequenti
 
@@ -59,7 +59,7 @@ Puoi utilizzare una visualizzazione [!UICONTROL Flow] con la dimensione Tipo di 
 
 1. Accedi ad Adobe Analytics e crea un nuovo progetto Workspace vuoto.
 2. Fai clic sulla scheda Visualizzazioni a sinistra e trascina una visualizzazione Flusso sull’area di lavoro a destra.
-3. Fai clic sulla scheda Componenti a sinistra e trascina la dimensione “Tipo di dispositivo mobile” nella posizione centrale denominata “Dimensione o elemento”.
+3. Fai clic sulla scheda Componenti a sinistra e trascina la dimensione &quot;Tipo di dispositivo mobile&quot; nella posizione centrale denominata &quot;Dimension o elemento&quot;.
 4. Questo rapporto di flusso è interattivo. Fai clic su uno dei valori per espandere i flussi alle pagine successive o precedenti. Utilizza il menu di scelta rapida per espandere o comprimere le colonne. Possono essere utilizzate anche dimensioni diverse all’interno dello stesso rapporto di flusso.
 
 +++

@@ -26,13 +26,11 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38cd05960c27b0bec0a713cb833907f4a658013e
+source-git-commit: c426cc55c1888aa690748fab2c4a7b28fbba8dec
 workflow-type: tm+mt
-source-wordcount: 721
+source-wordcount: '721'
 ht-degree: 5%
-
 ---
-
 # Regole di elaborazione per il canale di marketing
 
 _Questa pagina fa riferimento alle regole di elaborazione che assegnano un canale di marketing a un hit. Vedi [Regole di elaborazione](../general/processing-rules/pr-overview.md) per la funzione che ti consente di regolare la modalità di raccolta dei dati._
@@ -102,6 +100,6 @@ Quando si impostano le condizioni della regola, sono disponibili le seguenti opz
 
 **Le variabili di conversione** consentono di specificare un eVar personalizzato, un operatore corrispondente e un valore da cercare.
 
-| Condizione della variabile di conversione | Descrizione |
+| Condizione variabile di conversazione | Descrizione |
 |---|---|
 | **eVar 1-250** | La dimensione [eVar](/help/components/dimensions/evar.md) associata. |
