@@ -25,26 +25,14 @@ role_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: 317
+source-wordcount: '317'
 ht-degree: 5%
-
 ---
-
 # Flussi interdimensionali
 
-Un flusso interdimensionale ti consente di esaminare i percorsi seguiti dai clienti attraverso varie dimensioni.
-
-<!-- 
-
->[!BEGINSHADEBOX]
-
-See ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Inter-dimensional flows](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow){target="_blank"} for a demo video.
-
->[!ENDSHADEBOX]
-
--->
+Un flusso interdimensionale ti consente di esaminare i percorsi seguiti dagli utenti in base a diverse dimensioni.
 
 Questo articolo mostra come utilizzare questo flusso per due casi d’uso: interazioni ed eventi delle app mobili e come le campagne guidano le visite web.
 

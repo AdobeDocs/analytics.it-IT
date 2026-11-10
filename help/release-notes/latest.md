@@ -39,12 +39,12 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 741f37f9e3b3b72d8fb8d4b087b476446603ce77
+source-git-commit: 50ace1195dfca6da1b044f35c9d84c5638039d0e
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 30%
+source-wordcount: '1664'
+ht-degree: 29%
 ---
-# Note sulla versione corrente di Adobe Analytics (ottobre 2026)
+# Note sulla versione corrente di Adobe Analytics (ottobre - dicembre 2026)
 
 **Ultimo aggiornamento**: 29 ottobre 2026
 

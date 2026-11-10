@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 212d38950264a33b925b7281c241992cadca2bfb
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '519'
 ht-degree: 1%
 ---
 # Assistente all’aggiornamento di Web SDK
@@ -71,7 +71,7 @@ Prima di creare una migrazione, assicurati di disporre di:
 
 * Le [autorizzazioni](#permissions) necessarie per l&#39;Assistente all&#39;aggiornamento.
 * Proprietà tag che utilizza l’estensione Adobe Analytics.
-* Libreria in tale proprietà che contiene l’implementazione di cui desideri eseguire la migrazione. La libreria può essere in qualsiasi stato, inclusa la pubblicazione. Vedi [Librerie](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/libraries) nella guida utente Tag.
+* Libreria in tale proprietà che contiene l’implementazione di cui desideri eseguire la migrazione. La libreria può essere in qualsiasi stato, inclusa la pubblicazione. Vedi [Librerie](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/libraries) nella guida utente Tag.
 
 ### Autorizzazioni {#permissions}
 
@@ -81,6 +81,6 @@ L&#39;Assistente all&#39;aggiornamento richiede il seguente accesso. Rivolgiti a
 | --- | --- |
 | [Autorizzazioni di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL View Schemas]</li><li>[!UICONTROL Manage Schemas]</li><li>[!UICONTROL View Datasets]</li><li>[!UICONTROL Manage Datasets]</li><li>[!UICONTROL View Identity Namespaces]</li></ul> |
 | Accesso ai prodotti | <ul><li>Raccolta dati (tag)</li><li>Adobe Analytics</li></ul> |
-| [Diritti tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/administration/user-permissions) | [!UICONTROL Manage Properties] |
+| [Diritti tag](https://experienceleague.adobe.com/it/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL Manage Properties] |
 
 Quando sei pronto, [crea una migrazione](manager.md#create).

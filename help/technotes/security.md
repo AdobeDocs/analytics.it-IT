@@ -23,7 +23,7 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 13%
@@ -34,4 +34,4 @@ Adobe segue i processi e i controlli di sicurezza stabiliti per conformarsi agli
 
 Le informazioni sulle procedure specifiche di Adobe Analytics sono disponibili nella [Panoramica sulla sicurezza di Adobe Analytics](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf). Descrive i processi seguiti per architettura, autenticazione, centri dati, rete e personale.
 
-Consulta il [programma di rivelazione della vulnerabilità dei servizi Web di Adobe](https://hackerone.com/adobe) su HackerOne se riscontri una vulnerabilità a segnalare qualsiasi prodotto di Adobe, incluso Adobe Analytics.
+Consulta il [Programma Adobe Bug Bounty](https://www.adobe.com/it/trust/security/bug-bounty.html) se riscontri una vulnerabilità a segnalare qualsiasi prodotto Adobe, incluso Adobe Analytics.

@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 1cbafc8cee90cbf213b8cd68768e017ff24d268a
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '537'
 ht-degree: 3%
 ---
 # Collisioni hash
@@ -64,7 +64,7 @@ Le collisioni hash non possono essere eliminate completamente, ma il loro impatt
 * **Modifica l&#39;intervallo di date**: le tabelle hash cambiano ogni mese. Se si modifica l’intervallo di date in modo che si estenda su un altro mese, a ogni valore possono essere assegnati hash diversi che non si scontrano. In genere è il modo più rapido per eliminare un’anomalia visibile da un rapporto specifico.
 * **Riduci il numero di valori univoci**: puoi regolare l&#39;implementazione o utilizzare [Regole di elaborazione](/help/admin/tools/manage-rs/edit-settings/general/processing-rules/pr-overview.md) per ridurre il numero di valori univoci raccolti da una dimensione. Ad esempio, se la dimensione raccoglie un URL, puoi rimuovere stringhe di query o protocollo.
 * **Usa [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) o [Feed dati](/help/export/analytics-data-feed/data-feed-overview.md)**: questi strumenti non si basano su tabelle hash.
-* **Passa a [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=it)**: Customer Journey Analytics non ha livelli di hashing e [nessun limite di cardinalità per le dimensioni](https://experienceleague.adobe.com/docs/analytics-platform/using/components/dimensions/high-cardinality.html). Prendere in considerazione il passaggio a questo prodotto se i rapporti sono spesso influenzati da conflitti di hash o da [[!UICONTROL Low-Traffic]](/help/technotes/low-traffic.md).
+* **Passa a [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=it)**: Customer Journey Analytics non ha livelli di hashing e [nessun limite di cardinalità per le dimensioni](https://experienceleague.adobe.com/it/docs/analytics-platform/using/cja-components/dimensions/high-cardinality). Prendere in considerazione il passaggio a questo prodotto se i rapporti sono spesso influenzati da conflitti di hash o da [[!UICONTROL Low-Traffic]](/help/technotes/low-traffic.md).
 
 >[!MORELIKETHIS]
 >
