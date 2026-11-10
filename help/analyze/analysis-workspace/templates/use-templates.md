@@ -62,11 +62,9 @@ topic_v2:
     internal-label: Privacy
 source-git-commit: 83dd61d47dd9bebdc9c79410969c32ea36efd4d4
 workflow-type: tm+mt
-source-wordcount: 18719
+source-wordcount: '18719'
 ht-degree: 92%
-
 ---
-
 # Utilizzare i modelli
 
 I modelli (o i modelli aziendali) in Analysis Workspace forniscono informazioni rapide sugli scenari di reporting più comuni. Di seguito sono riportati alcuni esempi di domande a cui puoi rispondere con i modelli:
@@ -498,7 +496,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="template--media-content-consumption"
 >title="Visualizza quali sono i contenuti multimediali maggiormente utilizzati e che coinvolgono gli utenti."
->abstract="**Questo può aiutarti** a comprendere meglio dove vanno le persone che accedono per la prima volta al sito, quali sezioni visitano di più e quali pagine hanno più probabilità di allontanarle dallo stesso.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare quali percorsi del sito conducono le persone verso le pagine più importanti e quali pagine hanno maggiori probabilità di allontanarle dallo stesso.<br/>Questo modello utilizza la dimensione Pagina e le metriche Visualizzazioni pagina, Visite, Visitatori univoci, Percentuale di entrata, Percentuale di mancati recapiti, Percentuale di uscita e Velocità operazioni. Inoltre utilizza le visualizzazioni Flusso per le sezioni di entrata, uscita e principali; una visualizzazione con grafico a dispersione che mostra le visualizzazioni di pagina per le pagine più comuni; una visualizzazione a barre che mostra le visualizzazioni di pagina per blocchi di tempo e una visualizzazione a linee che mostra una visualizzazione con le tendenze del tempo medio trascorso sul sito."
+>abstract="**Questo può aiutarti** a comprendere meglio dove vanno le persone che accedono per la prima volta al sito, quali sezioni visitano di più e quali pagine hanno più probabilità di allontanarle dallo stesso.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare quali percorsi del sito conducono le persone verso le pagine più importanti e quali pagine hanno maggiori probabilità di allontanarle dallo stesso.<br/>Questo modello utilizza la dimensione Pagina e le metriche Visualizzazioni pagina, Visite, Visitatori univoci, Percentuale di entrata, Percentuale di mancati recapiti, Percentuale di uscita e Velocità operazioni. Inoltre utilizza le visualizzazioni Flusso per le sezioni di entrata, uscita e principali; una visualizzazione con grafico di dispersione che mostra le visualizzazioni di pagina per le pagine più comuni; una visualizzazione a barre che mostra le visualizzazioni di pagina per bucket di intervalli di tempo e una visualizzazione a linee che mostra una visualizzazione con le tendenze del tempo medio trascorso sul sito."
 
 <!-- markdownlint-enable MD034 -->
 
