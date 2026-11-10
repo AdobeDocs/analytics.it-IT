@@ -86,4 +86,4 @@ Dopo aver completato la migrazione, sposta la nuova libreria nel flusso di pubbl
 1. Invia la libreria per l&#39;approvazione e testala nell&#39;ambiente di staging.
 1. Approva la libreria e pubblicala in produzione.
 
-Vedi [Flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) nella guida utente Tag.
+Vedi [Flusso di pubblicazione](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/publishing-flow) nella guida utente Tag.

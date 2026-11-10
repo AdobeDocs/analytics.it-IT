@@ -71,7 +71,7 @@ Prima di creare una migrazione, assicurati di disporre di:
 
 * Le [autorizzazioni](#permissions) necessarie per l&#39;Assistente all&#39;aggiornamento.
 * Proprietà tag che utilizza l’estensione Adobe Analytics.
-* Libreria in tale proprietà che contiene l’implementazione di cui desideri eseguire la migrazione. La libreria può essere in qualsiasi stato, inclusa la pubblicazione. Vedi [Librerie](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/libraries) nella guida utente Tag.
+* Libreria in tale proprietà che contiene l’implementazione di cui desideri eseguire la migrazione. La libreria può essere in qualsiasi stato, inclusa la pubblicazione. Vedi [Librerie](https://experienceleague.adobe.com/it/docs/experience-platform/tags/publish/libraries) nella guida utente Tag.
 
 ### Autorizzazioni {#permissions}
 
@@ -79,8 +79,8 @@ L&#39;Assistente all&#39;aggiornamento richiede il seguente accesso. Rivolgiti a
 
 | Tipo di accesso | Obbligatorio |
 | --- | --- |
-| [Autorizzazioni di Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL View Schemas]</li><li>[!UICONTROL Manage Schemas]</li><li>[!UICONTROL View Datasets]</li><li>[!UICONTROL Manage Datasets]</li><li>[!UICONTROL View Identity Namespaces]</li></ul> |
+| [Autorizzazioni di Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/home#permissions) | <ul><li>[!UICONTROL View Schemas]</li><li>[!UICONTROL Manage Schemas]</li><li>[!UICONTROL View Datasets]</li><li>[!UICONTROL Manage Datasets]</li><li>[!UICONTROL View Identity Namespaces]</li></ul> |
 | Accesso ai prodotti | <ul><li>Raccolta dati (tag)</li><li>Adobe Analytics</li></ul> |
-| [Diritti tag](https://experienceleague.adobe.com/en/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL Manage Properties] |
+| [Diritti tag](https://experienceleague.adobe.com/it/docs/experience-platform/tags/admin/user-permissions) | [!UICONTROL Manage Properties] |
 
 Quando sei pronto, [crea una migrazione](manager.md#create).
