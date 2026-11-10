@@ -35,9 +35,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 629efca210346d32b8555c60f7db15d1d8285b20
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '452'
 ht-degree: 14%
 ---
 # Revisione finale
@@ -86,4 +86,4 @@ Dopo aver completato la migrazione, sposta la nuova libreria nel flusso di pubbl
 1. Invia la libreria per l&#39;approvazione e testala nell&#39;ambiente di staging.
 1. Approva la libreria e pubblicala in produzione.
 
-Vedi [Flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/publishing/publishing-flow) nella guida utente Tag.
+Vedi [Flusso di pubblicazione](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/publishing-flow) nella guida utente Tag.

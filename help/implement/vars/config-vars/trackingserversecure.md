@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 0ba418a49e6a226540e0791f0138027566022d6f
+source-git-commit: f084d4f228be9dccf7d01a5847de7a3ba8ffc575
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 7%
+source-wordcount: '700'
+ht-degree: 8%
 ---
 # trackingServerSecure
 
@@ -60,7 +60,7 @@ Per ulteriori informazioni, vedere [Configurare l&#39;estensione Adobe Experienc
 
 ## Dominio Edge con implementazione manuale del Web SDK
 
-Configurare SDK utilizzando [`edgeDomain`](https://experienceleague.adobe.com/it/docs/experience-platform/web-sdk/commands/configure/edgedomain). Il campo è una stringa che determina il dominio a cui inviare i dati.
+Configurare SDK utilizzando [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain). Il campo è una stringa che determina il dominio a cui inviare i dati.
 
 ```json
 alloy("configure", {
@@ -95,10 +95,10 @@ s.trackingServerSecure = "example.data.adobedc.net";
 
 Il valore utilizzato per `trackingServerSecure` (o `edgeDomain`) dipende dal modo in cui l&#39;organizzazione invia i dati ad Adobe:
 
-* **Se l&#39;organizzazione utilizza un dominio di prime parti**, ad esempio tramite il [programma di certificazione gestito da Adobe](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/adobe-managed-cert), un [certificato gestito dal cliente](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/customer-managed-cert) o una [rete di distribuzione di contenuti (CDN)](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/cdn), impostare il valore su tale dominio. Ad esempio, `data.example.com`.
+* **Se l&#39;organizzazione utilizza un dominio di prime parti**, ad esempio tramite il [programma di certificazione gestito da Adobe](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/adobe-managed-cert), un [certificato gestito dal cliente](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/customer-managed-cert) o una [rete di distribuzione di contenuti (CDN)](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cdn), impostare il valore su tale dominio. Ad esempio, `data.example.com`.
 * **Se l&#39;organizzazione utilizza un dominio di terze parti**, impostare il valore sul sottodominio dell&#39;ID tenant di `data.adobedc.net`. Ad esempio, `example.data.adobedc.net`.
 
-Per informazioni dettagliate su ciascuna opzione, inclusa la modalità di ricerca dell&#39;ID tenant, vedere [Scegliere un dominio di raccolta dati](https://experienceleague.adobe.com/it/docs/core-services/interface/data-collection/collection-domain) nella Guida all&#39;amministrazione e all&#39;interfaccia di CX Enterprise.
+Per informazioni dettagliate su ciascuna opzione, inclusa la modalità di ricerca dell&#39;ID tenant, vedere [Scegliere un dominio di raccolta dati](https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/collection-domain) nella Guida all&#39;amministrazione e all&#39;interfaccia di CX Enterprise.
 
 Adobe consiglia vivamente di mantenere queste informazioni in un [documento di progettazione della soluzione](../../prepare/solution-design.md) per coerenza a livello di organizzazione.
 
@@ -106,8 +106,8 @@ Adobe consiglia vivamente di mantenere queste informazioni in un [documento di p
 
 Adobe consiglia vivamente di utilizzare ECID come forma principale di identità del visitatore in tutte le implementazioni. La raccolta degli ECID può essere implementata in diversi modi, a seconda del tipo di implementazione:
 
-* Le implementazioni manuali di AppMeasurement utilizzano `VisitorAPI.js` e chiamano il metodo `getInstance`. Per ulteriori informazioni, consulta [Implementazione del servizio ID visitatori per Analytics](https://experienceleague.adobe.com/it/docs/id-service/using/implementation/setup-analytics).
-* Le implementazioni che utilizzano l&#39;estensione tag di Adobe Analytics utilizzano l&#39;estensione tag [[!UICONTROL Experience Cloud ID Service]](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/id-service/overview), che implementa il servizio ID visitatori. Una volta aggiunta, non è necessaria alcuna configurazione aggiuntiva.
+* Le implementazioni manuali di AppMeasurement utilizzano `VisitorAPI.js` e chiamano il metodo `getInstance`. Per ulteriori informazioni, consulta [Identificazione del visitatore tramite AppMeasurement](/help/implement/id/appmeasurement.md).
+* Le implementazioni che utilizzano l&#39;estensione tag di Adobe Analytics utilizzano l&#39;estensione tag [[!UICONTROL Experience Cloud ID Service]](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/id-service/overview), che implementa il servizio ID visitatori. Una volta aggiunta, non è necessaria alcuna configurazione aggiuntiva.
 * Le implementazioni che utilizzano qualsiasi tipo di Web SDK (`alloy.js` o l&#39;estensione tag Web SDK) includono automaticamente l&#39;identità di Edge Network. Non è richiesta alcuna configurazione oltre all&#39;impostazione del valore `edgeDomain`.
 
 **Se la tua implementazione non utilizza gli ECID**, considera i seguenti impatti sulla tua implementazione:
