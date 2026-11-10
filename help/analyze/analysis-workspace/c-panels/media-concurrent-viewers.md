@@ -34,11 +34,9 @@ topic_v2:
     internal-label: Troubleshooting
 source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
 workflow-type: tm+mt
-source-wordcount: 1222
+source-wordcount: '1222'
 ht-degree: 86%
-
 ---
-
 # Pannello Visualizzatori simultanei di file multimediali {#media-concurrent-viewers-panel}
 
 <!-- markdownlint-disable MD034 -->
@@ -55,14 +53,14 @@ ht-degree: 86%
 >[!CONTEXTUALHELP]
 >id="workspace_mediaconcurrentviewers_panel"
 >title="Visualizzatori simultanei di file multimediali"
->abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concomitanza o raggruppa e confronta.<br/><br>**Granularità**: seleziona il periodo di tempo per visualizzare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello**:<br/>opzione che consente di visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco di concomitanza. Il valore minimo mostra i dettagli del punto inferiore.<br/>**Raggruppamento per serie (facoltativo)**: puoi raggruppare la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello."
+>abstract="Analizza i visualizzatori simultanei nel tempo, visualizza il picco di concomitanza o raggruppali e confrontali.<br/><br>**Granularità**: seleziona il periodo di tempo per visualizzare i visualizzatori simultanei.<br/>**Numeri di riepilogo pannello**:<br/>opzione che consente di visualizzare i numeri di riepilogo con dettagli di data o ora per ogni riga. Il valore massimo mostra i dettagli del picco di concomitanza. Il valore minimo mostra i dettagli del punto inferiore.<br/>**Raggruppamento per serie (facoltativo)**: puoi raggruppare la visualizzazione per segmenti, dimensioni, elementi dimensionali o intervalli di date. Visualizza fino a 10 righe alla volta. I raggruppamenti sono limitati a un singolo livello."
 
 <!-- markdownlint-enable MD034 -->
 
 
 >[!BEGINSHADEBOX]
 
-_Questo articolo documenta il pannello Visualizzatori simultanei di contenuti multimediali in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _&#x200B;**Adobe Analytics Analytics**._<br/>_Consulta il [Pannello Visualizzatori simultanei di contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) per la versione_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _&#x200B;**Customer Journey Analytics** di questo articolo._
+_Questo articolo documenta il pannello Visualizzatori simultanei di contenuti multimediali in_ ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) _**Adobe Analytics Analytics**._<br/>_Consulta il [Pannello Visualizzatori simultanei di contenuti multimediali](/help/analyze/analysis-workspace/c-panels/media-concurrent-viewers.md) per la versione_ ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) _**Customer Journey Analytics** di questo articolo._
 
 >[!ENDSHADEBOX]
 
@@ -74,7 +72,7 @@ _Questo articolo documenta il pannello Visualizzatori simultanei di contenuti mu
 >Per ulteriori informazioni, contatta il tuo rappresentante commerciale Adobe o il team dell’account Adobe.
 >
 
-Il pannello **[!UICONTROL Media concurrent viewers]** consente di analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e con la possibilità di suddividerli e confrontarli.
+Il pannello **[!UICONTROL Media concurrent viewers]** consente di analizzare i visualizzatori simultanei nel tempo, con dettagli sul picco di concorrenza e con la possibilità di raggrupparli e confrontarli.
 
 Puoi analizzare i visualizzatori simultanei per capire dove si è verificato il picco di concorrenza o dove si sono verificati abbandoni, così da fornire informazioni utili sulla qualità dei contenuti e sul coinvolgimento dei visualizzatori. Questo aiuta anche nella risoluzione dei problemi o nella pianificazione per volumi o scala.
 
@@ -83,7 +81,7 @@ In Analysis Workspace, la metrica Visualizzatori simultanei rappresenta il numer
 
 >[!BEGINSHADEBOX]
 
-Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace){target="_blank"}.
+Per un video dimostrativo, consulta ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg) [Pannello Visualizzatori simultanei di file multimediali](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace){target="_blank"}.
 
 >[!ENDSHADEBOX]
 
@@ -172,7 +170,7 @@ The Media Concurrent Viewers panel enables analysis of concurrent viewers over t
 
 Here is a video overview of this panel:
 
->[!VIDEO](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/analysis-workspace/using-panels/media-concurrent-viewers-panel-in-analysis-workspace)
 
 ## Panel Inputs {#Input}
 

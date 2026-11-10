@@ -62,11 +62,9 @@ topic_v2:
     internal-label: Privacy
 source-git-commit: 83dd61d47dd9bebdc9c79410969c32ea36efd4d4
 workflow-type: tm+mt
-source-wordcount: 18719
+source-wordcount: '18719'
 ht-degree: 92%
-
 ---
-
 # Utilizzare i modelli
 
 I modelli (o i modelli aziendali) in Analysis Workspace forniscono informazioni rapide sugli scenari di reporting più comuni. Di seguito sono riportati alcuni esempi di domande a cui puoi rispondere con i modelli:
@@ -315,7 +313,7 @@ Per accedere a tutti i modelli predfiniti disponibili:
 
 Sono disponibili i modelli seguenti:
 
-&#x200B;| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Tutorial di formazione**] | Scopri la terminologia e i passaggi più comuni di Analysis Workspace per creare la tua prima analisi. |
 | [!UICONTROL **Pagine**] | <!--duplicated in Engagement section--> Identifica le pagine più popolari e quelle meno popolari. <p>**Questo può aiutarti** a comprendere meglio il tuo pubblico e il tipo di informazioni a cui è più interessato.</p><p>**In base a ciò che hai appreso, potresti** fare qualsiasi cosa, come regolare i metadati della pagina per aumentare la visibilità sulle pagine visualizzate meno o passare del tempo a migliorare il contenuto delle pagine più visualizzate.</p><p>Questo modello utilizza la [dimensione Pagina](/help/components/dimensions/page.md) e la [metrica Visualizzazioni pagina](/help/components/metrics/page-views.md).</p> |
@@ -498,7 +496,7 @@ Sono disponibili i modelli seguenti:
 >[!CONTEXTUALHELP]
 >id="template--media-content-consumption"
 >title="Visualizza quali sono i contenuti multimediali maggiormente utilizzati e che coinvolgono gli utenti."
->abstract="**Questo può aiutarti** a comprendere meglio dove vanno le persone che accedono per la prima volta al sito, quali sezioni visitano di più e quali pagine hanno più probabilità di allontanarle dallo stesso.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare quali percorsi del sito conducono le persone verso le pagine più importanti e quali pagine hanno maggiori probabilità di allontanarle dallo stesso.<br/>Questo modello utilizza la dimensione Pagina e le metriche Visualizzazioni pagina, Visite, Visitatori univoci, Percentuale di entrata, Percentuale di mancati recapiti, Percentuale di uscita e Velocità operazioni. Inoltre utilizza le visualizzazioni Flusso per le sezioni di entrata, uscita e principali; una visualizzazione con grafico a dispersione che mostra le visualizzazioni di pagina per le pagine più comuni; una visualizzazione a barre che mostra le visualizzazioni di pagina per blocchi di tempo e una visualizzazione a linee che mostra una visualizzazione con le tendenze del tempo medio trascorso sul sito."
+>abstract="**Questo può aiutarti** a comprendere meglio dove vanno le persone che accedono per la prima volta al sito, quali sezioni visitano di più e quali pagine hanno più probabilità di allontanarle dallo stesso.<br/>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare quali percorsi del sito conducono le persone verso le pagine più importanti e quali pagine hanno maggiori probabilità di allontanarle dallo stesso.<br/>Questo modello utilizza la dimensione Pagina e le metriche Visualizzazioni pagina, Visite, Visitatori univoci, Percentuale di entrata, Percentuale di mancati recapiti, Percentuale di uscita e Velocità operazioni. Inoltre utilizza le visualizzazioni Flusso per le sezioni di entrata, uscita e principali; una visualizzazione con grafico di dispersione che mostra le visualizzazioni di pagina per le pagine più comuni; una visualizzazione a barre che mostra le visualizzazioni di pagina per bucket di intervalli di tempo e una visualizzazione a linee che mostra una visualizzazione con le tendenze del tempo medio trascorso sul sito."
 
 <!-- markdownlint-enable MD034 -->
 
@@ -540,7 +538,7 @@ Sono disponibili i modelli seguenti:
 
 Sono disponibili i modelli seguenti:
 
-&#x200B;| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Metriche chiave**] | <!--duplicated in Most popular section--> Visualizza un rapporto che mostra fianco a fianco le metriche relative a visualizzazioni pagina, visite e visitatori univoci. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a confrontare queste metriche importanti per ottenere un quadro più completo del numero di persone univoche che visitano il sito, del numero di volte che le pagine sono state visitate e del numero di sessioni.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare il numero medio di pagine visualizzate da ogni persona durante la visita al sito in una determinata settimana o mese e come è cambiato durante determinati periodi dell’anno o prima e dopo l’esecuzione di campagne di marketing. </p><p>Questo modello utilizza la [dimensione Giorno](/help/components/dimensions/day.md), [metrica Visualizzazioni pagina](/help/components/metrics/page-views.md), [metrica Visite](/help/components/metrics/visits.md) e [metrica Visitatori univoci](/help/components/metrics/unique-visitors.md).</p> |
 | [!UICONTROL **Visualizzazioni pagina**] | <!--duplicated in Most popular section-->Visualizza il numero totale di visualizzazioni di pagina. I dati vengono visualizzati rispetto a un periodo di tempo e confrontati con periodi precedenti. <p>**Questo può aiutarti** a comprendere meglio come il traffico sul tuo sito potrebbe aumentare o diminuire nel tempo.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio valutare l’efficacia di una campagna di marketing avviata di recente confrontando il traffico del sito prima e dopo l’avvio della campagna. Oppure è possibile confrontare il traffico nel periodo delle festività rispetto all’anno precedente.</p><p>Questo modello utilizza la dimensione [Day](/help/components/dimensions/day.md) e la metrica [Page Views](/help/components/metrics/page-views.md).</p> |
@@ -668,7 +666,7 @@ Sono disponibili i modelli seguenti:
 
 Sono disponibili i modelli seguenti:
 
-&#x200B;| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Funnel conversione del prodotto**] | Visualizza la conversione del prodotto in una visualizzazione funnel che mostra carrelli, pagamenti e ordini. È inoltre possibile visualizzare le percentuali di conversione e le medie di entrate, unità e ordini.<p>**Questo può aiutarti** a comprendere meglio come le persone procedono e abbandonano durante il processo di conversione.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio migliorare il tuo sito web per facilitare un processo di pagamento più fluido.</p> |
 | **Prodotti** | Visualizza quali prodotti sono più determinanti per le metriche chiave, ad esempio i più venduti o i più visualizzati. <p>**Questo può aiutarti** a comprendere meglio quali sono i prodotti di maggior successo.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come aumentare i finanziamenti per i prodotti di successo e diminuirli per i prodotti di minore successo.</p><p>Questo modello utilizza la metrica Ordini e la dimensione Prodotto. |
@@ -1037,7 +1035,7 @@ Sono disponibili i modelli seguenti:
 
 Sono disponibili i modelli seguenti:
 
-&#x200B;| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Metrica persone**] | Visualizza il numero di persone che interagiscono con il tuo brand. <p>**Questo può aiutarti** a comprendere meglio le tendenze di utilizzo sul tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come misurare l’efficacia delle recenti attività di marketing nel generare nuovi visitatori per il tuo sito.</p> |
 | **Profilo visitatore** > **Panoramica sulla posizione** | Visualizza una panoramica della posizione del visitatore in una visualizzazione della mappa.<p>**Questo può aiutarti** a comprendere meglio dove si trovano i visitatori che visitano il tuo sito. </p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, come concentrare le risorse di marketing nelle posizioni in cui visualizzi maggiore interesse e opportunità.</p><!-- This template uses the --> |
@@ -1257,7 +1255,7 @@ Sono disponibili i modelli seguenti:
 
 Sono disponibili i modelli seguenti:
 
-&#x200B;| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Canali marketing**] > [!UICONTROL **Rapporto panoramica canale**] | Quando viene utilizzata l’attribuzione personalizzata, questo modello mostra il modo in cui i visitatori arrivano sul tuo sito.<p>**Questo può aiutarti** a comprendere meglio quali dei tuoi canali di marketing sono i più efficaci.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio investire maggiormente su canali di marketing efficaci e disinvestire da quelli meno influenti.</p><p>Questo modello utilizza la dimensione ID(variables/marketingchannel) e la metrica Ricavi.</p> |
 | [!UICONTROL **Canali marketing**] > [!UICONTROL **Canale primo contatto**] | Visualizza il primo canale di marketing a cui un visitatore corrisponde durante il relativo periodo di coinvolgimento (30 giorni per impostazione predefinita). <p>**Questo può aiutarti** a comprendere meglio quali canali di marketing favoriscono il traffico iniziale verso il tuo sito.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio concentrare le attività di marketing nelle aree più efficaci.</p><p>Questo modello utilizza la dimensione Canale di primo contatto.</p> |
@@ -1322,7 +1320,7 @@ Sono disponibili i modelli seguenti:
 
 Sono disponibili i modelli seguenti:
 
-&#x200B;| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
+| Nome modello | Perché utilizzare questo modello <!-- What do you do with it? What can it help you learn? and What are the potential actions? --> |
 | --- | --- |
 | [!UICONTROL **Gestore di telefonia mobile**] | Visualizza la società di telecomunicazioni che fornisce la connettività di rete cellulare ai dispositivi mobili che le persone utilizzano per accedere al sito.<p>**Questo può aiutarti** a comprendere meglio quali operatori di telefonia mobile sono più popolari nella tua base di utenti.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio personalizzare la consegna dei contenuti in base alle funzionalità di rete dei diversi operatori, in modo da garantire un’esperienza utente fluida.</p><p>Questo modello utilizza la dimensione Gestore di telefonia mobile.</p> |
 | **Dispositivi** | Visualizza la marca e il modello dei dispositivi mobili utilizzati dalle persone per accedere al sito.<p>**Questo può aiutarti** a comprendere meglio quali siano i dispositivi mobili più popolari nella tua base di utenti.</p><p>**Sulla base di quanto appreso, potresti** fare diverse cose, ad esempio ottimizzare il rendering del sito per i dispositivi mobili più comuni.</p><p>Questo modello utilizza la dimensione Nome dispositivo mobile.</p> |
