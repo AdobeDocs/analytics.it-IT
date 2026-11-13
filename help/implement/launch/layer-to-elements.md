@@ -43,9 +43,9 @@ Una volta che la tua organizzazione ha stabilito e implementato un livello dati 
 
 ## Utilizzare i tag per creare elementi dati
 
-[Gli elementi dati](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html) sono componenti di Raccolta dati di Adobe Experience Platform che puoi utilizzare in tutto lo strumento. Puoi assegnare valori di variabili nell’estensione Adobe Analytics utilizzando gli elementi dati.
+[Gli elementi dati](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=it) sono componenti di Raccolta dati di Adobe Experience Platform che puoi utilizzare in tutto lo strumento. Puoi assegnare valori di variabili nell’estensione Adobe Analytics utilizzando gli elementi dati.
 
-Nei passaggi seguenti viene utilizzata l&#39;estensione [Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/overview), che deve essere installata nella proprietà tag.
+Nei passaggi seguenti viene utilizzata l&#39;estensione [Adobe Client Data Layer](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/client-data-layer/overview), che deve essere installata nella proprietà tag.
 
 1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
 1. Seleziona la proprietà tag desiderata.
