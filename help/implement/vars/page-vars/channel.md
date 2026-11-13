@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 32%
+source-wordcount: '205'
+ht-degree: 29%
 ---
 # channel
 
@@ -65,8 +65,8 @@ La variabile `s.channel` è una stringa che in genere contiene la sezione del si
 s.channel = "Example site section";
 ```
 
-Se si utilizza il `digitalData` [livello dati](../../prepare/data-layer.md):
+Se utilizzi [Adobe Client Data Layer](../../prepare/data-layer.md), leggi il valore con `getState()`. Consulta [Leggi il livello dati con AppMeasurement](../../prepare/data-layer.md#appmeasurement) per sapere quando chiamarlo.
 
 ```js
-s.channel = digitalData.page.category.primaryCategory;
+s.channel = adobeDataLayer.getState("page.section");
 ```

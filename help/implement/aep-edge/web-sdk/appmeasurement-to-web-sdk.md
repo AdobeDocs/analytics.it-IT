@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1423
+source-wordcount: '1464'
 ht-degree: 8%
-
 ---
-
 # Migrazione da AppMeasurement al Web SDK
 
 Questo percorso di implementazione prevede un approccio metodologico di migrazione per passare da un’implementazione AppMeasurement a un’implementazione della libreria JavaScript Web SDK. Altri percorsi di implementazione sono trattati in pagine separate:
@@ -105,7 +103,7 @@ Facoltativamente, è possibile impostare altre proprietà nel comando [`configur
 
 +++**4. Aggiorna la logica del codice per utilizzare un payload JSON**
 
-Modificare l&#39;implementazione di Analytics in modo che non si basi su `AppMeasurement.js` o sull&#39;oggetto `s`. Imposta invece le variabili in un oggetto JavaScript formattato correttamente, che viene convertito in un oggetto JSON quando inviato ad Adobe. Disporre di un [livello dati](../../prepare/data-layer.md) sul sito è molto utile quando si impostano i valori, in quanto è possibile continuare a fare riferimento agli stessi valori.
+Modificare l&#39;implementazione di Analytics in modo che non si basi su `AppMeasurement.js` o sull&#39;oggetto `s`. Imposta invece le variabili in un oggetto JavaScript formattato correttamente, che viene convertito in un oggetto JSON quando inviato ad Adobe. Disporre di un [livello dati](../../prepare/data-layer.md) sul sito è molto utile quando si impostano i valori, in quanto è possibile continuare a fare riferimento agli stessi valori. Se il tuo sito utilizza Adobe Client Data Layer, consulta [Inviare dati Adobe Client Data Layer con il Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk) per scoprire come leggere i valori del livello dati quando chiami `sendEvent`.
 
 Per inviare dati ad Adobe Analytics, il payload di Web SDK deve utilizzare `data.__adobe.analytics` con tutte le variabili di analisi impostate all&#39;interno di questo oggetto. Le variabili all’interno di questo oggetto condividono nomi e formati identici alle corrispondenti variabili AppMeasurement. Ad esempio, se imposti la variabile `products`, non suddividerla in singoli oggetti come si farebbe con XDM. Invece, includila come stringa esattamente se imposti la variabile `s.products`:
 

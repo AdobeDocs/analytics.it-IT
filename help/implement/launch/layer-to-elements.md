@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 13%
+source-wordcount: '379'
+ht-degree: 8%
 ---
 # Mappatura di oggetti del livello dati su elementi di dati
 
@@ -45,17 +45,25 @@ Una volta che la tua organizzazione ha stabilito e implementato un livello dati 
 
 [Gli elementi dati](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=it) sono componenti di Raccolta dati di Adobe Experience Platform che puoi utilizzare in tutto lo strumento. Puoi assegnare valori di variabili nell’estensione Adobe Analytics utilizzando gli elementi dati.
 
+Nei passaggi seguenti viene utilizzata l&#39;estensione [Adobe Client Data Layer](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/client-data-layer/overview), che deve essere installata nella proprietà tag.
+
 1. Accedi a [Raccolta dati Adobe Experience Platform](https://experience.adobe.com/data-collection) utilizzando le credenziali Adobe ID.
-1. Fai clic sulla proprietà del tag desiderata.
-1. Fare clic sulla scheda **[!UICONTROL Data Elements]**, quindi su **[!UICONTROL Add Data Element]**.
+1. Seleziona la proprietà tag desiderata.
+1. Selezionare la scheda **[!UICONTROL Data Elements]**, quindi selezionare **[!UICONTROL Add Data Element]**.
 
    ![crea elemento dati](assets/createelement.png)
 
-1. Immetti un nome per l’elemento dati. Può essere una semplice etichetta che corrisponde a una variabile JavaScript nel livello dati che desideri tracciare.
-1. Nell&#39;elenco a discesa **[!UICONTROL Extension]**, selezionare **[!UICONTROL Core]**.
-1. Nell&#39;elenco a discesa **[!UICONTROL Data Element Type]**, selezionare **[!UICONTROL JavaScript Variable]**. A destra viene visualizzato un campo di testo che consente di immettere la variabile JavaScript da mappare a questo elemento dati.
-1. Immetti la variabile JavaScript desiderata, in genere all&#39;interno del livello dati. Ad esempio, se il livello dati della tua organizzazione corrisponde alla pratica consigliata di Adobe, un valore potrebbe essere `digitalData.page.pageInfo.pageName`. Puoi utilizzare la console del browser per convalidare la sintassi e i valori delle variabili JavaScript.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Immettere un nome per l&#39;elemento dati, ad esempio `Page name`.
+1. Nell&#39;elenco a discesa **[!UICONTROL Extension]**, selezionare **[!UICONTROL Adobe Client Data Layer]**.
+1. Nell&#39;elenco a discesa **[!UICONTROL Data Element Type]**, selezionare **[!UICONTROL Data layer computed state]**.
+1. In **[!UICONTROL Return value]**, seleziona **[!UICONTROL Specific path]**, quindi immetti il percorso del valore nel livello dati, ad esempio `page.name`. Per convalidare un percorso, esegui `adobeDataLayer.getState("page.name")` nella console del browser.
+1. Seleziona **[!UICONTROL Save]**.
+
+Utilizza questi elementi dati nelle regole che attivano l&#39;evento **[!UICONTROL Data layer push]** dell&#39;estensione, in modo che Data Layer abbia caricato e contenga i dati provenienti dal push. Vedi [Tipi di elementi dati](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
+
+### Livelli di dati basati su oggetti {#object-based}
+
+Se il livello dati è un oggetto JavaScript, ad esempio un oggetto CEDDL `digitalData`, utilizzare il tipo di elemento dati **[!UICONTROL JavaScript Variable]** dell&#39;estensione **[!UICONTROL Core]**. Immettere il percorso del valore, ad esempio `digitalData.page.pageInfo.pageName`. Questo tipo di elemento dati non può leggere Adobe Client Data Layer, che memorizza i suoi dati in uno stato calcolato invece che nelle proprietà dell’oggetto.
 
 ## Passaggi successivi
 

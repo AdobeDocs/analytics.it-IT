@@ -1,6 +1,6 @@
 ---
 title: Creare un livello dati
-description: Scopri cosa è un livello dati nell’implementazione di Analytics e come può essere utilizzato per mappare le variabili in Adobe Analytics.
+description: Scopri in che modo un livello dati supporta l’implementazione di Analytics, perché Adobe consiglia Adobe Client Data Layer e come leggere i valori del livello dati con ciascun metodo di implementazione.
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 role: Admin, Developer, Leader
@@ -34,46 +34,105 @@ topic_v2:
     internal-label: Customer experience
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 97%
+source-wordcount: '1063'
+ht-degree: 7%
 ---
 # Creare un livello dati
 
-Un livello dati è un framework di oggetti JavaScript presenti sul sito che contiene i valori delle variabili utilizzati nell’implementazione di Analytics. Consente un controllo maggiore e una manutenzione più semplice quando si assegnano valori alle variabili di Analytics.
+Un livello dati è una struttura JavaScript sul sito che espone i dati raccolti dall’implementazione di Analytics, come nomi di pagina, dettagli del prodotto e ID degli ordini. Il codice del sito scrive sul livello dati e l’implementazione lo legge per impostare le variabili di Analytics. Poiché l’implementazione non dipende dal HTML della pagina, puoi riprogettare il sito senza interrompere la raccolta dati.
 
 ## Prerequisiti
 
-[Creazione di un documento di progettazione della soluzione](solution-design.md): è importante che la tua organizzazione si allinei ai requisiti di tracciamento. Assicurati di aver preparato un documento di progettazione della soluzione prima di rivolgerti ai team di sviluppo della tua organizzazione.
+[Crea un documento di progettazione della soluzione](solution-design.md): è importante che la tua organizzazione si allinei ai requisiti di tracciamento. Assicurati di aver preparato un documento di progettazione della soluzione prima di rivolgerti ai team di sviluppo della tua organizzazione. I dati necessari per la progettazione della soluzione determinano cosa contiene il livello dati.
 
-## Flusso di lavoro
+## Scegli una specifica del livello dati {#specifications}
+
+Adobe consiglia [Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview) (ACDL) per implementazioni nuove o ristrutturate. ACDL è una libreria JavaScript open-source che offre al sito un metodo standard per inviare dati ed eventi a un array `adobeDataLayer` globale. I tag, il Web SDK e AppMeasurement possono essere letti da esso e i componenti core di Adobe Experience Manager possono popolarlo automaticamente.
+
+La tua organizzazione è libera di utilizzare altre specifiche, ad esempio [Customer Experience Digital Data Layer](https://www.w3.org/2013/12/ceddl-201312.pdf) (CEDDL), che memorizza i dati in un oggetto `digitalData` globale, o una specifica personalizzata. La cosa più importante è che l’organizzazione si allinea su una specifica che soddisfa le sue esigenze.
+
+La tabella seguente confronta ACDL con livelli di dati basati su oggetti come CEDDL:
+
+| | Adobe Client Data Layer (`adobeDataLayer`) | Livello dati basato su oggetti, ad esempio CEDDL (`digitalData`) |
+| --- | --- | --- |
+| Scrittura dei dati nel codice del sito | Invia oggetti: `adobeDataLayer.push({ page: { name: "Home" } })` | Imposta proprietà: `digitalData.page.pageInfo.pageName = "Home"` |
+| Come la tua implementazione legge un valore | `adobeDataLayer.getState("page.name")` o un **elemento dati con stato calcolato dal livello dati** dall&#39;estensione tag Adobe Client Data Layer | `digitalData.page.pageInfo.pageName` o un elemento dati **Variabile JavaScript** dall&#39;estensione tag Core |
+| In che modo l’implementazione sa che i dati sono pronti | Il codice del sito invia un evento, ad esempio `{ event: "page view" }`, e l&#39;implementazione lo ascolta. I listener vengono eseguiti anche per gli eventi inviati prima che vengano aggiunti. | L’implementazione deve leggere l’oggetto dopo che il codice del sito ha completato il popolamento, ad esempio utilizzando una regola di chiamata diretta. |
+
+## Esempio di livello dati {#example}
+
+ACDL non richiede una struttura dati specifica. Progetta la struttura intorno al documento di progettazione della soluzione e documentala per tutti coloro che scrivono sul livello dati o leggono da esso. Gli esempi in questa guida utilizzano la seguente struttura.
+
+Quando viene caricata una pagina, il codice del sito invia i dati della pagina e un evento di visualizzazione della pagina:
+
+```js
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push({
+  event: "page view",
+  page: {
+    name: "Home",
+    section: "Products",
+    url: "https://example.com/products",
+    referrer: "https://example.com/"
+  }
+});
+```
+
+Quando un visitatore completa un acquisto, il codice del sito invia i dettagli dell’ordine e un evento di acquisto:
+
+```js
+window.adobeDataLayer.push({
+  event: "purchase",
+  transaction: { id: "ABC123" },
+  products: [
+    { name: "Example product", category: "Example category", quantity: 1, price: 25 }
+  ]
+});
+```
+
+ACDL unisce ogni push in un singolo oggetto denominato stato calcolato, che viene letto dall’implementazione. Gli oggetti evento indicano all’implementazione quando leggerla. Vedi [Dati e stato calcolato](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/concepts/computed-state) e [Eventi](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/concepts/events).
+
+## Flusso di lavoro {#workflow}
 
 Generalmente, l’implementazione di Adobe Analytics utilizzando un livello dati segue questi passaggi:
 
-1. **Collaborare con il team di sviluppo del sito per implementare un livello di dati**: il team di sviluppo del sito è principalmente responsabile della compilazione dell’oggetto di livello dati con valori corretti. Esamina questa pagina con il tuo team di sviluppo del sito per assicurarti che le aspettative siano allineate tra i team.
+1. **Collabora con il tuo team di sviluppo del sito per implementare un livello dati**: il tuo team di sviluppo del sito è principalmente responsabile della verifica che il livello dati contenga valori corretti. Esamina questa pagina con il tuo team di sviluppo del sito per assicurarti che le aspettative siano allineate tra i team. Consulta [Installare Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install).
+1. **Convalida il livello dati utilizzando una console del browser**: apri la console per sviluppatori del browser, operazione che puoi eseguire nella maggior parte dei browser con la chiave `F12`. Eseguire `adobeDataLayer.getState()` per visualizzare lo stato calcolato oppure `adobeDataLayer.getState("page.name")` per visualizzare un singolo valore. Vedere [Verificare l&#39;installazione](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/install#verify).
+1. **Connetti il livello dati ad Adobe Analytics**: questo passaggio varia in base al metodo di implementazione della tua organizzazione. Vedi [Connettere il livello dati ad Adobe Analytics](#connect).
 
-   >[!NOTE]
-   >
-   >Il rispetto delle specifiche dei livelli dati consigliate da Adobe è facoltativo. Se disponi già di un livello dati, oppure scegli di non seguire le specifiche di Adobe, assicurati che la tua organizzazione sia allineata sulle specifiche da seguire.
+## Collegare il livello dati ad Adobe Analytics {#connect}
 
-1. **Convalidare il livello dati utilizzando una console del browser**: una volta creato un livello dati, puoi convalidarne il funzionamento utilizzando la console per sviluppatori di qualsiasi browser. Puoi aprire la console per gli sviluppatori nella maggior parte dei browser utilizzando il tasto `F12`. Un esempio di valore della variabile è `adobeDataLayer.page.title`.
-1. **Utilizzare la raccolta dati di Adobe Experience Platform per mappare gli oggetti del livello dati agli elementi di dati**: questo passaggio varia in base al metodo di implementazione della tua organizzazione:
-   * **Se utilizzi l’estensione Web SDK**: mappa gli oggetti di livello dati sui campi XDM desiderati in Adobe Experience Platform Edge. Consulta [Mappatura variabile XDM di Analytics](../aep-edge/xdm-var-mapping.md) per determinare la mappatura del livello dati desiderata.
-   * **Se utilizzi l’estensione Analytics**: crea elementi dati nei Tag della Raccolta dati di Adobe Experience Platform e assegnali agli oggetti livello dati desiderati. Quindi all’interno dell’estensione Analytics, assegna ogni elemento dati alla variabile di Analytics appropriata.
+La tabella seguente mostra la modalità di lettura di ciascun metodo di implementazione da Adobe Client Data Layer:
 
-## Specifiche
+| Metodo di implementazione | Come leggere il livello dati | Ulteriori informazioni |
+| --- | --- | --- |
+| Estensione tag Web SDK | Attiva le regole con l&#39;evento **Data Layer push** dall&#39;estensione Adobe Client Data Layer. Mappa i valori del livello dati ai campi XDM o all&#39;oggetto `data` con l&#39;azione **Aggiorna variabile** del Web SDK, quindi inviali con l&#39;azione **Invia evento**. | [Invia dati Adobe Client Data Layer con Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk), [Mappatura campo oggetto XDM](../aep-edge/xdm-var-mapping.md) e [Mappatura campo oggetto dati](../aep-edge/data-var-mapping.md) |
+| Libreria JavaScript di Web SDK | Ascolta gli eventi del livello dati con `addEventListener()` e imposta i campi XDM o `data` dal livello dati quando chiami `sendEvent`. | [Invia dati Adobe Client Data Layer con Web SDK](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/web-sdk), [Mappatura campo oggetto XDM](../aep-edge/xdm-var-mapping.md) e [Mappatura campo oggetto dati](../aep-edge/data-var-mapping.md) |
+| Estensione Analytics | Attiva le regole con l&#39;evento **Data Layer push** e crea **Data Layer computed state** elementi dati dall&#39;estensione Adobe Client Data Layer. Assegna gli elementi dati alle variabili di Analytics nell&#39;azione **Imposta variabili**, quindi invia i dati con l&#39;azione **Invia beacon**. | [Mappatura di oggetti livello dati su elementi dati](../launch/layer-to-elements.md) e [Mappatura di elementi dati su variabili Analytics](../launch/elements-to-variable.md) |
+| AppMeasurement | Leggi i valori con `getState()` dopo il caricamento di ACDL, quindi chiama `s.t()`. | [Leggi il livello dati con AppMeasurement](#appmeasurement) |
 
-Adobe consiglia di utilizzare il [Livello dati client di Adobe](https://github.com/adobe/adobe-client-data-layer/wiki) per implementazioni nuove o ristrutturate.
+### Leggere il livello dati con AppMeasurement {#appmeasurement}
 
-La tua organizzazione è libera di utilizzare altre specifiche del livello dati, ad esempio il [Livello dati digitale dell’esperienza del cliente](https://www.w3.org/2013/12/ceddl-201312.pdf), oppure un’altra specifica completamente personalizzata. L’allineamento a un livello dati coerente che soddisfi le esigenze della tua organizzazione è la cosa più importante.
+ACDL aggiunge il metodo `getState()` all&#39;array `adobeDataLayer` al caricamento della libreria. Per fare in modo che la libreria sia stata caricata e che lo stato calcolato includa i dati più recenti, leggi i valori all&#39;interno di un listener di eventi:
 
-I livelli dati sono estensibili; se hai dei requisiti specifici per la tua organizzazione, puoi includere oggetti nel tuo livello dati per soddisfare tali esigenze.
+```js
+window.adobeDataLayer = window.adobeDataLayer || [];
+window.adobeDataLayer.push(function(dl) {
+  dl.addEventListener("page view", function(event) {
+    s.pageName = dl.getState("page.name");
+    s.channel = dl.getState("page.section");
+    s.t();
+  });
+});
+```
 
-## Impostazione dei valori del livello dati
+Il listener viene eseguito una volta per ogni evento `page view`, inclusi gli eventi inviati prima dell&#39;aggiunta del listener. Nelle pagine delle variabili di questa guida, ad esempio [`pageName`](../vars/page-vars/pagename.md), viene illustrato come leggere i singoli valori con `getState()`. Utilizza gli esempi in un listener come questo o nell&#39;editor di codice personalizzato di una regola di estensione di Analytics che attiva un evento **push** del livello dati.
 
-Generalmente i livelli dati generano lato server, facendo riferimento agli stessi oggetti utilizzati per creare il contenuto del sito. Stabilisci il livello dati del sito in base ai requisiti di tracciamento impostati nel [documento di progettazione della soluzione](solution-design.md) della tua organizzazione.
+Se l&#39;implementazione invia più di un hit per pagina, ad esempio in un&#39;applicazione a pagina singola, utilizza [`clearVars()`](../vars/functions/clearvars.md) in modo che i valori di un hit non persistano al successivo.
 
 ## Passaggi successivi
 
-[Mappatura di oggetti livello dati su elementi dei dati](../launch/layer-to-elements.md): utilizza il livello dati del tuo sito in Adobe Experience Platform.
+* [Mappatura di oggetti livello dati su elementi dati](../launch/layer-to-elements.md): utilizza il livello dati del tuo sito nei tag di Adobe Experience Platform.
+* [Documentazione di Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview): scopri ogni metodo, evento e best practice ACDL.

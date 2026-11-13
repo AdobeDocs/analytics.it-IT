@@ -26,13 +26,11 @@ topic_v2:
     internal-label: Customer journeys
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 301a0341e725ca15f1700046528ea5f42969add4
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: 1657
+source-wordcount: '1654'
 ht-degree: 8%
-
 ---
-
 # Migrare dall’estensione tag Adobe Analytics all’estensione tag Web SDK
 
 Questo percorso di implementazione prevede un approccio metodologico di migrazione per passare dall’estensione tag Adobe Analytics all’estensione tag Web SDK. Altri percorsi di implementazione sono trattati in pagine separate:
@@ -106,7 +104,7 @@ L’elemento dati dell’oggetto dati fornisce un framework intuitivo per config
 1. Nel menu di navigazione a sinistra dell&#39;interfaccia dei tag, selezionare **[!UICONTROL Data Elements]**.
 1. Seleziona **[!UICONTROL Add Data Element]**
 1. Attribuisci all’elemento dati le seguenti impostazioni:
-   * [!UICONTROL Name]: qualsiasi cosa desideri, ad esempio &quot;Livello dati&quot; o &quot;Oggetto dati&quot;
+   * [!UICONTROL Name]: qualsiasi cosa desideri, ad esempio &quot;Oggetto dati&quot;
    * [!UICONTROL Extension]: [!UICONTROL Adobe Experience Platform Web SDK]
    * [!UICONTROL Data Element Type]: [!UICONTROL Variable]
    * Le caselle di controllo possono rimanere invariate

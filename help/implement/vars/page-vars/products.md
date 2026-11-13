@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '681'
 ht-degree: 3%
 ---
 # products
@@ -172,15 +172,12 @@ s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
-Se utilizzi il `digitalData` [livello dati](../../prepare/data-layer.md), puoi eseguire un&#39;iterazione attraverso l&#39;array di oggetti `digitalData.product`:
+Se utilizzi [Adobe Client Data Layer](../../prepare/data-layer.md), puoi creare la stringa di prodotto da un array `products` nel suo stato calcolato. Consulta [Leggi il livello dati con AppMeasurement](../../prepare/data-layer.md#appmeasurement) per sapere quando chiamare `getState()`.
 
 ```js
-for(var i = 0; i < digitalData.product.length; i++) {
-    // Add individual product info to the product string
-    s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
-    // If there are more products, add a comma
-    if(i != digitalData.product.length - 1) {
-        s.products += ",";
-    }
-}
+var products = adobeDataLayer.getState("products") || [];
+s.products = products.map(function(product) {
+    // Add the category and name of each product, separated by commas
+    return product.category + ";" + product.name;
+}).join(",");
 ```
