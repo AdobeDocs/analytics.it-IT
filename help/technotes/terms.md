@@ -65,10 +65,10 @@ topic_v2:
     internal-label: Data collection
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 9a50beeb0aa51cf9f4baf212566947c14029ce8e
+source-git-commit: 7151dca7425bfb99271db71a3132485f85941a5e
 workflow-type: tm+mt
-source-wordcount: '2637'
-ht-degree: 86%
+source-wordcount: '2655'
+ht-degree: 85%
 ---
 # Termini utilizzati in Adobe Analytics
 
@@ -107,7 +107,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Server di raccolta dati:** server di proprietà di Adobe che ricevono ed elaborano dati. Le richieste di immagini vengono inviate ai server di raccolta dati di Adobe per l’utilizzo nei rapporti.
 * **Connettori dati:** una soluzione di sviluppo ritirata che consente a terzi di automatizzare il caricamento di dati in Adobe Analytics. I clienti di tali terze parti possono utilizzare un connettore dati per arricchire i propri dati in Adobe Analytics. Sostituzione con [Adobe Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?product=ANLYTC&partnerLevel=All&sort=RELEVANCE).
 * **Feed di dati:** un’esportazione di dati non elaborati che elenca ogni hit come riga e le variabili come colonne separate. Utilizzato più comunemente per esportare dati di Adobe Analytics in un database di terze parti. Consulta i [Feed di dati](/help/export/analytics-data-feed/data-feed-overview.md) nella Guida utente per l’esportazione.
-* **Livello dati:** Un [livello dati](/help/implement/prepare/data-layer.md) è un framework di oggetti JavaScript sul sito che contiene i valori delle variabili utilizzati nell&#39;implementazione di Analytics. Consente un controllo maggiore e una manutenzione più semplice quando si assegnano valori alle variabili di Analytics.
+* **Livello dati:** Un [livello dati](/help/implement/prepare/data-layer.md) è una struttura JavaScript sul tuo sito che espone i dati utilizzati nella tua implementazione di Analytics. Consente un controllo maggiore e una manutenzione più semplice quando si assegnano valori alle variabili di Analytics. Adobe consiglia [Adobe Client Data Layer](https://experienceleague.adobe.com/en/docs/experience-platform/collection/acdl/overview), che utilizza un array `adobeDataLayer` globale.
 * **Origini dati:** consentono a un utente di caricare dati da un file in Adobe Analytics. Il file viene in genere estratto da un sito FTP. Consulta le [Origini dati](/help/import/data-sources/overview.md) nella Guida utente per l’importazione.
 * **Data Warehouse:** funzione di Adobe Analytics che consente di richiedere rapporti di dimensioni maggiori. Consulta [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) nella Guida utente per l’esportazione.
 * **Data Workbench:** strumento di analisi [ritirato](https://experienceleague.adobe.com/it/docs/discontinued/using/data-workbench) progettato per raccogliere, elaborare, analizzare e visualizzare dati dalle interazioni dei clienti online e offline su più canali.
@@ -134,7 +134,7 @@ Usa questo glossario per comprendere il contesto di molti termini utilizzati da 
 * **Canale di marketing:** funzione di Adobe Analytics che categorizza gli hit in base al modo in cui sono arrivati al sito. La logica utilizzata per categorizzare gli hit può essere personalizzata utilizzando le regole di elaborazione del canale di marketing. Consulta [Introduzione ai canali di marketing](/help/components/c-marketing-channels/c-getting-started-mchannel.md) nella Guida utente sui componenti.
 * **Metrica:** tipo di componente che contiene dati quantitativi. I valori delle metriche in genere contengono numeri, come Visualizzazioni pagina, Visite ed Entrate. Una dimensione è in genere la sua controparte.
 * **App mobile:** nota anche come **Adobe Analytics[!UICONTROL dashboards]**, l&#39;app mobile consente agli utenti di accedere a scorecard intuitive. Le scorecard sono una raccolta di metriche chiave e di altri componenti presentati in un layout a sezioni che puoi toccare per visualizzare raggruppamenti più dettagliati e rapporti sulle tendenze. L’app mobile è supportata sia su sistemi operativi iOS che Android.
-* **Mobile Services:** prodotto Adobe ritirato che riunisce le funzionalità di mobile marketing per applicazioni mobili da Adobe CX Enterprise, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni.
+* **Mobile Services:** prodotto Adobe ritirato che riunisce le funzionalità di mobile marketing per applicazioni per dispositivi mobili da Adobe CX Enterprise, consentendoti di comprendere e migliorare il coinvolgimento degli utenti con le applicazioni.
 * **Assegnazione di tag a più suite:** pratica di inviare lo stesso hit a più suite di rapporti. Con l’introduzione delle suite di rapporti virtuali, questa pratica non è più in gran parte necessaria. La maggior parte delle attività di assegnazione di tag per più suite facilita la gestione di una suite di rapporti globale.
 * **Normalizzazione:** modo per organizzare una visualizzazione che prende tutte le metriche e le adatta a proporzioni uguali, consentendo un confronto più semplice delle tendenze.
 * **Occorrenze:** tipo di metrica che mostra per quanti hit è stato impostato o è persistente un elemento dimensione. Consulta la [occorrenze](/help/components/metrics/occurrences.md) nella guida utente dei componenti.
