@@ -59,7 +59,7 @@ Nei passaggi seguenti viene utilizzata l&#39;estensione [Adobe Client Data Layer
 1. In **[!UICONTROL Return value]**, seleziona **[!UICONTROL Specific path]**, quindi immetti il percorso del valore nel livello dati, ad esempio `page.name`. Per convalidare un percorso, esegui `adobeDataLayer.getState("page.name")` nella console del browser.
 1. Seleziona **[!UICONTROL Save]**.
 
-Utilizza questi elementi dati nelle regole che attivano l&#39;evento **[!UICONTROL Data layer push]** dell&#39;estensione, in modo che Data Layer abbia caricato e contenga i dati provenienti dal push. Vedi [Tipi di elementi dati](https://experienceleague.adobe.com/en/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
+Utilizza questi elementi dati nelle regole che attivano l&#39;evento **[!UICONTROL Data layer push]** dell&#39;estensione, in modo che Data Layer abbia caricato e contenga i dati provenienti dal push. Vedi [Tipi di elementi dati](https://experienceleague.adobe.com/it/docs/experience-platform/tags/extensions/client/client-data-layer/data-element-types#computed-state).
 
 ### Livelli di dati basati su oggetti {#object-based}
 
