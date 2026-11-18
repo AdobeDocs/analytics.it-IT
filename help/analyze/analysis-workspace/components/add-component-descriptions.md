@@ -29,7 +29,7 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: b3d9fb81837398b349496ec261dc1d0ba3df3645
+source-git-commit: 279113d8dc171e867e1ef4b7bac4784e0635b999
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 15%
@@ -74,8 +74,6 @@ Per informazioni generali sul dizionario dati, vedere [Panoramica del dizionario
 >
 
 ## Genera automaticamente descrizioni
-
-{{release-limited-testing-section}}
 
 Invece di scrivere manualmente ogni descrizione, Adobe Analytics può utilizzare l’intelligenza artificiale generativa per scriverne una. È possibile generare una descrizione per un singolo componente o per più componenti contemporaneamente.
 
