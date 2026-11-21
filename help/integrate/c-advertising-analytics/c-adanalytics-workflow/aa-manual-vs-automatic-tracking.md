@@ -27,13 +27,11 @@ topic_v2:
     internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ff16e07c7a2b75e9c6cc09e8255a7ea7e4c6f0c8
+source-git-commit: 1f0522de93ef1abc183887d4dfad0465059ee48f
 workflow-type: tm+mt
-source-wordcount: 577
+source-wordcount: '581'
 ht-degree: 0%
-
 ---
-
 # Tipo di tracciamento
 
 Il tipo di tracciamento determina il modo in cui l’implementazione di Adobe Analytics tiene traccia dei dati del motore di ricerca. Questo tipo di tracciamento è un passaggio necessario per integrare correttamente i dati di Adobe Analytics con i dati del motore di ricerca.
@@ -42,7 +40,7 @@ Il tipo di tracciamento determina il modo in cui l’implementazione di Adobe An
 
 Here is a video overview of how to implement the Advertising Analytics tracking template:
 
->[!VIDEO](https://experienceleague.adobe.com/it/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
+>[!VIDEO](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/integrations/ad-cloud/implementing-tracking-templates-into-search-engines)
 
 -->
 
@@ -61,7 +59,7 @@ Per configurare un account del motore di ricerca con tipo **[!UICONTROL Auto]**,
 
 >[!IMPORTANT]
 >
->Ulteriori informazioni sull&#39;aggiunta del parametro `s_kwcid` ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/it/docs/id-service/using/reference/csp).
+>Ulteriori informazioni sull&#39;aggiunta del parametro `s_kwcid` ai [Criteri sulla sicurezza dei contenuti](https://experienceleague.adobe.com/en/docs/id-service/using/reference/csp).
 
 ## Tracciamento manuale {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -82,7 +80,7 @@ s_kwcid=AL!
 <b><Advertising Analytics ID></b>!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
 ```
 
-![Google](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-account.png)
+![Codice di tracciamento campagna Google Ads](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/assets/google-tracking.png)
 
 Esempi di codici di tracciamento in vari formati di modelli di tracciamento:
 
@@ -122,7 +120,7 @@ La stringa da aggiungere al tuo account Microsoft Advertising è mostrata di seg
 
 >[!IMPORTANT]
 >
->Il valore _`<Advertising Analytics ID>`_(in **bold**&#x200B;di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa del tuo ID account specifico dalla schermata dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
+>Il valore _`<Advertising Analytics ID>`_(in **bold**di seguito) è generico e **deve essere sostituito con la stringa ID account specifica**. Puoi ottenere la stringa del tuo ID account specifico dalla schermata dell’account nella sezione &quot;Tracking&quot; (Tracciamento).
 
 **Stringa di tracciamento per le campagne:**
 
